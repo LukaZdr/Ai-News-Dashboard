@@ -1,8 +1,8 @@
 [
   {
     "id": "048b1b572f9c",
-    "title": "Understanding the latest trends in LLMs and AI Coding and Business (Issue #150)",
-    "date": "2026-07-09T09:06:44.024Z",
+    "title": "Understanding the latest trends in LLMs and AI Coding and Business (Issue #240)",
+    "date": "2026-07-09T15:01:17.366Z",
     "source": "Ben's Bites",
     "url": "https://example.com/mock/ben's-bites",
     "summary": "A rapid daily digest covering the newest AI model releases, products, browser extensions, and early-stage startup updates. This issue explores key methodologies, benchmarks, and community findings in the LLMs, AI Coding, Business ecosystem.",
@@ -17,8 +17,8 @@
   },
   {
     "id": "6145bf9087f7",
-    "title": "Understanding the latest trends in Business and LLMs and AI Coding (Issue #198)",
-    "date": "2026-07-09T09:06:43.907Z",
+    "title": "Understanding the latest trends in Business and LLMs and AI Coding (Issue #164)",
+    "date": "2026-07-09T15:01:17.366Z",
     "source": "The Rundown AI",
     "url": "https://example.com/mock/the-rundown-ai",
     "summary": "Daily briefing on the latest developments in artificial intelligence, focusing on commercial tools, LLM features, and productivity applications. This issue explores key methodologies, benchmarks, and community findings in the Business, LLMs, AI Coding ecosystem.",
@@ -32,9 +32,25 @@
     "readTime": "6 min read"
   },
   {
+    "id": "2fdf23086d32",
+    "title": "Understanding the latest trends in Research and LLMs and Open Source (Issue #153)",
+    "date": "2026-07-09T15:01:17.246Z",
+    "source": "TLDR AI",
+    "url": "https://example.com/mock/tldr-ai",
+    "summary": "A curated daily summary of the most interesting developments in AI, machine learning research, and developer ecosystems. This issue explores key methodologies, benchmarks, and community findings in the Research, LLMs, Open Source ecosystem.",
+    "content": "A curated daily summary of the most interesting developments in AI, machine learning research, and developer ecosystems. This issue explores key methodologies, benchmarks, and community findings in the Research, LLMs, Open Source ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
+    "tags": [
+      "Research",
+      "LLMs",
+      "Open Source"
+    ],
+    "quality": 4,
+    "readTime": "6 min read"
+  },
+  {
     "id": "edfefe604600",
-    "title": "Understanding the latest trends in Research and Business and LLMs (Issue #189)",
-    "date": "2026-07-09T09:06:43.416Z",
+    "title": "Understanding the latest trends in Research and Business and LLMs (Issue #228)",
+    "date": "2026-07-09T15:01:17.037Z",
     "source": "The Batch",
     "url": "https://example.com/mock/the-batch",
     "summary": "Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.",
@@ -48,19 +64,19 @@
     "readTime": "6 min read"
   },
   {
-    "id": "2fdf23086d32",
-    "title": "Understanding the latest trends in Research and LLMs and Open Source (Issue #244)",
-    "date": "2026-07-09T09:06:43.294Z",
-    "source": "TLDR AI",
-    "url": "https://example.com/mock/tldr-ai",
-    "summary": "A curated daily summary of the most interesting developments in AI, machine learning research, and developer ecosystems. This issue explores key methodologies, benchmarks, and community findings in the Research, LLMs, Open Source ecosystem.",
-    "content": "A curated daily summary of the most interesting developments in AI, machine learning research, and developer ecosystems. This issue explores key methodologies, benchmarks, and community findings in the Research, LLMs, Open Source ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
+    "id": "9a033797a8f8",
+    "title": "Understanding the latest trends in Research and Open Source and Business (Issue #191)",
+    "date": "2026-07-09T15:01:17.026Z",
+    "source": "Import AI",
+    "url": "https://example.com/mock/import-ai",
+    "summary": "Jack Clark's weekly analysis of machine learning progress, model safety policies, computational resource scaling, and national AI strategies. This issue explores key methodologies, benchmarks, and community findings in the Research, Open Source, Business ecosystem.",
+    "content": "Jack Clark's weekly analysis of machine learning progress, model safety policies, computational resource scaling, and national AI strategies. This issue explores key methodologies, benchmarks, and community findings in the Research, Open Source, Business ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
     "tags": [
       "Research",
-      "LLMs",
-      "Open Source"
+      "Open Source",
+      "Business"
     ],
-    "quality": 4,
+    "quality": 5,
     "readTime": "6 min read"
   },
   {

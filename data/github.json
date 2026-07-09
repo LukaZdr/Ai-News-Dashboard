@@ -5,7 +5,7 @@
     "fullName": "ollama/ollama",
     "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
     "url": "https://github.com/ollama/ollama",
-    "stars": 175774,
+    "stars": 175792,
     "language": "Go",
     "latestRelease": {
       "tag": "v0.31.2",
@@ -25,14 +25,14 @@
     "fullName": "huggingface/transformers",
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
     "url": "https://github.com/huggingface/transformers",
-    "stars": 162404,
+    "stars": 162417,
     "language": "Python",
     "latestRelease": {
       "tag": "v5.13.0",
       "date": "2026-07-03T16:06:27Z",
       "notes": "# Release v5.13.0\r\n\r\n\r\n## New Model additions\r\n\r\n### KimiK 2.5, 2.6, and 2.7\r\n\r\n<img width=\"1097\" height=\"400\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c24d2232-a9b4-413b-a2c8-58d013b6dfbd\" />\r\n\r\nThis release includes the architecture for Kimi 2.5 which is used by 2.5-2.7:\r\n\r\nKimi K2.5 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchest"
     },
-    "recentActivity": "2026-07-09T09:03:19Z",
+    "recentActivity": "2026-07-09T14:58:18Z",
     "tags": [
       "LLMs",
       "Research",
@@ -45,14 +45,14 @@
     "fullName": "langgenius/dify",
     "description": "Production-ready platform for agentic workflow development.",
     "url": "https://github.com/langgenius/dify",
-    "stars": 148270,
+    "stars": 148301,
     "language": "TypeScript",
     "latestRelease": {
       "tag": "1.15.0",
       "date": "2026-06-25T13:16:14Z",
       "notes": "# Dify 1.15.0 Release Note\r\n\r\n## What's Changed\r\n\r\n### UX & UI Enhancements\r\n\r\n<img width=\"1920\" height=\"1044\" alt=\"录屏2026-06-25 21 12 33\" src=\"https://github.com/user-attachments/assets/c3ac7394-2ccf-4a66-873a-b7224a16897a\" />\r\n\r\n\r\n- **Redesigned landing / onboarding** for an easier first-run experience (#37433, #37844, #37800)\r\n- **Faster navigation** — improved \"go to anything\" palette and autofocused search inputs (#32130, #37175)\r\n- **Safer deletes** — one-click confirmation before removing"
     },
-    "recentActivity": "2026-07-09T09:06:33Z",
+    "recentActivity": "2026-07-09T14:37:27Z",
     "tags": [
       "Agents",
       "LLMs",
@@ -65,7 +65,7 @@
     "fullName": "open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "url": "https://github.com/open-webui/open-webui",
-    "stars": 144808,
+    "stars": 144830,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.10.2",
@@ -84,14 +84,14 @@
     "fullName": "Comfy-Org/ComfyUI",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
     "url": "https://github.com/Comfy-Org/ComfyUI",
-    "stars": 120017,
+    "stars": 120057,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.27.0",
       "date": "2026-06-30T22:19:48Z",
       "notes": "The major change in this version is added support for int8 convrot models.\r\n\r\n## What's Changed\r\n* chore(openapi): sync shared API contract from cloud@363764b by @comfy-pr-bot in https://github.com/Comfy-Org/ComfyUI/pull/14607\r\n* [Partner Nodes] feat(Alibaba): add support for HappyHorse 1.1 model by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/14611\r\n* Downgrade the template to 0.10.2 to bring the HH1.1 templates back by @comfyui-wiki in https://github.com/Comfy-Org/ComfyUI/pull/14613\r"
     },
-    "recentActivity": "2026-07-09T08:52:13Z",
+    "recentActivity": "2026-07-09T14:58:13Z",
     "tags": [
       "Computer Vision",
       "Video Models",
@@ -104,14 +104,14 @@
     "fullName": "ggml-org/llama.cpp",
     "description": "LLM inference in C/C++",
     "url": "https://github.com/ggml-org/llama.cpp",
-    "stars": 119758,
+    "stars": 119779,
     "language": "C++",
     "latestRelease": {
-      "tag": "b9937",
-      "date": "2026-07-09T08:30:17Z",
-      "notes": "<details open>\n\ncuda: align snake fusion matcher with the other backends (#25460)\n\n* cuda: fix snake fusion type predicate, a and inv_b are F32\n\nThe matcher required a->type == x->type while launch_snake reads both\nas const float *, matching the CPU and Metal contract where a and inv_b\nstay F32. F16/BF16 chains never fused and fell back to the naive path,\nand a hypothetical all F16 chain would have read F16 bits as float.\nAligns the predicate and the comment with ggml-cpu.c\n\n* cuda: reject snake"
+      "tag": "b9940",
+      "date": "2026-07-09T11:38:20Z",
+      "notes": "<details open>\n\nllama-bench : init params.offline (#25476)\n\nSigned-off-by: Adrien Gallouët <angt@huggingface.co>\n\n</details>\n\n**macOS/iOS:**\n- [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9940/llama-b9940-bin-macos-arm64.tar.gz)\n- macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780)\n- [macOS Intel (x64)](https://github.com/ggml-org/llama.cpp/releases/download/b9940/llama-b9940-bin-macos-x64.tar.gz)\n- "
     },
-    "recentActivity": "2026-07-09T08:30:17Z",
+    "recentActivity": "2026-07-09T14:57:46Z",
     "tags": [
       "LLMs",
       "Open Source",
@@ -124,14 +124,14 @@
     "fullName": "vllm-project/vllm",
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
     "url": "https://github.com/vllm-project/vllm",
-    "stars": 85776,
+    "stars": 85801,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.24.0",
       "date": "2026-06-29T19:41:59Z",
       "notes": "# vLLM v0.24.0 Release Notes\r\n\r\n## Highlights\r\n\r\nThis release features 571 commits from 256 contributors (77 new)!\r\n\r\n* **MiniMax-M3**: Added support for the new **MiniMax-M3** model (#45381), with a fast follow-on of BF16/FP8 indexer via MSA (#45892), MXFP4 support (#45896), FP8 sparse GQA (#45744), and extensive AMD/ROCm tuning — mxfp8 MoE/linear on gfx950 (#45725), fp8_per_channel for bf16 weights on MI300X (#45854), FP8 KV-cache fix (#45720), and packed-modules mapping (#45794). A MiniMax-M2"
     },
-    "recentActivity": "2026-07-09T08:19:32Z",
+    "recentActivity": "2026-07-09T14:32:57Z",
     "tags": [
       "Inference",
       "LLMs",
@@ -144,14 +144,14 @@
     "fullName": "OpenHands/OpenHands",
     "description": "🙌 OpenHands: AI-Driven Development",
     "url": "https://github.com/OpenHands/OpenHands",
-    "stars": 80125,
+    "stars": 80173,
     "language": "Python",
     "latestRelease": {
-      "tag": "cloud-1.43.0",
-      "date": "2026-07-08T20:04:42Z",
-      "notes": "## 1.43.0 (2026-07-08)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Features\n* feat: rename admin dashboard to usage & monitoring by @saurya in https://github.com/OpenHands/OpenHands/pull/15146\n* feat: add SMTP email service by @saurya in https://github.com/OpenHands/OpenHands/pull/15144\n* feat: track user login timestamps by @saurya in https://github.com/OpenHands/OpenHands/pull/15148\n* feat: surface email enabled for smtp/resend by"
+      "tag": "cloud-1.44.0",
+      "date": "2026-07-09T14:16:09Z",
+      "notes": "## 1.44.0 (2026-07-09)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Features\n* feat: pass repository metadata to observability traces by @neubig in https://github.com/OpenHands/OpenHands/pull/14431\n### Maintenance\n* chore: bump SDK packages to v1.34.0 by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/15200\n\n\n**Full Changelog**: https://github.com/OpenHands/OpenHands/compare/cloud-1.43.0...cloud-1.44.0\n\n---\nThis PR was "
     },
-    "recentActivity": "2026-07-09T02:33:54Z",
+    "recentActivity": "2026-07-09T14:53:00Z",
     "tags": [
       "Agents",
       "AI Coding",
@@ -164,14 +164,14 @@
     "fullName": "BerriAI/litellm",
     "description": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
     "url": "https://github.com/BerriAI/litellm",
-    "stars": 53062,
+    "stars": 53093,
     "language": "Python",
     "latestRelease": {
       "tag": "v1.91.1",
       "date": "2026-07-08T23:23:39Z",
       "notes": "## Verify Docker Image Signature\n\nAll LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). Every release is signed with the same key introduced in [commit `0112e53`](https://github.com/BerriAI/litellm/commit/0112e53046018d726492c814b3644b7d376029d0).\n\n**Verify using the pinned commit hash (recommended):**\n\nA commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key:\n\n```bash\ncosign verify \\\n  -"
     },
-    "recentActivity": "2026-07-09T09:03:39Z",
+    "recentActivity": "2026-07-09T14:44:49Z",
     "tags": [
       "LLMs",
       "Inference",
@@ -184,7 +184,7 @@
     "fullName": "langchain-ai/langgraph",
     "description": "Build resilient agents.",
     "url": "https://github.com/langchain-ai/langgraph",
-    "stars": 36869,
+    "stars": 36894,
     "language": "Python",
     "latestRelease": {
       "tag": "1.2.8",
@@ -204,14 +204,14 @@
     "fullName": "continuedev/continue",
     "description": "open-source coding agent",
     "url": "https://github.com/continuedev/continue",
-    "stars": 34756,
+    "stars": 34764,
     "language": "TypeScript",
     "latestRelease": {
       "tag": "v2.0.0-vscode",
       "date": "2026-06-19T00:24:01Z",
       "notes": ""
     },
-    "recentActivity": "2026-07-09T08:50:30Z",
+    "recentActivity": "2026-07-09T13:19:41Z",
     "tags": [
       "AI Coding",
       "Open Source"

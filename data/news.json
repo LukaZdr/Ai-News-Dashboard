@@ -1,5 +1,19 @@
 [
   {
+    "id": "ca03bfb31492",
+    "title": "GeForce NOW Turns Up the Heat With New GeForce RTX 5080-Powered Toronto Server",
+    "date": "Thu, 09 Jul 2026 13:00:55 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-toronto-expansion/",
+    "summary": "This GFN Thursday brings more games, more power and more ways to play on GeForce NOW.  The cloud gaming service is expanding with a new GeForce RTX 5080-powered server in Toronto, bringing dedicated high performance in the cloud closer to members across the region. NTE: Neverness to Everness also ge",
+    "type": "blog",
+    "tags": [
+      "Open Source"
+    ],
+    "importance": 5
+  },
+  {
     "id": "44710b814dd1",
     "title": "Flint: A visualization language for the AI era",
     "date": "Wed, 08 Jul 2026 16:00:00 +0000",
@@ -83,22 +97,6 @@
     "type": "release",
     "tags": [
       "LLMs"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "40037eb98642",
-    "title": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
-    "date": "Tue, 07 Jul 2026 15:00:52 +0000",
-    "source": "NVIDIA Research",
-    "company": "nvidia",
-    "url": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
-    "summary": "Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era.  Across the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the processor which executes the work the AI model commands: the to",
-    "type": "blog",
-    "tags": [
-      "Agents",
-      "Reasoning",
-      "Open Source"
     ],
     "importance": 5
   }
