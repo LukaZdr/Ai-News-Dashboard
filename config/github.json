@@ -1,0 +1,16 @@
+{
+  "repositories": [
+    { "owner": "vllm-project", "repo": "vllm", "tags": ["Inference", "LLMs", "Open Source"] },
+    { "owner": "ollama", "repo": "ollama", "tags": ["LLMs", "Open Source", "Inference"] },
+    { "owner": "ggml-org", "repo": "llama.cpp", "tags": ["LLMs", "Open Source", "Inference"] },
+    { "owner": "All-Hands-AI", "repo": "OpenHands", "tags": ["Agents", "AI Coding", "Open Source"] },
+    { "owner": "langchain-ai", "repo": "langgraph", "tags": ["Agents", "LLMs", "Open Source"] },
+    { "owner": "continuedev", "repo": "continue", "tags": ["AI Coding", "Open Source"] },
+    { "owner": "comfyanonymous", "repo": "ComfyUI", "tags": ["Computer Vision", "Video Models", "Open Source"] },
+    { "owner": "open-webui", "repo": "open-webui", "tags": ["LLMs", "Open Source"] },
+    { "owner": "BerriAI", "repo": "litellm", "tags": ["LLMs", "Inference", "Open Source"] },
+    { "owner": "langgenius", "repo": "dify", "tags": ["Agents", "LLMs", "Open Source"] },
+    { "owner": "huggingface", "repo": "transformers", "tags": ["LLMs", "Research", "Open Source"] },
+    { "owner": "meta-llama", "repo": "llama-models", "tags": ["LLMs", "Research", "Open Source"] }
+  ]
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "id": "048b1b572f9c",
+    "title": "Understanding the latest trends in LLMs and AI Coding and Business (Issue #150)",
+    "date": "2026-07-09T09:06:44.024Z",
+    "source": "Ben's Bites",
+    "url": "https://example.com/mock/ben's-bites",
+    "summary": "A rapid daily digest covering the newest AI model releases, products, browser extensions, and early-stage startup updates. This issue explores key methodologies, benchmarks, and community findings in the LLMs, AI Coding, Business ecosystem.",
+    "content": "A rapid daily digest covering the newest AI model releases, products, browser extensions, and early-stage startup updates. This issue explores key methodologies, benchmarks, and community findings in the LLMs, AI Coding, Business ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
+    "tags": [
+      "LLMs",
+      "AI Coding",
+      "Business"
+    ],
+    "quality": 4,
+    "readTime": "6 min read"
+  },
+  {
+    "id": "6145bf9087f7",
+    "title": "Understanding the latest trends in Business and LLMs and AI Coding (Issue #198)",
+    "date": "2026-07-09T09:06:43.907Z",
+    "source": "The Rundown AI",
+    "url": "https://example.com/mock/the-rundown-ai",
+    "summary": "Daily briefing on the latest developments in artificial intelligence, focusing on commercial tools, LLM features, and productivity applications. This issue explores key methodologies, benchmarks, and community findings in the Business, LLMs, AI Coding ecosystem.",
+    "content": "Daily briefing on the latest developments in artificial intelligence, focusing on commercial tools, LLM features, and productivity applications. This issue explores key methodologies, benchmarks, and community findings in the Business, LLMs, AI Coding ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
+    "tags": [
+      "Business",
+      "LLMs",
+      "AI Coding"
+    ],
+    "quality": 4,
+    "readTime": "6 min read"
+  },
+  {
+    "id": "edfefe604600",
+    "title": "Understanding the latest trends in Research and Business and LLMs (Issue #189)",
+    "date": "2026-07-09T09:06:43.416Z",
+    "source": "The Batch",
+    "url": "https://example.com/mock/the-batch",
+    "summary": "Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.",
+    "content": "Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
+    "tags": [
+      "Research",
+      "Business",
+      "LLMs"
+    ],
+    "quality": 5,
+    "readTime": "6 min read"
+  },
+  {
+    "id": "2fdf23086d32",
+    "title": "Understanding the latest trends in Research and LLMs and Open Source (Issue #244)",
+    "date": "2026-07-09T09:06:43.294Z",
+    "source": "TLDR AI",
+    "url": "https://example.com/mock/tldr-ai",
+    "summary": "A curated daily summary of the most interesting developments in AI, machine learning research, and developer ecosystems. This issue explores key methodologies, benchmarks, and community findings in the Research, LLMs, Open Source ecosystem.",
+    "content": "A curated daily summary of the most interesting developments in AI, machine learning research, and developer ecosystems. This issue explores key methodologies, benchmarks, and community findings in the Research, LLMs, Open Source ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
+    "tags": [
+      "Research",
+      "LLMs",
+      "Open Source"
+    ],
+    "quality": 4,
+    "readTime": "6 min read"
+  },
+  {
+    "id": "03654859acc1",
+    "title": "[AINews] SpaceXAI launches Grok 4.5, first Opus-class model post Cursor acquisition",
+    "date": "Thu, 09 Jul 2026 06:05:41 GMT",
+    "source": "Latent Space",
+    "url": "https://www.latent.space/p/ainews-spacexai-launches-grok-45",
+    "summary": "SpaceXAI continues to move faster than any other frontier lab on earth.",
+    "content": "SpaceXAI continues to move faster than any other frontier lab on earth.",
+    "tags": [
+      "AI Coding",
+      "Business"
+    ],
+    "quality": 5,
+    "readTime": "5 min read"
+  },
+  {
+    "id": "dd7ea0e10556",
+    "title": "Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO",
+    "date": "Wed, 08 Jul 2026 22:55:07 GMT",
+    "source": "Latent Space",
+    "url": "https://www.latent.space/p/modal2026",
+    "summary": "2 years after our first coverage, we return with Modal's other cofounder to explore why Agent Experience is working now, and everything they have learned building the new agent cloud.",
+    "content": "2 years after our first coverage, we return with Modal's other cofounder to explore why Agent Experience is working now, and everything they have learned building the new agent cloud.",
+    "tags": [
+      "Agents",
+      "Memory",
+      "RAG"
+    ],
+    "quality": 5,
+    "readTime": "5 min read"
+  },
+  {
+    "id": "b998998641c0",
+    "title": "Data for Agents",
+    "date": "Wed, 08 Jul 2026 17:16:05 GMT",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+    "summary": "Announcements of new open-source models, dataset cards, PyTorch training pipelines, web demos, and collaborative open-science initiatives.",
+    "content": "",
+    "tags": [
+      "Agents"
+    ],
+    "quality": 5,
+    "readTime": "5 min read"
+  },
+  {
+    "id": "5f4a3d0dd982",
+    "title": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
+    "date": "Wed, 08 Jul 2026 02:20:25 GMT",
+    "source": "Latent Space",
+    "url": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
+    "summary": "a quiet day lets us read some condensed insight",
+    "content": "a quiet day lets us read some condensed insight",
+    "tags": [
+      "Research"
+    ],
+    "quality": 5,
+    "readTime": "5 min read"
+  },
+  {
+    "id": "9105d2ed1f7c",
+    "title": "Native-speed vLLM transformers modeling backend",
+    "date": "Wed, 08 Jul 2026 00:00:00 GMT",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+    "summary": "Announcements of new open-source models, dataset cards, PyTorch training pipelines, web demos, and collaborative open-science initiatives.",
+    "content": "",
+    "tags": [
+      "LLMs",
+      "Inference"
+    ],
+    "quality": 5,
+    "readTime": "5 min read"
+  },
+  {
+    "id": "0f2a45d04617",
+    "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+    "date": "Tue, 07 Jul 2026 21:15:33 GMT",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+    "summary": "Announcements of new open-source models, dataset cards, PyTorch training pipelines, web demos, and collaborative open-science initiatives.",
+    "content": "",
+    "tags": [],
+    "quality": 5,
+    "readTime": "5 min read"
+  },
+  {
+    "id": "34d88c96d9c2",
+    "title": "sqlite-utils 4.0, now with database schema migrations",
+    "date": "2026-07-07T19:32:57.000Z",
+    "source": "Simon Willison's Weblog",
+    "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-entries",
+    "summary": "Hands-on engineering findings, prompt injection vectors, open-weights model fine-tuning, and practical applications of LLMs in software engineering.",
+    "content": "",
+    "tags": [],
+    "quality": 5,
+    "readTime": "5 min read"
+  },
+  {
+    "id": "a81093efe49e",
+    "title": "Hugging Face Models on Foundry Managed Compute",
+    "date": "Tue, 07 Jul 2026 15:20:06 GMT",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+    "summary": "Announcements of new open-source models, dataset cards, PyTorch training pipelines, web demos, and collaborative open-science initiatives.",
+    "content": "",
+    "tags": [],
+    "quality": 5,
+    "readTime": "5 min read"
+  }
+]

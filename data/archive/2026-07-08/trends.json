@@ -1,0 +1,180 @@
+{
+  "date": "2026-07-08",
+  "topics": [
+    {
+      "topic": "Agents",
+      "frequency": 16,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "2783086f7c5b",
+        "213bfecef73d",
+        "4354e845d0bd",
+        "73ac9d53caa0",
+        "16368eb7b7f2",
+        "ef386b3e88f9",
+        "9a07180a6493",
+        "7bb6aa8fb82b"
+      ],
+      "relatedVideoIds": [
+        "da4be4ee6d8c"
+      ],
+      "relatedNewsIds": [
+        "44710b814dd1",
+        "fdad8c8bf7eb",
+        "40037eb98642"
+      ],
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "b998998641c0"
+      ]
+    },
+    {
+      "topic": "Inference",
+      "frequency": 23,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "dede6621d46a",
+        "a6f419975d72",
+        "11a3e895084a",
+        "76af23253df5",
+        "5ad7eb738299",
+        "6c25ae5a2f46",
+        "4e7146b55d48",
+        "16368eb7b7f2",
+        "ef386b3e88f9",
+        "c7cad8fcf343",
+        "e4d8b1d88242",
+        "bcc0c99bedef",
+        "9a07180a6493",
+        "2a642d3fb1d2",
+        "ba8eab9d4f1a",
+        "810f0284aefb",
+        "7371ac4ce7ee"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "b6a0b13bc12c",
+        "7166ecafb485",
+        "14df74d3bb6b",
+        "deae4303c432",
+        "68b1fb9303ec"
+      ],
+      "relatedNewsletterIds": [
+        "9105d2ed1f7c"
+      ]
+    },
+    {
+      "topic": "open-source",
+      "frequency": 8,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [
+        "44710b814dd1"
+      ],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": [
+        "b998998641c0",
+        "9105d2ed1f7c",
+        "0f2a45d04617",
+        "a81093efe49e",
+        "6cdeff3bc98c",
+        "851fb3c005c0"
+      ]
+    },
+    {
+      "topic": "llama",
+      "frequency": 2,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "14df74d3bb6b",
+        "052e3a92e72b"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Fable",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "0e5e4bd49b9f"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "93fcdd6ca0ba"
+      ]
+    },
+    {
+      "topic": "Claude",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "da4be4ee6d8c"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "definitely",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "da4be4ee6d8c"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "conscious",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "da4be4ee6d8c"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Conscious Agents",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "da4be4ee6d8c"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "re",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "0e5e4bd49b9f"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    }
+  ]
+}

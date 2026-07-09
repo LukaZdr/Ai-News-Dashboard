@@ -1,0 +1,10 @@
+{
+  "arxiv": {
+    "categories": ["cs.AI", "cs.LG", "cs.CL", "cs.CV"],
+    "maxResults": 50
+  },
+  "huggingface": {
+    "enabled": true,
+    "maxPapers": 30
+  }
+}

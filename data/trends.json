@@ -1,0 +1,205 @@
+{
+  "date": "2026-07-09",
+  "topics": [
+    {
+      "topic": "Agents",
+      "frequency": 16,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "ce36d073d097",
+        "90081ed6477b",
+        "b6c1839ec9f3",
+        "4816003f4a13",
+        "a1f231334967",
+        "eb36c4a33435",
+        "5c71201a56b2"
+      ],
+      "relatedVideoIds": [
+        "da4be4ee6d8c"
+      ],
+      "relatedNewsIds": [
+        "44710b814dd1",
+        "fdad8c8bf7eb",
+        "40037eb98642"
+      ],
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "dd7ea0e10556",
+        "b998998641c0"
+      ]
+    },
+    {
+      "topic": "Inference",
+      "frequency": 21,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "ab474ebdac77",
+        "3df7d60af14d",
+        "ead09ccbbe29",
+        "f42602bafff1",
+        "a5e25ddc87f6",
+        "3b3f02542ba2",
+        "a15080462e13",
+        "85290ad88433",
+        "ac1a74cd1970",
+        "fead947c045f",
+        "0ebb69ee2c98",
+        "e6e1678ecc76",
+        "06806b5a402e",
+        "58958bae7be5",
+        "c6a32aeb6859"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "b6a0b13bc12c",
+        "7166ecafb485",
+        "14df74d3bb6b",
+        "deae4303c432",
+        "68b1fb9303ec"
+      ],
+      "relatedNewsletterIds": [
+        "9105d2ed1f7c"
+      ]
+    },
+    {
+      "topic": "open-source",
+      "frequency": 6,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [
+        "44710b814dd1"
+      ],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": [
+        "b998998641c0",
+        "9105d2ed1f7c",
+        "0f2a45d04617",
+        "a81093efe49e"
+      ]
+    },
+    {
+      "topic": "llama",
+      "frequency": 2,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "14df74d3bb6b",
+        "052e3a92e72b"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Agent",
+      "frequency": 6,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "90081ed6477b",
+        "b6c1839ec9f3",
+        "5c71201a56b2"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [
+        "fdad8c8bf7eb"
+      ],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": [
+        "dd7ea0e10556"
+      ]
+    },
+    {
+      "topic": "Business",
+      "frequency": 20,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "ab474ebdac77",
+        "3df7d60af14d",
+        "666d77639da7",
+        "a15080462e13",
+        "44172edfa3d2",
+        "f1565162b727",
+        "b6c1839ec9f3",
+        "a9ba73c3d52e",
+        "dc647625d884",
+        "263efe6409e5",
+        "a6673b2be47b",
+        "e194c2b449a4",
+        "4816003f4a13",
+        "5c71201a56b2"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [
+        "1bcfe9699204",
+        "807d92958aae"
+      ],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "edfefe604600",
+        "03654859acc1",
+        "048b1b572f9c",
+        "6145bf9087f7"
+      ]
+    },
+    {
+      "topic": "continue",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "0619ea233e06"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "continue open-source",
+      "frequency": 1,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Claude",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "da4be4ee6d8c"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "definitely",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "da4be4ee6d8c"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    }
+  ]
+}

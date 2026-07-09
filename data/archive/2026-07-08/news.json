@@ -1,0 +1,151 @@
+[
+  {
+    "id": "44710b814dd1",
+    "title": "Flint: A visualization language for the AI era",
+    "date": "Wed, 08 Jul 2026 16:00:00 +0000",
+    "source": "Microsoft Research",
+    "company": "microsoft",
+    "url": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/",
+    "summary": "Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specifications.\nThe post Flint: A visualization language for the AI e",
+    "type": "blog",
+    "tags": [
+      "Agents",
+      "Computer Vision",
+      "Open Source"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "fdad8c8bf7eb",
+    "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+    "date": "Wed, 08 Jul 2026 15:00:27 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+    "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform.  LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while complet",
+    "type": "pricing",
+    "tags": [
+      "Agents",
+      "Research"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "1bcfe9699204",
+    "title": "Our approach to government and national security partnerships",
+    "date": "Wed, 08 Jul 2026 13:30:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/government-national-security-partnerships",
+    "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+    "type": "blog",
+    "tags": [
+      "Business"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "807d92958aae",
+    "title": "Separating signal from noise in coding evaluations",
+    "date": "Wed, 08 Jul 2026 13:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+    "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+    "type": "blog",
+    "tags": [
+      "AI Coding",
+      "Research",
+      "Business"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "17a90a988d65",
+    "title": "Helping K–12 educators build practical AI skills",
+    "date": "Wed, 08 Jul 2026 10:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/k-12-educators-practical-skills",
+    "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+    "type": "blog",
+    "tags": [],
+    "importance": 5
+  },
+  {
+    "id": "ba1d94ecfd54",
+    "title": "Introducing GPT-Live",
+    "date": "Wed, 08 Jul 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/introducing-gpt-live",
+    "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+    "type": "release",
+    "tags": [
+      "LLMs"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "40037eb98642",
+    "title": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
+    "date": "Tue, 07 Jul 2026 15:00:52 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
+    "summary": "Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era.  Across the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the processor which executes the work the AI model commands: the to",
+    "type": "blog",
+    "tags": [
+      "Agents",
+      "Reasoning",
+      "Open Source"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "66f1edd13c82",
+    "title": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
+    "date": "Tue, 07 Jul 2026 06:00:26 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
+    "summary": "Open source AI has shown how quickly developers can innovate when models, data and tools are shared. Robotics has the same opportunity, but advancements in physical AI development can still be gated by costly and fragmented resources, from large datasets and robot foundation models to simulation, co",
+    "type": "pricing",
+    "tags": [
+      "Robotics",
+      "Open Source",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "d33a7098a954",
+    "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+    "date": "Tue, 07 Jul 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/australian-payments-plus",
+    "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+    "type": "blog",
+    "tags": [
+      "LLMs"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "316b579738f4",
+    "title": "MUFG aims to become AI-native with OpenAI",
+    "date": "Tue, 07 Jul 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/mufg",
+    "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+    "type": "blog",
+    "tags": [
+      "LLMs"
+    ],
+    "importance": 5
+  }
+]

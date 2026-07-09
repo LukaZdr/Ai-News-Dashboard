@@ -1,0 +1,74 @@
+{
+  "companies": [
+    {
+      "name": "OpenAI",
+      "slug": "openai",
+      "blogRssUrl": "https://openai.com/blog/rss.xml",
+      "researchUrl": "https://openai.com/research",
+      "color": "#10A37F"
+    },
+    {
+      "name": "Anthropic",
+      "slug": "anthropic",
+      "blogRssUrl": "https://www.anthropic.com/rss.xml",
+      "researchUrl": "https://www.anthropic.com/research",
+      "color": "#D4A574"
+    },
+    {
+      "name": "Google DeepMind",
+      "slug": "deepmind",
+      "blogRssUrl": "https://deepmind.google/blog/rss.xml",
+      "researchUrl": "https://deepmind.google/research/",
+      "color": "#4285F4"
+    },
+    {
+      "name": "Meta AI",
+      "slug": "meta",
+      "blogRssUrl": "https://ai.meta.com/blog/rss/",
+      "researchUrl": "https://ai.meta.com/research/",
+      "color": "#0668E1"
+    },
+    {
+      "name": "Microsoft Research",
+      "slug": "microsoft",
+      "blogRssUrl": "https://www.microsoft.com/en-us/research/feed/",
+      "researchUrl": "https://www.microsoft.com/en-us/research/",
+      "color": "#00A4EF"
+    },
+    {
+      "name": "xAI",
+      "slug": "xai",
+      "blogRssUrl": null,
+      "researchUrl": "https://x.ai/",
+      "color": "#1DA1F2"
+    },
+    {
+      "name": "DeepSeek",
+      "slug": "deepseek",
+      "blogRssUrl": null,
+      "researchUrl": "https://www.deepseek.com/",
+      "color": "#536DFE"
+    },
+    {
+      "name": "Mistral",
+      "slug": "mistral",
+      "blogRssUrl": null,
+      "researchUrl": "https://mistral.ai/news/",
+      "color": "#FF7000"
+    },
+    {
+      "name": "Perplexity",
+      "slug": "perplexity",
+      "blogRssUrl": null,
+      "researchUrl": "https://www.perplexity.ai/",
+      "color": "#20808D"
+    },
+    {
+      "name": "NVIDIA Research",
+      "slug": "nvidia",
+      "blogRssUrl": "https://blogs.nvidia.com/feed/",
+      "researchUrl": "https://www.nvidia.com/en-us/research/",
+      "color": "#76B900"
+    }
+  ]
+}

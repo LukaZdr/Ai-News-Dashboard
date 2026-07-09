@@ -1,0 +1,19 @@
+{
+  "channels": [
+    { "name": "Two Minute Papers", "channelId": "UCbfYPyITQ-7l4upoX8nvctg", "weight": 9 },
+    { "name": "Yannic Kilcher", "channelId": "UCZHmQk67mSJgfCCTn7xBfew", "weight": 9 },
+    { "name": "AI Explained", "channelId": "UCNJ1Ymd5yFuUPtn21xtRbbw", "weight": 8 },
+    { "name": "Matt Wolfe", "channelId": "UCJMEbLkBFnSoI4V07X0IAXA", "weight": 7 },
+    { "name": "The AI Advantage", "channelId": "UCjq4HeEl0X4RsmxRdGi_ZIQ", "weight": 7 },
+    { "name": "Fireship", "channelId": "UCsBjURrPoezykLs9EqgamOA", "weight": 8 },
+    { "name": "3Blue1Brown", "channelId": "UCYO_jab_esuFRV4b17AJtAw", "weight": 10 },
+    { "name": "Andrej Karpathy", "channelId": "UCXUPKJO5MZQN11PqgIvyuvQ", "weight": 10 },
+    { "name": "Machine Learning Street Talk", "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ", "weight": 8 },
+    { "name": "Wes Roth", "channelId": "UC9-y-6csu5WGm29I7JiwpnA", "weight": 7 },
+    { "name": "Matthew Berman", "channelId": "UCr2dWKSFP4VuVKSHNWhPDKg", "weight": 7 },
+    { "name": "Dave's Garage", "channelId": "UCNzszbnvQeFzObW0ghk0Ckw", "weight": 6 },
+    { "name": "Prompt Engineering", "channelId": "UCDq7SjbgRKty5TgGafW8Clg", "weight": 6 }
+  ],
+  "maxResultsPerChannel": 5,
+  "publishedAfterHours": 48
+}

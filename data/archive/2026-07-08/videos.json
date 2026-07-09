@@ -1,0 +1,53 @@
+[
+  {
+    "id": "da4be4ee6d8c",
+    "title": "Claude is definitely not conscious…",
+    "channel": "Fireship",
+    "channelId": "UCsBjURrPoezykLs9EqgamOA",
+    "date": "2026-07-08T17:53:47Z",
+    "duration": "4:37",
+    "thumbnail": "https://i.ytimg.com/vi/KGtko3y2RXQ/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=KGtko3y2RXQ",
+    "description": "Try out Traycer's free open source desktop app that lets all your coding agents work together in one workspace ...",
+    "viewCount": 84490,
+    "tags": [
+      "Agents",
+      "LLMs",
+      "AI Coding",
+      "Open Source"
+    ],
+    "relevanceScore": 8.9
+  },
+  {
+    "id": "a2a8bcf15302",
+    "title": "DeepSeek&#39;s New AI Speed Hack Is Amazing",
+    "channel": "Two Minute Papers",
+    "channelId": "UCbfYPyITQ-7l4upoX8nvctg",
+    "date": "2026-07-07T16:33:29Z",
+    "duration": "5:45",
+    "thumbnail": "https://i.ytimg.com/vi/1yBU41auQhw/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=1yBU41auQhw",
+    "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers The DeepSeek paper is available here: ...",
+    "viewCount": 45730,
+    "tags": [
+      "Research"
+    ],
+    "relevanceScore": 7.3
+  },
+  {
+    "id": "0e5e4bd49b9f",
+    "title": "You’re Using Fable 5 Wrong (Do This Instead)",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-07-08T12:45:33Z",
+    "duration": "10:12",
+    "thumbnail": "https://i.ytimg.com/vi/OA8vEleJkq4/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=OA8vEleJkq4",
+    "description": "Fable 5 is a planning model, not a coding model, and treating it like both is how you burn an entire Max subscription in one ...",
+    "viewCount": 1355,
+    "tags": [
+      "AI Coding"
+    ],
+    "relevanceScore": 6.7
+  }
+]
