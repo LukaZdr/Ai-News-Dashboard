@@ -27,3 +27,8 @@ You are using Node.js 20.17.0. Vite requires Node.js version 20.19+ or 22.12+. P
 4:53:37 PM [vite] (client) Re-optimizing dependencies because lockfile has changed
 4:53:38 PM [vite] server restarted.
 4:53:39 PM [vite] (client) [optimizer] bundling dependencies...
+5:06:30 PM [vite] vite.config.ts changed, restarting server...
+5:06:32 PM [vite] server restarted.
+
+  ➜  Local:   http://localhost:5173/Ai-News-Dashboard/
+  ➜  Network: use --host to expose

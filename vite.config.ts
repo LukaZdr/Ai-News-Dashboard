@@ -12,7 +12,7 @@ export default defineConfig({
     react(),
     !isTest && tailwindcss(),
   ].filter(Boolean) as any,
-  base: "/ai-news-dashboard/",
+  base: "/Ai-News-Dashboard/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
