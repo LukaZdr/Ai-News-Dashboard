@@ -1037,30 +1037,6 @@
     "novelty": 6
   },
   {
-    "id": "c46a8a9cf1d6",
-    "title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
-    "authors": [
-      "Zhenyu Hou",
-      "Yujiang Li",
-      "Jie Tang",
-      "Yuxiao Dong"
-    ],
-    "date": "2026-07-07T20:00:00.000Z",
-    "source": "huggingface",
-    "url": "https://huggingface.co/papers/2607.07508",
-    "abstract": "Reinforcement learning (RL) is becoming increasingly important for post-training large language models (LLMs). Previous RL pipelines for LLMs were mostly synchronous and batch-interleaved, which is inefficient for long-horizon agentic tasks. Recently, asynchronous RL has emerged as a more efficient alternative by updating the model as rollouts arrive. However, existing asynchronous RL systems often emphasize throughput, while leaving training stability and task effectiveness largely underexplore",
-    "tags": [
-      "Agents",
-      "Reasoning",
-      "LLMs",
-      "AI Coding",
-      "Research",
-      "RL"
-    ],
-    "importance": 6,
-    "novelty": 6
-  },
-  {
     "id": "2dc20b997152",
     "title": "Sparse Delta Memory: Scaling the State of Linear RNNs through Sparsity",
     "authors": [
@@ -1083,6 +1059,30 @@
       "LLMs",
       "Memory",
       "RAG"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "c46a8a9cf1d6",
+    "title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
+    "authors": [
+      "Zhenyu Hou",
+      "Yujiang Li",
+      "Jie Tang",
+      "Yuxiao Dong"
+    ],
+    "date": "2026-07-07T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2607.07508",
+    "abstract": "Reinforcement learning (RL) is becoming increasingly important for post-training large language models (LLMs). Previous RL pipelines for LLMs were mostly synchronous and batch-interleaved, which is inefficient for long-horizon agentic tasks. Recently, asynchronous RL has emerged as a more efficient alternative by updating the model as rollouts arrive. However, existing asynchronous RL systems often emphasize throughput, while leaving training stability and task effectiveness largely underexplore",
+    "tags": [
+      "Agents",
+      "Reasoning",
+      "LLMs",
+      "AI Coding",
+      "Research",
+      "RL"
     ],
     "importance": 6,
     "novelty": 6

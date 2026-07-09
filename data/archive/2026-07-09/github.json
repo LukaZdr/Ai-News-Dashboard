@@ -25,7 +25,7 @@
     "fullName": "huggingface/transformers",
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
     "url": "https://github.com/huggingface/transformers",
-    "stars": 162418,
+    "stars": 162416,
     "language": "Python",
     "latestRelease": {
       "tag": "v5.13.0",
@@ -65,7 +65,7 @@
     "fullName": "open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "url": "https://github.com/open-webui/open-webui",
-    "stars": 144832,
+    "stars": 144833,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.10.2",
@@ -84,7 +84,7 @@
     "fullName": "Comfy-Org/ComfyUI",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
     "url": "https://github.com/Comfy-Org/ComfyUI",
-    "stars": 120058,
+    "stars": 120059,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.27.0",
@@ -104,7 +104,7 @@
     "fullName": "ggml-org/llama.cpp",
     "description": "LLM inference in C/C++",
     "url": "https://github.com/ggml-org/llama.cpp",
-    "stars": 119779,
+    "stars": 119782,
     "language": "C++",
     "latestRelease": {
       "tag": "b9940",
@@ -124,14 +124,14 @@
     "fullName": "vllm-project/vllm",
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
     "url": "https://github.com/vllm-project/vllm",
-    "stars": 85801,
+    "stars": 85803,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.24.0",
       "date": "2026-06-29T19:41:59Z",
       "notes": "# vLLM v0.24.0 Release Notes\r\n\r\n## Highlights\r\n\r\nThis release features 571 commits from 256 contributors (77 new)!\r\n\r\n* **MiniMax-M3**: Added support for the new **MiniMax-M3** model (#45381), with a fast follow-on of BF16/FP8 indexer via MSA (#45892), MXFP4 support (#45896), FP8 sparse GQA (#45744), and extensive AMD/ROCm tuning — mxfp8 MoE/linear on gfx950 (#45725), fp8_per_channel for bf16 weights on MI300X (#45854), FP8 KV-cache fix (#45720), and packed-modules mapping (#45794). A MiniMax-M2"
     },
-    "recentActivity": "2026-07-09T14:32:57Z",
+    "recentActivity": "2026-07-09T15:17:10Z",
     "tags": [
       "Inference",
       "LLMs",
@@ -144,14 +144,14 @@
     "fullName": "OpenHands/OpenHands",
     "description": "🙌 OpenHands: AI-Driven Development",
     "url": "https://github.com/OpenHands/OpenHands",
-    "stars": 80174,
+    "stars": 80175,
     "language": "Python",
     "latestRelease": {
       "tag": "cloud-1.44.0",
       "date": "2026-07-09T14:16:09Z",
       "notes": "## 1.44.0 (2026-07-09)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Features\n* feat: pass repository metadata to observability traces by @neubig in https://github.com/OpenHands/OpenHands/pull/14431\n### Maintenance\n* chore: bump SDK packages to v1.34.0 by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/15200\n\n\n**Full Changelog**: https://github.com/OpenHands/OpenHands/compare/cloud-1.43.0...cloud-1.44.0\n\n---\nThis PR was "
     },
-    "recentActivity": "2026-07-09T15:09:44Z",
+    "recentActivity": "2026-07-09T15:16:46Z",
     "tags": [
       "Agents",
       "AI Coding",
@@ -164,7 +164,7 @@
     "fullName": "BerriAI/litellm",
     "description": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
     "url": "https://github.com/BerriAI/litellm",
-    "stars": 53092,
+    "stars": 53093,
     "language": "Python",
     "latestRelease": {
       "tag": "v1.91.1",
