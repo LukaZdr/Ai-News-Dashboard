@@ -1,5 +1,19 @@
 [
   {
+    "id": "28b58dff681d",
+    "title": "Shor&#39;s Algorithm for Quantum Computing - Computerphile",
+    "channel": "Computerphile",
+    "channelId": "UC9-y-6csu5WGm29I7JiwpnA",
+    "date": "2026-07-09T13:57:10Z",
+    "duration": "38:59",
+    "thumbnail": "https://i.ytimg.com/vi/k_kyepATqB8/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=k_kyepATqB8",
+    "description": "We brought a computer scientist and a physicist together to talk about Shor's algorithm - a famous factorisation algorithm for that ...",
+    "viewCount": 2533,
+    "tags": [],
+    "relevanceScore": 7.8
+  },
+  {
     "id": "da4be4ee6d8c",
     "title": "Claude is definitely not conscious…",
     "channel": "Fireship",
@@ -9,14 +23,14 @@
     "thumbnail": "https://i.ytimg.com/vi/KGtko3y2RXQ/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=KGtko3y2RXQ",
     "description": "Try out Traycer's free open source desktop app that lets all your coding agents work together in one workspace ...",
-    "viewCount": 379763,
+    "viewCount": 469226,
     "tags": [
       "Agents",
       "LLMs",
       "AI Coding",
       "Open Source"
     ],
-    "relevanceScore": 8.1
+    "relevanceScore": 7.6
   },
   {
     "id": "a2a8bcf15302",
@@ -28,10 +42,26 @@
     "thumbnail": "https://i.ytimg.com/vi/1yBU41auQhw/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=1yBU41auQhw",
     "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers The DeepSeek paper is available here: ...",
-    "viewCount": 51239,
+    "viewCount": 53005,
     "tags": [
       "Research"
     ],
     "relevanceScore": 6.4
+  },
+  {
+    "id": "0e5e4bd49b9f",
+    "title": "Fable 5: The Cost-Saving Pattern You Need",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-07-08T12:45:33Z",
+    "duration": "10:12",
+    "thumbnail": "https://i.ytimg.com/vi/OA8vEleJkq4/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=OA8vEleJkq4",
+    "description": "Fable 5 is a planning model, not a coding model, and treating it like both is how you burn an entire Max subscription in one ...",
+    "viewCount": 2905,
+    "tags": [
+      "AI Coding"
+    ],
+    "relevanceScore": 5.5
   }
 ]

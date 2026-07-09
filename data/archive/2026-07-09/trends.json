@@ -7,6 +7,7 @@
       "growth": "stable",
       "relatedPaperIds": [
         "ce36d073d097",
+        "c46a8a9cf1d6",
         "90081ed6477b",
         "b6c1839ec9f3",
         "4816003f4a13",
@@ -19,8 +20,7 @@
       ],
       "relatedNewsIds": [
         "44710b814dd1",
-        "fdad8c8bf7eb",
-        "40037eb98642"
+        "fdad8c8bf7eb"
       ],
       "relatedRepoIds": [
         "83b96e936faf",
@@ -99,28 +99,8 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "Agent",
-      "frequency": 6,
-      "growth": "rising",
-      "relatedPaperIds": [
-        "90081ed6477b",
-        "b6c1839ec9f3",
-        "5c71201a56b2"
-      ],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [
-        "fdad8c8bf7eb"
-      ],
-      "relatedRepoIds": [
-        "233a4f836599"
-      ],
-      "relatedNewsletterIds": [
-        "dd7ea0e10556"
-      ]
-    },
-    {
       "topic": "Business",
-      "frequency": 20,
+      "frequency": 21,
       "growth": "rising",
       "relatedPaperIds": [
         "ab474ebdac77",
@@ -146,10 +126,55 @@
       "relatedRepoIds": [],
       "relatedNewsletterIds": [
         "edfefe604600",
+        "9a033797a8f8",
         "03654859acc1",
         "048b1b572f9c",
         "6145bf9087f7"
       ]
+    },
+    {
+      "topic": "Agent",
+      "frequency": 6,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "90081ed6477b",
+        "b6c1839ec9f3",
+        "5c71201a56b2"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [
+        "fdad8c8bf7eb"
+      ],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": [
+        "dd7ea0e10556"
+      ]
+    },
+    {
+      "topic": "Cost-Saving",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "0e5e4bd49b9f"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Cost-Saving Pattern",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "0e5e4bd49b9f"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
     },
     {
       "topic": "continue",
@@ -175,30 +200,6 @@
       "relatedRepoIds": [
         "233a4f836599"
       ],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Claude",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "da4be4ee6d8c"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "definitely",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "da4be4ee6d8c"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
       "relatedNewsletterIds": []
     }
   ]
