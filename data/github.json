@@ -5,7 +5,7 @@
     "fullName": "ollama/ollama",
     "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
     "url": "https://github.com/ollama/ollama",
-    "stars": 175792,
+    "stars": 175793,
     "language": "Go",
     "latestRelease": {
       "tag": "v0.31.2",
@@ -25,14 +25,14 @@
     "fullName": "huggingface/transformers",
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
     "url": "https://github.com/huggingface/transformers",
-    "stars": 162417,
+    "stars": 162418,
     "language": "Python",
     "latestRelease": {
       "tag": "v5.13.0",
       "date": "2026-07-03T16:06:27Z",
       "notes": "# Release v5.13.0\r\n\r\n\r\n## New Model additions\r\n\r\n### KimiK 2.5, 2.6, and 2.7\r\n\r\n<img width=\"1097\" height=\"400\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c24d2232-a9b4-413b-a2c8-58d013b6dfbd\" />\r\n\r\nThis release includes the architecture for Kimi 2.5 which is used by 2.5-2.7:\r\n\r\nKimi K2.5 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchest"
     },
-    "recentActivity": "2026-07-09T14:58:18Z",
+    "recentActivity": "2026-07-09T15:10:12Z",
     "tags": [
       "LLMs",
       "Research",
@@ -45,7 +45,7 @@
     "fullName": "langgenius/dify",
     "description": "Production-ready platform for agentic workflow development.",
     "url": "https://github.com/langgenius/dify",
-    "stars": 148301,
+    "stars": 148302,
     "language": "TypeScript",
     "latestRelease": {
       "tag": "1.15.0",
@@ -65,7 +65,7 @@
     "fullName": "open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "url": "https://github.com/open-webui/open-webui",
-    "stars": 144830,
+    "stars": 144832,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.10.2",
@@ -84,7 +84,7 @@
     "fullName": "Comfy-Org/ComfyUI",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
     "url": "https://github.com/Comfy-Org/ComfyUI",
-    "stars": 120057,
+    "stars": 120058,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.27.0",
@@ -144,14 +144,14 @@
     "fullName": "OpenHands/OpenHands",
     "description": "🙌 OpenHands: AI-Driven Development",
     "url": "https://github.com/OpenHands/OpenHands",
-    "stars": 80173,
+    "stars": 80174,
     "language": "Python",
     "latestRelease": {
       "tag": "cloud-1.44.0",
       "date": "2026-07-09T14:16:09Z",
       "notes": "## 1.44.0 (2026-07-09)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Features\n* feat: pass repository metadata to observability traces by @neubig in https://github.com/OpenHands/OpenHands/pull/14431\n### Maintenance\n* chore: bump SDK packages to v1.34.0 by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/15200\n\n\n**Full Changelog**: https://github.com/OpenHands/OpenHands/compare/cloud-1.43.0...cloud-1.44.0\n\n---\nThis PR was "
     },
-    "recentActivity": "2026-07-09T14:53:00Z",
+    "recentActivity": "2026-07-09T15:09:44Z",
     "tags": [
       "Agents",
       "AI Coding",
@@ -164,7 +164,7 @@
     "fullName": "BerriAI/litellm",
     "description": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
     "url": "https://github.com/BerriAI/litellm",
-    "stars": 53093,
+    "stars": 53092,
     "language": "Python",
     "latestRelease": {
       "tag": "v1.91.1",

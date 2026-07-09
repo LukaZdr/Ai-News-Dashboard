@@ -67,6 +67,19 @@
       ]
     },
     {
+      "topic": "llama",
+      "frequency": 2,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "14df74d3bb6b",
+        "052e3a92e72b"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
       "topic": "open-source",
       "frequency": 6,
       "growth": "rising",
@@ -84,19 +97,6 @@
         "0f2a45d04617",
         "a81093efe49e"
       ]
-    },
-    {
-      "topic": "llama",
-      "frequency": 2,
-      "growth": "stable",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "14df74d3bb6b",
-        "052e3a92e72b"
-      ],
-      "relatedNewsletterIds": []
     },
     {
       "topic": "Business",
@@ -135,7 +135,7 @@
     {
       "topic": "Agent",
       "frequency": 6,
-      "growth": "rising",
+      "growth": "stable",
       "relatedPaperIds": [
         "90081ed6477b",
         "b6c1839ec9f3",
@@ -151,6 +151,32 @@
       "relatedNewsletterIds": [
         "dd7ea0e10556"
       ]
+    },
+    {
+      "topic": "continue open-source",
+      "frequency": 1,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "continue",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "0619ea233e06"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
     },
     {
       "topic": "Cost-Saving",
@@ -174,32 +200,6 @@
       ],
       "relatedNewsIds": [],
       "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "continue",
-      "frequency": 2,
-      "growth": "rising",
-      "relatedPaperIds": [
-        "0619ea233e06"
-      ],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "233a4f836599"
-      ],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "continue open-source",
-      "frequency": 1,
-      "growth": "stable",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "233a4f836599"
-      ],
       "relatedNewsletterIds": []
     }
   ]
