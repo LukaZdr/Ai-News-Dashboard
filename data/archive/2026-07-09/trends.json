@@ -35,7 +35,7 @@
     {
       "topic": "Inference",
       "frequency": 21,
-      "growth": "declining",
+      "growth": "stable",
       "relatedPaperIds": [
         "ab474ebdac77",
         "3df7d60af14d",
@@ -86,6 +86,19 @@
       ]
     },
     {
+      "topic": "llama",
+      "frequency": 2,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "14df74d3bb6b",
+        "052e3a92e72b"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
       "topic": "Business",
       "frequency": 21,
       "growth": "rising",
@@ -118,19 +131,6 @@
         "048b1b572f9c",
         "6145bf9087f7"
       ]
-    },
-    {
-      "topic": "llama",
-      "frequency": 2,
-      "growth": "stable",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "14df74d3bb6b",
-        "052e3a92e72b"
-      ],
-      "relatedNewsletterIds": []
     },
     {
       "topic": "Agent",

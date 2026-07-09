@@ -52,7 +52,7 @@
       "date": "2026-06-25T13:16:14Z",
       "notes": "# Dify 1.15.0 Release Note\r\n\r\n## What's Changed\r\n\r\n### UX & UI Enhancements\r\n\r\n<img width=\"1920\" height=\"1044\" alt=\"录屏2026-06-25 21 12 33\" src=\"https://github.com/user-attachments/assets/c3ac7394-2ccf-4a66-873a-b7224a16897a\" />\r\n\r\n\r\n- **Redesigned landing / onboarding** for an easier first-run experience (#37433, #37844, #37800)\r\n- **Faster navigation** — improved \"go to anything\" palette and autofocused search inputs (#32130, #37175)\r\n- **Safer deletes** — one-click confirmation before removing"
     },
-    "recentActivity": "2026-07-09T14:37:27Z",
+    "recentActivity": "2026-07-09T15:03:26Z",
     "tags": [
       "Agents",
       "LLMs",
@@ -184,7 +184,7 @@
     "fullName": "langchain-ai/langgraph",
     "description": "Build resilient agents.",
     "url": "https://github.com/langchain-ai/langgraph",
-    "stars": 36894,
+    "stars": 36895,
     "language": "Python",
     "latestRelease": {
       "tag": "1.2.8",
