@@ -935,6 +935,30 @@
     "novelty": 6
   },
   {
+    "id": "1963373f7664",
+    "title": "Metacognition in LLMs: Foundations, Progress, and Opportunities",
+    "authors": [
+      "Gabrielle Kaili-May Liu",
+      "Areeb Gani",
+      "Jacqueline Lu",
+      "Jordan Thomas",
+      "Mark Steyvers",
+      "Arman Cohan"
+    ],
+    "date": "2026-07-13T13:58:37.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2607.11881",
+    "abstract": "Metacognition is a foundational component of intelligence critical to effective learning, problem solving, decision-making, communication, and more. In recent years, it has become increasingly recognized as a cornerstone of capable, transparent AI systems. Yet while LLMs have made significant progress across diverse real-world tasks, it is not yet clear when, how, or to what extent they can exhibit or be endowed with effective metacognitive abilities, nor how such abilities can be adapted to adv",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
     "id": "e6ef7e494344",
     "title": "Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals",
     "authors": [
@@ -964,25 +988,25 @@
     "novelty": 6
   },
   {
-    "id": "1963373f7664",
-    "title": "Metacognition in LLMs: Foundations, Progress, and Opportunities",
+    "id": "24fc07eb3cb5",
+    "title": "Latent-Identity Tuning in Text-to-Image Personalization Models",
     "authors": [
-      "Gabrielle Kaili-May Liu",
-      "Areeb Gani",
-      "Jacqueline Lu",
-      "Jordan Thomas",
-      "Mark Steyvers",
-      "Arman Cohan"
+      "Daniel Garibi",
+      "Ronen Kamenetsky",
+      "Hadar Averbuch-Elor",
+      "Daniel Cohen-Or",
+      "Or Patashnik"
     ],
-    "date": "2026-07-13T13:58:37.000Z",
+    "date": "2026-07-13T13:59:49.000Z",
     "source": "huggingface",
-    "url": "https://huggingface.co/papers/2607.11881",
-    "abstract": "Metacognition is a foundational component of intelligence critical to effective learning, problem solving, decision-making, communication, and more. In recent years, it has become increasingly recognized as a cornerstone of capable, transparent AI systems. Yet while LLMs have made significant progress across diverse real-world tasks, it is not yet clear when, how, or to what extent they can exhibit or be endowed with effective metacognitive abilities, nor how such abilities can be adapted to adv",
+    "url": "https://huggingface.co/papers/2607.11885",
+    "abstract": "Generating and editing a person's face demands high precision, as even minor modifications can significantly alter a subject's perceived identity. Current personalization and editing methods built on general-purpose text-to-image models, however, often lack the precision required for fine-grained facial edits. We present a method for fine-grained identity tuning in text-to-image personalization models. Unlike standard image editing, which operates on a given image, identity tuning modifies the l",
     "tags": [
-      "LLMs",
+      "Computer Vision",
       "Open Source",
-      "Research",
-      "RL"
+      "Inference",
+      "Memory",
+      "RAG"
     ],
     "importance": 6,
     "novelty": 6

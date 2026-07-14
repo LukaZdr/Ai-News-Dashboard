@@ -5,14 +5,14 @@
     "fullName": "ollama/ollama",
     "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
     "url": "https://github.com/ollama/ollama",
-    "stars": 176081,
+    "stars": 176097,
     "language": "Go",
     "latestRelease": {
       "tag": "v0.32.0",
       "date": "2026-07-11T01:03:46Z",
       "notes": "## What's Changed\r\n\r\n  - New interactive agent experience: running `ollama` now launches an agent to help you code and delegate work\r\n```\r\n❯ ollama\r\nOllama 0.32.0\r\n\r\n▸ Chat, Code, & Work (glm-5.2:cloud)\r\n    Chat with models, code, search the web, and delegate real work\r\n```\r\n  - Renamed the Codex App integration to ChatGPT: use ollama launch chatgpt (and --restore to return to your usual ChatGPT profile)\r\n  - Simplified integration selection: the ollama launch menu now only offers the most popu"
     },
-    "recentActivity": "2026-07-14T00:15:24Z",
+    "recentActivity": "2026-07-14T08:40:35Z",
     "tags": [
       "LLMs",
       "Open Source",
@@ -25,14 +25,14 @@
     "fullName": "huggingface/transformers",
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
     "url": "https://github.com/huggingface/transformers",
-    "stars": 162586,
+    "stars": 162598,
     "language": "Python",
     "latestRelease": {
       "tag": "v5.13.1",
       "date": "2026-07-11T09:15:36Z",
       "notes": "# Patch release v5.13.1 \r\n\r\nThis patch is focused on enabling `transformers` for the latest release of vllm! \r\n\r\n- Be more defensive with remap_legacy_layer_types for custom models (#47245) from @hmellor \r\n- Fix custom code which doesn't know about the new linear layer type names (#47174) from @hmellor \r\n- Fix case where _LazyAutoMapping.register is passed a str key (#47148) from @hmellor "
     },
-    "recentActivity": "2026-07-14T08:15:27Z",
+    "recentActivity": "2026-07-14T13:35:33Z",
     "tags": [
       "LLMs",
       "Research",
@@ -45,14 +45,14 @@
     "fullName": "langgenius/dify",
     "description": "Production-ready platform for agentic workflow development.",
     "url": "https://github.com/langgenius/dify",
-    "stars": 148769,
+    "stars": 148810,
     "language": "TypeScript",
     "latestRelease": {
       "tag": "1.15.0",
       "date": "2026-06-25T13:16:14Z",
       "notes": "# Dify 1.15.0 Release Note\r\n\r\n## What's Changed\r\n\r\n### UX & UI Enhancements\r\n\r\n<img width=\"1920\" height=\"1044\" alt=\"录屏2026-06-25 21 12 33\" src=\"https://github.com/user-attachments/assets/c3ac7394-2ccf-4a66-873a-b7224a16897a\" />\r\n\r\n\r\n- **Redesigned landing / onboarding** for an easier first-run experience (#37433, #37844, #37800)\r\n- **Faster navigation** — improved \"go to anything\" palette and autofocused search inputs (#32130, #37175)\r\n- **Safer deletes** — one-click confirmation before removing"
     },
-    "recentActivity": "2026-07-14T08:10:13Z",
+    "recentActivity": "2026-07-14T12:06:39Z",
     "tags": [
       "Agents",
       "LLMs",
@@ -65,14 +65,14 @@
     "fullName": "open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "url": "https://github.com/open-webui/open-webui",
-    "stars": 145356,
+    "stars": 145389,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.10.2",
       "date": "2026-07-01T08:41:06Z",
       "notes": "### Added\r\n\r\n- 💭 **Streamed reasoning display.** Models that emit thinking or reasoning now show that content as it streams, and it renders correctly in the chat overview and in exported conversations. [Commit](https://github.com/open-webui/open-webui/commit/0b75445ff9a42e37640c034812d0de9b84039e60), [Commit](https://github.com/open-webui/open-webui/commit/af1c0eee89810fa4c36e3eb7e4eba6de685bd7ca), [Commit](https://github.com/open-webui/open-webui/commit/4b08d65597e5b634b7191b0bd6d28feeafcc2a48"
     },
-    "recentActivity": "2026-07-14T08:15:21Z",
+    "recentActivity": "2026-07-14T08:30:48Z",
     "tags": [
       "LLMs",
       "Open Source"
@@ -84,14 +84,14 @@
     "fullName": "Comfy-Org/ComfyUI",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
     "url": "https://github.com/Comfy-Org/ComfyUI",
-    "stars": 120669,
+    "stars": 120706,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.27.0",
       "date": "2026-06-30T22:19:48Z",
       "notes": "The major change in this version is added support for int8 convrot models.\r\n\r\n## What's Changed\r\n* chore(openapi): sync shared API contract from cloud@363764b by @comfy-pr-bot in https://github.com/Comfy-Org/ComfyUI/pull/14607\r\n* [Partner Nodes] feat(Alibaba): add support for HappyHorse 1.1 model by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/14611\r\n* Downgrade the template to 0.10.2 to bring the HH1.1 templates back by @comfyui-wiki in https://github.com/Comfy-Org/ComfyUI/pull/14613\r"
     },
-    "recentActivity": "2026-07-14T07:42:57Z",
+    "recentActivity": "2026-07-14T12:27:47Z",
     "tags": [
       "Computer Vision",
       "Video Models",
@@ -104,14 +104,14 @@
     "fullName": "ggml-org/llama.cpp",
     "description": "LLM inference in C/C++",
     "url": "https://github.com/ggml-org/llama.cpp",
-    "stars": 120296,
+    "stars": 120325,
     "language": "C++",
     "latestRelease": {
-      "tag": "b9994",
-      "date": "2026-07-14T05:29:11Z",
-      "notes": "<details open>\n\nmetal : add Q2_0 support (#25419)\n\n</details>\n\n**macOS/iOS:**\n- [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9994/llama-b9994-bin-macos-arm64.tar.gz)\n- macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780)\n- [macOS Intel (x64)](https://github.com/ggml-org/llama.cpp/releases/download/b9994/llama-b9994-bin-macos-x64.tar.gz)\n- [iOS XCFramework](https://github.com/ggml-org/llama.cpp/release"
+      "tag": "b10001",
+      "date": "2026-07-14T12:46:17Z",
+      "notes": "<details open>\n\ntests: export-graph-ops: exit gracefully when called w/o arguments (#25619)\n\nFixes a segfault when `test-export-graph-ops` is called without any\narguments.\n\n</details>\n\n**macOS/iOS:**\n- [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b10001/llama-b10001-bin-macos-arm64.tar.gz)\n- macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780)\n- [macOS Intel (x64)](https://github.com/ggml-org/llama.cpp"
     },
-    "recentActivity": "2026-07-14T07:34:56Z",
+    "recentActivity": "2026-07-14T13:26:55Z",
     "tags": [
       "LLMs",
       "Open Source",
@@ -124,14 +124,14 @@
     "fullName": "vllm-project/vllm",
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
     "url": "https://github.com/vllm-project/vllm",
-    "stars": 86206,
+    "stars": 86237,
     "language": "Python",
     "latestRelease": {
-      "tag": "v0.25.0",
-      "date": "2026-07-11T20:06:44Z",
-      "notes": "# vLLM v0.25.0 Release Notes\r\n\r\n## Highlights\r\n\r\nThis release features 558 commits from 232 contributors (64 new)!\r\n\r\n* **Model Runner V2 is now the default for all dense models** (#44443). Building on quantized-model support from the previous release, MRv2 is now the standard execution path, with new support for EVS (#46535), realtime embeddings (#46762), prefix caching for Mamba hybrid models (#42406), multimodal-prefix bidirectional attention (#46942), and dynamic speculative decoding compati"
+      "tag": "v0.25.1",
+      "date": "2026-07-14T08:51:20Z",
+      "notes": "# vLLM v0.25.1\r\n\r\n## Highlights\r\n\r\nThis release features 2 commits from 2 contributors (1 new)!\r\n\r\nv0.25.1 is a patch release containing two targeted bug fixes on top of v0.25.0.\r\n\r\n### Bug Fixes\r\n* **Avoid blocking model launching when no system FFmpeg is available for TorchCodec** (#47888). Previously `import torchcodec` raised a `RuntimeError` at import time when system FFmpeg was missing, which blocked startup (e.g. `vllm serve Qwen/Qwen3-VL-2B-Instruct`) even when TorchCodec was not in use."
     },
-    "recentActivity": "2026-07-14T08:15:44Z",
+    "recentActivity": "2026-07-14T13:30:16Z",
     "tags": [
       "Inference",
       "LLMs",
@@ -144,14 +144,14 @@
     "fullName": "OpenHands/OpenHands",
     "description": "🙌 OpenHands: AI-Driven Development",
     "url": "https://github.com/OpenHands/OpenHands",
-    "stars": 80721,
+    "stars": 80750,
     "language": "Python",
     "latestRelease": {
-      "tag": "cloud-1.46.0",
-      "date": "2026-07-10T19:51:59Z",
-      "notes": "## 1.46.0 (2026-07-10)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Features\n* feat(app-server): enrich final archive manifests and remove initial snapshots by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/15058\n* feat(enterprise): make BYOR key alias pattern configurable by @tofarr in https://github.com/OpenHands/OpenHands/pull/15232\n### Bug Fixes\n* fix(frontend): mention SMTP env vars for budget alerts by @saurya i"
+      "tag": "cloud-1.46.1",
+      "date": "2026-07-14T12:30:57Z",
+      "notes": "## 1.46.1 (2026-07-14)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Bug Fixes\n* fix(app-server): preserve conversation created_at across lifecycle webhooks by @Sujit-1509 in https://github.com/OpenHands/OpenHands/pull/15243\n* fix(mcp): preserve SaaS credentials with encrypted storage by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/15257\n### Maintenance\n* ci: wait for the docker build before retagging images by @jlav"
     },
-    "recentActivity": "2026-07-14T05:38:15Z",
+    "recentActivity": "2026-07-14T12:31:13Z",
     "tags": [
       "Agents",
       "AI Coding",
@@ -164,14 +164,14 @@
     "fullName": "BerriAI/litellm",
     "description": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
     "url": "https://github.com/BerriAI/litellm",
-    "stars": 53530,
+    "stars": 53553,
     "language": "Python",
     "latestRelease": {
       "tag": "v1.92.0",
       "date": "2026-07-12T01:55:00Z",
       "notes": "## Verify Docker Image Signature\n\nAll LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). Every release is signed with the same key introduced in [commit `0112e53`](https://github.com/BerriAI/litellm/commit/0112e53046018d726492c814b3644b7d376029d0).\n\n**Verify using the pinned commit hash (recommended):**\n\nA commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key:\n\n```bash\ncosign verify \\\n  -"
     },
-    "recentActivity": "2026-07-14T07:41:30Z",
+    "recentActivity": "2026-07-14T13:25:55Z",
     "tags": [
       "LLMs",
       "Inference",
@@ -184,7 +184,7 @@
     "fullName": "langchain-ai/langgraph",
     "description": "Build resilient agents.",
     "url": "https://github.com/langchain-ai/langgraph",
-    "stars": 37255,
+    "stars": 37279,
     "language": "Python",
     "latestRelease": {
       "tag": "1.2.9",
@@ -204,14 +204,14 @@
     "fullName": "continuedev/continue",
     "description": "open-source coding agent",
     "url": "https://github.com/continuedev/continue",
-    "stars": 34864,
+    "stars": 34871,
     "language": "TypeScript",
     "latestRelease": {
       "tag": "v2.0.0-vscode",
       "date": "2026-06-19T00:24:01Z",
       "notes": ""
     },
-    "recentActivity": "2026-07-14T06:43:11Z",
+    "recentActivity": "2026-07-14T09:00:50Z",
     "tags": [
       "AI Coding",
       "Open Source"

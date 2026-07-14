@@ -2,93 +2,11 @@
   "date": "2026-07-14",
   "topics": [
     {
-<<<<<<< Updated upstream
-      "topic": "Agents",
+      "topic": "Inference",
       "frequency": 19,
       "growth": "rising",
       "relatedPaperIds": [
-        "c3adaaaa75d7",
-        "4a2b45a0b67d",
-        "932480177639",
-        "5db98736d097",
-        "6f7813975350",
-        "8ca5b3e58d31",
-        "bad0eca62829",
-        "3aa328ea0432",
-        "db2373d12119",
-        "179fc4e3fa2c",
-        "56a13a4708b0",
-        "b24d62a2474b",
-        "5d8724fdc2e2",
-        "9872df7d542e",
-        "51f372199056",
-        "c7c6dea91030"
-=======
-      "topic": "Inference",
-      "frequency": 25,
-      "growth": "rising",
-      "relatedPaperIds": [
-        "32c02c02db1a",
-        "739b9bb4ba82",
-        "cc4ba898baea",
-        "c7009af7c138",
-        "ee712ceb2825",
-        "ab150a676e84",
-        "511cad091624",
-        "cbd12c06bcd7",
-        "5bc8a3665c34",
-        "d90b08d0186a",
-        "1da89e1c8f83",
-        "f1dd4b193f62",
-        "d8caaaf84795",
-        "9d8612c1fc23",
-        "69c185467e42",
-        "8b50657213f1",
-        "c10c719ed3d7",
-        "c0e1fdb0ec45",
-        "db0800674a54"
-      ],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "b6a0b13bc12c",
-        "7166ecafb485",
-        "14df74d3bb6b",
-        "deae4303c432",
-        "68b1fb9303ec"
-      ],
-      "relatedNewsletterIds": [
-        "edc5f7594aa6"
-      ]
-    },
-    {
-      "topic": "Agents",
-      "frequency": 10,
-      "growth": "stable",
-      "relatedPaperIds": [
-        "1da89e1c8f83",
-        "153699cc4b50",
-        "69c185467e42",
-        "8284a7746675",
-        "37acdaebe55b",
-        "2a808fd42f76",
-        "c2ff1a30480f"
->>>>>>> Stashed changes
-      ],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "83b96e936faf",
-        "6d558ac6ba23",
-        "1941bc8214c6"
-      ],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Inference",
-      "frequency": 16,
-      "growth": "declining",
-      "relatedPaperIds": [
+        "24fc07eb3cb5",
         "6f3ae0617bb9",
         "d77282a88dc0",
         "b7fa5b53f689",
@@ -111,12 +29,48 @@
         "deae4303c432",
         "68b1fb9303ec"
       ],
-      "relatedNewsletterIds": []
+      "relatedNewsletterIds": [
+        "269823b9f130",
+        "edc5f7594aa6"
+      ]
+    },
+    {
+      "topic": "Agents",
+      "frequency": 20,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "c3adaaaa75d7",
+        "4a2b45a0b67d",
+        "932480177639",
+        "5db98736d097",
+        "6f7813975350",
+        "8ca5b3e58d31",
+        "bad0eca62829",
+        "3aa328ea0432",
+        "db2373d12119",
+        "179fc4e3fa2c",
+        "56a13a4708b0",
+        "b24d62a2474b",
+        "5d8724fdc2e2",
+        "9872df7d542e",
+        "51f372199056",
+        "c7c6dea91030"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "269823b9f130"
+      ]
     },
     {
       "topic": "llama",
       "frequency": 2,
-      "growth": "stable",
+      "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
@@ -127,57 +81,9 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "Minecraft",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "953373917774"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Brilliant",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "953373917774"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Brilliant Idea",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "953373917774"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "continue open-source",
-      "frequency": 1,
-      "growth": "stable",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "233a4f836599"
-      ],
-      "relatedNewsletterIds": []
-    },
-    {
       "topic": "agent",
       "frequency": 5,
-      "growth": "stable",
+      "growth": "rising",
       "relatedPaperIds": [
         "4a2b45a0b67d",
         "932480177639",
@@ -192,22 +98,9 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "continue",
-      "frequency": 1,
-      "growth": "declining",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "233a4f836599"
-      ],
-      "relatedNewsletterIds": []
-    },
-    {
-<<<<<<< Updated upstream
       "topic": "Business",
-      "frequency": 16,
-      "growth": "stable",
+      "frequency": 17,
+      "growth": "rising",
       "relatedPaperIds": [
         "25343981802b",
         "e6ef7e494344",
@@ -228,22 +121,50 @@
       "relatedNewsletterIds": [
         "edfefe604600",
         "9a033797a8f8",
+        "269823b9f130",
         "6145bf9087f7",
         "048b1b572f9c"
       ]
-=======
-      "topic": "idea",
-      "frequency": 2,
+    },
+    {
+      "topic": "continue",
+      "frequency": 1,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "continue open-source",
+      "frequency": 1,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "open-source",
+      "frequency": 3,
       "growth": "rising",
       "relatedPaperIds": [
-        "e3e464c6d4bf"
+        "6e4a3eba4af7"
       ],
-      "relatedVideoIds": [
-        "953373917774"
-      ],
+      "relatedVideoIds": [],
       "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": [
+        "edc5f7594aa6"
+      ]
     },
     {
       "topic": "OpenHands",
@@ -256,7 +177,24 @@
         "6d558ac6ba23"
       ],
       "relatedNewsletterIds": []
->>>>>>> Stashed changes
+    },
+    {
+      "topic": "issue",
+      "frequency": 6,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "ae65acbc569e"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "edfefe604600",
+        "9a033797a8f8",
+        "6145bf9087f7",
+        "048b1b572f9c",
+        "2fdf23086d32"
+      ]
     }
   ]
 }

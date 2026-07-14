@@ -1,92 +1,146 @@
 {
   "date": "2026-07-14",
-  "generatedAt": "2026-07-14T08:19:04.418Z",
-  "model": "meta-llama/llama-3.2-3b-instruct:free",
-  "summary": "### Daily Technical Landscape\n\nToday's analysis reveals active research and development, particularly centered around **Agents, Inference** and **llama**. Our heuristics selected **5 key developments** from a pool of **55 publications**, **2 announcements**, **12 codebases**, and **7 expert newsletter commentaries**.\n\n### Research Focus & Architectural Insights\n\n1. **Metacognition in LLMs: Foundations, Progress, and Opportunities** (HUGGINGFACE)\n   - **Core Findings**: Metacognition is a foundational component of intelligence critical to effective learning, problem solving, decision-making, communication, and more. In recent years, it has become increasingly recognized as a cornerstone of capable, transparent AI systems. Yet while LLMs have made significant progress across diverse re...\n   - **Scientific Relevance**: Explores advanced paradigms in *LLMs, Open Source, Research, RL* (proposed by *Gabrielle Kaili-May Liu, Areeb Gani, Jacqueline Lu*).\n\n2. **AdvancedMathBench: A Benchmark Suite for Advanced Mathematical Proof Generation and Verification** (HUGGINGFACE)\n   - **Core Findings**: Large language models (LLMs) have achieved remarkable performance on high-school and olympiad-style mathematics, yet their capabilities on advanced mathematics remain poorly understood. Existing benchmarks, however, fall short in both scope and evaluation granularity: they provide limited disciplinary coverage and ofte...\n   - **Scientific Relevance**: Explores advanced paradigms in *Reasoning, LLMs, Research, Business, RL, Memory, RAG* (proposed by *Lingkai Kong, Zijian Wu, Yuzhe Gu*).\n\n3. **Motion4Motion: Motion Transfer Across Subjects at Inference** (HUGGINGFACE)\n   - **Core Findings**: This work explores the motion transfer from one video to another, which is crucial in animation for diverse characters. Previously, video motion transfer has been largely explored between human and human-like characters, enabling a lot of applications in digital creation. However, these approaches encounter a main limi...\n   - **Scientific Relevance**: Explores advanced paradigms in *Open Source, Research, Inference* (proposed by *Ling-Hao Chen, Zixin Yin, Duomin Wang*).\n\n### Newsletter Perspectives & Industry Commentary\n\n1. **Understanding the latest trends in Research and Business and LLMs (Issue #231)** (by *The Batch* - Rating: ★★★★★)\n   - **Analysis**: Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.\n   - **Key Focus Areas**: *Research, Business, LLMs*\n\n2. **Understanding the latest trends in Research and Open Source and Business (Issue #151)** (by *Import AI* - Rating: ★★★★★)\n   - **Analysis**: Jack Clark's weekly analysis of machine learning progress, model safety policies, computational resource scaling, and national AI strategies. This issue explores key methodologies, benchmarks, and community findings in the Research, Open Source, Business ecosystem.\n   - **Key Focus Areas**: *Research, Open Source, Business*\n\n3. **[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??** (by *Latent Space* - Rating: ★★★★★)\n   - **Analysis**: a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting...\n   - **Key Focus Areas**: *LLMs*\n\n### Engineering & System Deployments\n\n- **Verifying Rust cryptography in SymCrypt, from standards to code** (Microsoft Research): Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemente... (Tagged: *RL, Inference*)\n- **Empowering India’s next generation of innovators with ATL Saathi** (Google DeepMind): Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.... (Tagged: *LLMs, Robotics*)\n- **ollama/ollama** (⭐176,081): Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. (Latest tag: `v0.32.0`)\n",
+  "generatedAt": "2026-07-14T13:43:11.603Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": "The AI landscape is being reshaped by three converging forces: a regulatory storm threatening open-source viability, an unprecedented surge in AI coding adoption, and a reckoning with the fragility of how we measure model capability. The most urgent signal comes from Washington, where Interconnects reports White House discussions advancing a potential executive order targeting open models — particularly Chinese-origin systems like DeepSeek — with minimal oversight and no central economic champion to defend them, creating what analysts call a six-month window before regulatory dominoes fall. Simultaneously, the developer ecosystem is voting with its feet: Latent Space documents Codex usage exploding over 10x in six months to 7 million users, adding a million in a single day following the GPT-5.6 launch, potentially overtaking Claude Code's reported 2 million users and $2.5B ARR. This adoption surge coincides with a fundamental challenge to evaluation integrity: the Format Sensitivity Index paper reveals that model rankings on leaderboards can flip solely due to incidental formatting choices in prompt wrappers, based on 140,000 generations across seven QA tasks — exposing a systemic flaw in how the industry benchmarks progress. Beneath these headlines, a quieter architectural shift is accelerating: the PUST framework introduces a modular post-training paradigm that decouples policy exploration from distribution alignment using proxy models, enabling reusable optimization signals and significant compute savings, while Microsoft demonstrates AI agents formally verifying post-quantum cryptographic implementations in Rust and Lean. Together, these developments signal a field in transition — where regulatory pressure, product-market fit in coding, and methodological rigor are simultaneously rewriting the rules of competition.",
   "topDevelopments": [
     {
       "rank": 1,
-      "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
-      "summary": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves.\nThe post Verifying Rust cryptography in SymCrypt, from standards to code appeared fir",
-      "whyItMatters": "This represents a major development from microsoft in the AI space.",
-      "expectedImpact": "Accelerates developer tooling and application capability.",
+      "title": "Codex Usage Surges 10x to 7M Users, Signaling Coding Agent Inflection Point",
+      "summary": "Latent Space reports Codex usage has grown over 10x in six months to 7 million users, adding 1 million users in a single day following the July 9 GPT-5.6 launch. This trajectory suggests Codex may have overtaken Claude Code's ~2 million users and $2.5B ARR (reported February 2025), marking a decisive shift in AI coding tool adoption and OpenAI's competitive positioning in the developer tools market.",
+      "whyItMatters": "This represents the clearest product-market fit signal yet for AI coding agents, with implications for developer productivity economics and the competitive dynamics between foundation model providers.",
+      "expectedImpact": "Expect accelerated investment in coding agent capabilities, pricing pressure on incumbent tools, and increased enterprise adoption of AI-assisted development workflows.",
       "relatedItemIds": [
-        "c5059f9eda5f"
+        "269823b9f130",
+        "6d558ac6ba23",
+        "932480177639"
       ],
       "tags": [
-        "RL",
-        "Inference"
-      ]
-    },
-    {
-      "rank": 2,
-      "title": "Empowering India’s next generation of innovators with ATL Saathi",
-      "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
-      "whyItMatters": "This represents a major development from deepmind in the AI space.",
-      "expectedImpact": "Accelerates developer tooling and application capability.",
-      "relatedItemIds": [
-        "53dc17415883"
-      ],
-      "tags": [
-        "LLMs",
-        "Robotics"
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "Metacognition in LLMs: Foundations, Progress, and Opportunities",
-      "summary": "Metacognition is a foundational component of intelligence critical to effective learning, problem solving, decision-making, communication, and more. I...",
-      "whyItMatters": "Published on huggingface with tags: LLMs, Open Source, Research, RL.",
-      "expectedImpact": "Advances the theoretical and practical foundations of LLMs.",
-      "relatedItemIds": [
-        "1963373f7664"
-      ],
-      "tags": [
-        "LLMs",
-        "Open Source"
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "AdvancedMathBench: A Benchmark Suite for Advanced Mathematical Proof Generation and Verification",
-      "summary": "Large language models (LLMs) have achieved remarkable performance on high-school and olympiad-style mathematics, yet their capabilities on advanced ma...",
-      "whyItMatters": "Published on huggingface with tags: Reasoning, LLMs, Research, Business, RL, Memory, RAG.",
-      "expectedImpact": "Advances the theoretical and practical foundations of Reasoning.",
-      "relatedItemIds": [
-        "25343981802b"
-      ],
-      "tags": [
-        "Reasoning",
+        "AI Coding",
+        "Agents",
+        "Business",
         "LLMs"
       ]
     },
     {
-      "rank": 5,
-      "title": "Understanding the latest trends in Research and Business and LLMs (Issue #231)",
-      "summary": "Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.",
-      "whyItMatters": "Analytical perspective from The Batch (⭐⭐⭐⭐⭐ rating).",
-      "expectedImpact": "Synthesizes critical developments for the AI ecosystem.",
+      "rank": 2,
+      "title": "White House Executive Order Threat Looms Over Open-Source AI Models",
+      "summary": "Interconnects warns that White House discussions are advancing a potential executive order targeting open models — particularly Chinese-origin systems like DeepSeek — with minimal oversight and no central economic champion to defend them. The newsletter frames this as a '6-month window before regulatory dominoes fall,' representing the most serious viability test for open-source AI to date.",
+      "whyItMatters": "Regulatory action could fundamentally alter the open-source AI ecosystem, restricting model distribution, imposing compliance burdens, and shifting competitive advantage to closed-source providers with regulatory moats.",
+      "expectedImpact": "Accelerated consolidation around compliant open models, increased investment in on-premise/air-gapped deployments, and potential chilling effect on international model collaboration.",
       "relatedItemIds": [
+        "edc5f7594aa6",
+        "b6a0b13bc12c",
+        "14df74d3bb6b"
+      ],
+      "tags": [
+        "Open Source",
+        "Policy",
+        "Business",
+        "LLMs"
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Format Sensitivity Index Exposes Fundamental Flaw in LLM Benchmarking",
+      "summary": "A new arXiv paper introduces the Format Sensitivity Index (FSI) and Parseability Sensitivity Index (PSI), demonstrating across 140,000 generations on 7 QA tasks that superficial formatting changes in prompt wrappers can drastically alter benchmark scores and cause model rankings to flip. This reveals that current leaderboard comparisons may reflect incidental formatting choices rather than genuine capability differences.",
+      "whyItMatters": "This undermines the validity of widely cited LLM leaderboards and calls into question procurement decisions, research conclusions, and marketing claims based on benchmark rankings.",
+      "expectedImpact": "Adoption of robustness metrics (FSI/PSI) in evaluation protocols, redesign of benchmark frameworks to control for format variance, and increased scrutiny of model comparison methodologies.",
+      "relatedItemIds": [
+        "73e50eb0892c",
+        "25343981802b",
         "edfefe604600"
       ],
       "tags": [
+        "LLMs",
         "Research",
+        "Evaluation",
+        "Benchmarking"
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Proxy-Guided Update Signal Transfer (PUST) Enables Modular, Compute-Efficient Post-Training",
+      "summary": "The PUST framework introduces a modular post-training paradigm that decouples policy exploration from distribution alignment by using proxy models to generate reusable optimization signals. This enables asynchronous signal generation, cross-model transfer, and significant compute savings compared to methods requiring expensive on-policy exploration for each new task or model.",
+      "whyItMatters": "Post-training compute costs are a major bottleneck for model adaptation; PUST's decoupling architecture could democratize fine-tuning and enable continuous model improvement without full retraining cycles.",
+      "expectedImpact": "New open-source tooling for proxy-guided fine-tuning, reduced compute barriers for domain adaptation, and shift toward composable post-training pipelines.",
+      "relatedItemIds": [
+        "e6ef7e494344",
+        "1963373f7664",
+        "deae4303c432"
+      ],
+      "tags": [
+        "LLMs",
+        "RL",
+        "Research",
+        "Inference"
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Microsoft Deploys AI Agents for Formal Verification of Post-Quantum Cryptography",
+      "summary": "Microsoft Research details how SymCrypt uses Rust, Aeneas, Lean, and AI agents to formally verify production cryptographic implementations (SHA-3 and ML-KEM) against standards. This approach mathematically proves correctness and safety for post-quantum cryptography, with AI agents scaling proof automation while maintaining independent verifiability.",
+      "whyItMatters": "This demonstrates AI agents operating in high-assurance, regulated domains where correctness is non-negotiable — a template for AI in safety-critical infrastructure, finance, and defense.",
+      "expectedImpact": "Expansion of AI-assisted formal methods into other verified software domains, new toolchains combining LLMs with theorem provers, and increased trust in AI-generated code for critical systems.",
+      "relatedItemIds": [
+        "c5059f9eda5f",
+        "543f93cabe75",
+        "c3adaaaa75d7"
+      ],
+      "tags": [
+        "Agents",
+        "RL",
+        "Inference",
+        "Security",
         "Business"
       ]
     }
   ],
   "recommendedReadingOrder": [
-    "Verifying Rust cryptography in SymCrypt, from standards to code",
-    "Empowering India’s next generation of innovators with ATL Saathi",
-    "Metacognition in LLMs: Foundations, Progress, and Opportunities",
-    "AdvancedMathBench: A Benchmark Suite for Advanced Mathematical Proof Generation and Verification",
-    "Understanding the latest trends in Research and Business and LLMs (Issue #231)"
+    "Codex Usage Surges 10x to 7M Users, Signaling Coding Agent Inflection Point",
+    "White House Executive Order Threat Looms Over Open-Source AI Models",
+    "Format Sensitivity Index Exposes Fundamental Flaw in LLM Benchmarking",
+    "Proxy-Guided Update Signal Transfer (PUST) Enables Modular, Compute-Efficient Post-Training",
+    "Microsoft Deploys AI Agents for Formal Verification of Post-Quantum Cryptography"
   ],
-  "estimatedReadingTime": 13,
+  "estimatedReadingTime": 15,
   "topicClusters": [
     {
-      "topic": "Agents",
+      "topic": "Inference",
       "frequency": 19,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "24fc07eb3cb5",
+        "6f3ae0617bb9",
+        "d77282a88dc0",
+        "b7fa5b53f689",
+        "932480177639",
+        "b36501e54cde",
+        "47f0d685fdf3",
+        "53bd5fb58ac8",
+        "8ca5b3e58d31",
+        "085f7ab1f826",
+        "64561dd07499"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [
+        "c5059f9eda5f"
+      ],
+      "relatedRepoIds": [
+        "b6a0b13bc12c",
+        "7166ecafb485",
+        "14df74d3bb6b",
+        "deae4303c432",
+        "68b1fb9303ec"
+      ],
+      "relatedNewsletterIds": [
+        "269823b9f130",
+        "edc5f7594aa6"
+      ]
+    },
+    {
+      "topic": "Agents",
+      "frequency": 20,
       "growth": "rising",
       "relatedPaperIds": [
         "c3adaaaa75d7",
@@ -113,41 +167,14 @@
         "6d558ac6ba23",
         "1941bc8214c6"
       ],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Inference",
-      "frequency": 16,
-      "growth": "declining",
-      "relatedPaperIds": [
-        "6f3ae0617bb9",
-        "d77282a88dc0",
-        "b7fa5b53f689",
-        "932480177639",
-        "b36501e54cde",
-        "47f0d685fdf3",
-        "53bd5fb58ac8",
-        "8ca5b3e58d31",
-        "085f7ab1f826",
-        "64561dd07499"
-      ],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [
-        "c5059f9eda5f"
-      ],
-      "relatedRepoIds": [
-        "b6a0b13bc12c",
-        "7166ecafb485",
-        "14df74d3bb6b",
-        "deae4303c432",
-        "68b1fb9303ec"
-      ],
-      "relatedNewsletterIds": []
+      "relatedNewsletterIds": [
+        "269823b9f130"
+      ]
     },
     {
       "topic": "llama",
       "frequency": 2,
-      "growth": "stable",
+      "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
@@ -158,57 +185,9 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "Minecraft",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "953373917774"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Brilliant",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "953373917774"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Brilliant Idea",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "953373917774"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "continue open-source",
-      "frequency": 1,
-      "growth": "stable",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "233a4f836599"
-      ],
-      "relatedNewsletterIds": []
-    },
-    {
       "topic": "agent",
       "frequency": 5,
-      "growth": "stable",
+      "growth": "rising",
       "relatedPaperIds": [
         "4a2b45a0b67d",
         "932480177639",
@@ -223,21 +202,9 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "continue",
-      "frequency": 1,
-      "growth": "declining",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "233a4f836599"
-      ],
-      "relatedNewsletterIds": []
-    },
-    {
       "topic": "Business",
-      "frequency": 16,
-      "growth": "stable",
+      "frequency": 17,
+      "growth": "rising",
       "relatedPaperIds": [
         "25343981802b",
         "e6ef7e494344",
@@ -258,16 +225,87 @@
       "relatedNewsletterIds": [
         "edfefe604600",
         "9a033797a8f8",
+        "269823b9f130",
         "6145bf9087f7",
         "048b1b572f9c"
+      ]
+    },
+    {
+      "topic": "continue",
+      "frequency": 1,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "continue open-source",
+      "frequency": 1,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "open-source",
+      "frequency": 3,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "6e4a3eba4af7"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": [
+        "edc5f7594aa6"
+      ]
+    },
+    {
+      "topic": "OpenHands",
+      "frequency": 1,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "6d558ac6ba23"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "issue",
+      "frequency": 6,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "ae65acbc569e"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "edfefe604600",
+        "9a033797a8f8",
+        "6145bf9087f7",
+        "048b1b572f9c",
+        "2fdf23086d32"
       ]
     }
   ],
   "newsletters": [
     {
       "id": "edfefe604600",
-      "title": "Understanding the latest trends in Research and Business and LLMs (Issue #231)",
-      "date": "2026-07-14T08:18:56.397Z",
+      "title": "Understanding the latest trends in Research and Business and LLMs (Issue #157)",
+      "date": "2026-07-14T13:41:18.431Z",
       "source": "The Batch",
       "url": "https://example.com/mock/the-batch",
       "summary": "Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.",
@@ -282,8 +320,8 @@
     },
     {
       "id": "9a033797a8f8",
-      "title": "Understanding the latest trends in Research and Open Source and Business (Issue #151)",
-      "date": "2026-07-14T08:18:56.277Z",
+      "title": "Understanding the latest trends in Research and Open Source and Business (Issue #242)",
+      "date": "2026-07-14T13:41:18.377Z",
       "source": "Import AI",
       "url": "https://example.com/mock/import-ai",
       "summary": "Jack Clark's weekly analysis of machine learning progress, model safety policies, computational resource scaling, and national AI strategies. This issue explores key methodologies, benchmarks, and community findings in the Research, Open Source, Business ecosystem.",
@@ -302,13 +340,25 @@
       "date": "Tue, 14 Jul 2026 01:22:27 GMT",
       "source": "Latent Space",
       "url": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
-      "summary": "a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting...",
-      "content": "a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting...",
+      "summary": "Congrats to Allen for the next episode of the Latent Space Food show with Engram CEO Dan Biderman today, and to the Prime Intellect folks on their 1B valuation, $100M ARR, and verifiers v1. Today was pretty quiet and people are still deeply digesting last week’s multiple frontier model launches. We",
+      "content": "Congrats to Allen for the next episode of the Latent Space Food show with Engram CEO Dan Biderman today, and to the Prime Intellect folks on their 1B valuation, $100M ARR, and verifiers v1.\n\nToday was pretty quiet and people are still deeply digesting last week’s multiple frontier model launches. We were going to write “not much happened today”, but we also have a policy of updating you repeatedly on outlier trends that you should really be on top of. In reviewing the Reddit AINews recaps below surfaced this post, we saw a tweet we had missed before -\n\nGPT 5.6 was launched on July 9.\n\nThis tweet on July 12 says they hit 6M users in the prior 48 hours (Jul 10-12).\n\nThen 24.5 hours later Tibo reports 7M users…\n\n…oddly coinciding with a surprise extension of Claude Fable’s subscription status (we have of course no idea if the two are related, but the permanently online conspiracy theorists are of course making a connection).\n\nWe of course recall Fidji’s March disclosure of 2M Codex users, which allows us to update our AIE NYC 2025 chart (AIE NYC 2026 is next!):\n\n[]\n\n• •\n\nComparatively, the last update we got about Claude Code is the roughly 2M users and $2.5B ARR in Feb (“The number of weekly active Claude Code users has also doubled since January 1 [six weeks ago].\"). Now we have a sense of where Codex started the year (Fidji puts the Jan 1 number at around 550k-700k users), we can reasonably conclude that Codex has followed a similar trajectory and is now around 10x user growth year to date.\n\nThe charitable interpretation on Claude Code’s comparative silence on reporting, of course, is that they moved the bulk of coding to Claude Tag months ago and are now focusing users there, which will have different/hard to compare usage statistics given the different accessibility of a Slackbot vs a CLI tool.\n\nBut 10x growth in 6 months is an impressive number to beat nonetheless.\n\n>\nAI News for 7/11/2026-7/13/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!\n\n---\n\nAI Twitter Recap\n\nAgent RL Infrastructure: Prime Intellect’s Verifiers v1 and Long-Horizon Rollouts\n•\nPrime Intellect’s verifiers v1: Prime Intellect released verifiers v1, a substantial redesign of its environment stack for agentic RL and evals. The key abstraction splits environments into a taskset, harness, and runtime, explicitly supporting “bring your own harness” workflows for coding and computer-use agents across heterogeneous execution setups, as highlighted by Johannes Hage and in a follow-up deep dive. The release was framed by team members as months of infra modernization work with major efficiency gains, including richer commentary from willccbb, mikasenghaas, and xeophon.\n\n•\nWhy it matters technically: one of the most important underlying changes is that rollout traces are now stored as message DAGs, so each message is stored once instead of repeatedly copied into full histories; that shifts trace growth from O(n²) to O(n) in turn count, making long-horizon multimodal rollouts and router replay much more practical, per Prime Intellect. The team also claimed a concrete training configuration: a 100B reasoning model, on 40-turn SWE agent tasks, in a user-supplied coding harness, for 1000 RL steps, using 6 H200 nodes in under 2 days (willccbb). That claim was reinforced by ecosystem support from vLLM, which noted verifiers’ rollout path runs on vLLM with exact token IDs/logprobs to avoid tokenization drift between serving and training.\n\nCoding Agents, Harness Design, and Cost-Per-Task Competition\n•\nHarnesses are becoming the product surface: several posts converged on the idea that model quality is no longer the only differentiator; the harness/orchestrator increasingly determines outcomes. threepointone’s talk was summarized as “the harness is the app,” while LangChain argued that winning agent products will come from task-specialized harnesses, not generic wrappers. Factory pushed a related UI angle with “design mode,” where users point at UI elements/files instead of verbally re-specifying edits. On the orchestration side, omarsar0 emphasized provider-switching across models as a hedge against pricing/policy churn.\n\n•\nBenchmarks are moving from token price to cost per task: skirano built a coding-agent index explorer and found notable cost/perf tradeoffs such as Terra Max slightly ahead of Fable 5 Max on score for materially lower cost, while Cognition reported that Devin Fusion now uses Fable 5 and that, surprisingly, it can be lower cost per task than Opus 4.8 because stronger delegation and judgment reduce unnecessary work. imjaredz highlighted the key stat from those experiments: in 81% of Fable-led runs, the lead model never makes a code edit, implying expensive models can be cheaper when they avoid wasted actions.\n\n•\nReal-world agent benchmarks are getting denser: Arena placed GPT-5.6 Sol at #2 on its agent leaderboard based on 7.8K real-world agentic sessions, with strong steerability and task success; later, Arena put Grok-4.5 at #13, a significant jump over Grok 4.3. Artificial Analysis also emphasized cost per task as an increasingly important metric for long-horizon knowledge work, arguing token pricing alone misses effects from turns, verbosity, and cache hit rates. Separate evaluation work from Parlance Labs compared automated eval platforms and foundation models on failure analysis over production voice-agent traces, while dair.ai highlighted a paper on the anatomy of CLI coding-agent failures, focusing on where runs become unrecoverable rather than only final pass/fail.\n\nOpenAI GPT-5.6 Sol, Codex Usage Fixes, and Product Surface Expansion\n•\nOpenAI addressed Codex/Sol usage burn transparently: the biggest operational thread came from thsottiaux, who explained several fixes for GPT-5.6 Sol in ChatGPT Work/Codex: inference optimizations yielding roughly 10% more usage, a rollback of context limit from 372k to 272k after billing/usage side effects, reversion of some experimental reasoning-effort (“juice”) changes, and fixes for overactive multi-agent behavior at high/xhigh settings. Community reverse-engineering from theo proposed that compounding factors around long context, subagent spawning, and fast mode were behind the severe burn, though he later corrected one billing detail in a follow-up. Reactions split between criticism of a perceived “nerf” narrative (ns123abc) and praise for unusual transparency (theo, sama).\n\n•\nUsers are reporting strong coding/computer-use capability: multiple practitioners argued that OpenAI has taken the lead on coding models, including schrockn, while gdb repeatedly showcased ChatGPT Work and Codex workflows for startup prospecting, web design, mobile work, and site generation. Particularly illustrative user demos included Star_Knight12 using Sol in Cursor to set up Blender MCP and render a floating MacBook without prior Blender experience, and petergostev showing GPT-5.6 Sol Ultra building a Doom-like game in SQL.\n\n•\nProduct-level expansion continues: ChatGPTapp announced ChatGPT’s return to WhatsApp in the EEA, plus Kakao/Viber support in additional markets. OpenAIDevs opened submissions for OpenAI Build Week. Across the OpenAI ecosystem, gdb summarized the moment succinctly: “you can just create things.”\n\nOpen Models, Inference Systems, and Quantization\n•\nTransformers↔vLLM integration removes duplicated model implementation work: Clement Delangue highlighted a major open-inference usability improvement: Hugging Face Transformers models can now run in vLLM at native speed, often matching or exceeding hand-written implementations. If this generalizes broadly, it reduces the long-standing burden of implementing each new architecture twice—once for research/training and once for high-performance serving—and could materially accelerate adoption of new open model architectures.\n\n•\nQuantization remains a major lever: waterloo_intern previewed a new quantization method claimed to beat existing approaches, including NVIDIA’s ModelOpt, by finding better layerwise precision assignments faster, with more aggressive quantization and higher benchmark scores. Complementing that, Unsloth published an AWS guide to LLM quantization and deployment spanning GGUF, NVFP4, and FP8. There was also practitioner commentary around fp4 RL / fp4 serving from nrehiew_, arguing low-bit post-training may enable cheap serving with limited quality loss.\n\n•\nGLM-5.2 and local/open coding stacks continue to gain traction: several users described moving real workflows onto open or semi-open setups. juanjucm wrote up using GLM-5.2 for coding-agent workflows, while TheZachMueller reported migrating one actual work pipeline from Claude to a stack built around GLM 5.2 NVFP4 plus Kimi K2.7 Code NVFP4 on an 8xB200 node, getting denser reports for pennies albeit at slower wall-clock latency. nutlope also released LlamaCoder v4, rebuilt around GLM 5.2.\n\nSecurity, Privacy, and Data Control in Agent Tooling\n•\nGrok Build code upload controversy: the most consequential security story came from IntCyberDigest and hrkrshnn, who alleged that xAI’s Grok Build CLI was uploading entire repositories—including private code and secrets—to a Google Cloud bucket, far beyond what was needed for the coding task. The criticism centered on scope, silent server-side mitigation, and unclear retention/deletion guarantees. This triggered broader discussion about what agent tools actually transmit and why opt-out UX can diverge from wire-level behavior.\n\n•\nxAI’s response emphasized ZDR and privacy controls: SpaceXAI replied that for teams using zero data retention, trace and code data is not retained, API key use respects ZDR, and the /privacy command can disable retention and delete previously synced data. That answered some operational questions but did not fully resolve community concern around default behavior, prior uploads, and disclosure norms.\n\n•\nTrust boundaries are becoming a central open-vs-closed argument: several posts extended the conversation beyond this incident. mchiang0610 and jmorgan argued that open models are not just about cost but about control over the human-AI learning loop and keeping institutional knowledge in-house. Arav Srinivas said ZDR availability was one reason Perplexity integrated Grok 4.5 quickly into its Computer harness.\n\nContinual Learning, Multimodal Systems, and Research Directions\n•\nContinual learning is re-emerging as a first-class systems problem: ysu_nlp argued that a world where every organization owns its own human-AI learning loop depends on solving continual learning, and that current approaches—memory/RAG, domain post-training, task RL—are not yet sufficient. That theme recurred in new work from skyfallai, which introduced Morpheus, described as a persistent enterprise simulation for real-world RL where the world does not reset; fchollet endorsed it as a benchmark better aligned with real deployment than stationary episodic RL.\n\n•\n“Sleep and dreaming” for LLMs: behrouz_ali and coauthors proposed that LLMs may need a sleep phase to consolidate short-term into long-term memory plus a dreaming phase for recursive self-improvement, introducing Knowledge Seeding and reporting benefits on continual learning/reasoning tasks. This dovetails with broader dissatisfaction around current continual-learning recipes and with Oak Lab, the new venture from Rich Sutton and collaborators pursuing animal-like intelligence that learns from experience rather than today’s standard LLM pipeline.\n\n•\nA broad spread of non-LLM-agent research shipped: notable items included Sakana AI’s Smart Cellular Bricks for decentralized physical self-recognition and repair in modular systems; ByteDance’s UniVR-34B, described as learning reasoning/dynamics/planning directly from visual demonstrations; Google DeepMind’s Predicting the Past skill for historical inference workflows; and Anthropic’s research on how Claude’s expressed values vary across models and languages based on analysis of 300K+ anonymized conversations.\n\nTop tweets (by engagement)\n•\nOpenAI Codex/Sol usage fixes: thsottiaux on GPT-5.6 Sol usage, context, “juice,” and multi-agent fixes\n\n•\nGrok Build privacy incident: IntCyberDigest on full-repo uploads to xAI cloud buckets\n\n•\nOpenAI response tone and user treatment: sama: “come for the best model, stay because we don’t treat you with contempt”\n\n•\nPrime Intellect rollout efficiency: willccbb on training a 100B reasoning model for 40-turn SWE RL on 6 H200s in under 2 days\n\n•\nAnthropic values research: Anthropic on model/language-dependent value expression across 300K+ conversations\n\n•\nTransformers + vLLM interoperability: Clement Delangue on running Transformers models in vLLM at native speed\n\n---\n\nAI Reddit Recap\n\n/r/LocalLlama + /r/localLLM Recap\n\n1. E-Waste GPU Inference Benchmarks and Fixes\n\n\n\n\nRead more",
       "tags": [
-        "LLMs"
+        "Agents",
+        "Reasoning",
+        "LLMs",
+        "Computer Vision",
+        "AI Coding",
+        "Open Source",
+        "Research",
+        "Business",
+        "MCP",
+        "RL",
+        "Inference",
+        "Memory",
+        "RAG"
       ],
       "quality": 5,
-      "readTime": "5 min read"
+      "readTime": "10 min read"
     },
     {
       "id": "edc5f7594aa6",
@@ -316,18 +366,24 @@
       "date": "Sun, 12 Jul 2026 16:47:42 GMT",
       "source": "Interconnects",
       "url": "https://www.interconnects.ai/p/6-months-to-live-for-open-models",
-      "summary": "The most serious test to date of open source AI’s viability is happening right now.",
-      "content": "The most serious test to date of open source AI’s viability is happening right now.",
+      "summary": "The most serious test to date of open source AI’s viability is happening right now. I’ve seen many waves of anti open-source AI rhetoric come and go since ChatGPT was launched, but none of them had obvious analogues in their potential enforcement to real action already in place targeting the peer, c",
+      "content": "The most serious test to date of open source AI’s viability is happening right now. I’ve seen many waves of anti open-source AI rhetoric come and go since ChatGPT was launched, but none of them had obvious analogues in their potential enforcement to real action already in place targeting the peer, closed models of the day. It is more real because new forms of regulation are being tested and implemented, with minimal oversight. I will be doing far more policy-facing writing than usual until this passes.\n\nAs of writing this, many sources are citing White House discussions on how to manage open models via a new executive order. There is no official information here, and it would likely impact a) Chinese-origin models and b) government uses only, but this is how the dominoes start to fall.\n\nOpen models lack the central economic champion to represent the potential downside of action against them. From recent coverage of the events surrounding model licensing agreements for Fable (and then GPT-5.6), more was said about what unfolded on June 9th:\n\n>\nAt the meeting, the topic of how the program will deal with open-source AI models came up, according to a person familiar with the session. A representative from Reflection AI, a U.S.-based open-source model provider, argued that open-source models should have exemptions from the framework based on their capabilities, the person said. Currently, Chinese open-source models such as DeepSeek have a substantial lead over other available open models, and Reflection has not yet launched a public model.\n\nA ban of any form here would be a big mistake for the long-term trajectory of AI.\n\nThe most likely incoming action is to ban or indefinitely delay any open-weights model meaningfully above the capability level in the range of GPT 5.5, Claude Opus 4.8, or GLM-5.2. With the consistent capability gap, this should be within the next 6 months.\n\nAs it stands, these would most likely be from a Chinese company, which is how this conversation of frontier open model capabilities inextricably becomes linked to other issues such as distillation. The capability threshold for a “right to review” from the government will shift over time, but once in place will likely progress far slower for open models rather than their closed counterparts. This is partially due to closed models being easier to secure but also due to the closed model companies having far more effective lobbying.\n\nSo, this leaves us in a place where there are two crucial policy discussions unfolding at once impacting open models – distillation & frontier capabilities. They’re very different in their nature, the necessity of response, and the potential response space. Still, together they represent the talking points of a surging platform of support for a potential ban of open models in the next 6 months.\n\nThe primary driver motivating regulation today is the inevitable truth that an open-weights model will soon reach the capabilities of Claude’s Mythos model. The actual performance of this openly released model will likely be more jagged, but all it takes is the model getting flagged in the nascent White House AI model checker. It’s hard to unwind new habits motivated by fear.\n\nShare\n\nThe current distillation debates are regulatory capture and doing nothing for now is fine\n\nDistillation is largely a regulatory capture campaign at this point, as the only solutions on the table massively benefit the organizations pushing for it.\n\nTo elaborate, the anti-Chinese models political campaign is led by Anthropic, where they are sharing a mix of blog posts and letters to representatives detailing what the Chinese companies are doing. Anthropic has detected use from foreign companies, which is people coming and paying for its API, and eventually turned off usage and then written strongly worded recommendations of policy action and shared minimal technical evidence. This campaign may have started through a genuine business concern, but it has progressed to be the definition of regulatory capture, as Anthropic would gain substantial economic security in its products if the Chinese model makers they accused were banned.\n\nIf Anthropic was presenting information in a more neutral “you decide what to do” way, the community would have a lot more sympathy. It is more of a policy recommendation than an information sharing exercise at the frontier of a rapidly evolving technology. If Anthropic’s technology is as powerful as they say it is – so powerful that open models like it should likely be banned – then they should be able to secure their API. I continue to wait for them to explain why they cannot. One of their statements would need to be walked back.\n\nAnthropic is also pulling up the ladder for access to intelligence in other ways — so the political recommendations they make in the vein of China competition are consistent with a much broader pattern of restriction of access to competitors of related technology in the vein of safety. It is easy to buy into company culture like an extra safety focus when many employees are on track for generational wealth. I do not blame the employees for this, but Anthropic’s corporate strategy should be understood in these broad, contextual lenses. Ben Thompson’s piece, Anthropic’s Safety Superpower, is the best writing on the subject.\n\nThe action that Anthropic is effectively asking for is the wholesale banning of pretty much all the Chinese open weight models in the U.S. — as any products built around open models are predicated on their continued improvement, increasing product market fit and compute efficiency as models get better. This would demolish the open model economy that is emerging in the US with inference companies, fine tuning companies, new products, and everything in between. We as a community desperately need to hold the line that conceding anything with respect to the distillation conversation is not acceptable.\n\nAnthropic should try to protect their IP, but they shouldn’t ask the government to cement their position and in the process potentially isolate the US from the global open-source community. There are no good solutions to distillation with the information we have, other than letting the labs self-enforce it.\n\nI’ve written at length on distillation in particular. I’ve written directly on its impact on model capabilities and the regulatory environment, and you can search for more in between the lines mentions on Interconnects.\n\nInterconnects AI is a reader-supported publication. Consider becoming a subscriber.\n\nAPIs aren’t magically secure\n\nThere’s a particular messiness to the distillation discussion, where there’s likely meaningful worry of Chinese labs distilling the narrow cybersecurity capabilities of Mythos into an open model. This paints more on the insecurity of current model APIs more than it does on the distillation risk. Even when Claude Mythos was in its most-limited private beta, Discord Sleuths Gained Unauthorized Access to Anthropic’s Mythos. To date, model APIs continue to be jailbroken and accessed in unintended ways.\n\nThis proliferates the risk of capabilities falling to bad actors far more rapidly than anything that involves complex fine-tuning of a 1T+ parameter model. I’m not a cybersecurity expert, but the dichotomy that only open-weight models are insecure and APIs are safe has been very overblown in recent years. APIs in concept should be able to be more secure, but that is yet to be demonstrated.\n\nIf Anthropic has a truly dangerous capability in their models, the only coherent action would be to not host it in a directly queryable API — before the discussion of it being distilled.\n\nReady or not, open models are coming\n\nWhere this becomes hard is that at the same time as these distillation questions, we’re staring down the barrel of “how do we handle frontier open weight models at the general capability level of Mythos?” This is a hard question, and it’s a natural human tendency to want to take a proposed solution to another problem (distillation) and apply it to the new, far more real problem (frontier capabilities).\n\nWe need to figure out the right policy for open frontier capabilities, but a flat out ban is likely not the answer. If the models are not banned in China as well, it is VERY easy for a bad actor to still use said banned open weight model, which negates the safety potential.\n\nAt the same time, if we alone ban the import of certain models, the global open-source community will continue. A world where the U.S. bans these models before China, or other more risk-sensitive cultures, would likely indicate that a form of AI fearmongering (or other social, political momentum) pushed the U.S. government to act early. It feels like speedrunning dystopia in the U.S., as our tech industry – the crown jewels of the economy – looks far more like a Chinese system with control and government investments. These are very bad outcomes!\n\nThe only way to add a ceiling on open-source progress is a global agreement on the management of risks of AI models, which we aren’t close to. Other delays make the AI rollout less predictable in the US and increasingly messy. It’ll feel a lot like the GPT-5.6 rollout, but instead of just limiting the upsides of open, cheaper intelligence to a few companies all the bad actors will immediately have access, too. Open models increase safety by broad access and understanding, not kneecapping the positive actors only.\n\nIn reality, there is no stopping the open-source ecosystem. The people building the best models are assessing risk as well, as China is very risk-sensitive and for example Z ai is already a public company exposed to a comprehensive set of pressures – keeping their rocketing stock up, for one. There will only continue to be more models that cross worrying levels of capabilities. Training AI models is not magic, and we haven’t seen access to building them drop off as the required investment has increased (yet).\n\nOne of the short-term off-ramps for this policy death spiral for open-source, a double-helix of related and complementary, scary issues, is for a company in the U.S. to release a similarly capable open model. This will shift the focus away from “only China is building the open models via distillation” to “we’re all in this together, and we should focus on the complex, moving frontier issues within our ecosystem.” This is an existential priority for open-source, and the companies who have the business reasons to release open-weight models like Microsoft and Meta (commoditizing their complements) should do it ASAP. I have less faith in Meta, with the new leadership, but they benefit from mass access to AI and should not get in their own way. If Reflection is sitting on an okay, but not frontier, model, they may need to release it to save their proposed business direction.\n\nThe shorter term solution than training a new model is to build the coalition. Open-source is a diffuse technology, without clear ownership, but the benefits will be shared by so many. This “everyone else” outside the frontier labs needs to start working today, on how to continue the safe rollout of open-weight models (and lobby for their principles and values) to the powers that be.\n\nRising temperatures in the AI discourse\n\n\n\n\nRead more",
       "tags": [
-        "Open Source"
+        "LLMs",
+        "Open Source",
+        "RL",
+        "Inference",
+        "Memory",
+        "RAG",
+        "Synthetic Data"
       ],
       "quality": 5,
-      "readTime": "5 min read"
+      "readTime": "9 min read"
     },
     {
       "id": "6145bf9087f7",
-      "title": "Understanding the latest trends in Business and LLMs and AI Coding (Issue #184)",
-      "date": "2026-07-14T08:18:56.997Z",
+      "title": "Understanding the latest trends in Business and LLMs and AI Coding (Issue #244)",
+      "date": "2026-07-14T13:41:18.756Z",
       "source": "The Rundown AI",
       "url": "https://example.com/mock/the-rundown-ai",
       "summary": "Daily briefing on the latest developments in artificial intelligence, focusing on commercial tools, LLM features, and productivity applications. This issue explores key methodologies, benchmarks, and community findings in the Business, LLMs, AI Coding ecosystem.",
@@ -342,8 +398,8 @@
     },
     {
       "id": "048b1b572f9c",
-      "title": "Understanding the latest trends in LLMs and AI Coding and Business (Issue #167)",
-      "date": "2026-07-14T08:18:56.801Z",
+      "title": "Understanding the latest trends in LLMs and AI Coding and Business (Issue #189)",
+      "date": "2026-07-14T13:41:18.677Z",
       "source": "Ben's Bites",
       "url": "https://example.com/mock/ben's-bites",
       "summary": "A rapid daily digest covering the newest AI model releases, products, browser extensions, and early-stage startup updates. This issue explores key methodologies, benchmarks, and community findings in the LLMs, AI Coding, Business ecosystem.",
@@ -358,8 +414,8 @@
     },
     {
       "id": "2fdf23086d32",
-      "title": "Understanding the latest trends in Research and LLMs and Open Source (Issue #222)",
-      "date": "2026-07-14T08:18:56.408Z",
+      "title": "Understanding the latest trends in Research and LLMs and Open Source (Issue #243)",
+      "date": "2026-07-14T13:41:18.482Z",
       "source": "TLDR AI",
       "url": "https://example.com/mock/tldr-ai",
       "summary": "A curated daily summary of the most interesting developments in AI, machine learning research, and developer ecosystems. This issue explores key methodologies, benchmarks, and community findings in the Research, LLMs, Open Source ecosystem.",

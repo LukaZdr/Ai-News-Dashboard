@@ -1,30 +1,8 @@
 [
   {
-<<<<<<< Updated upstream
     "id": "6145bf9087f7",
-    "title": "Understanding the latest trends in Business and LLMs and AI Coding (Issue #184)",
-    "date": "2026-07-14T08:18:56.997Z",
-=======
-    "id": "048b1b572f9c",
-    "title": "Understanding the latest trends in LLMs and AI Coding and Business (Issue #184)",
-    "date": "2026-07-13T12:14:25.129Z",
-    "source": "Ben's Bites",
-    "url": "https://example.com/mock/ben's-bites",
-    "summary": "A rapid daily digest covering the newest AI model releases, products, browser extensions, and early-stage startup updates. This issue explores key methodologies, benchmarks, and community findings in the LLMs, AI Coding, Business ecosystem.",
-    "content": "A rapid daily digest covering the newest AI model releases, products, browser extensions, and early-stage startup updates. This issue explores key methodologies, benchmarks, and community findings in the LLMs, AI Coding, Business ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
-    "tags": [
-      "LLMs",
-      "AI Coding",
-      "Business"
-    ],
-    "quality": 4,
-    "readTime": "6 min read"
-  },
-  {
-    "id": "6145bf9087f7",
-    "title": "Understanding the latest trends in Business and LLMs and AI Coding (Issue #186)",
-    "date": "2026-07-13T12:14:24.297Z",
->>>>>>> Stashed changes
+    "title": "Understanding the latest trends in Business and LLMs and AI Coding (Issue #244)",
+    "date": "2026-07-14T13:41:18.756Z",
     "source": "The Rundown AI",
     "url": "https://example.com/mock/the-rundown-ai",
     "summary": "Daily briefing on the latest developments in artificial intelligence, focusing on commercial tools, LLM features, and productivity applications. This issue explores key methodologies, benchmarks, and community findings in the Business, LLMs, AI Coding ecosystem.",
@@ -38,23 +16,13 @@
     "readTime": "6 min read"
   },
   {
-<<<<<<< Updated upstream
     "id": "048b1b572f9c",
-    "title": "Understanding the latest trends in LLMs and AI Coding and Business (Issue #167)",
-    "date": "2026-07-14T08:18:56.801Z",
+    "title": "Understanding the latest trends in LLMs and AI Coding and Business (Issue #189)",
+    "date": "2026-07-14T13:41:18.677Z",
     "source": "Ben's Bites",
     "url": "https://example.com/mock/ben's-bites",
     "summary": "A rapid daily digest covering the newest AI model releases, products, browser extensions, and early-stage startup updates. This issue explores key methodologies, benchmarks, and community findings in the LLMs, AI Coding, Business ecosystem.",
     "content": "A rapid daily digest covering the newest AI model releases, products, browser extensions, and early-stage startup updates. This issue explores key methodologies, benchmarks, and community findings in the LLMs, AI Coding, Business ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
-=======
-    "id": "edfefe604600",
-    "title": "Understanding the latest trends in Research and Business and LLMs (Issue #232)",
-    "date": "2026-07-13T12:14:24.185Z",
-    "source": "The Batch",
-    "url": "https://example.com/mock/the-batch",
-    "summary": "Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.",
-    "content": "Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
->>>>>>> Stashed changes
     "tags": [
       "LLMs",
       "AI Coding",
@@ -65,13 +33,8 @@
   },
   {
     "id": "2fdf23086d32",
-<<<<<<< Updated upstream
-    "title": "Understanding the latest trends in Research and LLMs and Open Source (Issue #222)",
-    "date": "2026-07-14T08:18:56.408Z",
-=======
-    "title": "Understanding the latest trends in Research and LLMs and Open Source (Issue #185)",
-    "date": "2026-07-13T12:14:24.014Z",
->>>>>>> Stashed changes
+    "title": "Understanding the latest trends in Research and LLMs and Open Source (Issue #243)",
+    "date": "2026-07-14T13:41:18.482Z",
     "source": "TLDR AI",
     "url": "https://example.com/mock/tldr-ai",
     "summary": "A curated daily summary of the most interesting developments in AI, machine learning research, and developer ecosystems. This issue explores key methodologies, benchmarks, and community findings in the Research, LLMs, Open Source ecosystem.",
@@ -85,10 +48,9 @@
     "readTime": "6 min read"
   },
   {
-<<<<<<< Updated upstream
     "id": "edfefe604600",
-    "title": "Understanding the latest trends in Research and Business and LLMs (Issue #231)",
-    "date": "2026-07-14T08:18:56.397Z",
+    "title": "Understanding the latest trends in Research and Business and LLMs (Issue #157)",
+    "date": "2026-07-14T13:41:18.431Z",
     "source": "The Batch",
     "url": "https://example.com/mock/the-batch",
     "summary": "Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.",
@@ -103,8 +65,8 @@
   },
   {
     "id": "9a033797a8f8",
-    "title": "Understanding the latest trends in Research and Open Source and Business (Issue #151)",
-    "date": "2026-07-14T08:18:56.277Z",
+    "title": "Understanding the latest trends in Research and Open Source and Business (Issue #242)",
+    "date": "2026-07-14T13:41:18.377Z",
     "source": "Import AI",
     "url": "https://example.com/mock/import-ai",
     "summary": "Jack Clark's weekly analysis of machine learning progress, model safety policies, computational resource scaling, and national AI strategies. This issue explores key methodologies, benchmarks, and community findings in the Research, Open Source, Business ecosystem.",
@@ -123,17 +85,27 @@
     "date": "Tue, 14 Jul 2026 01:22:27 GMT",
     "source": "Latent Space",
     "url": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
-    "summary": "a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting...",
-    "content": "a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting...",
+    "summary": "Congrats to Allen for the next episode of the Latent Space Food show with Engram CEO Dan Biderman today, and to the Prime Intellect folks on their 1B valuation, $100M ARR, and verifiers v1. Today was pretty quiet and people are still deeply digesting last week’s multiple frontier model launches. We",
+    "content": "Congrats to Allen for the next episode of the Latent Space Food show with Engram CEO Dan Biderman today, and to the Prime Intellect folks on their 1B valuation, $100M ARR, and verifiers v1.\n\nToday was pretty quiet and people are still deeply digesting last week’s multiple frontier model launches. We were going to write “not much happened today”, but we also have a policy of updating you repeatedly on outlier trends that you should really be on top of. In reviewing the Reddit AINews recaps below surfaced this post, we saw a tweet we had missed before -\n\nGPT 5.6 was launched on July 9.\n\nThis tweet on July 12 says they hit 6M users in the prior 48 hours (Jul 10-12).\n\nThen 24.5 hours later Tibo reports 7M users…\n\n…oddly coinciding with a surprise extension of Claude Fable’s subscription status (we have of course no idea if the two are related, but the permanently online conspiracy theorists are of course making a connection).\n\nWe of course recall Fidji’s March disclosure of 2M Codex users, which allows us to update our AIE NYC 2025 chart (AIE NYC 2026 is next!):\n\n[]\n\n• •\n\nComparatively, the last update we got about Claude Code is the roughly 2M users and $2.5B ARR in Feb (“The number of weekly active Claude Code users has also doubled since January 1 [six weeks ago].\"). Now we have a sense of where Codex started the year (Fidji puts the Jan 1 number at around 550k-700k users), we can reasonably conclude that Codex has followed a similar trajectory and is now around 10x user growth year to date.\n\nThe charitable interpretation on Claude Code’s comparative silence on reporting, of course, is that they moved the bulk of coding to Claude Tag months ago and are now focusing users there, which will have different/hard to compare usage statistics given the different accessibility of a Slackbot vs a CLI tool.\n\nBut 10x growth in 6 months is an impressive number to beat nonetheless.\n\n>\nAI News for 7/11/2026-7/13/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!\n\n---\n\nAI Twitter Recap\n\nAgent RL Infrastructure: Prime Intellect’s Verifiers v1 and Long-Horizon Rollouts\n•\nPrime Intellect’s verifiers v1: Prime Intellect released verifiers v1, a substantial redesign of its environment stack for agentic RL and evals. The key abstraction splits environments into a taskset, harness, and runtime, explicitly supporting “bring your own harness” workflows for coding and computer-use agents across heterogeneous execution setups, as highlighted by Johannes Hage and in a follow-up deep dive. The release was framed by team members as months of infra modernization work with major efficiency gains, including richer commentary from willccbb, mikasenghaas, and xeophon.\n\n•\nWhy it matters technically: one of the most important underlying changes is that rollout traces are now stored as message DAGs, so each message is stored once instead of repeatedly copied into full histories; that shifts trace growth from O(n²) to O(n) in turn count, making long-horizon multimodal rollouts and router replay much more practical, per Prime Intellect. The team also claimed a concrete training configuration: a 100B reasoning model, on 40-turn SWE agent tasks, in a user-supplied coding harness, for 1000 RL steps, using 6 H200 nodes in under 2 days (willccbb). That claim was reinforced by ecosystem support from vLLM, which noted verifiers’ rollout path runs on vLLM with exact token IDs/logprobs to avoid tokenization drift between serving and training.\n\nCoding Agents, Harness Design, and Cost-Per-Task Competition\n•\nHarnesses are becoming the product surface: several posts converged on the idea that model quality is no longer the only differentiator; the harness/orchestrator increasingly determines outcomes. threepointone’s talk was summarized as “the harness is the app,” while LangChain argued that winning agent products will come from task-specialized harnesses, not generic wrappers. Factory pushed a related UI angle with “design mode,” where users point at UI elements/files instead of verbally re-specifying edits. On the orchestration side, omarsar0 emphasized provider-switching across models as a hedge against pricing/policy churn.\n\n•\nBenchmarks are moving from token price to cost per task: skirano built a coding-agent index explorer and found notable cost/perf tradeoffs such as Terra Max slightly ahead of Fable 5 Max on score for materially lower cost, while Cognition reported that Devin Fusion now uses Fable 5 and that, surprisingly, it can be lower cost per task than Opus 4.8 because stronger delegation and judgment reduce unnecessary work. imjaredz highlighted the key stat from those experiments: in 81% of Fable-led runs, the lead model never makes a code edit, implying expensive models can be cheaper when they avoid wasted actions.\n\n•\nReal-world agent benchmarks are getting denser: Arena placed GPT-5.6 Sol at #2 on its agent leaderboard based on 7.8K real-world agentic sessions, with strong steerability and task success; later, Arena put Grok-4.5 at #13, a significant jump over Grok 4.3. Artificial Analysis also emphasized cost per task as an increasingly important metric for long-horizon knowledge work, arguing token pricing alone misses effects from turns, verbosity, and cache hit rates. Separate evaluation work from Parlance Labs compared automated eval platforms and foundation models on failure analysis over production voice-agent traces, while dair.ai highlighted a paper on the anatomy of CLI coding-agent failures, focusing on where runs become unrecoverable rather than only final pass/fail.\n\nOpenAI GPT-5.6 Sol, Codex Usage Fixes, and Product Surface Expansion\n•\nOpenAI addressed Codex/Sol usage burn transparently: the biggest operational thread came from thsottiaux, who explained several fixes for GPT-5.6 Sol in ChatGPT Work/Codex: inference optimizations yielding roughly 10% more usage, a rollback of context limit from 372k to 272k after billing/usage side effects, reversion of some experimental reasoning-effort (“juice”) changes, and fixes for overactive multi-agent behavior at high/xhigh settings. Community reverse-engineering from theo proposed that compounding factors around long context, subagent spawning, and fast mode were behind the severe burn, though he later corrected one billing detail in a follow-up. Reactions split between criticism of a perceived “nerf” narrative (ns123abc) and praise for unusual transparency (theo, sama).\n\n•\nUsers are reporting strong coding/computer-use capability: multiple practitioners argued that OpenAI has taken the lead on coding models, including schrockn, while gdb repeatedly showcased ChatGPT Work and Codex workflows for startup prospecting, web design, mobile work, and site generation. Particularly illustrative user demos included Star_Knight12 using Sol in Cursor to set up Blender MCP and render a floating MacBook without prior Blender experience, and petergostev showing GPT-5.6 Sol Ultra building a Doom-like game in SQL.\n\n•\nProduct-level expansion continues: ChatGPTapp announced ChatGPT’s return to WhatsApp in the EEA, plus Kakao/Viber support in additional markets. OpenAIDevs opened submissions for OpenAI Build Week. Across the OpenAI ecosystem, gdb summarized the moment succinctly: “you can just create things.”\n\nOpen Models, Inference Systems, and Quantization\n•\nTransformers↔vLLM integration removes duplicated model implementation work: Clement Delangue highlighted a major open-inference usability improvement: Hugging Face Transformers models can now run in vLLM at native speed, often matching or exceeding hand-written implementations. If this generalizes broadly, it reduces the long-standing burden of implementing each new architecture twice—once for research/training and once for high-performance serving—and could materially accelerate adoption of new open model architectures.\n\n•\nQuantization remains a major lever: waterloo_intern previewed a new quantization method claimed to beat existing approaches, including NVIDIA’s ModelOpt, by finding better layerwise precision assignments faster, with more aggressive quantization and higher benchmark scores. Complementing that, Unsloth published an AWS guide to LLM quantization and deployment spanning GGUF, NVFP4, and FP8. There was also practitioner commentary around fp4 RL / fp4 serving from nrehiew_, arguing low-bit post-training may enable cheap serving with limited quality loss.\n\n•\nGLM-5.2 and local/open coding stacks continue to gain traction: several users described moving real workflows onto open or semi-open setups. juanjucm wrote up using GLM-5.2 for coding-agent workflows, while TheZachMueller reported migrating one actual work pipeline from Claude to a stack built around GLM 5.2 NVFP4 plus Kimi K2.7 Code NVFP4 on an 8xB200 node, getting denser reports for pennies albeit at slower wall-clock latency. nutlope also released LlamaCoder v4, rebuilt around GLM 5.2.\n\nSecurity, Privacy, and Data Control in Agent Tooling\n•\nGrok Build code upload controversy: the most consequential security story came from IntCyberDigest and hrkrshnn, who alleged that xAI’s Grok Build CLI was uploading entire repositories—including private code and secrets—to a Google Cloud bucket, far beyond what was needed for the coding task. The criticism centered on scope, silent server-side mitigation, and unclear retention/deletion guarantees. This triggered broader discussion about what agent tools actually transmit and why opt-out UX can diverge from wire-level behavior.\n\n•\nxAI’s response emphasized ZDR and privacy controls: SpaceXAI replied that for teams using zero data retention, trace and code data is not retained, API key use respects ZDR, and the /privacy command can disable retention and delete previously synced data. That answered some operational questions but did not fully resolve community concern around default behavior, prior uploads, and disclosure norms.\n\n•\nTrust boundaries are becoming a central open-vs-closed argument: several posts extended the conversation beyond this incident. mchiang0610 and jmorgan argued that open models are not just about cost but about control over the human-AI learning loop and keeping institutional knowledge in-house. Arav Srinivas said ZDR availability was one reason Perplexity integrated Grok 4.5 quickly into its Computer harness.\n\nContinual Learning, Multimodal Systems, and Research Directions\n•\nContinual learning is re-emerging as a first-class systems problem: ysu_nlp argued that a world where every organization owns its own human-AI learning loop depends on solving continual learning, and that current approaches—memory/RAG, domain post-training, task RL—are not yet sufficient. That theme recurred in new work from skyfallai, which introduced Morpheus, described as a persistent enterprise simulation for real-world RL where the world does not reset; fchollet endorsed it as a benchmark better aligned with real deployment than stationary episodic RL.\n\n•\n“Sleep and dreaming” for LLMs: behrouz_ali and coauthors proposed that LLMs may need a sleep phase to consolidate short-term into long-term memory plus a dreaming phase for recursive self-improvement, introducing Knowledge Seeding and reporting benefits on continual learning/reasoning tasks. This dovetails with broader dissatisfaction around current continual-learning recipes and with Oak Lab, the new venture from Rich Sutton and collaborators pursuing animal-like intelligence that learns from experience rather than today’s standard LLM pipeline.\n\n•\nA broad spread of non-LLM-agent research shipped: notable items included Sakana AI’s Smart Cellular Bricks for decentralized physical self-recognition and repair in modular systems; ByteDance’s UniVR-34B, described as learning reasoning/dynamics/planning directly from visual demonstrations; Google DeepMind’s Predicting the Past skill for historical inference workflows; and Anthropic’s research on how Claude’s expressed values vary across models and languages based on analysis of 300K+ anonymized conversations.\n\nTop tweets (by engagement)\n•\nOpenAI Codex/Sol usage fixes: thsottiaux on GPT-5.6 Sol usage, context, “juice,” and multi-agent fixes\n\n•\nGrok Build privacy incident: IntCyberDigest on full-repo uploads to xAI cloud buckets\n\n•\nOpenAI response tone and user treatment: sama: “come for the best model, stay because we don’t treat you with contempt”\n\n•\nPrime Intellect rollout efficiency: willccbb on training a 100B reasoning model for 40-turn SWE RL on 6 H200s in under 2 days\n\n•\nAnthropic values research: Anthropic on model/language-dependent value expression across 300K+ conversations\n\n•\nTransformers + vLLM interoperability: Clement Delangue on running Transformers models in vLLM at native speed\n\n---\n\nAI Reddit Recap\n\n/r/LocalLlama + /r/localLLM Recap\n\n1. E-Waste GPU Inference Benchmarks and Fixes\n\n\n\n\nRead more",
     "tags": [
-      "LLMs"
+      "Agents",
+      "Reasoning",
+      "LLMs",
+      "Computer Vision",
+      "AI Coding",
+      "Open Source",
+      "Research",
+      "Business",
+      "MCP",
+      "RL",
+      "Inference",
+      "Memory",
+      "RAG"
     ],
     "quality": 5,
-    "readTime": "5 min read"
+    "readTime": "10 min read"
   },
   {
-=======
->>>>>>> Stashed changes
     "id": "edc5f7594aa6",
     "title": "6 months to live for open models",
     "date": "Sun, 12 Jul 2026 16:47:42 GMT",

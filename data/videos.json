@@ -1,5 +1,21 @@
 [
   {
+    "id": "d6a8fbceeac4",
+    "title": "Microsoft Just Dropped LLM&#39;s Frontier Data Engineering Secrets",
+    "channel": "bycloud",
+    "channelId": "UCgfe2ooZD3VJPB6aJAnuQng",
+    "date": "2026-07-13T18:13:54Z",
+    "duration": "17:43",
+    "thumbnail": "https://i.ytimg.com/vi/aD93kfArOik/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=aD93kfArOik",
+    "description": "I can't believe Microsoft dropped a 109 page goldmine on Data Engineering, especially on a frontier level. No other frontier AI labs ...",
+    "viewCount": 39846,
+    "tags": [
+      "LLMs"
+    ],
+    "relevanceScore": 7.5
+  },
+  {
     "id": "c681ee4a13e8",
     "title": "Why a Nation Can&#39;t Outsource Its Frontier AI - Alistair Pullen (Cosine AI)",
     "channel": "Machine Learning Street Talk",
@@ -9,9 +25,9 @@
     "thumbnail": "https://i.ytimg.com/vi/JTHmrELSfvk/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=JTHmrELSfvk",
     "description": "This episode is sponsored by Notion. Learn more about Notion's Developer Platform today at https://notion.com/mlst Britain's most ...",
-    "viewCount": 1932,
+    "viewCount": 2820,
     "tags": [],
-    "relevanceScore": 7.4
+    "relevanceScore": 7.1
   },
   {
     "id": "c87af5ac5b4b",
@@ -23,9 +39,9 @@
     "thumbnail": "https://i.ytimg.com/vi/LJSgsf9ro38/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=LJSgsf9ro38",
     "description": "Retired Microsoft engineer Dave Plummer explains Flock cameras, how they work, what they record, and every detail you need to ...",
-    "viewCount": 29410,
+    "viewCount": 39913,
     "tags": [],
-    "relevanceScore": 7.4
+    "relevanceScore": 7.1
   },
   {
     "id": "953373917774",
@@ -37,8 +53,7 @@
     "thumbnail": "https://i.ytimg.com/vi/Ae9q7KsRbuI/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=Ae9q7KsRbuI",
     "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers The paper is available here: ...",
-<<<<<<< Updated upstream
-    "viewCount": 171983,
+    "viewCount": 177020,
     "tags": [
       "Research"
     ],
@@ -54,29 +69,8 @@
     "thumbnail": "https://i.ytimg.com/vi/-j4shkNnYVw/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=-j4shkNnYVw",
     "description": "Local AI problems and promises! LINKS: https://x.com/ClementDelangue/status/2071951499660292496 My voice to text App: ...",
-    "viewCount": 6015,
+    "viewCount": 6273,
     "tags": [],
-    "relevanceScore": 6.2
-  },
-  {
-    "id": "30a87fc3fb28",
-    "title": "Muse Spark: Meta’s AI Comeback Starts Here?",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-07-12T12:45:21Z",
-    "duration": "10:14",
-    "thumbnail": "https://i.ytimg.com/vi/HNXGavpWHgg/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=HNXGavpWHgg",
-    "description": "Muse Spark 1.1 is here and this release from meta is bigger than just a model release. This is quasi-frontier model from Meta but ...",
-    "viewCount": 3724,
-    "tags": [],
-    "relevanceScore": 4.5
-=======
-    "viewCount": 133108,
-    "tags": [
-      "Research"
-    ],
-    "relevanceScore": 8.1
->>>>>>> Stashed changes
+    "relevanceScore": 5.8
   }
 ]

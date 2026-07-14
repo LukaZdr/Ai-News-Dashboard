@@ -1,5 +1,33 @@
 [
   {
+    "id": "198f4ee35154",
+    "title": "How data science teams use ChatGPT Work",
+    "date": "Tue, 14 Jul 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+    "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+    "type": "blog",
+    "tags": [
+      "LLMs"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "5d2236e4eaa7",
+    "title": "How sales teams use ChatGPT Work",
+    "date": "Tue, 14 Jul 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+    "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+    "type": "blog",
+    "tags": [
+      "LLMs"
+    ],
+    "importance": 5
+  },
+  {
     "id": "c5059f9eda5f",
     "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
     "date": "Mon, 13 Jul 2026 16:00:00 +0000",
