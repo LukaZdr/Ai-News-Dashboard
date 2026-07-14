@@ -15,11 +15,22 @@ import {
 } from './utils/index.js';
 import type { NewsletterItem } from '../src/types/index.js';
 
-const parser = new Parser({
+// Extend rss-parser to capture content:encoded
+type CustomFeed = Record<string, never>;
+type CustomItem = {
+  'content:encoded'?: string;
+  content?: string;
+  contentSnippet?: string;
+};
+
+const parser: Parser<CustomFeed, CustomItem> = new Parser({
   timeout: 15000,
   headers: {
     'User-Agent': 'AI-News-Dashboard/1.0',
     Accept: 'application/rss+xml, application/xml, text/xml',
+  },
+  customFields: {
+    item: ['content:encoded'],
   },
 });
 
@@ -98,6 +109,75 @@ const NEWSLETTERS_CONFIG = [
   }
 ];
 
+/**
+ * Convert HTML content to clean plaintext, preserving paragraph structure.
+ * Handles <p>, <br>, <li>, <h*>, <blockquote> etc.
+ */
+function htmlToPlaintext(html: string): string {
+  let text = html;
+
+  // Convert block-level elements to newlines
+  text = text.replace(/<\/?(p|div|section|article|header|footer|main|aside|nav|figure|figcaption)[^>]*>/gi, '\n');
+  text = text.replace(/<br\s*\/?>/gi, '\n');
+  text = text.replace(/<\/?(h[1-6])[^>]*>/gi, '\n');
+  text = text.replace(/<\/(li|tr|dt|dd)>/gi, '\n');
+  text = text.replace(/<li[^>]*>/gi, '• ');
+  text = text.replace(/<blockquote[^>]*>/gi, '\n> ');
+  text = text.replace(/<\/blockquote>/gi, '\n');
+  text = text.replace(/<hr[^>]*>/gi, '\n---\n');
+
+  // Remove script, style, and their content
+  text = text.replace(/<script[\s\S]*?<\/script>/gi, '');
+  text = text.replace(/<style[\s\S]*?<\/style>/gi, '');
+  text = text.replace(/<noscript[\s\S]*?<\/noscript>/gi, '');
+
+  // Remove image tags but try to keep alt text
+  text = text.replace(/<img[^>]*alt=["']([^"']*)["'][^>]*>/gi, '[$1]');
+  text = text.replace(/<img[^>]*>/gi, '');
+
+  // Extract href from links and keep link text
+  text = text.replace(/<a[^>]*href=["']([^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi, '$2');
+
+  // Strip all remaining HTML tags
+  text = text.replace(/<[^>]+>/g, '');
+
+  // Decode common HTML entities
+  text = text.replace(/&amp;/g, '&');
+  text = text.replace(/&lt;/g, '<');
+  text = text.replace(/&gt;/g, '>');
+  text = text.replace(/&quot;/g, '"');
+  text = text.replace(/&#39;/g, "'");
+  text = text.replace(/&nbsp;/g, ' ');
+  text = text.replace(/&#(\d+);/g, (_m, code) => String.fromCharCode(parseInt(code)));
+  text = text.replace(/&rsquo;/g, "'");
+  text = text.replace(/&lsquo;/g, "'");
+  text = text.replace(/&rdquo;/g, '"');
+  text = text.replace(/&ldquo;/g, '"');
+  text = text.replace(/&mdash;/g, '—');
+  text = text.replace(/&ndash;/g, '–');
+  text = text.replace(/&hellip;/g, '…');
+
+  // Clean up whitespace: collapse multiple spaces on same line
+  text = text.replace(/[^\S\n]+/g, ' ');
+  // Collapse 3+ newlines to 2
+  text = text.replace(/\n{3,}/g, '\n\n');
+  // Trim lines
+  text = text.split('\n').map(line => line.trim()).join('\n');
+  // Trim overall
+  text = text.trim();
+
+  return text;
+}
+
+/**
+ * Compute read time from word count (~200 wpm average reading speed).
+ */
+function computeReadTime(text: string): string {
+  const wordCount = text.split(/\s+/).filter(w => w.length > 0).length;
+  const minutes = Math.max(1, Math.round(wordCount / 200));
+  return `${minutes} min read`;
+}
+
 async function fetchNewsletter(nl: typeof NEWSLETTERS_CONFIG[0], timeframeHours: number): Promise<NewsletterItem[]> {
   console.log(`  📩 Fetching ${nl.name}...`);
   try {
@@ -109,8 +189,19 @@ async function fetchNewsletter(nl: typeof NEWSLETTERS_CONFIG[0], timeframeHours:
       if (date && !isWithinTimeframe(date, timeframeHours)) continue;
 
       const title = entry.title || '';
-      const content = entry.contentSnippet || entry.content || '';
-      const summary = content.substring(0, 300).replace(/<[^>]*>/g, '') || nl.defaultSummary;
+
+      // Get the richest content available:
+      // content:encoded > content > contentSnippet
+      const rawHtml = entry['content:encoded'] || entry.content || '';
+      const fullText = rawHtml
+        ? htmlToPlaintext(rawHtml)
+        : (entry.contentSnippet || '');
+
+      // Summary is a short snippet for card display
+      const summary = fullText.substring(0, 300).replace(/\n+/g, ' ').trim() || nl.defaultSummary;
+
+      // Content is the full article text
+      const content = fullText || nl.defaultSummary;
 
       items.push({
         id: generateId(`${nl.name.toLowerCase().replace(/\s+/g, '-')}-${entry.link || title}`),
@@ -119,10 +210,10 @@ async function fetchNewsletter(nl: typeof NEWSLETTERS_CONFIG[0], timeframeHours:
         source: nl.name,
         url: entry.link || '',
         summary,
-        content: content.replace(/<[^>]*>/g, '').trim(),
-        tags: autoTag(`${title} ${content}`),
+        content,
+        tags: autoTag(`${title} ${fullText}`),
         quality: nl.quality,
-        readTime: '5 min read',
+        readTime: computeReadTime(content),
       });
     }
 

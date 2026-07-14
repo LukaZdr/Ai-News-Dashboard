@@ -1,6 +1,6 @@
 {
   "timeframeHours": 48,
   "maxItemsPerSection": 50,
-  "openRouterModel": "meta-llama/llama-3.2-3b-instruct:free",
-  "openRouterMaxTokens": 4096
+  "openRouterModel": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "openRouterMaxTokens": 6144
 }

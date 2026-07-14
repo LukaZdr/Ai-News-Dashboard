@@ -9,24 +9,10 @@
     "thumbnail": "https://i.ytimg.com/vi/Ae9q7KsRbuI/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=Ae9q7KsRbuI",
     "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers The paper is available here: ...",
-    "viewCount": 124845,
+    "viewCount": 133108,
     "tags": [
       "Research"
     ],
-    "relevanceScore": 8.3
-  },
-  {
-    "id": "30a87fc3fb28",
-    "title": "Muse Spark: Meta’s AI Comeback Starts Here?",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-07-12T12:45:21Z",
-    "duration": "10:14",
-    "thumbnail": "https://i.ytimg.com/vi/HNXGavpWHgg/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=HNXGavpWHgg",
-    "description": "Muse Spark 1.1 is here and this release from meta is bigger than just a model release. This is quasi-frontier model from Meta but ...",
-    "viewCount": 3101,
-    "tags": [],
-    "relevanceScore": 5.9
+    "relevanceScore": 8.1
   }
 ]

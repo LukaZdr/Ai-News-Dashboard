@@ -37,6 +37,7 @@
     "thumbnail": "https://i.ytimg.com/vi/Ae9q7KsRbuI/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=Ae9q7KsRbuI",
     "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers The paper is available here: ...",
+<<<<<<< Updated upstream
     "viewCount": 171983,
     "tags": [
       "Research"
@@ -70,5 +71,12 @@
     "viewCount": 3724,
     "tags": [],
     "relevanceScore": 4.5
+=======
+    "viewCount": 133108,
+    "tags": [
+      "Research"
+    ],
+    "relevanceScore": 8.1
+>>>>>>> Stashed changes
   }
 ]

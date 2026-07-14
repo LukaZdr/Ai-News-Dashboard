@@ -2,6 +2,7 @@
   "date": "2026-07-14",
   "topics": [
     {
+<<<<<<< Updated upstream
       "topic": "Agents",
       "frequency": 19,
       "growth": "rising",
@@ -22,6 +23,57 @@
         "9872df7d542e",
         "51f372199056",
         "c7c6dea91030"
+=======
+      "topic": "Inference",
+      "frequency": 25,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "32c02c02db1a",
+        "739b9bb4ba82",
+        "cc4ba898baea",
+        "c7009af7c138",
+        "ee712ceb2825",
+        "ab150a676e84",
+        "511cad091624",
+        "cbd12c06bcd7",
+        "5bc8a3665c34",
+        "d90b08d0186a",
+        "1da89e1c8f83",
+        "f1dd4b193f62",
+        "d8caaaf84795",
+        "9d8612c1fc23",
+        "69c185467e42",
+        "8b50657213f1",
+        "c10c719ed3d7",
+        "c0e1fdb0ec45",
+        "db0800674a54"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "b6a0b13bc12c",
+        "7166ecafb485",
+        "14df74d3bb6b",
+        "deae4303c432",
+        "68b1fb9303ec"
+      ],
+      "relatedNewsletterIds": [
+        "edc5f7594aa6"
+      ]
+    },
+    {
+      "topic": "Agents",
+      "frequency": 10,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "1da89e1c8f83",
+        "153699cc4b50",
+        "69c185467e42",
+        "8284a7746675",
+        "37acdaebe55b",
+        "2a808fd42f76",
+        "c2ff1a30480f"
+>>>>>>> Stashed changes
       ],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
@@ -152,6 +204,7 @@
       "relatedNewsletterIds": []
     },
     {
+<<<<<<< Updated upstream
       "topic": "Business",
       "frequency": 16,
       "growth": "stable",
@@ -178,6 +231,32 @@
         "6145bf9087f7",
         "048b1b572f9c"
       ]
+=======
+      "topic": "idea",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "e3e464c6d4bf"
+      ],
+      "relatedVideoIds": [
+        "953373917774"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "OpenHands",
+      "frequency": 1,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "6d558ac6ba23"
+      ],
+      "relatedNewsletterIds": []
+>>>>>>> Stashed changes
     }
   ]
 }

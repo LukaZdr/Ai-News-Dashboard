@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "date": "2026-07-14",
   "generatedAt": "2026-07-14T08:19:04.418Z",
   "model": "meta-llama/llama-3.2-3b-instruct:free",
@@ -16,10 +17,32 @@
       "tags": [
         "RL",
         "Inference"
+=======
+  "date": "2026-07-13",
+  "generatedAt": "2026-07-13T12:16:10.503Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": "The AI landscape is being reshaped by two converging forces: an existential regulatory threat to open-source models and a furious pace of systems-level innovation to make large model inference viable at scale. The day's most consequential signal comes not from a model release but from policy — Interconnects reports the White House is actively discussing an executive order that could restrict open-weight models within six months, initially targeting Chinese-origin models and government use but creating precedent for broader capability-based controls. This regulatory momentum arrives precisely as the open ecosystem demonstrates unprecedented maturity: Ollama, Transformers, vLLM, Dify, and Open WebUI all pushed major releases in the last 24 hours, collectively representing the backbone of production LLM deployment. Simultaneously, research is attacking the inference bottleneck from multiple angles — StickyMoE and Director introduce complementary approaches to taming Mixture-of-Experts routing instability, the former at training time via differentiable consistency losses, the latter at serving time through proactive expert placement. These aren't incremental optimizations; they address the fundamental memory-bandwidth wall that makes MoE models prohibitively expensive on commodity hardware. Meanwhile, Signed Symmetric Quantization recovers the wasted negative integer range in few-bit symmetric quantization, and a unified interaction-based framework finally explains why knowledge distillation works across diverse methods. The theoretical foundations are hardening even as the policy ground shifts. Practitioners should watch whether the open-source community can organize effective advocacy before regulatory capture calcifies, and whether the current wave of systems co-design — spanning quantization, routing, placement, and distillation — can deliver the 10x inference efficiency gains needed to keep frontier capabilities accessible.",
+  "topDevelopments": [
+    {
+      "rank": 1,
+      "title": "White House Executive Order Threatens Open-Model Viability Within Six Months",
+      "summary": "Interconnects reports the White House is actively discussing an executive order to restrict open-weight AI models, initially targeting Chinese-origin models and government use but establishing precedent for capability-based restrictions. Open models lack a centralized economic advocate to counter this regulatory momentum, evidenced by recent licensing debates where Reflection AI argued for capability-based exemptions.",
+      "whyItMatters": "This represents the most significant policy threat to open-source AI in years, potentially cutting off the primary pathway for researchers, startups, and enterprises to access frontier capabilities without vendor lock-in.",
+      "expectedImpact": "If enacted, expect accelerated consolidation around closed API providers, chilling effects on open research publication, and a scramble to establish compliant open-model governance frameworks before restrictions take hold.",
+      "relatedItemIds": [
+        "edc5f7594aa6"
+      ],
+      "tags": [
+        "Policy",
+        "Open Source",
+        "Regulation",
+        "Strategic Risk"
+>>>>>>> Stashed changes
       ]
     },
     {
       "rank": 2,
+<<<<<<< Updated upstream
       "title": "Empowering India’s next generation of innovators with ATL Saathi",
       "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
       "whyItMatters": "This represents a major development from deepmind in the AI space.",
@@ -54,28 +77,90 @@
       "expectedImpact": "Advances the theoretical and practical foundations of Reasoning.",
       "relatedItemIds": [
         "25343981802b"
+=======
+      "title": "Dual Breakthroughs in MoE Inference Efficiency: Sticky Routing at Training, Director at Serving",
+      "summary": "Two complementary papers attack Mixture-of-Experts' core deployment bottleneck from opposite ends: StickyMoE introduces a differentiable routing consistency loss during pretraining to encourage consecutive tokens to activate the same experts, reducing weight-swapping overhead; Director addresses the serving side with an online proactive expert placement algorithm that anticipates activation shifts and migrates experts preemptively across GPUs, cutting communication and load imbalance under dynamic workloads.",
+      "whyItMatters": "MoE models promise parameter efficiency but suffer catastrophic memory-bandwidth costs during inference; these papers jointly tackle the root cause — expert switching — at both training and serving layers, a prerequisite for MoE viability on non-hyperscale infrastructure.",
+      "expectedImpact": "Expect rapid adoption in vLLM, SGLang, and TensorRT-LLM serving stacks; new pretraining recipes incorporating routing consistency; and MoE architectures becoming competitive for on-prem and edge deployment within 6-12 months.",
+      "relatedItemIds": [
+        "c7009af7c138",
+        "ab150a676e84"
+>>>>>>> Stashed changes
       ],
       "tags": [
-        "Reasoning",
-        "LLMs"
+        "MoE",
+        "Inference Optimization",
+        "Systems",
+        "Training",
+        "Serving"
       ]
     },
     {
+<<<<<<< Updated upstream
       "rank": 5,
       "title": "Understanding the latest trends in Research and Business and LLMs (Issue #231)",
       "summary": "Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.",
       "whyItMatters": "Analytical perspective from The Batch (⭐⭐⭐⭐⭐ rating).",
       "expectedImpact": "Synthesizes critical developments for the AI ecosystem.",
+=======
+      "rank": 3,
+      "title": "Major Open-Source Infrastructure Stack Ships Coordinated Major Releases",
+      "summary": "The production LLM stack updated in lockstep: Ollama v0.31.2 added Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma support; Transformers v5.13.1 extended multimodal model definitions; vLLM v0.25.0 pushed throughput and memory efficiency; Dify 1.15.0 advanced agentic workflow tooling; Open WebUI v0.10.2 improved multi-backend UX. Collectively, these 600k+ star projects form the de facto standard for self-hosted AI deployment.",
+      "whyItMatters": "This coordinated maturity signals the open ecosystem has crossed from experimentation to production-grade infrastructure, directly contradicting narratives that open models lack enterprise readiness — precisely as regulatory threats emerge.",
+      "expectedImpact": "Accelerated enterprise adoption of self-hosted stacks; reduced dependency on closed APIs; pressure on cloud providers to offer managed versions of these tools; and a stronger political constituency for open-model preservation.",
+>>>>>>> Stashed changes
       "relatedItemIds": [
-        "edfefe604600"
+        "b6a0b13bc12c",
+        "7166ecafb485",
+        "83b96e936faf",
+        "5df14a56333c",
+        "deae4303c432"
       ],
       "tags": [
-        "Research",
-        "Business"
+        "Open Source",
+        "Infrastructure",
+        "Deployment",
+        "Ecosystem",
+        "Production"
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Signed Symmetric Quantization Recovers Wasted Bit Capacity in Few-Bit Inference",
+      "summary": "Standard symmetric quantization wastes the extra negative representable value in signed integers (e.g., INT4 has range -8 to +7), causing harmful positive outlier clipping. Signed Symmetric Quantization utilizes the full integer range symmetrically, reducing quantization error without asymmetric quantization's calibration and compute overhead.",
+      "whyItMatters": "Few-bit quantization is the primary lever for LLM inference cost reduction; this fix delivers measurable accuracy recovery at 3-4 bit precision with zero runtime penalty, directly improving the Pareto frontier for edge and high-throughput serving.",
+      "expectedImpact": "Rapid integration into llama.cpp, vLLM, and TensorRT-LLM quantization pipelines; new default symmetric schemes for INT4/INT3 weight-only and weight-activation quantization; revised benchmark baselines for compressed model evaluation.",
+      "relatedItemIds": [
+        "cc4ba898baea"
+      ],
+      "tags": [
+        "Quantization",
+        "Inference",
+        "Compression",
+        "Low-Bit",
+        "Optimization"
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Unified Interaction Framework Explains Knowledge Distillation Mechanisms Across Methods",
+      "summary": "A new theoretical framework decomposes LLM outputs into interaction components, revealing a shared mechanism across diverse knowledge distillation approaches (logit-based, feature-based, attention-based). This moves KD from empirical recipe to principled design, enabling systematic distillation strategy selection for specific model architectures and tasks.",
+      "whyItMatters": "Distillation is the primary pathway for deploying small models with large-model capabilities; understanding why it works unlocks targeted compression for reasoning, coding, and multilingual capabilities rather than generic perplexity matching.",
+      "expectedImpact": "New distillation recipes optimized for specific capability transfer (e.g., chain-of-thought, tool use); automated KD hyperparameter selection; reduced trial-and-error in model compression pipelines for enterprise deployment.",
+      "relatedItemIds": [
+        "739b9bb4ba82"
+      ],
+      "tags": [
+        "Knowledge Distillation",
+        "Theory",
+        "Model Compression",
+        "Interpretability",
+        "Training"
       ]
     }
   ],
   "recommendedReadingOrder": [
+<<<<<<< Updated upstream
     "Verifying Rust cryptography in SymCrypt, from standards to code",
     "Empowering India’s next generation of innovators with ATL Saathi",
     "Metacognition in LLMs: Foundations, Progress, and Opportunities",
@@ -105,6 +190,66 @@
         "9872df7d542e",
         "51f372199056",
         "c7c6dea91030"
+=======
+    "White House Executive Order Threatens Open-Model Viability Within Six Months",
+    "Dual Breakthroughs in MoE Inference Efficiency: Sticky Routing at Training, Director at Serving",
+    "Major Open-Source Infrastructure Stack Ships Coordinated Major Releases",
+    "Signed Symmetric Quantization Recovers Wasted Bit Capacity in Few-Bit Inference",
+    "Unified Interaction Framework Explains Knowledge Distillation Mechanisms Across Methods"
+  ],
+  "estimatedReadingTime": 15,
+  "topicClusters": [
+    {
+      "topic": "Inference",
+      "frequency": 25,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "32c02c02db1a",
+        "739b9bb4ba82",
+        "cc4ba898baea",
+        "c7009af7c138",
+        "ee712ceb2825",
+        "ab150a676e84",
+        "511cad091624",
+        "cbd12c06bcd7",
+        "5bc8a3665c34",
+        "d90b08d0186a",
+        "1da89e1c8f83",
+        "f1dd4b193f62",
+        "d8caaaf84795",
+        "9d8612c1fc23",
+        "69c185467e42",
+        "8b50657213f1",
+        "c10c719ed3d7",
+        "c0e1fdb0ec45",
+        "db0800674a54"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "b6a0b13bc12c",
+        "7166ecafb485",
+        "14df74d3bb6b",
+        "deae4303c432",
+        "68b1fb9303ec"
+      ],
+      "relatedNewsletterIds": [
+        "edc5f7594aa6"
+      ]
+    },
+    {
+      "topic": "Agents",
+      "frequency": 10,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "1da89e1c8f83",
+        "153699cc4b50",
+        "69c185467e42",
+        "8284a7746675",
+        "37acdaebe55b",
+        "2a808fd42f76",
+        "c2ff1a30480f"
+>>>>>>> Stashed changes
       ],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
@@ -235,6 +380,7 @@
       "relatedNewsletterIds": []
     },
     {
+<<<<<<< Updated upstream
       "topic": "Business",
       "frequency": 16,
       "growth": "stable",
@@ -261,13 +407,44 @@
         "6145bf9087f7",
         "048b1b572f9c"
       ]
+=======
+      "topic": "idea",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "e3e464c6d4bf"
+      ],
+      "relatedVideoIds": [
+        "953373917774"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "OpenHands",
+      "frequency": 1,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "6d558ac6ba23"
+      ],
+      "relatedNewsletterIds": []
+>>>>>>> Stashed changes
     }
   ],
   "newsletters": [
     {
       "id": "edfefe604600",
+<<<<<<< Updated upstream
       "title": "Understanding the latest trends in Research and Business and LLMs (Issue #231)",
       "date": "2026-07-14T08:18:56.397Z",
+=======
+      "title": "Understanding the latest trends in Research and Business and LLMs (Issue #232)",
+      "date": "2026-07-13T12:14:24.185Z",
+>>>>>>> Stashed changes
       "source": "The Batch",
       "url": "https://example.com/mock/the-batch",
       "summary": "Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.",
@@ -281,6 +458,7 @@
       "readTime": "6 min read"
     },
     {
+<<<<<<< Updated upstream
       "id": "9a033797a8f8",
       "title": "Understanding the latest trends in Research and Open Source and Business (Issue #151)",
       "date": "2026-07-14T08:18:56.277Z",
@@ -311,23 +489,53 @@
       "readTime": "5 min read"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "edc5f7594aa6",
       "title": "6 months to live for open models",
       "date": "Sun, 12 Jul 2026 16:47:42 GMT",
       "source": "Interconnects",
       "url": "https://www.interconnects.ai/p/6-months-to-live-for-open-models",
-      "summary": "The most serious test to date of open source AI’s viability is happening right now.",
-      "content": "The most serious test to date of open source AI’s viability is happening right now.",
+      "summary": "The most serious test to date of open source AI’s viability is happening right now. I’ve seen many waves of anti open-source AI rhetoric come and go since ChatGPT was launched, but none of them had obvious analogues in their potential enforcement to real action already in place targeting the peer, c",
+      "content": "The most serious test to date of open source AI’s viability is happening right now. I’ve seen many waves of anti open-source AI rhetoric come and go since ChatGPT was launched, but none of them had obvious analogues in their potential enforcement to real action already in place targeting the peer, closed models of the day. It is more real because new forms of regulation are being tested and implemented, with minimal oversight. I will be doing far more policy-facing writing than usual until this passes.\n\nAs of writing this, many sources are citing White House discussions on how to manage open models via a new executive order. There is no official information here, and it would likely impact a) Chinese-origin models and b) government uses only, but this is how the dominoes start to fall.\n\nOpen models lack the central economic champion to represent the potential downside of action against them. From recent coverage of the events surrounding model licensing agreements for Fable (and then GPT-5.6), more was said about what unfolded on June 9th:\n\n>\nAt the meeting, the topic of how the program will deal with open-source AI models came up, according to a person familiar with the session. A representative from Reflection AI, a U.S.-based open-source model provider, argued that open-source models should have exemptions from the framework based on their capabilities, the person said. Currently, Chinese open-source models such as DeepSeek have a substantial lead over other available open models, and Reflection has not yet launched a public model.\n\nA ban of any form here would be a big mistake for the long-term trajectory of AI.\n\nThe most likely incoming action is to ban or indefinitely delay any open-weights model meaningfully above the capability level in the range of GPT 5.5, Claude Opus 4.8, or GLM-5.2. With the consistent capability gap, this should be within the next 6 months.\n\nAs it stands, these would most likely be from a Chinese company, which is how this conversation of frontier open model capabilities inextricably becomes linked to other issues such as distillation. The capability threshold for a “right to review” from the government will shift over time, but once in place will likely progress far slower for open models rather than their closed counterparts. This is partially due to closed models being easier to secure but also due to the closed model companies having far more effective lobbying.\n\nSo, this leaves us in a place where there are two crucial policy discussions unfolding at once impacting open models – distillation & frontier capabilities. They’re very different in their nature, the necessity of response, and the potential response space. Still, together they represent the talking points of a surging platform of support for a potential ban of open models in the next 6 months.\n\nThe primary driver motivating regulation today is the inevitable truth that an open-weights model will soon reach the capabilities of Claude’s Mythos model. The actual performance of this openly released model will likely be more jagged, but all it takes is the model getting flagged in the nascent White House AI model checker. It’s hard to unwind new habits motivated by fear.\n\nShare\n\nThe current distillation debates are regulatory capture and doing nothing for now is fine\n\nDistillation is largely a regulatory capture campaign at this point, as the only solutions on the table massively benefit the organizations pushing for it.\n\nTo elaborate, the anti-Chinese models political campaign is led by Anthropic, where they are sharing a mix of blog posts and letters to representatives detailing what the Chinese companies are doing. Anthropic has detected use from foreign companies, which is people coming and paying for its API, and eventually turned off usage and then written strongly worded recommendations of policy action and shared minimal technical evidence. This campaign may have started through a genuine business concern, but it has progressed to be the definition of regulatory capture, as Anthropic would gain substantial economic security in its products if the Chinese model makers they accused were banned.\n\nIf Anthropic was presenting information in a more neutral “you decide what to do” way, the community would have a lot more sympathy. It is more of a policy recommendation than an information sharing exercise at the frontier of a rapidly evolving technology. If Anthropic’s technology is as powerful as they say it is – so powerful that open models like it should likely be banned – then they should be able to secure their API. I continue to wait for them to explain why they cannot. One of their statements would need to be walked back.\n\nAnthropic is also pulling up the ladder for access to intelligence in other ways — so the political recommendations they make in the vein of China competition are consistent with a much broader pattern of restriction of access to competitors of related technology in the vein of safety. It is easy to buy into company culture like an extra safety focus when many employees are on track for generational wealth. I do not blame the employees for this, but Anthropic’s corporate strategy should be understood in these broad, contextual lenses. Ben Thompson’s piece, Anthropic’s Safety Superpower, is the best writing on the subject.\n\nThe action that Anthropic is effectively asking for is the wholesale banning of pretty much all the Chinese open weight models in the U.S. — as any products built around open models are predicated on their continued improvement, increasing product market fit and compute efficiency as models get better. This would demolish the open model economy that is emerging in the US with inference companies, fine tuning companies, new products, and everything in between. We as a community desperately need to hold the line that conceding anything with respect to the distillation conversation is not acceptable.\n\nAnthropic should try to protect their IP, but they shouldn’t ask the government to cement their position and in the process potentially isolate the US from the global open-source community. There are no good solutions to distillation with the information we have, other than letting the labs self-enforce it.\n\nI’ve written at length on distillation in particular. I’ve written directly on its impact on model capabilities and the regulatory environment, and you can search for more in between the lines mentions on Interconnects.\n\nInterconnects AI is a reader-supported publication. Consider becoming a subscriber.\n\nAPIs aren’t magically secure\n\nThere’s a particular messiness to the distillation discussion, where there’s likely meaningful worry of Chinese labs distilling the narrow cybersecurity capabilities of Mythos into an open model. This paints more on the insecurity of current model APIs more than it does on the distillation risk. Even when Claude Mythos was in its most-limited private beta, Discord Sleuths Gained Unauthorized Access to Anthropic’s Mythos. To date, model APIs continue to be jailbroken and accessed in unintended ways.\n\nThis proliferates the risk of capabilities falling to bad actors far more rapidly than anything that involves complex fine-tuning of a 1T+ parameter model. I’m not a cybersecurity expert, but the dichotomy that only open-weight models are insecure and APIs are safe has been very overblown in recent years. APIs in concept should be able to be more secure, but that is yet to be demonstrated.\n\nIf Anthropic has a truly dangerous capability in their models, the only coherent action would be to not host it in a directly queryable API — before the discussion of it being distilled.\n\nReady or not, open models are coming\n\nWhere this becomes hard is that at the same time as these distillation questions, we’re staring down the barrel of “how do we handle frontier open weight models at the general capability level of Mythos?” This is a hard question, and it’s a natural human tendency to want to take a proposed solution to another problem (distillation) and apply it to the new, far more real problem (frontier capabilities).\n\nWe need to figure out the right policy for open frontier capabilities, but a flat out ban is likely not the answer. If the models are not banned in China as well, it is VERY easy for a bad actor to still use said banned open weight model, which negates the safety potential.\n\nAt the same time, if we alone ban the import of certain models, the global open-source community will continue. A world where the U.S. bans these models before China, or other more risk-sensitive cultures, would likely indicate that a form of AI fearmongering (or other social, political momentum) pushed the U.S. government to act early. It feels like speedrunning dystopia in the U.S., as our tech industry – the crown jewels of the economy – looks far more like a Chinese system with control and government investments. These are very bad outcomes!\n\nThe only way to add a ceiling on open-source progress is a global agreement on the management of risks of AI models, which we aren’t close to. Other delays make the AI rollout less predictable in the US and increasingly messy. It’ll feel a lot like the GPT-5.6 rollout, but instead of just limiting the upsides of open, cheaper intelligence to a few companies all the bad actors will immediately have access, too. Open models increase safety by broad access and understanding, not kneecapping the positive actors only.\n\nIn reality, there is no stopping the open-source ecosystem. The people building the best models are assessing risk as well, as China is very risk-sensitive and for example Z ai is already a public company exposed to a comprehensive set of pressures – keeping their rocketing stock up, for one. There will only continue to be more models that cross worrying levels of capabilities. Training AI models is not magic, and we haven’t seen access to building them drop off as the required investment has increased (yet).\n\nOne of the short-term off-ramps for this policy death spiral for open-source, a double-helix of related and complementary, scary issues, is for a company in the U.S. to release a similarly capable open model. This will shift the focus away from “only China is building the open models via distillation” to “we’re all in this together, and we should focus on the complex, moving frontier issues within our ecosystem.” This is an existential priority for open-source, and the companies who have the business reasons to release open-weight models like Microsoft and Meta (commoditizing their complements) should do it ASAP. I have less faith in Meta, with the new leadership, but they benefit from mass access to AI and should not get in their own way. If Reflection is sitting on an okay, but not frontier, model, they may need to release it to save their proposed business direction.\n\nThe shorter term solution than training a new model is to build the coalition. Open-source is a diffuse technology, without clear ownership, but the benefits will be shared by so many. This “everyone else” outside the frontier labs needs to start working today, on how to continue the safe rollout of open-weight models (and lobby for their principles and values) to the powers that be.\n\nRising temperatures in the AI discourse\n\n\n\n\nRead more",
       "tags": [
-        "Open Source"
+        "LLMs",
+        "Open Source",
+        "RL",
+        "Inference",
+        "Memory",
+        "RAG",
+        "Synthetic Data"
       ],
       "quality": 5,
-      "readTime": "5 min read"
+      "readTime": "9 min read"
     },
     {
+<<<<<<< Updated upstream
       "id": "6145bf9087f7",
       "title": "Understanding the latest trends in Business and LLMs and AI Coding (Issue #184)",
       "date": "2026-07-14T08:18:56.997Z",
+=======
+      "id": "048b1b572f9c",
+      "title": "Understanding the latest trends in LLMs and AI Coding and Business (Issue #184)",
+      "date": "2026-07-13T12:14:25.129Z",
+      "source": "Ben's Bites",
+      "url": "https://example.com/mock/ben's-bites",
+      "summary": "A rapid daily digest covering the newest AI model releases, products, browser extensions, and early-stage startup updates. This issue explores key methodologies, benchmarks, and community findings in the LLMs, AI Coding, Business ecosystem.",
+      "content": "A rapid daily digest covering the newest AI model releases, products, browser extensions, and early-stage startup updates. This issue explores key methodologies, benchmarks, and community findings in the LLMs, AI Coding, Business ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
+      "tags": [
+        "LLMs",
+        "AI Coding",
+        "Business"
+      ],
+      "quality": 4,
+      "readTime": "6 min read"
+    },
+    {
+      "id": "6145bf9087f7",
+      "title": "Understanding the latest trends in Business and LLMs and AI Coding (Issue #186)",
+      "date": "2026-07-13T12:14:24.297Z",
+>>>>>>> Stashed changes
       "source": "The Rundown AI",
       "url": "https://example.com/mock/the-rundown-ai",
       "summary": "Daily briefing on the latest developments in artificial intelligence, focusing on commercial tools, LLM features, and productivity applications. This issue explores key methodologies, benchmarks, and community findings in the Business, LLMs, AI Coding ecosystem.",
@@ -358,8 +566,13 @@
     },
     {
       "id": "2fdf23086d32",
+<<<<<<< Updated upstream
       "title": "Understanding the latest trends in Research and LLMs and Open Source (Issue #222)",
       "date": "2026-07-14T08:18:56.408Z",
+=======
+      "title": "Understanding the latest trends in Research and LLMs and Open Source (Issue #185)",
+      "date": "2026-07-13T12:14:24.014Z",
+>>>>>>> Stashed changes
       "source": "TLDR AI",
       "url": "https://example.com/mock/tldr-ai",
       "summary": "A curated daily summary of the most interesting developments in AI, machine learning research, and developer ecosystems. This issue explores key methodologies, benchmarks, and community findings in the Research, LLMs, Open Source ecosystem.",

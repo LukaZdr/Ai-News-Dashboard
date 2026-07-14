@@ -1,6 +1,7 @@
 /**
  * Generate AI digest using OpenRouter LLM. Reads all collected data,
- * sends metadata to the LLM, and writes digest.json and trends.json.
+ * crawls article content for enrichment, uses a two-pass LLM approach
+ * (per-article summaries → narrative synthesis), and writes digest.json and trends.json.
  */
 import 'dotenv/config';
 import {
@@ -19,41 +20,67 @@ import {
   getBestCasing,
   computeTFIDF,
 } from './utils/tfidf.js';
+import { crawlUrls } from './utils/crawl-content.js';
 import type { Paper, NewsItem, Video, GitHubRepo, DailyDigest, TrendsData, TopicCluster, NewsletterItem } from '../src/types/index.js';
 import { mkdirSync, existsSync, copyFileSync, readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 
 const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions';
 
-function buildPrompt(papers: Paper[], news: NewsItem[], videos: Video[], repos: GitHubRepo[], newsletters: NewsletterItem[]): string {
-  const paperSummary = papers.slice(0, 30).map((p, i) =>
-    `${i + 1}. [ID: ${p.id}] "${p.title}" [${p.source}] tags: ${p.tags.join(', ')}`
+interface EnrichedContext {
+  articleSummaries: Array<{ id: string; title: string; source: string; summary: string }>;
+  crawledContent: Map<string, string>;
+}
+
+function buildPrompt(
+  papers: Paper[],
+  news: NewsItem[],
+  videos: Video[],
+  repos: GitHubRepo[],
+  newsletters: NewsletterItem[],
+  enriched?: EnrichedContext
+): string {
+  // Build item listings with actual content excerpts
+  const paperSummary = papers.slice(0, 20).map((p, i) => {
+    const enrichedSummary = enriched?.articleSummaries.find(s => s.id === p.id)?.summary;
+    const abstract = enrichedSummary || (p.abstract ? p.abstract.substring(0, 200) : '');
+    return `${i + 1}. [ID: ${p.id}] "${p.title}" [${p.source}] tags: ${p.tags.join(', ')}\n   Context: ${abstract}`;
+  }).join('\n');
+
+  const newsSummary = news.slice(0, 15).map((n, i) => {
+    const enrichedSummary = enriched?.articleSummaries.find(s => s.id === n.id)?.summary;
+    const desc = enrichedSummary || n.summary || '';
+    return `${i + 1}. [ID: ${n.id}] "${n.title}" by ${n.company} [${n.type}] tags: ${n.tags.join(', ')}\n   Context: ${desc}`;
+  }).join('\n');
+
+  const videoSummary = videos.slice(0, 10).map((v, i) =>
+    `${i + 1}. [ID: ${v.id}] "${v.title}" by ${v.channel} (${v.duration}, ${v.viewCount?.toLocaleString() || '?'} views) tags: ${v.tags.join(', ')}\n   Description: ${v.description.substring(0, 150)}`
   ).join('\n');
 
-  const newsSummary = news.slice(0, 20).map((n, i) =>
-    `${i + 1}. [ID: ${n.id}] "${n.title}" by ${n.company} [${n.type}] tags: ${n.tags.join(', ')}`
+  const repoSummary = repos.slice(0, 8).map((r, i) =>
+    `${i + 1}. [ID: ${r.id}] ${r.fullName} (⭐${r.stars}) - ${r.latestRelease?.tag || 'no release'}\n   Description: ${r.description?.substring(0, 150) || 'N/A'}`
   ).join('\n');
 
-  const videoSummary = videos.slice(0, 15).map((v, i) =>
-    `${i + 1}. [ID: ${v.id}] "${v.title}" by ${v.channel} tags: ${v.tags.join(', ')}`
-  ).join('\n');
+  const newsletterSummary = newsletters.slice(0, 10).map((nl, i) => {
+    const enrichedSummary = enriched?.articleSummaries.find(s => s.id === nl.id)?.summary;
+    const content = enrichedSummary || nl.summary || '';
+    return `${i + 1}. [ID: ${nl.id}] "${nl.title}" by ${nl.source} (Quality: ${nl.quality}/5) tags: ${nl.tags.join(', ')}\n   Key points: ${content}`;
+  }).join('\n');
 
-  const repoSummary = repos.slice(0, 10).map((r, i) =>
-    `${i + 1}. [ID: ${r.id}] ${r.fullName} (⭐${r.stars}) - ${r.latestRelease?.tag || 'no release'}`
-  ).join('\n');
+  return `You are a senior AI industry analyst writing a daily intelligence brief for technical leaders and researchers. Analyze the following AI developments from the last 24-48 hours.
 
-  const newsletterSummary = newsletters.slice(0, 15).map((nl, i) =>
-    `${i + 1}. [ID: ${nl.id}] "${nl.title}" by ${nl.source} (Quality rating: ${nl.quality}/5) tags: ${nl.tags.join(', ')}`
-  ).join('\n');
+Your job is twofold:
+1. Write a NARRATIVE EXECUTIVE SUMMARY — a flowing, insightful synopsis that connects the dots between today's developments, identifies cross-cutting themes, and explains what they mean for the field. This should read like an analyst report, NOT a bullet-point listing of articles. Think Bloomberg Intelligence or McKinsey Technology Report style.
+2. Identify and rank the 3-5 most significant individual developments.
 
-  return `You are an AI research analyst. Analyze the following AI developments from the last 24-48 hours and produce a structured daily digest report.
+Prioritization criteria:
+- Major announcements from leading AI labs (OpenAI, Anthropic, Google, NVIDIA, Meta, etc.)
+- Trending open-source repos with high stars or significant releases
+- High-impact research papers (especially HuggingFace Daily Papers with high community scores)
+- Strategic commentary from top newsletters (The Batch, Import AI, Latent Space, Interconnects, Simon Willison)
+- Breakthrough explanation videos from trusted channels
 
-Your primary task is to identify and select the 3 to 5 most significant/important developments from all the lists below. Do not pick randomly. Evaluate and prioritize based on these criteria:
-- COMPANY NEWS: Announcements from leading AI labs (such as OpenAI, Anthropic, Google, NVIDIA, Meta) regarding new models, API updates, or major products are extremely high priority.
-- GITHUB REPOS: Active or newly trending open-source repositories with high stars (⭐) or significant package releases.
-- PAPERS: High-impact AI research papers. Prioritize HuggingFace Daily Papers (Community interest/importance score: 6) and significant arXiv papers.
-- NEWSLETTERS: Key commentary, research summaries, and strategic reports from top-tier newsletters (e.g. The Batch, Import AI, Latent Space, Interconnects, Simon Willison).
-- VIDEOS: Highly informative/explanation breakthroughs from trusted channels.
+=== TODAY'S DATA ===
 
 PAPERS (${papers.length} total):
 ${paperSummary || 'None collected'}
@@ -70,16 +97,18 @@ ${repoSummary || 'None collected'}
 NEWSLETTERS (${newsletters.length} total):
 ${newsletterSummary || 'None collected'}
 
+=== OUTPUT FORMAT ===
+
 Respond with ONLY valid JSON matching this structure:
 {
-  "summary": "A cohesive executive summary (1-2 paragraphs, ~150-250 words) of the day's key AI developments, trends, and implications. Write in a professional, analyst-style narrative that unifies today's AI landscape.",
+  "summary": "Write a cohesive executive synopsis (2-3 paragraphs, 200-400 words). DO NOT write a listing or table of contents. Instead: (1) Open with the day's overarching narrative — what is the dominant theme or shift? (2) Weave in the most significant developments, explaining HOW they relate to each other and to broader trends. (3) Close with forward-looking implications — what should practitioners watch for? Use a confident, analytical tone. Reference specific developments naturally within the narrative flow.",
   "topDevelopments": [
     {
       "rank": 1,
       "title": "Brief title of this specific development",
-      "summary": "2-3 sentence summary synthesizing the development",
-      "whyItMatters": "Why this is important and why this card was picked (1 sentence)",
-      "expectedImpact": "Expected impact on the AI field (1 sentence)",
+      "summary": "2-3 sentence synthesis explaining WHAT happened and WHY it matters. Include specific details from the source material.",
+      "whyItMatters": "One sentence on strategic significance — why a technical leader should care.",
+      "expectedImpact": "One sentence on expected downstream effects on the AI field or industry.",
       "relatedItemIds": ["id1", "id2"],
       "tags": ["tag1", "tag2"]
     }
@@ -88,11 +117,11 @@ Respond with ONLY valid JSON matching this structure:
   "estimatedReadingTime": 15
 }
 
-Rules:
-- Include 3-5 top developments
-- Keep summaries concise
-- estimatedReadingTime is in minutes
-- In "relatedItemIds", include the exact string ID(s) (e.g. "a6f419975d72") from the source list that directly refer or relate to that development. This acts as a citation/reference link.`;
+Critical rules:
+- The "summary" MUST be a narrative synopsis, NOT a structured listing. No bullet points, no numbered lists, no section headers. Write flowing prose.
+- Include 3-5 top developments with substantive, specific summaries (not generic filler).
+- estimatedReadingTime is in minutes.
+- In "relatedItemIds", use the exact string IDs from the source lists above.`;
 }
 
 function generateTopicClusters(
@@ -263,6 +292,97 @@ function generateDynamicFallbackSummary(
   return summary;
 }
 
+/**
+ * Call OpenRouter LLM with a prompt and return the text response.
+ */
+async function callLLM(
+  apiKey: string,
+  model: string,
+  prompt: string,
+  maxTokens: number,
+  temperature = 0.3
+): Promise<string> {
+  const response = await fetchWithRetry(OPENROUTER_URL, {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${apiKey}`,
+      'Content-Type': 'application/json',
+      'HTTP-Referer': 'https://github.com/ai-news-dashboard',
+      'X-Title': 'AI News Dashboard',
+    },
+    body: JSON.stringify({
+      model,
+      messages: [{ role: 'user', content: prompt }],
+      max_tokens: maxTokens,
+      temperature,
+    }),
+  });
+
+  const result = await response.json() as {
+    choices: Array<{ message: { content: string } }>;
+  };
+
+  return result.choices?.[0]?.message?.content || '';
+}
+
+/**
+ * Pass 1: Summarize individual articles that have substantial crawled content.
+ * Runs in parallel batches for efficiency.
+ */
+async function summarizeArticles(
+  apiKey: string,
+  model: string,
+  items: Array<{ id: string; title: string; source: string; content: string }>
+): Promise<Array<{ id: string; title: string; source: string; summary: string }>> {
+  if (items.length === 0) return [];
+
+  console.log(`\n🔍 Pass 1: Summarizing ${items.length} articles for context enrichment...`);
+
+  const results: Array<{ id: string; title: string; source: string; summary: string }> = [];
+  const BATCH_SIZE = 4;
+
+  // Batch multiple articles into single LLM calls for efficiency
+  for (let i = 0; i < items.length; i += BATCH_SIZE) {
+    const batch = items.slice(i, i + BATCH_SIZE);
+    const batchPrompt = `Summarize each of the following articles in 2-3 concise sentences that capture the key findings, announcements, or arguments. Focus on WHAT is new and WHY it matters.
+
+Respond with ONLY a JSON array:
+[{"id": "...", "summary": "..."}]
+
+${batch.map((item, idx) => `--- ARTICLE ${idx + 1} ---
+ID: ${item.id}
+Title: ${item.title}
+Source: ${item.source}
+Content:
+${item.content.substring(0, 1500)}
+`).join('\n')}`;
+
+    try {
+      const response = await callLLM(apiKey, model, batchPrompt, 1024, 0.2);
+      const jsonMatch = response.match(/\[\s*\{[\s\S]*\}\s*\]/);
+      if (jsonMatch) {
+        const summaries = JSON.parse(jsonMatch[0]) as Array<{ id: string; summary: string }>;
+        for (const s of summaries) {
+          const item = batch.find(b => b.id === s.id);
+          if (item && s.summary) {
+            results.push({ id: s.id, title: item.title, source: item.source, summary: s.summary });
+            console.log(`    ✓ Summarized: "${item.title.substring(0, 60)}..."`);
+          }
+        }
+      }
+    } catch (error) {
+      console.warn(`    ⚠ Batch summarization failed: ${(error as Error).message}`);
+      // Fall back to using original content snippets
+      for (const item of batch) {
+        results.push({ id: item.id, title: item.title, source: item.source, summary: item.content.substring(0, 200) });
+      }
+    }
+  }
+
+  console.log(`  ✓ Summarized ${results.length}/${items.length} articles`);
+  return results;
+}
+
 export async function generateDigest(): Promise<{ digest: DailyDigest; trends: TrendsData }> {
   const settings = readJsonFile<{ openRouterModel: string; openRouterMaxTokens: number }>(
     getConfigPath('settings.json')
@@ -314,30 +434,71 @@ export async function generateDigest(): Promise<{ digest: DailyDigest; trends: T
     const apiKey = process.env.OPENROUTER_API_KEY;
     if (!apiKey) throw new Error('OPENROUTER_API_KEY not set');
 
-    const prompt = buildPrompt(papers, news, videos, repos, newsletters);
-    console.log(`\n🤖 Calling OpenRouter (${settings.openRouterModel})...`);
+    // --- Step 1: Crawl article URLs for richer context ---
+    console.log('\n🌐 Crawling article content for enrichment...');
+    const urlsToCrawl: string[] = [];
+    const urlToItem = new Map<string, { id: string; title: string; source: string }>();
 
-    const response = await fetchWithRetry(OPENROUTER_URL, {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${apiKey}`,
-        'Content-Type': 'application/json',
-        'HTTP-Referer': 'https://github.com/ai-news-dashboard',
-        'X-Title': 'AI News Dashboard',
-      },
-      body: JSON.stringify({
-        model: settings.openRouterModel,
-        messages: [{ role: 'user', content: prompt }],
-        max_tokens: settings.openRouterMaxTokens,
-        temperature: 0.3,
-      }),
-    });
+    // Collect URLs from top items across all categories
+    for (const nl of newsletters.slice(0, 8)) {
+      if (nl.url && !nl.url.includes('example.com') && !nl.url.includes('/mock/')) {
+        urlsToCrawl.push(nl.url);
+        urlToItem.set(nl.url, { id: nl.id, title: nl.title, source: nl.source });
+      }
+    }
+    for (const n of news.slice(0, 5)) {
+      if (n.url) {
+        urlsToCrawl.push(n.url);
+        urlToItem.set(n.url, { id: n.id, title: n.title, source: n.source });
+      }
+    }
 
-    const result = await response.json() as {
-      choices: Array<{ message: { content: string } }>;
-    };
+    const crawledResults = await crawlUrls(urlsToCrawl, 2000, 800, 3);
+    const crawledContent = new Map<string, string>();
+    for (const result of crawledResults) {
+      if (result.success && result.text.length > 100) {
+        crawledContent.set(result.url, result.text);
+      }
+    }
 
-    const content = result.choices?.[0]?.message?.content || '';
+    // --- Step 2: Build items-to-summarize from crawled content + existing content ---
+    const itemsToSummarize: Array<{ id: string; title: string; source: string; content: string }> = [];
+
+    // Newsletters with full content (from RSS or crawl)
+    for (const nl of newsletters.slice(0, 8)) {
+      const content = nl.content || crawledContent.get(nl.url) || '';
+      if (content.length > 150) {
+        itemsToSummarize.push({ id: nl.id, title: nl.title, source: nl.source, content });
+      }
+    }
+
+    // News with crawled content
+    for (const n of news.slice(0, 5)) {
+      const content = crawledContent.get(n.url) || n.summary || '';
+      if (content.length > 150) {
+        itemsToSummarize.push({ id: n.id, title: n.title, source: n.source, content });
+      }
+    }
+
+    // Papers already have abstracts — use those directly
+    for (const p of papers.slice(0, 10)) {
+      if (p.abstract && p.abstract.length > 100) {
+        itemsToSummarize.push({ id: p.id, title: p.title, source: p.source, content: p.abstract });
+      }
+    }
+
+    // --- Step 3 (Pass 1): Per-article LLM summarization ---
+    const articleSummaries = await summarizeArticles(
+      apiKey, settings.openRouterModel, itemsToSummarize
+    );
+
+    const enriched: EnrichedContext = { articleSummaries, crawledContent };
+
+    // --- Step 4 (Pass 2): Final synthesis prompt ---
+    const prompt = buildPrompt(papers, news, videos, repos, newsletters, enriched);
+    console.log(`\n🤖 Pass 2: Generating narrative synopsis (${settings.openRouterModel})...`);
+
+    const content = await callLLM(apiKey, settings.openRouterModel, prompt, settings.openRouterMaxTokens, 0.4);
     console.log(`  ✓ Response received (${content.length} chars)`);
 
     const jsonMatch = content.match(/```(?:json)?\s*([\s\S]*?)```/) || [null, content];

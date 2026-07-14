@@ -12,7 +12,8 @@
     { "name": "Wes Roth", "channelId": "UC9-y-6csu5WGm29I7JiwpnA", "weight": 7 },
     { "name": "Matthew Berman", "channelId": "UCr2dWKSFP4VuVKSHNWhPDKg", "weight": 7 },
     { "name": "Dave's Garage", "channelId": "UCNzszbnvQeFzObW0ghk0Ckw", "weight": 6 },
-    { "name": "Prompt Engineering", "channelId": "UCDq7SjbgRKty5TgGafW8Clg", "weight": 6 }
+    { "name": "Prompt Engineering", "channelId": "UCDq7SjbgRKty5TgGafW8Clg", "weight": 6 },
+    { "name": "bycloud", "channelId": "UCgfe2ooZD3VJPB6aJAnuQng", "weight": 8 }
   ],
   "maxResultsPerChannel": 5,
   "publishedAfterHours": 48
