@@ -1,57 +1,54 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "topics": [
     {
-      "topic": "Akarsh",
-      "frequency": 3,
+      "topic": "Software Factory",
+      "frequency": 2,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "1b8910e4fee0",
-        "c14becab6822",
-        "454b21b968c7"
+        "3ba30a9c6357",
+        "1dc0e13afcd7"
       ],
       "relatedNewsIds": [],
       "relatedRepoIds": [],
       "relatedNewsletterIds": []
     },
     {
-      "topic": "Kumar",
-      "frequency": 3,
+      "topic": "Factory",
+      "frequency": 2,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "1b8910e4fee0",
-        "c14becab6822",
-        "454b21b968c7"
+        "3ba30a9c6357",
+        "1dc0e13afcd7"
       ],
       "relatedNewsIds": [],
       "relatedRepoIds": [],
       "relatedNewsletterIds": []
     },
     {
-      "topic": "Akarsh Kumar",
+      "topic": "Software",
       "frequency": 3,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "1b8910e4fee0",
-        "c14becab6822",
-        "454b21b968c7"
+        "3ba30a9c6357",
+        "1dc0e13afcd7"
       ],
       "relatedNewsIds": [],
       "relatedRepoIds": [],
-      "relatedNewsletterIds": []
+      "relatedNewsletterIds": [
+        "6ed2a623a51b"
+      ]
     },
     {
       "topic": "Inference",
-      "frequency": 12,
+      "frequency": 10,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [],
-      "relatedNewsIds": [
-        "fd7399752cad"
-      ],
+      "relatedNewsIds": [],
       "relatedRepoIds": [
         "b6a0b13bc12c",
         "7166ecafb485",
@@ -61,11 +58,42 @@
         "68b1fb9303ec"
       ],
       "relatedNewsletterIds": [
+        "e4ce149aadf0",
         "f5a8af37de6a",
         "a883e90a371c",
-        "1629d0fa1bbe",
-        "35646eaea715",
-        "46863134a6e5"
+        "1629d0fa1bbe"
+      ]
+    },
+    {
+      "topic": "Factory Agents",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "3ba30a9c6357"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Agents",
+      "frequency": 7,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "3ba30a9c6357"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "e4ce149aadf0",
+        "f5a8af37de6a",
+        "1629d0fa1bbe"
       ]
     },
     {
@@ -75,43 +103,6 @@
       "relatedPaperIds": [],
       "relatedVideoIds": [
         "1dc0e13afcd7"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Software Factory",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "1dc0e13afcd7"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Embedding",
-      "frequency": 2,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "5f604b00cfb9",
-        "35917a985b48"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Life",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "454b21b968c7"
       ],
       "relatedNewsIds": [],
       "relatedRepoIds": [],
@@ -131,26 +122,28 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "Agents",
-      "frequency": 9,
-      "growth": "stable",
+      "topic": "Self-Improving",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "1dc0e13afcd7"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "continue open-source",
+      "frequency": 1,
+      "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [],
-      "relatedNewsIds": [
-        "8c3c1f9f0aca",
-        "452619c9774a"
-      ],
+      "relatedNewsIds": [],
       "relatedRepoIds": [
-        "83b96e936faf",
-        "6d558ac6ba23",
-        "1941bc8214c6"
+        "233a4f836599"
       ],
-      "relatedNewsletterIds": [
-        "f5a8af37de6a",
-        "1629d0fa1bbe",
-        "35646eaea715",
-        "46863134a6e5"
-      ]
+      "relatedNewsletterIds": []
     }
   ]
 }
