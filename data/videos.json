@@ -1,5 +1,56 @@
 [
   {
+    "id": "e56f032e502a",
+    "title": "DeepSeek Solved AI’s Memory Problem",
+    "channel": "Two Minute Papers",
+    "channelId": "UCbfYPyITQ-7l4upoX8nvctg",
+    "date": "2026-10-11T16:53:17Z",
+    "duration": "5:38",
+    "thumbnail": "https://i.ytimg.com/vi/4fLVq6HJsKc/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
+    "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers The DeepSeek OCR paper is available ...",
+    "viewCount": 183106,
+    "tags": [
+      "Research",
+      "Memory"
+    ],
+    "relevanceScore": 8.4
+  },
+  {
+    "id": "74a7888aacce",
+    "title": "AI Coding Is a Slot Machine: Loss Disguised as a Win | Jeremy Howard",
+    "channel": "Machine Learning Street Talk",
+    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
+    "date": "2026-10-11T09:19:59Z",
+    "duration": "1:06",
+    "thumbnail": "https://i.ytimg.com/vi/DVRMDoYhVBI/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=DVRMDoYhVBI",
+    "description": "Jeremy Howard, co-founder of fast.ai, on why AI-assisted coding works like a slot machine: you craft the prompt, pull the lever, and ...",
+    "viewCount": 4767,
+    "tags": [
+      "AI Coding",
+      "Open Source"
+    ],
+    "relevanceScore": 6.7
+  },
+  {
+    "id": "a3e820014ed8",
+    "title": "Google&#39;s GPT-3 Moment for Databases &amp; Spreadsheets (TabFM)",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-11T13:15:17Z",
+    "duration": "10:58",
+    "thumbnail": "https://i.ytimg.com/vi/5YJGDElbCDY/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=5YJGDElbCDY",
+    "description": "Thanks to Neon for sponsoring this video. Check out Neon for your backend needs for your apps and agents: ...",
+    "viewCount": 16098,
+    "tags": [
+      "Agents",
+      "LLMs"
+    ],
+    "relevanceScore": 6.5
+  },
+  {
     "id": "8e6351100148",
     "title": "DeepSeek-V4.1 Flash: The Most Insane Optimization So Far",
     "channel": "bycloud",
@@ -9,25 +60,11 @@
     "thumbnail": "https://i.ytimg.com/vi/CsSnSBCVoDU/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=CsSnSBCVoDU",
     "description": "Your private local AI server needs an upgrade or maintenance support? Book a free audit now at https://nimbuskernel.com/ ...",
-    "viewCount": 159045,
+    "viewCount": 207684,
     "tags": [
       "RL"
     ],
-    "relevanceScore": 8.1
-  },
-  {
-    "id": "1b8910e4fee0",
-    "title": "What Most People Get Wrong About Evolution | Akarsh Kumar",
-    "channel": "Machine Learning Street Talk",
-    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
-    "date": "2026-10-10T04:31:57Z",
-    "duration": "47:55",
-    "thumbnail": "https://i.ytimg.com/vi/615B5nyMFPk/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=615B5nyMFPk",
-    "description": "A lot of people in AI treat evolution as a dumb fallback, basically random search for when you can't take a gradient. Akarsh Kumar ...",
-    "viewCount": 7905,
-    "tags": [],
-    "relevanceScore": 6.5
+    "relevanceScore": 6.3
   },
   {
     "id": "3ba30a9c6357",
@@ -39,25 +76,11 @@
     "thumbnail": "https://i.ytimg.com/vi/ycZaPLeJb30/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=ycZaPLeJb30",
     "description": "What is a software factory? It's an assembly line for your codebase: GitHub issues go in, AI coding agents fix them in parallel, ...",
-    "viewCount": 1785,
+    "viewCount": 2932,
     "tags": [
       "Agents",
       "AI Coding"
     ],
-    "relevanceScore": 6.4
-  },
-  {
-    "id": "1dc0e13afcd7",
-    "title": "Build a Self-Improving Software Factory",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-09T13:00:30Z",
-    "duration": "17:09",
-    "thumbnail": "https://i.ytimg.com/vi/hO4ft4tGOJI/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=hO4ft4tGOJI",
-    "description": "This video is sponsored by Upstash. Try Upstash Box: https://upstash.com?utm_source=prompt1 What is a software factory, and ...",
-    "viewCount": 12337,
-    "tags": [],
-    "relevanceScore": 4.9
+    "relevanceScore": 4.7
   }
 ]

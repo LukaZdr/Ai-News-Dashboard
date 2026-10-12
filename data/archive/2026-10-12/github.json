@@ -1,0 +1,240 @@
+[
+  {
+    "id": "b6a0b13bc12c",
+    "name": "ollama",
+    "fullName": "ollama/ollama",
+    "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+    "url": "https://github.com/ollama/ollama",
+    "stars": 182820,
+    "language": "Go",
+    "latestRelease": {
+      "tag": "v0.40.3",
+      "date": "2026-10-11T01:39:04Z",
+      "notes": "## What's Changed\r\n* `ollama launch claude` no longer shows a warning about Claude connectors by @hoyyeva in https://github.com/ollama/ollama/pull/18878\r\n* `ollama launch codex` no longer warns about service tiers by @hoyyeva in https://github.com/ollama/ollama/pull/18879\r\n* Paused background model upgrade for embedding and other request performance, by @jmorganca in https://github.com/ollama/ollama/pull/18908\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.2...v0.40.3"
+    },
+    "recentActivity": "2026-10-12T06:25:26Z",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Inference"
+    ]
+  },
+  {
+    "id": "7166ecafb485",
+    "name": "transformers",
+    "fullName": "huggingface/transformers",
+    "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+    "url": "https://github.com/huggingface/transformers",
+    "stars": 167544,
+    "language": "Python",
+    "latestRelease": {
+      "tag": "v5.19.0",
+      "date": "2026-10-06T16:39:23Z",
+      "notes": "# Release v5.19.0\r\n\r\n\r\n## New Model additions\r\n\r\n### EmbeddingGemma2\r\n\r\n<img width=\"2716\" height=\"2308\" alt=\"image\" src=\"https://github.com/user-attachments/assets/84734e74-163d-4d12-b166-ffcf6749d563\" />\r\n\r\nEmbeddingGemma 2 is a multimodal embedding model from Google built on the Gemma 4 architecture. It encodes text, images, audio, and video, individually or combined in one input, into a shared 768-dimensional vector space for cross-modal retrieval, semantic similarity, clustering, and classif"
+    },
+    "recentActivity": "2026-10-12T07:09:50Z",
+    "tags": [
+      "LLMs",
+      "Research",
+      "Open Source"
+    ]
+  },
+  {
+    "id": "83b96e936faf",
+    "name": "dify",
+    "fullName": "langgenius/dify",
+    "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+    "url": "https://github.com/langgenius/dify",
+    "stars": 158211,
+    "language": "TypeScript",
+    "latestRelease": {
+      "tag": "1.17.1",
+      "date": "2026-09-10T10:04:06Z",
+      "notes": "> [!WARNING]\r\n> **Self-hosted deployments using the bundled Weaviate must complete a manual, staged upgrade before starting 1.17.1.** The bundled Weaviate server moves from `1.27.0` to `1.39.2` — 12 minor versions — and skipping minors **is unsupported**. Pulling and restarting can silently and permanently break vector search. See Upgrade Guide below. Fresh deployments, external Weaviate, and other vector stores are unaffected.\r\n\r\n### New Features\r\n\r\n**Dataset-Scoped Knowledge Base API Keys**\r\n-"
+    },
+    "recentActivity": "2026-10-12T08:10:04Z",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Open Source"
+    ]
+  },
+  {
+    "id": "5df14a56333c",
+    "name": "open-webui",
+    "fullName": "open-webui/open-webui",
+    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+    "url": "https://github.com/open-webui/open-webui",
+    "stars": 154366,
+    "language": "Python",
+    "latestRelease": {
+      "tag": "v0.12.0",
+      "date": "2026-10-10T21:13:24Z",
+      "notes": "### Added\r\n\r\n- ☎️ **Realtime voice calls.** Administrators can now switch Call mode in the Voice calls section of Audio settings from Standard to Realtime, so Voice mode talks through an OpenAI Realtime voice model (gpt-realtime-2.1-mini with the Marin voice by default) that handles small talk itself and hands real questions and tasks to the chat's selected model, with its conversation history and tools, before speaking the answer while the full reply appears in the chat. Approvals and questions"
+    },
+    "recentActivity": "2026-10-12T07:57:31Z",
+    "tags": [
+      "LLMs",
+      "Open Source"
+    ]
+  },
+  {
+    "id": "5b1fd1fd8a2b",
+    "name": "ComfyUI",
+    "fullName": "Comfy-Org/ComfyUI",
+    "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+    "url": "https://github.com/Comfy-Org/ComfyUI",
+    "stars": 137030,
+    "language": "Python",
+    "latestRelease": {
+      "tag": "v0.39.0",
+      "date": "2026-10-05T22:49:43Z",
+      "notes": "## What's Changed\r\n* Support LynnReal light Minimax-H3 vae by @kijai in https://github.com/Comfy-Org/ComfyUI/pull/16657\r\n* Update embedded docs to v0.5.13 by @comfyui-wiki in https://github.com/Comfy-Org/ComfyUI/pull/16618\r\n* Use higher quality defaults for Save Video encoding. by @comfyanonymous in https://github.com/Comfy-Org/ComfyUI/pull/16663\r\n* feat: add DynamicGroup widget input by @jaeone94 in https://github.com/Comfy-Org/ComfyUI/pull/16260\r\n* fix(assets): don't let a model category that "
+    },
+    "recentActivity": "2026-10-12T07:41:19Z",
+    "tags": [
+      "Computer Vision",
+      "Video Models",
+      "Open Source"
+    ]
+  },
+  {
+    "id": "14df74d3bb6b",
+    "name": "llama.cpp",
+    "fullName": "ggml-org/llama.cpp",
+    "description": "LLM inference in C/C++",
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "stars": 130894,
+    "language": "C++",
+    "latestRelease": {
+      "tag": "v0.6.0",
+      "date": "2026-10-05T16:56:22Z",
+      "notes": "## Overview\r\n\r\nllama.cpp v0.6.0 introduces the new `llama_batch_ext` extended batch API (with `llama_process`) for mixed token/embedding inputs and MTP/deepstack state embeddings, adds support for the GLM-5.3-Flash (GLM5-Next) 320B hybrid model, the Clef decision model (text and vision) and MTP speculative decoding for Qwen4Exp, ships a new `/v1/systemone` server API for decision models (laya, julia-1, lev, openjev, kev, nimble), overhauls the Web UI with a Hugging Face Hub data layer and model "
+    },
+    "recentActivity": "2026-10-12T08:06:41Z",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Inference"
+    ]
+  },
+  {
+    "id": "deae4303c432",
+    "name": "vllm",
+    "fullName": "vllm-project/vllm",
+    "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+    "url": "https://github.com/vllm-project/vllm",
+    "stars": 93617,
+    "language": "Python",
+    "latestRelease": {
+      "tag": "v0.31.0",
+      "date": "2026-10-05T06:44:55Z",
+      "notes": "# v0.31.0\r\n\r\n## Highlights\r\n\r\nThis release features 717 commits from 307 contributors (96 new)!\r\n\r\n* **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the gate GEMM with expert selection (#56266); decoder boundaries fuse the TP all-reduce, mHC input preparation (#57643) and the MoE finalize (#58586); a fused small-batch WO-A with inverse R"
+    },
+    "recentActivity": "2026-10-12T08:06:49Z",
+    "tags": [
+      "Inference",
+      "LLMs",
+      "Open Source"
+    ]
+  },
+  {
+    "id": "6d558ac6ba23",
+    "name": "OpenHands",
+    "fullName": "OpenHands/OpenHands",
+    "description": "🙌 OpenHands: AI-Driven Development",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "stars": 90656,
+    "language": "TypeScript",
+    "latestRelease": {
+      "tag": "v1.26.0",
+      "date": "2026-10-08T20:36:10Z",
+      "notes": "## 1.26.0 (2026-10-08)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Features\n* feat(apps): add authenticated backend view helper by @neubig in https://github.com/OpenHands/OpenHands/pull/17656\n* feat(chat): render empty-response corrective nudge as an informational note by @errmakov in https://github.com/OpenHands/OpenHands/pull/17864\n* feat: verify-openhands skill with control-openhands CLI and the full feature map by @enyst in http"
+    },
+    "recentActivity": "2026-10-12T05:50:30Z",
+    "tags": [
+      "Agents",
+      "AI Coding",
+      "Open Source"
+    ]
+  },
+  {
+    "id": "68b1fb9303ec",
+    "name": "litellm",
+    "fullName": "BerriAI/litellm",
+    "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+    "url": "https://github.com/BerriAI/litellm",
+    "stars": 61016,
+    "language": "Python",
+    "latestRelease": {
+      "tag": "v1.105.0",
+      "date": "2026-10-11T09:53:26Z",
+      "notes": "## Verify Docker Image Signature\n\nAll LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). Every release is signed with the same key introduced in [commit `0112e53`](https://github.com/BerriAI/litellm/commit/0112e53046018d726492c814b3644b7d376029d0).\n\n**Verify using the pinned commit hash (recommended):**\n\nA commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key:\n\n```bash\ncosign verify \\\n  -"
+    },
+    "recentActivity": "2026-10-12T08:13:18Z",
+    "tags": [
+      "LLMs",
+      "Inference",
+      "Open Source"
+    ]
+  },
+  {
+    "id": "1941bc8214c6",
+    "name": "langgraph",
+    "fullName": "langchain-ai/langgraph",
+    "description": "Build resilient agents.",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "stars": 43105,
+    "language": "Python",
+    "latestRelease": {
+      "tag": "cli==0.4.33",
+      "date": "2026-10-07T13:38:46Z",
+      "notes": "Changes since cli==0.4.32\n\n* release(cli): 0.4.33 (#9227)\n* feat(cli): add --image-uri to deploy an already-pushed image (#9222)\n* feat(cli): add 'langgraph deploy listeners list' (#9221)\n* chore(deps): bump virtualenv from 21.7.12 to 21.7.13 in /libs/cli (#9167)\n* chore(deps): bump virtualenv from 21.2.4 to 21.7.12 in /libs/cli (#9159)\n* chore(deps): bump the minor-and-patch group in /libs/cli/js-monorepo-example with 8 updates (#9151)\n* chore(deps): bump the minor-and-patch group in /libs/cli "
+    },
+    "recentActivity": "2026-10-12T02:54:17Z",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Open Source"
+    ]
+  },
+  {
+    "id": "233a4f836599",
+    "name": "continue",
+    "fullName": "continuedev/continue",
+    "description": "open-source coding agent",
+    "url": "https://github.com/continuedev/continue",
+    "stars": 36189,
+    "language": "TypeScript",
+    "latestRelease": {
+      "tag": "v2.0.0-vscode",
+      "date": "2026-06-19T00:24:01Z",
+      "notes": ""
+    },
+    "recentActivity": "2026-10-09T21:22:45Z",
+    "tags": [
+      "AI Coding",
+      "Open Source"
+    ]
+  },
+  {
+    "id": "052e3a92e72b",
+    "name": "llama-models",
+    "fullName": "meta-llama/llama-models",
+    "description": "Utilities intended for use with Llama models.",
+    "url": "https://github.com/meta-llama/llama-models",
+    "stars": 7708,
+    "language": "Python",
+    "latestRelease": {
+      "tag": "v0.2.0",
+      "date": "2025-04-05T19:02:56Z",
+      "notes": "Llama 4 Support ( https://www.llama.com ) \r\n\r\n"
+    },
+    "recentActivity": "2026-02-11T16:38:31Z",
+    "tags": [
+      "LLMs",
+      "Research",
+      "Open Source"
+    ]
+  }
+]
