@@ -1,5 +1,37 @@
 [
   {
+    "id": "4e2836be3192",
+    "title": "AI Labs Warn Race Makes Breach ‘Inevitable’",
+    "channel": "AI Explained",
+    "channelId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "date": "2026-10-12T22:52:31Z",
+    "duration": "31:01",
+    "thumbnail": "https://i.ytimg.com/vi/C4Sq3Rot8FU/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=C4Sq3Rot8FU",
+    "description": "In the week that software got reverse engineered, Sam Altman warned 6.1 Astra 'tipped toward [breach risk], and Muse Wonder ...",
+    "viewCount": 58042,
+    "tags": [],
+    "relevanceScore": 8.3
+  },
+  {
+    "id": "1769327788e9",
+    "title": "Every app on Earth is now open source... whether it likes it or not",
+    "channel": "Fireship",
+    "channelId": "UCsBjURrPoezykLs9EqgamOA",
+    "date": "2026-10-12T19:15:23Z",
+    "duration": "5:56",
+    "thumbnail": "https://i.ytimg.com/vi/wajoP_5Cpw8/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=wajoP_5Cpw8",
+    "description": "Every agent needs proper tools. Apify MCP gives yours thousands of them, ready to run. Use code FIRESHIP25 for $25 in free ...",
+    "viewCount": 1359412,
+    "tags": [
+      "Agents",
+      "Open Source",
+      "MCP"
+    ],
+    "relevanceScore": 8.2
+  },
+  {
     "id": "e56f032e502a",
     "title": "DeepSeek Solved AI’s Memory Problem",
     "channel": "Two Minute Papers",
@@ -9,12 +41,26 @@
     "thumbnail": "https://i.ytimg.com/vi/4fLVq6HJsKc/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
     "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers The DeepSeek OCR paper is available ...",
-    "viewCount": 183106,
+    "viewCount": 269935,
     "tags": [
       "Research",
       "Memory"
     ],
-    "relevanceScore": 8.4
+    "relevanceScore": 6.6
+  },
+  {
+    "id": "f238bb51e33a",
+    "title": "Meta’s Muse Wonder - Fable Class Model",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-12T18:15:08Z",
+    "duration": "1:24",
+    "thumbnail": "https://i.ytimg.com/vi/JqeqEqh_KeM/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=JqeqEqh_KeM",
+    "description": "Meta just released Muse Wonder and Muse Wonder Full, and the whole launch is built around \"personal superintelligence\": ...",
+    "viewCount": 7511,
+    "tags": [],
+    "relevanceScore": 6.6
   },
   {
     "id": "74a7888aacce",
@@ -26,12 +72,12 @@
     "thumbnail": "https://i.ytimg.com/vi/DVRMDoYhVBI/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=DVRMDoYhVBI",
     "description": "Jeremy Howard, co-founder of fast.ai, on why AI-assisted coding works like a slot machine: you craft the prompt, pull the lever, and ...",
-    "viewCount": 4767,
+    "viewCount": 6232,
     "tags": [
       "AI Coding",
       "Open Source"
     ],
-    "relevanceScore": 6.7
+    "relevanceScore": 5.5
   },
   {
     "id": "a3e820014ed8",
@@ -43,44 +89,11 @@
     "thumbnail": "https://i.ytimg.com/vi/5YJGDElbCDY/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=5YJGDElbCDY",
     "description": "Thanks to Neon for sponsoring this video. Check out Neon for your backend needs for your apps and agents: ...",
-    "viewCount": 16098,
+    "viewCount": 22004,
     "tags": [
       "Agents",
       "LLMs"
     ],
-    "relevanceScore": 6.5
-  },
-  {
-    "id": "8e6351100148",
-    "title": "DeepSeek-V4.1 Flash: The Most Insane Optimization So Far",
-    "channel": "bycloud",
-    "channelId": "UCgfe2ooZD3VJPB6aJAnuQng",
-    "date": "2026-10-10T17:11:00Z",
-    "duration": "25:04",
-    "thumbnail": "https://i.ytimg.com/vi/CsSnSBCVoDU/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=CsSnSBCVoDU",
-    "description": "Your private local AI server needs an upgrade or maintenance support? Book a free audit now at https://nimbuskernel.com/ ...",
-    "viewCount": 207684,
-    "tags": [
-      "RL"
-    ],
-    "relevanceScore": 6.3
-  },
-  {
-    "id": "3ba30a9c6357",
-    "title": "What Is a Software Factory?",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-10T19:02:57Z",
-    "duration": "1:19",
-    "thumbnail": "https://i.ytimg.com/vi/ycZaPLeJb30/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=ycZaPLeJb30",
-    "description": "What is a software factory? It's an assembly line for your codebase: GitHub issues go in, AI coding agents fix them in parallel, ...",
-    "viewCount": 2932,
-    "tags": [
-      "Agents",
-      "AI Coding"
-    ],
-    "relevanceScore": 4.7
+    "relevanceScore": 5
   }
 ]

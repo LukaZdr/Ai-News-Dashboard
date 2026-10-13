@@ -1,0 +1,99 @@
+[
+  {
+    "id": "4e2836be3192",
+    "title": "AI Labs Warn Race Makes Breach ‘Inevitable’",
+    "channel": "AI Explained",
+    "channelId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "date": "2026-10-12T22:52:31Z",
+    "duration": "31:01",
+    "thumbnail": "https://i.ytimg.com/vi/C4Sq3Rot8FU/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=C4Sq3Rot8FU",
+    "description": "In the week that software got reverse engineered, Sam Altman warned 6.1 Astra 'tipped toward [breach risk], and Muse Wonder ...",
+    "viewCount": 58042,
+    "tags": [],
+    "relevanceScore": 8.3
+  },
+  {
+    "id": "1769327788e9",
+    "title": "Every app on Earth is now open source... whether it likes it or not",
+    "channel": "Fireship",
+    "channelId": "UCsBjURrPoezykLs9EqgamOA",
+    "date": "2026-10-12T19:15:23Z",
+    "duration": "5:56",
+    "thumbnail": "https://i.ytimg.com/vi/wajoP_5Cpw8/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=wajoP_5Cpw8",
+    "description": "Every agent needs proper tools. Apify MCP gives yours thousands of them, ready to run. Use code FIRESHIP25 for $25 in free ...",
+    "viewCount": 1359412,
+    "tags": [
+      "Agents",
+      "Open Source",
+      "MCP"
+    ],
+    "relevanceScore": 8.2
+  },
+  {
+    "id": "e56f032e502a",
+    "title": "DeepSeek Solved AI’s Memory Problem",
+    "channel": "Two Minute Papers",
+    "channelId": "UCbfYPyITQ-7l4upoX8nvctg",
+    "date": "2026-10-11T16:53:17Z",
+    "duration": "5:38",
+    "thumbnail": "https://i.ytimg.com/vi/4fLVq6HJsKc/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
+    "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers The DeepSeek OCR paper is available ...",
+    "viewCount": 269935,
+    "tags": [
+      "Research",
+      "Memory"
+    ],
+    "relevanceScore": 6.6
+  },
+  {
+    "id": "f238bb51e33a",
+    "title": "Meta’s Muse Wonder - Fable Class Model",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-12T18:15:08Z",
+    "duration": "1:24",
+    "thumbnail": "https://i.ytimg.com/vi/JqeqEqh_KeM/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=JqeqEqh_KeM",
+    "description": "Meta just released Muse Wonder and Muse Wonder Full, and the whole launch is built around \"personal superintelligence\": ...",
+    "viewCount": 7511,
+    "tags": [],
+    "relevanceScore": 6.6
+  },
+  {
+    "id": "74a7888aacce",
+    "title": "AI Coding Is a Slot Machine: Loss Disguised as a Win | Jeremy Howard",
+    "channel": "Machine Learning Street Talk",
+    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
+    "date": "2026-10-11T09:19:59Z",
+    "duration": "1:06",
+    "thumbnail": "https://i.ytimg.com/vi/DVRMDoYhVBI/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=DVRMDoYhVBI",
+    "description": "Jeremy Howard, co-founder of fast.ai, on why AI-assisted coding works like a slot machine: you craft the prompt, pull the lever, and ...",
+    "viewCount": 6232,
+    "tags": [
+      "AI Coding",
+      "Open Source"
+    ],
+    "relevanceScore": 5.5
+  },
+  {
+    "id": "a3e820014ed8",
+    "title": "Google&#39;s GPT-3 Moment for Databases &amp; Spreadsheets (TabFM)",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-11T13:15:17Z",
+    "duration": "10:58",
+    "thumbnail": "https://i.ytimg.com/vi/5YJGDElbCDY/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=5YJGDElbCDY",
+    "description": "Thanks to Neon for sponsoring this video. Check out Neon for your backend needs for your apps and agents: ...",
+    "viewCount": 22004,
+    "tags": [
+      "Agents",
+      "LLMs"
+    ],
+    "relevanceScore": 5
+  }
+]

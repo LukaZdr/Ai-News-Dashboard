@@ -1,59 +1,11 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "topics": [
     {
-      "topic": "Agents",
-      "frequency": 15,
-      "growth": "stable",
-      "relatedPaperIds": [
-        "6d4acbdfbf98",
-        "5fcd32d7c7b4",
-        "c420fd518bfe",
-        "1b94b6587925",
-        "09489e054f92",
-        "b0c69ba75018",
-        "c02a00ff77d5",
-        "448132ed84b1",
-        "74444629c42e"
-      ],
-      "relatedVideoIds": [
-        "a3e820014ed8",
-        "3ba30a9c6357"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "83b96e936faf",
-        "6d558ac6ba23",
-        "1941bc8214c6"
-      ],
-      "relatedNewsletterIds": [
-        "e4ce149aadf0"
-      ]
-    },
-    {
       "topic": "Inference",
-      "frequency": 25,
-      "growth": "rising",
-      "relatedPaperIds": [
-        "a8b7a6dabe23",
-        "0326e9bcb5de",
-        "2fd32958776c",
-        "1975cea7071a",
-        "05bd3239316c",
-        "45ab710b711a",
-        "6a1aae1a0a08",
-        "1b94b6587925",
-        "09489e054f92",
-        "c4c2e4bf06fe",
-        "8cbd18f02ef7",
-        "a8391a1c8b2c",
-        "c02a00ff77d5",
-        "448132ed84b1",
-        "c4e5f8ccf162",
-        "6ded6fa1f276",
-        "ef00e6ac96a2",
-        "0b6d7dac8bcb"
-      ],
+      "frequency": 6,
+      "growth": "stable",
+      "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
       "relatedRepoIds": [
@@ -64,26 +16,33 @@
         "deae4303c432",
         "68b1fb9303ec"
       ],
-      "relatedNewsletterIds": [
-        "e4ce149aadf0"
-      ]
+      "relatedNewsletterIds": []
     },
     {
-      "topic": "Factory Agents",
-      "frequency": 1,
-      "growth": "rising",
+      "topic": "Agents",
+      "frequency": 7,
+      "growth": "stable",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "3ba30a9c6357"
+        "1769327788e9",
+        "a3e820014ed8"
       ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
+      "relatedNewsIds": [
+        "3f0dd6f13ff1"
+      ],
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "317896ba58d6"
+      ]
     },
     {
       "topic": "llama",
       "frequency": 2,
-      "growth": "stable",
+      "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
@@ -94,55 +53,9 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "Software Factory",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "3ba30a9c6357"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Memory",
-      "frequency": 22,
-      "growth": "rising",
-      "relatedPaperIds": [
-        "77527e8fbc7f",
-        "f3ab9816e1d6",
-        "0326e9bcb5de",
-        "1463c356ab00",
-        "6d4acbdfbf98",
-        "14b06e561017",
-        "05bd3239316c",
-        "45ab710b711a",
-        "42a204390429",
-        "a7f6184d0722",
-        "6a1aae1a0a08",
-        "c420fd518bfe",
-        "1b94b6587925",
-        "c4c2e4bf06fe",
-        "8cbd18f02ef7",
-        "273a2d792b07",
-        "559a1b4849f9",
-        "c02a00ff77d5",
-        "76c6adc9c50f",
-        "74444629c42e",
-        "864c39b52c2f"
-      ],
-      "relatedVideoIds": [
-        "e56f032e502a"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
       "topic": "continue open-source",
       "frequency": 1,
-      "growth": "stable",
+      "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
@@ -152,38 +65,16 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "learning",
-      "frequency": 21,
+      "topic": "continue",
+      "frequency": 1,
       "growth": "rising",
-      "relatedPaperIds": [
-        "cb3a8d120089",
-        "a8b7a6dabe23",
-        "1463c356ab00",
-        "ee24401dab33",
-        "42a204390429",
-        "a7f6184d0722",
-        "f331b75b7f90",
-        "b74dcd081cdd",
-        "c420fd518bfe",
-        "09489e054f92",
-        "b0c69ba75018",
-        "8cbd18f02ef7",
-        "a8391a1c8b2c",
-        "c02a00ff77d5",
-        "448132ed84b1",
-        "6ded6fa1f276",
-        "74444629c42e"
-      ],
+      "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
       "relatedRepoIds": [
-        "7166ecafb485"
+        "233a4f836599"
       ],
-      "relatedNewsletterIds": [
-        "9a033797a8f8",
-        "edfefe604600",
-        "2fdf23086d32"
-      ]
+      "relatedNewsletterIds": []
     },
     {
       "topic": "DeepSeek Solved",
@@ -207,6 +98,42 @@
       ],
       "relatedNewsIds": [],
       "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "OpenHands",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "6d558ac6ba23"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "open-source",
+      "frequency": 1,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "cpp",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "14df74d3bb6b"
+      ],
       "relatedNewsletterIds": []
     }
   ]

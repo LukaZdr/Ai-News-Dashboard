@@ -1,8 +1,8 @@
 [
   {
     "id": "048b1b572f9c",
-    "title": "Understanding the latest trends in LLMs and AI Coding and Business (Issue #152)",
-    "date": "2026-10-12T08:15:25.906Z",
+    "title": "Understanding the latest trends in LLMs and AI Coding and Business (Issue #163)",
+    "date": "2026-10-13T08:40:39.826Z",
     "source": "Ben's Bites",
     "url": "https://example.com/mock/ben's-bites",
     "summary": "A rapid daily digest covering the newest AI model releases, products, browser extensions, and early-stage startup updates. This issue explores key methodologies, benchmarks, and community findings in the LLMs, AI Coding, Business ecosystem.",
@@ -16,25 +16,9 @@
     "readTime": "6 min read"
   },
   {
-    "id": "9a033797a8f8",
-    "title": "Understanding the latest trends in Research and Open Source and Business (Issue #160)",
-    "date": "2026-10-12T08:15:25.058Z",
-    "source": "Import AI",
-    "url": "https://example.com/mock/import-ai",
-    "summary": "Jack Clark's weekly analysis of machine learning progress, model safety policies, computational resource scaling, and national AI strategies. This issue explores key methodologies, benchmarks, and community findings in the Research, Open Source, Business ecosystem.",
-    "content": "Jack Clark's weekly analysis of machine learning progress, model safety policies, computational resource scaling, and national AI strategies. This issue explores key methodologies, benchmarks, and community findings in the Research, Open Source, Business ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
-    "tags": [
-      "Research",
-      "Open Source",
-      "Business"
-    ],
-    "quality": 5,
-    "readTime": "6 min read"
-  },
-  {
     "id": "2fdf23086d32",
-    "title": "Understanding the latest trends in Research and LLMs and Open Source (Issue #246)",
-    "date": "2026-10-12T08:15:25.019Z",
+    "title": "Understanding the latest trends in Research and LLMs and Open Source (Issue #191)",
+    "date": "2026-10-13T08:40:39.664Z",
     "source": "TLDR AI",
     "url": "https://example.com/mock/tldr-ai",
     "summary": "A curated daily summary of the most interesting developments in AI, machine learning research, and developer ecosystems. This issue explores key methodologies, benchmarks, and community findings in the Research, LLMs, Open Source ecosystem.",
@@ -48,25 +32,9 @@
     "readTime": "6 min read"
   },
   {
-    "id": "edfefe604600",
-    "title": "Understanding the latest trends in Research and Business and LLMs (Issue #195)",
-    "date": "2026-10-12T08:15:25.004Z",
-    "source": "The Batch",
-    "url": "https://example.com/mock/the-batch",
-    "summary": "Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.",
-    "content": "Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
-    "tags": [
-      "Research",
-      "Business",
-      "LLMs"
-    ],
-    "quality": 5,
-    "readTime": "6 min read"
-  },
-  {
     "id": "6145bf9087f7",
-    "title": "Understanding the latest trends in Business and LLMs and AI Coding (Issue #220)",
-    "date": "2026-10-12T08:15:24.958Z",
+    "title": "Understanding the latest trends in Business and LLMs and AI Coding (Issue #174)",
+    "date": "2026-10-13T08:40:39.624Z",
     "source": "The Rundown AI",
     "url": "https://example.com/mock/the-rundown-ai",
     "summary": "Daily briefing on the latest developments in artificial intelligence, focusing on commercial tools, LLM features, and productivity applications. This issue explores key methodologies, benchmarks, and community findings in the Business, LLMs, AI Coding ecosystem.",
@@ -80,36 +48,67 @@
     "readTime": "6 min read"
   },
   {
-    "id": "efe7e21618eb",
-    "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
-    "date": "Sat, 10 Oct 2026 22:07:17 GMT",
-    "source": "Latent Space",
-    "url": "https://www.latent.space/p/nyc2026",
-    "summary": "If you’re seeing this you’re part of our very very light subscription/paid tier, and we genuinely appreciate you: your donations have funded our production process indefinitely and it is my sincere i… Read more",
-    "content": "If you’re seeing this you’re part of our very very light subscription/paid tier, and we genuinely appreciate you: your donations have funded our production process indefinitely and it is my sincere i…\n\n\n\n\nRead more",
-    "tags": [],
-    "quality": 5,
-    "readTime": "1 min read"
-  },
-  {
-    "id": "e4ce149aadf0",
-    "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
-    "date": "Sat, 10 Oct 2026 14:04:11 GMT",
-    "source": "Latent Space",
-    "url": "https://www.latent.space/p/standard-bots",
-    "summary": "[] • • When you think of robotics and AI, you probably first think of full humanoid robots like Figure’s AI-powered machines and 1X’s NEO home robots. Those may well be the future, but arguably more important in 2026 is industrial robots — which are typically not humanoids. Standard Bots claims t",
-    "content": "[]\n\n• •\n\nWhen you think of robotics and AI, you probably first think of full humanoid robots like Figure’s AI-powered machines and 1X’s NEO home robots. Those may well be the future, but arguably more important in 2026 is industrial robots — which are typically not humanoids.\n\nStandard Bots claims to be “America’s largest AI-native industrial robot manufacturer.” It recently raised $200 million at a $1 billion valuation, in a series C round led by General Catalyst and RoboStrategy, a fund focused on robotics. Its customers include NASA, Amazon and Lockheed Martin.\n\nWe spoke to Evan Beard, co-founder and CEO, and Leif Jentoft, Head of AI, to find out more about Standard Bots’ AI stack and how its models work.\n\nTo set the scene, Standard Bots’ industrial robot arms are designed for tasks such as machine tending, welding, and assembly. Here’s a quick demo by Jentoft:\n\nPretrained models and task-specific adaptation\n\nAccording to Beard, Standard Bots has a shared base model that customers adapt through demonstrations and fine-tuning. Jentoft added that Standard Bots runs a range of models, including a zero-shot perception system for machine tending.\n\nBeard says its largest model is in the low billions of parameters — so it’s not that large by frontier lab standards.\n\n“We believe data quality matters far more than raw volume,” said Jentoft, “and we focus on getting the most out of targeted data rather than chasing the largest possible dataset.” (This matches the “bitterest lesson” of Jev creator Diogo Almeida, who told us recently that the right task and the right data can matter more than compute.)\n\n“Our market access gives us unique access to the highest value data,” he added. “In-situ interventions can fix an edge case with a few dozen examples.”\n\n[]\n\n• •\n\nSetting up part identification with ClickFind.\n\nBeard notes that Standard Bots focuses on short-horizon tasks to meet production requirements for cycle time and reliability. The company uses conventional programming for parts of a workflow that don’t require learned behavior.\n\nModel training happens in the cloud but inference runs locally, said Beard.\n\nWhat does the model do exactly?\n\nI asked Jentoft what the learned model does in a typical robot routine, and which parts of the workflow use conventional programming?\n\nAs an example, he brought up its machine-tending solution for high-mix manufacturing.\n\n“We’ve built a zero-shot system that lets a user tell the robot which parts to look for on a given task. The model handles perception — locating and identifying the parts — while conventional programming handles the motion and the cell logic around it.”\n\nHere’s a demonstration of the machine-tending:\n\n“Our backbone for this task is trained on over a billion images, which is what lets the robot distinguish between lighting conditions, material types, and an object versus its background,” Jentoft said.\n\nThe Full AI Stack\n\nBack in April, we had Applied Intuition on the podcast to talk about “Physical AI” and how it differs from on-screen AI. One of the learnings was that the Physical AI isn’t just constrained by model intelligence: the hard part is deploying models onto real hardware, under safety, latency, power, cost, and reliability constraints.\n\nBut for Standard Bots, that can also be a strength, since it controls the “full stack” from software to hardware. Jentoft points out that it controls the robotic arm, end effector, control system, and AI.\n\n“That lets us co-optimize the models and the control policies,” he said. “Despite claims elsewhere, no model today is truly hardware-agnostic, and co-optimizing low-level control and higher-level functions is a major advantage for both performance and iteration speed.”\n\n[]\n\n• •\n\nSkild, a company aiming to build “general purpose robotic intelligence,” might quibble with the hardware-agnostic claim — its goal is to achieve cross-hardware generalization.\n\nOn-prem inference: sensors, edge GPUs, and ‘action chunks’\n\nBeard had mentioned that inference is done locally, which is especially important for its core customers: factories.\n\n“For factories, which is most of what we’re doing right now — and certainly so much opportunity that we see there — this is something where you need to do inference on-premise,” he said.\n\n[]\n\n• •\n\nAn AI agent building a machine-tending routine.\n\nFor machine tending, the model identifies parts while conventional programming handles motion. Jentoft also described how models can generate actions that feed into the robot’s control system.\n\n“Wrist cameras and other sensors feed raw pixels and signals into the system over internal gigabit Ethernet, routed internally so no cables tangle,” he explained. “GPUs at the edge process that data to generate action chunks, which stream to low-level control.”\n\nHe reiterated that inference is run on-premises deliberately.\n\n“Cloud compute for robotics is operationally extremely hard — most factories and warehouses don’t have reliable internet, and that’s even more true for mobile robots. Uptime is crucial to customer acceptance, so we keep the loop local.”\n\nProduction failures and fleet learning\n\nStandard Bots uses simulation where it can, but Beard says some production tasks — including those involving liquids, suction, or cutting flexible material — are difficult to reproduce in current simulators.\n\nReal-world demonstrations are another part of the learning process. Here’s a demo of teaching a robot using a handheld touch device:\n\nSo how does it deal with failure in a robot task, and do those kinds of learnings flow back to the model?\n\n“We capture failure signals and human corrections from deployments, and how we use that data depends on the customer,” Jentoft replied.\n\nHe noted that many of its defense customers “deploy in air-gapped environments, where nothing comes back.” But for customers that aren’t air-gapped, “fleet learning delivers enough benefit to their own applications that we typically don’t see pushback on contributing data in exchange for that performance.”\n\nStandardOS: an AI robotics dev platform\n\nStandard Bots has already expanded its platform so that external developers can use it. With StandardOS, it offers a set of APIs and SDKs.\n\nAccording to Beard, developers can use Standard Bots’ APIs to build robotics applications with whichever parts of its stack they need, including bringing their own models. He cited NVIDIA Cosmos, an open family of omnimodal world models for physical AI, as an example (version 3 was released late-May).\n\nToday, this requires developers to write their own integration code. But Standard Bots plans to make collecting data, training models, and deploying them onto its robots easier.\n\n[]\n\n• •\n\nAI robot learning workflow with NVIDIA software; via Standard Bots.\n\nFocus on targeted data\n\nStandard Bots isn’t the sexiest robotics company out there, but it is already being deployed for industrial automation at NASA, Amazon, Lockheed Martin, and others.\n\nFor AI engineers, perhaps the most useful lesson is how Standard Bots adapts AI to a specific job. It keeps the model’s role focused and uses corrections from real deployments to fix edge cases. You can, of course, apply that same approach to software agents.\n\nAs Jentoft said — and it was a recent lesson from Jev too — it’s all about “getting the most out of targeted data rather than chasing the largest possible dataset.”",
+    "id": "edfefe604600",
+    "title": "Understanding the latest trends in Research and Business and LLMs (Issue #165)",
+    "date": "2026-10-13T08:40:39.446Z",
+    "source": "The Batch",
+    "url": "https://example.com/mock/the-batch",
+    "summary": "Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.",
+    "content": "Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
     "tags": [
-      "Agents",
-      "Reasoning",
-      "Computer Vision",
-      "Robotics",
-      "Open Source",
+      "Research",
       "Business",
-      "RL",
-      "Inference"
+      "LLMs"
     ],
     "quality": 5,
     "readTime": "6 min read"
+  },
+  {
+    "id": "9a033797a8f8",
+    "title": "Understanding the latest trends in Research and Open Source and Business (Issue #205)",
+    "date": "2026-10-13T08:40:39.423Z",
+    "source": "Import AI",
+    "url": "https://example.com/mock/import-ai",
+    "summary": "Jack Clark's weekly analysis of machine learning progress, model safety policies, computational resource scaling, and national AI strategies. This issue explores key methodologies, benchmarks, and community findings in the Research, Open Source, Business ecosystem.",
+    "content": "Jack Clark's weekly analysis of machine learning progress, model safety policies, computational resource scaling, and national AI strategies. This issue explores key methodologies, benchmarks, and community findings in the Research, Open Source, Business ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
+    "tags": [
+      "Research",
+      "Open Source",
+      "Business"
+    ],
+    "quality": 5,
+    "readTime": "6 min read"
+  },
+  {
+    "id": "317896ba58d6",
+    "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+    "date": "Mon, 12 Oct 2026 18:18:17 GMT",
+    "source": "Latent Space",
+    "url": "https://www.latent.space/p/claude-dynamic-workflows",
+    "summary": "[] • • CJ Avilla and Harrison Stall, Members of Technical Staff at Anthropic, at AI Engineer NYC today. The AI Engineer New York 2026 conference kicked off this morning with a series of workshops, including Anthropic discussing how to orchestrate its Claude Managed Agents. Of particular interest",
+    "content": "[]\n\n• •\n\nCJ Avilla and Harrison Stall, Members of Technical Staff at Anthropic, at AI Engineer NYC today.\n\nThe AI Engineer New York 2026 conference kicked off this morning with a series of workshops, including Anthropic discussing how to orchestrate its Claude Managed Agents. Of particular interest was a brand new feature, announced on Friday, called dynamic workflows — or simply “flows,” as the presenters repeatedly called it.\n\nFlows are defined as “a new type of multiagent orchestration, built for your most ambitious workloads.”\n\nCJ Avilla and Harrison Stall, both Members of Technical Staff at Anthropic, began by invoking some operating system projects of the past — from Ken Thompson building the original Unix operating system, through to Linux evolving from one person (Linus Torvalds) to layers of trusted maintainers. The lesson: agents need the same level of organization in order to do the types of big, ambitious projects Anthropic envisions for dynamic workflows.\n\n---\n\nSponsored by Union.ai\n\nBuild a sovereign AI factory\n\nThe best engineering teams are building AI factories where they own and control not only their data, compute, and infrastructure, but also a durable runtime on their cloud.\n\nUnion.ai gives your workflows the durability to adapt and right-size infra resources and recover from failures without re-running completed work.\n\nGet started directly through AWS Marketplace and try Union.ai free for 30 days.\n\nTo learn more, visit us at AI Engineer New York booth #48.\n\n---\n\n“I think a lot of us who are orchestrating and managing lots of agents now might start to feel this feeling of being the bottleneck and being the breaking point as we have lots of agents contributing tons and tons of PRs,” Avilla said. “And we’re sitting there in our GitHub trying to approve PRs and make sure that everything works as expected.”\n\n[]\n\n• •\n\nFrom agent rosters to dynamic workflows\n\nThe pair noted that dynamic workflows began in Claude Code as the “a harness for every task” concept. But flows can run longer than a single agent or a roster. The basic idea is that Claude chooses the organization of agents.\n\n“Flows are essentially the next version of multi-agent orchestration,” said Stall, “where you can let Claude fully orchestrate the entirety of its own multi-agent topology.”\n\nThe way this works is that the lead agent creates a plan for how it wants to accomplish tasks. Claude then writes an orchestration program, which launches agents, collects results, and manages information flow.\n\n[]\n\n• •\n\nImage via Anthropic\n\nPreviously, Claude Managed Agents required developers to configure a coordinator and a roster of subagents. With dynamic workflows, Claude itself determines how to divide and orchestrate the work.\n\n“Across multiple different phases of the multi-agent orchestration, it’s able to accomplish discrete, verifiable units of work without you having to manage any of the interconnections between these things,” Stall said.\n\n[]\n\n• •\n\nThat said, Avilla noted that the user can introduce specialist sub-agents if they wish.\n\n“It’s also possible in the agent config to pass in pre-configured sub-agents,” he said.\n\nAll of this is available in Claude Console, the interface used by developers accessing Claude through API — the whole point of Claude Managed Agents.\n\n[]\n\n• •\n\nClaude Console, where Managed Agents is located.\n\nThe presenters then showed a relatively simple workflow of a stock watchlist scanner. Although this was far removed from the big, ambitious projects Anthropic is encouraging, it did illustrate the basic pattern: a scan phase distributed individual tickers to agents with isolated contexts, and a later review phase examined the findings before producing a report.\n\nQ&A: Budgets and the limits of self-improvement\n\nThe audience Q&A surfaced a number of potential problems. One audience member asked how Claude decides how many agents a task needs, and could a simple ticker scan trigger hundreds of sub-agents?\n\n“The answer really is evals and lower defaults,” Stall replied, noting that ambitious tasks generally require explicitly encouraging greater parallelization.\n\nOne enduring concern with agent orchestration is maintaining control over your token budget. Someone asked whether the lead agent knows how much money it has available?\n\nStall replied that the model does not know its budget while running, but that developers can set a session budget. He added that informing models of their budgets could make the agents “a little bit anxious,” which elicited chuckles from the audience.\n\n[]\n\n• •\n\nScanner in the stock watchlist example.\n\nA related question was how can developers make repeated flows cheaper and more efficient over time?\n\nOutside of asking Claude to examine the costs incurred, Avilla suggested another relatively new feature be used: dreaming. In the documentation, “dreaming” is defined as a research preview feature. A dream “reads an existing memory store alongside past session transcripts, then produces a new, reorganized memory store,” with duplicates merged, “stale or contradicted entries” replaced, and “new insights surfaced.”\n\nAvilla described dreaming in the flow context as being able to “crystallize and basically improve the memory store that is related to those sessions.”\n\nFor the stock watchlist example, someone asked whether the watchlist flow can improve itself? For example, recognize that its scanning model is inadequate and change the next scheduled run?\n\nStall said this wasn’t built in, but he and Avilla suggested hill-climbing and dreaming could be used to improve the loop.\n\n[]\n\n• •\n\nThe brain/hands conceptual overview of Managed Agents.\n\nWhat about visibility into the actions of the sub-agents, another audience member asked.\n\nAvilla replied that yes, developers can always inspect that through graphing functionality inside Claude Console.\n\n“You can tell, what did the lead agent actually pass to the sub-agent? You can look at that payload here to deeply understand what is actually happening for every transition in this entire graph.”\n\nAnother interesting question was whether the subagents can communicate with each other?\n\nStall said the agents share a filesystem and can use it to exchange information, but developers cannot directly instruct one workflow subagent to message another through the API.\n\nFlows cost much more, but are designed for big tasks\n\nIn the watchlist-scanner comparison, Avilla said flows cost “much more” than a single-agent approach, but were also “much more effective at finding all of the details.”\n\n[]\n\n• •\n\nSetting a budget is key!\n\nThe bigger question is how ambitious can flows be, really? One audience member asked whether dynamic workflows can power large scientific research projects, referencing OpenAI’s recently announced proof concerning the Navier–Stokes Millennium Prize problem.\n\nWhile Stall wouldn’t be drawn on specifics about how Anthropic computes large scientific problems, he said it is their goal to enable general users to tackle those problems too.\n\n“Flows are basically a way to throw test-time compute at hard problems and get more capability faster out of the models,” he said. “We think, especially as an API service, that unlocking the power of this is the first step for us making these types of discoveries, or scientific progress, broadly doable by the general public.”",
+    "tags": [
+      "Agents",
+      "Reasoning",
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Memory",
+      "RAG"
+    ],
+    "quality": 5,
+    "readTime": "6 min read"
+  },
+  {
+    "id": "eb9dbd2ac534",
+    "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+    "date": "2026-10-12T18:15:38.000Z",
+    "source": "Simon Willison's Weblog",
+    "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+    "summary": "Hands-on engineering findings, prompt injection vectors, open-weights model fine-tuning, and practical applications of LLMs in software engineering.",
+    "content": "Hands-on engineering findings, prompt injection vectors, open-weights model fine-tuning, and practical applications of LLMs in software engineering.",
+    "tags": [],
+    "quality": 5,
+    "readTime": "1 min read"
   }
 ]

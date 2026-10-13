@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "id": "3f0dd6f13ff1",
+    "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+    "date": "Tue, 13 Oct 2026 05:00:31 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+    "summary": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application.  France’s progress sits on deliberate groundwork.  The AI Action Summ",
+    "type": "blog",
+    "tags": [
+      "Agents",
+      "Open Source"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "9f18fcccc317",
+    "title": "Simulating student learning for better AI tutoring",
+    "date": "Mon, 12 Oct 2026 16:00:00 +0000",
+    "source": "Microsoft Research",
+    "company": "microsoft",
+    "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+    "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedback to improve tutor performance across subjects like chess, writing, and mathematics.\nThe post Simulating student learni",
+    "type": "blog",
+    "tags": [
+      "Open Source"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "86921078ffc3",
+    "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+    "date": "Mon, 12 Oct 2026 15:00:25 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+    "summary": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Conven",
+    "type": "announcement",
+    "tags": [
+      "Business",
+      "RL"
+    ],
+    "importance": 5
+  }
+]
