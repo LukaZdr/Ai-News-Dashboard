@@ -1,5 +1,54 @@
 [
   {
+    "id": "d2d91747a4ca",
+    "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
+    "channel": "Two Minute Papers",
+    "channelId": "UCbfYPyITQ-7l4upoX8nvctg",
+    "date": "2026-10-13T08:56:12Z",
+    "duration": "8:49",
+    "thumbnail": "https://i.ytimg.com/vi/z_sXLlLVUls/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
+    "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers The papers are available here: ...",
+    "viewCount": 147701,
+    "tags": [
+      "Research"
+    ],
+    "relevanceScore": 8
+  },
+  {
+    "id": "4215af22860a",
+    "title": "I Tested AI Cloning… and It’s Way Worse Than You Think!",
+    "channel": "Dave's Garage",
+    "channelId": "UCNzszbnvQeFzObW0ghk0Ckw",
+    "date": "2026-10-14T00:18:30Z",
+    "duration": "20:51",
+    "thumbnail": "https://i.ytimg.com/vi/KC31K-CUC5Y/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=KC31K-CUC5Y",
+    "description": "I used AI to reverse engineer real binaries, understand how they work, and then clone their functionality into brand-new ...",
+    "viewCount": 132697,
+    "tags": [
+      "Reasoning"
+    ],
+    "relevanceScore": 7.9
+  },
+  {
+    "id": "a35fc4621f97",
+    "title": "Google is BACK! (Gemini 4 Argon - Fully Tested!)",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-13T16:03:10Z",
+    "duration": "20:16",
+    "thumbnail": "https://i.ytimg.com/vi/yksrd5uNxcw/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=yksrd5uNxcw",
+    "description": "Gemini 4 Argon tested hands-on with early access: I pushed Google's new model to 1 million output tokens in a single response, ...",
+    "viewCount": 89648,
+    "tags": [
+      "LLMs",
+      "RL"
+    ],
+    "relevanceScore": 7.3
+  },
+  {
     "id": "4e2836be3192",
     "title": "AI Labs Warn Race Makes Breach ‘Inevitable’",
     "channel": "AI Explained",
@@ -9,9 +58,9 @@
     "thumbnail": "https://i.ytimg.com/vi/C4Sq3Rot8FU/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=C4Sq3Rot8FU",
     "description": "In the week that software got reverse engineered, Sam Altman warned 6.1 Astra 'tipped toward [breach risk], and Muse Wonder ...",
-    "viewCount": 58042,
+    "viewCount": 113889,
     "tags": [],
-    "relevanceScore": 8.3
+    "relevanceScore": 6.8
   },
   {
     "id": "1769327788e9",
@@ -23,30 +72,13 @@
     "thumbnail": "https://i.ytimg.com/vi/wajoP_5Cpw8/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=wajoP_5Cpw8",
     "description": "Every agent needs proper tools. Apify MCP gives yours thousands of them, ready to run. Use code FIRESHIP25 for $25 in free ...",
-    "viewCount": 1359412,
+    "viewCount": 2612591,
     "tags": [
       "Agents",
       "Open Source",
       "MCP"
     ],
-    "relevanceScore": 8.2
-  },
-  {
-    "id": "e56f032e502a",
-    "title": "DeepSeek Solved AI’s Memory Problem",
-    "channel": "Two Minute Papers",
-    "channelId": "UCbfYPyITQ-7l4upoX8nvctg",
-    "date": "2026-10-11T16:53:17Z",
-    "duration": "5:38",
-    "thumbnail": "https://i.ytimg.com/vi/4fLVq6HJsKc/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
-    "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers The DeepSeek OCR paper is available ...",
-    "viewCount": 269935,
-    "tags": [
-      "Research",
-      "Memory"
-    ],
-    "relevanceScore": 6.6
+    "relevanceScore": 6.5
   },
   {
     "id": "f238bb51e33a",
@@ -58,42 +90,8 @@
     "thumbnail": "https://i.ytimg.com/vi/JqeqEqh_KeM/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=JqeqEqh_KeM",
     "description": "Meta just released Muse Wonder and Muse Wonder Full, and the whole launch is built around \"personal superintelligence\": ...",
-    "viewCount": 7511,
+    "viewCount": 12080,
     "tags": [],
-    "relevanceScore": 6.6
-  },
-  {
-    "id": "74a7888aacce",
-    "title": "AI Coding Is a Slot Machine: Loss Disguised as a Win | Jeremy Howard",
-    "channel": "Machine Learning Street Talk",
-    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
-    "date": "2026-10-11T09:19:59Z",
-    "duration": "1:06",
-    "thumbnail": "https://i.ytimg.com/vi/DVRMDoYhVBI/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=DVRMDoYhVBI",
-    "description": "Jeremy Howard, co-founder of fast.ai, on why AI-assisted coding works like a slot machine: you craft the prompt, pull the lever, and ...",
-    "viewCount": 6232,
-    "tags": [
-      "AI Coding",
-      "Open Source"
-    ],
-    "relevanceScore": 5.5
-  },
-  {
-    "id": "a3e820014ed8",
-    "title": "Google&#39;s GPT-3 Moment for Databases &amp; Spreadsheets (TabFM)",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-11T13:15:17Z",
-    "duration": "10:58",
-    "thumbnail": "https://i.ytimg.com/vi/5YJGDElbCDY/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=5YJGDElbCDY",
-    "description": "Thanks to Neon for sponsoring this video. Check out Neon for your backend needs for your apps and agents: ...",
-    "viewCount": 22004,
-    "tags": [
-      "Agents",
-      "LLMs"
-    ],
-    "relevanceScore": 5
+    "relevanceScore": 5.1
   }
 ]

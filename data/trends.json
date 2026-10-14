@@ -1,11 +1,129 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "topics": [
     {
-      "topic": "Inference",
-      "frequency": 6,
-      "growth": "stable",
+      "topic": "Argon",
+      "frequency": 5,
+      "growth": "rising",
       "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "a35fc4621f97"
+      ],
+      "relatedNewsIds": [
+        "f0c8d1afc0fa",
+        "c2c7db3de007",
+        "e5b00fbb9308"
+      ],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "29b73d3127c7"
+      ]
+    },
+    {
+      "topic": "Gemini Argon",
+      "frequency": 5,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "a35fc4621f97"
+      ],
+      "relatedNewsIds": [
+        "f0c8d1afc0fa",
+        "c2c7db3de007",
+        "e5b00fbb9308"
+      ],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "29b73d3127c7"
+      ]
+    },
+    {
+      "topic": "Gemini",
+      "frequency": 5,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "a35fc4621f97"
+      ],
+      "relatedNewsIds": [
+        "f0c8d1afc0fa",
+        "c2c7db3de007",
+        "e5b00fbb9308"
+      ],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "29b73d3127c7"
+      ]
+    },
+    {
+      "topic": "Agents",
+      "frequency": 32,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "09b645128f41",
+        "31123f41d58f",
+        "d5b74d39479e",
+        "5f014d7027a4",
+        "14958f656e70",
+        "b85115a9dd47",
+        "1db7dfb775cc",
+        "8e3410a8ed5e",
+        "890d00e290ef",
+        "1fc943329aed",
+        "6593ad1a89b3",
+        "173546e33310",
+        "41212a6edc72",
+        "0e6e5a1723d8",
+        "2b9c71357223",
+        "407960a8ca2e",
+        "17d2bc2e2b1a",
+        "ed2e92fbec95",
+        "a5fdb76aa72c",
+        "4e3c5ace699d"
+      ],
+      "relatedVideoIds": [
+        "1769327788e9"
+      ],
+      "relatedNewsIds": [
+        "1e6e3f4ed538",
+        "17ef235458a3",
+        "3f0dd6f13ff1"
+      ],
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "29b73d3127c7",
+        "512e0a4d18ba",
+        "857c23ff466d",
+        "1205823a7c10",
+        "317896ba58d6"
+      ]
+    },
+    {
+      "topic": "Inference",
+      "frequency": 25,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "d5b74d39479e",
+        "5f014d7027a4",
+        "fc063f014408",
+        "1db7dfb775cc",
+        "00bb4f7e1e76",
+        "40dc6397f43f",
+        "95a8646a1405",
+        "6da8dde2b5d0",
+        "b9c4724231cc",
+        "173546e33310",
+        "874728418e43",
+        "d53649e55fd8",
+        "4b7d109a44ed",
+        "f664886f72ed",
+        "d4a241aca057",
+        "53d81a78687a"
+      ],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
       "relatedRepoIds": [
@@ -16,33 +134,48 @@
         "deae4303c432",
         "68b1fb9303ec"
       ],
-      "relatedNewsletterIds": []
+      "relatedNewsletterIds": [
+        "29b73d3127c7",
+        "512e0a4d18ba",
+        "1205823a7c10"
+      ]
     },
     {
-      "topic": "Agents",
+      "topic": "Robotics",
       "frequency": 7,
-      "growth": "stable",
+      "growth": "rising",
+      "relatedPaperIds": [
+        "fc063f014408",
+        "9d574489d055",
+        "890d00e290ef"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [
+        "c2c7db3de007"
+      ],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "29b73d3127c7",
+        "512e0a4d18ba",
+        "1205823a7c10"
+      ]
+    },
+    {
+      "topic": "Barely Understand",
+      "frequency": 1,
+      "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "1769327788e9",
-        "a3e820014ed8"
+        "d2d91747a4ca"
       ],
-      "relatedNewsIds": [
-        "3f0dd6f13ff1"
-      ],
-      "relatedRepoIds": [
-        "83b96e936faf",
-        "6d558ac6ba23",
-        "1941bc8214c6"
-      ],
-      "relatedNewsletterIds": [
-        "317896ba58d6"
-      ]
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
     },
     {
       "topic": "llama",
       "frequency": 2,
-      "growth": "rising",
+      "growth": "declining",
       "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
@@ -53,87 +186,30 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "continue open-source",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "233a4f836599"
-      ],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "continue",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "233a4f836599"
-      ],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "DeepSeek Solved",
-      "frequency": 1,
+      "topic": "Tested",
+      "frequency": 3,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "e56f032e502a"
+        "4215af22860a",
+        "a35fc4621f97"
       ],
-      "relatedNewsIds": [],
+      "relatedNewsIds": [
+        "9f18fcccc317"
+      ],
       "relatedRepoIds": [],
       "relatedNewsletterIds": []
     },
     {
-      "topic": "Memory Problem",
+      "topic": "Barely",
       "frequency": 1,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "e56f032e502a"
+        "d2d91747a4ca"
       ],
       "relatedNewsIds": [],
       "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "OpenHands",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "6d558ac6ba23"
-      ],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "open-source",
-      "frequency": 1,
-      "growth": "stable",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "233a4f836599"
-      ],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "cpp",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "14df74d3bb6b"
-      ],
       "relatedNewsletterIds": []
     }
   ]

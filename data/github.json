@@ -5,14 +5,14 @@
     "fullName": "ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
     "url": "https://github.com/ollama/ollama",
-    "stars": 182969,
+    "stars": 183082,
     "language": "Go",
     "latestRelease": {
-      "tag": "v0.40.3",
-      "date": "2026-10-11T01:39:04Z",
-      "notes": "## What's Changed\r\n* `ollama launch claude` no longer shows a warning about Claude connectors by @hoyyeva in https://github.com/ollama/ollama/pull/18878\r\n* `ollama launch codex` no longer warns about service tiers by @hoyyeva in https://github.com/ollama/ollama/pull/18879\r\n* Paused background model upgrade for embedding and other request performance, by @jmorganca in https://github.com/ollama/ollama/pull/18908\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.2...v0.40.3"
+      "tag": "v0.40.4",
+      "date": "2026-10-12T19:00:12Z",
+      "notes": "## Decision models in the CLI\r\nDecision models can now be used directly from the terminal with `ollama run` — ask yes/no questions, classify text into labels, or score against a rubric:\r\n`ollama run nimble --ask \"Is a refund being requested?\" < ticket.txt`\r\n\r\n ## What's Changed\r\n  * Kev decision models are now supported by the MLX runner on Apple silicon\r\n  * `ollama launch` can now be used with usage credits without upgrading to a paid plan\r\n  * `ollama launch codex` now includes locally instal"
     },
-    "recentActivity": "2026-10-13T04:51:43Z",
+    "recentActivity": "2026-10-14T00:20:20Z",
     "tags": [
       "LLMs",
       "Open Source",
@@ -25,14 +25,14 @@
     "fullName": "huggingface/transformers",
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
     "url": "https://github.com/huggingface/transformers",
-    "stars": 167623,
+    "stars": 167697,
     "language": "Python",
     "latestRelease": {
       "tag": "v5.19.0",
       "date": "2026-10-06T16:39:23Z",
       "notes": "# Release v5.19.0\r\n\r\n\r\n## New Model additions\r\n\r\n### EmbeddingGemma2\r\n\r\n<img width=\"2716\" height=\"2308\" alt=\"image\" src=\"https://github.com/user-attachments/assets/84734e74-163d-4d12-b166-ffcf6749d563\" />\r\n\r\nEmbeddingGemma 2 is a multimodal embedding model from Google built on the Gemma 4 architecture. It encodes text, images, audio, and video, individually or combined in one input, into a shared 768-dimensional vector space for cross-modal retrieval, semantic similarity, clustering, and classif"
     },
-    "recentActivity": "2026-10-13T08:38:19Z",
+    "recentActivity": "2026-10-14T05:24:52Z",
     "tags": [
       "LLMs",
       "Research",
@@ -45,14 +45,14 @@
     "fullName": "langgenius/dify",
     "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
     "url": "https://github.com/langgenius/dify",
-    "stars": 158325,
+    "stars": 158407,
     "language": "TypeScript",
     "latestRelease": {
       "tag": "1.17.1",
       "date": "2026-09-10T10:04:06Z",
       "notes": "> [!WARNING]\r\n> **Self-hosted deployments using the bundled Weaviate must complete a manual, staged upgrade before starting 1.17.1.** The bundled Weaviate server moves from `1.27.0` to `1.39.2` — 12 minor versions — and skipping minors **is unsupported**. Pulling and restarting can silently and permanently break vector search. See Upgrade Guide below. Fresh deployments, external Weaviate, and other vector stores are unaffected.\r\n\r\n### New Features\r\n\r\n**Dataset-Scoped Knowledge Base API Keys**\r\n-"
     },
-    "recentActivity": "2026-10-13T08:36:19Z",
+    "recentActivity": "2026-10-14T06:49:19Z",
     "tags": [
       "Agents",
       "LLMs",
@@ -65,14 +65,14 @@
     "fullName": "open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "url": "https://github.com/open-webui/open-webui",
-    "stars": 155409,
+    "stars": 155603,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.12.0",
       "date": "2026-10-10T21:13:24Z",
       "notes": "### Added\r\n\r\n- ☎️ **Realtime voice calls.** Administrators can now switch Call mode in the Voice calls section of Audio settings from Standard to Realtime, so Voice mode talks through an OpenAI Realtime voice model (gpt-realtime-2.1-mini with the Marin voice by default) that handles small talk itself and hands real questions and tasks to the chat's selected model, with its conversation history and tools, before speaking the answer while the full reply appears in the chat. Approvals and questions"
     },
-    "recentActivity": "2026-10-12T22:13:08Z",
+    "recentActivity": "2026-10-13T20:19:18Z",
     "tags": [
       "LLMs",
       "Open Source"
@@ -84,14 +84,14 @@
     "fullName": "Comfy-Org/ComfyUI",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
     "url": "https://github.com/Comfy-Org/ComfyUI",
-    "stars": 137237,
+    "stars": 137391,
     "language": "Python",
     "latestRelease": {
-      "tag": "v0.39.0",
-      "date": "2026-10-05T22:49:43Z",
-      "notes": "## What's Changed\r\n* Support LynnReal light Minimax-H3 vae by @kijai in https://github.com/Comfy-Org/ComfyUI/pull/16657\r\n* Update embedded docs to v0.5.13 by @comfyui-wiki in https://github.com/Comfy-Org/ComfyUI/pull/16618\r\n* Use higher quality defaults for Save Video encoding. by @comfyanonymous in https://github.com/Comfy-Org/ComfyUI/pull/16663\r\n* feat: add DynamicGroup widget input by @jaeone94 in https://github.com/Comfy-Org/ComfyUI/pull/16260\r\n* fix(assets): don't let a model category that "
+      "tag": "v0.40.0",
+      "date": "2026-10-13T21:29:16Z",
+      "notes": "## What's Changed\r\n* [Server.py] Update CSP to allow `blob:` and `data:` by @S0yKaf in https://github.com/Comfy-Org/ComfyUI/pull/15565\r\n* Add comfy_attention and AttentionTensorContainer support to rest of models by @comfyanonymous in https://github.com/Comfy-Org/ComfyUI/pull/16806\r\n* Implement the asset export API locally (CORE-454) by @jtydhr88 in https://github.com/Comfy-Org/ComfyUI/pull/16578\r\n* Report 3D models from every 3D node as a standard 3d output item by @jtydhr88 in https://github.c"
     },
-    "recentActivity": "2026-10-13T08:12:51Z",
+    "recentActivity": "2026-10-14T03:07:14Z",
     "tags": [
       "Computer Vision",
       "Video Models",
@@ -104,14 +104,14 @@
     "fullName": "ggml-org/llama.cpp",
     "description": "LLM inference in C/C++",
     "url": "https://github.com/ggml-org/llama.cpp",
-    "stars": 130995,
+    "stars": 131113,
     "language": "C++",
     "latestRelease": {
       "tag": "v0.6.0",
       "date": "2026-10-05T16:56:22Z",
       "notes": "## Overview\r\n\r\nllama.cpp v0.6.0 introduces the new `llama_batch_ext` extended batch API (with `llama_process`) for mixed token/embedding inputs and MTP/deepstack state embeddings, adds support for the GLM-5.3-Flash (GLM5-Next) 320B hybrid model, the Clef decision model (text and vision) and MTP speculative decoding for Qwen4Exp, ships a new `/v1/systemone` server API for decision models (laya, julia-1, lev, openjev, kev, nimble), overhauls the Web UI with a Hugging Face Hub data layer and model "
     },
-    "recentActivity": "2026-10-13T08:38:40Z",
+    "recentActivity": "2026-10-14T06:30:00Z",
     "tags": [
       "LLMs",
       "Open Source",
@@ -124,14 +124,14 @@
     "fullName": "vllm-project/vllm",
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
     "url": "https://github.com/vllm-project/vllm",
-    "stars": 93693,
+    "stars": 93742,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.31.0",
       "date": "2026-10-05T06:44:55Z",
       "notes": "# v0.31.0\r\n\r\n## Highlights\r\n\r\nThis release features 717 commits from 307 contributors (96 new)!\r\n\r\n* **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the gate GEMM with expert selection (#56266); decoder boundaries fuse the TP all-reduce, mHC input preparation (#57643) and the MoE finalize (#58586); a fused small-batch WO-A with inverse R"
     },
-    "recentActivity": "2026-10-13T08:35:57Z",
+    "recentActivity": "2026-10-14T06:49:47Z",
     "tags": [
       "Inference",
       "LLMs",
@@ -144,14 +144,14 @@
     "fullName": "OpenHands/OpenHands",
     "description": "🙌 OpenHands: AI-Driven Development",
     "url": "https://github.com/OpenHands/OpenHands",
-    "stars": 90775,
+    "stars": 90843,
     "language": "TypeScript",
     "latestRelease": {
       "tag": "v1.27.1",
       "date": "2026-10-12T19:33:56Z",
       "notes": "## 1.27.1 (2026-10-12)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Bug Fixes\n* fix(docker): copy MARS web bridge modules into the image by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/18343\n* fix(themes): make warning feedback theme-aware by @enyst in https://github.com/OpenHands/OpenHands/pull/18333\n### Documentation\n* docs(verify-openhands): map maintenance 2026-10-12 by @smolpaws in https://github.com/OpenHands/Open"
     },
-    "recentActivity": "2026-10-13T08:03:56Z",
+    "recentActivity": "2026-10-14T04:43:04Z",
     "tags": [
       "Agents",
       "AI Coding",
@@ -164,14 +164,14 @@
     "fullName": "BerriAI/litellm",
     "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
     "url": "https://github.com/BerriAI/litellm",
-    "stars": 61122,
+    "stars": 61200,
     "language": "Python",
     "latestRelease": {
-      "tag": "v1.105.0",
-      "date": "2026-10-11T09:53:26Z",
+      "tag": "v1.105.1",
+      "date": "2026-10-14T04:33:53Z",
       "notes": "## Verify Docker Image Signature\n\nAll LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). Every release is signed with the same key introduced in [commit `0112e53`](https://github.com/BerriAI/litellm/commit/0112e53046018d726492c814b3644b7d376029d0).\n\n**Verify using the pinned commit hash (recommended):**\n\nA commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key:\n\n```bash\ncosign verify \\\n  -"
     },
-    "recentActivity": "2026-10-13T08:17:46Z",
+    "recentActivity": "2026-10-14T06:49:06Z",
     "tags": [
       "LLMs",
       "Inference",
@@ -184,14 +184,14 @@
     "fullName": "langchain-ai/langgraph",
     "description": "Build resilient agents.",
     "url": "https://github.com/langchain-ai/langgraph",
-    "stars": 43181,
+    "stars": 43237,
     "language": "Python",
     "latestRelease": {
-      "tag": "1.2.15",
-      "date": "2026-10-12T22:38:26Z",
-      "notes": "Changes since 1.2.14\n\n* release(langgraph): 1.2.15 (#9283)\n* fix(langgraph): give every message written to a messages DeltaChannel an id (#9275)\n* fix(langgraph): save a cached node's writes like a node that ran (#9259)\n* fix(langgraph): stop at an interrupt_before breakpoint when a drain is requested before it (#9281)\n* fix(langgraph): keep an exit run from a checkpoint the thread moved past out of its newer branch (#9269)\n* fix(langgraph): store an update_state input's writes on the checkpoint"
+      "tag": "cli==0.4.34",
+      "date": "2026-10-13T21:18:10Z",
+      "notes": "Changes since cli==0.4.33\n\n* release(cli): 0.4.34 (#9300)\n* feat(cli): add --json to deploy listeners list (#9243)"
     },
-    "recentActivity": "2026-10-13T01:43:34Z",
+    "recentActivity": "2026-10-14T00:47:21Z",
     "tags": [
       "Agents",
       "LLMs",
@@ -204,7 +204,7 @@
     "fullName": "continuedev/continue",
     "description": "open-source coding agent",
     "url": "https://github.com/continuedev/continue",
-    "stars": 36206,
+    "stars": 36219,
     "language": "TypeScript",
     "latestRelease": {
       "tag": "v2.0.0-vscode",
