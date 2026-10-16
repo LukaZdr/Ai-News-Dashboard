@@ -1,5 +1,54 @@
 [
   {
+    "id": "8d04fba0d767",
+    "title": "The runtime wars are over... and Node won",
+    "channel": "Fireship",
+    "channelId": "UCsBjURrPoezykLs9EqgamOA",
+    "date": "2026-10-15T17:35:15Z",
+    "duration": "5:40",
+    "thumbnail": "https://i.ytimg.com/vi/l3L_lETiSzc/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
+    "description": "Every JetBrains account now comes with a free coding model called Junie Lite. Try it: https://jb.gg/JunieLite Cloudflare just ...",
+    "viewCount": 705148,
+    "tags": [
+      "AI Coding"
+    ],
+    "relevanceScore": 8.2
+  },
+  {
+    "id": "1d96d72478f7",
+    "title": "Xiaomi Just Showed Us What Million-Dollar RL Training Looks Like",
+    "channel": "bycloud",
+    "channelId": "UCgfe2ooZD3VJPB6aJAnuQng",
+    "date": "2026-10-15T17:17:46Z",
+    "duration": "14:56",
+    "thumbnail": "https://i.ytimg.com/vi/1BZB4c792-0/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=1BZB4c792-0",
+    "description": "Check out Crusoe Intelligence Foundry that made inference & finetuning much easier, with $5 in free credits on sign-up: ...",
+    "viewCount": 56911,
+    "tags": [
+      "RL",
+      "Inference"
+    ],
+    "relevanceScore": 8.1
+  },
+  {
+    "id": "fa1b183eae08",
+    "title": "Multiplayer Gaming &amp; Flight Simulation - Computerphile",
+    "channel": "Computerphile",
+    "channelId": "UC9-y-6csu5WGm29I7JiwpnA",
+    "date": "2026-10-15T13:30:19Z",
+    "duration": "19:14",
+    "thumbnail": "https://i.ytimg.com/vi/WqrwAFs-fq0/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=WqrwAFs-fq0",
+    "description": "Using the example of a flight simulator to discuss the complexities of coding a multi-player game. What data do you send?",
+    "viewCount": 50314,
+    "tags": [
+      "AI Coding"
+    ],
+    "relevanceScore": 7.3
+  },
+  {
     "id": "323bd6b4e696",
     "title": "OpenAI’s lead engineer was secretly a spy...",
     "channel": "Fireship",
@@ -9,41 +58,9 @@
     "thumbnail": "https://i.ytimg.com/vi/QZVzuq28eFw/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
     "description": "Run GitHub Actions 2x faster and build with Codesmith at https://www.blacksmith.sh/ An OpenAI engineer built a wiretap with his ...",
-    "viewCount": 961535,
+    "viewCount": 1381000,
     "tags": [],
-    "relevanceScore": 8.2
-  },
-  {
-    "id": "0cb334d5c11f",
-    "title": "Can AI be creative?",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-15T04:01:21Z",
-    "duration": "1:48",
-    "thumbnail": "https://i.ytimg.com/vi/bOraP6wp_bo/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=bOraP6wp_bo",
-    "description": "Can AI be creative? I asked Claude Opus 5.5 for an original short film with its own music, and it came back with INTERCHANGE: a ...",
-    "viewCount": 324,
-    "tags": [
-      "LLMs"
-    ],
-    "relevanceScore": 6.7
-  },
-  {
-    "id": "d2d91747a4ca",
-    "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
-    "channel": "Two Minute Papers",
-    "channelId": "UCbfYPyITQ-7l4upoX8nvctg",
-    "date": "2026-10-13T08:56:12Z",
-    "duration": "8:49",
-    "thumbnail": "https://i.ytimg.com/vi/z_sXLlLVUls/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
-    "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers The papers are available here: ...",
-    "viewCount": 215284,
-    "tags": [
-      "Research"
-    ],
-    "relevanceScore": 6.6
+    "relevanceScore": 6.4
   },
   {
     "id": "4a5c7c362585",
@@ -55,44 +72,11 @@
     "thumbnail": "https://i.ytimg.com/vi/YVV9csOi770/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=YVV9csOi770",
     "description": "Gemini 4 Argon wrote an entire coastal city in a single 1-million-token response, trained a neural network from a research paper ...",
-    "viewCount": 12314,
+    "viewCount": 18168,
     "tags": [
       "LLMs",
       "Research"
     ],
-    "relevanceScore": 6.3
-  },
-  {
-    "id": "4215af22860a",
-    "title": "I Tested AI Cloning… and It’s Way Worse Than You Think!",
-    "channel": "Dave's Garage",
-    "channelId": "UCNzszbnvQeFzObW0ghk0Ckw",
-    "date": "2026-10-14T00:18:30Z",
-    "duration": "20:51",
-    "thumbnail": "https://i.ytimg.com/vi/KC31K-CUC5Y/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=KC31K-CUC5Y",
-    "description": "I used AI to reverse engineer real binaries, understand how they work, and then clone their functionality into brand-new ...",
-    "viewCount": 429940,
-    "tags": [
-      "Reasoning"
-    ],
-    "relevanceScore": 6.1
-  },
-  {
-    "id": "a35fc4621f97",
-    "title": "Google is BACK! (Gemini 4 Argon - Fully Tested!)",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-13T16:03:10Z",
-    "duration": "20:16",
-    "thumbnail": "https://i.ytimg.com/vi/yksrd5uNxcw/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=yksrd5uNxcw",
-    "description": "Gemini 4 Argon tested hands-on with early access: I pushed Google's new model to 1 million output tokens in a single response, ...",
-    "viewCount": 119309,
-    "tags": [
-      "LLMs",
-      "RL"
-    ],
-    "relevanceScore": 5.5
+    "relevanceScore": 5
   }
 ]

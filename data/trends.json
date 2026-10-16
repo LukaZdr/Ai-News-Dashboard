@@ -1,112 +1,35 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "topics": [
     {
-      "topic": "creative",
-      "frequency": 2,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "0cb334d5c11f"
-      ],
-      "relatedNewsIds": [
-        "a638f2bcd7b2"
-      ],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Argon",
-      "frequency": 6,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "4a5c7c362585",
-        "a35fc4621f97"
-      ],
-      "relatedNewsIds": [
-        "f0c8d1afc0fa",
-        "c2c7db3de007",
-        "e5b00fbb9308"
-      ],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": [
-        "29b73d3127c7"
-      ]
-    },
-    {
-      "topic": "Gemini Argon",
-      "frequency": 6,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "4a5c7c362585",
-        "a35fc4621f97"
-      ],
-      "relatedNewsIds": [
-        "f0c8d1afc0fa",
-        "c2c7db3de007",
-        "e5b00fbb9308"
-      ],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": [
-        "29b73d3127c7"
-      ]
-    },
-    {
-      "topic": "Gemini",
-      "frequency": 6,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "4a5c7c362585",
-        "a35fc4621f97"
-      ],
-      "relatedNewsIds": [
-        "f0c8d1afc0fa",
-        "c2c7db3de007",
-        "e5b00fbb9308"
-      ],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": [
-        "29b73d3127c7"
-      ]
-    },
-    {
       "topic": "Agents",
-      "frequency": 36,
-      "growth": "rising",
+      "frequency": 28,
+      "growth": "stable",
       "relatedPaperIds": [
-        "478c9a22f878",
-        "43e033373fc9",
-        "72194497663a",
-        "19eebc5b81b2",
-        "b14b8a527246",
-        "0140a22e5ac8",
-        "ad9c7f8d2b47",
-        "73e8011f1c46",
-        "8fbdc38a8557",
-        "459bf2146570",
-        "88897d7a104a",
-        "08dfed4dc2c6",
-        "29ccac07cf0f",
-        "ec62495a210e",
-        "e36338a3e257",
-        "98892370bcb9",
-        "a8c41ffe93f3",
-        "6faf16b3bed3",
-        "ae73b6aacf1a",
-        "b2f8d49ca17b",
-        "5fa528605d2c",
-        "2ec2e281c6d3"
+        "255446a6121e",
+        "f696ca342b35",
+        "44a43c07e349",
+        "45c4717748d3",
+        "2fef1e6b7aba",
+        "ef79e39263ae",
+        "70142537165a",
+        "915816c85d73",
+        "6ab8d19fa7f7",
+        "8cfb231ea219",
+        "fc761ae67553",
+        "581a985ab08c",
+        "e2ff56d8789a",
+        "a5c68aea8723",
+        "4aa6fe2739ed",
+        "8074142982b0",
+        "f60032d80bdc"
       ],
       "relatedVideoIds": [],
       "relatedNewsIds": [
+        "ae9bae00cc32",
+        "fafac4eff19a",
         "528a904c39ff",
-        "127c36b77ee1",
-        "1e6e3f4ed538",
-        "17ef235458a3",
-        "af6598b1dac0"
+        "127c36b77ee1"
       ],
       "relatedRepoIds": [
         "83b96e936faf",
@@ -114,42 +37,38 @@
         "1941bc8214c6"
       ],
       "relatedNewsletterIds": [
+        "9fe26d999f7f",
+        "b8378001b2d6",
         "7f100eeb619c",
-        "959750440ffb",
-        "29b73d3127c7",
-        "512e0a4d18ba",
-        "857c23ff466d",
-        "1205823a7c10"
+        "959750440ffb"
       ]
     },
     {
       "topic": "Inference",
-      "frequency": 30,
+      "frequency": 26,
       "growth": "stable",
       "relatedPaperIds": [
-        "478c9a22f878",
-        "648e54bc452c",
-        "6cb147e3b1dc",
-        "2f2d97be1e79",
-        "2dad443070a0",
-        "98892370bcb9",
-        "9e26d9681222",
-        "41d12ce4c8ba",
-        "a8c41ffe93f3",
-        "0c6cf4313882",
-        "6faf16b3bed3",
-        "0c01e5ad31b7",
-        "ef45f0b93fc1",
-        "ddbe3f2892a2",
-        "e42be1818b6c",
-        "ae73b6aacf1a",
-        "bd01f80fc213",
-        "219cbbbda04d",
-        "bd416ed10519",
-        "7a255c549143",
-        "0c75e33baa9b"
+        "8b968b4d8019",
+        "44a43c07e349",
+        "709d73be8456",
+        "78a4ecde65a7",
+        "5354f03308c1",
+        "a9680fce292b",
+        "da9fbf9d8951",
+        "aba4402918c7",
+        "581a985ab08c",
+        "7b574e2d662d",
+        "a5c68aea8723",
+        "54b4a31e6efc",
+        "cb10cccf87f3",
+        "43574e4d8545",
+        "5e9fd54b60f8",
+        "dfa6e9dba90d",
+        "fc4f605bfadc"
       ],
-      "relatedVideoIds": [],
+      "relatedVideoIds": [
+        "1d96d72478f7"
+      ],
       "relatedNewsIds": [],
       "relatedRepoIds": [
         "b6a0b13bc12c",
@@ -160,21 +79,58 @@
         "68b1fb9303ec"
       ],
       "relatedNewsletterIds": [
-        "29b73d3127c7",
-        "512e0a4d18ba",
-        "1205823a7c10"
+        "9fe26d999f7f",
+        "b8378001b2d6"
       ]
     },
     {
+      "topic": "Argon",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "4a5c7c362585"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Gemini Argon",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "4a5c7c362585"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Gemini",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "56bea51385e9"
+      ],
+      "relatedVideoIds": [
+        "4a5c7c362585"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
       "topic": "OpenAI",
-      "frequency": 9,
+      "frequency": 8,
       "growth": "stable",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "323bd6b4e696",
-        "d2d91747a4ca"
+        "323bd6b4e696"
       ],
       "relatedNewsIds": [
+        "0946488180fd",
         "528a904c39ff",
         "f4c06b5ceb6f",
         "fa623334e7fa"
@@ -184,44 +140,28 @@
         "68b1fb9303ec"
       ],
       "relatedNewsletterIds": [
-        "7f100eeb619c",
-        "1205823a7c10"
+        "7f100eeb619c"
       ]
     },
     {
-      "topic": "Robotics",
-      "frequency": 10,
+      "topic": "open-source",
+      "frequency": 7,
       "growth": "rising",
       "relatedPaperIds": [
-        "ad9c7f8d2b47",
-        "a7da5c573898",
-        "2dad443070a0",
-        "2ec2e281c6d3",
-        "bd416ed10519",
-        "9a668febf1dd"
+        "255446a6121e"
       ],
       "relatedVideoIds": [],
-      "relatedNewsIds": [
-        "c2c7db3de007"
-      ],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": [
-        "29b73d3127c7",
-        "512e0a4d18ba",
-        "1205823a7c10"
-      ]
-    },
-    {
-      "topic": "Barely Understand",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "d2d91747a4ca"
-      ],
       "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": [
+        "f35767aa7617",
+        "91cf2ec702c5",
+        "82355e2d9c21",
+        "fdb035b5e36f",
+        "25ffbea85ba5"
+      ]
     },
     {
       "topic": "llama",
@@ -234,6 +174,88 @@
         "14df74d3bb6b",
         "052e3a92e72b"
       ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "RL",
+      "frequency": 56,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "33c2be54fa8d",
+        "f865253c49a7",
+        "aabcafe258ad",
+        "96852ba71876",
+        "255446a6121e",
+        "8b968b4d8019",
+        "f696ca342b35",
+        "44a43c07e349",
+        "709d73be8456",
+        "45c4717748d3",
+        "2fef1e6b7aba",
+        "889613de4dd9",
+        "915816c85d73",
+        "6ab8d19fa7f7",
+        "8cfb231ea219",
+        "fc761ae67553",
+        "56bea51385e9",
+        "6ff98fa98db0",
+        "1123017a808b",
+        "3ca1e67ec26b",
+        "5354f03308c1",
+        "0b0ea0585532",
+        "a9680fce292b",
+        "da9fbf9d8951",
+        "aba4402918c7",
+        "c8a5088116e5",
+        "581a985ab08c",
+        "b34459c79e23",
+        "04373c7136bb",
+        "e2ff56d8789a",
+        "7b574e2d662d",
+        "2b8c47ac539c",
+        "a5c68aea8723",
+        "54b4a31e6efc",
+        "43574e4d8545",
+        "e1c1e8d644f6",
+        "9a48ff353362",
+        "32ada3d096da",
+        "c4e2c72bccd1",
+        "4aa6fe2739ed",
+        "dfa6e9dba90d",
+        "77e33470c438",
+        "8074142982b0",
+        "ea3a61272f4d",
+        "fc4f605bfadc",
+        "f60032d80bdc"
+      ],
+      "relatedVideoIds": [
+        "1d96d72478f7"
+      ],
+      "relatedNewsIds": [
+        "ae9bae00cc32",
+        "ec1e8e2aca0b",
+        "4b03d6e3547d",
+        "c4bd272df3f1",
+        "334d0660959f"
+      ],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "9fe26d999f7f",
+        "b8378001b2d6",
+        "7f100eeb619c",
+        "959750440ffb"
+      ]
+    },
+    {
+      "topic": "runtime wars",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "8d04fba0d767"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
       "relatedNewsletterIds": []
     }
   ]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "d5580273bc1a",
+    "title": "Bringing GPT-Rosalind to academic research labs",
+    "date": "Thu, 15 Oct 2026 19:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+    "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+    "type": "release",
+    "tags": [
+      "LLMs"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "ae9bae00cc32",
+    "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+    "date": "Thu, 15 Oct 2026 17:00:23 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+    "summary": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and [",
+    "type": "release",
+    "tags": [
+      "Agents",
+      "RL"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "ec1e8e2aca0b",
+    "title": "Proof-based general-purpose computing with Magnetar",
+    "date": "Thu, 15 Oct 2026 16:00:00 +0000",
+    "source": "Microsoft Research",
+    "company": "microsoft",
+    "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
+    "summary": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages, major speed gains, and quantum-resistant security.\nThe post Proof-based general-purpose computing ",
+    "type": "blog",
+    "tags": [
+      "RL"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "fafac4eff19a",
+    "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+    "date": "Thu, 15 Oct 2026 15:00:24 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+    "summary": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for",
+    "type": "release",
+    "tags": [
+      "Agents"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "4b03d6e3547d",
+    "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
+    "date": "Thu, 15 Oct 2026 13:00:59 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
+    "summary": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step into the Shroud as Keen Games’ Enshrouded leaves early access with its 1.0 release",
+    "type": "release",
+    "tags": [
+      "RL"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "c4bd272df3f1",
+    "title": "Teaching students to think and learn through questions",
+    "date": "Thu, 15 Oct 2026 13:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+    "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+    "type": "blog",
+    "tags": [
+      "Reasoning",
+      "RL"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "334d0660959f",
+    "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+    "date": "Thu, 15 Oct 2026 10:00:12 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+    "summary": "Much of today’s scientific progress begins with computation.  But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-caree",
+    "type": "blog",
+    "tags": [
+      "RL"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "9c47ace4a581",
+    "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+    "date": "Thu, 15 Oct 2026 05:00:12 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+    "summary": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology eco",
+    "type": "api_update",
+    "tags": [
+      "Open Source"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "0946488180fd",
+    "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+    "date": "Thu, 15 Oct 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/sullivan-cromwell",
+    "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+    "type": "blog",
+    "tags": [],
+    "importance": 5
+  },
+  {
+    "id": "528a904c39ff",
+    "title": "Amp puts AI agents to work beyond code with OpenAI models",
+    "date": "Wed, 14 Oct 2026 12:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/amp-beyond-coding",
+    "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+    "type": "blog",
+    "tags": [
+      "Agents",
+      "LLMs"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "f4c06b5ceb6f",
+    "title": "SentinelOne cuts malware analysis from weeks to hours",
+    "date": "Wed, 14 Oct 2026 12:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/sentinelone",
+    "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+    "type": "blog",
+    "tags": [],
+    "importance": 5
+  },
+  {
+    "id": "127c36b77ee1",
+    "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+    "date": "Wed, 14 Oct 2026 07:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/third-moment-research",
+    "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+    "type": "blog",
+    "tags": [
+      "Agents",
+      "LLMs"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "fa623334e7fa",
+    "title": "How Block is building AI-powered security with OpenAI technology",
+    "date": "Wed, 14 Oct 2026 07:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/block-ai-powered-security",
+    "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+    "type": "blog",
+    "tags": [],
+    "importance": 5
+  }
+]
