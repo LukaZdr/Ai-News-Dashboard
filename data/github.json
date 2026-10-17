@@ -5,14 +5,14 @@
     "fullName": "ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
     "url": "https://github.com/ollama/ollama",
-    "stars": 183379,
+    "stars": 183523,
     "language": "Go",
     "latestRelease": {
       "tag": "v0.40.5",
       "date": "2026-10-14T19:45:22Z",
       "notes": "## NVIDIA Nemotron 3.5 Super\r\n\r\n[NVIDIA Nemotron 3.5 Super](https://ollama.com/library/nemotron-3.5-super) is a vision-language model for coding, reasoning, tool use, and document understanding. It pairs a 120B-parameter hybrid Mamba-2/Transformer mixture-of-experts backbone (12B active per token) with a C-RADIO vision encoder, and supports tool calling, an on/off thinking mode, and context up to 1M tokens.\r\n\r\n```\r\nollama run nemotron-3.5-super\r\n```\r\n\r\nA compact sibling, [Nemotron 3.5 Bolt](http"
     },
-    "recentActivity": "2026-10-16T01:09:43Z",
+    "recentActivity": "2026-10-17T01:45:48Z",
     "tags": [
       "LLMs",
       "Open Source",
@@ -25,14 +25,14 @@
     "fullName": "huggingface/transformers",
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
     "url": "https://github.com/huggingface/transformers",
-    "stars": 167747,
+    "stars": 167779,
     "language": "Python",
     "latestRelease": {
-      "tag": "v5.20.0",
-      "date": "2026-10-15T18:05:36Z",
-      "notes": "# Release v5.20.0\r\n\r\n\r\n## New Model additions\r\n\r\n### Muse Spark Open\r\n\r\n<img width=\"2400\" height=\"1296\" alt=\"image\" src=\"https://github.com/user-attachments/assets/bf34ea27-0edf-4ded-ba6f-905b04096126\" />\r\n\r\nMuse Spark Open is a multimodal mixture-of-experts model from Meta that takes text, images, audio, and video as input and generates text. It has 816B total parameters (42B active per token) and a context window of up to 1,048,576 tokens shared across modalities. It is trained for agentic cod"
+      "tag": "v5.20.1",
+      "date": "2026-10-16T13:02:29Z",
+      "notes": "# Release v5.20.1\r\n\r\nSpecial surprise including the new model Beam from Reflection AI :partying_face: \r\n\r\n<img width=\"2912\" height=\"1440\" alt=\"Gemini_Generated_Image_ox4hjlox4hjlox4h\" src=\"https://github.com/user-attachments/assets/bfc7ff16-4340-490c-925c-b1512e4ceb32\" />\r\n\r\nBeam is a token-efficient, frontier-scale model focused on coding and agentic use cases. It is built for teams that want to run a powerful model on their own hardware, infrastructure, or cloud, and customize it to their spec"
     },
-    "recentActivity": "2026-10-16T06:29:34Z",
+    "recentActivity": "2026-10-17T03:07:59Z",
     "tags": [
       "LLMs",
       "Research",
@@ -45,14 +45,14 @@
     "fullName": "langgenius/dify",
     "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
     "url": "https://github.com/langgenius/dify",
-    "stars": 158610,
+    "stars": 158679,
     "language": "Python",
     "latestRelease": {
       "tag": "1.17.1",
       "date": "2026-09-10T10:04:06Z",
       "notes": "> [!WARNING]\r\n> **Self-hosted deployments using the bundled Weaviate must complete a manual, staged upgrade before starting 1.17.1.** The bundled Weaviate server moves from `1.27.0` to `1.39.2` — 12 minor versions — and skipping minors **is unsupported**. Pulling and restarting can silently and permanently break vector search. See Upgrade Guide below. Fresh deployments, external Weaviate, and other vector stores are unaffected.\r\n\r\n### New Features\r\n\r\n**Dataset-Scoped Knowledge Base API Keys**\r\n-"
     },
-    "recentActivity": "2026-10-16T06:27:39Z",
+    "recentActivity": "2026-10-17T06:19:47Z",
     "tags": [
       "Agents",
       "LLMs",
@@ -65,14 +65,14 @@
     "fullName": "open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "url": "https://github.com/open-webui/open-webui",
-    "stars": 155850,
+    "stars": 155940,
     "language": "Python",
     "latestRelease": {
-      "tag": "v0.12.2",
-      "date": "2026-10-14T21:07:29Z",
-      "notes": "\n### Added\n\n- 📑 **MinerU 4.x servers.** The MinerU document engine now works with self-hosted MinerU 4.x servers, where every document failed with a 404 because 4.x removed the old parsing interface; 3.x servers work as before, 4.x servers take a tier (flash, basic, standard or advanced) and enable_ocr in the MinerU parameters while language and model_version stay 3.x only, and images that 4.x returns inside the document text are left out of the indexed content. [#32422](https://github.com/open"
+      "tag": "v0.12.3",
+      "date": "2026-10-16T11:46:21Z",
+      "notes": "\n### Added\n\n- 🔐 **End-to-end encrypted chats.** Direct messages and private group channels can now hold a temporary end-to-end encrypted chat: a member picks Encrypted Chat in the channel menu, the other members see \"Encrypted chat in progress\" with a Join link, messages of up to 16 KiB are encrypted in the browser with MLS and only passed through the server without being saved, participants can verify each other by comparing codes and see when others are typing, and the chat is cleared when yo"
     },
-    "recentActivity": "2026-10-16T00:20:55Z",
+    "recentActivity": "2026-10-16T14:59:01Z",
     "tags": [
       "LLMs",
       "Open Source"
@@ -84,14 +84,14 @@
     "fullName": "Comfy-Org/ComfyUI",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
     "url": "https://github.com/Comfy-Org/ComfyUI",
-    "stars": 137769,
+    "stars": 137954,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.41.0",
       "date": "2026-10-15T22:57:45Z",
       "notes": "## What's Changed\r\n* Add ImageSDRToHDR node. by @comfyanonymous in https://github.com/Comfy-Org/ComfyUI/pull/16990\r\n* feat: Add a core route for the default workflow (CORE-340) by @alexisrolland in https://github.com/Comfy-Org/ComfyUI/pull/16956\r\n* Add ReferenceMultiLatent node. by @comfyanonymous in https://github.com/Comfy-Org/ComfyUI/pull/17009\r\n* Disable the LoRA stack nodes until the frontend supports DynamicGroup by @jaeone94 in https://github.com/Comfy-Org/ComfyUI/pull/17050\r\n* Improve Re"
     },
-    "recentActivity": "2026-10-16T05:43:06Z",
+    "recentActivity": "2026-10-17T04:26:55Z",
     "tags": [
       "Computer Vision",
       "Video Models",
@@ -104,14 +104,14 @@
     "fullName": "ggml-org/llama.cpp",
     "description": "LLM inference in C/C++",
     "url": "https://github.com/ggml-org/llama.cpp",
-    "stars": 131337,
+    "stars": 131443,
     "language": "C++",
     "latestRelease": {
       "tag": "v0.7.0",
       "date": "2026-10-15T17:13:19Z",
       "notes": "## Overview\r\n\r\nllama.cpp v0.7.0 adds the LiliCorr speculative decoding technique and MTP for GLM5-Next, a new GPU cache for MoE experts kept in host memory (`--moe-cache-mib`, up to ~2.2x decode speedup when experts are offloaded), and a large batch of new models: K2 Horizon (dense and MoVA), Prism Bonsai 2 27B, EmbeddingGemma-2 (text+vision+audio), the LiquidAI d1/d1-omni and vLLM decision 2/d3 decision models, pplx-decider, MiniCPM-V 4.7, Nemotron Super 3.5 VL / Nemotron Bolt and maion-coder. "
     },
-    "recentActivity": "2026-10-16T06:32:38Z",
+    "recentActivity": "2026-10-17T02:06:45Z",
     "tags": [
       "LLMs",
       "Open Source",
@@ -124,14 +124,14 @@
     "fullName": "vllm-project/vllm",
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
     "url": "https://github.com/vllm-project/vllm",
-    "stars": 93893,
+    "stars": 93961,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.31.0",
       "date": "2026-10-05T06:44:55Z",
       "notes": "# v0.31.0\r\n\r\n## Highlights\r\n\r\nThis release features 717 commits from 307 contributors (96 new)!\r\n\r\n* **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the gate GEMM with expert selection (#56266); decoder boundaries fuse the TP all-reduce, mHC input preparation (#57643) and the MoE finalize (#58586); a fused small-batch WO-A with inverse R"
     },
-    "recentActivity": "2026-10-16T06:17:52Z",
+    "recentActivity": "2026-10-17T06:17:49Z",
     "tags": [
       "Inference",
       "LLMs",
@@ -144,14 +144,14 @@
     "fullName": "OpenHands/OpenHands",
     "description": "🙌 OpenHands: AI-Driven Development",
     "url": "https://github.com/OpenHands/OpenHands",
-    "stars": 91020,
+    "stars": 91088,
     "language": "TypeScript",
     "latestRelease": {
       "tag": "v1.27.1",
       "date": "2026-10-12T19:33:56Z",
       "notes": "## 1.27.1 (2026-10-12)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Bug Fixes\n* fix(docker): copy MARS web bridge modules into the image by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/18343\n* fix(themes): make warning feedback theme-aware by @enyst in https://github.com/OpenHands/OpenHands/pull/18333\n### Documentation\n* docs(verify-openhands): map maintenance 2026-10-12 by @smolpaws in https://github.com/OpenHands/Open"
     },
-    "recentActivity": "2026-10-16T06:09:55Z",
+    "recentActivity": "2026-10-17T01:26:14Z",
     "tags": [
       "Agents",
       "AI Coding",
@@ -164,14 +164,14 @@
     "fullName": "BerriAI/litellm",
     "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
     "url": "https://github.com/BerriAI/litellm",
-    "stars": 61356,
+    "stars": 61408,
     "language": "Python",
     "latestRelease": {
       "tag": "v1.105.1",
       "date": "2026-10-14T04:33:53Z",
       "notes": "## Verify Docker Image Signature\n\nAll LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). Every release is signed with the same key introduced in [commit `0112e53`](https://github.com/BerriAI/litellm/commit/0112e53046018d726492c814b3644b7d376029d0).\n\n**Verify using the pinned commit hash (recommended):**\n\nA commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key:\n\n```bash\ncosign verify \\\n  -"
     },
-    "recentActivity": "2026-10-16T06:27:50Z",
+    "recentActivity": "2026-10-17T06:21:05Z",
     "tags": [
       "LLMs",
       "Inference",
@@ -184,14 +184,14 @@
     "fullName": "langchain-ai/langgraph",
     "description": "Build resilient agents.",
     "url": "https://github.com/langchain-ai/langgraph",
-    "stars": 43339,
+    "stars": 43386,
     "language": "Python",
     "latestRelease": {
-      "tag": "prebuilt==1.1.1",
-      "date": "2026-10-15T04:32:40Z",
-      "notes": "Changes since prebuilt==1.1.0\n\n* release(prebuilt): 1.1.1 (#9316)\n* release(checkpoint-postgres): 3.2.0 (#9313)\n* release(checkpoint-postgres): 3.1.3 (#9287)\n* release(checkpoint-sqlite): 3.1.2 (#9288)\n* release(langgraph): 1.2.15 (#9283)\n* fix(langgraph,prebuilt): stop ToolNode from swallowing invalid resume values (#9232)\n* fix: order delta channel replay by task path (#8544)\n* release(langgraph): 1.2.14 (#9215)\n* release(langgraph): 1.2.13 (#9205)\n* chore(deps): bump the minor-and-patch group"
+      "tag": "1.2.16",
+      "date": "2026-10-16T22:11:28Z",
+      "notes": "Changes since 1.2.15\n\n* release(langgraph): 1.2.16 (#9334)\n* fix(langgraph): let other tasks finish when a resume value is invalid (#9265)\n* fix(langgraph): apply a resumed Command's update once (#9322)\n* fix(langgraph): stop a subgraph from rerunning its finished tasks on resume (#9315)\n* fix(langgraph): save a resumed exit run's pending writes once (#9314)\n* release(prebuilt): 1.1.1 (#9316)\n* release(checkpoint-postgres): 3.2.0 (#9313)\n* feat(checkpoint-postgres): add prune to PostgresSaver an"
     },
-    "recentActivity": "2026-10-16T03:41:43Z",
+    "recentActivity": "2026-10-17T01:58:44Z",
     "tags": [
       "Agents",
       "LLMs",
@@ -204,7 +204,7 @@
     "fullName": "continuedev/continue",
     "description": "open-source coding agent",
     "url": "https://github.com/continuedev/continue",
-    "stars": 36230,
+    "stars": 36234,
     "language": "TypeScript",
     "latestRelease": {
       "tag": "v2.0.0-vscode",

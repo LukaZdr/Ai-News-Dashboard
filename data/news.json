@@ -1,5 +1,46 @@
 [
   {
+    "id": "e25991bfc8ff",
+    "title": "How Itaú is building generative AI for its entire customer base",
+    "date": "Fri, 16 Oct 2026 19:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/itau-generative-ai",
+    "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+    "type": "blog",
+    "tags": [],
+    "importance": 5
+  },
+  {
+    "id": "ed6221aaf300",
+    "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+    "date": "Fri, 16 Oct 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+    "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+    "type": "blog",
+    "tags": [
+      "Agents",
+      "LLMs"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "2b75d4dc2639",
+    "title": "Benefit Street Partners answers questions faster with Codex",
+    "date": "Fri, 16 Oct 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/benefit-street-partners",
+    "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+    "type": "blog",
+    "tags": [
+      "Business"
+    ],
+    "importance": 5
+  },
+  {
     "id": "d5580273bc1a",
     "title": "Bringing GPT-Rosalind to academic research labs",
     "date": "Thu, 15 Oct 2026 19:00:00 GMT",
@@ -26,6 +67,18 @@
       "Agents",
       "RL"
     ],
+    "importance": 5
+  },
+  {
+    "id": "2c03917e0451",
+    "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+    "date": "Thu, 15 Oct 2026 16:08:03 +0000",
+    "source": "Google DeepMind",
+    "company": "deepmind",
+    "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+    "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+    "type": "blog",
+    "tags": [],
     "importance": 5
   },
   {
@@ -97,86 +150,6 @@
     "tags": [
       "RL"
     ],
-    "importance": 5
-  },
-  {
-    "id": "9c47ace4a581",
-    "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
-    "date": "Thu, 15 Oct 2026 05:00:12 +0000",
-    "source": "NVIDIA Research",
-    "company": "nvidia",
-    "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
-    "summary": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology eco",
-    "type": "api_update",
-    "tags": [
-      "Open Source"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "0946488180fd",
-    "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-    "date": "Thu, 15 Oct 2026 00:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/sullivan-cromwell",
-    "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-    "type": "blog",
-    "tags": [],
-    "importance": 5
-  },
-  {
-    "id": "528a904c39ff",
-    "title": "Amp puts AI agents to work beyond code with OpenAI models",
-    "date": "Wed, 14 Oct 2026 12:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/amp-beyond-coding",
-    "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-    "type": "blog",
-    "tags": [
-      "Agents",
-      "LLMs"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "f4c06b5ceb6f",
-    "title": "SentinelOne cuts malware analysis from weeks to hours",
-    "date": "Wed, 14 Oct 2026 12:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/sentinelone",
-    "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-    "type": "blog",
-    "tags": [],
-    "importance": 5
-  },
-  {
-    "id": "127c36b77ee1",
-    "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-    "date": "Wed, 14 Oct 2026 07:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/third-moment-research",
-    "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-    "type": "blog",
-    "tags": [
-      "Agents",
-      "LLMs"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "fa623334e7fa",
-    "title": "How Block is building AI-powered security with OpenAI technology",
-    "date": "Wed, 14 Oct 2026 07:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/block-ai-powered-security",
-    "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-    "type": "blog",
-    "tags": [],
     "importance": 5
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": "005dcfd2c022",
+    "title": "There&#39;s never been a better time to go into math",
+    "channel": "3Blue1Brown",
+    "channelId": "UCYO_jab_esuFRV4b17AJtAw",
+    "date": "2026-10-16T16:15:20Z",
+    "duration": "40:44",
+    "thumbnail": "https://i.ytimg.com/vi/LKrwhjOI8Nc/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+    "description": "Sharing a few thoughts on the future of math These videos are funded directly by viewers: https://3b1b.co/support An equally ...",
+    "viewCount": 955660,
+    "tags": [
+      "RL"
+    ],
+    "relevanceScore": 8.9
+  },
+  {
     "id": "8d04fba0d767",
     "title": "The runtime wars are over... and Node won",
     "channel": "Fireship",
@@ -9,11 +25,11 @@
     "thumbnail": "https://i.ytimg.com/vi/l3L_lETiSzc/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
     "description": "Every JetBrains account now comes with a free coding model called Junie Lite. Try it: https://jb.gg/JunieLite Cloudflare just ...",
-    "viewCount": 705148,
+    "viewCount": 945292,
     "tags": [
       "AI Coding"
     ],
-    "relevanceScore": 8.2
+    "relevanceScore": 6.4
   },
   {
     "id": "1d96d72478f7",
@@ -25,12 +41,28 @@
     "thumbnail": "https://i.ytimg.com/vi/1BZB4c792-0/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=1BZB4c792-0",
     "description": "Check out Crusoe Intelligence Foundry that made inference & finetuning much easier, with $5 in free credits on sign-up: ...",
-    "viewCount": 56911,
+    "viewCount": 84253,
     "tags": [
       "RL",
       "Inference"
     ],
-    "relevanceScore": 8.1
+    "relevanceScore": 6.4
+  },
+  {
+    "id": "cac63b13dc2a",
+    "title": "We’ve Been Securing AI Agents Wrong",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-16T13:00:14Z",
+    "duration": "13:17",
+    "thumbnail": "https://i.ytimg.com/vi/rv-X-Qvd7nk/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=rv-X-Qvd7nk",
+    "description": "This video is sponsored by Teleport. Learn more about Teleport's Agentic Identity Framework: https://fandf.co/4hyPyfG AI agents ...",
+    "viewCount": 5314,
+    "tags": [
+      "Agents"
+    ],
+    "relevanceScore": 6.3
   },
   {
     "id": "fa1b183eae08",
@@ -42,41 +74,10 @@
     "thumbnail": "https://i.ytimg.com/vi/WqrwAFs-fq0/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=WqrwAFs-fq0",
     "description": "Using the example of a flight simulator to discuss the complexities of coding a multi-player game. What data do you send?",
-    "viewCount": 50314,
+    "viewCount": 74067,
     "tags": [
       "AI Coding"
     ],
-    "relevanceScore": 7.3
-  },
-  {
-    "id": "323bd6b4e696",
-    "title": "OpenAI’s lead engineer was secretly a spy...",
-    "channel": "Fireship",
-    "channelId": "UCsBjURrPoezykLs9EqgamOA",
-    "date": "2026-10-14T17:48:10Z",
-    "duration": "5:06",
-    "thumbnail": "https://i.ytimg.com/vi/QZVzuq28eFw/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
-    "description": "Run GitHub Actions 2x faster and build with Codesmith at https://www.blacksmith.sh/ An OpenAI engineer built a wiretap with his ...",
-    "viewCount": 1381000,
-    "tags": [],
-    "relevanceScore": 6.4
-  },
-  {
-    "id": "4a5c7c362585",
-    "title": "Gemini 4 Argon Built All of This",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-14T10:00:10Z",
-    "duration": "0:43",
-    "thumbnail": "https://i.ytimg.com/vi/YVV9csOi770/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=YVV9csOi770",
-    "description": "Gemini 4 Argon wrote an entire coastal city in a single 1-million-token response, trained a neural network from a research paper ...",
-    "viewCount": 18168,
-    "tags": [
-      "LLMs",
-      "Research"
-    ],
-    "relevanceScore": 5
+    "relevanceScore": 5.7
   }
 ]
