@@ -1,37 +1,31 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "topics": [
     {
       "topic": "Agents",
-      "frequency": 9,
+      "frequency": 6,
       "growth": "stable",
       "relatedPaperIds": [],
       "relatedVideoIds": [
         "cac63b13dc2a"
       ],
-      "relatedNewsIds": [
-        "ed6221aaf300",
-        "ae9bae00cc32",
-        "fafac4eff19a"
-      ],
+      "relatedNewsIds": [],
       "relatedRepoIds": [
         "83b96e936faf",
         "6d558ac6ba23",
         "1941bc8214c6"
       ],
       "relatedNewsletterIds": [
-        "9fe26d999f7f",
-        "b8378001b2d6"
+        "19fbdf4cf9b9",
+        "d696c7100dcb"
       ]
     },
     {
       "topic": "Inference",
-      "frequency": 9,
-      "growth": "stable",
+      "frequency": 8,
+      "growth": "rising",
       "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "1d96d72478f7"
-      ],
+      "relatedVideoIds": [],
       "relatedNewsIds": [],
       "relatedRepoIds": [
         "b6a0b13bc12c",
@@ -42,8 +36,8 @@
         "68b1fb9303ec"
       ],
       "relatedNewsletterIds": [
-        "9fe26d999f7f",
-        "b8378001b2d6"
+        "19fbdf4cf9b9",
+        "d696c7100dcb"
       ]
     },
     {
@@ -60,58 +54,6 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "open-source",
-      "frequency": 4,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "233a4f836599"
-      ],
-      "relatedNewsletterIds": [
-        "f35767aa7617",
-        "161696c01746",
-        "91cf2ec702c5"
-      ]
-    },
-    {
-      "topic": "runtime wars",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "8d04fba0d767"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Node won",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "8d04fba0d767"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "wars",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "8d04fba0d767"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
       "topic": "continue open-source",
       "frequency": 1,
       "growth": "rising",
@@ -121,6 +63,18 @@
       "relatedRepoIds": [
         "233a4f836599"
       ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Flash Minor",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "93177d5c239e"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
       "relatedNewsletterIds": []
     },
     {
@@ -136,12 +90,48 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "won",
+      "topic": "Agents Wrong",
       "frequency": 1,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "8d04fba0d767"
+        "cac63b13dc2a"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "OpenHands",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "6d558ac6ba23"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Minor",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "93177d5c239e"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Securing",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "cac63b13dc2a"
       ],
       "relatedNewsIds": [],
       "relatedRepoIds": [],

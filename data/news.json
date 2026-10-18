@@ -1,5 +1,19 @@
 [
   {
+    "id": "055973bd4a82",
+    "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+    "date": "Sat, 17 Oct 2026 21:00:13 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+    "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs.  Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and ga",
+    "type": "blog",
+    "tags": [
+      "Memory"
+    ],
+    "importance": 5
+  },
+  {
     "id": "e25991bfc8ff",
     "title": "How Itaú is building generative AI for its entire customer base",
     "date": "Fri, 16 Oct 2026 19:00:00 GMT",
@@ -9,147 +23,6 @@
     "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
     "type": "blog",
     "tags": [],
-    "importance": 5
-  },
-  {
-    "id": "ed6221aaf300",
-    "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-    "date": "Fri, 16 Oct 2026 00:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-    "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-    "type": "blog",
-    "tags": [
-      "Agents",
-      "LLMs"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "2b75d4dc2639",
-    "title": "Benefit Street Partners answers questions faster with Codex",
-    "date": "Fri, 16 Oct 2026 00:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/benefit-street-partners",
-    "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-    "type": "blog",
-    "tags": [
-      "Business"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "d5580273bc1a",
-    "title": "Bringing GPT-Rosalind to academic research labs",
-    "date": "Thu, 15 Oct 2026 19:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-    "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-    "type": "release",
-    "tags": [
-      "LLMs"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "ae9bae00cc32",
-    "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
-    "date": "Thu, 15 Oct 2026 17:00:23 +0000",
-    "source": "NVIDIA Research",
-    "company": "nvidia",
-    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-    "summary": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and [",
-    "type": "release",
-    "tags": [
-      "Agents",
-      "RL"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "2c03917e0451",
-    "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-    "date": "Thu, 15 Oct 2026 16:08:03 +0000",
-    "source": "Google DeepMind",
-    "company": "deepmind",
-    "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-    "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-    "type": "blog",
-    "tags": [],
-    "importance": 5
-  },
-  {
-    "id": "ec1e8e2aca0b",
-    "title": "Proof-based general-purpose computing with Magnetar",
-    "date": "Thu, 15 Oct 2026 16:00:00 +0000",
-    "source": "Microsoft Research",
-    "company": "microsoft",
-    "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
-    "summary": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages, major speed gains, and quantum-resistant security.\nThe post Proof-based general-purpose computing ",
-    "type": "blog",
-    "tags": [
-      "RL"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "fafac4eff19a",
-    "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
-    "date": "Thu, 15 Oct 2026 15:00:24 +0000",
-    "source": "NVIDIA Research",
-    "company": "nvidia",
-    "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-    "summary": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for",
-    "type": "release",
-    "tags": [
-      "Agents"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "4b03d6e3547d",
-    "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
-    "date": "Thu, 15 Oct 2026 13:00:59 +0000",
-    "source": "NVIDIA Research",
-    "company": "nvidia",
-    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
-    "summary": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step into the Shroud as Keen Games’ Enshrouded leaves early access with its 1.0 release",
-    "type": "release",
-    "tags": [
-      "RL"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "c4bd272df3f1",
-    "title": "Teaching students to think and learn through questions",
-    "date": "Thu, 15 Oct 2026 13:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-    "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-    "type": "blog",
-    "tags": [
-      "Reasoning",
-      "RL"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "334d0660959f",
-    "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
-    "date": "Thu, 15 Oct 2026 10:00:12 +0000",
-    "source": "NVIDIA Research",
-    "company": "nvidia",
-    "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
-    "summary": "Much of today’s scientific progress begins with computation.  But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-caree",
-    "type": "blog",
-    "tags": [
-      "RL"
-    ],
     "importance": 5
   }
 ]
