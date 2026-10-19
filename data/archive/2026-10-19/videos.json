@@ -1,0 +1,32 @@
+[
+  {
+    "id": "93177d5c239e",
+    "title": "DeepSeek V4.1 Flash 1017: A “Minor” Update?",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-17T19:16:30Z",
+    "duration": "1:29",
+    "thumbnail": "https://i.ytimg.com/vi/BxZ6DvJnQz8/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=BxZ6DvJnQz8",
+    "description": "DeepSeek just released DeepSeek V4.1 Flash 1017. Its Hugging Face model card calls it a minor update, but it improved on all ...",
+    "viewCount": 41669,
+    "tags": [],
+    "relevanceScore": 5.5
+  },
+  {
+    "id": "0139d715a4d0",
+    "title": "I Trained Qwen 4B With RL to Catch Qwen 27B",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-17T13:00:06Z",
+    "duration": "16:10",
+    "thumbnail": "https://i.ytimg.com/vi/Pl_2TelxjdY/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=Pl_2TelxjdY",
+    "description": "Can RL Make a 4B Model Compete with 27B? My Open RL Environment Experiments (GRPO, LoRA, DGX) In this video I test ...",
+    "viewCount": 39039,
+    "tags": [
+      "RL"
+    ],
+    "relevanceScore": 5.2
+  }
+]

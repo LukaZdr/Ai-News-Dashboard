@@ -1,21 +1,5 @@
 [
   {
-    "id": "005dcfd2c022",
-    "title": "There&#39;s never been a better time to go into math",
-    "channel": "3Blue1Brown",
-    "channelId": "UCYO_jab_esuFRV4b17AJtAw",
-    "date": "2026-10-16T16:15:20Z",
-    "duration": "40:44",
-    "thumbnail": "https://i.ytimg.com/vi/LKrwhjOI8Nc/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
-    "description": "Sharing a few thoughts on the future of math These videos are funded directly by viewers: https://3b1b.co/support An equally ...",
-    "viewCount": 1712433,
-    "tags": [
-      "RL"
-    ],
-    "relevanceScore": 7.1
-  },
-  {
     "id": "93177d5c239e",
     "title": "DeepSeek V4.1 Flash 1017: A “Minor” Update?",
     "channel": "Prompt Engineering",
@@ -25,9 +9,9 @@
     "thumbnail": "https://i.ytimg.com/vi/BxZ6DvJnQz8/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=BxZ6DvJnQz8",
     "description": "DeepSeek just released DeepSeek V4.1 Flash 1017. Its Hugging Face model card calls it a minor update, but it improved on all ...",
-    "viewCount": 12809,
+    "viewCount": 41669,
     "tags": [],
-    "relevanceScore": 7
+    "relevanceScore": 5.5
   },
   {
     "id": "0139d715a4d0",
@@ -39,26 +23,10 @@
     "thumbnail": "https://i.ytimg.com/vi/Pl_2TelxjdY/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=Pl_2TelxjdY",
     "description": "Can RL Make a 4B Model Compete with 27B? My Open RL Environment Experiments (GRPO, LoRA, DGX) In this video I test ...",
-    "viewCount": 24142,
+    "viewCount": 39039,
     "tags": [
       "RL"
     ],
-    "relevanceScore": 6.7
-  },
-  {
-    "id": "cac63b13dc2a",
-    "title": "We’ve Been Securing AI Agents Wrong",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-16T13:00:14Z",
-    "duration": "13:17",
-    "thumbnail": "https://i.ytimg.com/vi/rv-X-Qvd7nk/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=rv-X-Qvd7nk",
-    "description": "This video is sponsored by Teleport. Learn more about Teleport's Agentic Identity Framework: https://fandf.co/4hyPyfG AI agents ...",
-    "viewCount": 7405,
-    "tags": [
-      "Agents"
-    ],
-    "relevanceScore": 4.7
+    "relevanceScore": 5.2
   }
 ]

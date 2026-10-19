@@ -1,30 +1,29 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "topics": [
     {
-      "topic": "Agents",
-      "frequency": 6,
-      "growth": "stable",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "cac63b13dc2a"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "83b96e936faf",
-        "6d558ac6ba23",
-        "1941bc8214c6"
-      ],
-      "relatedNewsletterIds": [
-        "19fbdf4cf9b9",
-        "d696c7100dcb"
-      ]
-    },
-    {
       "topic": "Inference",
-      "frequency": 8,
+      "frequency": 25,
       "growth": "rising",
-      "relatedPaperIds": [],
+      "relatedPaperIds": [
+        "a6770f50ad96",
+        "555b814abdf4",
+        "def02167f5a8",
+        "e74830fe38e5",
+        "d39a4202ac21",
+        "422bf6fabfe6",
+        "a0d8d873fad8",
+        "0cb433de9241",
+        "a12eed489731",
+        "2954dd4f4ba4",
+        "e42aa5e2f34e",
+        "025bf5462fdd",
+        "bf944f8608c3",
+        "274185f18d02",
+        "eabbae6449b8",
+        "45516630393e",
+        "2e687b1bbe3e"
+      ],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
       "relatedRepoIds": [
@@ -41,9 +40,42 @@
       ]
     },
     {
+      "topic": "Agents",
+      "frequency": 20,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "3526d1c06f0a",
+        "738ab16bc69b",
+        "da2602da745e",
+        "def02167f5a8",
+        "f364d9e79892",
+        "e74830fe38e5",
+        "d899f8e212ff",
+        "dabee9b48dbe",
+        "e42aa5e2f34e",
+        "5d3e4bec08c5",
+        "d5787a968aaa",
+        "33592ea79de4",
+        "025bf5462fdd",
+        "25dc3a500063",
+        "eabbae6449b8"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "19fbdf4cf9b9",
+        "d696c7100dcb"
+      ]
+    },
+    {
       "topic": "llama",
       "frequency": 2,
-      "growth": "rising",
+      "growth": "stable",
       "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
@@ -56,7 +88,19 @@
     {
       "topic": "continue open-source",
       "frequency": 1,
-      "growth": "rising",
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "continue",
+      "frequency": 1,
+      "growth": "declining",
       "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
@@ -78,10 +122,15 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "continue",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
+      "topic": "agent",
+      "frequency": 5,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "738ab16bc69b",
+        "dabee9b48dbe",
+        "e42aa5e2f34e",
+        "5d3e4bec08c5"
+      ],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
       "relatedRepoIds": [
@@ -90,21 +139,9 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "Agents Wrong",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "cac63b13dc2a"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
       "topic": "OpenHands",
       "frequency": 1,
-      "growth": "rising",
+      "growth": "stable",
       "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
@@ -114,28 +151,53 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "Minor",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "93177d5c239e"
+      "topic": "Business",
+      "frequency": 18,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "3526d1c06f0a",
+        "738ab16bc69b",
+        "12ba00c6cb7a",
+        "422bf6fabfe6",
+        "cc7f2da4bfbc",
+        "e42aa5e2f34e",
+        "33592ea79de4",
+        "025bf5462fdd",
+        "5db4d5eb04fb",
+        "75eb4c25fd4a",
+        "5a3f490808c5",
+        "45516630393e"
       ],
+      "relatedVideoIds": [],
       "relatedNewsIds": [],
       "relatedRepoIds": [],
-      "relatedNewsletterIds": []
+      "relatedNewsletterIds": [
+        "9a033797a8f8",
+        "edfefe604600",
+        "19fbdf4cf9b9",
+        "d696c7100dcb",
+        "048b1b572f9c",
+        "6145bf9087f7"
+      ]
     },
     {
-      "topic": "Securing",
-      "frequency": 1,
+      "topic": "issue",
+      "frequency": 7,
       "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "cac63b13dc2a"
+      "relatedPaperIds": [
+        "cc7f2da4bfbc",
+        "a13453b09399"
       ],
+      "relatedVideoIds": [],
       "relatedNewsIds": [],
       "relatedRepoIds": [],
-      "relatedNewsletterIds": []
+      "relatedNewsletterIds": [
+        "9a033797a8f8",
+        "edfefe604600",
+        "048b1b572f9c",
+        "2fdf23086d32",
+        "6145bf9087f7"
+      ]
     }
   ]
 }

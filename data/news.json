@@ -12,17 +12,5 @@
       "Memory"
     ],
     "importance": 5
-  },
-  {
-    "id": "e25991bfc8ff",
-    "title": "How Itaú is building generative AI for its entire customer base",
-    "date": "Fri, 16 Oct 2026 19:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/itau-generative-ai",
-    "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-    "type": "blog",
-    "tags": [],
-    "importance": 5
   }
 ]
