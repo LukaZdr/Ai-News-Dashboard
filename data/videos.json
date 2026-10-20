@@ -1,32 +1,36 @@
 [
   {
-    "id": "93177d5c239e",
-    "title": "DeepSeek V4.1 Flash 1017: A “Minor” Update?",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-17T19:16:30Z",
-    "duration": "1:29",
-    "thumbnail": "https://i.ytimg.com/vi/BxZ6DvJnQz8/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=BxZ6DvJnQz8",
-    "description": "DeepSeek just released DeepSeek V4.1 Flash 1017. Its Hugging Face model card calls it a minor update, but it improved on all ...",
-    "viewCount": 41669,
-    "tags": [],
-    "relevanceScore": 5.5
+    "id": "7d031e77a53c",
+    "title": "Gemini 4 Argon Really Surprised Me",
+    "channel": "Two Minute Papers",
+    "channelId": "UCbfYPyITQ-7l4upoX8nvctg",
+    "date": "2026-10-19T08:49:21Z",
+    "duration": "6:49",
+    "thumbnail": "https://i.ytimg.com/vi/LWxX6vvHfrc/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
+    "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Gemini 4 Argon + report are available here: ...",
+    "viewCount": 161193,
+    "tags": [
+      "LLMs",
+      "Research"
+    ],
+    "relevanceScore": 7.9
   },
   {
-    "id": "0139d715a4d0",
-    "title": "I Trained Qwen 4B With RL to Catch Qwen 27B",
+    "id": "05107fa16ed7",
+    "title": "DeepSeek Just Made Reasoning WAY More Efficient!",
     "channel": "Prompt Engineering",
     "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-17T13:00:06Z",
-    "duration": "16:10",
-    "thumbnail": "https://i.ytimg.com/vi/Pl_2TelxjdY/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=Pl_2TelxjdY",
-    "description": "Can RL Make a 4B Model Compete with 27B? My Open RL Environment Experiments (GRPO, LoRA, DGX) In this video I test ...",
-    "viewCount": 39039,
+    "date": "2026-10-19T13:00:38Z",
+    "duration": "13:56",
+    "thumbnail": "https://i.ytimg.com/vi/YGEz40RSpTE/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=YGEz40RSpTE",
+    "description": "DeepSeek calls V4.1 Flash 1017 a “minor update”, but it went up on every benchmark in their table, and it's now the #1 open ...",
+    "viewCount": 26645,
     "tags": [
-      "RL"
+      "Reasoning",
+      "Research"
     ],
-    "relevanceScore": 5.2
+    "relevanceScore": 6.7
   }
 ]

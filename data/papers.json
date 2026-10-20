@@ -1,14 +1,581 @@
 [
   {
-    "id": "3526d1c06f0a",
-    "title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
+    "id": "24e3aed5907f",
+    "title": "Web Agent Agentic Reinforcement Learning Decision Model Under Multi-Cost and Failure Risk",
     "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
+    "date": "2026-10-20T00:00:00-04:00",
     "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22373",
-    "abstract": "arXiv:2610.22373v1 Announce Type: new  Abstract: LLM-based agents are increasingly used as autonomous orchestrators in distributed and multi-agent systems, yet a control gap remains: no protocol-level mechanism allows human operators to inject binding directives that persist across planning cycles. Free-text overrides suffer from ambiguous interpretation due to lack of schema validation and from authority erosion as operator instructions lose influence within accumulating context. We propose Str",
+    "url": "https://arxiv.org/abs/2610.23857",
+    "abstract": "arXiv:2610.23857v1 Announce Type: new  Abstract: Intelligent agent interactions in real-world web environments are commonly constrained by request budgets, time delays, anti-crawling restrictions, and operational failure risks. Strategies solely optimizing task success rates often exhibit unusable phenomena such as \"high success but high cost\" or \"low risk but conservative failure.\" This paper proposes a constrained agentic reinforcement learning model for web agents, unifying page access, searc",
     "tags": [
       "Agents",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "5b56a2fc92e2",
+    "title": "I$^2$-Med: Interpretable Medical Inference through Visual-Guided Dynamic Logits Calibration",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23858",
+    "abstract": "arXiv:2610.23858v1 Announce Type: new  Abstract: Medical vision language models have demonstrated strong potential for medical image understanding and reasoning. However, their interpretability and reliability remain limited because medical vision language tasks require precise visual grounding and clinically coherent explanations. This is particularly challenging due to complex imaging patterns and scarce expert annotations. These challenges reduce the effectiveness of conventional reasoning me",
+    "tags": [
+      "Reasoning",
+      "LLMs",
+      "Computer Vision",
+      "Research",
+      "Business",
+      "RL",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "04298a1c68f8",
+    "title": "Modeling Human Behavior in the Prisoner's Dilemma with Large Language Models",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23860",
+    "abstract": "arXiv:2610.23860v1 Announce Type: new  Abstract: The Prisoner's Dilemma has long served as a foundational framework for studying human decision-making and cooperative outcomes across social scenarios, yet human behavior consistently deviates from predictions of fully rational economic theory. Previous works have studied human and LLM outcomes in the Prisoner's Dilemma; however, these studies have lacked at least one key feature: a memory component for LLM agents, accessible open-source models, o",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Open Source",
+      "Research",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "275a6b5e5bd0",
+    "title": "PolyGraph: Plan-Buffered CUDA Graphs for Adaptive Speculative Decoding",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23861",
+    "abstract": "arXiv:2610.23861v1 Announce Type: new  Abstract: Adaptive speculative decoding changes the active batch size B and draft length d from one decode step to the next, whereas a CUDA Graph replays a fixed launch configuration. The resulting verification width M = B d forces serving systems to pre-capture many shapes, capture new ones on the serving path, or pad every step to the largest draft. We present PolyGraph, a plan-buffer mechanism for custom Triton kernels that avoids this choice. PolyGraph ",
+    "tags": [
+      "AI Coding",
+      "Research",
+      "Inference",
+      "Memory"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "553c6eda3d18",
+    "title": "Forecasting Patient Trajectories from the Electronic Health Records with Action-Conditioned World Models",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23862",
+    "abstract": "arXiv:2610.23862v1 Announce Type: new  Abstract: We introduce a predictive world model for electronic health records (EHR) that represents patient histories as action conditioned latent trajectories. Rather than modeling clinical events solely through autoregressive token prediction, our framework explicitly separates patient states from observed clinical actions and learns their evolution through a state and action conditioned transition operator. At its core is a state dependent linearization ",
+    "tags": [
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "fb9f0d964b5f",
+    "title": "SAGE-CP: When Marginal Coverage Hides Route-Conditional Failures in Adaptive VLM Ensembles",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23864",
+    "abstract": "arXiv:2610.23864v1 Announce Type: new  Abstract: Adaptive VLM ensembles save computation by stopping early on easy images and escalating harder ones. Although a single conformal threshold can make the final predictor marginally valid, it can still fail severely along individual computational routes. We characterize this failure precisely: if a route has prevalence pi, marginal 1-alpha coverage allows its conditional coverage to fall to max{0, 1-alpha/pi}. To address this mismatch, we learn the r",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL",
+      "Inference",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "706abe88fbf0",
+    "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23866",
+    "abstract": "arXiv:2610.23866v1 Announce Type: new  Abstract: We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss. This allows us to compare the accuracy and features of responses across model providers and versions. We account for daily var",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research",
+      "Business"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "beb2046c5fb0",
+    "title": "Composable Parametric Demographic Injection for Values Survey Simulation",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23867",
+    "abstract": "arXiv:2610.23867v1 Announce Type: new  Abstract: Large language models (LLMs) are increasingly used as simulated respondents in computational social science, yet accurately reproducing population-specific heterogeneous response distributions remains challenging. Existing methods such as demographic prompting are sensitive to prompt design and increase inference overhead, while parameter-based methods struggle to reuse demographic information efficiently, limiting generalization to unseen combina",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research",
+      "RL",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "0a03cdde02cd",
+    "title": "Translating in style: An open-weight alternative to GPT-4 for culturally aligned machine translation",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23868",
+    "abstract": "arXiv:2610.23868v1 Announce Type: new  Abstract: Machine translation systems often preserve meaning but systematically flatten linguistic style, a failure that is most acute when translating into non-Western languages. The RASTA framework of Havaldar et al. (2025a) addresses this through retrieval-augmented stylistic alignment, but relies on GPT-4, a closed, proprietary model. We investigate whether an open-weight translation specialist, Hunyuan-MT-7B, can serve as an open-weight alternative. We",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research",
+      "RL",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "bf76190e5747",
+    "title": "Latent Multimodal Memory Reasoning",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23890",
+    "abstract": "arXiv:2610.23890v1 Announce Type: new  Abstract: Long-term personalized agents are required to reason over distributed history across modalities and evolving dialogue states. While existing flat cross-modal methods compress visual evidence prematurely and struggle with temporally stale observations, they neglect the necessity to unify multimodal and cross-session evidence. Crucially, raw multimodal memories are inherently entangled and heterogeneous, making fine-grained visual grounding and cros",
+    "tags": [
+      "Agents",
+      "Reasoning",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "23938c585e67",
+    "title": "EMMA: Event-Driven Multimodal Memory System with Multi-Agent Retrieval",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23892",
+    "abstract": "arXiv:2610.23892v1 Announce Type: new  Abstract: Long video understanding requires reasoning over hours of content that far exceed the context window of multimodal large language models (MLLMs). Existing approaches compress video into fixed-length clips, yet events are fragmented and unrelated content is merged, yielding noisy retrieval. To overcome this challenge, we propose EMMA, an Event-driven Multimodal Memory system with Multi-Agent retrieval, which organizes memory around semantic events ",
+    "tags": [
+      "Agents",
+      "Reasoning",
+      "LLMs",
+      "Computer Vision",
+      "Research",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "971e5678476e",
+    "title": "Path-Conditioned Attention Mobility: From Depth to Execution Hubs in SegFormer",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23893",
+    "abstract": "arXiv:2610.23893v1 Announce Type: new  Abstract: Transformer compression often couples two distinct quantities: retained attention capacity and the number of sequential depths at which that capacity is executed. We study whether useful attention functions in a hierarchical vision transformer are locally mobile across depth. Using SegFormer-B5 for human segmentation, we find that some task-relevant attention heads can be relocated to nearby depths, but only when their computational context is res",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "63df3f3e8331",
+    "title": "GeoForward: Geometry-Guided Cross-View Alignment for Feedforward 3D Gaussian Splatting",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23895",
+    "abstract": "arXiv:2610.23895v1 Announce Type: new  Abstract: Feedforward 3D reconstruction has largely followed an {appearance-driven paradigm}: multi-view images are encoded into visual representations, cross-view correspondence is implicitly inferred from learned features, and 3D primitives are subsequently predicted from these representations. However, calibrated cameras and sparse metric measurements already provide explicit constraints on where the same physical point should appear across views. We pro",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "c405381c000f",
+    "title": "RhinoNet: Unsupervised Learning for Phenoscaping and Generation of High Dimensional Point Clouds",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23898",
+    "abstract": "arXiv:2610.23898v1 Announce Type: new  Abstract: We present RhinoNet, a simplicial complex-based point cloud neural network, that creates a geometry-preserving embedding of high-dimensional point clouds. RhinoNet takes collections of datasets, also called {\\em data cohorts}, and processes each dataset (point cloud) within the cohort as a simplicial complex. These simplicial complexes have datapoints as vertices and edges learned by Vietoris-Rips filtration. Using simplicial wavelets and MLP laye",
+    "tags": [
+      "AI Coding",
+      "Research",
+      "Inference",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "af194cebbb28",
+    "title": "EAGLE: Entropy-Aware Geometric Learning Enhancer for Partially Polygon-Supervised Object Localization",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23900",
+    "abstract": "arXiv:2610.23900v1 Announce Type: new  Abstract: Object detection is a critical application of computer vision, yet models trained uniformly on bounding boxes lack the geometric precision to be fully effective in inference settings, especially at high IoU thresholds. One common approach is the introduction of polygon-supervised localization, where a model is trained explicitly for localization but with access to polygon masks during training. Among such methods, partial polygon supervision is vi",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "91c90740b19f",
+    "title": "Rethinking weakly supervised localization on chest radiographs: position nulls, protocol dependence, and PACE",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23902",
+    "abstract": "arXiv:2610.23902v1 Announce Type: new  Abstract: Weakly supervised localization on chest radiographs is reported as a single overlap accuracy, and those numbers are not comparable across papers. We measure what one contains. Against position-null controls that keep a readout's own box and move only its position, class activation mapping and its gradient-weighted variant beat the null on two to four of seven annotated findings on ChestX-ray14 and two of eight on CheXlocalize. The null is beatable",
+    "tags": [
+      "Reasoning",
+      "Open Source",
+      "Research",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "0418eca5ce60",
+    "title": "AI-Experiment: an augmented reality art project co-created with artificial intelligence",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23903",
+    "abstract": "arXiv:2610.23903v1 Announce Type: new  Abstract: We describe the creation of a physical artwork that was performed in synergy between an artist, a computer scientist and generative AI tools. A latent diffusion model was finetuned on photographs of the artwork of the specific artist and the generative model then generated synthetic artworks in a similar style. From the generated artworks a subset was selected to be painted again with acrylic on canvas by the original artist. In addition to the ph",
+    "tags": [
+      "Computer Vision",
+      "Research",
+      "Video Models"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "164142e306db",
+    "title": "LVMH: A Meta-Optimization Harness for Long-Video Agent Memory",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23904",
+    "abstract": "arXiv:2610.23904v1 Announce Type: new  Abstract: Long-video agents must map hours or days of multimodal evidence into a bounded context while respecting token and latency budgets, making memory design a context-management challenge. Existing memory systems largely rely on hand-designed policies, leaving open how to jointly optimize memory design for performance and efficiency. We propose Long Video Meta-memory Harness (LVMH), an automated multi-agent framework that formulates memory-policy devel",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Business",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "ed4050223915",
+    "title": "Instance-Specific Classifier-Free Guidance for Text-to-Image Diffusion/Flow-Based Editing",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23905",
+    "abstract": "arXiv:2610.23905v1 Announce Type: new  Abstract: In recent years, a variety of prompt-based image editing methods have been developed based on text-to-image (T2I) diffusion/flow models. Image editing introduces an inherent trade-off between adhering to the original source image and realizing the change specified by the target prompt, which are typically measured by the LPIPS and CLIP-T metrics, respectively. Intuitively, this trade-off can be controlled by the classifier-free guidance (CFG) scal",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "c3667ab8530c",
+    "title": "Beyond Generator-Specific Shortcuts: Open-World AI-Generated Video Detection via Adversarial Training",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23906",
+    "abstract": "arXiv:2610.23906v1 Announce Type: new  Abstract: AI-generated video (AIGV) detection is increasingly important for mitigating misinformation, impersonation, and other malicious uses of synthetic media, yet existing detectors often generalize poorly to unseen generators in open-world settings. To better understand this challenge, we analyze the failure modes of AIGV detectors under cross-generator out-of-distribution (OOD) shifts and observe that detector representations strongly encode generator",
+    "tags": [
+      "Open Source",
+      "Research",
+      "RL",
+      "Inference",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "1366b49579d3",
+    "title": "EgoVine: Post-Training with Branching Experience Compiled from Real-World Videos",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23907",
+    "abstract": "arXiv:2610.23907v1 Announce Type: new  Abstract: Real-world egocentric videos capture multi-step household procedures, but their recorded trajectories leave alternative actions and recovery from the learner's own mistakes largely unexplored. We introduce EgoVine, a post-training framework that turns a fixed demonstration set into interactive experience for long-horizon planning. EgoVine operates in executable symbolic environments compiled from real-world video annotations, where an agent must c",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Robotics",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "f63ff9d05073",
+    "title": "ContraSafe-VL: A Contrastive Safety Preference Dataset for Vision-Language Models",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23908",
+    "abstract": "arXiv:2610.23908v1 Announce Type: new  Abstract: Vision-Language Models (VLMs) are increasingly deployed as general-purpose multimodal assistants, making multimodal safety alignment an important challenge. Safety depends on the interplay between textual and visual content, with visual context often playing a critical role. However, VLMs may fail to use visual information appropriately, either overlooking safety-relevant visual content or over-interpreting sensitive visual content, leading to uns",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL",
+      "Inference",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "28fb8ef1e02d",
+    "title": "When the Editing Intent Is Split: A Cross-Modal Jailbreak Attack for Large Image Editing Models",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23909",
+    "abstract": "arXiv:2610.23909v1 Announce Type: new  Abstract: Large image editing models increasingly infer editing intent from both textual and visual inputs, creating an underexplored safety risk when harmful intent is distributed across modalities. In this work, we formalize this split-intent vulnerability and propose the Split-Intent Jailbreak Attack (SIJA), which asymmetrically distributes an unsafe editing intent by specifying the editing referent in text while concealing the safety-critical action and",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "4efc8d1c8bb0",
+    "title": "Grounding Confusable Movie Moments",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23910",
+    "abstract": "arXiv:2610.23910v1 Announce Type: new  Abstract: Characters, locations, and actions recur throughout a movie, so many of its moments differ only in fine-grained details. Grounding such a moment in a full-length movie requires resolving that detail rather than matching the attributes it shares with other moments, yet existing temporal movie grounding benchmarks rarely test this. We introduce CoM$^2$-Bench, a benchmark of confusable query pairs, where the two queries in each pair share most attrib",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Research",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "a9db1de421a6",
+    "title": "Pseudo-Label Foreground Quality Weighting for Domain-Generalized Fundus Image Segmentation",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23911",
+    "abstract": "arXiv:2610.23911v1 Announce Type: new  Abstract: Optic disc (OD) and optic cup (OC) segmentation is central to automated glaucoma assessment, but models trained on limited labeled fundus datasets often degrade under domain shift. Semi-supervised Teacher-Student learning can improve generalization by leveraging unlabeled data, yet standard Noisy Student training treats all pseudo-labels as equally reliable. In this paper we investigate a targeted extension of Noisy Student training in which OD- a",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "2550c45a24f4",
+    "title": "Junction Geometry Survives an Unidentifiable Blur",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23912",
+    "abstract": "arXiv:2610.23912v1 Announce Type: new  Abstract: Thin filaments cross in microscopy, and dispersed spectra cross on X-ray detectors. At a junction, where these structures cross or branch, how many straight arms meet, and which way do they go? Unknown blur obscures the answer. At a balanced crossing, distinct Gaussian blurs can even produce the same observation law. We show that the arms can still be recovered. For separated rays of nonvanishing weight and an unknown centered Gaussian-mixture blu",
+    "tags": [
+      "Open Source",
+      "Research",
+      "Business",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "b4290f3c2520",
+    "title": "SPIRIT: Sparse Physics-Informed Inverse Rendering for SAR Imaging",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23914",
+    "abstract": "arXiv:2610.23914v1 Announce Type: new  Abstract: Radio-frequency (RF) and wave-based imaging systems play a critical role in sensing under adverse conditions, but are fundamentally constrained by a trade-off between collection speed and spatial resolution. Reducing measurements to enable rapid collection of fragment geometric information across sensing dimensions, leading to highly non-injective inverse problems that destabilize conventional image-domain reconstruction and super-resolution metho",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "d0b139b127a5",
+    "title": "Your Self-Supervised Projection Head Captures Object Co-Occurrence Statistics",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23915",
+    "abstract": "arXiv:2610.23915v1 Announce Type: new  Abstract: Self-Supervised Learning (SSL) has achieved impressive success in learning semantic visual representations, yet the underlying principles driving this success remain underexplored. In this work, we hypothesize that common SSL pretext tasks implicitly model object co-occurrence statistics, a fundamental cue for visual learning. To test this, we curate three datasets of segmented objects from existing vision benchmarks using a state-of-the-art segme",
+    "tags": [
+      "Computer Vision",
+      "AI Coding",
+      "Open Source",
+      "Research",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "078e1f4623e8",
+    "title": "Announced Breaks Separate Conformal Reliability from Frequency Calibration",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23917",
+    "abstract": "arXiv:2610.23917v1 Announce Type: new  Abstract: An announced boundary reveals the partition before the first affected outcome, and a reset there serves one of two audits. The per-time audit reads conformal reliability, the expected distance of the threshold's coverage from nominal at miscoverage 0.1. The frequency audit reads frequency calibration, whether a closed window's error rate matched it. The reset rule, the post-boundary empirical quantile, attains the minimax per-time rate for indepen",
+    "tags": [
+      "Research",
+      "Inference",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "0ddcdb48f628",
+    "title": "Cross-Modal Forgetting and Transfer in Unified Multimodal Post-Training",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23918",
+    "abstract": "arXiv:2610.23918v1 Announce Type: new  Abstract: Unified multimodal models answer questions about images and also generate images with one shared set of weights. This creates a post-training risk that single-purpose models do not have: fine-tuning one capability can damage another that works in a different modality. We measure this cross-modal forgetting for LoRA post-training of Janus-Pro-7B. Every target is chosen by how poorly the base model already handles it, from a poetic register to a lan",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "b345a7645e9a",
+    "title": "Vocabulary-Incomplete Unsupervised Vision-Language Model Adaptation",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23919",
+    "abstract": "arXiv:2610.23919v1 Announce Type: new  Abstract: In certain real-world scenarios, obtaining labeled data is excessively expensive, motivating increasing interest in adapting models without annotations. Vision-language models (VLMs) provide pseudo-labels for unlabeled images through image-text similarity, enabling adaptation without manual labeling. The previous unsupervised vision-language model adaption methods assume access to an adaptation vocabulary containing all class names. However, a com",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "6660e3d44336",
+    "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23921",
+    "abstract": "arXiv:2610.23921v1 Announce Type: new  Abstract: There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more. However, little is known about when agents are preferable to established alternatives such as local computation, Representational State Transfer (REST), the Simple Object Access Protocol (SOAP), and the Model Context Protocol (MCP), particularly when ",
+    "tags": [
+      "Agents",
+      "Reasoning",
       "LLMs",
       "Open Source",
       "Research",
@@ -20,146 +587,18 @@
     "novelty": 5
   },
   {
-    "id": "738ab16bc69b",
-    "title": "When is a large language model a good calibration agent? Physics-labeled prompting for budgeted engineering simulator calibration",
+    "id": "68b14643abe2",
+    "title": "Zero-Shot Tabular Learning via Hypergraph Reasoning with LLMs",
     "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
+    "date": "2026-10-20T00:00:00-04:00",
     "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22379",
-    "abstract": "arXiv:2610.22379v1 Announce Type: new  Abstract: Calibrating expensive engineering simulators requires tuning model parameters to match reference data, a process heavily constrained by computational costs. This study investigates whether Large Language Models (LLMs), conditioned on physical diagnostic descriptions of simulation errors, can propose informative parameter updates more efficiently than conventional derivative-free optimizers. We test this on a cylinder-wake Large-Eddy Simulation and",
-    "tags": [
-      "Agents",
-      "LLMs",
-      "Research",
-      "Business",
-      "RL"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "a6770f50ad96",
-    "title": "Trust but Verify: Designing Region-Inhomogeneous Forward Dynamics for Discrete Diffusion",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22380",
-    "abstract": "arXiv:2610.22380v1 Announce Type: new  Abstract: Continuous diffusion treats the forward process as a design space; discrete language diffusion often uses absorbing corruption, leaving context fully trusted throughout generation. This makes trust binary: corrupted context is copied as ground truth, propagating errors into generated spans. We reopen this design space by combining absorbing and uniform-mixing kernels with region-dependent rates. Missing positions follow absorbing dynamics, while c",
-    "tags": [
-      "Computer Vision",
-      "Research",
-      "Inference"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "da2602da745e",
-    "title": "Binding-Specific Relearning Savings for Test-Time Continual Learning",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22381",
-    "abstract": "arXiv:2610.22381v1 Announce Type: new  Abstract: When a fact becomes harder to elicit from a language model, has the model lost it, or has it merely become less accessible? Parameter-updating test-time continual learning agents are usually evaluated by current output accuracy; we ask whether that measurement captures how prior experience shapes later updates. We test whether learning a specific factual binding produces a later relearning advantage beyond familiarity with its entity, answer vocab",
-    "tags": [
-      "Agents",
-      "LLMs",
-      "Open Source",
-      "Research"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "fc71bb2c44ea",
-    "title": "Rethinking User Encoders: Routing Diffusion States for Scenario-Adaptive User Representation",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22400",
-    "abstract": "arXiv:2610.22400v1 Announce Type: new  Abstract: Existing large language model (LLM)-based user encoders serialize heterogeneous behavioral logs and compress them into static representations through autoregressive (AR) prediction. However, their unidirectional constraint limits bidirectional information flow, hindering cross-modal interactions and the joint preservation of multi-source signals. Consequently, the learned static representations struggle to accommodate the distinct evidence require",
+    "url": "https://arxiv.org/abs/2610.23923",
+    "abstract": "arXiv:2610.23923v1 Announce Type: new  Abstract: Tabular data are prevalent across diverse domains such as healthcare and finance. Zero-shot tabular learning aims to make predictions without labeled data. However, existing LLM-based approaches rely on row-wise prompting, resulting in high inference cost and limited use of inter-row dependencies. In this work, we propose TABHGR+, an efficient relation-aware zero-shot framework for tabular data that leverages LLM-generated rules to label and group",
     "tags": [
       "Reasoning",
       "LLMs",
-      "Computer Vision",
-      "Open Source",
-      "Research"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "555b814abdf4",
-    "title": "From Events to Reasoning: Hierarchical Rule Composition over Explicit States",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22403",
-    "abstract": "arXiv:2610.22403v1 Announce Type: new  Abstract: What a reasoning system emits is a conclusion; what it owes is a justification. Producing one requires every operation to be admissible on the facts actually available, the dependencies of intermediate results to survive to the end of the path, and the path to be revised when a premise changes. We present the Event Reasoning System (ERS), in which the reasoning state is an explicit event graph. Semantic features nominate candidate objects and rule",
-    "tags": [
-      "Reasoning",
-      "Computer Vision",
       "Open Source",
       "Research",
-      "RL",
-      "Inference"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "def02167f5a8",
-    "title": "ECHOES: Seeing Beyond the Current Image via Recursive History Compression and Privileged On-Policy Distillation",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22408",
-    "abstract": "arXiv:2610.22408v1 Announce Type: new  Abstract: Long-horizon GUI agents rely on visual history to maintain task states, but retaining historical screenshots increases visual-token usage and inference costs, while textual summaries can discard critical state information, undermining long-horizon reliability. We propose ECHOES, which leverages training-time privileged information to guide textual history compression and strengthen long-horizon reasoning. Specifically, ECHOES adopts a Compression-",
-    "tags": [
-      "Agents",
-      "Reasoning",
-      "Computer Vision",
-      "Open Source",
-      "Research",
-      "RL",
-      "Inference",
-      "Memory",
-      "RAG",
-      "Synthetic Data"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "f364d9e79892",
-    "title": "Sensitivity Analysis of Decision Rules in an Agent-Based Agro-Ecological Model",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22420",
-    "abstract": "arXiv:2610.22420v1 Announce Type: new  Abstract: Agent-based models are well-suited for modelling agro-ecological systems for decision-making, yet turning their simulations into actionable insight requires identifying which decisions actually drive the behaviours. In such a context, sensitivity analysis stumbles upon a structural feature of many complex systems: the parameters are not a flat vector but a decision tree in which many parameters appear only when a higher-level choice activates them",
-    "tags": [
-      "Agents",
-      "Research",
-      "RL"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "e74830fe38e5",
-    "title": "PRIME: Towards Verifiable Evidence-Grounded Reasoning in LLM Agents",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22426",
-    "abstract": "arXiv:2610.22426v1 Announce Type: new  Abstract: LLM agents are used to check records against an organization's requirements, for example whether a vulnerability report is ready for investigation. Requirements often allow several ways to be met, such as a severity rating with a curator-reviewed advisory or a published advisory link. Agents fail by accepting a report after a required check has failed, or by settling for a weaker conclusion without trying another way that could still succeed. We i",
-    "tags": [
-      "Agents",
-      "Reasoning",
-      "LLMs",
-      "Research",
-      "RL",
       "Inference",
       "Memory",
       "RAG"
@@ -168,15 +607,16 @@
     "novelty": 5
   },
   {
-    "id": "12ba00c6cb7a",
-    "title": "Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models",
+    "id": "570fdd20da15",
+    "title": "SpinDoctor: Finding Innocuous Prompts for Biased Image Generation",
     "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
+    "date": "2026-10-20T00:00:00-04:00",
     "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22428",
-    "abstract": "arXiv:2610.22428v1 Announce Type: new  Abstract: In a small language model the vocabulary is the single largest part. In Gemma 3 270M the embedding table holds 168M of 268M parameters, and because quantisation methods leave the embedding in 16-bit, it is also most of the file once the rest of the model is compressed. We ask what that table actually buys. We replace it with one frozen table of 512-bit codes, 16 MB, with no trainable parameters, derived once from a pretrained embedding by principa",
+    "url": "https://arxiv.org/abs/2610.23925",
+    "abstract": "arXiv:2610.23925v1 Announce Type: new  Abstract: We introduce SpinDoctor, a method for discovering innocuous prompts for text-to-image models that result in images with a chosen target bias, while retaining the quality of the images and prompts. These prompts present a risk for user manipulation, in that a user who is given these seemingly unbiased prompts might be willing to use them and would receive biased images in return. Our method is flexible: it uses models in a black-box way only and th",
     "tags": [
-      "LLMs",
+      "Computer Vision",
+      "Robotics",
       "Open Source",
       "Research",
       "Business",
@@ -187,32 +627,51 @@
     "novelty": 5
   },
   {
-    "id": "2a7f1fb7781d",
-    "title": "CGDT-CESN: Correlation-Guided and Dynamics-Trained Clustered Echo State Network for Multivariate Time-Series Prediction",
+    "id": "70cc622ac78f",
+    "title": "Improving Fake Profile Detection Through Multimodal Learning and Research-Guided Feature Integration",
     "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
+    "date": "2026-10-20T00:00:00-04:00",
     "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22430",
-    "abstract": "arXiv:2610.22430v1 Announce Type: new  Abstract: Accurate prediction of multivariate time series requires models that simultaneously capture variable-specific dynamics and cross-variable interactions. In this work, a Correlation-Guided and Dynamics-Trained Clustered Echo State Network (CGDT-CESN) is proposed, which comprises a modular reservoir architecture with each cluster distinctly specializing in one of the variables in the multivariate time series. An innovative reservoir design is propose",
+    "url": "https://arxiv.org/abs/2610.23926",
+    "abstract": "arXiv:2610.23926v1 Announce Type: new  Abstract: Fake accounts continue to undermine online platforms, yet it remains unclear whether multimodal learning offers meaningful improvements over strong metadata baselines or graph-based approaches. In this work, we study bot detection by integrating textual, visual, and account metadata signals on the TwiBot-22 benchmark using a subsample of 30,000 users. We propose a multimodal framework combining pretrained textual (XLM-RoBERTa) and visual (CLIP) em",
     "tags": [
-      "Open Source",
-      "Research"
+      "Computer Vision",
+      "Research",
+      "RAG"
     ],
     "importance": 5,
     "novelty": 5
   },
   {
-    "id": "9484c47f25ee",
-    "title": "BOLT: Multi-Bottleneck Bound-Guided Learning for Flexible Job-Shop Scheduling with Time Lags and Resource-Coupled Transport",
+    "id": "38b98e3e63e2",
+    "title": "miniTE: Diagnosing and Bridging the Execution Gap in Native NVFP4 Reinforcement Learning",
     "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
+    "date": "2026-10-20T00:00:00-04:00",
     "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22433",
-    "abstract": "arXiv:2610.22433v1 Announce Type: new  Abstract: Flexible job-shop scheduling becomes resource-coupled when a scarce vehicle fleet moves jobs between stations, because the schedule sets the transport waits. BOLT (bound-oriented learning for transport-coupled scheduling) builds a lower bound from chain, machine-capacity, and fleet-capacity relaxations. The bound equals the makespan at termination, so its per-step changes form a reward that sums to a constant minus the makespan. Because it never e",
+    "url": "https://arxiv.org/abs/2610.23928",
+    "abstract": "arXiv:2610.23928v1 Announce Type: new  Abstract: Native NVFP4 promises to accelerate reinforcement learning (RL) for large language models (LLMs), but achieving stable learning across separate training and sampling engines remains challenging. We show that matching model weights and numerical formats is insufficient to ensure consistent policy evaluation, highlighting the importance of cross-engine numerical execution. We introduce miniTE, a lightweight framework that combines execution diagnost",
     "tags": [
+      "LLMs",
       "Open Source",
       "Research",
-      "RL",
+      "Business",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "245806f17d4f",
+    "title": "Unbalanced Optimal Transport for Efficient Visual Document Retrieval",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23929",
+    "abstract": "arXiv:2610.23929v1 Announce Type: new  Abstract: Vision-Language Models(VLMs)have advanced Visual Document Retrieval (VDR) by enabling OCR-free, multi-vector representations. However, these models generate excessive tokens to preserve dense visual details, which severely limits retrieval scalability. Existing compression methods mitigate this overhead but rely on isolated heuristics that fail to balance token importance, semantic redundancy, and coverage capacity. We propose a visual token compr",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "Research",
       "Memory",
       "RAG"
     ],
@@ -220,13 +679,103 @@
     "novelty": 5
   },
   {
-    "id": "d39a4202ac21",
-    "title": "TRACE: Transformer Residual Activation Codebook Encoding for Communication-efficient Distributed Edge Inference",
+    "id": "2d562d79a4bc",
+    "title": "Trimodal Context-Aware Micro-Expression Recognition in Real-World Conversations: A Dataset and a Hierarchical Fusion Network",
     "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
+    "date": "2026-10-20T00:00:00-04:00",
     "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22435",
-    "abstract": "arXiv:2610.22435v1 Announce Type: new  Abstract: Distributed Transformer inference across co-located edge devices is fundamentally communication-bound, as exchanging activations between sequence-parallel partitions dominates inference latency under commodity edge bandwidths. Existing compression schemes reduce this cost but retain a structural bottleneck: the received data must still undergo key/value projection before attention can proceed, serializing computation behind communication. This pap",
+    "url": "https://arxiv.org/abs/2610.23930",
+    "abstract": "arXiv:2610.23930v1 Announce Type: new  Abstract: Recognizing micro-expressions in real-world conversations is challenging, as these facial movements are brief and faint, and their interpretations are strongly dependent on the contextual circumstances of their occurrence. Most existing methods are de-contextualized, as they analyze isolated video clips while disregarding the semantic and acoustic cues in the surrounding dialogue that help explain the emergence of an expression. Decades of psychol",
+    "tags": [
+      "Computer Vision",
+      "Research",
+      "RL",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "78dbf33b4595",
+    "title": "STLQ: Spatio-Topological Linkage Quantization for Approximate Nearest Neighbor Search",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23931",
+    "abstract": "arXiv:2610.23931v1 Announce Type: new  Abstract: Vector quantization is widely used for large-scale data compression and approximate nearest neighbor search (ANNS). Multi-codebook quantization (MCQ) is a practical paradigm that represents database vectors with compact codes and supports efficient retrieval through asymmetric distance computation (ADC). However, existing shallow MCQs encode vectors independently within each inverted file (IVF) cluster, without exploiting local references. Therefo",
+    "tags": [
+      "AI Coding",
+      "Research",
+      "RL",
+      "Inference",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "8dc28c69f41b",
+    "title": "Toward AI-Driven Phytoplankton Event Detection from Image Classification: Temporal Aggregation Under Domain Shift",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23932",
+    "abstract": "arXiv:2610.23932v1 Announce Type: new  Abstract: Imaging FlowCytobot (IFCB) systems generate large volumes of phytoplankton imagery that exceed the capacity of manual expert analysis. Although machine-learning approaches achieve high image-level classification performance, it remains unclear whether their predictions can provide ecologically meaningful temporal information for monitoring. This study investigates whether AI-derived phytoplankton classifications can reproduce temporal occurrence p",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "d91b8679ebde",
+    "title": "VERDICT: Visual Extraction-Result Decoder with Integrated Confidence and Traceable Evidence",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23933",
+    "abstract": "arXiv:2610.23933v1 Announce Type: new  Abstract: Enterprises run schema-guided structured field extraction on documents with frontier multimodal models, and accuracy keeps improving as new models and systems arrive. Two things have not kept pace: the evidence for each extracted value, meaning the location of the document it was read from, and how far to trust the value and that evidence. Neither is a component of most extraction systems today, so we build them as a framework that attaches to an ",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "0624f394deab",
+    "title": "Organizing LLM Inference for Aggregate Predictions from Behavioral Data",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23934",
+    "abstract": "arXiv:2610.23934v1 Announce Type: new  Abstract: When using a large language model (LLM) to simulate a user population, how should we combine individual behavioral histories to predict the fraction of users who take a particular action? We study this question in e-commerce, predicting observed product-level conversion rates from browsing sessions without task-specific model training. We vary two design choices, each involving a bias-variance tradeoff. Summarizing a product's sessions before infe",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research",
+      "Inference",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "fb52747462d2",
+    "title": "Factorization-Guided Training and Inference for Diffusion-Drafted Speculative Decoding",
+    "authors": [],
+    "date": "2026-10-20T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23935",
+    "abstract": "arXiv:2610.23935v1 Announce Type: new  Abstract: Speculative decoding accelerates large language model inference through parallel verification of tokens proposed by a drafter. Diffusion drafters further parallelize proposal generation, but greater proposal capacity or higher mean accepted tokens (MAT) need not yield higher throughput. Because verification accepts only a consecutive prefix, early rejections can render later correct predictions ineffective, limiting MAT gains, while even higher MA",
     "tags": [
       "LLMs",
       "Computer Vision",
@@ -240,33 +789,15 @@
     "novelty": 5
   },
   {
-    "id": "db4ba7c288ba",
-    "title": "Generative adversarial networks with Monte Carlo dropout uncertainty quantification for structural health monitoring: Fibre Bragg grating data augmentation comparison in Hawk T1A aircraft",
+    "id": "b155d5cc0564",
+    "title": "Beyond Prediction: A Component-Level Study of Concept Recovery in In-Context Learning",
     "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
+    "date": "2026-10-20T00:00:00-04:00",
     "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22436",
-    "abstract": "arXiv:2610.22436v1 Announce Type: new  Abstract: The signal generation capabilities of a novel data augmentation framework are examined in aerospace structures. First, the framework learns class-conditional temporal and spectral characteristics of the measured structural responses. It uses conditional generative adversarial network training and Monte Carlo dropout uncertainty quantification as a Bayesian approximation. This step enables stochastic signal synthesis and uncertainty quantification.",
+    "url": "https://arxiv.org/abs/2610.23936",
+    "abstract": "arXiv:2610.23936v1 Announce Type: new  Abstract: In-context learning (ICL) enables language models to make accurate predictions from demonstrations, but prediction success alone does not reveal the extent to which the underlying concept has been recovered. Existing evaluations typically assess recovery at the level of the whole concept, making it difficult to identify which components are recovered and to separate model limitations from ambiguity in the demonstrations. We introduce a component-l",
     "tags": [
-      "Open Source",
-      "Research",
-      "RL",
-      "Memory",
-      "RAG",
-      "Synthetic Data"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "422bf6fabfe6",
-    "title": "CF-NODE: Counterfactual Spatial Node Intervention for Test-Time Adaptation Under Domain Shift, Evaluated Across Five Diabetic Retinopathy Datasets",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22437",
-    "abstract": "arXiv:2610.22437v1 Announce Type: new  Abstract: Automated fundus-based diabetic retinopathy (DR) grading can substantially expand screening capacity, but source-trained models degrade sharply across different cameras, clinics, and patient populations. Existing test-time adaptation methods depend on entropy minimization or target information accumulated from image batches and streams. These mechanisms can reinforce confidently incorrect predictions and break down when clinical images arrive inde",
-    "tags": [
+      "LLMs",
       "Computer Vision",
       "Open Source",
       "Research",
@@ -280,80 +811,32 @@
     "novelty": 5
   },
   {
-    "id": "beac6edeed16",
-    "title": "Rank Measures of Fine-Tuning Updates Need a Noise Baseline",
+    "id": "e30f3ffdeb43",
+    "title": "SECURE-AI: Multi-Signal Uncertainty Quantification for Trustworthy Acoustic Cough Detection",
     "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
+    "date": "2026-10-20T00:00:00-04:00",
     "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22438",
-    "abstract": "arXiv:2610.22438v1 Announce Type: new  Abstract: Studies of what fine-tuning does to a language model often summarise the weight update $\\Delta W$ by its rank. We compare the rank measures used for this against the same measures on a random matrix of the same shape, and against two harder references: the pretrained weights, and matched fine-tunes without alignment content. Measures that count directions put our fine-tuning updates only a little below noise; stable rank, computed from the same si",
+    "url": "https://arxiv.org/abs/2610.23937",
+    "abstract": "arXiv:2610.23937v1 Announce Type: new  Abstract: Acoustic models for cough detection achieve high accuracy on curated benchmarks but fail silently in deployment, where speech, environmental noise, and audio unlike the training data induce confident misclassifications. In health monitoring, a confidently wrong prediction is worse than no answer at all. We present SECURE-AI (Self-aware Estimation of Cough Uncertainty for Reliable Evaluation of AI), a multi-signal uncertainty quantification framewo",
     "tags": [
-      "LLMs",
-      "Research"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "a0d8d873fad8",
-    "title": "Sparse Autoencoders Can Induce Local Geometry for Mitigating Catastrophic Forgetting",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22439",
-    "abstract": "arXiv:2610.22439v1 Announce Type: new  Abstract: Catastrophic forgetting remains a challenge in supervised continual learning, as adapting to new tasks causes representation drift and loss of previously learned information. This raises the question of which representational changes should be constrained while preserving plasticity. We therefore introduce Sparse Autoencoder Geometric Anchoring (SAGA), which converts a Sparse Autoencoder (SAE) trained at each task boundary into local, low-rank con",
-    "tags": [
-      "Computer Vision",
-      "Open Source",
       "Research",
-      "Inference"
+      "Business",
+      "RL",
+      "RAG"
     ],
     "importance": 5,
     "novelty": 5
   },
   {
-    "id": "8b3609ebbcbb",
-    "title": "From Natural Language Intent to Executable Control: Hierarchical Feedback-Guided LLM Planning for Multi-component Cyber-Physical Systems",
+    "id": "8e5107e03fc3",
+    "title": "Pack and Extract: An Effective Graph-Based Approach for Feature Selection",
     "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
+    "date": "2026-10-20T00:00:00-04:00",
     "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22441",
-    "abstract": "arXiv:2610.22441v1 Announce Type: new  Abstract: Large language models (LLMs) provide a convenient interface for translating natural language commands into task plans for cyber-physical systems (CPSs). However, two gaps hinder their use for real execution: generated plans may misinterpret or omit the user's intent, and even a logically plausible plan may be infeasible under component dynamics, interactions, or safety constraints. Existing LLM-based planning approaches often lack informative feed",
+    "url": "https://arxiv.org/abs/2610.23938",
+    "abstract": "arXiv:2610.23938v1 Announce Type: new  Abstract: Many molecular biology data sets contain thousands of features, such as genes in single-cell experiments or other omics data. Standard predictive models often perform poorly in such settings, as they tend to retain a large number of features and fail to adequately handle correlations among them. Combinatorial approaches, such as feature selection based on the Independent Dominating Set (IDS) model, have shown promising results, but appear to have ",
     "tags": [
-      "LLMs",
-      "Research"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "0cb433de9241",
-    "title": "Event-STVG: Spatio-Temporal Video Grounding for Long-Form Event Reasoning",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22444",
-    "abstract": "arXiv:2610.22444v1 Announce Type: new  Abstract: Spatio-Temporal Video Grounding (STVG) aims to jointly localize a target in space and time given a natural-language query. Despite continued advances, existing STVG benchmarks remain largely centered on localizing targets through instance-specific descriptions, leaving them largely decoupled from long-form reasoning increasingly emphasized in multimodal large language models (MLLMs). In this paper, we introduce Event-STVG, a task that shifts STVG ",
-    "tags": [
-      "Reasoning",
-      "LLMs",
-      "Computer Vision",
       "Open Source",
-      "Research",
-      "Inference"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "d71a989adc9f",
-    "title": "Null Controls Are Necessary but Not Sufficient: Evaluating Acceptance Guards for Scientific Discovery and Interpretability",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22445",
-    "abstract": "arXiv:2610.22445v1 Announce Type: new  Abstract: Automated discovery systems propose scientific explanations and test which to accept. Does passing a test establish the intended claim? We develop four executable operations for changing physical descriptions: identifying redundancies (L1), coarse-graining dynamics (L2), transferring structure (L3), and inferring missing quantities from conservation imbalances (L4). We evaluate these operations and three interpretability settings through null acce",
-    "tags": [
       "Research",
       "RL"
     ],
@@ -361,14 +844,15 @@
     "novelty": 5
   },
   {
-    "id": "a12eed489731",
-    "title": "Learnable Splines for Unstructured Neural Operators",
+    "id": "fae7e39b3071",
+    "title": "PeekKV: The First Content Token Already Knows Which Heads Matter",
     "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
+    "date": "2026-10-20T00:00:00-04:00",
     "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22446",
-    "abstract": "arXiv:2610.22446v1 Announce Type: new  Abstract: Neural operators approximate solution operators of partial differential equations at a fraction of the cost of numerical solvers. Efficient grid-based architectures such as the Fourier neural operator (FNO) assume uniform rectangular grids, whereas engineering simulations use large, irregular, and locally refined meshes. We introduce L-SplineFNO, a memory-efficient neural operator that couples an FNO backbone with a sparse, learnable tensor-produc",
+    "url": "https://arxiv.org/abs/2610.23939",
+    "abstract": "arXiv:2610.23939v1 Announce Type: new  Abstract: The size of the KV cache grows linearly with context length, making it a major memory bottleneck in LLM serving. Motivated by recent progress in identifying the functional roles of attention heads, a growing body of work compresses the KV cache non-uniformly across heads. Existing methods either fix the important heads via offline profiling or select them using attention signals from the prefill stage. In both cases, however, accuracy fluctuates s",
     "tags": [
+      "LLMs",
       "Open Source",
       "Research",
       "RL",
@@ -379,16 +863,16 @@
     "novelty": 5
   },
   {
-    "id": "d899f8e212ff",
-    "title": "Lean4AgenticRL: Advancing Agentic RL with Verifiable Multi-level Process Rewards",
+    "id": "19c5792d712f",
+    "title": "Fast Construction of Inner Sphere Trees Using Machine Learning",
     "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
+    "date": "2026-10-20T00:00:00-04:00",
     "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22448",
-    "abstract": "arXiv:2610.22448v1 Announce Type: new  Abstract: Enhancing the agentic capabilities of Large Language Models (LLMs) to tackle complex software engineering (SWE) and general terminal-usage problems is a pressing challenge. Current state-of-the-art LLMs often go through large-scale agentic Reinforcement Learning (RL). However, they mostly rely on high-level outcome rewards, with minimal consideration of low-level toolcall and mid-level workflow-stage rewards, which makes the training less effectiv",
+    "url": "https://arxiv.org/abs/2610.23940",
+    "abstract": "arXiv:2610.23940v1 Announce Type: new  Abstract: Collision detection for complex non-convex objects is a bottleneck in physics simulation, virtual reality, and robotics. Inner sphere trees (ISTs) answer proximity and penetration queries efficiently, but their greedy leaf-sphere construction is sequential and computationally expensive, which limits both large-scale preprocessing and runtime use. In this work, we present ML-IST, a machine-learning-based method that reformulates leaf-sphere generat",
     "tags": [
-      "Agents",
-      "LLMs",
+      "Robotics",
+      "Open Source",
       "Research",
       "RL",
       "Memory",
@@ -398,503 +882,553 @@
     "novelty": 5
   },
   {
-    "id": "2954dd4f4ba4",
-    "title": "Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss",
+    "id": "24c4195f7f97",
+    "title": "A Group-Aware Comparative Study of Classical Machine Learning and Deep Learning Methods for Sensor-Based Human Activity Recognition",
     "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
+    "date": "2026-10-20T00:00:00-04:00",
     "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22454",
-    "abstract": "arXiv:2610.22454v1 Announce Type: new  Abstract: Running prompt tokens through fewer routed experts during prefill is a simple way to make mixture-of-experts (MoE) serving cheaper, yet it is unclear what this damages. We locate the damage with token-, layer- and attention-path interventions on short-answer question answering in four MoE families. At half the experts the F1 loss of three families is mostly answer form: the model still finds the answer but stops answering briefly. In Qwen3-30B-A3B",
+    "url": "https://arxiv.org/abs/2610.23941",
+    "abstract": "arXiv:2610.23941v1 Announce Type: new  Abstract: Human Activity Recognition (HAR) using wearable or smartphone inertial sensors is commonly evaluated with both classical machine learning and deep learning methods. However, reported performance can be strongly affected by sensor modality, dataset characteristics, and data-splitting strategy. This study presents a controlled comparative evaluation of four classical machine learning models and four deep learning models on two public HAR datasets, U",
     "tags": [
       "Open Source",
       "Research",
-      "Inference"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "cc7f2da4bfbc",
-    "title": "Functional Welfare for AI Safety",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22460",
-    "abstract": "arXiv:2610.22460v1 Announce Type: new  Abstract: AI welfare is generally treated purely as an ethical issue rather than also as a safety issue. We argue this is a mistake. Whatever their moral status, models exhibit welfare-like states that causally influence their behaviour. Following recent work, we adopt the term 'functional welfare' for these states. We make three claims. First, functional welfare already arises naturally and will become more robust as models acquire more coherent goals and ",
-    "tags": [
-      "Open Source",
-      "Research",
-      "Business"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "dabee9b48dbe",
-    "title": "Author-in-the-loop Agentic Reproducibility Auditing for a Machine Learning Conference",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22465",
-    "abstract": "arXiv:2610.22465v1 Announce Type: new  Abstract: Reproducibility checks during peer review require a shared understanding of what authors' code is expected to reproduce. We present an author-in-the-loop collaborative audit that makes author declarations explicit inputs to an AI agent's investigation and assessment. A structured checklist records reproduction instructions and limitations; a two-stage workflow on GitHub connects agent checks to author clarification, revision, and agent reassessmen",
-    "tags": [
-      "Agents",
-      "Computer Vision",
-      "Open Source",
-      "Research",
+      "Business",
       "RL"
     ],
     "importance": 5,
     "novelty": 5
   },
   {
-    "id": "e42aa5e2f34e",
-    "title": "Harness-Delta Attribution: Dissecting Gains From Harness Evolution",
+    "id": "a67a99cf7e39",
+    "title": "ReTTT: Reflection-Driven Test-Time Training via Experience-Based Parametric Memory",
     "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
+    "date": "2026-10-20T00:00:00-04:00",
     "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22466",
-    "abstract": "arXiv:2610.22466v1 Announce Type: new  Abstract: Harness evolution automatically optimizes the prompts, skills, tools, and orchestration code around a fixed-weight model, offering a way to improve agentic systems without updating model weights. The agent harness is iteratively optimized to achieve higher performance on the search set. But how much of this gain reflects benchmark-specific overfitting or additional inference-time compute, and how much may generalize beyond the search set? In this ",
+    "url": "https://arxiv.org/abs/2610.23942",
+    "abstract": "arXiv:2610.23942v1 Announce Type: new  Abstract: LLM agents accumulate valuable task-specific information through their actions, observations, and environmental feedback during multi-turn task execution. When effectively used, this information can help agents refine subsequent decisions and improve task performance. However, the learning value of an interaction depends on its context and subsequent feedback, making it challenging to extract reliable, actionable lessons and revise them as the tas",
     "tags": [
       "Agents",
-      "AI Coding",
+      "LLMs",
       "Open Source",
       "Research",
-      "Business",
-      "Inference",
-      "Memory",
-      "RAG"
+      "RL",
+      "Memory"
     ],
     "importance": 5,
     "novelty": 5
   },
   {
-    "id": "22c9dbea348b",
-    "title": "Progressive Misalignment Can Emerge from Benign Recursive Self-Distillation",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22467",
-    "abstract": "arXiv:2610.22467v1 Announce Type: new  Abstract: Training models on their own outputs has attracted widespread attention as a possible route to advance AI capabilities. One prominent approach is self-distillation, where a model is trained to match the token-level predictions it would have produced when given access to additional context, such as a cue, feedback, or instruction. However, the safety properties of this training procedure are poorly understood. In this paper, we present a surprising",
+    "id": "b26817616c51",
+    "title": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
+    "authors": [
+      "Chao Yu",
+      "Shu&#39;ang Yu",
+      "Hao Lin",
+      "Hongzhi Zang",
+      "Yuxiang Yan",
+      "Chenxi Jiang",
+      "Zhen Guo",
+      "Chuankang Li",
+      "Yihao Chen",
+      "Xin Xu",
+      "Xu Fu",
+      "Jiakai Zhou",
+      "Liangzhi Shi",
+      "Hongyi Ren",
+      "Yiwei Liu",
+      "Jing Wu",
+      "Yuanqing Wang",
+      "Chen Wu",
+      "Bo Dai",
+      "Chunyu Yang",
+      "Hongliang Huang",
+      "Shuoyu Yue",
+      "Weiqi Yin",
+      "Yinuo Chen",
+      "Ruihua Chen",
+      "Chunyang Zhu",
+      "Han Xiao",
+      "Yanghao Li",
+      "Ruipu Wu",
+      "Zhikai Cai",
+      "Xiu Chen",
+      "Xu Tan",
+      "Yuchen Yan",
+      "Jialin Zhang",
+      "Wen Zeng",
+      "Yiming Zhou",
+      "Zixiao Huang",
+      "Guanghui Ren",
+      "Quanlu Zhang",
+      "Boxun Li",
+      "Maoqing Yao",
+      "Yu Wang"
+    ],
+    "date": "2026-10-18T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2610.25736",
+    "abstract": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed robots share their execution experience to improve a common policy. We realize CEL thr",
     "tags": [
+      "Computer Vision",
+      "Robotics",
+      "Open Source",
+      "RL",
+      "RAG"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "96f4dd3fa27e",
+    "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+    "authors": [
+      "Yu Zhou",
+      "Cheng-Fu Yang",
+      "Rui Sun",
+      "Di Wu",
+      "Sibo Peng",
+      "Mingyang Zhang",
+      "Zhen Yang",
+      "Ruiyi Zhang",
+      "Nanyun Peng",
+      "Zhe Gan",
+      "Kai-Wei Chang"
+    ],
+    "date": "2026-10-18T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2610.26860",
+    "abstract": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements obtained through heterogeneous tools, whose outputs must be made interpretable to the model and retai",
+    "tags": [
+      "Agents",
+      "Reasoning",
+      "LLMs",
+      "Computer Vision",
+      "AI Coding",
       "Open Source",
       "Research",
       "RL",
+      "Inference",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "f25b1d4c1811",
+    "title": "ScaleNav: Scalable Internet Video Pretraining for Language-Conditioned Local Navigation",
+    "authors": [
+      "Yihui Yang",
+      "Yuanhong Yu",
+      "Jiawei Wang",
+      "Zhongrui Yu",
+      "Jia Shi",
+      "Kun Zhan",
+      "Ruizhen Hu",
+      "Xiaowei Zhou",
+      "Yu Liu",
+      "Sida Peng"
+    ],
+    "date": "2026-10-18T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2610.25690",
+    "abstract": "We study language-conditioned local navigation, where a robot must navigate to a text-specified target visible in its initial observation and stop at the described location. End-to-end navigation policies require diverse training data to generalize across scenes, yet real-robot data is costly to collect and simulated data leaves a sim-to-real gap. Internet egocentric videos offer a scalable source of real-world navigation experience. Our key insight is to learn goal-directed visual dynamics from",
+    "tags": [
+      "Computer Vision",
+      "Robotics",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "05eea06b19b8",
+    "title": "RoAR-VAE: Improving Latent Diffusability through Robust Prediction",
+    "authors": [
+      "Yang Yue",
+      "Fangyun Wei",
+      "Yitong Wang",
+      "Jinjing Zhao",
+      "Henry Zheng",
+      "Dong Chen",
+      "Gao Huang"
+    ],
+    "date": "2026-10-18T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2610.26216",
+    "abstract": "An effective visual tokenizer must preserve image fidelity while producing latents that downstream diffusion models can learn efficiently. Prior work improves latent diffusability through semantic alignment or joint tokenizer--diffusion training. Revisiting REPA-E, a representative approach, we find that removing its diffusion objective and dedicated generative blocks while retaining semantic prediction from corrupted latents yields comparable downstream generation performance under a matched se",
+    "tags": [
+      "Computer Vision",
+      "Research",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "33775b933b38",
+    "title": "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
+    "authors": [
+      "Heejeong Nam",
+      "Divyat Mahajan",
+      "Quentin Le Lidec",
+      "Randall Balestriero",
+      "David Klindt"
+    ],
+    "date": "2026-10-18T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2610.26844",
+    "abstract": "The goal of a world model is to capture the dynamics of an environment. This has the great appeal that it allows agents to plan and simulate a course of actions with the help of a world model. For these uses to be reliable, however, the learned dynamics must behave well beyond the specific state-action combinations observed in expert rollouts. Despite this, the relationship between data coverage, dynamics generalization, and downstream planning performance remains underexplored. We study this re",
+    "tags": [
+      "Agents",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "a9bde96817c1",
+    "title": "InfiniDream: Open-Ended Photorealistic 3D Worlds Through Procedural Generation",
+    "authors": [
+      "Yi-Chuan Huang",
+      "Hao-Jen Chien",
+      "Zheng-Hui Huang",
+      "Yu-Lun Liu",
+      "Kaipeng Zhang",
+      "Zhixiang Wang"
+    ],
+    "date": "2026-10-18T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2610.26853",
+    "abstract": "Procedural generation plays a key role in synthetic data creation and game development, offering greater controllability, editability, and diversity than static mesh representations. However, VLM-based code generation often produces relatively simple 3D assets, while sophisticated photorealistic procedural systems require extensive manual development. Existing VLM-guided procedural methods remain largely constrained by predefined factories and APIs, limiting their ability to create novel asset t",
+    "tags": [
+      "AI Coding",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL",
+      "Inference",
       "Memory",
       "RAG",
       "Synthetic Data"
     ],
-    "importance": 5,
-    "novelty": 5
+    "importance": 6,
+    "novelty": 6
   },
   {
-    "id": "33410294f7fd",
-    "title": "From Parallels to Divergence: Language Models' Learning of Action Nominal Constructions",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22468",
-    "abstract": "arXiv:2610.22468v1 Announce Type: new  Abstract: Action nominal constructions (ANCs) express events in nominal form, with their argument marking following patterns found in clauses or ordinary noun phrases. In this paper, we investigate how different grammatical configurations affect language models' learning of ANCs and related constructions, and how these learning preferences compare with typological distributions in natural languages. We use a grammar-engineered method for synthetic corpus co",
-    "tags": [
-      "LLMs",
-      "Research"
+    "id": "bdd6d83290ee",
+    "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+    "authors": [
+      "Zhuofan Josh Ying",
+      "Guanglong Sun",
+      "Nolan Ho",
+      "Kieran Liu",
+      "Rui Yang",
+      "Andrew Chen",
+      "Nikolaus Kriegeskorte",
+      "Pony Ma",
+      "Hossein Adeli"
     ],
-    "importance": 5,
-    "novelty": 5
+    "date": "2026-10-18T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2610.26802",
+    "abstract": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very large pretrained backbones for brain encoding with a small number of trainable parameters. To make it c",
+    "tags": [
+      "AI Coding",
+      "Open Source"
+    ],
+    "importance": 6,
+    "novelty": 6
   },
   {
-    "id": "5d3e4bec08c5",
-    "title": "Testing the Planning Claims of LLM-Based Agents against Formal Semantics",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22469",
-    "abstract": "arXiv:2610.22469v1 Announce Type: new  Abstract: LLM-based agents are increasingly credited with the competences of practical reasoning: planning, monitoring, and correcting their own actions. Their success is attributed to the prompting strategies and agent architectures built around the model, such as chain-of-thought, search-based prompting, self-refinement, reflection, critics and tool-using loops. Yet these claims are usually supported by end-to-end success rates, which show only whether a ",
+    "id": "c5d1c09137cf",
+    "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
+    "authors": [
+      "Xinhao Ji",
+      "Hui En Pang",
+      "Hao Li",
+      "Kairui Hu",
+      "Jiner Wang",
+      "Mingze Sun",
+      "Ziang Cao",
+      "Yalun Dai",
+      "Thang Luu",
+      "Qin Ma",
+      "Hongyi Chen",
+      "Yukang Cao",
+      "Fangzhou Hong",
+      "Zhaoxi Chen",
+      "Ziwei Liu"
+    ],
+    "date": "2026-10-18T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2610.26625",
+    "abstract": "Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either. We present EgoXperience, a full-stack paradigm that addresses these needs through data collection, automatic annotation, uni",
     "tags": [
-      "Agents",
+      "Computer Vision",
+      "Robotics",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "e90afd403055",
+    "title": "SpecMRL: Redesign Matryoshka Representation Learning within Parametric Spectrum",
+    "authors": [
+      "Zhongxin Chen",
+      "Songhao Wu",
+      "Heng Cui",
+      "Cong Li",
+      "Xiao Zhou",
+      "Rui Yan"
+    ],
+    "date": "2026-10-18T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2610.26824",
+    "abstract": "Matryoshka Representation Learning (MRL) is designed to support flexible representation sizes by jointly optimizing nested prefixes. While effective, this design lacks an explicit constraint to ensure that the leading portion provides a suitable compact encoding. To address this, we propose SpecMRL, which reorganizes the feature space to enable more effective prefix readout. Specifically, we extend MRL with a parameter-derived spectral basis organized with feature importance. SpecMRL otherwise f",
+    "tags": [
+      "AI Coding",
+      "RL",
+      "RAG"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "0f49fc50e0c0",
+    "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
+    "authors": [
+      "Hao Li",
+      "Xiyuan Zheng",
+      "Yuanyuan Gao",
+      "Yalun Dai",
+      "Xinhao Ji",
+      "Xuan-Li Chen",
+      "Jing Zhao",
+      "Fangzhou Hong",
+      "Zhaoxi Chen",
+      "Ziwei Liu"
+    ],
+    "date": "2026-10-18T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2610.26549",
+    "abstract": "Human egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interaction histories across viewpoints and time, while reducing dependence on costly manual annotation. We introduce HOLI-WORLD, an integrated ecosystem connecting experience capture, world representation, aut",
+    "tags": [
       "Reasoning",
-      "LLMs",
       "Open Source",
-      "Research",
-      "RL"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "1f07a280d6be",
-    "title": "Star Light, Star Bright: Can Multimodal Models Parse an Astronomy Visual Question Answering Dataset Right?",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22474",
-    "abstract": "arXiv:2610.22474v1 Announce Type: new  Abstract: Figures are essential for scientific communication, and the field of Visual Question Answering (VQA) aims to test the figure understanding capabilities of large multimodal models (LMMs). Here, we investigate the accuracy of several low-cost LMMs on domain-specific VQA tasks for astronomical images of the sky. As instrument for this task we build a domain-specific VQA dataset comprising 2001 partially-synthetic figures divided evenly between contou",
-    "tags": [
-      "Computer Vision",
-      "Research"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "0d5c4a20ad72",
-    "title": "Generative Value Classifier",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22497",
-    "abstract": "arXiv:2610.22497v1 Announce Type: new  Abstract: Q-learning is premised on learning a function to predict the value of a state-action pair, with the goal of using such a function to guide policy improvement. Most approaches learn this function from scratch using scalar or distributional return targets. This discriminative approach leaves another source of supervision for learning representations unused: the actions themselves. Rather than directly predict the return of a state-action pair, we as",
-    "tags": [
-      "Computer Vision",
-      "Open Source",
-      "Research",
-      "RL"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "d5787a968aaa",
-    "title": "JAVIS: Joint Audio-Visual Interaction and Streaming for Real-Time Conversational Agents",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22499",
-    "abstract": "arXiv:2610.22499v1 Announce Type: new  Abstract: Human communication is inherently multimodal, conveying intent not only through linguistic and vocal cues but also through visual signals. However, existing conversational systems have mainly focused on text or speech, leaving out the visual feedback that is essential for natural interaction. In this paper, we propose JAVIS, an end-to-end streaming framework for real-time audio-visual conversational agents. Our key idea is to let the voice and the",
-    "tags": [
-      "Agents",
-      "LLMs",
-      "Computer Vision",
-      "Research"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "3f9346df4c3c",
-    "title": "KFS$^4$LAM: Adaptive KeyFrame Selection with Structure-Aware Mapping for Endoscopic Gaussian Splatting SLAM",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22505",
-    "abstract": "arXiv:2610.22505v1 Announce Type: new  Abstract: Gaussian-splatting Simultaneous Localization and Mapping (SLAM) augments conventional SLAM with a dense, renderable 3D scene representation, enabling high-quality reconstruction and novel-view synthesis. However, its localization, reconstruction, and rendering performance depends strongly on which observations are retained for mapping. Existing systems commonly rely on fixed temporal intervals or simple pose- and overlap-based criteria for keyfram",
-    "tags": [
-      "Computer Vision",
-      "Open Source",
-      "Research",
-      "RL"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "33592ea79de4",
-    "title": "RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22507",
-    "abstract": "arXiv:2610.22507v1 Announce Type: new  Abstract: Command-line interface (CLI) agents increasingly execute longer-horizon tasks, yet existing benchmarks either assume that user instructions remain fixed throughout execution or evaluate task outcomes without capturing runtime collaboration quality. In this paper, we present REALCLI, a paired benchmark that unifies the evaluation of task execution and human-agent collaboration quality on realistic CLI tasks. To comprehensively measure collaboration",
-    "tags": [
-      "Agents",
-      "Computer Vision",
       "Research",
       "Business",
+      "RL"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "d6e8c2c2905c",
+    "title": "AdaExploreBench: Benchmarking LLM Agents for Proactive Exploration and Test-time Adaptation in Evolving Environments",
+    "authors": [
+      "Rui Wang",
+      "Zishen Lai",
+      "Jiayu Liu",
+      "Cheng Qian",
+      "Jeonghwan Kim",
+      "Heng Wang",
+      "Xuejun Zhang",
+      "Jiateng Liu",
+      "Bingxuan Li",
+      "Shujin Wu",
+      "Qing Zong",
+      "Tianshi Zheng",
+      "Chunyang Li",
+      "Qihan Lin",
+      "Chen Li",
+      "Dadi Guo",
+      "Xiusi Chen",
+      "Yangqiu Song"
+    ],
+    "date": "2026-10-18T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2610.25950",
+    "abstract": "Large Language Model (LLM) agents are increasingly deployed in unfamiliar and evolving environments, requiring them to proactively explore, understand, and adapt to environmental dynamics. However, existing benchmarks rarely test whether agents can proactively discover how an environment works and adapt as it evolves. To address this gap, we introduce AdaExploreBench, a benchmark for proactive exploration and test-time adaptation in evolving environments. By instantiating environmental dynamics ",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Research",
       "Memory",
       "RAG"
     ],
-    "importance": 5,
-    "novelty": 5
+    "importance": 6,
+    "novelty": 6
   },
   {
-    "id": "a38216497936",
-    "title": "TriSAR-3D and PaintFusion: A Novel Trimodal LiDAR-RGB-Thermal Dataset and Method for 3D Person Detection in Search and Rescue",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22509",
-    "abstract": "arXiv:2610.22509v1 Announce Type: new  Abstract: Reliable 3D person detection is important for rescue robotics to give first responders situational awareness. Yet most multimodal 3D detection research targets automotive scenarios in which pedestrians mostly appear in a narrow range of upright, near-road poses. It is therefore unclear how much of the reported performance transfers to rescue settings, as a person may be lying, partially occluded, or in unstructured indoor and outdoor environments.",
+    "id": "07a1bc074d94",
+    "title": "Manga2Animate: An Agentic Framework for Faithful Manga Animation with Script and Storyboard Planning",
+    "authors": [
+      "Sheng-Wei Zhang",
+      "Hsi-An Chen",
+      "Yan-Ting Liou",
+      "Chih-Hsuan Chen",
+      "Shih-Chen Tseng",
+      "Yu-Lun Liu"
+    ],
+    "date": "2026-10-18T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2610.26851",
+    "abstract": "Adapting existing manga into coherent animation that stays faithful to the source is a valuable yet challenging task. Existing methods either access the manga mainly through text, losing its characters and art style, or feed manga pages directly into video generation models, which misinterpret the manga's structure and produce incorrect storylines. In this paper, we propose Manga2Animate, a multi-agent framework that grounds every stage of generation in the source manga. We decompose the task in",
+    "tags": [
+      "Agents",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Video Models"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "a87e2ae4955c",
+    "title": "HarnessPro: Recursive Harness Self-Improvement with Pareto Optimization for Performance-Cost Trade-offs",
+    "authors": [
+      "Zhuoshi Pan",
+      "ZhiYuan Feng",
+      "Yukuo Cen",
+      "Honglin Lin",
+      "Junru Lu",
+      "Zhongxia Chen",
+      "Shuo Yang",
+      "H. Vicky Zhao",
+      "Jie Tang"
+    ],
+    "date": "2026-10-18T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2610.26770",
+    "abstract": "Harness development plays a crucial role in building capable AI agents. Recent approaches improve harnesses through recursive self-improvement (RSI), but their performance gains often come with higher execution costs. We introduce HarnessPro, a label-free method for evolving harnesses to improve task performance while reducing execution cost. In this setting, candidate harnesses are evaluated using LLM-generated tests without access to ground-truth solutions or official tests. Specialized agents",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Open Source",
+      "Research",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "7f567643d8dc",
+    "title": "DeOverlay: A Benchmark and Source-Anchored Flow for Video Overlay Removal",
+    "authors": [
+      "Deshui Miao",
+      "Yuhang Ma",
+      "Shaoyong Jia",
+      "Wenzhao Gao",
+      "Yue Zhang",
+      "Shaohui Jiao",
+      "Xin Li"
+    ],
+    "date": "2026-10-18T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2610.26081",
+    "abstract": "Video overlay removal aims to recover scenes obscured by subtitles, titles, and logos while preserving surrounding content. Existing methods use temporal propagation or source-conditioned generation, but can leave residual overlays and distort scene structure when useful source information is obscured. We propose DeOverlay, a source-anchored flow model that reconstructs the clean video from the source latent with fixed source guidance. Specifically, we train a shared velocity network along paire",
+    "tags": [
+      "Open Source",
+      "Research",
+      "Business",
+      "RL",
+      "Inference",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "2cccb824c807",
+    "title": "Frechet Forcing: Training Long-Horizon Streaming World Models from Short Clips",
+    "authors": [
+      "Yian Zhao",
+      "Yu Yan",
+      "Hongcan Guo",
+      "Ruochong Zheng",
+      "Jian Zhang",
+      "Jie Chen"
+    ],
+    "date": "2026-10-18T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2610.25666",
+    "abstract": "Streaming video world models generate the future chunk by chunk, conditioned on their own past and a stream of actions. Trained on short clips, they drift once a rollout exceeds the training horizon, as prediction errors re-enter the context and compound. A common remedy is to train the model on its own rollouts via distribution matching distillation (DMD). For action-conditioned world models, the teacher becomes a bottleneck: an external video model is agnostic to the actions, whereas the model",
     "tags": [
       "Robotics",
       "Open Source",
-      "Research"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "025bf5462fdd",
-    "title": "AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22511",
-    "abstract": "arXiv:2610.22511v1 Announce Type: new  Abstract: Evaluating language models and agents requires combining benchmark accuracy, judge-based assessment, runtime performance, tool-use behavior, and retrieval quality. Differences in interfaces, metric semantics, and trace formats complicate these comparisons and can hide failures in agentic workflows. We present AuditKIT, a source-available evaluation library that records these measurements in one result representation, with direction-aware metric co",
-    "tags": [
-      "Agents",
-      "LLMs",
-      "Research",
-      "Business",
-      "Inference",
-      "RAG"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "25dc3a500063",
-    "title": "Predicting Privileged Information Effectiveness for On-Policy Self-Distillation",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22512",
-    "abstract": "arXiv:2610.22512v1 Announce Type: new  Abstract: On-policy self-distillation (OPSD) enables large language models (LLMs) to learn from privileged information (PI) without a separate teacher model. However, prior work largely treats PI as a fixed design choice, leaving the effects of its content and construction poorly understood. This challenge is particularly important in multi-turn agentic settings, where trajectories contain actions, observations, and reasoning that can be transformed into PI",
-    "tags": [
-      "Agents",
-      "Reasoning",
-      "LLMs",
-      "Open Source",
-      "Research",
       "RL",
+      "Video Models",
       "Synthetic Data"
     ],
-    "importance": 5,
-    "novelty": 5
+    "importance": 6,
+    "novelty": 6
   },
   {
-    "id": "c60fabf40248",
-    "title": "Towards Reconstructing Geographically Diverse Architecture with 3D Foundation Models",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22514",
-    "abstract": "arXiv:2610.22514v1 Announce Type: new  Abstract: Internet-scale photo collections of real-world landmarks have driven progress in 3D computer vision yet remain highly challenging for modern 3D foundation models (3DFMs) that estimate scene structure in a single feed-forward pass. In this work, we introduce ArchWorld, a benchmark of 3D architectural landmarks with high geographic coverage and rich metadata. We use this benchmark to conduct a thorough error analysis of current 3DFMs to understand w",
+    "id": "51d790baf919",
+    "title": "State World Models: Execute the Rules, Generate the Pixels",
+    "authors": [
+      "Chan Yan Ki",
+      "Yanran Zhang",
+      "Wenzhao Zheng",
+      "Xiaofeng Wang",
+      "Zheng Zhu",
+      "Lei Chen",
+      "Jie Zhou",
+      "Jiwen Lu"
+    ],
+    "date": "2026-10-18T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2610.26811",
+    "abstract": "Existing world models can generate action-conditioned video from a single image. Many focus on camera movement, allowing users to explore the generated scene. However, navigation alone does not ensure that an action follows persistent rules when its outcome depends on state that is invisible in the current frame. We present Stateful Harness, a framework that separates world evolution from video rendering to support stateful and rule-governed interaction. It maintains an evolving world state unde",
     "tags": [
       "Computer Vision",
       "Research",
       "RL",
-      "Memory",
-      "RAG"
+      "Video Models"
     ],
-    "importance": 5,
-    "novelty": 5
+    "importance": 6,
+    "novelty": 6
   },
   {
-    "id": "d4df55255a1b",
-    "title": "alkhder at ImageEval 2026 Shared Tasks: Constrained Selection and Rotation-Averaged Logit Scoring for Multimodal Hallucination Detection",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22515",
-    "abstract": "arXiv:2610.22515v1 Announce Type: new  Abstract: We describe our submission to Subtask~1b of ImageEval 2026. The task consists of selecting the single visually valid statement from three candidates paired with an image, and is in both English and Modern Standard Arabic (MSA). Our system uses a pre-trained 7B vision--language model in a zero-shot setting, without task-specific training or fine-tuning. We formulate the task as a constrained selection problem and choose the answer using next-token ",
-    "tags": [
-      "LLMs",
-      "Computer Vision",
-      "Research",
-      "Memory",
-      "RAG"
+    "id": "5ca8fc8e2ad7",
+    "title": "Kronecker Delta Rule for Long Context Linear Attention",
+    "authors": [
+      "Anamaria-Roberta Hartl",
+      "Levente Zólyomi",
+      "Michael List",
+      "Günter Klambauer",
+      "Sebastian Böck",
+      "Sepp Hochreiter"
     ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "5db4d5eb04fb",
-    "title": "Learning User Representations to Improve Simulation Fidelity",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22518",
-    "abstract": "arXiv:2610.22518v1 Announce Type: new  Abstract: User simulators enable interactive training and evaluation of AI assistants at scale. Yet current simulators struggle to reproduce the diverse behaviors of real users, leading to assistants that generalize poorly to underrepresented users. We identify user representations as an underexplored bottleneck in user simulation. User representations are natural-language descriptions that condition simulators to reproduce a particular user's behavior. A r",
-    "tags": [
-      "LLMs",
-      "Open Source",
-      "Research",
-      "Business",
-      "RL",
-      "Synthetic Data"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "a13453b09399",
-    "title": "Learning smooth dynamics via Kinematic Interpolants",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22519",
-    "abstract": "arXiv:2610.22519v1 Announce Type: new  Abstract: Inferring dynamics from real-world experimental data is inherently ambiguous, as many plausible dynamical systems can explain the same positional observations at measurement times. For higher fidelity modeling of applications ranging from single-cell RNA to vortex dynamics and even flocking of birds, scientific observables increasingly also include velocity estimates that serve to resolve this issue. However, incorporating this rich information in",
-    "tags": [
-      "Open Source",
-      "Research",
-      "RL"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "75eb4c25fd4a",
-    "title": "Learning the Shared Latent Structure of Cryo-EM Inverse Problems",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22523",
-    "abstract": "arXiv:2610.22523v1 Announce Type: new  Abstract: Understanding biomolecular function requires characterizing three-dimensional structure and conformational variability, for which cryogenic electron microscopy (cryo-EM) is a powerful tool. Cryo-EM produces noisy two-dimensional particle images in which molecular structure, particle pose, and imaging conditions are jointly encoded. Recovering biological information from these observations spans inverse problems including pose estimation, heterogen",
+    "date": "2026-10-18T20:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2610.26834",
+    "abstract": "We propose KronLSTM, a linear attention architecture based on the Kronecker Delta Rule, a novel update rule for associative matrix memories. KronLSTM extends the xLSTM family with a memory-revision mechanism that corrects targeted associations while modifying the memory only along a single direction in matrix space. This minimally invasive memory revision reduces interference with previously stored information compared with delta-rule updates, making it particularly well suited for long-context ",
     "tags": [
       "LLMs",
       "Computer Vision",
       "Open Source",
       "Research",
-      "Business",
-      "Synthetic Data"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "bf944f8608c3",
-    "title": "alkhder at AlexandriaX-2026: Context-Aware English-to-Dialectal Arabic Dialogue Translation with QLoRA-Fine-Tuned NileChat-3B",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22525",
-    "abstract": "arXiv:2610.22525v1 Announce Type: new  Abstract: This paper describes team Alkhder's submission to Subtask 1 of the AlexandriaX-2026 shared task, which asks systems to translate English dialogue turns into thirteen Arabic dialects. We fine-tune NileChat-3B-Base with QLoRA on the Alexandria parallel dialogue corpus, training one set of adapter weights for all dialects. Each turn is translated conditioned on the target country and dialect, the domain, the participant roles, the speaker-addressee g",
-    "tags": [
-      "Research",
-      "Inference",
-      "Memory",
-      "RAG"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "0dea5314871b",
-    "title": "Literal Lock-In: How Test Language Shifts Literal Attraction in Typed Decision Models on Bengali Idioms",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22526",
-    "abstract": "arXiv:2610.22526v1 Announce Type: new  Abstract: Decision models, non-generative scorers that report a probability over caller-supplied options and emit no text, are increasingly deployed as routers, classifiers and guardrails. Because they generate nothing, rationales and chain-of-thought do not apply. We audit three: an encoder scorer, a decoder scorer and a closed API, entirely through interventions on their input, using expert-annotated Bengali idioms carrying a gold figurative and a gold li",
-    "tags": [
-      "Open Source",
-      "Research"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "638de366d1f7",
-    "title": "Pearl-Chat: Engineering a native Luganda language model from first principles in JAX and Flax NNX",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22529",
-    "abstract": "arXiv:2610.22529v1 Announce Type: new  Abstract: Autoregressive foundation language models predominantly target high-resource Indo-European languages, imposing computational and morphological penalties on under-represented African languages. Generic multilingual tokenizers routinely exceed fertility rates of 3.2 tokens per word on agglutinative Bantu languages, degrading context efficiency and inflating latency. We present Pearl-Chat, an 8,473,122-parameter ($\\sim$8.5M) causal decoder-only trans",
-    "tags": [
-      "LLMs",
-      "AI Coding",
-      "Open Source",
-      "Research",
-      "RL"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "274185f18d02",
-    "title": "FlashControl: One-Step Controllable Generator via Distillation-Friendly Single-Stream Teachers",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22537",
-    "abstract": "arXiv:2610.22537v1 Announce Type: new  Abstract: Diffusion models have become a leading approach in visual generative modeling, particularly effective in text-to-image and controllable generation. Their main drawback is slow inference as it requires many sampling steps. While recent distillation methods enable one-step text-to-image generation, extending these techniques to controllable generation is still challenging. Existing controllable models, such as ControlNet, rely on dual-branch design ",
-    "tags": [
-      "Computer Vision",
-      "Research",
       "RL",
-      "Inference",
-      "Synthetic Data"
+      "Memory"
     ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "5a3f490808c5",
-    "title": "Are Large Reasoning Models Good Everyday Reasoners? A Comparison with Non-Reasoning Models on Logical Reasoning Tasks",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22538",
-    "abstract": "arXiv:2610.22538v1 Announce Type: new  Abstract: Large reasoning models (LRMs) that leverage test-time computation achieve strong performance on mathematical and scientific benchmarks and are increasingly deployed in real-world applications. However, their ability to perform \\textit{everyday logical reasoning}, which often departs from textbook formal logic, remains underexplored. In this work, we systematically evaluate how well reasoning models align with everyday reasoning patterns by introdu",
-    "tags": [
-      "Reasoning",
-      "Open Source",
-      "Research",
-      "Business",
-      "RL",
-      "Memory",
-      "RAG"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "eabbae6449b8",
-    "title": "Don't Retrain, Remix: Adaptation of Web Agents using Mixture Hypernetworks",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22539",
-    "abstract": "arXiv:2610.22539v1 Announce Type: new  Abstract: The web is not static or uniform. Websites that serve the same purpose can look and navigate very differently. Even within a single site, successive redesigns can change how familiar features are presented and accessed. Humans adapt to this by recognizing familiar interaction patterns and reusing what they already know. We give web agents a similar ability with WebMix, a mixture hypernetwork that adapts them to unseen interfaces by composing previ",
-    "tags": [
-      "Agents",
-      "LLMs",
-      "Research",
-      "Inference",
-      "Memory",
-      "RAG"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "45516630393e",
-    "title": "HeRE: A Novel Benchmark for Hebrew Relation Extraction via LLM-Guided Denoising of Knowledge Graph Alignments",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22542",
-    "abstract": "arXiv:2610.22542v1 Announce Type: new  Abstract: While LLMs demonstrate strong capabilities in English Relation Extraction (RE) tasks, a significant gap remains in assessing their RE performance in low-resource languages, due to a lack of standardized benchmarks. Creating native, language-specific annotated RE benchmarks is expensive and requires human expertise, while relying on translation yields suboptimal, inaccurate datasets that introduce English-centric biases. To tackle this, we propose ",
-    "tags": [
-      "LLMs",
-      "Open Source",
-      "Research",
-      "Business",
-      "RL",
-      "Inference"
-    ],
-    "importance": 5,
-    "novelty": 5
-  },
-  {
-    "id": "2e687b1bbe3e",
-    "title": "On the SPOT: Enhancing Speculative Decoding for Diffusion Language Models via Commit-Order Prediction",
-    "authors": [],
-    "date": "2026-10-19T00:00:00-04:00",
-    "source": "arxiv",
-    "url": "https://arxiv.org/abs/2610.22543",
-    "abstract": "arXiv:2610.22543v1 Announce Type: new  Abstract: Diffusion language models (DLMs) promise parallel text generation, but in practice face an unresolved speed-quality trade-off. Exact decoding fills in only one masked position per model pass, while faster multi-token decoding schemes are lossy. Speculative decoding is the standard lossless acceleration for autoregressive models. However, it does not transfer directly to DLMs, which must choose both what to generate and where. We show that this ord",
-    "tags": [
-      "LLMs",
-      "Computer Vision",
-      "AI Coding",
-      "Open Source",
-      "Research",
-      "RL",
-      "Inference"
-    ],
-    "importance": 5,
-    "novelty": 5
+    "importance": 6,
+    "novelty": 6
   }
 ]

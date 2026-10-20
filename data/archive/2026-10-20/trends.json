@@ -1,0 +1,256 @@
+{
+  "date": "2026-10-20",
+  "topics": [
+    {
+      "topic": "Inference",
+      "frequency": 27,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "96f4dd3fa27e",
+        "a9bde96817c1",
+        "7f567643d8dc",
+        "5b56a2fc92e2",
+        "275a6b5e5bd0",
+        "fb9f0d964b5f",
+        "beb2046c5fb0",
+        "63df3f3e8331",
+        "c405381c000f",
+        "af194cebbb28",
+        "ed4050223915",
+        "c3667ab8530c",
+        "f63ff9d05073",
+        "078e1f4623e8",
+        "68b14643abe2",
+        "78dbf33b4595",
+        "0624f394deab",
+        "fb52747462d2",
+        "b155d5cc0564",
+        "fae7e39b3071"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "b6a0b13bc12c",
+        "7166ecafb485",
+        "5b1fd1fd8a2b",
+        "14df74d3bb6b",
+        "deae4303c432",
+        "68b1fb9303ec"
+      ],
+      "relatedNewsletterIds": [
+        "0c701c8a5675"
+      ]
+    },
+    {
+      "topic": "Agents",
+      "frequency": 19,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "96f4dd3fa27e",
+        "33775b933b38",
+        "d6e8c2c2905c",
+        "07a1bc074d94",
+        "a87e2ae4955c",
+        "24e3aed5907f",
+        "04298a1c68f8",
+        "bf76190e5747",
+        "23938c585e67",
+        "164142e306db",
+        "1366b49579d3",
+        "4efc8d1c8bb0",
+        "6660e3d44336",
+        "a67a99cf7e39"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [
+        "9f421096a624"
+      ],
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "0c701c8a5675"
+      ]
+    },
+    {
+      "topic": "llama",
+      "frequency": 2,
+      "growth": "declining",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "14df74d3bb6b",
+        "052e3a92e72b"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "learning",
+      "frequency": 20,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "b26817616c51",
+        "c5d1c09137cf",
+        "e90afd403055",
+        "0f49fc50e0c0",
+        "24e3aed5907f",
+        "c405381c000f",
+        "af194cebbb28",
+        "a9db1de421a6",
+        "d0b139b127a5",
+        "68b14643abe2",
+        "70cc622ac78f",
+        "38b98e3e63e2",
+        "b155d5cc0564",
+        "19c5792d712f",
+        "24c4195f7f97",
+        "a67a99cf7e39"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "7166ecafb485"
+      ],
+      "relatedNewsletterIds": [
+        "9a033797a8f8",
+        "edfefe604600",
+        "2fdf23086d32"
+      ]
+    },
+    {
+      "topic": "Vision",
+      "frequency": 36,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "b26817616c51",
+        "96f4dd3fa27e",
+        "f25b1d4c1811",
+        "05eea06b19b8",
+        "c5d1c09137cf",
+        "07a1bc074d94",
+        "51d790baf919",
+        "5ca8fc8e2ad7",
+        "5b56a2fc92e2",
+        "fb9f0d964b5f",
+        "bf76190e5747",
+        "23938c585e67",
+        "971e5678476e",
+        "63df3f3e8331",
+        "af194cebbb28",
+        "0418eca5ce60",
+        "164142e306db",
+        "ed4050223915",
+        "f63ff9d05073",
+        "28fb8ef1e02d",
+        "a9db1de421a6",
+        "b4290f3c2520",
+        "d0b139b127a5",
+        "0ddcdb48f628",
+        "b345a7645e9a",
+        "570fdd20da15",
+        "70cc622ac78f",
+        "245806f17d4f",
+        "2d562d79a4bc",
+        "8dc28c69f41b",
+        "d91b8679ebde",
+        "fb52747462d2",
+        "b155d5cc0564"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "7166ecafb485",
+        "5b1fd1fd8a2b"
+      ],
+      "relatedNewsletterIds": [
+        "0c701c8a5675"
+      ]
+    },
+    {
+      "topic": "continue open-source",
+      "frequency": 1,
+      "growth": "declining",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "continue",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "70cc622ac78f"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Argon Really",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "7d031e77a53c"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Really Surprised",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "7d031e77a53c"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Business",
+      "frequency": 20,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "33775b933b38",
+        "a9bde96817c1",
+        "0f49fc50e0c0",
+        "7f567643d8dc",
+        "5b56a2fc92e2",
+        "706abe88fbf0",
+        "164142e306db",
+        "2550c45a24f4",
+        "6660e3d44336",
+        "570fdd20da15",
+        "38b98e3e63e2",
+        "b155d5cc0564",
+        "e30f3ffdeb43",
+        "24c4195f7f97"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [
+        "f22cc2fbbba1"
+      ],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "9a033797a8f8",
+        "edfefe604600",
+        "0c701c8a5675",
+        "048b1b572f9c",
+        "6145bf9087f7"
+      ]
+    }
+  ]
+}
