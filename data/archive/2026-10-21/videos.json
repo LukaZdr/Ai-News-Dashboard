@@ -1,0 +1,50 @@
+[
+  {
+    "id": "83ed89d6ae67",
+    "title": "Did Google just dethrone OpenAI and Anthropic?",
+    "channel": "Fireship",
+    "channelId": "UCsBjURrPoezykLs9EqgamOA",
+    "date": "2026-10-20T16:21:03Z",
+    "duration": "6:33",
+    "thumbnail": "https://i.ytimg.com/vi/b2tjnxX8IHU/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
+    "description": "Macroscope can auto-approve your team's PRs safely. Try it here: https://macroscope.com/?utm_source=fireship Google's new ...",
+    "viewCount": 1063877,
+    "tags": [],
+    "relevanceScore": 8.1
+  },
+  {
+    "id": "7d031e77a53c",
+    "title": "Gemini 4 Argon Is Not What I Expected",
+    "channel": "Two Minute Papers",
+    "channelId": "UCbfYPyITQ-7l4upoX8nvctg",
+    "date": "2026-10-19T08:49:21Z",
+    "duration": "6:49",
+    "thumbnail": "https://i.ytimg.com/vi/LWxX6vvHfrc/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
+    "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Gemini 4 Argon + report are available here: ...",
+    "viewCount": 193932,
+    "tags": [
+      "LLMs",
+      "Research"
+    ],
+    "relevanceScore": 6.6
+  },
+  {
+    "id": "05107fa16ed7",
+    "title": "DeepSeek Just Made Reasoning WAY More Efficient!",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-19T13:00:38Z",
+    "duration": "13:56",
+    "thumbnail": "https://i.ytimg.com/vi/YGEz40RSpTE/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=YGEz40RSpTE",
+    "description": "DeepSeek calls V4.1 Flash 1017 a “minor update”, but it went up on every benchmark in their table, and it's now the #1 open ...",
+    "viewCount": 34751,
+    "tags": [
+      "Reasoning",
+      "Research"
+    ],
+    "relevanceScore": 5.1
+  }
+]

@@ -1,0 +1,233 @@
+{
+  "date": "2026-10-21",
+  "topics": [
+    {
+      "topic": "Agents",
+      "frequency": 26,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "03d6111eb23c",
+        "7aca0c9b14c8",
+        "4bf6ae8b9992",
+        "c9382c944c66",
+        "b2d21322f00c",
+        "4dcf6ff0370c",
+        "c3ca2c668496",
+        "0f8ea62bffff",
+        "a278043cdb2a",
+        "6a7e9712e1cb",
+        "65963ec6ea6d",
+        "d3b5ea7a1275",
+        "586f7d491587",
+        "b6239e7631f0",
+        "3b0a490fee86",
+        "e2457a5296c2",
+        "73af3119f48c"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [
+        "4edbdb0b0a37",
+        "9f421096a624"
+      ],
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "1f47f1f572b1",
+        "4d6f3f71e5f1",
+        "f58ca12603b0",
+        "0c701c8a5675"
+      ]
+    },
+    {
+      "topic": "Inference",
+      "frequency": 23,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "7aca0c9b14c8",
+        "7ebc822af30f",
+        "bbf0dd3491dd",
+        "4dcf6ff0370c",
+        "12ca8de89547",
+        "9d54eb9483e6",
+        "95ebc22dcad2",
+        "9393952137fc",
+        "71fe0dc19584",
+        "4298a1403b4f",
+        "3b0a490fee86",
+        "f6069c2968b0",
+        "0e0a5c359098",
+        "e0e264033574"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "b6a0b13bc12c",
+        "7166ecafb485",
+        "5b1fd1fd8a2b",
+        "14df74d3bb6b",
+        "deae4303c432",
+        "68b1fb9303ec"
+      ],
+      "relatedNewsletterIds": [
+        "4d6f3f71e5f1",
+        "f58ca12603b0",
+        "0c701c8a5675"
+      ]
+    },
+    {
+      "topic": "open-source",
+      "frequency": 8,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "c3ca2c668496"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": [
+        "ac814b01d852",
+        "b644c111ff8c",
+        "8b3f2d254f80",
+        "e6d90c12df4c",
+        "4b8f492b82e5",
+        "7dfebe378039"
+      ]
+    },
+    {
+      "topic": "Argon",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "7d031e77a53c"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Gemini Argon",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "7d031e77a53c"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Llama",
+      "frequency": 3,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "95ebc22dcad2"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "14df74d3bb6b",
+        "052e3a92e72b"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "expected",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "6a7e9712e1cb"
+      ],
+      "relatedVideoIds": [
+        "7d031e77a53c"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Reasoning",
+      "frequency": 16,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "e3e3ad2ea7fd",
+        "4bf6ae8b9992",
+        "c9382c944c66",
+        "bbf0dd3491dd",
+        "3103c37b0a82",
+        "12ca8de89547",
+        "0f8ea62bffff",
+        "6a7e9712e1cb",
+        "65963ec6ea6d",
+        "4298a1403b4f",
+        "b6239e7631f0",
+        "e81d214fb7a0"
+      ],
+      "relatedVideoIds": [
+        "05107fa16ed7"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "1f47f1f572b1",
+        "4d6f3f71e5f1",
+        "0c701c8a5675"
+      ]
+    },
+    {
+      "topic": "Gemini",
+      "frequency": 1,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "7d031e77a53c"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Business",
+      "frequency": 24,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "66f8eaa1f275",
+        "bbf0dd3491dd",
+        "b2d21322f00c",
+        "3103c37b0a82",
+        "c3ca2c668496",
+        "e6e10f4f5b17",
+        "9393952137fc",
+        "f7c7b1da5473",
+        "b6239e7631f0",
+        "e8bc6dc304e8",
+        "379fb5c1762a",
+        "71ce50abbe2d",
+        "dd55ca78baa2",
+        "0e0a5c359098",
+        "82d3130d1d59"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [
+        "f22cc2fbbba1"
+      ],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "edfefe604600",
+        "9a033797a8f8",
+        "1f47f1f572b1",
+        "4d6f3f71e5f1",
+        "b644c111ff8c",
+        "0c701c8a5675",
+        "048b1b572f9c",
+        "6145bf9087f7"
+      ]
+    }
+  ]
+}

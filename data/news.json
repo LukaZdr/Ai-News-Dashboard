@@ -1,5 +1,48 @@
 [
   {
+    "id": "300e95349f7f",
+    "title": "Called to serve: Tech, research, and positive impact",
+    "date": "Tue, 20 Oct 2026 16:00:00 +0000",
+    "source": "Microsoft Research",
+    "company": "microsoft",
+    "url": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/",
+    "summary": "Lab Director Chris White has worked on research challenges with real-world implications—from new approaches to wartime data analysis to tools for combating human trafficking. He talks to program manager Weishung Liu about the influences that led to the work and more.\nThe post Called to serve: Tech, ",
+    "type": "blog",
+    "tags": [
+      "RL"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "cf5cb777d1af",
+    "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+    "date": "Tue, 20 Oct 2026 10:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/ted-taylor-restaurant",
+    "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+    "type": "pricing",
+    "tags": [
+      "LLMs"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "4edbdb0b0a37",
+    "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+    "date": "Tue, 20 Oct 2026 07:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/terminal-x",
+    "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+    "type": "blog",
+    "tags": [
+      "Agents",
+      "LLMs"
+    ],
+    "importance": 5
+  },
+  {
     "id": "ec50558f65d3",
     "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
     "date": "Tue, 20 Oct 2026 05:00:00 +0000",
@@ -12,6 +55,18 @@
       "Open Source",
       "RL"
     ],
+    "importance": 5
+  },
+  {
+    "id": "afaef9502cb7",
+    "title": "OpenAI acquires Orchestra Bio",
+    "date": "Tue, 20 Oct 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+    "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+    "type": "blog",
+    "tags": [],
     "importance": 5
   },
   {
