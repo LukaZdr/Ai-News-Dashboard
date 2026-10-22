@@ -1,33 +1,39 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "topics": [
     {
       "topic": "Agents",
-      "frequency": 26,
+      "frequency": 32,
       "growth": "stable",
       "relatedPaperIds": [
-        "03d6111eb23c",
-        "7aca0c9b14c8",
-        "4bf6ae8b9992",
-        "c9382c944c66",
-        "b2d21322f00c",
-        "4dcf6ff0370c",
-        "c3ca2c668496",
-        "0f8ea62bffff",
-        "a278043cdb2a",
-        "6a7e9712e1cb",
-        "65963ec6ea6d",
-        "d3b5ea7a1275",
-        "586f7d491587",
-        "b6239e7631f0",
-        "3b0a490fee86",
-        "e2457a5296c2",
-        "73af3119f48c"
+        "df5849462db4",
+        "1fa987134a0a",
+        "68f563b1c7c4",
+        "5ebc9acea3d3",
+        "5921ea3f027b",
+        "7393058ef483",
+        "74ac31a5caa5",
+        "d9adc8db4fae",
+        "5a19c776f286",
+        "492f0aac938a",
+        "afe4ac618fa3",
+        "23560017acab",
+        "3650ff2b1f67",
+        "4a0bfa29ed74"
       ],
-      "relatedVideoIds": [],
+      "relatedVideoIds": [
+        "0b387dbbcc9a"
+      ],
       "relatedNewsIds": [
-        "4edbdb0b0a37",
-        "9f421096a624"
+        "35a52a5f6f5c",
+        "99fd16c89be7",
+        "42bdb14fcf56",
+        "d69a6f6a56e3",
+        "c2813bec9792",
+        "8377fedad66a",
+        "aac565577eaa",
+        "9192ce554590",
+        "4edbdb0b0a37"
       ],
       "relatedRepoIds": [
         "83b96e936faf",
@@ -35,34 +41,40 @@
         "1941bc8214c6"
       ],
       "relatedNewsletterIds": [
+        "cd603c5afd33",
+        "6c18940399d8",
         "1f47f1f572b1",
         "4d6f3f71e5f1",
-        "f58ca12603b0",
-        "0c701c8a5675"
+        "f58ca12603b0"
       ]
     },
     {
       "topic": "Inference",
-      "frequency": 23,
+      "frequency": 27,
       "growth": "stable",
       "relatedPaperIds": [
-        "7aca0c9b14c8",
-        "7ebc822af30f",
-        "bbf0dd3491dd",
-        "4dcf6ff0370c",
-        "12ca8de89547",
-        "9d54eb9483e6",
-        "95ebc22dcad2",
-        "9393952137fc",
-        "71fe0dc19584",
-        "4298a1403b4f",
-        "3b0a490fee86",
-        "f6069c2968b0",
-        "0e0a5c359098",
-        "e0e264033574"
+        "f2419c34a70f",
+        "bd8ea5573ff5",
+        "c1cb8e4af7c5",
+        "0575de21f482",
+        "c862dda1edb8",
+        "844149443fae",
+        "3240ab7d1372",
+        "9da2b173c3b2",
+        "492f0aac938a",
+        "34dafcfc5f41",
+        "3650ff2b1f67",
+        "dab5a6d4b2ba",
+        "6216b3efd37d",
+        "2e9c78079933"
       ],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
+      "relatedVideoIds": [
+        "a855211dfa4a"
+      ],
+      "relatedNewsIds": [
+        "933f6758dc14",
+        "a5a1cb4f9600"
+      ],
       "relatedRepoIds": [
         "b6a0b13bc12c",
         "7166ecafb485",
@@ -72,17 +84,72 @@
         "68b1fb9303ec"
       ],
       "relatedNewsletterIds": [
+        "c048f3587629",
+        "6c18940399d8",
         "4d6f3f71e5f1",
-        "f58ca12603b0",
-        "0c701c8a5675"
+        "f58ca12603b0"
       ]
+    },
+    {
+      "topic": "NVIDIA",
+      "frequency": 18,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [
+        "8e1f75861b87",
+        "6f4fe9f06919",
+        "a6751716a279",
+        "933f6758dc14",
+        "6c9d55b90378",
+        "47e2845501ee",
+        "35a52a5f6f5c",
+        "a5a1cb4f9600",
+        "99fd16c89be7",
+        "479a52c1f18d",
+        "caea1985f73a",
+        "42bdb14fcf56",
+        "d69a6f6a56e3",
+        "2e24bffa0fc0",
+        "c2813bec9792",
+        "9192ce554590"
+      ],
+      "relatedRepoIds": [
+        "68b1fb9303ec"
+      ],
+      "relatedNewsletterIds": [
+        "a24b0b54f2b0"
+      ]
+    },
+    {
+      "topic": "OpenAI",
+      "frequency": 10,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "83ed89d6ae67"
+      ],
+      "relatedNewsIds": [
+        "5d5471c73294",
+        "470884ccf8f0",
+        "9bbbb2ff7034",
+        "5fc7b127fd7c",
+        "aac565577eaa",
+        "b5cf2fdb19d4",
+        "2fb7b3a72095"
+      ],
+      "relatedRepoIds": [
+        "5df14a56333c",
+        "68b1fb9303ec"
+      ],
+      "relatedNewsletterIds": []
     },
     {
       "topic": "open-source",
       "frequency": 8,
       "growth": "rising",
       "relatedPaperIds": [
-        "c3ca2c668496"
+        "6e05dee545d9"
       ],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
@@ -90,45 +157,44 @@
         "233a4f836599"
       ],
       "relatedNewsletterIds": [
-        "ac814b01d852",
+        "a24b0b54f2b0",
+        "c048f3587629",
+        "f61c9cfa6c4f",
+        "2f385df67b25",
         "b644c111ff8c",
-        "8b3f2d254f80",
-        "e6d90c12df4c",
-        "4b8f492b82e5",
-        "7dfebe378039"
+        "8b3f2d254f80"
       ]
     },
     {
-      "topic": "Argon",
-      "frequency": 1,
+      "topic": "agent",
+      "frequency": 11,
       "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "7d031e77a53c"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Gemini Argon",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "7d031e77a53c"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Llama",
-      "frequency": 3,
-      "growth": "stable",
       "relatedPaperIds": [
-        "95ebc22dcad2"
+        "1fa987134a0a",
+        "68f563b1c7c4",
+        "5ebc9acea3d3",
+        "5a19c776f286",
+        "23560017acab",
+        "3650ff2b1f67",
+        "4a0bfa29ed74"
       ],
+      "relatedVideoIds": [
+        "0b387dbbcc9a"
+      ],
+      "relatedNewsIds": [
+        "d69a6f6a56e3",
+        "4edbdb0b0a37"
+      ],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "llama",
+      "frequency": 2,
+      "growth": "declining",
+      "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
       "relatedRepoIds": [
@@ -138,95 +204,116 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "expected",
-      "frequency": 2,
+      "topic": "Google",
+      "frequency": 3,
       "growth": "rising",
-      "relatedPaperIds": [
-        "6a7e9712e1cb"
-      ],
-      "relatedVideoIds": [
-        "7d031e77a53c"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Reasoning",
-      "frequency": 16,
-      "growth": "stable",
-      "relatedPaperIds": [
-        "e3e3ad2ea7fd",
-        "4bf6ae8b9992",
-        "c9382c944c66",
-        "bbf0dd3491dd",
-        "3103c37b0a82",
-        "12ca8de89547",
-        "0f8ea62bffff",
-        "6a7e9712e1cb",
-        "65963ec6ea6d",
-        "4298a1403b4f",
-        "b6239e7631f0",
-        "e81d214fb7a0"
-      ],
-      "relatedVideoIds": [
-        "05107fa16ed7"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": [
-        "1f47f1f572b1",
-        "4d6f3f71e5f1",
-        "0c701c8a5675"
-      ]
-    },
-    {
-      "topic": "Gemini",
-      "frequency": 1,
-      "growth": "stable",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "7d031e77a53c"
+        "83ed89d6ae67"
       ],
-      "relatedNewsIds": [],
+      "relatedNewsIds": [
+        "9bbbb2ff7034",
+        "a5a1cb4f9600"
+      ],
       "relatedRepoIds": [],
       "relatedNewsletterIds": []
     },
     {
-      "topic": "Business",
-      "frequency": 24,
+      "topic": "RL",
+      "frequency": 54,
       "growth": "stable",
       "relatedPaperIds": [
-        "66f8eaa1f275",
-        "bbf0dd3491dd",
-        "b2d21322f00c",
-        "3103c37b0a82",
-        "c3ca2c668496",
-        "e6e10f4f5b17",
-        "9393952137fc",
-        "f7c7b1da5473",
-        "b6239e7631f0",
-        "e8bc6dc304e8",
-        "379fb5c1762a",
-        "71ce50abbe2d",
-        "dd55ca78baa2",
-        "0e0a5c359098",
-        "82d3130d1d59"
+        "f2419c34a70f",
+        "bd8ea5573ff5",
+        "64cd42cc3fe9",
+        "37665c037c58",
+        "f771e40b9072",
+        "68f563b1c7c4",
+        "75bc491d1952",
+        "cddb2a0bd369",
+        "5ebc9acea3d3",
+        "5921ea3f027b",
+        "7393058ef483",
+        "74ac31a5caa5",
+        "c862dda1edb8",
+        "0a393cd8a6d4",
+        "844149443fae",
+        "6ab2eba17222",
+        "d9adc8db4fae",
+        "5630815d6ab5",
+        "3240ab7d1372",
+        "a0d731efc9dc",
+        "84f3f9058c29",
+        "57be6c5ba417",
+        "5a19c776f286",
+        "9da2b173c3b2",
+        "492f0aac938a",
+        "afe4ac618fa3",
+        "34dafcfc5f41",
+        "94f85c2bcbe8",
+        "ce3030506f31",
+        "64c28a97561e",
+        "3650ff2b1f67",
+        "0633d054a3c4",
+        "caf30df6f977",
+        "39c893e35b64",
+        "f600898fc265",
+        "012b32c5d769",
+        "f25c403ce219",
+        "61c8fe2a9d75",
+        "2e9c78079933"
       ],
       "relatedVideoIds": [],
       "relatedNewsIds": [
-        "f22cc2fbbba1"
+        "8e1f75861b87",
+        "6f4fe9f06919",
+        "a6751716a279",
+        "6c9d55b90378",
+        "5d5471c73294",
+        "35a52a5f6f5c",
+        "a5a1cb4f9600",
+        "479a52c1f18d",
+        "c2813bec9792",
+        "300e95349f7f"
       ],
       "relatedRepoIds": [],
       "relatedNewsletterIds": [
-        "edfefe604600",
-        "9a033797a8f8",
+        "cd603c5afd33",
+        "6c18940399d8",
         "1f47f1f572b1",
         "4d6f3f71e5f1",
+        "f58ca12603b0"
+      ]
+    },
+    {
+      "topic": "training",
+      "frequency": 17,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "6e05dee545d9",
+        "0a393cd8a6d4",
+        "5630815d6ab5",
+        "492f0aac938a",
+        "34dafcfc5f41",
+        "0633d054a3c4",
+        "9b418bd2a55f",
+        "95f20bb250f1"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [
+        "6f4fe9f06919",
+        "a5a1cb4f9600"
+      ],
+      "relatedRepoIds": [
+        "7166ecafb485"
+      ],
+      "relatedNewsletterIds": [
+        "a24b0b54f2b0",
+        "c048f3587629",
+        "f61c9cfa6c4f",
+        "2f385df67b25",
         "b644c111ff8c",
-        "0c701c8a5675",
-        "048b1b572f9c",
-        "6145bf9087f7"
+        "8b3f2d254f80"
       ]
     }
   ]

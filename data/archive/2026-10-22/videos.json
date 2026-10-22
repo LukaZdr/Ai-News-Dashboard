@@ -1,0 +1,50 @@
+[
+  {
+    "id": "0b387dbbcc9a",
+    "title": "Claude Duet: Anthropic&#39;s Proactive Agent",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-21T21:49:31Z",
+    "duration": "0:59",
+    "thumbnail": "https://i.ytimg.com/vi/0sI-GTYetD8/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=0sI-GTYetD8",
+    "description": "Anthropic just announced Claude Duet, a new app where Claude works as a proactive agent. It comes to you first instead of ...",
+    "viewCount": 8008,
+    "tags": [
+      "Agents",
+      "LLMs"
+    ],
+    "relevanceScore": 7.1
+  },
+  {
+    "id": "a855211dfa4a",
+    "title": "DeepSeek Just Open-Sourced How It Serves 155T Tokens a Day",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-21T13:00:37Z",
+    "duration": "16:17",
+    "thumbnail": "https://i.ytimg.com/vi/esdRFXgXaaQ/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=esdRFXgXaaQ",
+    "description": "DeepSeek just open-sourced DeepInfer, the inference engine behind its own API, along with a detailed write-up of how it serves ...",
+    "viewCount": 21806,
+    "tags": [
+      "Open Source",
+      "Inference"
+    ],
+    "relevanceScore": 6.7
+  },
+  {
+    "id": "83ed89d6ae67",
+    "title": "Did Google just dethrone OpenAI and Anthropic?",
+    "channel": "Fireship",
+    "channelId": "UCsBjURrPoezykLs9EqgamOA",
+    "date": "2026-10-20T16:21:03Z",
+    "duration": "6:33",
+    "thumbnail": "https://i.ytimg.com/vi/b2tjnxX8IHU/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
+    "description": "Macroscope can auto-approve your team's PRs safely. Try it here: https://macroscope.com/?utm_source=fireship Google's new ...",
+    "viewCount": 1596657,
+    "tags": [],
+    "relevanceScore": 6.3
+  }
+]
