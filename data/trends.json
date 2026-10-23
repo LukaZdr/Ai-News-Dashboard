@@ -1,39 +1,41 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "topics": [
     {
       "topic": "Agents",
-      "frequency": 32,
+      "frequency": 35,
       "growth": "stable",
       "relatedPaperIds": [
-        "df5849462db4",
-        "1fa987134a0a",
-        "68f563b1c7c4",
-        "5ebc9acea3d3",
-        "5921ea3f027b",
-        "7393058ef483",
-        "74ac31a5caa5",
-        "d9adc8db4fae",
-        "5a19c776f286",
-        "492f0aac938a",
-        "afe4ac618fa3",
-        "23560017acab",
-        "3650ff2b1f67",
-        "4a0bfa29ed74"
+        "2a87ad8247e2",
+        "9d75c95e95c7",
+        "9bef9210a9dd",
+        "a1c842bb26b1",
+        "1ae2f3c3d07d",
+        "51a83b6a5457",
+        "46bea01e4fcb",
+        "39a1782fc494",
+        "4a612bbcf853",
+        "c04b699bce75",
+        "ff67a6ca99f4",
+        "b6aecc38ba70",
+        "d0e58d7550fe",
+        "420ffae6afb8",
+        "614e4a04c30b",
+        "43ac15546ef7",
+        "0cec566a8384",
+        "683526a8c6a7"
       ],
       "relatedVideoIds": [
         "0b387dbbcc9a"
       ],
       "relatedNewsIds": [
+        "730b1bc8ef00",
         "35a52a5f6f5c",
         "99fd16c89be7",
         "42bdb14fcf56",
         "d69a6f6a56e3",
         "c2813bec9792",
-        "8377fedad66a",
-        "aac565577eaa",
-        "9192ce554590",
-        "4edbdb0b0a37"
+        "8377fedad66a"
       ],
       "relatedRepoIds": [
         "83b96e936faf",
@@ -41,32 +43,41 @@
         "1941bc8214c6"
       ],
       "relatedNewsletterIds": [
+        "e1eacd600ace",
+        "a35e68d6279b",
+        "85704df45790",
+        "458365140080",
         "cd603c5afd33",
-        "6c18940399d8",
-        "1f47f1f572b1",
-        "4d6f3f71e5f1",
-        "f58ca12603b0"
+        "6c18940399d8"
       ]
     },
     {
       "topic": "Inference",
-      "frequency": 27,
+      "frequency": 35,
       "growth": "stable",
       "relatedPaperIds": [
-        "f2419c34a70f",
-        "bd8ea5573ff5",
-        "c1cb8e4af7c5",
-        "0575de21f482",
-        "c862dda1edb8",
-        "844149443fae",
-        "3240ab7d1372",
-        "9da2b173c3b2",
-        "492f0aac938a",
-        "34dafcfc5f41",
-        "3650ff2b1f67",
-        "dab5a6d4b2ba",
-        "6216b3efd37d",
-        "2e9c78079933"
+        "65e1c969bb19",
+        "9d75c95e95c7",
+        "bf9bd7bbec6f",
+        "1ae2f3c3d07d",
+        "6a7b755ed89c",
+        "cb1c7f536722",
+        "46bea01e4fcb",
+        "4a612bbcf853",
+        "174725f8477d",
+        "ff67a6ca99f4",
+        "baf9bfe433bd",
+        "9bd6ff31a545",
+        "c5d415d6027a",
+        "d0e58d7550fe",
+        "23b46a34a7ea",
+        "2329b95e263b",
+        "2c4683ac1c45",
+        "a47a3b04229e",
+        "4dc32cdd5544",
+        "39ddb7442186",
+        "9af9d478cb68",
+        "731dc044d549"
       ],
       "relatedVideoIds": [
         "a855211dfa4a"
@@ -84,10 +95,10 @@
         "68b1fb9303ec"
       ],
       "relatedNewsletterIds": [
+        "a35e68d6279b",
+        "458365140080",
         "c048f3587629",
-        "6c18940399d8",
-        "4d6f3f71e5f1",
-        "f58ca12603b0"
+        "6c18940399d8"
       ]
     },
     {
@@ -97,6 +108,7 @@
       "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [
+        "7c830a734a6b",
         "8e1f75861b87",
         "6f4fe9f06919",
         "a6751716a279",
@@ -111,8 +123,7 @@
         "42bdb14fcf56",
         "d69a6f6a56e3",
         "2e24bffa0fc0",
-        "c2813bec9792",
-        "9192ce554590"
+        "c2813bec9792"
       ],
       "relatedRepoIds": [
         "68b1fb9303ec"
@@ -126,64 +137,112 @@
       "frequency": 10,
       "growth": "stable",
       "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "83ed89d6ae67"
-      ],
+      "relatedVideoIds": [],
       "relatedNewsIds": [
+        "1e1803d04274",
+        "65678fbcb2bc",
+        "acb0e42c0e70",
         "5d5471c73294",
         "470884ccf8f0",
         "9bbbb2ff7034",
-        "5fc7b127fd7c",
-        "aac565577eaa",
-        "b5cf2fdb19d4",
-        "2fb7b3a72095"
+        "5fc7b127fd7c"
       ],
       "relatedRepoIds": [
         "5df14a56333c",
         "68b1fb9303ec"
       ],
-      "relatedNewsletterIds": []
+      "relatedNewsletterIds": [
+        "458365140080"
+      ]
+    },
+    {
+      "topic": "Patch",
+      "frequency": 4,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "7877f0f54355"
+      ],
+      "relatedNewsIds": [
+        "68a9078804b2",
+        "8377fedad66a"
+      ],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "458365140080"
+      ]
     },
     {
       "topic": "open-source",
       "frequency": 8,
       "growth": "rising",
-      "relatedPaperIds": [
-        "6e05dee545d9"
-      ],
+      "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
       "relatedRepoIds": [
         "233a4f836599"
       ],
       "relatedNewsletterIds": [
+        "e1eacd600ace",
+        "1ca678622e37",
+        "9ef55efc3d7c",
         "a24b0b54f2b0",
         "c048f3587629",
         "f61c9cfa6c4f",
-        "2f385df67b25",
-        "b644c111ff8c",
-        "8b3f2d254f80"
+        "2f385df67b25"
+      ]
+    },
+    {
+      "topic": "Fire Patch",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "7877f0f54355"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "now",
+      "frequency": 9,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "a1c842bb26b1",
+        "5c0e0ca172c9"
+      ],
+      "relatedVideoIds": [
+        "7877f0f54355"
+      ],
+      "relatedNewsIds": [
+        "c41b202774ea",
+        "a6751716a279",
+        "aef1559ba8ca",
+        "caea1985f73a",
+        "d69a6f6a56e3"
+      ],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "85704df45790"
       ]
     },
     {
       "topic": "agent",
-      "frequency": 11,
-      "growth": "rising",
+      "frequency": 8,
+      "growth": "stable",
       "relatedPaperIds": [
-        "1fa987134a0a",
-        "68f563b1c7c4",
-        "5ebc9acea3d3",
-        "5a19c776f286",
-        "23560017acab",
-        "3650ff2b1f67",
-        "4a0bfa29ed74"
+        "2a87ad8247e2",
+        "9bef9210a9dd",
+        "51a83b6a5457",
+        "c04b699bce75",
+        "d0e58d7550fe"
       ],
       "relatedVideoIds": [
         "0b387dbbcc9a"
       ],
       "relatedNewsIds": [
-        "d69a6f6a56e3",
-        "4edbdb0b0a37"
+        "d69a6f6a56e3"
       ],
       "relatedRepoIds": [
         "233a4f836599"
@@ -191,80 +250,55 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "llama",
-      "frequency": 2,
-      "growth": "declining",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "14df74d3bb6b",
-        "052e3a92e72b"
-      ],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Google",
-      "frequency": 3,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "83ed89d6ae67"
-      ],
-      "relatedNewsIds": [
-        "9bbbb2ff7034",
-        "a5a1cb4f9600"
-      ],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
       "topic": "RL",
-      "frequency": 54,
+      "frequency": 57,
       "growth": "stable",
       "relatedPaperIds": [
-        "f2419c34a70f",
-        "bd8ea5573ff5",
-        "64cd42cc3fe9",
-        "37665c037c58",
-        "f771e40b9072",
-        "68f563b1c7c4",
-        "75bc491d1952",
-        "cddb2a0bd369",
-        "5ebc9acea3d3",
-        "5921ea3f027b",
-        "7393058ef483",
-        "74ac31a5caa5",
-        "c862dda1edb8",
-        "0a393cd8a6d4",
-        "844149443fae",
-        "6ab2eba17222",
-        "d9adc8db4fae",
-        "5630815d6ab5",
-        "3240ab7d1372",
-        "a0d731efc9dc",
-        "84f3f9058c29",
-        "57be6c5ba417",
-        "5a19c776f286",
-        "9da2b173c3b2",
-        "492f0aac938a",
-        "afe4ac618fa3",
-        "34dafcfc5f41",
-        "94f85c2bcbe8",
-        "ce3030506f31",
-        "64c28a97561e",
-        "3650ff2b1f67",
-        "0633d054a3c4",
-        "caf30df6f977",
-        "39c893e35b64",
-        "f600898fc265",
-        "012b32c5d769",
-        "f25c403ce219",
-        "61c8fe2a9d75",
-        "2e9c78079933"
+        "dee9ec383a1d",
+        "6f49e7bef914",
+        "2a87ad8247e2",
+        "9bef9210a9dd",
+        "a39b2273544b",
+        "1ae2f3c3d07d",
+        "6a7b755ed89c",
+        "cb1c7f536722",
+        "46bea01e4fcb",
+        "8bd61a5ef9e6",
+        "8f4af027a81e",
+        "4a612bbcf853",
+        "0dcefa8e8097",
+        "c04b699bce75",
+        "174725f8477d",
+        "ff67a6ca99f4",
+        "0b9055d1a48c",
+        "baf9bfe433bd",
+        "c5d415d6027a",
+        "b6aecc38ba70",
+        "fcf3f33fd261",
+        "7341408e6abd",
+        "2329b95e263b",
+        "2c4683ac1c45",
+        "4dc32cdd5544",
+        "df5ac8182caa",
+        "39ddb7442186",
+        "9298c677de9e",
+        "9af9d478cb68",
+        "5c0e0ca172c9",
+        "614e4a04c30b",
+        "7097bffe982a",
+        "7ced85754e6c",
+        "3e7ac8487dad",
+        "5fe3824209c0",
+        "b1a4f2b511e3",
+        "0cec566a8384",
+        "683526a8c6a7"
       ],
       "relatedVideoIds": [],
       "relatedNewsIds": [
+        "1e1803d04274",
+        "7c830a734a6b",
+        "68a9078804b2",
+        "c41b202774ea",
         "8e1f75861b87",
         "6f4fe9f06919",
         "a6751716a279",
@@ -273,47 +307,16 @@
         "35a52a5f6f5c",
         "a5a1cb4f9600",
         "479a52c1f18d",
-        "c2813bec9792",
-        "300e95349f7f"
+        "c2813bec9792"
       ],
       "relatedRepoIds": [],
       "relatedNewsletterIds": [
+        "e1eacd600ace",
+        "a35e68d6279b",
+        "85704df45790",
+        "458365140080",
         "cd603c5afd33",
-        "6c18940399d8",
-        "1f47f1f572b1",
-        "4d6f3f71e5f1",
-        "f58ca12603b0"
-      ]
-    },
-    {
-      "topic": "training",
-      "frequency": 17,
-      "growth": "rising",
-      "relatedPaperIds": [
-        "6e05dee545d9",
-        "0a393cd8a6d4",
-        "5630815d6ab5",
-        "492f0aac938a",
-        "34dafcfc5f41",
-        "0633d054a3c4",
-        "9b418bd2a55f",
-        "95f20bb250f1"
-      ],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [
-        "6f4fe9f06919",
-        "a5a1cb4f9600"
-      ],
-      "relatedRepoIds": [
-        "7166ecafb485"
-      ],
-      "relatedNewsletterIds": [
-        "a24b0b54f2b0",
-        "c048f3587629",
-        "f61c9cfa6c4f",
-        "2f385df67b25",
-        "b644c111ff8c",
-        "8b3f2d254f80"
+        "6c18940399d8"
       ]
     }
   ]

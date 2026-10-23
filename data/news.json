@@ -1,5 +1,114 @@
 [
   {
+    "id": "29044abf230e",
+    "title": "Kazakhstan Expands Compute for Its AI Future",
+    "date": "Fri, 23 Oct 2026 02:00:13 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+    "summary": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment.  The shift is visible across the full AI stack — from infrastructure to models to applications.  Together, the ecosystem announcements below point to the nation’s increasing supply of accelerated computing — along with its ",
+    "type": "announcement",
+    "tags": [
+      "Open Source"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "1e1803d04274",
+    "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+    "date": "Fri, 23 Oct 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+    "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+    "type": "blog",
+    "tags": [
+      "RL"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "d063d507002f",
+    "title": "Build more responsive apps with the Decisions API",
+    "date": "Thu, 22 Oct 2026 19:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/decisions-api",
+    "summary": "Fast, focused, low-cost decisions for any application.",
+    "type": "api_update",
+    "tags": [],
+    "importance": 5
+  },
+  {
+    "id": "730b1bc8ef00",
+    "title": "Flint-interactive: A language for creating interactive data visualizations",
+    "date": "Thu, 22 Oct 2026 16:00:00 +0000",
+    "source": "Microsoft Research",
+    "company": "microsoft",
+    "url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
+    "summary": "Flint-interactive gives AI agents a language for creating interactive visualizations. Click a chart, filter data, highlight related content, and explore beyond the view the author originally chose.\nThe post Flint-interactive: A language for creating interactive data visualizations appeared first on ",
+    "type": "blog",
+    "tags": [
+      "Agents",
+      "Computer Vision"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "7c830a734a6b",
+    "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+    "date": "Thu, 22 Oct 2026 15:00:02 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+    "summary": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are ",
+    "type": "release",
+    "tags": [
+      "RL"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "68a9078804b2",
+    "title": "Beyond tree cover: mapping the world’s forest types",
+    "date": "Thu, 22 Oct 2026 14:30:24 +0000",
+    "source": "Google DeepMind",
+    "company": "deepmind",
+    "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+    "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+    "type": "blog",
+    "tags": [
+      "RL"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "c41b202774ea",
+    "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+    "date": "Thu, 22 Oct 2026 13:00:20 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
+    "summary": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign also gets an enhanced look: GeForce RTX 5080-class performance arrives for Ulti",
+    "type": "release",
+    "tags": [
+      "RL"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "65678fbcb2bc",
+    "title": "What FDE means at OpenAI",
+    "date": "Thu, 22 Oct 2026 06:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/forward-deployed-engineering-means",
+    "summary": "What forward deployed engineering means at OpenAI",
+    "type": "blog",
+    "tags": [],
+    "importance": 5
+  },
+  {
     "id": "8e1f75861b87",
     "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
     "date": "Thu, 22 Oct 2026 05:00:56 +0000",
@@ -85,6 +194,20 @@
     "summary": "Governments need modern solutions to serve the public while keeping sensitive information under their control. Open models provide a path forward, letting governments evaluate them, adapt them to local languages and public services, run them on infrastructure they control, apply their own safeguards",
     "type": "blog",
     "tags": [],
+    "importance": 5
+  },
+  {
+    "id": "acb0e42c0e70",
+    "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+    "date": "Thu, 22 Oct 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+    "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+    "type": "blog",
+    "tags": [
+      "LLMs"
+    ],
     "importance": 5
   },
   {
@@ -316,101 +439,6 @@
     "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
     "type": "blog",
     "tags": [
-      "LLMs"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "aac565577eaa",
-    "title": "Using thousands of AI agents to uncover new leads in biological data",
-    "date": "Wed, 21 Oct 2026 04:50:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-    "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-    "type": "blog",
-    "tags": [
-      "Agents"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "b5cf2fdb19d4",
-    "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
-    "date": "Wed, 21 Oct 2026 00:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/cloudflare-cyber",
-    "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
-    "type": "blog",
-    "tags": [],
-    "importance": 5
-  },
-  {
-    "id": "2fb7b3a72095",
-    "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-    "date": "Wed, 21 Oct 2026 00:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/empowering-cyber-defenders",
-    "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-    "type": "blog",
-    "tags": [],
-    "importance": 5
-  },
-  {
-    "id": "300e95349f7f",
-    "title": "Called to serve: Tech, research, and positive impact",
-    "date": "Tue, 20 Oct 2026 16:00:00 +0000",
-    "source": "Microsoft Research",
-    "company": "microsoft",
-    "url": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/",
-    "summary": "Lab Director Chris White has worked on research challenges with real-world implications—from new approaches to wartime data analysis to tools for combating human trafficking. He talks to program manager Weishung Liu about the influences that led to the work and more.\nThe post Called to serve: Tech, ",
-    "type": "blog",
-    "tags": [
-      "RL"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "9192ce554590",
-    "title": "European Leaders Turn to NVIDIA Vera CPUs to Build Local Infrastructure",
-    "date": "Tue, 20 Oct 2026 10:30:11 +0000",
-    "source": "NVIDIA Research",
-    "company": "nvidia",
-    "url": "https://blogs.nvidia.com/blog/european-leaders-vera-cpu-infrastructure/",
-    "summary": "Nebius and Nscale are among global technology partners looking to NVIDIA Vera CPUs to build the next wave of infrastructure. Their momentum reflects rapid advancements in agentic computing.  Agents do more than generate answers: they retrieve information, run software tools, execute code and evaluat",
-    "type": "api_update",
-    "tags": [
-      "Agents"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "cf5cb777d1af",
-    "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-    "date": "Tue, 20 Oct 2026 10:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/ted-taylor-restaurant",
-    "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-    "type": "pricing",
-    "tags": [
-      "LLMs"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "4edbdb0b0a37",
-    "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-    "date": "Tue, 20 Oct 2026 07:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/terminal-x",
-    "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-    "type": "blog",
-    "tags": [
-      "Agents",
       "LLMs"
     ],
     "importance": 5
