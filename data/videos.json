@@ -1,5 +1,35 @@
 [
   {
+    "id": "79fc07e65d2b",
+    "title": "The most vulnerable week in internet history...",
+    "channel": "Fireship",
+    "channelId": "UCsBjURrPoezykLs9EqgamOA",
+    "date": "2026-10-23T18:19:58Z",
+    "duration": "6:04",
+    "thumbnail": "https://i.ytimg.com/vi/SMGg7iisHmc/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=SMGg7iisHmc",
+    "description": "Semgrep Guardian catches the risky code and packages your agent introduces. Try it free for 60 days: ...",
+    "viewCount": 827967,
+    "tags": [
+      "Agents"
+    ],
+    "relevanceScore": 8.3
+  },
+  {
+    "id": "96425cbf5f45",
+    "title": "Kimi K3.1 Pro: Open Weights, Almost Opus",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-23T18:06:19Z",
+    "duration": "1:23",
+    "thumbnail": "https://i.ytimg.com/vi/zgluzf-zjhI/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=zgluzf-zjhI",
+    "description": "Moonshot just released Kimi K3.1 Pro, an open-weight mixture of experts model with 2.8 trillion total parameters, about 104 billion ...",
+    "viewCount": 16369,
+    "tags": [],
+    "relevanceScore": 7
+  },
+  {
     "id": "058246b9926d",
     "title": "The last real programmers are dying out...",
     "channel": "Fireship",
@@ -9,11 +39,11 @@
     "thumbnail": "https://i.ytimg.com/vi/zv6B6PQOuHE/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=zv6B6PQOuHE",
     "description": "Get real-time search data from a single API. Fireship viewers get 1000 free searches: https://serpapi.com/fireship Yes the very ...",
-    "viewCount": 1008769,
+    "viewCount": 1311744,
     "tags": [
       "AI Coding"
     ],
-    "relevanceScore": 8
+    "relevanceScore": 6.2
   },
   {
     "id": "1459ed8643fa",
@@ -25,11 +55,11 @@
     "thumbnail": "https://i.ytimg.com/vi/h6j_ixGnpiY/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=h6j_ixGnpiY",
     "description": "Image watermarks are a way to embed information into a picture, Dr Mike Pound takes us through Adobe's Trust Mark to explain ...",
-    "viewCount": 63861,
+    "viewCount": 84553,
     "tags": [
       "Computer Vision"
     ],
-    "relevanceScore": 7.4
+    "relevanceScore": 5.8
   },
   {
     "id": "7877f0f54355",
@@ -41,9 +71,9 @@
     "thumbnail": "https://i.ytimg.com/vi/0XSk7fCimYE/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=0XSk7fCimYE",
     "description": "In five days, almost every layer developers build on got hit: weak eMudhra certificate keys (one was the number 4), PHP2Shell, ...",
-    "viewCount": 1171,
+    "viewCount": 4066,
     "tags": [],
-    "relevanceScore": 6.9
+    "relevanceScore": 5.5
   },
   {
     "id": "8e113369b130",
@@ -55,44 +85,10 @@
     "thumbnail": "https://i.ytimg.com/vi/ByKEkRohzt8/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=ByKEkRohzt8",
     "description": "Thanks to Neon for sponsoring this video. Try Neon here : https://neon.plug.dev/Sw0JRgk Google's TimesFM 3.0 forecasts time ...",
-    "viewCount": 9506,
+    "viewCount": 13684,
     "tags": [
       "LLMs"
     ],
-    "relevanceScore": 6.5
-  },
-  {
-    "id": "0b387dbbcc9a",
-    "title": "Claude Duet: Anthropic&#39;s Proactive Agent",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-21T21:49:31Z",
-    "duration": "0:59",
-    "thumbnail": "https://i.ytimg.com/vi/0sI-GTYetD8/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=0sI-GTYetD8",
-    "description": "Anthropic just announced Claude Duet, a new app where Claude works as a proactive agent. It comes to you first instead of ...",
-    "viewCount": 45771,
-    "tags": [
-      "Agents",
-      "LLMs"
-    ],
-    "relevanceScore": 5.7
-  },
-  {
-    "id": "a855211dfa4a",
-    "title": "DeepSeek Just Open-Sourced How It Serves 155T Tokens a Day",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-21T13:00:37Z",
-    "duration": "16:17",
-    "thumbnail": "https://i.ytimg.com/vi/esdRFXgXaaQ/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=esdRFXgXaaQ",
-    "description": "DeepSeek just open-sourced DeepInfer, the inference engine behind its own API, along with a detailed write-up of how it serves ...",
-    "viewCount": 28325,
-    "tags": [
-      "Open Source",
-      "Inference"
-    ],
-    "relevanceScore": 5.1
+    "relevanceScore": 4.9
   }
 ]

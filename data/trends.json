@@ -1,91 +1,26 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "topics": [
     {
-      "topic": "Agents",
-      "frequency": 35,
-      "growth": "stable",
-      "relatedPaperIds": [
-        "2a87ad8247e2",
-        "9d75c95e95c7",
-        "9bef9210a9dd",
-        "a1c842bb26b1",
-        "1ae2f3c3d07d",
-        "51a83b6a5457",
-        "46bea01e4fcb",
-        "39a1782fc494",
-        "4a612bbcf853",
-        "c04b699bce75",
-        "ff67a6ca99f4",
-        "b6aecc38ba70",
-        "d0e58d7550fe",
-        "420ffae6afb8",
-        "614e4a04c30b",
-        "43ac15546ef7",
-        "0cec566a8384",
-        "683526a8c6a7"
-      ],
+      "topic": "internet",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [],
       "relatedVideoIds": [
-        "0b387dbbcc9a"
+        "79fc07e65d2b",
+        "7877f0f54355"
       ],
-      "relatedNewsIds": [
-        "730b1bc8ef00",
-        "35a52a5f6f5c",
-        "99fd16c89be7",
-        "42bdb14fcf56",
-        "d69a6f6a56e3",
-        "c2813bec9792",
-        "8377fedad66a"
-      ],
-      "relatedRepoIds": [
-        "83b96e936faf",
-        "6d558ac6ba23",
-        "1941bc8214c6"
-      ],
-      "relatedNewsletterIds": [
-        "e1eacd600ace",
-        "a35e68d6279b",
-        "85704df45790",
-        "458365140080",
-        "cd603c5afd33",
-        "6c18940399d8"
-      ]
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
     },
     {
       "topic": "Inference",
-      "frequency": 35,
+      "frequency": 9,
       "growth": "stable",
-      "relatedPaperIds": [
-        "65e1c969bb19",
-        "9d75c95e95c7",
-        "bf9bd7bbec6f",
-        "1ae2f3c3d07d",
-        "6a7b755ed89c",
-        "cb1c7f536722",
-        "46bea01e4fcb",
-        "4a612bbcf853",
-        "174725f8477d",
-        "ff67a6ca99f4",
-        "baf9bfe433bd",
-        "9bd6ff31a545",
-        "c5d415d6027a",
-        "d0e58d7550fe",
-        "23b46a34a7ea",
-        "2329b95e263b",
-        "2c4683ac1c45",
-        "a47a3b04229e",
-        "4dc32cdd5544",
-        "39ddb7442186",
-        "9af9d478cb68",
-        "731dc044d549"
-      ],
-      "relatedVideoIds": [
-        "a855211dfa4a"
-      ],
-      "relatedNewsIds": [
-        "933f6758dc14",
-        "a5a1cb4f9600"
-      ],
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
       "relatedRepoIds": [
         "b6a0b13bc12c",
         "7166ecafb485",
@@ -95,101 +30,34 @@
         "68b1fb9303ec"
       ],
       "relatedNewsletterIds": [
-        "a35e68d6279b",
-        "458365140080",
-        "c048f3587629",
-        "6c18940399d8"
+        "8018e79a26fe",
+        "31bf582311dc",
+        "56672e165d14"
       ]
     },
     {
-      "topic": "NVIDIA",
-      "frequency": 18,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [
-        "7c830a734a6b",
-        "8e1f75861b87",
-        "6f4fe9f06919",
-        "a6751716a279",
-        "933f6758dc14",
-        "6c9d55b90378",
-        "47e2845501ee",
-        "35a52a5f6f5c",
-        "a5a1cb4f9600",
-        "99fd16c89be7",
-        "479a52c1f18d",
-        "caea1985f73a",
-        "42bdb14fcf56",
-        "d69a6f6a56e3",
-        "2e24bffa0fc0",
-        "c2813bec9792"
-      ],
-      "relatedRepoIds": [
-        "68b1fb9303ec"
-      ],
-      "relatedNewsletterIds": [
-        "a24b0b54f2b0"
-      ]
-    },
-    {
-      "topic": "OpenAI",
-      "frequency": 10,
+      "topic": "Agents",
+      "frequency": 11,
       "growth": "stable",
       "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [
-        "1e1803d04274",
-        "65678fbcb2bc",
-        "acb0e42c0e70",
-        "5d5471c73294",
-        "470884ccf8f0",
-        "9bbbb2ff7034",
-        "5fc7b127fd7c"
-      ],
-      "relatedRepoIds": [
-        "5df14a56333c",
-        "68b1fb9303ec"
-      ],
-      "relatedNewsletterIds": [
-        "458365140080"
-      ]
-    },
-    {
-      "topic": "Patch",
-      "frequency": 4,
-      "growth": "rising",
-      "relatedPaperIds": [],
       "relatedVideoIds": [
-        "7877f0f54355"
+        "79fc07e65d2b"
       ],
       "relatedNewsIds": [
-        "68a9078804b2",
-        "8377fedad66a"
+        "730b1bc8ef00"
       ],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": [
-        "458365140080"
-      ]
-    },
-    {
-      "topic": "open-source",
-      "frequency": 8,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
       "relatedRepoIds": [
-        "233a4f836599"
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
       ],
       "relatedNewsletterIds": [
+        "803e7599b9fd",
+        "8018e79a26fe",
         "e1eacd600ace",
-        "1ca678622e37",
-        "9ef55efc3d7c",
-        "a24b0b54f2b0",
-        "c048f3587629",
-        "f61c9cfa6c4f",
-        "2f385df67b25"
+        "31bf582311dc",
+        "526d7a8d3f1b",
+        "56672e165d14"
       ]
     },
     {
@@ -205,119 +73,82 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "now",
-      "frequency": 9,
+      "topic": "llama",
+      "frequency": 2,
       "growth": "rising",
-      "relatedPaperIds": [
-        "a1c842bb26b1",
-        "5c0e0ca172c9"
-      ],
-      "relatedVideoIds": [
-        "7877f0f54355"
-      ],
-      "relatedNewsIds": [
-        "c41b202774ea",
-        "a6751716a279",
-        "aef1559ba8ca",
-        "caea1985f73a",
-        "d69a6f6a56e3"
-      ],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": [
-        "85704df45790"
-      ]
-    },
-    {
-      "topic": "agent",
-      "frequency": 8,
-      "growth": "stable",
-      "relatedPaperIds": [
-        "2a87ad8247e2",
-        "9bef9210a9dd",
-        "51a83b6a5457",
-        "c04b699bce75",
-        "d0e58d7550fe"
-      ],
-      "relatedVideoIds": [
-        "0b387dbbcc9a"
-      ],
-      "relatedNewsIds": [
-        "d69a6f6a56e3"
-      ],
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
       "relatedRepoIds": [
-        "233a4f836599"
+        "14df74d3bb6b",
+        "052e3a92e72b"
       ],
       "relatedNewsletterIds": []
     },
     {
-      "topic": "RL",
-      "frequency": 57,
-      "growth": "stable",
-      "relatedPaperIds": [
-        "dee9ec383a1d",
-        "6f49e7bef914",
-        "2a87ad8247e2",
-        "9bef9210a9dd",
-        "a39b2273544b",
-        "1ae2f3c3d07d",
-        "6a7b755ed89c",
-        "cb1c7f536722",
-        "46bea01e4fcb",
-        "8bd61a5ef9e6",
-        "8f4af027a81e",
-        "4a612bbcf853",
-        "0dcefa8e8097",
-        "c04b699bce75",
-        "174725f8477d",
-        "ff67a6ca99f4",
-        "0b9055d1a48c",
-        "baf9bfe433bd",
-        "c5d415d6027a",
-        "b6aecc38ba70",
-        "fcf3f33fd261",
-        "7341408e6abd",
-        "2329b95e263b",
-        "2c4683ac1c45",
-        "4dc32cdd5544",
-        "df5ac8182caa",
-        "39ddb7442186",
-        "9298c677de9e",
-        "9af9d478cb68",
-        "5c0e0ca172c9",
-        "614e4a04c30b",
-        "7097bffe982a",
-        "7ced85754e6c",
-        "3e7ac8487dad",
-        "5fe3824209c0",
-        "b1a4f2b511e3",
-        "0cec566a8384",
-        "683526a8c6a7"
-      ],
+      "topic": "open-source",
+      "frequency": 5,
+      "growth": "rising",
+      "relatedPaperIds": [],
       "relatedVideoIds": [],
-      "relatedNewsIds": [
-        "1e1803d04274",
-        "7c830a734a6b",
-        "68a9078804b2",
-        "c41b202774ea",
-        "8e1f75861b87",
-        "6f4fe9f06919",
-        "a6751716a279",
-        "6c9d55b90378",
-        "5d5471c73294",
-        "35a52a5f6f5c",
-        "a5a1cb4f9600",
-        "479a52c1f18d",
-        "c2813bec9792"
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
       ],
-      "relatedRepoIds": [],
       "relatedNewsletterIds": [
+        "a4a57d5a41c6",
+        "ea8ef455a8a4",
         "e1eacd600ace",
-        "a35e68d6279b",
-        "85704df45790",
-        "458365140080",
-        "cd603c5afd33",
-        "6c18940399d8"
+        "9ef55efc3d7c"
       ]
+    },
+    {
+      "topic": "programmers",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "058246b9926d"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "dying",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "058246b9926d"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "last real",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "058246b9926d"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "real programmers",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "058246b9926d"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
     }
   ]
 }
