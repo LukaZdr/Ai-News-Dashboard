@@ -1,22 +1,31 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "topics": [
     {
-      "topic": "internet",
-      "frequency": 2,
+      "topic": "Agents",
+      "frequency": 9,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "79fc07e65d2b",
-        "7877f0f54355"
+        "5552291078b9",
+        "cd9c8c88a3bd",
+        "79fc07e65d2b"
       ],
       "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "cfbc211d7f15",
+        "803e7599b9fd",
+        "8018e79a26fe"
+      ]
     },
     {
       "topic": "Inference",
-      "frequency": 9,
+      "frequency": 8,
       "growth": "stable",
       "relatedPaperIds": [],
       "relatedVideoIds": [],
@@ -30,43 +39,29 @@
         "68b1fb9303ec"
       ],
       "relatedNewsletterIds": [
-        "8018e79a26fe",
-        "31bf582311dc",
-        "56672e165d14"
+        "cfbc211d7f15",
+        "8018e79a26fe"
       ]
     },
     {
-      "topic": "Agents",
-      "frequency": 11,
-      "growth": "stable",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "79fc07e65d2b"
-      ],
-      "relatedNewsIds": [
-        "730b1bc8ef00"
-      ],
-      "relatedRepoIds": [
-        "83b96e936faf",
-        "6d558ac6ba23",
-        "1941bc8214c6"
-      ],
-      "relatedNewsletterIds": [
-        "803e7599b9fd",
-        "8018e79a26fe",
-        "e1eacd600ace",
-        "31bf582311dc",
-        "526d7a8d3f1b",
-        "56672e165d14"
-      ]
-    },
-    {
-      "topic": "Fire Patch",
+      "topic": "Underrated Breakthrough",
       "frequency": 1,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "7877f0f54355"
+        "5552291078b9"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Underrated",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "5552291078b9"
       ],
       "relatedNewsIds": [],
       "relatedRepoIds": [],
@@ -86,8 +81,56 @@
       "relatedNewsletterIds": []
     },
     {
+      "topic": "Muon",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "5552291078b9"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Breakthrough",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "5552291078b9"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "continue open-source",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "continue",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
       "topic": "open-source",
-      "frequency": 5,
+      "frequency": 2,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [],
@@ -96,59 +139,8 @@
         "233a4f836599"
       ],
       "relatedNewsletterIds": [
-        "a4a57d5a41c6",
-        "ea8ef455a8a4",
-        "e1eacd600ace",
-        "9ef55efc3d7c"
+        "a4a57d5a41c6"
       ]
-    },
-    {
-      "topic": "programmers",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "058246b9926d"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "dying",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "058246b9926d"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "last real",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "058246b9926d"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "real programmers",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "058246b9926d"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
     }
   ]
 }

@@ -1,5 +1,38 @@
 [
   {
+    "id": "5552291078b9",
+    "title": "Muon: The Most Underrated Breakthrough in LLMs",
+    "channel": "bycloud",
+    "channelId": "UCgfe2ooZD3VJPB6aJAnuQng",
+    "date": "2026-10-24T15:33:28Z",
+    "duration": "19:30",
+    "thumbnail": "https://i.ytimg.com/vi/VAQHsKS9fxY/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=VAQHsKS9fxY",
+    "description": "Try out Solid, agents with their own computers, accounts, and budgets: https://solid.tech/bycloud For over a decade, AdamW has ...",
+    "viewCount": 64426,
+    "tags": [
+      "Agents",
+      "LLMs"
+    ],
+    "relevanceScore": 7.9
+  },
+  {
+    "id": "cd9c8c88a3bd",
+    "title": "Harness² Explained: Self-Improving Agents Without Training",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-24T13:00:28Z",
+    "duration": "11:43",
+    "thumbnail": "https://i.ytimg.com/vi/pW2ktrJlsyE/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=pW2ktrJlsyE",
+    "description": "Harness² is a research framework from Google Cloud AI Research and Northwestern University that lets an AI agent rewrite its ...",
+    "viewCount": 37513,
+    "tags": [
+      "Agents"
+    ],
+    "relevanceScore": 6.8
+  },
+  {
     "id": "79fc07e65d2b",
     "title": "The most vulnerable week in internet history...",
     "channel": "Fireship",
@@ -9,11 +42,11 @@
     "thumbnail": "https://i.ytimg.com/vi/SMGg7iisHmc/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=SMGg7iisHmc",
     "description": "Semgrep Guardian catches the risky code and packages your agent introduces. Try it free for 60 days: ...",
-    "viewCount": 827967,
+    "viewCount": 1355512,
     "tags": [
       "Agents"
     ],
-    "relevanceScore": 8.3
+    "relevanceScore": 6.4
   },
   {
     "id": "96425cbf5f45",
@@ -25,70 +58,8 @@
     "thumbnail": "https://i.ytimg.com/vi/zgluzf-zjhI/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=zgluzf-zjhI",
     "description": "Moonshot just released Kimi K3.1 Pro, an open-weight mixture of experts model with 2.8 trillion total parameters, about 104 billion ...",
-    "viewCount": 16369,
+    "viewCount": 35382,
     "tags": [],
-    "relevanceScore": 7
-  },
-  {
-    "id": "058246b9926d",
-    "title": "The last real programmers are dying out...",
-    "channel": "Fireship",
-    "channelId": "UCsBjURrPoezykLs9EqgamOA",
-    "date": "2026-10-22T15:09:31Z",
-    "duration": "5:56",
-    "thumbnail": "https://i.ytimg.com/vi/zv6B6PQOuHE/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=zv6B6PQOuHE",
-    "description": "Get real-time search data from a single API. Fireship viewers get 1000 free searches: https://serpapi.com/fireship Yes the very ...",
-    "viewCount": 1311744,
-    "tags": [
-      "AI Coding"
-    ],
-    "relevanceScore": 6.2
-  },
-  {
-    "id": "1459ed8643fa",
-    "title": "How Image Watermarking Works - Computerphile",
-    "channel": "Computerphile",
-    "channelId": "UC9-y-6csu5WGm29I7JiwpnA",
-    "date": "2026-10-22T13:00:06Z",
-    "duration": "25:07",
-    "thumbnail": "https://i.ytimg.com/vi/h6j_ixGnpiY/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=h6j_ixGnpiY",
-    "description": "Image watermarks are a way to embed information into a picture, Dr Mike Pound takes us through Adobe's Trust Mark to explain ...",
-    "viewCount": 84553,
-    "tags": [
-      "Computer Vision"
-    ],
-    "relevanceScore": 5.8
-  },
-  {
-    "id": "7877f0f54355",
-    "title": "The Internet Is on Fire (Patch These Now)",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-23T02:34:10Z",
-    "duration": "1:38",
-    "thumbnail": "https://i.ytimg.com/vi/0XSk7fCimYE/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=0XSk7fCimYE",
-    "description": "In five days, almost every layer developers build on got hit: weak eMudhra certificate keys (one was the number 4), PHP2Shell, ...",
-    "viewCount": 4066,
-    "tags": [],
-    "relevanceScore": 5.5
-  },
-  {
-    "id": "8e113369b130",
-    "title": "Google&#39;s GPT-3 Moment for Time Series &amp; Forecasting (TimesFM 3.0)",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-22T13:00:18Z",
-    "duration": "14:04",
-    "thumbnail": "https://i.ytimg.com/vi/ByKEkRohzt8/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=ByKEkRohzt8",
-    "description": "Thanks to Neon for sponsoring this video. Try Neon here : https://neon.plug.dev/Sw0JRgk Google's TimesFM 3.0 forecasts time ...",
-    "viewCount": 13684,
-    "tags": [
-      "LLMs"
-    ],
-    "relevanceScore": 4.9
+    "relevanceScore": 5.4
   }
 ]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "5c6458339f7b",
+    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+    "date": "Fri, 23 Oct 2026 17:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+    "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+    "type": "api_update",
+    "tags": [
+      "LLMs",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "072f0ff5ceab",
+    "title": "Securing our frontier model training environment",
+    "date": "Fri, 23 Oct 2026 10:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+    "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+    "type": "blog",
+    "tags": [
+      "Research",
+      "Business"
+    ],
+    "importance": 5
+  }
+]

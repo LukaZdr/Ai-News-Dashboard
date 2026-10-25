@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-25",
+  "topics": [
+    {
+      "topic": "Agents",
+      "frequency": 9,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "5552291078b9",
+        "cd9c8c88a3bd",
+        "79fc07e65d2b"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "cfbc211d7f15",
+        "803e7599b9fd",
+        "8018e79a26fe"
+      ]
+    },
+    {
+      "topic": "Inference",
+      "frequency": 8,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "b6a0b13bc12c",
+        "7166ecafb485",
+        "5b1fd1fd8a2b",
+        "14df74d3bb6b",
+        "deae4303c432",
+        "68b1fb9303ec"
+      ],
+      "relatedNewsletterIds": [
+        "cfbc211d7f15",
+        "8018e79a26fe"
+      ]
+    },
+    {
+      "topic": "Underrated Breakthrough",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "5552291078b9"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Underrated",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "5552291078b9"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "llama",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "14df74d3bb6b",
+        "052e3a92e72b"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Muon",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "5552291078b9"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Breakthrough",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "5552291078b9"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "continue open-source",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "continue",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "open-source",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": [
+        "a4a57d5a41c6"
+      ]
+    }
+  ]
+}

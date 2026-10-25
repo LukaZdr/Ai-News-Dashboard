@@ -5,14 +5,14 @@
     "fullName": "ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
     "url": "https://github.com/ollama/ollama",
-    "stars": 184511,
+    "stars": 184682,
     "language": "Go",
     "latestRelease": {
-      "tag": "v0.40.10",
-      "date": "2026-10-23T15:03:59Z",
-      "notes": "## NVIDIA Nemotron 3.5 Bolt E4B\r\n\r\n[Nemotron 3.5 Bolt E4B](https://ollama.com/library/nemotron-3.5-bolt) is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window.\r\n\r\nThe model includes a DFlash draft for speculative decoding.\r\n\r\n    ollama run nemotron-3.5-bolt:e4b\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.9...v0.40.10"
+      "tag": "v0.40.11",
+      "date": "2026-10-24T00:30:13Z",
+      "notes": "## Speech\r\n\r\nOllama can now generate [speech](https://docs.ollama.com/capabilities/speech) on macOS. `ollama run` plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible `/v1/audio/speech` endpoint.\r\n\r\n```sh\r\nollama run phonon \"Hello from Ollama.\"\r\n```\r\n\r\n## d3 decision models\r\n\r\n[d3](https://ollama.com/library/d3) brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask "
     },
-    "recentActivity": "2026-10-23T23:17:57Z",
+    "recentActivity": "2026-10-24T18:03:30Z",
     "tags": [
       "LLMs",
       "Open Source",
@@ -25,14 +25,14 @@
     "fullName": "huggingface/transformers",
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
     "url": "https://github.com/huggingface/transformers",
-    "stars": 168054,
+    "stars": 168113,
     "language": "Python",
     "latestRelease": {
       "tag": "v5.20.2",
       "date": "2026-10-19T17:45:37Z",
       "notes": "# Patch release: v5.20.2\r\n\r\nThis patch notably solves an issue where some inputs could loose their original type inside `prepare_inputs_for_generation` in `generate`, leading to problems with multimodal models. It also fixes some other issues listed on the below commits.\r\n\r\nIt contains the following commits:\r\n\r\n- Fix inputs dict casting in generate (#49731) by @Cyrilvallez\r\n- Fix zero expert gradients in bfloat16 with expert parallelism and ep_size < fsdp_size (#49688) by @qgallouedec \r\n- Declar"
     },
-    "recentActivity": "2026-10-24T00:49:02Z",
+    "recentActivity": "2026-10-25T05:51:33Z",
     "tags": [
       "LLMs",
       "Research",
@@ -45,14 +45,14 @@
     "fullName": "langgenius/dify",
     "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
     "url": "https://github.com/langgenius/dify",
-    "stars": 159397,
+    "stars": 159463,
     "language": "Python",
     "latestRelease": {
       "tag": "1.18.0",
       "date": "2026-10-23T06:33:50Z",
       "notes": "Dify 1.18.0 brings **Agents that route workflows**, **portable app packages**, **deeper visibility into nested workflow runs**, and the opt-in **Agent Knowledge Base** experience. OpenAPI and the new difyctl expand how you build and manage apps from the command line.\r\n\r\n> [!IMPORTANT]\r\n> **Read the upgrade guide below before deploying.** Upgrade the API, workers, Agent Backend, and Agent runtime images together. Local Agent sandboxes require a non-empty authentication token, and Agent Backend us"
     },
-    "recentActivity": "2026-10-24T05:46:43Z",
+    "recentActivity": "2026-10-25T06:57:19Z",
     "tags": [
       "Agents",
       "LLMs",
@@ -65,14 +65,14 @@
     "fullName": "open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "url": "https://github.com/open-webui/open-webui",
-    "stars": 156610,
+    "stars": 156675,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.12.3",
       "date": "2026-10-16T11:46:21Z",
       "notes": "\n### Added\n\n- 🔐 **End-to-end encrypted chats.** Direct messages and private group channels can now hold a temporary end-to-end encrypted chat: a member picks Encrypted Chat in the channel menu, the other members see \"Encrypted chat in progress\" with a Join link, messages of up to 16 KiB are encrypted in the browser with MLS and only passed through the server without being saved, participants can verify each other by comparing codes and see when others are typing, and the chat is cleared when yo"
     },
-    "recentActivity": "2026-10-24T06:04:47Z",
+    "recentActivity": "2026-10-25T07:02:58Z",
     "tags": [
       "LLMs",
       "Open Source"
@@ -84,14 +84,14 @@
     "fullName": "Comfy-Org/ComfyUI",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
     "url": "https://github.com/Comfy-Org/ComfyUI",
-    "stars": 142420,
+    "stars": 142716,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.42.1",
       "date": "2026-10-19T01:33:54Z",
       "notes": "Fix some crashing issues a few users experienced when running the MOSS image template workflow."
     },
-    "recentActivity": "2026-10-24T02:43:06Z",
+    "recentActivity": "2026-10-25T06:58:13Z",
     "tags": [
       "Computer Vision",
       "Video Models",
@@ -104,14 +104,14 @@
     "fullName": "ggml-org/llama.cpp",
     "description": "LLM inference in C/C++",
     "url": "https://github.com/ggml-org/llama.cpp",
-    "stars": 132178,
+    "stars": 132266,
     "language": "C++",
     "latestRelease": {
       "tag": "v0.7.0",
       "date": "2026-10-15T17:13:19Z",
       "notes": "## Overview\r\n\r\nllama.cpp v0.7.0 adds the LiliCorr speculative decoding technique and MTP for GLM5-Next, a new GPU cache for MoE experts kept in host memory (`--moe-cache-mib`, up to ~2.2x decode speedup when experts are offloaded), and a large batch of new models: K2 Horizon (dense and MoVA), Prism Bonsai 2 27B, EmbeddingGemma-2 (text+vision+audio), the LiquidAI d1/d1-omni and vLLM decision 2/d3 decision models, pplx-decider, MiniCPM-V 4.7, Nemotron Super 3.5 VL / Nemotron Bolt and maion-coder. "
     },
-    "recentActivity": "2026-10-24T06:21:27Z",
+    "recentActivity": "2026-10-25T06:02:26Z",
     "tags": [
       "LLMs",
       "Open Source",
@@ -124,14 +124,14 @@
     "fullName": "vllm-project/vllm",
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
     "url": "https://github.com/vllm-project/vllm",
-    "stars": 95267,
+    "stars": 95387,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.32.0",
       "date": "2026-10-18T06:50:48Z",
       "notes": "# v0.32.0\r\n\r\n## Highlights\r\n\r\nThis release features 814 commits from 363 contributors (121 new)!\r\n\r\n* **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs on `Cloudflare/clef-omni` (#61064), `LiquidAI/d1-3B` (#60676) and DiffusionGemma (#60466). The new `hf` tool and reasoning parser (`--tool-call-parser hf`, `--reasoning-parser hf`)"
     },
-    "recentActivity": "2026-10-24T06:36:02Z",
+    "recentActivity": "2026-10-25T06:59:13Z",
     "tags": [
       "Inference",
       "LLMs",
@@ -144,14 +144,14 @@
     "fullName": "OpenHands/OpenHands",
     "description": "🙌 OpenHands: AI-Driven Development",
     "url": "https://github.com/OpenHands/OpenHands",
-    "stars": 91698,
+    "stars": 91769,
     "language": "TypeScript",
     "latestRelease": {
       "tag": "v1.33.0",
       "date": "2026-10-23T13:46:20Z",
       "notes": "## 1.33.0 (2026-10-23)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Features\n* feat(verify-openhands): launch --mars-web and --lock-to-cloud by @enyst in https://github.com/OpenHands/OpenHands/pull/18848\n* feat(digitalocean): keep the web build signed in across restarts by @enyst in https://github.com/OpenHands/OpenHands/pull/18705\n### Bug Fixes\n* fix(automations): render the shipped current_phase on live runs by @aartem1 in https://"
     },
-    "recentActivity": "2026-10-23T17:53:56Z",
+    "recentActivity": "2026-10-25T03:39:24Z",
     "tags": [
       "Agents",
       "AI Coding",
@@ -164,14 +164,14 @@
     "fullName": "BerriAI/litellm",
     "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
     "url": "https://github.com/BerriAI/litellm",
-    "stars": 61936,
+    "stars": 61990,
     "language": "Python",
     "latestRelease": {
-      "tag": "v1.106.2",
-      "date": "2026-10-21T10:50:35Z",
-      "notes": "## Verify Docker Image Signature\n\nAll LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). Every release is signed with the same key introduced in [commit `0112e53`](https://github.com/BerriAI/litellm/commit/0112e53046018d726492c814b3644b7d376029d0).\n\n**Verify using the pinned commit hash (recommended):**\n\nA commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key:\n\n```bash\ncosign verify \\\n  -"
+      "tag": "v1.106.3",
+      "date": "2026-10-24T09:34:13Z",
+      "notes": "> [!IMPORTANT]\n> **The image-signing key has changed.** Starting with this release, every Docker image and Helm chart is signed with the new cosign key from commit [`e82a3c6`](https://github.com/BerriAI/litellm/commit/e82a3c646908ba0a6ee0beddc4310d7a6cac4065). Verifying with the previous key from commit `0112e53` will fail.\n>\n> Update anything that pins the old `cosign.pub`: `cosign verify` scripts, CI checks, and admission policies such as Kyverno, Sigstore policy-controller or Connaisseur.\n>\n>"
     },
-    "recentActivity": "2026-10-24T06:34:29Z",
+    "recentActivity": "2026-10-25T06:16:26Z",
     "tags": [
       "LLMs",
       "Inference",
@@ -184,14 +184,14 @@
     "fullName": "langchain-ai/langgraph",
     "description": "Build resilient agents.",
     "url": "https://github.com/langchain-ai/langgraph",
-    "stars": 43801,
+    "stars": 43849,
     "language": "Python",
     "latestRelease": {
       "tag": "1.2.17",
       "date": "2026-10-24T01:08:05Z",
       "notes": "Changes since 1.2.16\n\n* release(langgraph): 1.2.17 (#9418)\n* fix(langgraph): apply an explicit recursion_limit equal to the default (#9417)\n* fix(langgraph): keep the caller's namespace in RemoteGraph.stream(subgraphs=True) (#9401)\n* chore(deps): remove precautionary third-party upper bounds (#9390)\n* chore(deps): bump certifi from 2026.1.4 to 2026.10.19 in /libs/langgraph (#9375)\n* chore(deps-dev): bump the minor-and-patch group in /libs/prebuilt with 6 updates (#9150)"
     },
-    "recentActivity": "2026-10-24T03:42:31Z",
+    "recentActivity": "2026-10-25T00:50:19Z",
     "tags": [
       "Agents",
       "LLMs",
@@ -204,14 +204,14 @@
     "fullName": "continuedev/continue",
     "description": "open-source coding agent",
     "url": "https://github.com/continuedev/continue",
-    "stars": 36305,
+    "stars": 36315,
     "language": "TypeScript",
     "latestRelease": {
       "tag": "v2.0.0-vscode",
       "date": "2026-06-19T00:24:01Z",
       "notes": ""
     },
-    "recentActivity": "2026-10-22T18:15:55Z",
+    "recentActivity": "2026-10-24T15:39:26Z",
     "tags": [
       "AI Coding",
       "Open Source"
@@ -223,7 +223,7 @@
     "fullName": "meta-llama/llama-models",
     "description": "Utilities intended for use with Llama models.",
     "url": "https://github.com/meta-llama/llama-models",
-    "stars": 7709,
+    "stars": 7710,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.2.0",
