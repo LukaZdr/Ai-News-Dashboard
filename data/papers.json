@@ -1,1 +1,880 @@
-[]
+[
+  {
+    "id": "ad970c041cd0",
+    "title": "Validating the Comparison, Not Just the Scorer: Why Overall Accuracy Can Mislead in Interactive LLM Evaluation",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31678",
+    "abstract": "arXiv:2610.31678v1 Announce Type: new  Abstract: Many LLM studies compare how models respond to different follow-up prompts. For example, one prompt may neutrally ask a model to reconsider, while another insists that an invented film really exists. The difference is used to measure the effect of conversational pressure. An automatic scorer then labels whether each response makes an unsupported factual claim. Researchers commonly validate the scorer with one overall accuracy or $F_1$ score. Howev",
+    "tags": [
+      "LLMs",
+      "Research",
+      "Business",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "68547aeb998c",
+    "title": "MisconceptDialogue: Evaluation Criteria Shape Measured Success in LLM Math Tutoring",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31679",
+    "abstract": "arXiv:2610.31679v1 Announce Type: new  Abstract: Large language models are increasingly used as math tutors, raising two questions: can a single LLM detect a student's error, diagnose the underlying misconception, and remediate it through multi-turn dialogue - and can we trust the numbers that report how well it does? We address both with MISCONCEPTDIALOGUE, a fully automated framework that runs the full pipeline on five open-weight LLM tutors (7B-14B) interacting with LLM-simulated students ove",
+    "tags": [
+      "LLMs",
+      "Research",
+      "Business",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "938f28bab335",
+    "title": "Rethinking Structured Generation: Can Graph-Based Reasoning Resolve Ambiguity?",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31681",
+    "abstract": "arXiv:2610.31681v1 Announce Type: new  Abstract: Structured generation is typically formulated as a deterministic mapping from input to a single structured output. This assumption is fundamentally misaligned with natural language, which often admits multiple structurally distinct yet semantically valid interpretations. As a result, existing methods rely on single-reference supervision that collapses ambiguity into one prediction, leading to unstable and inconsistent outputs under underspecified ",
+    "tags": [
+      "Reasoning",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "de1031339df8",
+    "title": "Multi modal perceived conversation success prediction for spontaneous autistic and non-autistic dyadic interactions",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31682",
+    "abstract": "arXiv:2610.31682v1 Announce Type: new  Abstract: Conversation success is important for communication, social bonds, and well-being and is often reduced in autistic-neurotypical conversations. Previous studies have predicted perceived conversation success using acoustic and lexical features in pediatric autism-enriched samples, or using nonverbal behavior in non-autistic group interactions. Other work has characterized prosodic, facial, motor, and turn-taking synchrony in autistic interactions, b",
+    "tags": [
+      "Open Source",
+      "Research",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "63ce3870cb36",
+    "title": "The Schema Coherence Inventory: Measuring Whether an Assigned Belief Organizes a Language Model's Cognition",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31683",
+    "abstract": "arXiv:2610.31683v1 Announce Type: new  Abstract: Persona-conditioned language models are used as simulated patients and affective agents, but there is no validated way to ask whether a belief assigned to such a model organizes its behaviour or whether the model has merely adopted a mood. We present the Schema Coherence Inventory (SCI): 96 forced-choice items at eight levels of Beck's cognitive model, each offering six replies keyed to three negative self-schemas and their positive counterparts, ",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "4e3cddeaac16",
+    "title": "Knowledge Graphs Quality Assessment in the Era of LLMs: A Conceptual Framework",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31684",
+    "abstract": "arXiv:2610.31684v1 Announce Type: new  Abstract: Knowledge Graphs (KGs) have been popularized during the last few decades and are increasingly constructed and consumed by Large Language Models (LLMs). Various applications therefore rely on KGs to provide concise, complete, accurate, faithful, fresh, and traceable answers. However, what is the quality of those KGs? In which cases should a KG be used, and can it be trusted to ground an LLM? How might it be evaluated? We reviewed the literature on ",
+    "tags": [
+      "LLMs",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "1b15f401c690",
+    "title": "An Agentic Approach with Evidence-Grounded Verification for Multimodal Emotion Reasoning in Conversation",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31685",
+    "abstract": "arXiv:2610.31685v1 Announce Type: new  Abstract: LLM-based multimodal emotion reasoning systems perform well on standard benchmarks, but improving them through instruction tuning can be computationally expensive. Agentic pipelines built from frozen models avoid this cost, but introduce a different challenge: when a prediction is wrong, the system must identify which agent or stage caused the error. We address this problem with an agentic framework for traceable multimodal emotion reasoning and p",
+    "tags": [
+      "Agents",
+      "Reasoning",
+      "LLMs",
+      "Computer Vision",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "f72b02e60b1c",
+    "title": "From Target Selection to Condition Reuse: Auditing Residual Interventions in Tool-Use Models",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31686",
+    "abstract": "arXiv:2610.31686v1 Announce Type: new  Abstract: Activation interventions can make a language model produce a target answer, but can the model use the intended condition in other computations? We study this question in Qwen3.5-27B on tool-use tasks where time or permissions determine eligibility and selection. Across 32 fresh worlds, two case-specific residual-writing variants raise familiar target-selection correctness from 35/128 to 119/128 and from 33/128 to 114/128. Yet these gains disappear",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "9b9168dd43ce",
+    "title": "Distributional Alignment of LLMs and Its Generalization Properties",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31687",
+    "abstract": "arXiv:2610.31687v1 Announce Type: new  Abstract: Large language models are increasingly used to simulate and probe human behavior, e.g., for surveys. For these applications, a key property is that outputs satisfy distributional alignment: to match its output distribution with some reference (in this case, human) distribution. An obstacle in achieving distributional alignment is generalizing from small training data. In this work, we study (1) how to distributionally align LLMs; and (2) how align",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "39d0d7e665e9",
+    "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31701",
+    "abstract": "arXiv:2610.31701v1 Announce Type: new  Abstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market (GTM) organizations, territory carving determines which accounts receive seller coverage, which seller-account relationships are preserved, and how limited field capacity is distributed. Yet the process often remains manual, making it difficult to compare opportunities, value continuity, an",
+    "tags": [
+      "Research",
+      "Business",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "b846bbe1bd90",
+    "title": "Collaborative In-Context Learning for Indoor Radio Map Estimation",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31702",
+    "abstract": "arXiv:2610.31702v1 Announce Type: new  Abstract: Indoor radio map estimation (RME) is essential for wireless applications such as coverage planning, localization, and network deployment. However, most existing methods follow a supervised learning paradigm that requires costly labeled data and task-specific model training. Moreover, indoor environments involve privacy-sensitive information, such as building layouts and structures, that often cannot be centralized. To address these challenges, we ",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "1988ee26f716",
+    "title": "The Path to NDE 4.0: A Review of Algorithms, Techniques, and Strategies for Autonomous Inspection",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31704",
+    "abstract": "arXiv:2610.31704v1 Announce Type: new  Abstract: Non-Destructive Inspection (NDI) is a cornerstone of modern quality assurance, critical for ensuring the safety and reliability of infrastructure and manufactured components without causing damage. This paper presents a comprehensive review of the current NDI landscape, analyzing the field through four distinct lenses, namely, computational algorithms, physical techniques, industrial applications, and research objectives. We synthesize a broad ran",
+    "tags": [
+      "Computer Vision",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "08d5d0860854",
+    "title": "Does LeWorldModel Preserve Local Action Geometry?",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31716",
+    "abstract": "arXiv:2610.31716v1 Announce Type: new  Abstract: We examine how closely pretrained LeWorldModel (LeWM) reproduces the effects of small action changes. Using matched simulator and model responses, we measure action sensitivity with Gram matrices at three perturbation scales. Across nearly a thousand states from Reacher and OGBench Cube, the most sensitive action directions differ by median angles of about $36^\\circ$ and $42^\\circ$, respectively, at the smallest scale. Increasing the perturbation ",
+    "tags": [
+      "Open Source",
+      "Research",
+      "Business",
+      "RL",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "d09bb77529a3",
+    "title": "Towards Adversarially Robust Multigraph Neural Networks for Financial Crime Analysis",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31718",
+    "abstract": "arXiv:2610.31718v1 Announce Type: new  Abstract: Financial transaction networks are naturally represented as multigraphs, where repeated transactions between the same pair of accounts are modeled as distinct edges. Recently proposed multigraph neural network architectures leverage this structure explicitly to achieve a strong performance on anti-money laundering (AML) tasks. However, their robustness to adversaries that manipulate transaction structures to evade detection remains largely unexplo",
+    "tags": [
+      "Research",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "299a43ad02a4",
+    "title": "End-to-End Differentiable Diffusion Conditioning for Physics-Informed Optimization",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31721",
+    "abstract": "arXiv:2610.31721v1 Announce Type: new  Abstract: Optimizing high-dimensional physical systems under expensive evaluations and complex constraints is a central challenge in science and engineering. In offline model-based optimization (MBO), methods must improve designs using only a fixed dataset and no test-time access to the true objective. However, existing methods typically suffer from conservatism, unconstrained surrogate exploitation, or function as static inference-time samplers that cannot",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL",
+      "Inference",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "ac44d1c6b512",
+    "title": "Autoregressive Multimodal Anomaly Detection with Large Language Models for Microservice Systems",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31722",
+    "abstract": "arXiv:2610.31722v1 Announce Type: new  Abstract: Microservice systems have become a dominant architecture for large-scale cloud applications, enabling rapid deployment and elastic scaling. However, ensuring the reliability and availability of microservice systems critically relies on effective anomaly detection, as failures and performance anomalies can quickly propagate across services and severely impact end-to-end system behavior. Existing multimodal anomaly detection approaches for microserv",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "75ff513ec5e7",
+    "title": "LAMB: A Modern Contextual Language Model for Latin",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31723",
+    "abstract": "arXiv:2610.31723v1 Announce Type: new  Abstract: This article introduces Latin Modern BERT (LAMB), an encoder for the Latin language based on the ModernBERT architecture, pretrained in two phases on more than 74B Latin tokens using a novel morphologically informed masking regimen. We also present two corpora for the Latin language. Acervus contains 24B BERT WordPiece tokens, including over 760K samples from heavily damaged OCR transcriptions, repaired by a ByT5 model trained for Latin text repai",
+    "tags": [
+      "LLMs",
+      "Research",
+      "Business"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "e61a156e80c0",
+    "title": "Cognitively Constrained Partners for Zero-Shot Coordination in Real-Time Partitioned Control",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31726",
+    "abstract": "arXiv:2610.31726v1 Announce Type: new  Abstract: Effective human-machine teaming requires agents that coordinate with unpredictable human partners. Reinforcement learning from live human feedback or large behavioural datasets is expensive, while purely simulated training overfits to artificial conventions and fails at Zero-Shot Coordination with real people. We propose a framework for training teaming agents against Cognitively Constrained Partners: simulated partners whose diversity emerges fro",
+    "tags": [
+      "Agents",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "6164fdfffb36",
+    "title": "When and How Does Muon Precondition? The Role of Structured Gradient Noise",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31728",
+    "abstract": "arXiv:2610.31728v1 Announce Type: new  Abstract: Muon has become a popular optimizer for large language model training, yet its theoretical foundations remain poorly understood. In this work, we study how gradient noise geometry shapes Muon's preconditioning benefits. We first show, theoretically and empirically, that under the classical isotropic noise assumption, Muon offers no acceleration beyond a rescaling of the learning rate. This motivates us to investigate structured noise arising from ",
+    "tags": [
+      "LLMs",
+      "Research",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "bac9c142a9de",
+    "title": "ConsMSA: Semantic Distribution Consistency Learning for Multimodal Sentiment Analysis",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31731",
+    "abstract": "arXiv:2610.31731v1 Announce Type: new  Abstract: Multimodal sentiment analysis (MSA) aims to predict human sentiments by integrating signals from different modalities such as text, video, and audio. However, raw multimodal sequences often suffer from semantic inconsistency--exhibiting redundancy or conflicts within and across modalities--which hinders robust understanding and increases computational cost. To this end, we introduce ConsMSA, which explicitly formalizes semantic distribution consis",
+    "tags": [
+      "Open Source",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "1a107a2568d0",
+    "title": "Learning to Be Monitored: Causal Bounds and Intervention-Aware Post-Training Recipes for Chain-of-Thought Monitorability",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31733",
+    "abstract": "arXiv:2610.31733v1 Announce Type: new  Abstract: Chain-of-thought (CoT) monitoring aims to detect potentially harmful behaviors in large language models (LLMs) from their CoTs. Intervention-based evaluations measure this property by asking whether a monitor can detect the role of an intervention from the CoT when the targeted behavior occurs, typically using minimal-criterion sensitivity ($\\mathsf{TPR_{mc}}$) proposed by~\\citep{guan2025monitoring}. However, a target behavior observed under inter",
+    "tags": [
+      "Reasoning",
+      "LLMs",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL",
+      "Synthetic Data"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "9154528e26a5",
+    "title": "DirCast: Live Esports Directing and Commentary with a Single Streaming Video-Language Model",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31734",
+    "abstract": "arXiv:2610.31734v1 Announce Type: new  Abstract: A live esports broadcast needs a director who chooses which camera goes on air and a caster who talks over that choice, every second and without knowing what comes next. Streaming video language models have learned to commentate, but only over a broadcast that a human director has already produced. We study live broadcast production, in which a model receives the raw camera of every player and must both direct and commentate from the past alone. W",
+    "tags": [
+      "LLMs",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "7919e786d61c",
+    "title": "AudioLift: Audio-Driven Single Image to Full-Head Gaussian Avatar via Multi-view Video Generation",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31747",
+    "abstract": "arXiv:2610.31747v1 Announce Type: new  Abstract: Existing 3D talking avatar methods mainly rely on parametric face models including 3DMM or FLAME, whose compact motion representations limit their ability to synthesize extreme expressions and to model accessories such as headwear. We introduce AudioLift, a two-stage framework that uses generated multi-view videos as the intermediate representation for audio-driven avatar generation without parametric face models or per-instance optimization. Our ",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Video Models"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "95e2588284e6",
+    "title": "SyncVid: World-Equivariant Diffusion for Synchronized Video Generation",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31765",
+    "abstract": "arXiv:2610.31765v1 Announce Type: new  Abstract: Generating multiple videos of a dynamic scene from a single reference video requires synthesizing both observed and unobserved content consistently across viewpoints. Existing camera-control methods for video diffusion typically rely on architectural mechanisms, including camera embeddings, cross-view attention, and geometric conditioning. Although effective for static scene content, these approaches often struggle with the fine-grained, dynamic g",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL",
+      "Video Models",
+      "Inference",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "3650dee53eb7",
+    "title": "Efficient Omni-modal Large Language Model Inference via Per-Query Modality Selection",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31768",
+    "abstract": "arXiv:2610.31768v1 Announce Type: new  Abstract: Omni-modal large language models (Omni-LLMs) can jointly process a broad range of modalities, such as text, audio, and video, enabling stronger multimodal understanding and reasoning capabilities, but often at substantial inference cost. We observe that the benefit of additional modalities varies across queries, indicating that a fixed modality configuration can be inefficient. Motivated by this, we study query-wise modality selection, which keeps",
+    "tags": [
+      "Reasoning",
+      "LLMs",
+      "Open Source",
+      "Research",
+      "RL",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "dec0b2135837",
+    "title": "Benchmarks Are Surprisingly Compaction-Friendly",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31778",
+    "abstract": "arXiv:2610.31778v1 Announce Type: new  Abstract: Long horizon agentic tasks are now pushing LLM agents past their context window. To continue the task, the agent scaffold has to free up the context window, a process known as context compaction. Compaction is generally lossy by design: agents can silently lose task constraints, instructions, or their reasoning behind earlier decisions. Although compaction is a standard component of coding agent scaffolds, it has not been studied systematically wi",
+    "tags": [
+      "Agents",
+      "Reasoning",
+      "LLMs",
+      "AI Coding",
+      "Open Source",
+      "Research",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "b3c6c1ce65c0",
+    "title": "Not All Retained Clients Are Equal: Client Selection for Federated Unlearning",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31786",
+    "abstract": "arXiv:2610.31786v1 Announce Type: new  Abstract: Federated unlearning (FU) aims to remove a designated target client's influence from a trained model without the prohibitive cost of retraining from scratch. Existing methods largely treat unlearning as a post-hoc, stateless operation, overlooking that client influence is path-dependent: contributions made during training, particularly during critical learning periods (CLPs), can have disproportionate and persistent effects. Moreover, knowledge ov",
+    "tags": [
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "4f31e5253538",
+    "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31789",
+    "abstract": "arXiv:2610.31789v1 Announce Type: new  Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding harness, which typically relies on manually written skills and curated memory. This limits autonomous learning, forcing agents to repeatedly rediscover solutions rather than retain and reuse knowledge from prior execut",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Open Source",
+      "Research",
+      "MCP",
+      "Memory"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "939846744a94",
+    "title": "PaperScorer: How Predictable Is Paper Acceptance?",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31791",
+    "abstract": "arXiv:2610.31791v1 Announce Type: new  Abstract: Automated research is largely evaluated by benchmark performance, but the value of research rarely reduces to a single score. Humans judge a work's holistic contribution through peer review, which is hard to model because it is noisy and depends on many factors. However, what if, given only the paper, we could predict its peer-review decision directly? We introduce PaperScorer, a family of models that predict a paper's accept or reject decision fr",
+    "tags": [
+      "Reasoning",
+      "Computer Vision",
+      "Research",
+      "Business"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "6d266821aa80",
+    "title": "PnP*: A certifiable solver for Perspective-n-Point",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31797",
+    "abstract": "arXiv:2610.31797v1 Announce Type: new  Abstract: Estimating a camera pose from 3D-2D correspondences - Perspective-n-Point - is one of the most fundamental problems in computer vision. Existing methods either solve a minimal problem or replace the objective with an easier one. Surprisingly, no scalable certifiable solver for the actual Maximum Likelihood Estimation (MLE) exists. We propose PnP*, the first practical solver that guarantees efficient computation and returns a certifiable globally o",
+    "tags": [
+      "Computer Vision",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "5dd95c788e6f",
+    "title": "StackGen3D: Stable 3D Block Stack Generation from Multiview Silhouettes",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31803",
+    "abstract": "arXiv:2610.31803v1 Announce Type: new  Abstract: Generating physically stable 3D structures from visual specifications requires resolving geometric ambiguity while accounting for physical interactions among objects. We present StackGen3D, a framework for generating stable block assemblies conditioned on a given block inventory and three orthographic silhouettes. Our approach consists of two stages. First, we develop a physics-informed graph neural network (PI-GNN) that models support relations b",
+    "tags": [
+      "Reasoning",
+      "Computer Vision",
+      "Research",
+      "RL",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "aef5bed17e96",
+    "title": "Patronizing and Condescending Language Detection in English and Mandarin",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31808",
+    "abstract": "arXiv:2610.31808v1 Announce Type: new  Abstract: Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes. However, unlike overt hate speech, it is often difficult to detect, even for human judges. This paper proposes a system for the automated detection of PCL. Our first approach uses static word embeddings and a convolutional neural network for classification, while our second app",
+    "tags": [
+      "Research",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "521c1047abcb",
+    "title": "CuraLoc: Repository-Level Fault Localization via Planned Code Inspection",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31809",
+    "abstract": "arXiv:2610.31809v1 Announce Type: new  Abstract: A bug report describes what went wrong, but rarely where the code should change. Existing repository-level localization methods often let language models iteratively decide what code to inspect next, requiring repeated model calls and substantial token usage. We investigate whether these inspection decisions can instead be planned before source retrieval. In this research, we introduce CuraLoc, which first selects candidate files and represents th",
+    "tags": [
+      "Agents",
+      "Reasoning",
+      "LLMs",
+      "Research",
+      "RL",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "fe7e26da4208",
+    "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31810",
+    "abstract": "arXiv:2610.31810v1 Announce Type: new  Abstract: Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find and close such gaps in their own papers and turn each paper into a Lean-verified version. Starting from the LaTeX source, PaperFormalizer transcribes the paper into a dependency graph of statements, audits each statement in natural language for faithfulness, ambiguity and",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "AI Coding",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "787675b6fe00",
+    "title": "Nested Sparsity for Scalable Pretraining and Continual Learning",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31818",
+    "abstract": "arXiv:2610.31818v1 Announce Type: new  Abstract: Mixture-of-experts (MoE) transformers, the standard backbone for modern large-scale deep learning, employ conditional computation: only a sparse subset of model weights is used in each forward pass. In MoE transformers, this sparsity arises in the MoE operator, which generalizes the multi-layer perceptron in the classical transformer. In this work, we explore an alternative mechanism for conditional computation that analogously generalizes the att",
+    "tags": [
+      "LLMs",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "aed99e29500c",
+    "title": "Speculative Diffusion is a Tale of Two Tradeoffs",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31819",
+    "abstract": "arXiv:2610.31819v1 Announce Type: new  Abstract: Speculative decoding is a technique that accelerates the inference speed of autoregressive large language models (LLMs) by sampling from a faster, lower quality draft model. Traditionally, a fundamental characteristic of speculative decoding is that it is lossless with respect to the verifier distribution, guaranteeing speed without sacrificing quality. This differs from recently developed diffusion LLMs (dLLMs), which are notably able to achieve ",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "AI Coding",
+      "Open Source",
+      "Research",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "9696725c960c",
+    "title": "Free Lunch for LLMs Confidence: The RL Critic Already Knows",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31820",
+    "abstract": "arXiv:2610.31820v1 Announce Type: new  Abstract: Reliable confidence estimation is essential for trustworthy deployment of large language models (LLMs), but dedicated confidence training stage requires additional data and compute. We ask a fundamental question: what prediction problem does confidence training actually solve? Inspired by prior work on external confidence estimation, we compare self- and external estimators of comparable capacity trained on the same (question, response, correctnes",
+    "tags": [
+      "Reasoning",
+      "LLMs",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "696641a558fc",
+    "title": "What the Query Remembers: Query Abstraction Governs Lexical and Dense Retrieval of Classical Arabic Poetry",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31821",
+    "abstract": "arXiv:2610.31821v1 Announce Type: new  Abstract: How well a poetry archive can be searched depends on what the user still remembers, not only on what the model understands. We show this for Classical Arabic poetry, benchmarking nine dense encoders and BM25 over two corpora, three indexing modes and two evaluation protocols. Which retriever wins is governed by how much of a poem's wording the query still carries. On tip-of-the-tongue queries BM25 leads every dense encoder, including an 8B state-o",
+    "tags": [
+      "Research",
+      "Business",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "77605c914014",
+    "title": "Latent Coherence: Do Frontier Language Models' Probability Judgments Obey the Law of Total Probability?",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31833",
+    "abstract": "arXiv:2610.31833v1 Announce Type: new  Abstract: LawZero's Scientist AI trains a Predictor toward the Bayesian posterior, with an objective that penalizes inconsistent probabilities among latent explanations. We ask whether current frontier language models, with no such training, are already consistent in this sense zero-shot: do their probability judgments satisfy the law of total probability, $P(X)=\\sum_z P(z)P(X|z)$, when the latent $z$ must be inferred from records in the context? In separat",
+    "tags": [
+      "Reasoning",
+      "LLMs",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "e9f3ccf4af56",
+    "title": "SAGE: A hybrid vision-language and geometry framework for work-zone pathway prediction under temporary traffic control",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31835",
+    "abstract": "arXiv:2610.31835v1 Announce Type: new  Abstract: Temporary traffic control redirects vehicles through work zones, requiring automated vehicles to connect an interpretation of the visible devices to a continuous passing path. Geometric predictors can provide several plausible paths, yet selecting the one consistent with the temporary control remains difficult. We propose SAGE (Semantic-to-Action Grounded Execution), a read-decide-execute-check framework that separates path construction, path pref",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "Research",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "15f8a8cac12b",
+    "title": "SAGE: Sense-Aligned Multimodal Grounding Evaluation with Gloss-Augmented Reasoning",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31838",
+    "abstract": "arXiv:2610.31838v1 Announce Type: new  Abstract: This paper introduces Sense-Aligned Grounding Evaluation (SAGE), a unified 10-candidate image-selection benchmark that reformulates VWSD, VerSe, and WikiDiverse into a shared term-centric protocol covering noun-, verb-, and entity-centered grounding. SAGE includes confusable hard negatives and a context-swapped VerSe diagnostic to probe target-term grounding beyond direct caption--image compatibility. We further propose Gloss-Augmented Reasoning (",
+    "tags": [
+      "Reasoning",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "e3816f7bff55",
+    "title": "SPECMEM: Accelerating Agentic Tool Calling via Live Memory Management",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31840",
+    "abstract": "arXiv:2610.31840v1 Announce Type: new  Abstract: Tool-calling agents are mostly optimized for accuracy; in deployment, however, their growing cost is latency: every tool call is decoded autoregressively. Speculative decoding accelerates this without changing the output, and retrieved past calls make strong drafts under real use, where each user's behavior tends to repeat. Yet existing systems keep no cross-session memory, or build the draft store once and never update it. We propose SpecMem, a t",
+    "tags": [
+      "Agents",
+      "AI Coding",
+      "Open Source",
+      "Research",
+      "Inference",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "544e1d2e80bf",
+    "title": "Scaling cross-situational word learning on children's naturalistic experiences",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31842",
+    "abstract": "arXiv:2610.31842v1 Announce Type: new  Abstract: How do children learn the meanings of the simple, concrete words that form a majority of their early vocabulary? Statistical information about many word meanings can be recovered from the gradual accumulation of information about the co-occurrence of words with their referents, a proposal known as ``cross-situational learning''. Contrastive vision--language models allow this learning strategy to be tested on egocentric video data capturing childre",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "277e9d65b1b0",
+    "title": "Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31846",
+    "abstract": "arXiv:2610.31846v1 Announce Type: new  Abstract: Intelligent agents should learn from their mistakes so that experience leads to continuous improvement. Yet today's agents recover from a mistake only temporarily: in-context reflections are easily forgotten across sessions and compete for limited context, while full-parameter fine-tuning is expensive and can interfere with existing capabilities. We introduce Self-Direction, a mechanism for agents to learn from mistakes that combines the benefits ",
+    "tags": [
+      "Agents",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "3db388f64a76",
+    "title": "IFC-SSL-Bench: Benchmarking Self-Supervised Learning for Annotation-Efficient Multispectral Imaging Flow Cytometry",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31848",
+    "abstract": "arXiv:2610.31848v1 Announce Type: new  Abstract: Imaging Flow Cytometry (IFC) generates large multispectral datasets, yet the need for expert annotations bottlenecks the development of supervised deep learning models. While Self-Supervised Learning (SSL) offers a solution, its application to IFC remains fragmented and lacks systematic benchmarking. To address this, we present IFC-SSL-Bench, a modular framework for evaluating SSL in IFC. We benchmark six SSL approaches across four backbones on tw",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "4b31bc09fbeb",
+    "title": "Rethinking Multi-View Fusion for Urban Representation Learning",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31850",
+    "abstract": "arXiv:2610.31850v1 Announce Type: new  Abstract: Urban region representation learning encodes heterogeneous urban signals, such as mobility flows, points of interest, and land-use patterns, into unified embeddings for downstream tasks, including check-in prediction, crime forecasting, and service demand estimation. Existing approaches rely on globally shared fusion and joint optimization, implicitly assuming uniform modality importance and naturally balanced multi-objective training. However, ur",
+    "tags": [
+      "Reasoning",
+      "Open Source",
+      "Research",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "57b3d6cfe919",
+    "title": "Cautious Conflict-Free Inverse Gradient Methods",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31855",
+    "abstract": "arXiv:2610.31855v1 Announce Type: new  Abstract: Partial differential equations (PDEs) are indispensable tools for modeling complex phenomena in physics and engineering. Physics-Informed Neural Networks (PINNs) have emerged as a powerful alternative to traditional numerical solvers by directly incorporating physical constraints into neural network loss functions. Despite their advantages, PINN training requires multi-objective optimization, which often leads to significant gradient conflicts amo",
+    "tags": [
+      "Open Source",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "7cc91e910549",
+    "title": "Aligning Large Language Models with Human Feedback: Mathematical Foundations and Algorithm Design",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31862",
+    "abstract": "arXiv:2610.31862v1 Announce Type: new  Abstract: This article provides an introduction to the mathematical foundations and algorithmic frameworks used to align Large Language Models (LLMs) with human intentions, preferences, and values. We discuss standard alignment techniques, such as fine-tuning (SFT), reinforcement learning with human feedback (RLHF), and direct preference optimization (DPO). We also explore the theoretical underpinnings of learning from human preferences, drawing connections",
+    "tags": [
+      "LLMs",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "d2ca996c1e21",
+    "title": "Machine-Readable Operator Manuals over the ISO 11783 Network for Offline, Multilingual LLM Assistance",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31863",
+    "abstract": "arXiv:2610.31863v1 Announce Type: new  Abstract: If agricultural machinery is to support intelligent, offline assistance, then the system must access technical documentation dynamically. In this paper, the Semantic Synchronization of operator manuals over ISO 11783-based CAN buses is analyzed, defined as the process that brings the local knowledge base of a tractor-side assistant into agreement with the operator manual of the connected implement. Data transfer performance was benchmarked using M",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL",
+      "Inference",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "c032879c0b4c",
+    "title": "Rewriting Scaling Laws for Synthetic Data with Compute and Data Constraints",
+    "authors": [],
+    "date": "2026-10-26T00:00:00-04:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31867",
+    "abstract": "arXiv:2610.31867v1 Announce Type: new  Abstract: Synthetic rewrites, where a language model rewrites a natural document e.g. into a target style, are now a standard ingredient of pretraining corpora. However, critical aspects of their use remain poorly understood, such as how much compute should be spent rewriting training data and whether a model trained on rewrites can outperform the rewriter. We study these two questions by proposing a rewriting scaling law that predicts loss from model size,",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research",
+      "RL",
+      "Synthetic Data"
+    ],
+    "importance": 5,
+    "novelty": 5
+  }
+]

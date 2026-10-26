@@ -1,15 +1,25 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "topics": [
     {
-      "topic": "Agents",
-      "frequency": 9,
-      "growth": "rising",
-      "relatedPaperIds": [],
+      "topic": "agents",
+      "frequency": 17,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "63ce3870cb36",
+        "1b15f401c690",
+        "e61a156e80c0",
+        "dec0b2135837",
+        "4f31e5253538",
+        "521c1047abcb",
+        "fe7e26da4208",
+        "e3816f7bff55",
+        "277e9d65b1b0"
+      ],
       "relatedVideoIds": [
+        "4dfb8d01d9c8",
         "5552291078b9",
-        "cd9c8c88a3bd",
-        "79fc07e65d2b"
+        "cd9c8c88a3bd"
       ],
       "relatedNewsIds": [],
       "relatedRepoIds": [
@@ -18,16 +28,24 @@
         "1941bc8214c6"
       ],
       "relatedNewsletterIds": [
-        "cfbc211d7f15",
-        "803e7599b9fd",
-        "8018e79a26fe"
+        "aea2de72630f",
+        "cfbc211d7f15"
       ]
     },
     {
       "topic": "Inference",
-      "frequency": 8,
+      "frequency": 16,
       "growth": "stable",
-      "relatedPaperIds": [],
+      "relatedPaperIds": [
+        "938f28bab335",
+        "299a43ad02a4",
+        "95e2588284e6",
+        "3650dee53eb7",
+        "5dd95c788e6f",
+        "aed99e29500c",
+        "e3816f7bff55",
+        "d2ca996c1e21"
+      ],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
       "relatedRepoIds": [
@@ -39,9 +57,23 @@
         "68b1fb9303ec"
       ],
       "relatedNewsletterIds": [
-        "cfbc211d7f15",
-        "8018e79a26fe"
+        "aea2de72630f",
+        "cfbc211d7f15"
       ]
+    },
+    {
+      "topic": "Muon",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "6164fdfffb36"
+      ],
+      "relatedVideoIds": [
+        "5552291078b9"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
     },
     {
       "topic": "Underrated Breakthrough",
@@ -70,7 +102,7 @@
     {
       "topic": "llama",
       "frequency": 2,
-      "growth": "rising",
+      "growth": "stable",
       "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
@@ -78,18 +110,6 @@
         "14df74d3bb6b",
         "052e3a92e72b"
       ],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Muon",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "5552291078b9"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
       "relatedNewsletterIds": []
     },
     {
@@ -105,42 +125,42 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "continue open-source",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "233a4f836599"
-      ],
-      "relatedNewsletterIds": []
-    },
-    {
       "topic": "continue",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "233a4f836599"
-      ],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "open-source",
       "frequency": 2,
       "growth": "rising",
+      "relatedPaperIds": [
+        "dec0b2135837"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "continue open-source",
+      "frequency": 1,
+      "growth": "stable",
       "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
       "relatedRepoIds": [
         "233a4f836599"
       ],
-      "relatedNewsletterIds": [
-        "a4a57d5a41c6"
-      ]
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "OpenHands",
+      "frequency": 1,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "6d558ac6ba23"
+      ],
+      "relatedNewsletterIds": []
     }
   ]
 }

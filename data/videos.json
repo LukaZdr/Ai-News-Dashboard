@@ -1,5 +1,39 @@
 [
   {
+    "id": "81b50816d477",
+    "title": "Sphere Intersection Puzzle Corrected",
+    "channel": "3Blue1Brown",
+    "channelId": "UCYO_jab_esuFRV4b17AJtAw",
+    "date": "2026-10-25T14:30:46Z",
+    "duration": "0:46",
+    "thumbnail": "https://i.ytimg.com/vi/V_uq3v6xK-4/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=V_uq3v6xK-4",
+    "description": "Part of a series of monthly puzzles Early view of some other solutions: ...",
+    "viewCount": 82661,
+    "tags": [
+      "RL"
+    ],
+    "relevanceScore": 8.7
+  },
+  {
+    "id": "4dfb8d01d9c8",
+    "title": "Kimi K3.1 Pro and Opus 5.5 Made the Same 13 Apps (Raw Results)",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-25T13:00:11Z",
+    "duration": "23:46",
+    "thumbnail": "https://i.ytimg.com/vi/_XXX5K-EMoc/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=_XXX5K-EMoc",
+    "description": "Kimi K3.1 Pro vs Claude Opus 5.5 on 13 long-horizon agentic coding tasks. Both models ran in the same Claude Code harness, ...",
+    "viewCount": 40516,
+    "tags": [
+      "Agents",
+      "LLMs",
+      "AI Coding"
+    ],
+    "relevanceScore": 6.8
+  },
+  {
     "id": "5552291078b9",
     "title": "Muon: The Most Underrated Breakthrough in LLMs",
     "channel": "bycloud",
@@ -9,12 +43,12 @@
     "thumbnail": "https://i.ytimg.com/vi/VAQHsKS9fxY/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=VAQHsKS9fxY",
     "description": "Try out Solid, agents with their own computers, accounts, and budgets: https://solid.tech/bycloud For over a decade, AdamW has ...",
-    "viewCount": 64426,
+    "viewCount": 83840,
     "tags": [
       "Agents",
       "LLMs"
     ],
-    "relevanceScore": 7.9
+    "relevanceScore": 6.2
   },
   {
     "id": "cd9c8c88a3bd",
@@ -26,40 +60,10 @@
     "thumbnail": "https://i.ytimg.com/vi/pW2ktrJlsyE/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=pW2ktrJlsyE",
     "description": "Harness² is a research framework from Google Cloud AI Research and Northwestern University that lets an AI agent rewrite its ...",
-    "viewCount": 37513,
+    "viewCount": 70535,
     "tags": [
       "Agents"
     ],
-    "relevanceScore": 6.8
-  },
-  {
-    "id": "79fc07e65d2b",
-    "title": "The most vulnerable week in internet history...",
-    "channel": "Fireship",
-    "channelId": "UCsBjURrPoezykLs9EqgamOA",
-    "date": "2026-10-23T18:19:58Z",
-    "duration": "6:04",
-    "thumbnail": "https://i.ytimg.com/vi/SMGg7iisHmc/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=SMGg7iisHmc",
-    "description": "Semgrep Guardian catches the risky code and packages your agent introduces. Try it free for 60 days: ...",
-    "viewCount": 1355512,
-    "tags": [
-      "Agents"
-    ],
-    "relevanceScore": 6.4
-  },
-  {
-    "id": "96425cbf5f45",
-    "title": "Kimi K3.1 Pro: Open Weights, Almost Opus",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-23T18:06:19Z",
-    "duration": "1:23",
-    "thumbnail": "https://i.ytimg.com/vi/zgluzf-zjhI/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=zgluzf-zjhI",
-    "description": "Moonshot just released Kimi K3.1 Pro, an open-weight mixture of experts model with 2.8 trillion total parameters, about 104 billion ...",
-    "viewCount": 35382,
-    "tags": [],
-    "relevanceScore": 5.4
+    "relevanceScore": 5.3
   }
 ]
