@@ -1,50 +1,75 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "topics": [
     {
-      "topic": "agents",
-      "frequency": 17,
-      "growth": "stable",
-      "relatedPaperIds": [
-        "63ce3870cb36",
-        "1b15f401c690",
-        "e61a156e80c0",
-        "dec0b2135837",
-        "4f31e5253538",
-        "521c1047abcb",
-        "fe7e26da4208",
-        "e3816f7bff55",
-        "277e9d65b1b0"
-      ],
+      "topic": "Happen",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
       "relatedVideoIds": [
-        "4dfb8d01d9c8",
-        "5552291078b9",
-        "cd9c8c88a3bd"
+        "70a652742f04"
       ],
       "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Agents",
+      "frequency": 23,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "91fe782f087e",
+        "67dde3e2c4ae",
+        "756d818a96ca",
+        "9f979d614a01",
+        "d19b7ec7e444",
+        "efa99f8039fe",
+        "1c467037e6ab",
+        "982fc46fc5c8",
+        "cd01d3f3967f",
+        "446d72e020d2",
+        "f0b05067b0fa",
+        "f6f8c8e2b1e5",
+        "561058bee6c7",
+        "e595492d3f30"
+      ],
+      "relatedVideoIds": [
+        "b60e7bf81c43",
+        "c48098e04afa",
+        "17ea0de918c8",
+        "4dfb8d01d9c8"
+      ],
+      "relatedNewsIds": [
+        "6432ddc0e1ca"
+      ],
       "relatedRepoIds": [
         "83b96e936faf",
         "6d558ac6ba23",
         "1941bc8214c6"
       ],
       "relatedNewsletterIds": [
-        "aea2de72630f",
-        "cfbc211d7f15"
+        "aea2de72630f"
       ]
     },
     {
       "topic": "Inference",
-      "frequency": 16,
+      "frequency": 21,
       "growth": "stable",
       "relatedPaperIds": [
-        "938f28bab335",
-        "299a43ad02a4",
-        "95e2588284e6",
-        "3650dee53eb7",
-        "5dd95c788e6f",
-        "aed99e29500c",
-        "e3816f7bff55",
-        "d2ca996c1e21"
+        "91fe782f087e",
+        "3effe3640e7c",
+        "964e2151916e",
+        "9f979d614a01",
+        "71a9f03c0a48",
+        "d19b7ec7e444",
+        "0e7414286226",
+        "1c467037e6ab",
+        "f0b05067b0fa",
+        "210c7af7cc7b",
+        "8af37d8426dc",
+        "14dbeb470f36",
+        "4e920c2462b2",
+        "f15712b6dc70"
       ],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
@@ -57,52 +82,13 @@
         "68b1fb9303ec"
       ],
       "relatedNewsletterIds": [
-        "aea2de72630f",
-        "cfbc211d7f15"
+        "aea2de72630f"
       ]
-    },
-    {
-      "topic": "Muon",
-      "frequency": 2,
-      "growth": "rising",
-      "relatedPaperIds": [
-        "6164fdfffb36"
-      ],
-      "relatedVideoIds": [
-        "5552291078b9"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Underrated Breakthrough",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "5552291078b9"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Underrated",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "5552291078b9"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
     },
     {
       "topic": "llama",
       "frequency": 2,
-      "growth": "stable",
+      "growth": "declining",
       "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
@@ -113,29 +99,47 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "Breakthrough",
+      "topic": "Seconds Agents",
       "frequency": 1,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "5552291078b9"
+        "17ea0de918c8"
       ],
       "relatedNewsIds": [],
       "relatedRepoIds": [],
       "relatedNewsletterIds": []
     },
     {
-      "topic": "continue",
-      "frequency": 2,
-      "growth": "rising",
-      "relatedPaperIds": [
-        "dec0b2135837"
+      "topic": "OpenAI",
+      "frequency": 7,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "c48098e04afa"
       ],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
+      "relatedNewsIds": [
+        "1641aa1da821",
+        "673950693bf4",
+        "c376b35b5359",
+        "50d94e9bbccf"
+      ],
       "relatedRepoIds": [
-        "233a4f836599"
+        "5df14a56333c",
+        "68b1fb9303ec"
       ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Harness Explained",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "17ea0de918c8"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
       "relatedNewsletterIds": []
     },
     {
@@ -151,16 +155,51 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "OpenHands",
+      "topic": "Seconds",
       "frequency": 1,
-      "growth": "stable",
+      "growth": "rising",
       "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "17ea0de918c8"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Business",
+      "frequency": 23,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "91fe782f087e",
+        "67dde3e2c4ae",
+        "4edaf318d502",
+        "98680debf937",
+        "9f979d614a01",
+        "71a9f03c0a48",
+        "c4562185d783",
+        "1c467037e6ab",
+        "d26b4c80c3cd",
+        "446d72e020d2",
+        "74a5174a3147",
+        "75e63e2b45af",
+        "210c7af7cc7b",
+        "d83d99e299c8",
+        "613fd5cbe8a7",
+        "a387bbd50c33",
+        "9325cca3c479",
+        "ecda2163d022"
+      ],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "6d558ac6ba23"
-      ],
-      "relatedNewsletterIds": []
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "edfefe604600",
+        "9a033797a8f8",
+        "aea2de72630f",
+        "048b1b572f9c",
+        "6145bf9087f7"
+      ]
     }
   ]
 }
