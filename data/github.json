@@ -5,14 +5,14 @@
     "fullName": "ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
     "url": "https://github.com/ollama/ollama",
-    "stars": 184935,
+    "stars": 185071,
     "language": "Go",
     "latestRelease": {
-      "tag": "v0.40.11",
-      "date": "2026-10-24T00:30:13Z",
-      "notes": "## Speech\r\n\r\nOllama can now generate [speech](https://docs.ollama.com/capabilities/speech) on macOS. `ollama run` plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible `/v1/audio/speech` endpoint.\r\n\r\n```sh\r\nollama run phonon \"Hello from Ollama.\"\r\n```\r\n\r\n## d3 decision models\r\n\r\n[d3](https://ollama.com/library/d3) brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask "
+      "tag": "v0.40.12",
+      "date": "2026-10-27T00:07:12Z",
+      "notes": "## Liquid AI LFM3\r\n\r\n[LFM3](https://ollama.com/library/lfm3) is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes:\r\n\r\n- [lfm3](https://ollama.com/library/lfm3): a 1.7B text model with a 256K-token context window\r\n- [lfm3-vl](https://ollama.com/library/lfm3-vl): adds image understanding\r\n- [lfm3-audio](https://ollama.com/library/lfm3-audio): speech recognition, translation, and text-to-s"
     },
-    "recentActivity": "2026-10-27T02:18:32Z",
+    "recentActivity": "2026-10-28T01:56:22Z",
     "tags": [
       "LLMs",
       "Open Source",
@@ -25,14 +25,14 @@
     "fullName": "huggingface/transformers",
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
     "url": "https://github.com/huggingface/transformers",
-    "stars": 168224,
+    "stars": 168266,
     "language": "Python",
     "latestRelease": {
       "tag": "v5.21",
       "date": "2026-10-26T18:17:42Z",
       "notes": "# Release v5.21.0\r\n\r\n\r\n## New Model additions\r\n\r\n### MiniCPM-OCR\r\n\r\nMiniCPM-OCR is a document-understanding model from OpenBMB's MiniCPM-V family. It keeps the MiniCPM-V 4.6 architecture, which pairs a SigLIP vision encoder and a window-attention merger with a Qwen3.5 language model. It is specialized for reading text-dense images such as scanned pages, screenshots, receipts and tables.\r\n\r\n**Links:** [Documentation](https://huggingface.co/docs/transformers/main/en/model_doc/minicpm_ocr) | [Paper"
     },
-    "recentActivity": "2026-10-27T03:18:05Z",
+    "recentActivity": "2026-10-28T06:13:44Z",
     "tags": [
       "LLMs",
       "Research",
@@ -45,14 +45,14 @@
     "fullName": "langgenius/dify",
     "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
     "url": "https://github.com/langgenius/dify",
-    "stars": 159657,
+    "stars": 159773,
     "language": "Python",
     "latestRelease": {
       "tag": "1.18.0",
       "date": "2026-10-23T06:33:50Z",
       "notes": "Dify 1.18.0 brings **Agents that route workflows**, **portable app packages**, **deeper visibility into nested workflow runs**, and the opt-in **Agent Knowledge Base** experience. OpenAPI and the new difyctl expand how you build and manage apps from the command line.\r\n\r\n> [!IMPORTANT]\r\n> **Read the upgrade guide below before deploying.** Upgrade the API, workers, Agent Backend, and Agent runtime images together. Local Agent sandboxes require a non-empty authentication token, and Agent Backend us"
     },
-    "recentActivity": "2026-10-27T06:59:40Z",
+    "recentActivity": "2026-10-28T07:41:54Z",
     "tags": [
       "Agents",
       "LLMs",
@@ -65,14 +65,14 @@
     "fullName": "open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "url": "https://github.com/open-webui/open-webui",
-    "stars": 156883,
+    "stars": 157000,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.12.4",
       "date": "2026-10-25T08:07:13Z",
       "notes": "\n### Added\n\n- 🎯 **Load selected skills on demand.** Administrators can turn on \"Load selected skills on demand\" under Admin Settings > General or set \"ENABLE_SKILL_LAZY_LOADING\", so skills selected in the chat or attached to a model are only listed for the model to load when it needs them instead of sending their full instructions with every message, while skills mentioned in the message still load right away, and it is off by default and needs the built-in Skills tool. [Commit](https://github."
     },
-    "recentActivity": "2026-10-27T00:10:13Z",
+    "recentActivity": "2026-10-28T01:25:06Z",
     "tags": [
       "LLMs",
       "Open Source"
@@ -84,14 +84,14 @@
     "fullName": "Comfy-Org/ComfyUI",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
     "url": "https://github.com/Comfy-Org/ComfyUI",
-    "stars": 143379,
+    "stars": 143647,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.43.0",
       "date": "2026-10-27T02:40:46Z",
       "notes": "## What's Changed\r\n* model_prefetch: syncrhonize all graph cleanups by @rattus128 in https://github.com/Comfy-Org/ComfyUI/pull/17178\r\n* Add rope scaling support to MOSS-image by @kijai in https://github.com/Comfy-Org/ComfyUI/pull/17172\r\n* [Partner Nodes] Renew partner-node sign-in tokens in API nodes by @dante01yoon in https://github.com/Comfy-Org/ComfyUI/pull/16943\r\n* [Partner Nodes] feat(HeyGen): add HeyGen Voice instant clone and text-to-speech by @bigcat88 in https://github.com/Comfy-Org/Com"
     },
-    "recentActivity": "2026-10-27T01:15:54Z",
+    "recentActivity": "2026-10-28T07:37:31Z",
     "tags": [
       "Computer Vision",
       "Video Models",
@@ -104,14 +104,14 @@
     "fullName": "ggml-org/llama.cpp",
     "description": "LLM inference in C/C++",
     "url": "https://github.com/ggml-org/llama.cpp",
-    "stars": 132485,
+    "stars": 132591,
     "language": "C++",
     "latestRelease": {
       "tag": "v0.7.0",
       "date": "2026-10-15T17:13:19Z",
       "notes": "## Overview\r\n\r\nllama.cpp v0.7.0 adds the LiliCorr speculative decoding technique and MTP for GLM5-Next, a new GPU cache for MoE experts kept in host memory (`--moe-cache-mib`, up to ~2.2x decode speedup when experts are offloaded), and a large batch of new models: K2 Horizon (dense and MoVA), Prism Bonsai 2 27B, EmbeddingGemma-2 (text+vision+audio), the LiquidAI d1/d1-omni and vLLM decision 2/d3 decision models, pplx-decider, MiniCPM-V 4.7, Nemotron Super 3.5 VL / Nemotron Bolt and maion-coder. "
     },
-    "recentActivity": "2026-10-27T06:57:34Z",
+    "recentActivity": "2026-10-28T07:38:03Z",
     "tags": [
       "LLMs",
       "Open Source",
@@ -124,14 +124,14 @@
     "fullName": "vllm-project/vllm",
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
     "url": "https://github.com/vllm-project/vllm",
-    "stars": 95657,
+    "stars": 95738,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.32.0",
       "date": "2026-10-18T06:50:48Z",
       "notes": "# v0.32.0\r\n\r\n## Highlights\r\n\r\nThis release features 814 commits from 363 contributors (121 new)!\r\n\r\n* **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs on `Cloudflare/clef-omni` (#61064), `LiquidAI/d1-3B` (#60676) and DiffusionGemma (#60466). The new `hf` tool and reasoning parser (`--tool-call-parser hf`, `--reasoning-parser hf`)"
     },
-    "recentActivity": "2026-10-27T06:45:00Z",
+    "recentActivity": "2026-10-28T07:31:12Z",
     "tags": [
       "Inference",
       "LLMs",
@@ -144,14 +144,14 @@
     "fullName": "OpenHands/OpenHands",
     "description": "🙌 OpenHands: AI-Driven Development",
     "url": "https://github.com/OpenHands/OpenHands",
-    "stars": 91962,
+    "stars": 92057,
     "language": "TypeScript",
     "latestRelease": {
-      "tag": "v1.33.0",
-      "date": "2026-10-23T13:46:20Z",
-      "notes": "## 1.33.0 (2026-10-23)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Features\n* feat(verify-openhands): launch --mars-web and --lock-to-cloud by @enyst in https://github.com/OpenHands/OpenHands/pull/18848\n* feat(digitalocean): keep the web build signed in across restarts by @enyst in https://github.com/OpenHands/OpenHands/pull/18705\n### Bug Fixes\n* fix(automations): render the shipped current_phase on live runs by @aartem1 in https://"
+      "tag": "v1.34.0",
+      "date": "2026-10-27T14:35:23Z",
+      "notes": "## 1.34.0 (2026-10-27)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Features\n* feat(verify): stand in for DigitalOcean so Managed Agents can be verified by @enyst in https://github.com/OpenHands/OpenHands/pull/18867\n* feat(canvas): per-conversation Docker runtime and Settings → Runtime page by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/18436\n* feat(automations): filter and edit automation tags by @VascoSch92 in https:"
     },
-    "recentActivity": "2026-10-27T01:30:23Z",
+    "recentActivity": "2026-10-28T05:49:19Z",
     "tags": [
       "Agents",
       "AI Coding",
@@ -164,14 +164,14 @@
     "fullName": "BerriAI/litellm",
     "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
     "url": "https://github.com/BerriAI/litellm",
-    "stars": 62123,
+    "stars": 62211,
     "language": "Python",
     "latestRelease": {
-      "tag": "v1.106.4",
-      "date": "2026-10-25T09:39:15Z",
-      "notes": "## Verify this release\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.106.4\n```\n\nSame command for `litellm-database`, `litellm-non_root` and the `docker.io/litellm/*` images\n\n## What's new in 1.106.4\n\n3 PRs. 2 fixed. No action needed to upgrade\n\n### Changes\n\n- **Deployment:** Fixed the proxy sometimes exiting on startup with an `ImportError` when it cannot reach the remote model"
+      "tag": "v1.106.5",
+      "date": "2026-10-27T19:58:45Z",
+      "notes": "## Verify this release\n\n```bash\ncosign verify \\\n  --key https://raw.githubusercontent.com/BerriAI/litellm/e82a3c646908ba0a6ee0beddc4310d7a6cac4065/cosign.pub \\\n  ghcr.io/berriai/litellm:v1.106.5\n```\n\nSame command for `litellm-database`, `litellm-non_root` and the `docker.io/litellm/*` images\n\n## What's new in 1.106.5\n\n1 PR. 1 changed. No action needed to upgrade\n\n### Changes\n\n- **Logging and observability:** Changed failure logs for rejected requests to keep only core request fields, `tags` and "
     },
-    "recentActivity": "2026-10-27T06:54:24Z",
+    "recentActivity": "2026-10-28T07:40:17Z",
     "tags": [
       "LLMs",
       "Inference",
@@ -184,14 +184,14 @@
     "fullName": "langchain-ai/langgraph",
     "description": "Build resilient agents.",
     "url": "https://github.com/langchain-ai/langgraph",
-    "stars": 43962,
+    "stars": 44027,
     "language": "Python",
     "latestRelease": {
       "tag": "1.2.18",
       "date": "2026-10-26T20:04:45Z",
       "notes": "Changes since 1.2.17\n\n* release(checkpoint): 4.3.1 (#9447)\n* release(langgraph): 1.2.18 (#9445)\n* fix(langgraph): let error_handler recover on every path and stream failed task results (#9408)\n* feat(langgraph): default delta snapshots to 100 updates (#9420). `DeltaChannel` now takes a full snapshot every 100 updates instead of 1000: faster reads on long threads, more storage. Pass `snapshot_frequency=1000` to keep the old behavior.\n* fix(langgraph): stream the last checkpoint of a run stopped b"
     },
-    "recentActivity": "2026-10-27T02:47:39Z",
+    "recentActivity": "2026-10-28T01:22:08Z",
     "tags": [
       "Agents",
       "LLMs",
@@ -204,14 +204,14 @@
     "fullName": "continuedev/continue",
     "description": "open-source coding agent",
     "url": "https://github.com/continuedev/continue",
-    "stars": 36342,
+    "stars": 36350,
     "language": "TypeScript",
     "latestRelease": {
       "tag": "v2.0.0-vscode",
       "date": "2026-06-19T00:24:01Z",
       "notes": ""
     },
-    "recentActivity": "2026-10-27T04:23:32Z",
+    "recentActivity": "2026-10-27T15:39:03Z",
     "tags": [
       "AI Coding",
       "Open Source"
@@ -223,7 +223,7 @@
     "fullName": "meta-llama/llama-models",
     "description": "Utilities intended for use with Llama models.",
     "url": "https://github.com/meta-llama/llama-models",
-    "stars": 7710,
+    "stars": 7711,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.2.0",

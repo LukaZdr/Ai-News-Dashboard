@@ -1,5 +1,78 @@
 [
   {
+    "id": "5a411a8ac429",
+    "title": "Genie 4: A new generation of world simulation",
+    "date": "Tue, 27 Oct 2026 16:01:38 +0000",
+    "source": "Google DeepMind",
+    "company": "deepmind",
+    "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+    "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+    "type": "blog",
+    "tags": [
+      "RL"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "c3ba39d73fc1",
+    "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+    "date": "Tue, 27 Oct 2026 15:00:20 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
+    "summary": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discovery that can’t keep up with the disease.  The Consortium for Biomedical Research ",
+    "type": "blog",
+    "tags": [
+      "RL"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "f2af09adff88",
+    "title": "Retell uses OpenAI models to help power 100M monthly calls",
+    "date": "Tue, 27 Oct 2026 15:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/retell-ai",
+    "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+    "type": "blog",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Research",
+      "Business"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "b163c0c73f01",
+    "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+    "date": "Tue, 27 Oct 2026 07:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+    "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+    "type": "blog",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Business"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "402ad277a209",
+    "title": "How Check Point accelerates vulnerability research with Daybreak",
+    "date": "Tue, 27 Oct 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/check-point-daybreak",
+    "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+    "type": "blog",
+    "tags": [],
+    "importance": 5
+  },
+  {
     "id": "04a38bdfa81c",
     "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
     "date": "Mon, 26 Oct 2026 22:00:00 GMT",
@@ -54,46 +127,6 @@
       "LLMs",
       "Open Source",
       "RL"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "c376b35b5359",
-    "title": "How Fanatics and OpenAI streamline the fan experience",
-    "date": "Mon, 26 Oct 2026 07:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/fanatics-streamline-fan-experience",
-    "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-    "type": "blog",
-    "tags": [
-      "Open Source"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "50d94e9bbccf",
-    "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-    "date": "Mon, 26 Oct 2026 07:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/openai-cut-incident-investigation",
-    "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-    "type": "blog",
-    "tags": [],
-    "importance": 5
-  },
-  {
-    "id": "61b8f0fa420a",
-    "title": "Introducing GPT-6.1 Terra",
-    "date": "Mon, 26 Oct 2026 00:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-    "summary": "Bringing fast and capable computer use to everyone",
-    "type": "release",
-    "tags": [
-      "LLMs"
     ],
     "importance": 5
   }

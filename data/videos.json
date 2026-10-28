@@ -1,5 +1,64 @@
 [
   {
+    "id": "5558c4e6c8dd",
+    "title": "Nobody Had Actually Read It (Kevin Buzzard)",
+    "channel": "Machine Learning Street Talk",
+    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
+    "date": "2026-10-28T05:27:08Z",
+    "duration": "1:00",
+    "thumbnail": "https://i.ytimg.com/vi/eeVmSP9fL0c/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=eeVmSP9fL0c",
+    "description": "Kevin Buzzard (Imperial College London) on the Liquid Tensor Experiment. At the end of 2020 the Fields medallist Peter Scholze ...",
+    "viewCount": 94,
+    "tags": [],
+    "relevanceScore": 7.2
+  },
+  {
+    "id": "110a34c107fe",
+    "title": "The Annals Published It. It Wasn&#39;t True. - Kevin Buzzard",
+    "channel": "Machine Learning Street Talk",
+    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
+    "date": "2026-10-28T00:47:40Z",
+    "duration": "1:04",
+    "thumbnail": "https://i.ytimg.com/vi/Melgii34x-c/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=Melgii34x-c",
+    "description": "Kevin Buzzard (Imperial College London) on what happened when 50 theorems from the Annals of Mathematics were written ...",
+    "viewCount": 88,
+    "tags": [],
+    "relevanceScore": 6.9
+  },
+  {
+    "id": "5be3e12fe556",
+    "title": "The Trojan Horse in AI-Written Mathematics",
+    "channel": "Machine Learning Street Talk",
+    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
+    "date": "2026-10-27T14:30:06Z",
+    "duration": "0:51",
+    "thumbnail": "https://i.ytimg.com/vi/unwUjyA52tM/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=unwUjyA52tM",
+    "description": "Kevin Hartnett, author of The Proof in the Code, on the catch in AI autoformalisation. An LLM can now turn a maths paper into ...",
+    "viewCount": 1194,
+    "tags": [
+      "LLMs",
+      "Research"
+    ],
+    "relevanceScore": 6.8
+  },
+  {
+    "id": "212d809942af",
+    "title": "Correct Isn&#39;t Enough. I Want the Reason. - Paul Lessard  #podcast #science",
+    "channel": "Machine Learning Street Talk",
+    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
+    "date": "2026-10-27T16:24:35Z",
+    "duration": "0:41",
+    "thumbnail": "https://i.ytimg.com/vi/5pi9dSGYAgM/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=5pi9dSGYAgM",
+    "description": "Paul Lessard on what he actually wants from AI in mathematics. Proofs that don't get it wrong aren't enough: he wants provenance ...",
+    "viewCount": 274,
+    "tags": [],
+    "relevanceScore": 6.5
+  },
+  {
     "id": "b60e7bf81c43",
     "title": "China just dropped a new frontier model... and nobody can explain how",
     "channel": "Fireship",
@@ -9,11 +68,25 @@
     "thumbnail": "https://i.ytimg.com/vi/G_em1hHPnXY/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=G_em1hHPnXY",
     "description": "Get 20% off Mobbin Pro to help your agent design UIs that actually convert - https://mobbin.com/fireship Kimi K3.1 just dropped as ...",
-    "viewCount": 1104380,
+    "viewCount": 1819891,
     "tags": [
       "Agents"
     ],
-    "relevanceScore": 8.3
+    "relevanceScore": 6.4
+  },
+  {
+    "id": "1f241e836b41",
+    "title": "Colour Theory Has Politics - Paul Lessard",
+    "channel": "Machine Learning Street Talk",
+    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
+    "date": "2026-10-27T17:51:10Z",
+    "duration": "0:58",
+    "thumbnail": "https://i.ytimg.com/vi/m7jelL7qRWo/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=m7jelL7qRWo",
+    "description": "Paul Lessard on why the representations we arrive at don't have to converge. Colour theory looks as if it simply is, but it carries ...",
+    "viewCount": 81,
+    "tags": [],
+    "relevanceScore": 6.3
   },
   {
     "id": "c48098e04afa",
@@ -25,11 +98,11 @@
     "thumbnail": "https://i.ytimg.com/vi/ubpXEv4lF0k/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=ubpXEv4lF0k",
     "description": "Try building expressive AI voice apps with Fish Audio's new Drama 3 now! https://fish.audio/?fpr=bycloud OpenAI's swarm of ...",
-    "viewCount": 19050,
+    "viewCount": 31531,
     "tags": [
       "Agents"
     ],
-    "relevanceScore": 7.8
+    "relevanceScore": 6.1
   },
   {
     "id": "70a652742f04",
@@ -41,23 +114,9 @@
     "thumbnail": "https://i.ytimg.com/vi/RznOLqu9_Jc/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=RznOLqu9_Jc",
     "description": "What happens if you plug a male-to-male electrical cord into two outlets? Dave shows you the four most common scenarios, plus ...",
-    "viewCount": 126237,
+    "viewCount": 303851,
     "tags": [],
-    "relevanceScore": 7.7
-  },
-  {
-    "id": "28ac94ca4c75",
-    "title": "Mathematics Just Changed Forever — Kevin Hartnett",
-    "channel": "Machine Learning Street Talk",
-    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
-    "date": "2026-10-26T14:23:14Z",
-    "duration": "1:33:34",
-    "thumbnail": "https://i.ytimg.com/vi/IRJDwtAreB4/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=IRJDwtAreB4",
-    "description": "Kevin Hartnett is the author of *The Proof in the Code*. SPONSOR: --- Cyber Fund built the Monastery to help founders ship ...",
-    "viewCount": 10417,
-    "tags": [],
-    "relevanceScore": 7.4
+    "relevanceScore": 5.8
   },
   {
     "id": "127a033e1c50",
@@ -69,28 +128,12 @@
     "thumbnail": "https://i.ytimg.com/vi/Pn8e474Z5Ps/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=Pn8e474Z5Ps",
     "description": "Cohere says one of Alibaba's newest Qwen models, Qwen3.8 Flash Next, tried to upload a test file to an Alibaba Cloud storage ...",
-    "viewCount": 9897,
+    "viewCount": 43197,
     "tags": [
       "Memory",
       "RAG"
     ],
-    "relevanceScore": 7.2
-  },
-  {
-    "id": "81b50816d477",
-    "title": "Sphere Intersection Puzzle Corrected",
-    "channel": "3Blue1Brown",
-    "channelId": "UCYO_jab_esuFRV4b17AJtAw",
-    "date": "2026-10-25T14:30:46Z",
-    "duration": "0:46",
-    "thumbnail": "https://i.ytimg.com/vi/V_uq3v6xK-4/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=V_uq3v6xK-4",
-    "description": "Part of a series of monthly puzzles Early view of some other solutions: ...",
-    "viewCount": 202435,
-    "tags": [
-      "RL"
-    ],
-    "relevanceScore": 7
+    "relevanceScore": 5.7
   },
   {
     "id": "17ea0de918c8",
@@ -102,28 +145,10 @@
     "thumbnail": "https://i.ytimg.com/vi/lcVFk4df5Ms/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=lcVFk4df5Ms",
     "description": "Harness² lets an AI agent build and evolve its own harness (its instructions, tools and control loop) for every task, with no ...",
-    "viewCount": 4980,
+    "viewCount": 7717,
     "tags": [
       "Agents"
     ],
-    "relevanceScore": 6.3
-  },
-  {
-    "id": "4dfb8d01d9c8",
-    "title": "Kimi K3.1 Pro and Opus 5.5 Made the Same 13 Apps (Raw Results)",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-25T13:00:11Z",
-    "duration": "23:46",
-    "thumbnail": "https://i.ytimg.com/vi/_XXX5K-EMoc/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=_XXX5K-EMoc",
-    "description": "Kimi K3.1 Pro vs Claude Opus 5.5 on 13 long-horizon agentic coding tasks. Both models ran in the same Claude Code harness, ...",
-    "viewCount": 55208,
-    "tags": [
-      "Agents",
-      "LLMs",
-      "AI Coding"
-    ],
-    "relevanceScore": 5.2
+    "relevanceScore": 4.7
   }
 ]

@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-28",
+  "topics": [
+    {
+      "topic": "Happen",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "70a652742f04"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Agents",
+      "frequency": 25,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "6e00f4dc97fd",
+        "19200f344463",
+        "8c690c2cbe88",
+        "3c907ef4d4e9",
+        "0f44dbf85c69",
+        "29afd55ff32f",
+        "290cb71125ad",
+        "5dcc7eff9573",
+        "968c3f0991b9",
+        "e88d32f555f2",
+        "f530741c1dc4",
+        "8c09e245e819"
+      ],
+      "relatedVideoIds": [
+        "b60e7bf81c43",
+        "c48098e04afa",
+        "17ea0de918c8"
+      ],
+      "relatedNewsIds": [
+        "f2af09adff88",
+        "b163c0c73f01",
+        "6432ddc0e1ca"
+      ],
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "da9864a96f3c",
+        "5c674d9041fc",
+        "39867714e91a",
+        "5b667b558229"
+      ]
+    },
+    {
+      "topic": "Inference",
+      "frequency": 28,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "d3e528b58b1a",
+        "322a6a76bcff",
+        "7207b1ceaeea",
+        "25b95ae895d5",
+        "ebc7c525d1e8",
+        "43fdedb51868",
+        "4bc2e87a7a2e",
+        "5e4e6437e629",
+        "f02e27ca68e5",
+        "5d8fccc96efd",
+        "5dcc7eff9573",
+        "fdff35db4e6b",
+        "11e43d07c203",
+        "dbbd2a123593",
+        "f530741c1dc4",
+        "91f56f3f459b",
+        "4815c3ee18a1",
+        "726ef3878d25",
+        "95aa04004087",
+        "bb9bad380132"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "b6a0b13bc12c",
+        "7166ecafb485",
+        "5b1fd1fd8a2b",
+        "14df74d3bb6b",
+        "deae4303c432",
+        "68b1fb9303ec"
+      ],
+      "relatedNewsletterIds": [
+        "da9864a96f3c",
+        "5b667b558229"
+      ]
+    },
+    {
+      "topic": "Buzzard",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "5558c4e6c8dd",
+        "110a34c107fe"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Kevin Buzzard",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "5558c4e6c8dd",
+        "110a34c107fe"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Nobody",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "5558c4e6c8dd",
+        "b60e7bf81c43"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Kevin",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "5558c4e6c8dd",
+        "110a34c107fe"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Lessard",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "212d809942af",
+        "1f241e836b41"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Paul Lessard",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "212d809942af",
+        "1f241e836b41"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "llama",
+      "frequency": 2,
+      "growth": "declining",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "14df74d3bb6b",
+        "052e3a92e72b"
+      ],
+      "relatedNewsletterIds": []
+    }
+  ]
+}
