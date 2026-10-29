@@ -1,5 +1,77 @@
 [
   {
+    "id": "c3ea2a7f4376",
+    "title": "Gemini 4 Carbon: Our next frontier model",
+    "date": "Wed, 28 Oct 2026 17:00:58 +0000",
+    "source": "Google DeepMind",
+    "company": "deepmind",
+    "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+    "summary": "",
+    "type": "blog",
+    "tags": [
+      "LLMs"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "70ecd9486d61",
+    "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+    "date": "Wed, 28 Oct 2026 15:00:46 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+    "summary": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip wi",
+    "type": "blog",
+    "tags": [
+      "Agents"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "297c50875ade",
+    "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+    "date": "Wed, 28 Oct 2026 13:15:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+    "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+    "type": "blog",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Open Source",
+      "Business"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "015c21d1ab2f",
+    "title": "The future of the firm",
+    "date": "Wed, 28 Oct 2026 10:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/the-future-of-the-firm",
+    "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+    "type": "blog",
+    "tags": [],
+    "importance": 5
+  },
+  {
+    "id": "7598479d5ae2",
+    "title": "Legora is building the agentic operating system for legal work",
+    "date": "Wed, 28 Oct 2026 09:30:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/legora",
+    "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+    "type": "blog",
+    "tags": [
+      "Agents",
+      "LLMs"
+    ],
+    "importance": 5
+  },
+  {
     "id": "5a411a8ac429",
     "title": "Genie 4: A new generation of world simulation",
     "date": "Tue, 27 Oct 2026 16:01:38 +0000",
@@ -41,92 +113,6 @@
       "LLMs",
       "Research",
       "Business"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "b163c0c73f01",
-    "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-    "date": "Tue, 27 Oct 2026 07:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-    "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-    "type": "blog",
-    "tags": [
-      "Agents",
-      "LLMs",
-      "Business"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "402ad277a209",
-    "title": "How Check Point accelerates vulnerability research with Daybreak",
-    "date": "Tue, 27 Oct 2026 00:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/check-point-daybreak",
-    "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-    "type": "blog",
-    "tags": [],
-    "importance": 5
-  },
-  {
-    "id": "04a38bdfa81c",
-    "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-    "date": "Mon, 26 Oct 2026 22:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/greptile-code-review-codex-astra",
-    "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-    "type": "blog",
-    "tags": [
-      "LLMs"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "1641aa1da821",
-    "title": "Working with academic communities to build scientific understanding",
-    "date": "Mon, 26 Oct 2026 14:30:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-    "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-    "type": "blog",
-    "tags": [],
-    "importance": 5
-  },
-  {
-    "id": "6432ddc0e1ca",
-    "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-    "date": "Mon, 26 Oct 2026 13:45:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-    "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-    "type": "blog",
-    "tags": [
-      "Agents",
-      "LLMs",
-      "Open Source"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "673950693bf4",
-    "title": "ChatGPT’s expanding world of work",
-    "date": "Mon, 26 Oct 2026 10:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-    "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-    "type": "blog",
-    "tags": [
-      "LLMs",
-      "Open Source",
-      "RL"
     ],
     "importance": 5
   }

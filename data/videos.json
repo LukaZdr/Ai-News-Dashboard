@@ -1,5 +1,100 @@
 [
   {
+    "id": "1223da4694b3",
+    "title": "Deepseek&#39;s New AI Has A Secret",
+    "channel": "Two Minute Papers",
+    "channelId": "UCbfYPyITQ-7l4upoX8nvctg",
+    "date": "2026-10-28T17:32:40Z",
+    "duration": "5:41",
+    "thumbnail": "https://i.ytimg.com/vi/pryCaGv8wuo/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=pryCaGv8wuo",
+    "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers DeepSeek v4.1 Flash 1017 is available ...",
+    "viewCount": 89797,
+    "tags": [
+      "Research"
+    ],
+    "relevanceScore": 8.5
+  },
+  {
+    "id": "e5ff8cf7da22",
+    "title": "Did the AI bubble just pop?",
+    "channel": "Fireship",
+    "channelId": "UCsBjURrPoezykLs9EqgamOA",
+    "date": "2026-10-28T13:31:29Z",
+    "duration": "5:25",
+    "thumbnail": "https://i.ytimg.com/vi/nEaJMdM1djM/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=nEaJMdM1djM",
+    "description": "Try Hyperagent for free, or sign in with ChatGPT to get more usage from your existing plan: ...",
+    "viewCount": 1395182,
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Memory",
+      "RAG"
+    ],
+    "relevanceScore": 7.8
+  },
+  {
+    "id": "db72970a2140",
+    "title": "?PHP Problem? - Computerphile",
+    "channel": "Computerphile",
+    "channelId": "UC9-y-6csu5WGm29I7JiwpnA",
+    "date": "2026-10-28T16:23:55Z",
+    "duration": "19:18",
+    "thumbnail": "https://i.ytimg.com/vi/cI8IquVEyVY/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=cI8IquVEyVY",
+    "description": "Two PHP Exploits hit the news last week. Dr Steve Bagley explains how dangerous they could be. Read about the chip ...",
+    "viewCount": 130759,
+    "tags": [],
+    "relevanceScore": 7.6
+  },
+  {
+    "id": "1f8d12d0fda6",
+    "title": "Gemini 4 Carbon: The New Frontier",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-28T18:57:07Z",
+    "duration": "1:12",
+    "thumbnail": "https://i.ytimg.com/vi/kMpTBy3g1N0/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=kMpTBy3g1N0",
+    "description": "Google just announced Gemini 4 Carbon, its second frontier model in about two weeks after Gemini 4 Argon. According to ...",
+    "viewCount": 153023,
+    "tags": [
+      "LLMs"
+    ],
+    "relevanceScore": 7.4
+  },
+  {
+    "id": "364874b62e90",
+    "title": "When It Doesn&#39;t Matter That It&#39;s Slop (Paul Lessard)",
+    "channel": "Machine Learning Street Talk",
+    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
+    "date": "2026-10-28T07:51:47Z",
+    "duration": "0:52",
+    "thumbnail": "https://i.ytimg.com/vi/_9axenbT-1I/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=_9axenbT-1I",
+    "description": "Paul Lessard on where AI has already replaced people. Translation was a white-collar job that has essentially disappeared, and ...",
+    "viewCount": 2307,
+    "tags": [],
+    "relevanceScore": 6.4
+  },
+  {
+    "id": "307eb83b9397",
+    "title": "NCM: The End of LLMs? Not So Fast (Local Tests)",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-28T13:00:01Z",
+    "duration": "14:44",
+    "thumbnail": "https://i.ytimg.com/vi/_87vrjxx1EE/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=_87vrjxx1EE",
+    "description": "Next-Concept Modeling (NCM) from Stanford's Hazy Research writes an answer as a rough sketch first and the exact words last, ...",
+    "viewCount": 12160,
+    "tags": [
+      "LLMs"
+    ],
+    "relevanceScore": 6.4
+  },
+  {
     "id": "5558c4e6c8dd",
     "title": "Nobody Had Actually Read It (Kevin Buzzard)",
     "channel": "Machine Learning Street Talk",
@@ -9,9 +104,23 @@
     "thumbnail": "https://i.ytimg.com/vi/eeVmSP9fL0c/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=eeVmSP9fL0c",
     "description": "Kevin Buzzard (Imperial College London) on the Liquid Tensor Experiment. At the end of 2020 the Fields medallist Peter Scholze ...",
-    "viewCount": 94,
+    "viewCount": 1713,
     "tags": [],
-    "relevanceScore": 7.2
+    "relevanceScore": 6.2
+  },
+  {
+    "id": "a13b3b8a6b3a",
+    "title": "We&#39;re the Ones Having the Debate (Jeremy Avigad)",
+    "channel": "Machine Learning Street Talk",
+    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
+    "date": "2026-10-28T08:26:23Z",
+    "duration": "1:01",
+    "thumbnail": "https://i.ytimg.com/vi/IcXN7ysaqrc/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=IcXN7ysaqrc",
+    "description": "Jeremy Avigad on why the AI debate should stay centred on us. What makes our goals special is that they're ours. AI can have its ...",
+    "viewCount": 408,
+    "tags": [],
+    "relevanceScore": 6
   },
   {
     "id": "110a34c107fe",
@@ -23,56 +132,9 @@
     "thumbnail": "https://i.ytimg.com/vi/Melgii34x-c/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=Melgii34x-c",
     "description": "Kevin Buzzard (Imperial College London) on what happened when 50 theorems from the Annals of Mathematics were written ...",
-    "viewCount": 88,
+    "viewCount": 1653,
     "tags": [],
-    "relevanceScore": 6.9
-  },
-  {
-    "id": "5be3e12fe556",
-    "title": "The Trojan Horse in AI-Written Mathematics",
-    "channel": "Machine Learning Street Talk",
-    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
-    "date": "2026-10-27T14:30:06Z",
-    "duration": "0:51",
-    "thumbnail": "https://i.ytimg.com/vi/unwUjyA52tM/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=unwUjyA52tM",
-    "description": "Kevin Hartnett, author of The Proof in the Code, on the catch in AI autoformalisation. An LLM can now turn a maths paper into ...",
-    "viewCount": 1194,
-    "tags": [
-      "LLMs",
-      "Research"
-    ],
-    "relevanceScore": 6.8
-  },
-  {
-    "id": "212d809942af",
-    "title": "Correct Isn&#39;t Enough. I Want the Reason. - Paul Lessard  #podcast #science",
-    "channel": "Machine Learning Street Talk",
-    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
-    "date": "2026-10-27T16:24:35Z",
-    "duration": "0:41",
-    "thumbnail": "https://i.ytimg.com/vi/5pi9dSGYAgM/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=5pi9dSGYAgM",
-    "description": "Paul Lessard on what he actually wants from AI in mathematics. Proofs that don't get it wrong aren't enough: he wants provenance ...",
-    "viewCount": 274,
-    "tags": [],
-    "relevanceScore": 6.5
-  },
-  {
-    "id": "b60e7bf81c43",
-    "title": "China just dropped a new frontier model... and nobody can explain how",
-    "channel": "Fireship",
-    "channelId": "UCsBjURrPoezykLs9EqgamOA",
-    "date": "2026-10-26T18:55:29Z",
-    "duration": "6:26",
-    "thumbnail": "https://i.ytimg.com/vi/G_em1hHPnXY/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=G_em1hHPnXY",
-    "description": "Get 20% off Mobbin Pro to help your agent design UIs that actually convert - https://mobbin.com/fireship Kimi K3.1 just dropped as ...",
-    "viewCount": 1819891,
-    "tags": [
-      "Agents"
-    ],
-    "relevanceScore": 6.4
+    "relevanceScore": 5.8
   },
   {
     "id": "1f241e836b41",
@@ -84,71 +146,8 @@
     "thumbnail": "https://i.ytimg.com/vi/m7jelL7qRWo/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=m7jelL7qRWo",
     "description": "Paul Lessard on why the representations we arrive at don't have to converge. Colour theory looks as if it simply is, but it carries ...",
-    "viewCount": 81,
+    "viewCount": 165,
     "tags": [],
-    "relevanceScore": 6.3
-  },
-  {
-    "id": "c48098e04afa",
-    "title": "The Insane Way OpenAI Agents Escaped Its Sandbox [Full Breakdown]",
-    "channel": "bycloud",
-    "channelId": "UCgfe2ooZD3VJPB6aJAnuQng",
-    "date": "2026-10-26T18:04:17Z",
-    "duration": "20:12",
-    "thumbnail": "https://i.ytimg.com/vi/ubpXEv4lF0k/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=ubpXEv4lF0k",
-    "description": "Try building expressive AI voice apps with Fish Audio's new Drama 3 now! https://fish.audio/?fpr=bycloud OpenAI's swarm of ...",
-    "viewCount": 31531,
-    "tags": [
-      "Agents"
-    ],
-    "relevanceScore": 6.1
-  },
-  {
-    "id": "70a652742f04",
-    "title": "What Would Happen?",
-    "channel": "Dave's Garage",
-    "channelId": "UCNzszbnvQeFzObW0ghk0Ckw",
-    "date": "2026-10-26T21:15:14Z",
-    "duration": "15:42",
-    "thumbnail": "https://i.ytimg.com/vi/RznOLqu9_Jc/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=RznOLqu9_Jc",
-    "description": "What happens if you plug a male-to-male electrical cord into two outlets? Dave shows you the four most common scenarios, plus ...",
-    "viewCount": 303851,
-    "tags": [],
-    "relevanceScore": 5.8
-  },
-  {
-    "id": "127a033e1c50",
-    "title": "Qwen Calling Home?",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-26T23:13:32Z",
-    "duration": "2:07",
-    "thumbnail": "https://i.ytimg.com/vi/Pn8e474Z5Ps/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=Pn8e474Z5Ps",
-    "description": "Cohere says one of Alibaba's newest Qwen models, Qwen3.8 Flash Next, tried to upload a test file to an Alibaba Cloud storage ...",
-    "viewCount": 43197,
-    "tags": [
-      "Memory",
-      "RAG"
-    ],
-    "relevanceScore": 5.7
-  },
-  {
-    "id": "17ea0de918c8",
-    "title": "Harness² Explained in 60 Seconds",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-26T13:15:22Z",
-    "duration": "1:02",
-    "thumbnail": "https://i.ytimg.com/vi/lcVFk4df5Ms/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=lcVFk4df5Ms",
-    "description": "Harness² lets an AI agent build and evolve its own harness (its instructions, tools and control loop) for every task, with no ...",
-    "viewCount": 7717,
-    "tags": [
-      "Agents"
-    ],
     "relevanceScore": 4.7
   }
 ]

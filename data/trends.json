@@ -1,150 +1,94 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "topics": [
     {
-      "topic": "Happen",
+      "topic": "Secret",
       "frequency": 1,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "70a652742f04"
+        "1223da4694b3"
       ],
       "relatedNewsIds": [],
       "relatedRepoIds": [],
       "relatedNewsletterIds": []
     },
     {
-      "topic": "Agents",
-      "frequency": 25,
-      "growth": "stable",
-      "relatedPaperIds": [
-        "6e00f4dc97fd",
-        "19200f344463",
-        "8c690c2cbe88",
-        "3c907ef4d4e9",
-        "0f44dbf85c69",
-        "29afd55ff32f",
-        "290cb71125ad",
-        "5dcc7eff9573",
-        "968c3f0991b9",
-        "e88d32f555f2",
-        "f530741c1dc4",
-        "8c09e245e819"
-      ],
+      "topic": "Gemini Carbon",
+      "frequency": 3,
+      "growth": "rising",
+      "relatedPaperIds": [],
       "relatedVideoIds": [
-        "b60e7bf81c43",
-        "c48098e04afa",
-        "17ea0de918c8"
+        "1f8d12d0fda6"
       ],
       "relatedNewsIds": [
-        "f2af09adff88",
-        "b163c0c73f01",
-        "6432ddc0e1ca"
+        "c3ea2a7f4376"
       ],
-      "relatedRepoIds": [
-        "83b96e936faf",
-        "6d558ac6ba23",
-        "1941bc8214c6"
-      ],
+      "relatedRepoIds": [],
       "relatedNewsletterIds": [
-        "da9864a96f3c",
-        "5c674d9041fc",
-        "39867714e91a",
-        "5b667b558229"
+        "a7489b37e1de"
       ]
     },
     {
-      "topic": "Inference",
-      "frequency": 28,
-      "growth": "stable",
-      "relatedPaperIds": [
-        "d3e528b58b1a",
-        "322a6a76bcff",
-        "7207b1ceaeea",
-        "25b95ae895d5",
-        "ebc7c525d1e8",
-        "43fdedb51868",
-        "4bc2e87a7a2e",
-        "5e4e6437e629",
-        "f02e27ca68e5",
-        "5d8fccc96efd",
-        "5dcc7eff9573",
-        "fdff35db4e6b",
-        "11e43d07c203",
-        "dbbd2a123593",
-        "f530741c1dc4",
-        "91f56f3f459b",
-        "4815c3ee18a1",
-        "726ef3878d25",
-        "95aa04004087",
-        "bb9bad380132"
+      "topic": "Carbon",
+      "frequency": 3,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "1f8d12d0fda6"
       ],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "b6a0b13bc12c",
-        "7166ecafb485",
-        "5b1fd1fd8a2b",
-        "14df74d3bb6b",
-        "deae4303c432",
-        "68b1fb9303ec"
+      "relatedNewsIds": [
+        "c3ea2a7f4376"
       ],
+      "relatedRepoIds": [],
       "relatedNewsletterIds": [
-        "da9864a96f3c",
-        "5b667b558229"
+        "a7489b37e1de"
       ]
     },
     {
-      "topic": "Buzzard",
+      "topic": "Deepseek",
       "frequency": 2,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "5558c4e6c8dd",
-        "110a34c107fe"
+        "1223da4694b3"
       ],
       "relatedNewsIds": [],
-      "relatedRepoIds": [],
+      "relatedRepoIds": [
+        "b6a0b13bc12c"
+      ],
       "relatedNewsletterIds": []
     },
     {
-      "topic": "Kevin Buzzard",
-      "frequency": 2,
+      "topic": "Gemini",
+      "frequency": 3,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "5558c4e6c8dd",
-        "110a34c107fe"
+        "1f8d12d0fda6"
       ],
-      "relatedNewsIds": [],
+      "relatedNewsIds": [
+        "c3ea2a7f4376"
+      ],
       "relatedRepoIds": [],
-      "relatedNewsletterIds": []
+      "relatedNewsletterIds": [
+        "a7489b37e1de"
+      ]
     },
     {
-      "topic": "Nobody",
-      "frequency": 2,
+      "topic": "Paul",
+      "frequency": 3,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "5558c4e6c8dd",
-        "b60e7bf81c43"
+        "364874b62e90",
+        "1f241e836b41"
       ],
       "relatedNewsIds": [],
       "relatedRepoIds": [],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Kevin",
-      "frequency": 2,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "5558c4e6c8dd",
-        "110a34c107fe"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
+      "relatedNewsletterIds": [
+        "e442a39cb287"
+      ]
     },
     {
       "topic": "Lessard",
@@ -152,7 +96,7 @@
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "212d809942af",
+        "364874b62e90",
         "1f241e836b41"
       ],
       "relatedNewsIds": [],
@@ -165,7 +109,7 @@
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "212d809942af",
+        "364874b62e90",
         "1f241e836b41"
       ],
       "relatedNewsIds": [],
@@ -173,17 +117,50 @@
       "relatedNewsletterIds": []
     },
     {
-      "topic": "llama",
-      "frequency": 2,
-      "growth": "declining",
+      "topic": "frontier",
+      "frequency": 4,
+      "growth": "rising",
       "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "14df74d3bb6b",
-        "052e3a92e72b"
+      "relatedVideoIds": [
+        "1f8d12d0fda6"
       ],
-      "relatedNewsletterIds": []
+      "relatedNewsIds": [
+        "c3ea2a7f4376"
+      ],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "a7489b37e1de",
+        "17e4b18f41c9"
+      ]
+    },
+    {
+      "topic": "Agents",
+      "frequency": 15,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "e5ff8cf7da22"
+      ],
+      "relatedNewsIds": [
+        "70ecd9486d61",
+        "297c50875ade",
+        "7598479d5ae2",
+        "f2af09adff88"
+      ],
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "a7489b37e1de",
+        "e442a39cb287",
+        "17e4b18f41c9",
+        "f9a05dfcfdfa",
+        "da9864a96f3c",
+        "5c674d9041fc",
+        "39867714e91a"
+      ]
     }
   ]
 }
