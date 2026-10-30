@@ -1,0 +1,212 @@
+{
+  "date": "2026-10-30",
+  "topics": [
+    {
+      "topic": "Gemini Carbon",
+      "frequency": 3,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "1f8d12d0fda6"
+      ],
+      "relatedNewsIds": [
+        "c3ea2a7f4376"
+      ],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "a7489b37e1de"
+      ]
+    },
+    {
+      "topic": "Carbon",
+      "frequency": 3,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "1f8d12d0fda6"
+      ],
+      "relatedNewsIds": [
+        "c3ea2a7f4376"
+      ],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "a7489b37e1de"
+      ]
+    },
+    {
+      "topic": "Agents",
+      "frequency": 27,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "235b0ab31402",
+        "6bd908afb0f1",
+        "1be7099e3db1",
+        "9d4f4f454585",
+        "2d01dc796cc4",
+        "af8f0f31af91",
+        "bf4a2de7c35f",
+        "ef47bb57b53f",
+        "c8624d0ee503",
+        "dfb0147972b0",
+        "600866ed800c",
+        "9db1449dd35a"
+      ],
+      "relatedVideoIds": [
+        "e5ff8cf7da22"
+      ],
+      "relatedNewsIds": [
+        "d229a8548d7c",
+        "452619c9774a",
+        "3170f44e5b6e",
+        "70ecd9486d61",
+        "297c50875ade",
+        "7598479d5ae2"
+      ],
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "221809a9d65d",
+        "a7489b37e1de",
+        "e442a39cb287",
+        "17e4b18f41c9",
+        "f9a05dfcfdfa"
+      ]
+    },
+    {
+      "topic": "frontier",
+      "frequency": 10,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "6bd908afb0f1",
+        "987bd48e5dfd",
+        "600866ed800c"
+      ],
+      "relatedVideoIds": [
+        "1f8d12d0fda6"
+      ],
+      "relatedNewsIds": [
+        "452619c9774a",
+        "3170f44e5b6e",
+        "c3ea2a7f4376"
+      ],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "221809a9d65d",
+        "a7489b37e1de",
+        "17e4b18f41c9"
+      ]
+    },
+    {
+      "topic": "Inference",
+      "frequency": 25,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "68afbd35a2ad",
+        "6bd908afb0f1",
+        "987bd48e5dfd",
+        "36a76388c2c4",
+        "cafb18d4458c",
+        "9d4f4f454585",
+        "85e7daa3945e",
+        "219a5586cd78",
+        "58e1091d3a99",
+        "abd8fa20954f",
+        "b01adb6a6c07",
+        "a5c106fd4e2f",
+        "a62c25015b7e",
+        "b84ec24308d7",
+        "217f7e2bdbe7"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "b6a0b13bc12c",
+        "7166ecafb485",
+        "5b1fd1fd8a2b",
+        "14df74d3bb6b",
+        "deae4303c432",
+        "68b1fb9303ec"
+      ],
+      "relatedNewsletterIds": [
+        "a7489b37e1de",
+        "e442a39cb287",
+        "17e4b18f41c9",
+        "f9a05dfcfdfa"
+      ]
+    },
+    {
+      "topic": "Gemini",
+      "frequency": 3,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "1f8d12d0fda6"
+      ],
+      "relatedNewsIds": [
+        "c3ea2a7f4376"
+      ],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "a7489b37e1de"
+      ]
+    },
+    {
+      "topic": "Absolute Monster",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "1223da4694b3"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Monster",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "1223da4694b3"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "open-source",
+      "frequency": 7,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": [
+        "679c1948245d",
+        "17bd1a0396d2",
+        "065331a99974",
+        "71a601e0736a",
+        "e442a39cb287",
+        "0922235e1c8d"
+      ]
+    },
+    {
+      "topic": "PHP Problem",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "db72970a2140"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    }
+  ]
+}

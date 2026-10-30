@@ -5,14 +5,14 @@
     "fullName": "ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
     "url": "https://github.com/ollama/ollama",
-    "stars": 185171,
+    "stars": 185297,
     "language": "Go",
     "latestRelease": {
       "tag": "v0.40.13",
       "date": "2026-10-28T19:55:04Z",
       "notes": "## LFM3 on Linux and Windows\r\n\r\nLiquid AI's [LFM3](https://ollama.com/library/lfm3) models, including text-to-speech in [lfm3-audio](https://ollama.com/library/lfm3-audio) and [lfm3-omni](https://ollama.com/library/lfm3-omni), now run on Linux and Windows as well as Apple silicon.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.12...v0.40.13"
     },
-    "recentActivity": "2026-10-29T03:46:43Z",
+    "recentActivity": "2026-10-30T01:53:49Z",
     "tags": [
       "LLMs",
       "Open Source",
@@ -25,14 +25,14 @@
     "fullName": "huggingface/transformers",
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
     "url": "https://github.com/huggingface/transformers",
-    "stars": 168325,
+    "stars": 168342,
     "language": "Python",
     "latestRelease": {
-      "tag": "v5.21",
-      "date": "2026-10-26T18:17:42Z",
-      "notes": "# Release v5.21.0\r\n\r\n\r\n## New Model additions\r\n\r\n### MiniCPM-OCR\r\n\r\nMiniCPM-OCR is a document-understanding model from OpenBMB's MiniCPM-V family. It keeps the MiniCPM-V 4.6 architecture, which pairs a SigLIP vision encoder and a window-attention merger with a Qwen3.5 language model. It is specialized for reading text-dense images such as scanned pages, screenshots, receipts and tables.\r\n\r\n**Links:** [Documentation](https://huggingface.co/docs/transformers/main/en/model_doc/minicpm_ocr) | [Paper"
+      "tag": "v5.22.0",
+      "date": "2026-10-29T14:15:39Z",
+      "notes": "## New Models\r\n\r\n### Mistral Large 4 (Le Chonk)\r\n\r\n<img width=\"1329\" height=\"780\" alt=\"image\" src=\"https://github.com/user-attachments/assets/1cff9ca7-19e3-4622-8db6-fb1cfa842579\" />\r\n\r\nMistral Large 4 is Mistral's largest and most capable model to date: a 1 trillion-parameter natively multimodal Mixture-of-Experts model with 49 billion active parameters per token (52 billion including embeddings and output layers), trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral's own datac"
     },
-    "recentActivity": "2026-10-29T07:39:55Z",
+    "recentActivity": "2026-10-30T07:50:23Z",
     "tags": [
       "LLMs",
       "Research",
@@ -45,14 +45,14 @@
     "fullName": "langgenius/dify",
     "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
     "url": "https://github.com/langgenius/dify",
-    "stars": 159866,
+    "stars": 159968,
     "language": "Python",
     "latestRelease": {
       "tag": "1.18.0",
       "date": "2026-10-23T06:33:50Z",
       "notes": "Dify 1.18.0 brings **Agents that route workflows**, **portable app packages**, **deeper visibility into nested workflow runs**, and the opt-in **Agent Knowledge Base** experience. OpenAPI and the new difyctl expand how you build and manage apps from the command line.\r\n\r\n> [!IMPORTANT]\r\n> **Read the upgrade guide below before deploying.** Upgrade the API, workers, Agent Backend, and Agent runtime images together. Local Agent sandboxes require a non-empty authentication token, and Agent Backend us"
     },
-    "recentActivity": "2026-10-29T07:37:26Z",
+    "recentActivity": "2026-10-30T07:44:48Z",
     "tags": [
       "Agents",
       "LLMs",
@@ -65,14 +65,14 @@
     "fullName": "open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "url": "https://github.com/open-webui/open-webui",
-    "stars": 157112,
+    "stars": 157214,
     "language": "Python",
     "latestRelease": {
-      "tag": "v0.12.4",
-      "date": "2026-10-25T08:07:13Z",
-      "notes": "\n### Added\n\n- 🎯 **Load selected skills on demand.** Administrators can turn on \"Load selected skills on demand\" under Admin Settings > General or set \"ENABLE_SKILL_LAZY_LOADING\", so skills selected in the chat or attached to a model are only listed for the model to load when it needs them instead of sending their full instructions with every message, while skills mentioned in the message still load right away, and it is off by default and needs the built-in Skills tool. [Commit](https://github."
+      "tag": "v0.12.5",
+      "date": "2026-10-29T09:08:03Z",
+      "notes": "\n### Added\n\n- 🧭 **Analytics session explorer.** Administrators can now open a Sessions tab in Admin Analytics that lists each chat with its tokens, responses, errors and time span, filters them by search, model, token range or sub-agents, and shows a chat's saved replies and tool calls with their timing and outcome, as long as \"ENABLE_ADMIN_CHAT_ACCESS\" is on. [Commit](https://github.com/open-webui/open-webui/commit/7b303cf496f22d665ff1f1013a2308de0d74a7a4)\n- 📑 **Pages in notes.** Notes can no"
     },
-    "recentActivity": "2026-10-29T07:44:28Z",
+    "recentActivity": "2026-10-30T07:47:18Z",
     "tags": [
       "LLMs",
       "Open Source"
@@ -84,14 +84,14 @@
     "fullName": "Comfy-Org/ComfyUI",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
     "url": "https://github.com/Comfy-Org/ComfyUI",
-    "stars": 143850,
+    "stars": 144062,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.43.0",
       "date": "2026-10-27T02:40:46Z",
       "notes": "## What's Changed\r\n* model_prefetch: syncrhonize all graph cleanups by @rattus128 in https://github.com/Comfy-Org/ComfyUI/pull/17178\r\n* Add rope scaling support to MOSS-image by @kijai in https://github.com/Comfy-Org/ComfyUI/pull/17172\r\n* [Partner Nodes] Renew partner-node sign-in tokens in API nodes by @dante01yoon in https://github.com/Comfy-Org/ComfyUI/pull/16943\r\n* [Partner Nodes] feat(HeyGen): add HeyGen Voice instant clone and text-to-speech by @bigcat88 in https://github.com/Comfy-Org/Com"
     },
-    "recentActivity": "2026-10-29T06:03:32Z",
+    "recentActivity": "2026-10-30T07:34:03Z",
     "tags": [
       "Computer Vision",
       "Video Models",
@@ -104,14 +104,14 @@
     "fullName": "ggml-org/llama.cpp",
     "description": "LLM inference in C/C++",
     "url": "https://github.com/ggml-org/llama.cpp",
-    "stars": 132702,
+    "stars": 132807,
     "language": "C++",
     "latestRelease": {
       "tag": "v0.8.0",
       "date": "2026-10-28T12:47:51Z",
       "notes": "## Overview\r\n\r\nThis release adds the LiquidAI LFM3 family (text, vision, audio and omni) together with a new experimental streaming-audio API in `mtmd`, and wires realtime audio in and out of the server through the new `/v1/realtime` and `/tts` endpoints. A batch of new architectures landed: DeepSeek V4.1 Flash, SenseNova U1, Beam, Kolibri-1, Flint, Muse Spark, Granite Switch Decision, plus decision/embedding models from LiquidAI, Baidu and NVIDIA. The core got sparse-attention (QSA/DSA) reworke"
     },
-    "recentActivity": "2026-10-29T07:22:35Z",
+    "recentActivity": "2026-10-30T07:40:33Z",
     "tags": [
       "LLMs",
       "Open Source",
@@ -124,14 +124,14 @@
     "fullName": "vllm-project/vllm",
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
     "url": "https://github.com/vllm-project/vllm",
-    "stars": 95823,
+    "stars": 95889,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.32.0",
       "date": "2026-10-18T06:50:48Z",
       "notes": "# v0.32.0\r\n\r\n## Highlights\r\n\r\nThis release features 814 commits from 363 contributors (121 new)!\r\n\r\n* **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs on `Cloudflare/clef-omni` (#61064), `LiquidAI/d1-3B` (#60676) and DiffusionGemma (#60466). The new `hf` tool and reasoning parser (`--tool-call-parser hf`, `--reasoning-parser hf`)"
     },
-    "recentActivity": "2026-10-29T07:39:03Z",
+    "recentActivity": "2026-10-30T07:49:20Z",
     "tags": [
       "Inference",
       "LLMs",
@@ -144,14 +144,14 @@
     "fullName": "OpenHands/OpenHands",
     "description": "🙌 OpenHands: AI-Driven Development",
     "url": "https://github.com/OpenHands/OpenHands",
-    "stars": 92153,
+    "stars": 92231,
     "language": "TypeScript",
     "latestRelease": {
       "tag": "v1.34.0",
       "date": "2026-10-27T14:35:23Z",
       "notes": "## 1.34.0 (2026-10-27)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Features\n* feat(verify): stand in for DigitalOcean so Managed Agents can be verified by @enyst in https://github.com/OpenHands/OpenHands/pull/18867\n* feat(canvas): per-conversation Docker runtime and Settings → Runtime page by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/18436\n* feat(automations): filter and edit automation tags by @VascoSch92 in https:"
     },
-    "recentActivity": "2026-10-29T07:36:05Z",
+    "recentActivity": "2026-10-30T04:08:59Z",
     "tags": [
       "Agents",
       "AI Coding",
@@ -164,14 +164,14 @@
     "fullName": "BerriAI/litellm",
     "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
     "url": "https://github.com/BerriAI/litellm",
-    "stars": 62283,
+    "stars": 62343,
     "language": "Python",
     "latestRelease": {
       "tag": "v1.106.6",
       "date": "2026-10-28T23:03:09Z",
       "notes": "## Verify Docker Image Signature\n\nAll LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). This release is signed with the key introduced in [commit `e82a3c6`](https://github.com/BerriAI/litellm/commit/e82a3c646908ba0a6ee0beddc4310d7a6cac4065).\n\n**Verify using the pinned commit hash (recommended):**\n\nA commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the published signing key:\n\n```bash\ncosign verify \\\n  --key "
     },
-    "recentActivity": "2026-10-29T07:45:34Z",
+    "recentActivity": "2026-10-30T07:47:37Z",
     "tags": [
       "LLMs",
       "Inference",
@@ -184,14 +184,14 @@
     "fullName": "langchain-ai/langgraph",
     "description": "Build resilient agents.",
     "url": "https://github.com/langchain-ai/langgraph",
-    "stars": 44076,
+    "stars": 44143,
     "language": "Python",
     "latestRelease": {
       "tag": "1.2.18",
       "date": "2026-10-26T20:04:45Z",
       "notes": "Changes since 1.2.17\n\n* release(checkpoint): 4.3.1 (#9447)\n* release(langgraph): 1.2.18 (#9445)\n* fix(langgraph): let error_handler recover on every path and stream failed task results (#9408)\n* feat(langgraph): default delta snapshots to 100 updates (#9420). `DeltaChannel` now takes a full snapshot every 100 updates instead of 1000: faster reads on long threads, more storage. Pass `snapshot_frequency=1000` to keep the old behavior.\n* fix(langgraph): stream the last checkpoint of a run stopped b"
     },
-    "recentActivity": "2026-10-28T23:08:19Z",
+    "recentActivity": "2026-10-29T19:10:23Z",
     "tags": [
       "Agents",
       "LLMs",
@@ -204,14 +204,14 @@
     "fullName": "continuedev/continue",
     "description": "open-source coding agent",
     "url": "https://github.com/continuedev/continue",
-    "stars": 36360,
+    "stars": 36372,
     "language": "TypeScript",
     "latestRelease": {
       "tag": "v2.0.0-vscode",
       "date": "2026-06-19T00:24:01Z",
       "notes": ""
     },
-    "recentActivity": "2026-10-27T15:39:03Z",
+    "recentActivity": "2026-10-30T06:49:09Z",
     "tags": [
       "AI Coding",
       "Open Source"
@@ -223,7 +223,7 @@
     "fullName": "meta-llama/llama-models",
     "description": "Utilities intended for use with Llama models.",
     "url": "https://github.com/meta-llama/llama-models",
-    "stars": 7713,
+    "stars": 7714,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.2.0",

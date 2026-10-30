@@ -1,7 +1,7 @@
 [
   {
     "id": "1223da4694b3",
-    "title": "Deepseek&#39;s New AI Has A Secret",
+    "title": "DeepSeek&#39;s New AI Is An Absolute Monster",
     "channel": "Two Minute Papers",
     "channelId": "UCbfYPyITQ-7l4upoX8nvctg",
     "date": "2026-10-28T17:32:40Z",
@@ -9,11 +9,28 @@
     "thumbnail": "https://i.ytimg.com/vi/pryCaGv8wuo/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=pryCaGv8wuo",
     "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers DeepSeek v4.1 Flash 1017 is available ...",
-    "viewCount": 89797,
+    "viewCount": 142512,
     "tags": [
       "Research"
     ],
-    "relevanceScore": 8.5
+    "relevanceScore": 6.7
+  },
+  {
+    "id": "d6860c18a309",
+    "title": "I Trained Qwen 4B with Distillation to Catch Qwen 27B",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-29T13:00:37Z",
+    "duration": "23:16",
+    "thumbnail": "https://i.ytimg.com/vi/hOitZIkMT2Y/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=hOitZIkMT2Y",
+    "description": "Can a 27 billion parameter model teach a 4 billion model to be as good as itself? Last time, RL got Qwen 4B from 52% to 58.4% ...",
+    "viewCount": 17792,
+    "tags": [
+      "RL",
+      "Synthetic Data"
+    ],
+    "relevanceScore": 6.5
   },
   {
     "id": "e5ff8cf7da22",
@@ -25,14 +42,14 @@
     "thumbnail": "https://i.ytimg.com/vi/nEaJMdM1djM/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=nEaJMdM1djM",
     "description": "Try Hyperagent for free, or sign in with ChatGPT to get more usage from your existing plan: ...",
-    "viewCount": 1395182,
+    "viewCount": 1786467,
     "tags": [
       "Agents",
       "LLMs",
       "Memory",
       "RAG"
     ],
-    "relevanceScore": 7.8
+    "relevanceScore": 6.2
   },
   {
     "id": "db72970a2140",
@@ -44,9 +61,9 @@
     "thumbnail": "https://i.ytimg.com/vi/cI8IquVEyVY/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=cI8IquVEyVY",
     "description": "Two PHP Exploits hit the news last week. Dr Steve Bagley explains how dangerous they could be. Read about the chip ...",
-    "viewCount": 130759,
+    "viewCount": 188763,
     "tags": [],
-    "relevanceScore": 7.6
+    "relevanceScore": 5.8
   },
   {
     "id": "1f8d12d0fda6",
@@ -58,55 +75,11 @@
     "thumbnail": "https://i.ytimg.com/vi/kMpTBy3g1N0/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=kMpTBy3g1N0",
     "description": "Google just announced Gemini 4 Carbon, its second frontier model in about two weeks after Gemini 4 Argon. According to ...",
-    "viewCount": 153023,
+    "viewCount": 309440,
     "tags": [
       "LLMs"
     ],
-    "relevanceScore": 7.4
-  },
-  {
-    "id": "364874b62e90",
-    "title": "When It Doesn&#39;t Matter That It&#39;s Slop (Paul Lessard)",
-    "channel": "Machine Learning Street Talk",
-    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
-    "date": "2026-10-28T07:51:47Z",
-    "duration": "0:52",
-    "thumbnail": "https://i.ytimg.com/vi/_9axenbT-1I/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=_9axenbT-1I",
-    "description": "Paul Lessard on where AI has already replaced people. Translation was a white-collar job that has essentially disappeared, and ...",
-    "viewCount": 2307,
-    "tags": [],
-    "relevanceScore": 6.4
-  },
-  {
-    "id": "307eb83b9397",
-    "title": "NCM: The End of LLMs? Not So Fast (Local Tests)",
-    "channel": "Prompt Engineering",
-    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
-    "date": "2026-10-28T13:00:01Z",
-    "duration": "14:44",
-    "thumbnail": "https://i.ytimg.com/vi/_87vrjxx1EE/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=_87vrjxx1EE",
-    "description": "Next-Concept Modeling (NCM) from Stanford's Hazy Research writes an answer as a rough sketch first and the exact words last, ...",
-    "viewCount": 12160,
-    "tags": [
-      "LLMs"
-    ],
-    "relevanceScore": 6.4
-  },
-  {
-    "id": "5558c4e6c8dd",
-    "title": "Nobody Had Actually Read It (Kevin Buzzard)",
-    "channel": "Machine Learning Street Talk",
-    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
-    "date": "2026-10-28T05:27:08Z",
-    "duration": "1:00",
-    "thumbnail": "https://i.ytimg.com/vi/eeVmSP9fL0c/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=eeVmSP9fL0c",
-    "description": "Kevin Buzzard (Imperial College London) on the Liquid Tensor Experiment. At the end of 2020 the Fields medallist Peter Scholze ...",
-    "viewCount": 1713,
-    "tags": [],
-    "relevanceScore": 6.2
+    "relevanceScore": 5.6
   },
   {
     "id": "a13b3b8a6b3a",
@@ -118,36 +91,24 @@
     "thumbnail": "https://i.ytimg.com/vi/IcXN7ysaqrc/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=IcXN7ysaqrc",
     "description": "Jeremy Avigad on why the AI debate should stay centred on us. What makes our goals special is that they're ours. AI can have its ...",
-    "viewCount": 408,
+    "viewCount": 904,
     "tags": [],
-    "relevanceScore": 6
+    "relevanceScore": 5
   },
   {
-    "id": "110a34c107fe",
-    "title": "The Annals Published It. It Wasn&#39;t True. - Kevin Buzzard",
-    "channel": "Machine Learning Street Talk",
-    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
-    "date": "2026-10-28T00:47:40Z",
-    "duration": "1:04",
-    "thumbnail": "https://i.ytimg.com/vi/Melgii34x-c/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=Melgii34x-c",
-    "description": "Kevin Buzzard (Imperial College London) on what happened when 50 theorems from the Annals of Mathematics were written ...",
-    "viewCount": 1653,
-    "tags": [],
-    "relevanceScore": 5.8
-  },
-  {
-    "id": "1f241e836b41",
-    "title": "Colour Theory Has Politics - Paul Lessard",
-    "channel": "Machine Learning Street Talk",
-    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
-    "date": "2026-10-27T17:51:10Z",
-    "duration": "0:58",
-    "thumbnail": "https://i.ytimg.com/vi/m7jelL7qRWo/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=m7jelL7qRWo",
-    "description": "Paul Lessard on why the representations we arrive at don't have to converge. Colour theory looks as if it simply is, but it carries ...",
-    "viewCount": 165,
-    "tags": [],
-    "relevanceScore": 4.7
+    "id": "307eb83b9397",
+    "title": "NCM: The End of LLMs? Not So Fast (Local Tests)",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-28T13:00:01Z",
+    "duration": "14:44",
+    "thumbnail": "https://i.ytimg.com/vi/_87vrjxx1EE/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=_87vrjxx1EE",
+    "description": "Next-Concept Modeling (NCM) from Stanford's Hazy Research writes an answer as a rough sketch first and the exact words last, ...",
+    "viewCount": 17504,
+    "tags": [
+      "LLMs"
+    ],
+    "relevanceScore": 4.9
   }
 ]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "1223da4694b3",
+    "title": "DeepSeek&#39;s New AI Is An Absolute Monster",
+    "channel": "Two Minute Papers",
+    "channelId": "UCbfYPyITQ-7l4upoX8nvctg",
+    "date": "2026-10-28T17:32:40Z",
+    "duration": "5:41",
+    "thumbnail": "https://i.ytimg.com/vi/pryCaGv8wuo/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=pryCaGv8wuo",
+    "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers DeepSeek v4.1 Flash 1017 is available ...",
+    "viewCount": 142512,
+    "tags": [
+      "Research"
+    ],
+    "relevanceScore": 6.7
+  },
+  {
+    "id": "d6860c18a309",
+    "title": "I Trained Qwen 4B with Distillation to Catch Qwen 27B",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-29T13:00:37Z",
+    "duration": "23:16",
+    "thumbnail": "https://i.ytimg.com/vi/hOitZIkMT2Y/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=hOitZIkMT2Y",
+    "description": "Can a 27 billion parameter model teach a 4 billion model to be as good as itself? Last time, RL got Qwen 4B from 52% to 58.4% ...",
+    "viewCount": 17792,
+    "tags": [
+      "RL",
+      "Synthetic Data"
+    ],
+    "relevanceScore": 6.5
+  },
+  {
+    "id": "e5ff8cf7da22",
+    "title": "Did the AI bubble just pop?",
+    "channel": "Fireship",
+    "channelId": "UCsBjURrPoezykLs9EqgamOA",
+    "date": "2026-10-28T13:31:29Z",
+    "duration": "5:25",
+    "thumbnail": "https://i.ytimg.com/vi/nEaJMdM1djM/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=nEaJMdM1djM",
+    "description": "Try Hyperagent for free, or sign in with ChatGPT to get more usage from your existing plan: ...",
+    "viewCount": 1786467,
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Memory",
+      "RAG"
+    ],
+    "relevanceScore": 6.2
+  },
+  {
+    "id": "db72970a2140",
+    "title": "?PHP Problem? - Computerphile",
+    "channel": "Computerphile",
+    "channelId": "UC9-y-6csu5WGm29I7JiwpnA",
+    "date": "2026-10-28T16:23:55Z",
+    "duration": "19:18",
+    "thumbnail": "https://i.ytimg.com/vi/cI8IquVEyVY/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=cI8IquVEyVY",
+    "description": "Two PHP Exploits hit the news last week. Dr Steve Bagley explains how dangerous they could be. Read about the chip ...",
+    "viewCount": 188763,
+    "tags": [],
+    "relevanceScore": 5.8
+  },
+  {
+    "id": "1f8d12d0fda6",
+    "title": "Gemini 4 Carbon: The New Frontier",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-28T18:57:07Z",
+    "duration": "1:12",
+    "thumbnail": "https://i.ytimg.com/vi/kMpTBy3g1N0/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=kMpTBy3g1N0",
+    "description": "Google just announced Gemini 4 Carbon, its second frontier model in about two weeks after Gemini 4 Argon. According to ...",
+    "viewCount": 309440,
+    "tags": [
+      "LLMs"
+    ],
+    "relevanceScore": 5.6
+  },
+  {
+    "id": "a13b3b8a6b3a",
+    "title": "We&#39;re the Ones Having the Debate (Jeremy Avigad)",
+    "channel": "Machine Learning Street Talk",
+    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
+    "date": "2026-10-28T08:26:23Z",
+    "duration": "1:01",
+    "thumbnail": "https://i.ytimg.com/vi/IcXN7ysaqrc/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=IcXN7ysaqrc",
+    "description": "Jeremy Avigad on why the AI debate should stay centred on us. What makes our goals special is that they're ours. AI can have its ...",
+    "viewCount": 904,
+    "tags": [],
+    "relevanceScore": 5
+  },
+  {
+    "id": "307eb83b9397",
+    "title": "NCM: The End of LLMs? Not So Fast (Local Tests)",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-28T13:00:01Z",
+    "duration": "14:44",
+    "thumbnail": "https://i.ytimg.com/vi/_87vrjxx1EE/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=_87vrjxx1EE",
+    "description": "Next-Concept Modeling (NCM) from Stanford's Hazy Research writes an answer as a rough sketch first and the exact words last, ...",
+    "viewCount": 17504,
+    "tags": [
+      "LLMs"
+    ],
+    "relevanceScore": 4.9
+  }
+]
