@@ -1,125 +1,11 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "topics": [
     {
-      "topic": "Gemini Carbon",
-      "frequency": 3,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "1f8d12d0fda6"
-      ],
-      "relatedNewsIds": [
-        "c3ea2a7f4376"
-      ],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": [
-        "a7489b37e1de"
-      ]
-    },
-    {
-      "topic": "Carbon",
-      "frequency": 3,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "1f8d12d0fda6"
-      ],
-      "relatedNewsIds": [
-        "c3ea2a7f4376"
-      ],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": [
-        "a7489b37e1de"
-      ]
-    },
-    {
-      "topic": "Agents",
-      "frequency": 27,
-      "growth": "stable",
-      "relatedPaperIds": [
-        "235b0ab31402",
-        "6bd908afb0f1",
-        "1be7099e3db1",
-        "9d4f4f454585",
-        "2d01dc796cc4",
-        "af8f0f31af91",
-        "bf4a2de7c35f",
-        "ef47bb57b53f",
-        "c8624d0ee503",
-        "dfb0147972b0",
-        "600866ed800c",
-        "9db1449dd35a"
-      ],
-      "relatedVideoIds": [
-        "e5ff8cf7da22"
-      ],
-      "relatedNewsIds": [
-        "d229a8548d7c",
-        "452619c9774a",
-        "3170f44e5b6e",
-        "70ecd9486d61",
-        "297c50875ade",
-        "7598479d5ae2"
-      ],
-      "relatedRepoIds": [
-        "83b96e936faf",
-        "6d558ac6ba23",
-        "1941bc8214c6"
-      ],
-      "relatedNewsletterIds": [
-        "221809a9d65d",
-        "a7489b37e1de",
-        "e442a39cb287",
-        "17e4b18f41c9",
-        "f9a05dfcfdfa"
-      ]
-    },
-    {
-      "topic": "frontier",
-      "frequency": 10,
-      "growth": "rising",
-      "relatedPaperIds": [
-        "6bd908afb0f1",
-        "987bd48e5dfd",
-        "600866ed800c"
-      ],
-      "relatedVideoIds": [
-        "1f8d12d0fda6"
-      ],
-      "relatedNewsIds": [
-        "452619c9774a",
-        "3170f44e5b6e",
-        "c3ea2a7f4376"
-      ],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": [
-        "221809a9d65d",
-        "a7489b37e1de",
-        "17e4b18f41c9"
-      ]
-    },
-    {
       "topic": "Inference",
-      "frequency": 25,
+      "frequency": 8,
       "growth": "stable",
-      "relatedPaperIds": [
-        "68afbd35a2ad",
-        "6bd908afb0f1",
-        "987bd48e5dfd",
-        "36a76388c2c4",
-        "cafb18d4458c",
-        "9d4f4f454585",
-        "85e7daa3945e",
-        "219a5586cd78",
-        "58e1091d3a99",
-        "abd8fa20954f",
-        "b01adb6a6c07",
-        "a5c106fd4e2f",
-        "a62c25015b7e",
-        "b84ec24308d7",
-        "217f7e2bdbe7"
-      ],
+      "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
       "relatedRepoIds": [
@@ -131,47 +17,99 @@
         "68b1fb9303ec"
       ],
       "relatedNewsletterIds": [
-        "a7489b37e1de",
-        "e442a39cb287",
-        "17e4b18f41c9",
-        "f9a05dfcfdfa"
+        "724b388bd0e2",
+        "3be81d61a582"
       ]
     },
     {
-      "topic": "Gemini",
-      "frequency": 3,
+      "topic": "OpenAI",
+      "frequency": 8,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "1f8d12d0fda6"
+        "3be4c939c6e8"
       ],
       "relatedNewsIds": [
-        "c3ea2a7f4376"
+        "e27827de6679",
+        "377ef9823212",
+        "c75e3880c437",
+        "86aded684af4",
+        "3170f44e5b6e"
       ],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": [
-        "a7489b37e1de"
-      ]
+      "relatedRepoIds": [
+        "5df14a56333c",
+        "68b1fb9303ec"
+      ],
+      "relatedNewsletterIds": []
     },
     {
-      "topic": "Absolute Monster",
+      "topic": "OpenAI Claims",
       "frequency": 1,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "1223da4694b3"
+        "3be4c939c6e8"
       ],
       "relatedNewsIds": [],
       "relatedRepoIds": [],
       "relatedNewsletterIds": []
     },
     {
-      "topic": "Monster",
+      "topic": "Agents",
+      "frequency": 11,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [
+        "a202a3bf610a",
+        "d229a8548d7c",
+        "452619c9774a",
+        "3170f44e5b6e"
+      ],
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "724b388bd0e2",
+        "5ab46d195a86",
+        "3be81d61a582",
+        "221809a9d65d"
+      ]
+    },
+    {
+      "topic": "llama",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "14df74d3bb6b",
+        "052e3a92e72b"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Impossible",
       "frequency": 1,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "1223da4694b3"
+        "3be4c939c6e8"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "quot",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "3b23a4674e56"
       ],
       "relatedNewsIds": [],
       "relatedRepoIds": [],
@@ -179,7 +117,7 @@
     },
     {
       "topic": "open-source",
-      "frequency": 7,
+      "frequency": 3,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [],
@@ -188,24 +126,32 @@
         "233a4f836599"
       ],
       "relatedNewsletterIds": [
-        "679c1948245d",
-        "17bd1a0396d2",
-        "065331a99974",
-        "71a601e0736a",
-        "e442a39cb287",
-        "0922235e1c8d"
+        "e6ac0eea076d",
+        "679c1948245d"
       ]
     },
     {
-      "topic": "PHP Problem",
+      "topic": "continue open-source",
       "frequency": 1,
       "growth": "rising",
       "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "db72970a2140"
-      ],
+      "relatedVideoIds": [],
       "relatedNewsIds": [],
-      "relatedRepoIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "continue",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
       "relatedNewsletterIds": []
     }
   ]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "3be4c939c6e8",
+    "title": "OpenAI Claims It Just Did The Impossible",
+    "channel": "Two Minute Papers",
+    "channelId": "UCbfYPyITQ-7l4upoX8nvctg",
+    "date": "2026-10-30T15:57:16Z",
+    "duration": "7:22",
+    "thumbnail": "https://i.ytimg.com/vi/CWdTBLsbaQs/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=CWdTBLsbaQs",
+    "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers OpenAI's paper is available here: ...",
+    "viewCount": 308777,
+    "tags": [
+      "Open Source",
+      "Research"
+    ],
+    "relevanceScore": 8.4
+  },
+  {
+    "id": "3b23a4674e56",
+    "title": "The Private Key Mistake! (TLS Key set to &quot;4&quot;) - Computerphile",
+    "channel": "Computerphile",
+    "channelId": "UC9-y-6csu5WGm29I7JiwpnA",
+    "date": "2026-10-30T15:47:25Z",
+    "duration": "24:36",
+    "thumbnail": "https://i.ytimg.com/vi/NDgS__J1U-M/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=NDgS__J1U-M",
+    "description": "You actually have to work quite hard to set a private key to the number 4! - Dr Tim Muller takes us through the problems with ...",
+    "viewCount": 110334,
+    "tags": [],
+    "relevanceScore": 7.6
+  },
+  {
+    "id": "d6860c18a309",
+    "title": "I Trained Qwen 4B with Distillation to Catch Qwen 27B",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-10-29T13:00:37Z",
+    "duration": "23:16",
+    "thumbnail": "https://i.ytimg.com/vi/hOitZIkMT2Y/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=hOitZIkMT2Y",
+    "description": "Can a 27 billion parameter model teach a 4 billion model to be as good as itself? Last time, RL got Qwen 4B from 52% to 58.4% ...",
+    "viewCount": 24356,
+    "tags": [
+      "RL",
+      "Synthetic Data"
+    ],
+    "relevanceScore": 5
+  }
+]

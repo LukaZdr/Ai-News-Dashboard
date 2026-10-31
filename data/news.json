@@ -1,5 +1,78 @@
 [
   {
+    "id": "a202a3bf610a",
+    "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+    "date": "Fri, 30 Oct 2026 15:00:10 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+    "summary": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a major leap forward with AI, and it increasingly focuses on AI agents built b",
+    "type": "blog",
+    "tags": [
+      "Agents"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "62d16b892740",
+    "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+    "date": "Fri, 30 Oct 2026 13:05:28 +0000",
+    "source": "Microsoft Research",
+    "company": "microsoft",
+    "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+    "summary": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances.\nThe post From synthetic enterprise data evaluations to real",
+    "type": "blog",
+    "tags": [
+      "AI Coding",
+      "Research",
+      "Business"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "e27827de6679",
+    "title": "Making it easier for websites to express AI training preferences",
+    "date": "Fri, 30 Oct 2026 09:30:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+    "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+    "type": "blog",
+    "tags": [
+      "Robotics"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "377ef9823212",
+    "title": "Community safety report and new protections for teens",
+    "date": "Fri, 30 Oct 2026 09:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+    "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+    "type": "blog",
+    "tags": [
+      "LLMs",
+      "RL"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "c75e3880c437",
+    "title": "Fair use benefits everyone",
+    "date": "Fri, 30 Oct 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/fair-use-benefits-everyone",
+    "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+    "type": "blog",
+    "tags": [
+      "RL"
+    ],
+    "importance": 5
+  },
+  {
     "id": "d229a8548d7c",
     "title": "Microsoft Research Focus – Edition #97",
     "date": "Thu, 29 Oct 2026 19:19:16 +0000",
@@ -66,90 +139,6 @@
     "type": "blog",
     "tags": [
       "Agents"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "1e2d6762b196",
-    "title": "How Ropes & Gray is developing AI for transactional diligence",
-    "date": "Thu, 29 Oct 2026 07:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/ropes-gray-ai-diligence",
-    "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-    "type": "blog",
-    "tags": [],
-    "importance": 5
-  },
-  {
-    "id": "c3ea2a7f4376",
-    "title": "Gemini 4 Carbon: Our next frontier model",
-    "date": "Wed, 28 Oct 2026 17:00:58 +0000",
-    "source": "Google DeepMind",
-    "company": "deepmind",
-    "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-    "summary": "",
-    "type": "blog",
-    "tags": [
-      "LLMs"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "70ecd9486d61",
-    "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
-    "date": "Wed, 28 Oct 2026 15:00:46 +0000",
-    "source": "NVIDIA Research",
-    "company": "nvidia",
-    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
-    "summary": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip wi",
-    "type": "blog",
-    "tags": [
-      "Agents"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "297c50875ade",
-    "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-    "date": "Wed, 28 Oct 2026 13:15:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-    "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-    "type": "blog",
-    "tags": [
-      "Agents",
-      "LLMs",
-      "Open Source",
-      "Business"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "015c21d1ab2f",
-    "title": "The future of the firm",
-    "date": "Wed, 28 Oct 2026 10:00:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/the-future-of-the-firm",
-    "summary": "How AI might enter the org chart—beneath, beside, and between us.",
-    "type": "blog",
-    "tags": [],
-    "importance": 5
-  },
-  {
-    "id": "7598479d5ae2",
-    "title": "Legora is building the agentic operating system for legal work",
-    "date": "Wed, 28 Oct 2026 09:30:00 GMT",
-    "source": "OpenAI",
-    "company": "openai",
-    "url": "https://openai.com/index/legora",
-    "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-    "type": "blog",
-    "tags": [
-      "Agents",
-      "LLMs"
     ],
     "importance": 5
   }
