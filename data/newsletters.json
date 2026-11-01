@@ -1,8 +1,8 @@
 [
   {
     "id": "048b1b572f9c",
-    "title": "Understanding the latest trends in LLMs and AI Coding and Business (Issue #184)",
-    "date": "2026-10-31T07:41:57.289Z",
+    "title": "Understanding the latest trends in LLMs and AI Coding and Business (Issue #244)",
+    "date": "2026-11-01T08:21:47.503Z",
     "source": "Ben's Bites",
     "url": "https://example.com/mock/ben's-bites",
     "summary": "A rapid daily digest covering the newest AI model releases, products, browser extensions, and early-stage startup updates. This issue explores key methodologies, benchmarks, and community findings in the LLMs, AI Coding, Business ecosystem.",
@@ -17,8 +17,8 @@
   },
   {
     "id": "6145bf9087f7",
-    "title": "Understanding the latest trends in Business and LLMs and AI Coding (Issue #232)",
-    "date": "2026-10-31T07:41:57.260Z",
+    "title": "Understanding the latest trends in Business and LLMs and AI Coding (Issue #157)",
+    "date": "2026-11-01T08:21:47.429Z",
     "source": "The Rundown AI",
     "url": "https://example.com/mock/the-rundown-ai",
     "summary": "Daily briefing on the latest developments in artificial intelligence, focusing on commercial tools, LLM features, and productivity applications. This issue explores key methodologies, benchmarks, and community findings in the Business, LLMs, AI Coding ecosystem.",
@@ -33,8 +33,8 @@
   },
   {
     "id": "2fdf23086d32",
-    "title": "Understanding the latest trends in Research and LLMs and Open Source (Issue #156)",
-    "date": "2026-10-31T07:41:57.153Z",
+    "title": "Understanding the latest trends in Research and LLMs and Open Source (Issue #183)",
+    "date": "2026-11-01T08:21:47.264Z",
     "source": "TLDR AI",
     "url": "https://example.com/mock/tldr-ai",
     "summary": "A curated daily summary of the most interesting developments in AI, machine learning research, and developer ecosystems. This issue explores key methodologies, benchmarks, and community findings in the Research, LLMs, Open Source ecosystem.",
@@ -49,8 +49,8 @@
   },
   {
     "id": "edfefe604600",
-    "title": "Understanding the latest trends in Research and Business and LLMs (Issue #184)",
-    "date": "2026-10-31T07:41:57.051Z",
+    "title": "Understanding the latest trends in Research and Business and LLMs (Issue #232)",
+    "date": "2026-11-01T08:21:47.035Z",
     "source": "The Batch",
     "url": "https://example.com/mock/the-batch",
     "summary": "Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.",
@@ -65,8 +65,8 @@
   },
   {
     "id": "9a033797a8f8",
-    "title": "Understanding the latest trends in Research and Open Source and Business (Issue #201)",
-    "date": "2026-10-31T07:41:57.050Z",
+    "title": "Understanding the latest trends in Research and Open Source and Business (Issue #167)",
+    "date": "2026-11-01T08:21:47.014Z",
     "source": "Import AI",
     "url": "https://example.com/mock/import-ai",
     "summary": "Jack Clark's weekly analysis of machine learning progress, model safety policies, computational resource scaling, and national AI strategies. This issue explores key methodologies, benchmarks, and community findings in the Research, Open Source, Business ecosystem.",
@@ -78,6 +78,25 @@
     ],
     "quality": 5,
     "readTime": "6 min read"
+  },
+  {
+    "id": "99484e21ac15",
+    "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+    "date": "Sat, 31 Oct 2026 16:05:00 GMT",
+    "source": "Latent Space",
+    "url": "https://latent.space/p/arca/",
+    "summary": "At AI Engineer New York this month, we sat down with Aman Singh, the lead AI Engineer at Arca, an “AI-native” company providing wealth management services. We discovered that while agents do most of the background work in the firm, there are guardrails in place to ensure that human advisors are mak",
+    "content": "At AI Engineer New York this month, we sat down with Aman Singh, the lead AI Engineer at Arca, an “AI-native” company providing wealth management services.\n\nWe discovered that while agents do most of the background work in the firm, there are guardrails in place to ensure that human advisors are making the final decisions. The goal is for AI to guide the process; or as Singh nicely put it, “agents prompt people more than people prompt agents.”\n\nArca recently raised $48.5 Million in a round led by General Catalyst, with participation from Index Ventures and Venrock.\n\nOne of the features of using AI in financial services, explained Singh, is that it’s typically long-horizon work — although not long-running. In his AIE presentation, Singh noted that agent tasks at Arca can take up to ten days. “It's very stop-start, there's many actors in between, many decision points, many handoffs,” he said.\n\n[]\n\nFor this reason, Arca has developed an internal memory system.\n\n“So we have this persistence for every client,” Singh said in our podcast discussion. “What has happened so far? What are we tracking for next? What needs to happen immediately in the next couple of days [and] what are we tracking for the long term? Which individual is responsible for which action? All of this is being tracked by our memory systems that our agents contribute to.”\n\n[]\n\nArca uses models from frontier labs like Anthropic and OpenAI, with Claude its primary model provider. The company has built its own harness, which automatically selects the best model to use for a particular task, based on the company’s internal benchmarks.\n\nOwning the harness, rather than using a managed agent harness, also means that Arca has the flexibility to change model providers if it needs to.\n\n[]\n\nSafety is obviously key for financial services. Singh noted that although agents do much of the work, an agent’s role is limited to analysis and proposing solutions. Trading and any other money movement is handled by a human advisor.\n\n“All of our safety restrictions are fully deterministic,” he said. “And they take the decision making off the agent's hands.”\n\nIn other words, there are certain tools and tasks the agent can execute by itself — but not ones that involve risk to the client. Arca also runs verification checks on known AI security issues, such as prompt injections.\n\n[]\n\nArca’s agent isn’t itself sandboxed, but it does use sandboxes for computation. Singh explained they’ve gone even further, with extra security measures for handling sensitive data.\n\n“We've built systems to make it safe for code inside of that sandbox to access our data,” he said. “So we have this thing which translates the code it [the agent] wrote into a strict format that we expect, throw away the code, and you install guardrails on that format before it reaches your back end. So we allow the agents to use code to query our data, which means that they can aggregate it, they can munge it, they can work with it as they see fit to produce [things] like a financial plan.”\n\nAnother interesting process Arca has implemented is using feedback from human advisors, along with traces from the agents, to improve the harness. A “meta-agent” is used to analyze all this data and suggest changes to the harness.\n\nPodcast timestamps\n\n•\n00:00 — Introducing Arca’s AI-native wealth management firm\n\n•\n01:40 — How AI supports human financial advisors\n\n•\n02:40 — Choosing models with internal benchmarks\n\n•\n04:01 — Building a custom harness and routing tasks\n\n•\n05:25 — Handling a $100,000 tax bill: Agents and human approvals\n\n•\n07:20 — Agent memory across long-running tasks\n\n•\n09:22 — Safety guardrails and prompt injection defenses\n\n•\n11:02 — Compliance and auditability by default\n\n•\n12:14 — “Agents prompt people more than people prompt agents”\n\n•\n13:46 — Why Arca owns its agent infrastructure\n\n•\n15:05 — AI-native firms versus firms using AI tools\n\n•\n16:09 — Sandboxes and financial plan verification\n\n•\n18:40 — Decision models and checking financial facts\n\n•\n19:51 — Why trade execution stays with human experts\n\n•\n20:32 — Turning staff feedback into evals and improvements\n\n•\n22:22 — Turning operational knowledge into agent context\n\n•\n23:41 — Client examples: Hidden fees and proactive service\n\nWatch Aman’s AIE presentation",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Open Source",
+      "Research",
+      "RL",
+      "Memory"
+    ],
+    "quality": 5,
+    "readTime": "4 min read"
   },
   {
     "id": "724b388bd0e2",
@@ -165,41 +184,5 @@
     ],
     "quality": 5,
     "readTime": "33 min read"
-  },
-  {
-    "id": "221809a9d65d",
-    "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
-    "date": "Thu, 29 Oct 2026 16:00:00 GMT",
-    "source": "Latent Space",
-    "url": "https://latent.space/p/elorian/",
-    "summary": "[] This month Elorian launched its first visual reasoning model, Glimpse. It’s being promoted as “a new category of visual thinking model: a system that reasons about the physical world from what it sees.” View post on X ↗ So how does Glimpse compare to both frontier models and world models in vi",
-    "content": "[]\n\nThis month Elorian launched its first visual reasoning model, Glimpse. It’s being promoted as “a new category of visual thinking model: a system that reasons about the physical world from what it sees.”\n\nView post on X ↗\n\nSo how does Glimpse compare to both frontier models and world models in vision tests? A new benchmark called DecoyCount, co-released by Elorian, provides some answers.\n\nWe quizzed CEO Andrew Dai on the benchmark, and also talked about Elorian’s positioning in a crowded models landscape.\n\nDecoyCount results\n\nElorian emerged from stealth in April with $55 million in seed funding, co-led by Striker Venture Partners, Menlo Ventures and Altimeter Capital. Now, in partnership with AI data company Mercor, Elorian is announcing the DecoyCount benchmark, which tests whether language models genuinely count objects or rely on visual shortcuts and substitution heuristics.\n\nAccording to a paper accompanying the release, frontier models scored below 50% accuracy on DecoyCount — the highest was GPT-6 Astra, with 43.17%. Elorian’s new model isn’t mentioned in the paper, but Dai told us that Glimpse scored 50.48% in an internal test.\n\nRegarding the frontier models, the paper concludes that “stronger general reasoning does not by itself generalize to aligned visual reasoning.”\n\n[]\n\nHow the benchmark works: “DecoyCount exposes interpretable counting failures across seven mechanisms.”\n\nTo make sure it was a like-for-like comparison with the frontier models, we asked whether the paper’s evaluation images were withheld from Glimpse’s training?\n\n“The evaluation images and text were withheld from our training, and our contamination check found no overlap in the training data checked,” Dai replied, via email. “Without any cues, Glimpse scored 50.48% on the 1,660 DecoyCount items, making it the only model in the comparison to clear 50%. The closest was GPT-6 Astra at 43.17%, about 7 points behind, and Gemini-3.8-flash scored 32.71% while Qwen3.8-max scored 28.31%, and Claude-Fable-5.1 came in at 25.22%.”\n\nDai did note that Glimpse’s results “come from a single run of the model on its own, without an agent or tool harness,” whereas the six models from the paper were each averaged across three runs under their reported settings.\n\n[]\n\nDecoyCount benchmark results for frontier models over 3 runs each.\n\nBut what exactly is DecoyCount revealing that existing model benchmarks miss? According to Dai, it tests both vision and reasoning together — which most benchmarks elide.\n\n“If a person sees an apple in front of a mirror, we know that there’s just one apple and it’s being reflected. But a model might miss the apple entirely (a vision problem) or count the apple and its reflection as two (a reasoning problem). But most benchmarks that test for this error only check the final number, so both mistakes are treated the same way, which is an issue if you want to fix the root problem and can’t tell if it’s an issue of vision or judgement.”\n\n[]\n\nFrontier Model Comparison in DecoyCount paper\n\nWhat is visual thinking exactly?\n\nAndrew Dai isn’t a Johnny-come-lately on the AI scene. In 2015, while working at Google, he co-authored a paper entitled Semi-supervised sequence learning. In this paper, Dai and his then colleague Quoc Le demonstrated an early version of the pretrain-then-fine-tune approach later adopted in large language models. Over the decade that followed, Dai worked for Google DeepMind on GLaM MoE, PaLM 2 and then Gemini.\n\n[]\n\nDai only left Google this year, in order to co-found Elorian. Part of his motivation was to push the boundaries of what vision models can do. His approach, he explained to Latent Space, is based on a concept in human psychology called visual thinking.\n\nWhen most people “think about spatial problems or visual problems,” he explained, “they visualize the problem [by] generating images and editing images in their mind.”\n\nHe gave an example of buying a sofa and mentally picturing what it will look like in your living room.\n\n[]\n\nA conceptual visual reasoning loop\n\nThere’s also manipulating an image in your mind; for example if you’re counting people around a table, you might mentally “cross them off one by one,” Dai said.\n\nThis is what Elorian aims to do in its models: teach them visual thinking “that involves generation and editing images as part of the reasoning trace, along with language.”\n\nThe key point is that image generation isn’t just an output for a vision model — the generated or edited image is part of a chain of reasoning.\n\nHow is Elorian different from World Models?\n\nVisual reasoning is still a work in progress, but there have been some impressive releases this year in “world models” — where vision is a key component. Two that stand out are World Labs’ Atlas in September (the company was subsequently acquired by AMD) and Google’s just released Genie 4.\n\nWhen World Labs announced Atlas, it was described as an “omni world model for spatial intelligence.” But what Atlas enables — basically a 3D simulation of a world — isn’t the same as visual reasoning.\n\n[]\n\nAccording to Dai, world models enable “direct action on a world,” whereas Elorian is more focused on what he calls “indirect action.” By that he means using visual reasoning to inform a decision or workflow (what Glimpse does), rather than building simulated environments that allow navigation and manipulation (what Atlas does).\n\nAs an example, you might use visual reasoning to decide whether to reject a user-contributed video for violating a policy. “You don't need a 3D rendering to do that,” said Dai.\n\nApplications for visual reasoning\n\nOther business opportunities for Elorian include robotics, engineering, and defense applications. Dai added that architects need to regularly check building codes and compliance — an ideal task for a vision reasoning model.\n\nIn two robotics benchmarks, WGO Bench and ERQA, Elorian claims to rate equal or higher than frontier models, and at a much cheaper price:\n\n[]\n\nSource: Elorian\n\nGetting back to counting decoys as one measure of success for vision models, Dai argues that reasoning about what a model sees is crucial to its accuracy and effectiveness in real-world applications.\n\nHe gives an example of a warehouse robot counting items in a box.\n\n“A familiar 12-slot tray might only hold 10 parts, and a 24-pack label doesn’t mean 24 items are still in the box,” said Dai. “A model relying on what it expects to see will face many issues in real-world situations, and Glimpse is designed to work through the image instead of jumping to a quick conclusion. We’ve designed Glimpse to ground the count in visible evidence as opposed to basic cues that could lead other models astray.”\n\nWhy Elorian thinks AGI requires visual reasoning\n\nElorian goes so far as to claim that visual reasoning is a foundational requirement for AGI (artificial general intelligence). From the Glimpse launch post:\n\n“We believe building the full stack across systems, data, model architecture, and training — from the ground up for multimodal intelligence — can unlock AGI in the physical world.”\n\nDai acknowledges there’s “still a huge gap between humans and machines.” But he thinks visual reasoning is the key to closing that gap.\n\n“I think the way to think about visual reasoning is as a fundamental step of reasoning in human intelligence,” he said. “And ultimately, if we want to build anything that's like AGI, we can't just skip visual.”",
-    "tags": [
-      "Agents",
-      "Reasoning",
-      "LLMs",
-      "Computer Vision",
-      "Robotics",
-      "Open Source",
-      "Research",
-      "Business",
-      "RL",
-      "Memory",
-      "RAG"
-    ],
-    "quality": 5,
-    "readTime": "6 min read"
-  },
-  {
-    "id": "679c1948245d",
-    "title": "Granite Switch 4.1.1 — Update models like you update software",
-    "date": "Thu, 29 Oct 2026 13:37:07 GMT",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-    "summary": "Announcements of new open-source models, dataset cards, PyTorch training pipelines, web demos, and collaborative open-science initiatives.",
-    "content": "Announcements of new open-source models, dataset cards, PyTorch training pipelines, web demos, and collaborative open-science initiatives.",
-    "tags": [],
-    "quality": 5,
-    "readTime": "1 min read"
   }
 ]
