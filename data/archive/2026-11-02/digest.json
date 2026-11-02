@@ -1,0 +1,443 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T08:44:38.580Z",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "summary": "The past 24 hours reveal an AI ecosystem quietly crossing the threshold from demonstration to production-grade deployment, with two parallel currents driving the shift. First, the self-hosted inference and agent orchestration stack has reached a new maturity inflection: Ollama, llama.cpp, vLLM, Hugging Face Transformers, Dify, Open WebUI, ComfyUI, and OpenHands all shipped significant version updates in concert, signaling that the toolchain for running and composing models locally — or in private VPCs — is now stable enough for enterprise workloads. Second, the Latent Space deep-dive on Arca, a $48.5M-backed wealth-management firm, provides the clearest evidence yet that long-horizon autonomous agents (up to ten-day task spans) are operating in regulated, high-stakes environments, governed by a custom memory architecture and a critical design principle: \"agents prompt people more than people prompt agents.\" This human-in-the-loop inversion reframes agents not as replacements but as persistent analysts that surface decisions for expert ratification. Beneath these deployment signals, research is hardening the foundations: Li²SAO solves the instability of asynchronous RL post-training that breaks standard GRPO assumptions, Mage-VL-Cowork delivers a full training recipe for hybrid GUI-plus-code computer-use agents, and AutoHebb alongside a new self-evolving agent benchmark push toward genuine continual learning. The Joscha Bach conversation on consciousness adds a philosophical counterweight, reminding us that architectural progress still outpaces our understanding of what these systems actually are. Practitioners should watch for the convergence of robust local serving (vLLM 0.32, llama.cpp 0.8) with agent frameworks (OpenHands 1.34, Dify 1.18) that now support the memory, tooling, and human-escalation patterns proven in production — the stack is finally coherent enough to build on.",
+  "topDevelopments": [
+    {
+      "rank": 1,
+      "title": "Arca's Production Deployment of 10-Day Financial Agents with Human-in-the-Loop Governance",
+      "summary": "Latent Space reveals that Arca, an AI-native wealth manager with $48.5M in funding, runs agents on multi-day financial workflows (up to 10 days) using a custom memory system for persistence, with Claude as the primary model. The critical insight: human advisors retain final decision authority, operating under the principle that \"agents prompt people more than people prompt agents.\" This is the first detailed public case study of long-horizon agents in a regulated, high-stakes domain.",
+      "whyItMatters": "Validates that agent architectures with persistent memory and human escalation paths are production-ready for complex knowledge work, moving the industry beyond chatbot-style interactions.",
+      "expectedImpact": "Accelerates adoption of agentic workflows in finance, legal, and compliance sectors; establishes \"agents prompt people\" as a design pattern for regulated AI deployment.",
+      "relatedItemIds": [
+        "99484e21ac15"
+      ],
+      "tags": [
+        "Agents",
+        "Production",
+        "Memory",
+        "Human-in-the-loop",
+        "Finance"
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Convergent Major Releases Across the Entire Self-Hosted AI Stack",
+      "summary": "In a single day, the core open-source inference and application layer shipped coordinated updates: Ollama v0.40.13 (185k★), llama.cpp v0.8.0 (133k★), vLLM v0.32.0 (96k★), Transformers v5.22.1 (168k★), Dify v1.18.0 (160k★), Open WebUI v0.12.5 (157k★), ComfyUI v0.43.0 (144k★), and OpenHands v1.34.0 (92k★). This synchronous maturation across model serving, agent orchestration, RAG pipelines, and diffusion UIs indicates the local-first stack has reached production-grade stability.",
+      "whyItMatters": "Eliminates the \"integration tax\" that previously forced teams to choose between managed APIs and fragile custom stacks; enterprises can now deploy full agentic workflows on-prem with confidence.",
+      "expectedImpact": "Rapid expansion of private-cloud and air-gapped AI deployments; reduced dependency on frontier lab APIs for sensitive workloads; standardization of OpenHands/Dify as default agent runtimes.",
+      "relatedItemIds": [
+        "b6a0b13bc12c",
+        "7166ecafb485",
+        "83b96e936faf",
+        "5df14a56333c",
+        "5b1fd1fd8a2b",
+        "14df74d3bb6b",
+        "deae4303c432",
+        "6d558ac6ba23"
+      ],
+      "tags": [
+        "Open Source",
+        "Inference",
+        "Agents",
+        "Local AI",
+        "Enterprise"
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Li²SAO: Stabilizing Asynchronous RL for LLM Post-Training",
+      "summary": "The Li²SAO paper introduces group-relative actor-critic bootstrapping to fix the instability caused by long-tailed rollout length distributions that break standard GRPO assumptions in asynchronous RL settings. This directly addresses a core bottleneck in scaling RLHF/RLAIF for frontier model alignment, where async rollouts are essential for throughput but historically unstable.",
+      "whyItMatters": "Unblocks large-scale asynchronous reinforcement learning for model post-training, a prerequisite for the next generation of aligned, reasoning-capable models.",
+      "expectedImpact": "Adoption in major lab training pipelines; enables more efficient exploration in RLHF; likely incorporated into open-source alignment toolkits (TRL, OpenRLHF) within months.",
+      "relatedItemIds": [
+        "63901aa95d2e"
+      ],
+      "tags": [
+        "RL",
+        "LLMs",
+        "Post-training",
+        "Alignment",
+        "Research"
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Mage-VL-Cowork: Full Training Recipe for Hybrid Computer-Use Agents",
+      "summary": "This paper presents a complete training methodology for agents that seamlessly combine visual GUI interaction with code and terminal execution within a single policy — the \"hybrid computer use\" paradigm. It evolves harnesses (environments + tasks) to build a curriculum, addressing the fragmentation between vision-only and code-only agent benchmarks.",
+      "whyItMatters": "Provides the first end-to-end recipe for the generalist agent architecture that can operate any computer interface, a key milestone toward autonomous digital workers.",
+      "expectedImpact": "Sets a new standard for computer-use agent evaluation; likely spawns open-source implementations on top of OpenHands/agent frameworks; shifts research focus from single-modality to unified action spaces.",
+      "relatedItemIds": [
+        "e4067a5df0a6"
+      ],
+      "tags": [
+        "Agents",
+        "Computer Vision",
+        "Computer Use",
+        "RL",
+        "Open Source"
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "AutoHebb and Self-Evolving Agent Benchmark Advance Continual Learning",
+      "summary": "Two complementary papers push self-modifying, continually learning systems: AutoHebb introduces neural networks that zero-shot infer and continually learn via Hebbian-style plasticity, while a new hidden-rule curriculum benchmark tests whether self-evolving agents (which rewrite persistent state from feedback) can discover rules never explicitly taught. Together they move beyond static weights toward adaptive, open-ended learning.",
+      "whyItMatters": "Addresses the fundamental limitation of frozen-weight deployment; enables agents that improve post-deployment without retraining cycles.",
+      "expectedImpact": "Catalyzes research into test-time adaptation and lifelong learning agents; benchmark becomes standard for evaluating open-ended agent evolution; influences architecture choices for long-running production agents.",
+      "relatedItemIds": [
+        "5775d153f734",
+        "9feee84b774c"
+      ],
+      "tags": [
+        "Continual Learning",
+        "Agents",
+        "Neuroplasticity",
+        "Benchmarks",
+        "Research"
+      ]
+    }
+  ],
+  "recommendedReadingOrder": [
+    "Arca's Production Deployment of 10-Day Financial Agents with Human-in-the-Loop Governance",
+    "Convergent Major Releases Across the Entire Self-Hosted AI Stack",
+    "Li²SAO: Stabilizing Asynchronous RL for LLM Post-Training",
+    "Mage-VL-Cowork: Full Training Recipe for Hybrid Computer-Use Agents",
+    "AutoHebb and Self-Evolving Agent Benchmark Advance Continual Learning"
+  ],
+  "estimatedReadingTime": 15,
+  "topicClusters": [
+    {
+      "topic": "inference",
+      "frequency": 17,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "5775d153f734",
+        "de197b45f87a",
+        "d00849bcd338",
+        "9181f6d97370",
+        "f8a973beb613",
+        "62f9ea7b77ca",
+        "371bea5df664",
+        "96486ad49236",
+        "a8ec5917b4b2",
+        "1ee5d718d6d3",
+        "884b6382c4d9"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "b6a0b13bc12c",
+        "7166ecafb485",
+        "5b1fd1fd8a2b",
+        "14df74d3bb6b",
+        "deae4303c432",
+        "68b1fb9303ec"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Agents",
+      "frequency": 17,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "63901aa95d2e",
+        "e4067a5df0a6",
+        "2dc846c06c77",
+        "9feee84b774c",
+        "e7632b2f69a3",
+        "cf31986bd839",
+        "680d4f07d2d0",
+        "b3974ad9e4ce",
+        "0029376331f3",
+        "d384682baa2b",
+        "96486ad49236",
+        "115763b96b88",
+        "884b6382c4d9"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "99484e21ac15"
+      ]
+    },
+    {
+      "topic": "llama",
+      "frequency": 2,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "14df74d3bb6b",
+        "052e3a92e72b"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "continue open-source",
+      "frequency": 1,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "continue",
+      "frequency": 1,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "agent",
+      "frequency": 7,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "e4067a5df0a6",
+        "9feee84b774c",
+        "b3974ad9e4ce",
+        "0029376331f3",
+        "d384682baa2b",
+        "884b6382c4d9"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Business",
+      "frequency": 19,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "b12af9127012",
+        "b0b2fd66c9bb",
+        "e7632b2f69a3",
+        "de197b45f87a",
+        "ffb141a76fa0",
+        "4eac39775ad5",
+        "a8e843922fdc",
+        "62f9ea7b77ca",
+        "d384682baa2b",
+        "b7059d8852d5",
+        "96486ad49236",
+        "115763b96b88",
+        "53e575cf0662",
+        "d2661ee2e89e",
+        "1650af6c5336"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": [
+        "9a033797a8f8",
+        "edfefe604600",
+        "048b1b572f9c",
+        "6145bf9087f7"
+      ]
+    },
+    {
+      "topic": "OpenHands",
+      "frequency": 1,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "6d558ac6ba23"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Type",
+      "frequency": 50,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "c85651c41353",
+        "63901aa95d2e",
+        "cf908bceeee4",
+        "b12af9127012",
+        "b0b2fd66c9bb",
+        "4c3e57f40420",
+        "e4067a5df0a6",
+        "9563f9bd50de",
+        "2dc846c06c77",
+        "5775d153f734",
+        "9feee84b774c",
+        "e7632b2f69a3",
+        "731e038b51f9",
+        "de197b45f87a",
+        "d00849bcd338",
+        "9181f6d97370",
+        "b79602d8b079",
+        "5b30e7950be7",
+        "bc16e8d8abc7",
+        "a97c4790276e",
+        "2285a45daec6",
+        "ffb141a76fa0",
+        "f8a973beb613",
+        "4eac39775ad5",
+        "150e978fc11a",
+        "cf31986bd839",
+        "a8e843922fdc",
+        "680d4f07d2d0",
+        "b3974ad9e4ce",
+        "a7138b3e9bf4",
+        "0029376331f3",
+        "62f9ea7b77ca",
+        "d384682baa2b",
+        "a59e3f6aedd0",
+        "371bea5df664",
+        "e738c0c6a56a",
+        "d3faea9c9cb8",
+        "b7059d8852d5",
+        "96486ad49236",
+        "115763b96b88",
+        "506dc80f5e54",
+        "a8ec5917b4b2",
+        "1ee5d718d6d3",
+        "cf551b044876",
+        "80eff403cd97",
+        "53e575cf0662",
+        "25601a7ebb49",
+        "884b6382c4d9",
+        "d2661ee2e89e",
+        "1650af6c5336"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "cpp",
+      "frequency": 1,
+      "growth": "stable",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "14df74d3bb6b"
+      ],
+      "relatedNewsletterIds": []
+    }
+  ],
+  "newsletters": [
+    {
+      "id": "9a033797a8f8",
+      "title": "Understanding the latest trends in Research and Open Source and Business (Issue #156)",
+      "date": "2026-11-02T08:35:26.362Z",
+      "source": "Import AI",
+      "url": "https://example.com/mock/import-ai",
+      "summary": "Jack Clark's weekly analysis of machine learning progress, model safety policies, computational resource scaling, and national AI strategies. This issue explores key methodologies, benchmarks, and community findings in the Research, Open Source, Business ecosystem.",
+      "content": "Jack Clark's weekly analysis of machine learning progress, model safety policies, computational resource scaling, and national AI strategies. This issue explores key methodologies, benchmarks, and community findings in the Research, Open Source, Business ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
+      "tags": [
+        "Research",
+        "Open Source",
+        "Business"
+      ],
+      "quality": 5,
+      "readTime": "6 min read"
+    },
+    {
+      "id": "edfefe604600",
+      "title": "Understanding the latest trends in Research and Business and LLMs (Issue #161)",
+      "date": "2026-11-02T08:35:26.348Z",
+      "source": "The Batch",
+      "url": "https://example.com/mock/the-batch",
+      "summary": "Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.",
+      "content": "Highlights the intersection of AI research, deep learning paradigms, and commercial deployment across key industrial sectors. This issue explores key methodologies, benchmarks, and community findings in the Research, Business, LLMs ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
+      "tags": [
+        "Research",
+        "Business",
+        "LLMs"
+      ],
+      "quality": 5,
+      "readTime": "6 min read"
+    },
+    {
+      "id": "99484e21ac15",
+      "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+      "date": "Sat, 31 Oct 2026 16:05:00 GMT",
+      "source": "Latent Space",
+      "url": "https://latent.space/p/arca/",
+      "summary": "At AI Engineer New York this month, we sat down with Aman Singh, the lead AI Engineer at Arca, an “AI-native” company providing wealth management services. We discovered that while agents do most of the background work in the firm, there are guardrails in place to ensure that human advisors are mak",
+      "content": "At AI Engineer New York this month, we sat down with Aman Singh, the lead AI Engineer at Arca, an “AI-native” company providing wealth management services.\n\nWe discovered that while agents do most of the background work in the firm, there are guardrails in place to ensure that human advisors are making the final decisions. The goal is for AI to guide the process; or as Singh nicely put it, “agents prompt people more than people prompt agents.”\n\nArca recently raised $48.5 Million in a round led by General Catalyst, with participation from Index Ventures and Venrock.\n\nOne of the features of using AI in financial services, explained Singh, is that it’s typically long-horizon work — although not long-running. In his AIE presentation, Singh noted that agent tasks at Arca can take up to ten days. “It's very stop-start, there's many actors in between, many decision points, many handoffs,” he said.\n\n[]\n\nFor this reason, Arca has developed an internal memory system.\n\n“So we have this persistence for every client,” Singh said in our podcast discussion. “What has happened so far? What are we tracking for next? What needs to happen immediately in the next couple of days [and] what are we tracking for the long term? Which individual is responsible for which action? All of this is being tracked by our memory systems that our agents contribute to.”\n\n[]\n\nArca uses models from frontier labs like Anthropic and OpenAI, with Claude its primary model provider. The company has built its own harness, which automatically selects the best model to use for a particular task, based on the company’s internal benchmarks.\n\nOwning the harness, rather than using a managed agent harness, also means that Arca has the flexibility to change model providers if it needs to.\n\n[]\n\nSafety is obviously key for financial services. Singh noted that although agents do much of the work, an agent’s role is limited to analysis and proposing solutions. Trading and any other money movement is handled by a human advisor.\n\n“All of our safety restrictions are fully deterministic,” he said. “And they take the decision making off the agent's hands.”\n\nIn other words, there are certain tools and tasks the agent can execute by itself — but not ones that involve risk to the client. Arca also runs verification checks on known AI security issues, such as prompt injections.\n\n[]\n\nArca’s agent isn’t itself sandboxed, but it does use sandboxes for computation. Singh explained they’ve gone even further, with extra security measures for handling sensitive data.\n\n“We've built systems to make it safe for code inside of that sandbox to access our data,” he said. “So we have this thing which translates the code it [the agent] wrote into a strict format that we expect, throw away the code, and you install guardrails on that format before it reaches your back end. So we allow the agents to use code to query our data, which means that they can aggregate it, they can munge it, they can work with it as they see fit to produce [things] like a financial plan.”\n\nAnother interesting process Arca has implemented is using feedback from human advisors, along with traces from the agents, to improve the harness. A “meta-agent” is used to analyze all this data and suggest changes to the harness.\n\nPodcast timestamps\n\n•\n00:00 — Introducing Arca’s AI-native wealth management firm\n\n•\n01:40 — How AI supports human financial advisors\n\n•\n02:40 — Choosing models with internal benchmarks\n\n•\n04:01 — Building a custom harness and routing tasks\n\n•\n05:25 — Handling a $100,000 tax bill: Agents and human approvals\n\n•\n07:20 — Agent memory across long-running tasks\n\n•\n09:22 — Safety guardrails and prompt injection defenses\n\n•\n11:02 — Compliance and auditability by default\n\n•\n12:14 — “Agents prompt people more than people prompt agents”\n\n•\n13:46 — Why Arca owns its agent infrastructure\n\n•\n15:05 — AI-native firms versus firms using AI tools\n\n•\n16:09 — Sandboxes and financial plan verification\n\n•\n18:40 — Decision models and checking financial facts\n\n•\n19:51 — Why trade execution stays with human experts\n\n•\n20:32 — Turning staff feedback into evals and improvements\n\n•\n22:22 — Turning operational knowledge into agent context\n\n•\n23:41 — Client examples: Hidden fees and proactive service\n\nWatch Aman’s AIE presentation",
+      "tags": [
+        "Agents",
+        "LLMs",
+        "Open Source",
+        "Research",
+        "RL",
+        "Memory"
+      ],
+      "quality": 5,
+      "readTime": "4 min read"
+    },
+    {
+      "id": "048b1b572f9c",
+      "title": "Understanding the latest trends in LLMs and AI Coding and Business (Issue #171)",
+      "date": "2026-11-02T08:35:26.743Z",
+      "source": "Ben's Bites",
+      "url": "https://example.com/mock/ben's-bites",
+      "summary": "A rapid daily digest covering the newest AI model releases, products, browser extensions, and early-stage startup updates. This issue explores key methodologies, benchmarks, and community findings in the LLMs, AI Coding, Business ecosystem.",
+      "content": "A rapid daily digest covering the newest AI model releases, products, browser extensions, and early-stage startup updates. This issue explores key methodologies, benchmarks, and community findings in the LLMs, AI Coding, Business ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
+      "tags": [
+        "LLMs",
+        "AI Coding",
+        "Business"
+      ],
+      "quality": 4,
+      "readTime": "6 min read"
+    },
+    {
+      "id": "2fdf23086d32",
+      "title": "Understanding the latest trends in Research and LLMs and Open Source (Issue #238)",
+      "date": "2026-11-02T08:35:26.562Z",
+      "source": "TLDR AI",
+      "url": "https://example.com/mock/tldr-ai",
+      "summary": "A curated daily summary of the most interesting developments in AI, machine learning research, and developer ecosystems. This issue explores key methodologies, benchmarks, and community findings in the Research, LLMs, Open Source ecosystem.",
+      "content": "A curated daily summary of the most interesting developments in AI, machine learning research, and developer ecosystems. This issue explores key methodologies, benchmarks, and community findings in the Research, LLMs, Open Source ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
+      "tags": [
+        "Research",
+        "LLMs",
+        "Open Source"
+      ],
+      "quality": 4,
+      "readTime": "6 min read"
+    },
+    {
+      "id": "6145bf9087f7",
+      "title": "Understanding the latest trends in Business and LLMs and AI Coding (Issue #212)",
+      "date": "2026-11-02T08:35:26.556Z",
+      "source": "The Rundown AI",
+      "url": "https://example.com/mock/the-rundown-ai",
+      "summary": "Daily briefing on the latest developments in artificial intelligence, focusing on commercial tools, LLM features, and productivity applications. This issue explores key methodologies, benchmarks, and community findings in the Business, LLMs, AI Coding ecosystem.",
+      "content": "Daily briefing on the latest developments in artificial intelligence, focusing on commercial tools, LLM features, and productivity applications. This issue explores key methodologies, benchmarks, and community findings in the Business, LLMs, AI Coding ecosystem.\n\nAs AI PhD researchers and engineering teams scale up their production deployments, understanding the interaction between models and surrounding systems becomes critical.\n\nIn this newsletter issue, we analyze the current landscape, share insights from top developers, and provide structured references to key codebases. Stay tuned for next week's update!",
+      "tags": [
+        "Business",
+        "LLMs",
+        "AI Coding"
+      ],
+      "quality": 4,
+      "readTime": "6 min read"
+    }
+  ]
+}

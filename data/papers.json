@@ -1,1 +1,886 @@
-[]
+[
+  {
+    "id": "c85651c41353",
+    "title": "Automatic Construction of Strong Simple Baselines",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40700",
+    "abstract": "arXiv:2610.40700v1 Announce Type: new  Abstract: To rigorously establish the value of a novel deep learning method, it must be compared against appropriate baselines. As deep learning has become increasingly common in the physical and life sciences, there have been numerous cases in which apparent progress has turned out to be an artifact of omitted or missing baselines. In this work, we investigate whether this problem can be mitigated by using large language models to automate the construction",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "63901aa95d2e",
+    "title": "Li$^{2}$SAO: Lifting Light Singl-Rollout Asynchronous RL Optimization via Group-Relative Actor-Critic Bootstrapping",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40726",
+    "abstract": "arXiv:2610.40726v1 Announce Type: new  Abstract: Asynchronous reinforcement learning (RL) is becoming a mainstream paradigm for post-training large language models (LLMs), as it improves training efficiency by updating the model as rollouts arrive. Recent work argues that group-wise sampling in GRPO does not naturally fit asynchronous RL training because rollout lengths follow a long-tailed distribution, and proposes Single-rollout Asynchronous Optimization (SAO) to improve stability and off-pol",
+    "tags": [
+      "Agents",
+      "Reasoning",
+      "LLMs",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "cf908bceeee4",
+    "title": "Bayesian Distribution System State Estimation with Flow Matching",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40728",
+    "abstract": "arXiv:2610.40728v1 Announce Type: new  Abstract: Medium-voltage feeders have few real-time measurements, so distribution system state estimation (DSSE) rests on pseudo-measurements of the secondary substations, a prior in Bayesian terms. Weighted least squares keeps the power flow exact but reduces this prior to a mean and variance, while supervised deep learning estimators also learn the power flow and are tied to one measurement set. We propose PoSE (posterior sampling for state estimation), w",
+    "tags": [
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "b12af9127012",
+    "title": "Don't Just Impute, Detect: Task-Aware Diffusion Pipelines for Edge Anomaly Detection",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40732",
+    "abstract": "arXiv:2610.40732v1 Announce Type: new  Abstract: Industrial Internet of Things (IIoT) edge pipelines routinely lose contiguous blocks of multi-sensor data to network dropouts and hardware faults. The standard remedy is a disjointed \"impute-then-detect\" pipeline whose imputer is trained only for Mean Squared Error (MSE). Such an imputer fills a missing block with the most probable normal pattern: a partially observed anomaly is smoothed back toward normality, and boundary artifacts on normal data",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Business"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "b0b2fd66c9bb",
+    "title": "Unsupervised Feature Selection Using Local Intrinsic Dimensionality -- Extended Version",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40736",
+    "abstract": "arXiv:2610.40736v1 Announce Type: new  Abstract: High dimensionality degrades both the efficiency and the effectiveness of learning algorithms, and in many applications no class labels are available to guide dimensionality reduction. This paper proposes LIDFS, an unsupervised feature selection method based on Local Intrinsic Dimensionality (LID). The method builds on the formal equivalence between LID and the indiscriminability of distance measures. The data matrix is transposed so that each fea",
+    "tags": [
+      "Research",
+      "Business"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "4c3e57f40420",
+    "title": "Certified Behavioral Retention for Continual Adaptation with Held-Out Anchors",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40740",
+    "abstract": "arXiv:2610.40740v1 Announce Type: new  Abstract: Continual adaptation requires deciding not only how to update a model, but whether to commit an update without exceeding a declared budget for changes to protected behavior. We introduce Certified Anchor-Based Adaptation (CABA), a candidate-agnostic post-update gate that reserves historical observations from candidate optimization, compares old and candidate policies on frozen representations, and selects the largest tested interpolation coefficie",
+    "tags": [
+      "Robotics",
+      "Research",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "e4067a5df0a6",
+    "title": "Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40747",
+    "abstract": "arXiv:2610.40747v1 Announce Type: new  Abstract: Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an end-to-end, progressive five-stage curriculum across midtraining, SFT, and RL. To power this curriculum at scale, Mage-CUA-Forge replaces per-task agent construction with reusable, skill-conditioned ",
+    "tags": [
+      "Agents",
+      "Reasoning",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "9563f9bd50de",
+    "title": "PathoJev: Efficient Pathology Decisions from Shared Visual Context",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40752",
+    "abstract": "arXiv:2610.40752v1 Announce Type: new  Abstract: Pathology workflows require multiple visual judgments about the same slide, from identifying tumor type to assessing grade and invasion. Generating and parsing a separate textual response for each structured question adds latency between visual evidence and usable decisions. Building on the System One paradigm, we introduce PathoJev, a pathology model that directly predicts answer probabilities for whole-slide and region-level assessment. PathoJev",
+    "tags": [
+      "Computer Vision",
+      "AI Coding",
+      "Open Source",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "2dc846c06c77",
+    "title": "DyCraft: An Agentic System for Long-Horizon 4D Scene Generation",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40754",
+    "abstract": "arXiv:2610.40754v1 Announce Type: new  Abstract: While frontier coding agents can generate high-quality 3D scenes and articulated assets, they struggle to create coherent long-horizon animations. When equipped with general-purpose harnesses, they frequently produce physically implausible outputs, generating objects that interpenetrate, lack physical support, or move unnaturally. Such bare agents struggle to repair these errors because they default to scripting the full animation in one pass, mak",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Robotics",
+      "AI Coding",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "5775d153f734",
+    "title": "AutoHebb: Self-Modifying Neural Networks that Zero-Shot Infer and Continually Learn",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40757",
+    "abstract": "arXiv:2610.40757v1 Announce Type: new  Abstract: Humans and animals have a unique capacity to generalize and learn in novel circumstances, including \"0-shot\" inference (ZI) and continual learning (CL) -- two powerful cognitive abilities. Despite this importance, efforts to model ZI and CL are seriously limited in several ways. First, existing models typically lack components critical to ZI and CL in the brain, namely, strong inductive biases (for ZI) and autonomous control of learning (for CL). ",
+    "tags": [
+      "Research",
+      "RL",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "9feee84b774c",
+    "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40758",
+    "abstract": "arXiv:2610.40758v1 Announce Type: new  Abstract: Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every new rule. We introduce CLR-Bench, a Curriculum of Latent Rules benchmark. Each chain adds one hidden rule per level on top of the earlier ones. A rule acts on an opaque label that stands for a named g",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "e7632b2f69a3",
+    "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40798",
+    "abstract": "arXiv:2610.40798v1 Announce Type: new  Abstract: Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety decision. In a matched human evaluation of 3,000 predictions from ten frozen open models, 86.1% are judged semantically plausible. However, several models exhibit highly asymmetric authorisation behaviour, combining low false-safe execution with poor recall of clarifiable AS",
+    "tags": [
+      "Agents",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "731e038b51f9",
+    "title": "Drone-PUR: From Visual Clue Discovery to Understanding and Reasoning in UAV Scenes",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40801",
+    "abstract": "arXiv:2610.40801v1 Announce Type: new  Abstract: The reasoning capabilities of vision-language models (VLMs) can be limited by incomplete or inaccurate visual observations in the general domain. In unmanned aerial vehicle (UAV) scenes, small targets, subtle attributes, and changing viewpoints further complicate perception and understanding. Therefore, we introduce Drone-PUR, a dataset and benchmark organized around visual clue discovery, interpretation, and integration, corresponding to the thre",
+    "tags": [
+      "Reasoning",
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "de197b45f87a",
+    "title": "Circumventing the Computational Hardness of Computational Arbitrage",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40831",
+    "abstract": "arXiv:2610.40831v1 Announce Type: new  Abstract: AI model marketplaces host providers with heterogeneous costs and capabilities. These differences create an opportunity for computational arbitrage (Olmedo et al., 2026), in which an intermediary purchases inference from a portfolio of models and resells it to users at a profit. Beyond creating profit opportunities for the arbitrageur, computational arbitrage offers financial value to both consumers and providers and could therefore significantly ",
+    "tags": [
+      "Research",
+      "Business",
+      "RL",
+      "Inference",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "d00849bcd338",
+    "title": "EgoHSI3R: Online 4D Hand-Scene Interaction Reconstruction from Egocentric Video",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40832",
+    "abstract": "arXiv:2610.40832v1 Announce Type: new  Abstract: Egocentric videos offer an abundant source of hand-scene interactions for embodied learning, which requires recovering hands, camera, and scene consistently in a shared 3D world. Existing methods focus on either camera-frame hands or world-space hand trajectories, without jointly recovering the scene pointmaps or interaction information. Building a complete reconstruction from such specialized predictions therefore typically requires per-sequence ",
+    "tags": [
+      "Robotics",
+      "Research",
+      "RL",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "9181f6d97370",
+    "title": "Spatial Atlas-Informed Loss Ensembles for Whole-Body PSMA PET/CT Metastasis Segmentation",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40834",
+    "abstract": "arXiv:2610.40834v1 Announce Type: new  Abstract: Existing whole-body PSMA PET/CT prostate metastasis segmentation methods generally rely on images alone, without explicitly incorporating where metastases tend to occur. We investigate whether a population metastasis atlas can improve lesion detection when integrated into model training. We constructed voxel-wise mean and standard deviation maps from 375 expert-annotated training scans and used them to weight the cross-entropy loss of an nnU-Net. ",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "b79602d8b079",
+    "title": "The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40847",
+    "abstract": "arXiv:2610.40847v1 Announce Type: new  Abstract: Continuous diffusion language models (CDLMs) and speculative drafters offer efficient language generation but are typically evaluated differently: CDLMs generate independently through iterative refinement, whereas drafters propose text for target-model verification and correction. We compare their architectures without verification, using LangFlow for CDLMs and adapting DSpark's Markov and recurrent-head architectures for standalone generation. Al",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "Research",
+      "Memory"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "5b30e7950be7",
+    "title": "Frozen in Time: How a Physics Foundation Model Forgets Under Sim-to-Real Adaptation",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40857",
+    "abstract": "arXiv:2610.40857v1 Announce Type: new  Abstract: Scientific foundation models (SciFMs) have achieved remarkable performance on a wide range of PDEs, including the ability to efficiently adapt to unseen data distributions with additional finetuning. As with all neural architectures, finetuning such models comes with the risk of catastrophic forgetting, whereby adapting to new tasks degrades prior knowledge of the model. We study catastrophic forgetting in Walrus-1.3B, a SciFM for continuum dynami",
+    "tags": [
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "bc16e8d8abc7",
+    "title": "FARO: Function-Space Adaptive Return-to-Risk Optimization via Cross-Block Equal-Risk-Contribution Budget Allocation",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40858",
+    "abstract": "arXiv:2610.40858v1 Announce Type: new  Abstract: Training a large language model is compute-bound, and current recipes divide the work between optimizers by hand: orthogonalized momentum for attention and MLP matrices, Adam-style updates for the rest. This division rests on human priors about which layer type deserves which geometry, and it fixes a single global update budget that every parameter block shares. We introduce FARO, a function-space adaptive optimizer that makes the partition of par",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "a97c4790276e",
+    "title": "Near-Optimal First-Order Regret for Bandits with Feedback Graphs",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40861",
+    "abstract": "arXiv:2610.40861v1 Announce Type: new  Abstract: We study first-order regret guarantees for adversarial bandits with a fixed, known directed feedback graph. For strongly observable graphs, [ACBDK15] establishes a minimax regret of $\\widetilde{\\Theta}(\\sqrt{\\alpha T})$, where $\\alpha$ denotes the independence number of the graph and $T$ denotes the horizon. On the other hand, the best existing first-order bound scales as $\\widetilde{O}(\\sqrt{(\\kappa+1) L^\\star})$ [LLZ20], where $\\kappa$ denotes t",
+    "tags": [
+      "Open Source",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "2285a45daec6",
+    "title": "TensorSSM: Memorizing Spatial Position in Dynamic State Space for Tensor Core Generation",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40871",
+    "abstract": "arXiv:2610.40871v1 Announce Type: new  Abstract: High-dimensional tensors are ubiquitous in real-world applications but lead to massive storage overhead. Functional tensor decomposition addresses this by employing neural networks to map element coordinates to tensor cores, significantly reducing the parameters for data compression. However, existing functional methods typically flatten high-order tensors into 1D sequences. This folding operation causes highly overlapping local coordinate sequenc",
+    "tags": [
+      "AI Coding",
+      "Open Source",
+      "Research",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "ffb141a76fa0",
+    "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40883",
+    "abstract": "arXiv:2610.40883v1 Announce Type: new  Abstract: Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition. Mapping text and audio into a shared valence-arousal-dominance space, we convert the distance between them into a continuous, threshold-free incongruence score with a two-component Gaussian mixture, and validate the score against human judgement",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "f8a973beb613",
+    "title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40890",
+    "abstract": "arXiv:2610.40890v1 Announce Type: new  Abstract: Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public access to these capabilities, motivating concerns about its potential use in surveillance-related tasks. We present an exploratory case study of what potentially harmful surveillance assistance looks like in ChatGPT's public web interface. ",
+    "tags": [
+      "LLMs",
+      "Research",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "4eac39775ad5",
+    "title": "Qistas: A Pre-Registered, Portable Protocol for Fairness Evaluation of Large Language Models",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40893",
+    "abstract": "arXiv:2610.40893v1 Announce Type: new  Abstract: Fairness benchmarks for large language models (LLMs) are overwhelmingly English-born and American in their social categories; translated versions carry those categories into societies where they do not apply, and almost none fix their hypotheses before the models are run. We present Qistas (Arabic qistas, \"the just balance\"), a protocol for evaluating how LLMs treat the social, confessional, and regional constituencies of a society, portable acros",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research",
+      "Business",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "150e978fc11a",
+    "title": "AquaProbe: Efficient Adaptation of Frozen Vision Models for Underwater Images",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40900",
+    "abstract": "arXiv:2610.40900v1 Announce Type: new  Abstract: Reliable visual perception is essential for safe autonomous underwater exploration. Yet vision models pretrained on terrestrial images become less reliable underwater, where turbidity, backscatter, and wavelength-dependent attenuation alter scene appearance. Existing adaptation methods either spread adapters equally across the encoder depth or select layers using the divergence between two fixed domains. In this paper, we introduce AquaProbe for m",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "cf31986bd839",
+    "title": "TSFLab: A Self-Improving Agent-Agnostic Workbench for Time Series Forecasting Research",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40901",
+    "abstract": "arXiv:2610.40901v1 Announce Type: new  Abstract: As publications and products on time series forecasting (TSF) proliferate, researchers face a growing burden of analyzing existing work. First, not all publications release code. For instance, only about 20% of arXiv TSF papers have a code link in the surveyed period. Second, released code also requires manual maintenance. Thus, TSF researchers must constantly adapt or implement existing works. However, independent implementations can differ in ex",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "AI Coding",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "a8e843922fdc",
+    "title": "Sparse Autoencoders for Expert-Assisted Interpretation of Histopathology Foundation Model Embeddings",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40905",
+    "abstract": "arXiv:2610.40905v1 Announce Type: new  Abstract: Histopathology foundation models learn rich embedding representations, but their internal structure remains difficult to inspect. Concept-level interpretability is particularly relevant in computational pathology because pathologists reason through recurring morphological and tissue-level patterns, including tissue architecture, cellular morphology, staining variation, and artifacts. In this work, we investigate whether sparse autoencoders (SAEs) ",
+    "tags": [
+      "Computer Vision",
+      "Research",
+      "Business",
+      "RL",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "680d4f07d2d0",
+    "title": "Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40906",
+    "abstract": "arXiv:2610.40906v1 Announce Type: new  Abstract: Recent scientific agents build knowledge recursively by retrieving evidence, constructing an intermediate state, and judging whether that state contains sufficient information. These agents are evaluated end-to-end, usually without ground truth, so the effect of each design choice is unknown. Here, we examined two design axes: (1) what the recursion builds (the state of evidence) and (2) what controls it (the judge that decides when to stop). To m",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "b3974ad9e4ce",
+    "title": "Coupled or Independent? Fault Coupling in Agentic Medical Vision Systems",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40913",
+    "abstract": "arXiv:2610.40913v1 Announce Type: new  Abstract: Vision-language agents equipped with tools expose intermediate outputs for inspection and comparison with the model's reasoning, which may offer safety benefits over single-shot models. This paper tests that potential benefit when the sensor reading itself is untrusted, so that the tool and reasoning channels share a common visual fault. We consider a dermatology agent based on segmentation, contrastive retrieval, and an iterative vision-language ",
+    "tags": [
+      "Agents",
+      "Reasoning",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "a7138b3e9bf4",
+    "title": "No Channels Left Behind: Understanding Diffusion Acceleration through Residual Gates",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40914",
+    "abstract": "arXiv:2610.40914v1 Announce Type: new  Abstract: Training acceleration methods for diffusion transformers, such as REPA and dispersive regularization, are commonly explained by additional supervision, spatial-structure priors, or improved feature geometry. We revisit this view and uncover a striking internal change: the AdaLN-Zero residual gate $\\alpha$, which directly controls how conditioned updates enter the residual stream, is substantially reorganized by these methods. This observation moti",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "0029376331f3",
+    "title": "Towards Portable Specification of the Agent Harness",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40917",
+    "abstract": "arXiv:2610.40917v1 Announce Type: new  Abstract: Large language models act only through the infrastructure that surrounds them. That infrastructure, the harness, determines what a model can accomplish and how it fails, yet it has no settled definition. To address this gap, we decompose the harness into eight functional components that can be specified and compared across systems, and we propose a portable specification framework that records which model ran in which harness. The record is needed",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Open Source",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "62f9ea7b77ca",
+    "title": "CoFiBreak: A Coarse-to-Fine Diversity Reward for Effective Multi-Turn Jailbreak",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40926",
+    "abstract": "arXiv:2610.40926v1 Announce Type: new  Abstract: Automated red teaming trains an attacker large language model (LLM) to elicit harmful responses from a victim LLM, but reinforcement learning can collapse attackers onto a narrow set of prompts when attack success is the only reward. Such a collapse of attack diversity can bias safety evaluation toward repeatedly testing near-duplicate attack patterns rather than the underlying harmful intents. Existing methods often trade off attack success or in",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL",
+      "Inference",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "d384682baa2b",
+    "title": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40927",
+    "abstract": "arXiv:2610.40927v1 Announce Type: new  Abstract: Test-time scaling (TTS) improves large language model agents by sampling and selecting among multiple candidate trajectories, but common realizations assume that these trajectories can be executed in parallel. This assumption breaks in realistic deployments, where enterprise workspaces and cloud services are shared and persistent, costly or infeasible to replicate, and actions may introduce irreversible side effects or cross-trajectory interferenc",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "a59e3f6aedd0",
+    "title": "Adaptive Personalization Under Preference Epistemic Uncertainty",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40930",
+    "abstract": "arXiv:2610.40930v1 Announce Type: new  Abstract: Human preferences change over time: an established preference may remain valid over time, become uncertain as context shifts, or be explicitly revised. Effective personalization requires conversational AI to adapt its response strategy to evolving preferences rather than relying on passive memory retrieval. We formalize this capability as adaptive personalization under epistemic uncertainty. A human preference study further confirms that people fa",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "371bea5df664",
+    "title": "A Theoretical Framework for Understanding and Building \"Any-task inference\" Capable Foundation Models",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40934",
+    "abstract": "arXiv:2610.40934v1 Announce Type: new  Abstract: In this work, we provide a formal framework and mathematical definition for the subset of foundation models focused on enabling the property of \"any-task inference\" (ATI) (similar to zero-shot inference), rather than those designed for pre-training fine-tuning. To achieve this mathematical definition, we formalize the notion of a \"space of tasks of interest,\" which we include in the problem domain, then provide an interface-based formal definition",
+    "tags": [
+      "Research",
+      "RL",
+      "Inference",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "e738c0c6a56a",
+    "title": "Let LiDAR Decide Where to Look: Geometry-Measured Token Selection for Efficient Sparse Latent World Models",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40935",
+    "abstract": "arXiv:2610.40935v1 Announce Type: new  Abstract: Vision-centric autonomous driving models encode thousands of image tokens per frame, yet most depict sky, buildings, or empty road---content irrelevant to planning. Worse, these tokens dilute the planner's attention: we show that randomly discarding 75% of tokens already outperforms the dense model, because the planner can concentrate on the remaining driving-critical content. Building on this finding, we present Geometry-Aware Token Selection (GA",
+    "tags": [
+      "Computer Vision",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "d3faea9c9cb8",
+    "title": "Fair Recommender Systems for Intersecting Groups",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40936",
+    "abstract": "arXiv:2610.40936v1 Announce Type: new  Abstract: Recommendation systems that optimize for the average user can fail to capture the preferences of diverse demographic groups. We consider a dynamic recommendation system, where arriving users can belong to different demographic groups. Importantly, these groups can intersect, and a user may belong to several groups. We first show that over time, any group-blind policy (which excludes all current-user group information) recommending $K \\geq 1$ items",
+    "tags": [
+      "Research",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "b7059d8852d5",
+    "title": "DiRAFT: Privacy-Aware Financial Transcript Synthesis from Aggregate Discourse Priors",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40938",
+    "abstract": "arXiv:2610.40938v1 Announce Type: new  Abstract: Using customer conversations to train and evaluate financial language models raises confidentiality concerns because non-public financial facts can remain after direct identifiers are masked. Synthetic transcripts offer an alternative data source, but their discourse fidelity and residual confidentiality risks require assessment. We introduce DiRAFT (Discourse Realization from Aggregate First-order Transitions), which extracts financial concept gr",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "96486ad49236",
+    "title": "The First Few Tokens Matter: Understanding Chain-of-Thought Controllability",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40939",
+    "abstract": "arXiv:2610.40939v1 Announce Type: new  Abstract: Chain-of-thought (CoT) monitoring is a promising way to oversee increasingly capable agents. It succeeds in part because current models appear limited in their ability to control what they verbalize in their reasoning traces. We investigate the source of this limitation and link it to an entropy collapse in the first few tokens following the opening thinking tag. We exploit this mechanism to recover CoT controllability through two inference-time i",
+    "tags": [
+      "Agents",
+      "Reasoning",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL",
+      "Inference",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "115763b96b88",
+    "title": "Benchmarking Forecasting Agents on Yesterday's Tomorrows",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40940",
+    "abstract": "arXiv:2610.40940v1 Announce Type: new  Abstract: Digital agents can now gather and organize information, reason over it, and use tools to complete complex tasks. Forecasting puts all of these abilities to the test: it requires integrating incomplete evidence, inferring causal drivers, and committing to calibrated probabilistic judgments. Existing benchmarks are poorly suited to measuring and improving this ability. Live benchmarks provide feedback only after events resolve, so every evaluation c",
+    "tags": [
+      "Agents",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "506dc80f5e54",
+    "title": "Kernel-based Interpolatory Methods for Context Compression of Attention Mechanisms",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40943",
+    "abstract": "arXiv:2610.40943v1 Announce Type: new  Abstract: The bottleneck of attention mechanisms, which are the fundamental building block of modern language models, is their quadratic complexity in terms of context size. There has thus been an increasing interest in the compression of the context, also called KV-cache compression. In this article, we consider the problem of compressing the context of attention mechanisms by first formulating it in the Hilbert space associated with its kernel. In this fo",
+    "tags": [
+      "LLMs",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "a8ec5917b4b2",
+    "title": "On the Origin and Evolution of Training-Inference Mismatch in LLM Reinforcement Learning",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40945",
+    "abstract": "arXiv:2610.40945v1 Announce Type: new  Abstract: On-policy reinforcement learning for large language models assumes that training responses are sampled from the current policy. In practice, an inference engine samples the responses and a separate trainer computes the gradients, and the \\textbf{training-inference mismatch} between the two makes the training data off-policy. The mismatch has two sources, the numerics of the engine and the stale weights of asynchronous sampling, and a correction th",
+    "tags": [
+      "LLMs",
+      "Research",
+      "RL",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "1ee5d718d6d3",
+    "title": "Opening the Box Changes the Cat: LLMs Detect Chain-of-Thought Monitoring - What now?",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40946",
+    "abstract": "arXiv:2610.40946v1 Announce Type: new  Abstract: Chain-of-thought (CoT) reasoning allows large language models (LLMs) to generate intermediate reasoning traces in natural language while solving complex tasks. These traces can support safety monitoring by exposing potentially harmful plans before actions are executed. In this work, we investigate the conditions under which LLMs infer the presence of CoT monitoring from direct and indirect environmental cues and examine how this inference affects ",
+    "tags": [
+      "Reasoning",
+      "LLMs",
+      "Open Source",
+      "Research",
+      "RL",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "cf551b044876",
+    "title": "UFMF: Radar-Guided Kinematic Priors for Real-Time 4D Occupancy Forecasting",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40947",
+    "abstract": "arXiv:2610.40947v1 Announce Type: new  Abstract: Real-time 4D occupancy forecasting requires reliably extrapolating both ego motion and surrounding actor motion under strict latency budgets. Recent occupancy world models improve long-horizon fidelity through generative decoders and 3D volumetric modeling, yet their computational cost makes real-time deployment challenging. Light-weight BEV forecasters meet latency requirements but often blur or suppress fast-moving actors at longer horizons. We ",
+    "tags": [
+      "Computer Vision",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "80eff403cd97",
+    "title": "AVID: A Weakly Aligned RGB-Infrared Dataset and Perturbation Benchmark for Tiny Aerial Targets",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40949",
+    "abstract": "arXiv:2610.40949v1 Announce Type: new  Abstract: Long-range detection of small drones is complicated by their visual similarity to birds and by the limited detail available from ground-based cameras. Combining visible and infrared observations offers complementary information, but their usefulness depends on target size, cross-modal alignment, and image quality. We present AVID, a benchmark for studying these factors using real RGB-infrared bird-drone surveillance footage originating from the Dr",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "53e575cf0662",
+    "title": "CAMEL: Cross-Architecture Masked Embedding Learning for Ultra-Lightweight Retinal Foundation Models",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40954",
+    "abstract": "arXiv:2610.40954v1 Announce Type: new  Abstract: Recent progress in deep learning has substantially advanced automated grading of ophthalmologic pathologies, supported by large annotated datasets and improved representation learning. However, a significant gap remains between state-of-the-art performance and clinical scalability. In particular, foundation models have reshaped image-based medical screening and diagnosis. These large-scale architectures trained on extensive datasets learn rich, ge",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL",
+      "RAG",
+      "Synthetic Data"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "25601a7ebb49",
+    "title": "Monte Carlo Random Walk Kernel",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40956",
+    "abstract": "arXiv:2610.40956v1 Announce Type: new  Abstract: We introduce the Monte Carlo Random Walk Kernel (MCRWK), an estimator whose per-pair cost is independent of graph size and derived directly from the random walk kernel (RWK) expansion. By normalizing the kernel coefficients, MCRWK samples a shared walk length and estimates its contribution using random walks on the input graphs. This gives a simple way to approximate RWK without constructing the product graph. For a fixed expected walk length and ",
+    "tags": [
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "884b6382c4d9",
+    "title": "P-ContextBench: From Personal Fact Recall to Personalized Agent Behavior",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40959",
+    "abstract": "arXiv:2610.40959v1 Announce Type: new  Abstract: Large language models (LLMs) are increasingly used for personal tasks, yet evaluating their safe use of personal context remains difficult because such contexts are private, fragmented, dynamic, and socially situated. We introduce P-ContextBench, a realistic, verifiable, and scalable benchmark for evaluating personal-context understanding. P-ContextBench constructs population-structured, life-story-grounded digital humans from demographic seeds re",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Open Source",
+      "Research",
+      "RL",
+      "Inference",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "d2661ee2e89e",
+    "title": "Better Retrievers, Worse Labels: How Incomplete Relevance Judgments Distort Abstention Evaluation in Conversational RAG",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40966",
+    "abstract": "arXiv:2610.40966v1 Announce Type: new  Abstract: Conversational RAG benchmarks such as MTRAG and RETECO evaluate retrieval and generation end to end: each system answers from its own retrieval, so abstention must be scored against whether each retrieved context is sufficient. A convenient shortcut reads sufficiency off the relevance judgments and treats a context without gold documents as unanswerable. We re-run the official baselines exactly and test this shortcut on RECOR (RETECO track~2) with",
+    "tags": [
+      "LLMs",
+      "Research",
+      "Business",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "1650af6c5336",
+    "title": "Nedimo: An Evidence-Grounded Multilingual Pipeline for AI-Generated Sleep Stories",
+    "authors": [],
+    "date": "2026-11-02T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2610.40970",
+    "abstract": "arXiv:2610.40970v1 Announce Type: new  Abstract: Generative audio systems can produce large libraries of personalized bedtime content, but ordinary media objectives (retention, completion, and novelty) are poorly aligned with the goal of supporting a transition toward sleep. Direct evidence for narrated bedtime audio in adults is mixed, and a recent active-controlled trial did not support such audio as a standalone treatment for sleep disturbance. We translate this uncertain evidence into conser",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  }
+]

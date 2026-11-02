@@ -1,33 +1,16 @@
 [
   {
-    "id": "3be4c939c6e8",
-    "title": "OpenAI Claims It Just Did The Impossible",
-    "channel": "Two Minute Papers",
-    "channelId": "UCbfYPyITQ-7l4upoX8nvctg",
-    "date": "2026-10-30T15:57:16Z",
-    "duration": "7:22",
-    "thumbnail": "https://i.ytimg.com/vi/CWdTBLsbaQs/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=CWdTBLsbaQs",
-    "description": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers OpenAI's paper is available here: ...",
-    "viewCount": 414710,
-    "tags": [
-      "Open Source",
-      "Research"
-    ],
-    "relevanceScore": 6.6
-  },
-  {
-    "id": "3b23a4674e56",
-    "title": "The Private Key Mistake! (TLS Key set to &quot;4&quot;) - Computerphile",
-    "channel": "Computerphile",
-    "channelId": "UC9-y-6csu5WGm29I7JiwpnA",
-    "date": "2026-10-30T15:47:25Z",
-    "duration": "24:36",
-    "thumbnail": "https://i.ytimg.com/vi/NDgS__J1U-M/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=NDgS__J1U-M",
-    "description": "You actually have to work quite hard to set a private key to the number 4! - Dr Tim Muller takes us through the problems with ...",
-    "viewCount": 166337,
+    "id": "909a4887fa21",
+    "title": "Why Leibniz Couldn&#39;t Find the Mind Inside the Mill (Joscha Bach)",
+    "channel": "Machine Learning Street Talk",
+    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
+    "date": "2026-11-02T03:04:11Z",
+    "duration": "1:37:08",
+    "thumbnail": "https://i.ytimg.com/vi/yW_ngvMFlYs/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=yW_ngvMFlYs",
+    "description": "Joscha Bach is a cognitive scientist and the founder of the California Institute for Machine Consciousness. SPONSOR: --- Parallel ...",
+    "viewCount": 5136,
     "tags": [],
-    "relevanceScore": 5.8
+    "relevanceScore": 8
   }
 ]
