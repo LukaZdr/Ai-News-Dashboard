@@ -1,0 +1,230 @@
+{
+  "date": "2026-11-03",
+  "topics": [
+    {
+      "topic": "Inference",
+      "frequency": 21,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "c64e6ab7436c",
+        "053d10685559",
+        "82523b3d0ce4",
+        "93525c0bed72",
+        "aebd9a372657",
+        "442f86a74528",
+        "d7acf789fdf5",
+        "254233ac8526",
+        "876453af7410",
+        "b6121bc64320",
+        "b197e13576a3",
+        "d917b81e51c7",
+        "6fd33c644c8b",
+        "6e153dac9c26"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "b6a0b13bc12c",
+        "7166ecafb485",
+        "5b1fd1fd8a2b",
+        "14df74d3bb6b",
+        "deae4303c432",
+        "68b1fb9303ec"
+      ],
+      "relatedNewsletterIds": [
+        "d0624fe95a0a"
+      ]
+    },
+    {
+      "topic": "Agents",
+      "frequency": 14,
+      "growth": "declining",
+      "relatedPaperIds": [
+        "4fae56d527f6",
+        "e607a85b60c4",
+        "9a6ed61c7389",
+        "10466b008819",
+        "3e8c8c7f9499",
+        "caf700fd48f1",
+        "1047fcedb61c"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [
+        "b0fa121a8036"
+      ],
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "d0624fe95a0a",
+        "b7fd9828f656",
+        "52dd4549d0d2"
+      ]
+    },
+    {
+      "topic": "OpenAI",
+      "frequency": 9,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "73e30012056f"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [
+        "5f56e9757730",
+        "df710e435140",
+        "d62e18870479",
+        "be44fa3b5122",
+        "36b1ea684f6c"
+      ],
+      "relatedRepoIds": [
+        "5df14a56333c",
+        "68b1fb9303ec"
+      ],
+      "relatedNewsletterIds": [
+        "d0624fe95a0a"
+      ]
+    },
+    {
+      "topic": "llama",
+      "frequency": 2,
+      "growth": "declining",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "14df74d3bb6b",
+        "052e3a92e72b"
+      ],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Boot Memory",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "415ba8147ba6"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Vision",
+      "frequency": 46,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "4fae56d527f6",
+        "9a6ed61c7389",
+        "3e8c8c7f9499",
+        "d3de3c418e11",
+        "93525c0bed72",
+        "2ff6e85f8cc7",
+        "991a7c43ac02",
+        "aebd9a372657",
+        "73e30012056f",
+        "442f86a74528",
+        "d7acf789fdf5",
+        "e15368e22622",
+        "a6f6d0f4bb2b",
+        "fb2315cb8a99",
+        "254233ac8526",
+        "908d6aeaeb0b",
+        "734889e50e05",
+        "93ca4cc28246",
+        "876453af7410",
+        "8c2de36198dc",
+        "5bf15b4f293f",
+        "87b56d5b88e2",
+        "023c79cf9dad",
+        "0b146a0d60e6",
+        "f8cc87cef298",
+        "565f070f9dbc",
+        "855d219c91eb",
+        "3a9d6da5adba",
+        "6aff6a372ccd",
+        "d917b81e51c7",
+        "6fd33c644c8b",
+        "c7e796dc1099",
+        "ba9b4dd0f606",
+        "64c56297f5da",
+        "caf700fd48f1",
+        "ef35af4a1a1c",
+        "2f88fc8f1480",
+        "6e153dac9c26",
+        "2d3184bc6416",
+        "7ad44a2fe49d",
+        "1047fcedb61c",
+        "8a7023b3f787"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [
+        "b0fa121a8036"
+      ],
+      "relatedRepoIds": [
+        "7166ecafb485",
+        "5b1fd1fd8a2b"
+      ],
+      "relatedNewsletterIds": [
+        "d0624fe95a0a"
+      ]
+    },
+    {
+      "topic": "RAM",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [
+        "aebd9a372657"
+      ],
+      "relatedVideoIds": [
+        "415ba8147ba6"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Boot",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "415ba8147ba6"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "open-source",
+      "frequency": 4,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "023c79cf9dad",
+        "64c56297f5da"
+      ],
+      "relatedVideoIds": [],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [
+        "233a4f836599"
+      ],
+      "relatedNewsletterIds": [
+        "40a18db83035"
+      ]
+    },
+    {
+      "topic": "Consciousness Might",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "909a4887fa21"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    }
+  ]
+}

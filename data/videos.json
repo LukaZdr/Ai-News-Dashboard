@@ -1,7 +1,39 @@
 [
   {
+    "id": "56803c90f666",
+    "title": "‘We may release models we can’t control’: Amodei, Altman … and Gemini Carbon",
+    "channel": "AI Explained",
+    "channelId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "date": "2026-11-02T17:02:16Z",
+    "duration": "27:55",
+    "thumbnail": "https://i.ytimg.com/vi/0Kw6_DTZPrY/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=0Kw6_DTZPrY",
+    "description": "You know what, by AI standards, it might not have been the craziest week, but that doesn't mean several headline-worthy things ...",
+    "viewCount": 81129,
+    "tags": [
+      "LLMs"
+    ],
+    "relevanceScore": 8
+  },
+  {
+    "id": "415ba8147ba6",
+    "title": "I Made My Own RAM - But Will It Boot?",
+    "channel": "Dave's Garage",
+    "channelId": "UCNzszbnvQeFzObW0ghk0Ckw",
+    "date": "2026-11-02T21:56:21Z",
+    "duration": "17:26",
+    "thumbnail": "https://i.ytimg.com/vi/RG9O43-ueCU/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=RG9O43-ueCU",
+    "description": "RAM is expensive, so I used AI to design the schematic, PCB, Routing, and FPGA logic for a QBUS memory card for the PDP-11, ...",
+    "viewCount": 83557,
+    "tags": [
+      "Memory"
+    ],
+    "relevanceScore": 7.5
+  },
+  {
     "id": "909a4887fa21",
-    "title": "Why Leibniz Couldn&#39;t Find the Mind Inside the Mill (Joscha Bach)",
+    "title": "Why Consciousness Might Not Be Hard At All (Joscha Bach)",
     "channel": "Machine Learning Street Talk",
     "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
     "date": "2026-11-02T03:04:11Z",
@@ -9,8 +41,8 @@
     "thumbnail": "https://i.ytimg.com/vi/yW_ngvMFlYs/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=yW_ngvMFlYs",
     "description": "Joscha Bach is a cognitive scientist and the founder of the California Institute for Machine Consciousness. SPONSOR: --- Parallel ...",
-    "viewCount": 5136,
+    "viewCount": 28727,
     "tags": [],
-    "relevanceScore": 8
+    "relevanceScore": 6.6
   }
 ]

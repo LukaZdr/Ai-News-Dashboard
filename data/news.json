@@ -1,1 +1,115 @@
-[]
+[
+  {
+    "id": "b0fa121a8036",
+    "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+    "date": "Tue, 03 Nov 2026 07:00:12 +0000",
+    "source": "NVIDIA Research",
+    "company": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+    "summary": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to",
+    "type": "blog",
+    "tags": [
+      "Agents",
+      "Computer Vision",
+      "RL"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "5f56e9757730",
+    "title": "Rewarding defenders with bigger bug bounties",
+    "date": "Mon, 02 Nov 2026 18:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+    "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+    "type": "release",
+    "tags": [
+      "RL"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "df710e435140",
+    "title": "Preparing our next security sprint to harden OpenAI",
+    "date": "Mon, 02 Nov 2026 18:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+    "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+    "type": "blog",
+    "tags": [],
+    "importance": 5
+  },
+  {
+    "id": "d62e18870479",
+    "title": "Scaling Git at OpenAI",
+    "date": "Mon, 02 Nov 2026 15:30:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/scaling-git-at-openai",
+    "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+    "type": "blog",
+    "tags": [
+      "Open Source"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "be44fa3b5122",
+    "title": "Introducing the Grid Protectors Program",
+    "date": "Mon, 02 Nov 2026 15:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/grid-protectors-program",
+    "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+    "type": "pricing",
+    "tags": [
+      "RL"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "4e02bbe4853c",
+    "title": "LifeVal",
+    "date": "Mon, 02 Nov 2026 09:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/lifeval",
+    "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+    "type": "release",
+    "tags": [
+      "Research"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "0d0c13796847",
+    "title": "Qodo builds context into AI code review with Codex",
+    "date": "Mon, 02 Nov 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/qodo-codex-plugin",
+    "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+    "type": "blog",
+    "tags": [
+      "AI Coding",
+      "Open Source"
+    ],
+    "importance": 5
+  },
+  {
+    "id": "36b1ea684f6c",
+    "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+    "date": "Mon, 02 Nov 2026 00:00:00 GMT",
+    "source": "OpenAI",
+    "company": "openai",
+    "url": "https://openai.com/index/dan-driscoll-joins-openai",
+    "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+    "type": "blog",
+    "tags": [
+      "RL"
+    ],
+    "importance": 5
+  }
+]

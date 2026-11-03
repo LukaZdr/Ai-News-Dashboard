@@ -1,0 +1,1144 @@
+[
+  {
+    "id": "a1d1910e249d",
+    "title": "Output-Aware Block Influence: Jacobian-Lens Weighting for Depth Pruning",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00015",
+    "abstract": "arXiv:2611.00015v1 Announce Type: new  Abstract: Depth pruning removes entire transformer blocks and therefore depends on a reliable criterion for identifying which blocks can be removed. Block Influence (BI) ranks blocks by how minimally they rotate the hidden state. However, local redundancy does not necessarily imply downstream irrelevance. We address this limitation using the Jacobian Lens (J-Lens) neural artifact, a map transporting perturbations at a layer to the final residual stream. At ",
+    "tags": [
+      "LLMs",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "d3de3c418e11",
+    "title": "Beyond the Last Layer: Global Inter-Layer Aggregation for AI-Generated Image Detection",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00017",
+    "abstract": "arXiv:2611.00017v1 Announce Type: new  Abstract: The rapid development of generative models has made AI-generated images increasingly close to real images. It has also brought several challenges to detectors, including rapid generator updates, large changes in data distribution, and limited cross-dataset generalization. Many existing methods based on pretrained vision encoders primarily use the global representation from the last layer, potentially leaving useful information from intermediate la",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "82523b3d0ce4",
+    "title": "Intervenable Concept Dynamics for Video Activity Forecasting",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00020",
+    "abstract": "arXiv:2611.00020v1 Announce Type: new  Abstract: Concept bottleneck models route predictions through human-understandable concepts, making their intermediate states inspectable and editable. Extending this model family to forecasting requires modeling how concept activations evolve over time as objects, actions, and their interactions change, yet existing CBMs ground concepts only in observed inputs and do not forecast their future evolution. We study this problem using videos of ongoing activit",
+    "tags": [
+      "Open Source",
+      "Research",
+      "RL",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "93525c0bed72",
+    "title": "Diagnosing Prototype Estimation in Few-Shot Class-Incremental Learning: Training-Free Geometry Selection and Unlabeled-Query Prototype Rectification",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00022",
+    "abstract": "arXiv:2611.00022v1 Announce Type: new  Abstract: Frozen visual encoders make prototype heads competitive in few-shot class-incremental learning (FSCIL), but it remains unclear how much of the residual head gap is sensitive to noisy novel-class means rather than to the subsequent changes introduced by classifier refitting. On identical features, we construct a retrospective matched counterfactual: first replace each five-shot novel mean with its complete-data counterpart under fixed cosine scorin",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "2ff6e85f8cc7",
+    "title": "FORCE: Factorized Object Relations for Counterfactual Editing in Video World Models",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00023",
+    "abstract": "arXiv:2611.00023v1 Announce Type: new  Abstract: World models predict how scenes evolve, but they are difficult to interrogate: given a model that forecasts a video, one cannot easily ask what would have happened had a particular interaction between two objects been different. We present Factorized Object Relations for Counterfactual Editing (FORCE), a world model that infers pairwise interactions from raw video without supervision and represents each as an explicit latent per object pair, so th",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "991a7c43ac02",
+    "title": "Covariance-aware Scoring: A Geometric Correction for Vision-Language Test-Time Adaptation",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00024",
+    "abstract": "arXiv:2611.00024v1 Announce Type: new  Abstract: Test-time adaptation (TTA) enables vision--language models such as CLIP to adapt to distribution shifts without labels or access to source data. Existing methods adapt through feature caching, prototype estimation, or the online accumulation of feature statistics, but most ultimately score a test feature against a class representative in the ambient embedding space, typically through cosine similarity. We identify this shared decision rule as a li",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "aebd9a372657",
+    "title": "Edge-Optimized YOLOv11n Architecture for Offline Recognition of Nigerian Sign Language Alphanumeric Gestures",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00025",
+    "abstract": "arXiv:2611.00025v1 Announce Type: new  Abstract: Deaf inclusion across sub-Saharan society faces regional hurdles, with Nigeria as the core empirical focus. Existing recognition models demand heavy computational infrastructure. However, standard mobile phones used locally rarely exceed 1 GB to 4 GB of RAM. This study addresses constraints through a lightweight YOLO11n object-detection framework. The system provides real-time Nigerian Sign Language recognition for low-resource hardware. A benchma",
+    "tags": [
+      "Reasoning",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL",
+      "Inference",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "73e30012056f",
+    "title": "The Margin Knows the Background: Uneven Abstention in Frozen Vision-Language Models",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00026",
+    "abstract": "arXiv:2611.00026v1 Announce Type: new  Abstract: Selective prediction allows a model to abstain on uncertain inputs, but a single confidence threshold can disproportionately reject examples from particular groups. We study how confidence scores produce this imbalance in frozen vision-language models (OpenAI CLIP, LAION CLIP, SigLIP). We express a family of scores, including the margin and maximum logit, through the average and the difference of the two highest class logits, and ask which carries",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "442f86a74528",
+    "title": "SFA: A Statistical Physics-Inspired Diffusion Transformer for Efficient and High-Quality Image Generation",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00027",
+    "abstract": "arXiv:2611.00027v1 Announce Type: new  Abstract: Diffusion transformers have achieved remarkable success in image generation, but accelerating attention while preserving generation quality remains a major challenge at high resolutions. Inspired by statistical physics and the widespread occurrence of scale-free laws in nature, we introduce Scale-Free Attention (SFA), which preserves fine local interactions while summarizing distant regions at progressively coarser scales. For $N$ tokens, mean poo",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "Research",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "28304920514d",
+    "title": "A Systematic Analysis of Live Intraoperative Surgical Expert Narrations",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00028",
+    "abstract": "arXiv:2611.00028v1 Announce Type: new  Abstract: Manual annotation remains the principal bottleneck in surgical video understanding. Live intraoperative narration by the operating surgeon is a scalable alternative that requires no manual annotation, but the information it contains has not been characterized. We analyzed 13 endoscopic lumbar spine decompression procedures (13.2 h) by two senior spine surgeons, using time-synchronized close-mic German audio. An annotation-free pipeline (word-level",
+    "tags": [
+      "LLMs",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "d7acf789fdf5",
+    "title": "DiA: Directional Adapter",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00029",
+    "abstract": "arXiv:2611.00029v1 Announce Type: new  Abstract: Fine-grained action recognition often depends on how an action unfolds over time rather than on appearance alone. Visually similar classes may differ in preparation, execution, or completion phases, making uniformly aggregated temporal context suboptimal. We study this problem under a practical objective: i) improving recognition performance with few tunable parameters, ii) being compute efficient, and iii) using only the readily available video m",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "74765a810b14",
+    "title": "Monocular Badminton Speed Estimation with Air Drag and Court Geometry",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00031",
+    "abstract": "arXiv:2611.00031v1 Announce Type: new  Abstract: A single camera cannot distinguish between a slowly moving object nearby and a rapidly moving object in the distance without additional information. For a shuttlecock, air drag provides a strong deceleration cue that can be combined with known court geometry. We fit a gravity-and-drag trajectory to smartphone video and compare a free monocular fit with a fit constrained to cross the net plane. Camera calibration uses court lines, and the trajector",
+    "tags": [
+      "Open Source",
+      "Research",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "e15368e22622",
+    "title": "Gaussifier: Fast 2D Gaussian Decomposition",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00032",
+    "abstract": "arXiv:2611.00032v1 Announce Type: new  Abstract: 2D Gaussians render images at thousands of frames per second. However, fitting an image takes seconds of optimization. This confines 2D Gaussians to offline use. Feedforward methods are faster but less accurate without per-image fine-tuning. We present Gaussifier, a lightweight feedforward framework for 2D Gaussian decomposition. We learn a density map of Gaussian centers from per-image fitting data. Equal-mass Voronoi places Gaussians so that eac",
+    "tags": [
+      "Computer Vision",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "a6f6d0f4bb2b",
+    "title": "Multimodal Cross-Condition Learning for Temporal Sentence Grounding in Videos",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00033",
+    "abstract": "arXiv:2611.00033v1 Announce Type: new  Abstract: Temporal sentence grounding requires a video representation that preserves query-relevant evidence and a sentence representation that reflects the visual context in which it is interpreted. Prior end-to-end grounding addresses the first requirement through sentence-conditioned visual adaptation, but leaves the language representation independent of the video. This work proposes Multimodal Cross-Condition Learning (MCCL). Its Video Prefix Adapter (",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "fb2315cb8a99",
+    "title": "A Trustworthy Clinical Decision Support Framework for Brain Tumor MRI Classification: Integrating Attention-Guided Learning, Explainable AI, and Out-of-Distribution Validation",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00034",
+    "abstract": "arXiv:2611.00034v1 Announce Type: new  Abstract: Deep learning models for brain tumor diagnosis need to do more than achieve high classification accuracy. For practical use, they should also provide understandable predictions, recognize unsuitable inputs, and work within a usable clinical system. This paper presents a framework for classifying brain MRI into four categories: glioma, meningioma, pituitary tumor, and no tumor. The model uses InceptionResNetV2 with a Convolutional Block Attention M",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "254233ac8526",
+    "title": "Selective Positional Allocation for Noise-Robust Query Retrieval in Small-Object Detection",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00035",
+    "abstract": "arXiv:2611.00035v1 Announce Type: new  Abstract: In aerial and remote-sensing imagery, detecting tiny targets is frequently hampered less by the representational capacity of the backbone network than by the manner in which positional priors are distributed across ill-defined foreground and background regions. We introduce SPAR (Selective Positional Allocation and Retrieval), a detection framework that re-conceptualizes positional cues as an allocatable resource: they are intensified at semantica",
+    "tags": [
+      "Computer Vision",
+      "AI Coding",
+      "Open Source",
+      "Research",
+      "Business",
+      "Inference",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "908d6aeaeb0b",
+    "title": "From Single-Shot QA to Continuous Perception: Revisiting the Energy Composition and Optimization Boundary of Edge VLMs",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00036",
+    "abstract": "arXiv:2611.00036v1 Announce Type: new  Abstract: Visual-prefill energy conclusions for edge vision-language models (VLMs) are commonly drawn under single-shot workloads; we revisit them under continuous perception. Profiling nine VLMs across three architecture families on Jetson AGX Thor and Orin (4,508 records, calibrated with a pure-text task), we find two mutually independent energy laws: the per-output-token decode cost grows monotonically with model scale, whereas the visual-prefill (image-",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "AI Coding",
+      "Open Source",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "734889e50e05",
+    "title": "Deep Learning for Detecting Building Setback Rule Violations in Urban Planning: A Case Study on Bangladesh",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00037",
+    "abstract": "arXiv:2611.00037v1 Announce Type: new  Abstract: Dhaka's rapid urban growth has made building setback violations common, narrowing footpaths and blocking emergency access. RAJUK, responsible for building control in the Dhaka Metropolitan Area, enforces setback rules mainly through manual field inspection, which scales poorly. We present a systematic comparison of four machine learning approaches for classifying building setback conditions from street-level photographs: negative (compliant), mode",
+    "tags": [
+      "Computer Vision",
+      "Research",
+      "RL",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "93ca4cc28246",
+    "title": "Beyond Black Boxes: An Ontology Based Vision Framework for Transparent Fruit Disease Detection",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00039",
+    "abstract": "arXiv:2611.00039v1 Announce Type: new  Abstract: Efficiency and reliability in the timely identification of phytopathogens would help minimize crop loss in agricultural sectors but existing deep learning based methods, although accurate, would require a large annotated dataset and are black-boxed in their operation, thus, restricting flexibility and transparency. The current paper presents a hybrid detection framework that is able to overcome these drawbacks through the unified real-time vision ",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "876453af7410",
+    "title": "Real-Time Obstacle Detection and Distance Estimation on Smartphones for Visually Impaired and Distracted Pedestrians",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00040",
+    "abstract": "arXiv:2611.00040v1 Announce Type: new  Abstract: According to the World Health Organization, at least 2.2 billion people worldwide live with visual impairment, including tens of millions with severe vision loss. Traditional aids such as white canes or guide dogs remain costly, limited in capability, and inaccessible to many. At the same time, smartphone distraction in public spaces has been linked to elevated risks of collisions with vehicles, trips, and falls. These dual challenges motivate lig",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL",
+      "Inference",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "8c2de36198dc",
+    "title": "Think Before You Locate: Clinical Chain-of-Though Supervision for Sequential Medical Image Grounding",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00041",
+    "abstract": "arXiv:2611.00041v1 Announce Type: new  Abstract: Clinicians rarely localize a finding from one image alone. They compare current and prior scans, follow structures across slices, and match regions across views or modalities. Yet vision-language models for sequential medical grounding usually learn only from bounding boxes. Boxes show where the target is, but they do not explain why that region in that image answers the question. We study whether explicit, image-grounded reasoning can improve loc",
+    "tags": [
+      "Reasoning",
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "5bf15b4f293f",
+    "title": "Diagnosing Zero-Shot Forgetting in CLIP Fine-Tuning: Attention Drift Characterizes Adaptation, Representation Drift Predicts Transfer Degradation",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00042",
+    "abstract": "arXiv:2611.00042v1 Announce Type: new  Abstract: Fine-tuning CLIP on a downstream task typically reduces its zero-shot accuracy on other tasks, and quantifying this loss ordinarily requires a labeled transfer benchmark. We study whether the loss can be anticipated from unlabeled target images that are already available during fine-tuning. Four signals are compared: the entropy of CLS token attention, linear centered kernel alignment (CKA) with the pretrained model, embedding drift, and relative ",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "87b56d5b88e2",
+    "title": "Out-of-distribution AI-generated image detection with zero-phase deconvolution for residual whitening",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00043",
+    "abstract": "arXiv:2611.00043v1 Announce Type: new  Abstract: Current AI-generated image detection methods struggle in out-of-distribution testing conditions because detectors are usually not robust when evaluated on generators not included in the training set. This work explores a way to mitigate the forensic bias between sources of images -whether real or generated -by removing generator-specific fingerprints. This new training process can be approximated by pre-processing involving a deconvolution operati",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "b6121bc64320",
+    "title": "SparseWAM: Driving World-Action Models are Worth 16 Register Tokens",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00044",
+    "abstract": "arXiv:2611.00044v1 Announce Type: new  Abstract: World Action Models (WAMs) transfer scene-dynamics priors to planning by jointly forecasting future scenes and ego trajectories. However, WAMs built on video generators must generate dense future videos at inference, incurring prohibitive latency, while efficient variants discard the world branch at deployment and thus forgo test-time imagination. Even when dense video latents are replaced with patch-level DINO or JEPA features, these representati",
+    "tags": [
+      "Reasoning",
+      "LLMs",
+      "Research",
+      "RL",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "023c79cf9dad",
+    "title": "Faces or Models? Where the Age Gap in Facial Expression Recognition Comes From",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00045",
+    "abstract": "arXiv:2611.00045v1 Announce Type: new  Abstract: Facial expression recognition (FER) systems are increasingly used in elder care, yet their accuracy on older faces is rarely measured. This study evaluated five open-source FER models on the FACES database, which holds 2,052 posed photographs of 171 adults aged 19 to 80. The models cross three architectures (ResNet-18, POSTER++ and QCS) with two training datasets (RAF-DB and AffectNet). All models lost accuracy on older faces by 11.7 to 15.2 perce",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "0b146a0d60e6",
+    "title": "Circumpolar Wall-to-Wall Detection of Retrogressive Thaw Slumps with Scarce Labels and Extreme Class Imbalance",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00046",
+    "abstract": "arXiv:2611.00046v1 Announce Type: new  Abstract: Retrogressive thaw slumps (RTS) are among the most dynamic ground deformations caused by permafrost thaw. Abrupt thaw processes such as RTS could roughly double the contribution of permafrost thaw to climate warming, and already threaten a third of Arctic infrastructure. Circumpolar RTS mapping has advanced quickly, yet released inventories together cover only part of the permafrost region. RTS occupy only 0.1-0.5% of image tiles and labels are co",
+    "tags": [
+      "Computer Vision",
+      "Research",
+      "Business",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "f8cc87cef298",
+    "title": "TopoMix: Continuous Spatial Mixing for Long-Tailed Data Augmentation",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00047",
+    "abstract": "arXiv:2611.00047v1 Announce Type: new  Abstract: Most mixing-based augmentation methods improve generalization through a simple idea: combine two training samples with a fixed global ratio or a hard spatial replacement. While effective, this design leaves little room for local variation, which becomes a more visible limitation in long-tailed recognition, where minority classes are especially sensitive to the quality of augmented samples. We propose TopoMix, a training-free augmentation method th",
+    "tags": [
+      "Computer Vision",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "565f070f9dbc",
+    "title": "Keyframes First, Motion Second: Revisiting Compressed-Domain Video Captioning under Limited Supervision",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00048",
+    "abstract": "arXiv:2611.00048v1 Announce Type: new  Abstract: Compressed-domain video captioners such as CoCap read the H.264 bitstream directly: a pretrained encoder reads the keyframes (I-frames), while motion and residual encoders, trained from scratch, turn the codec's motion vectors and residuals into action tokens. This motion branch costs decoding time and supervision, both scarce on edge devices. We ask when it pays off under limited supervision. In a controlled study on 2,500 VATEX training clips, w",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "AI Coding",
+      "Open Source",
+      "Research",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "855d219c91eb",
+    "title": "Background Bias Assessment and Mitigation in Plant Disease Detection Using EfficientNet-B0 with Image Processing",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00049",
+    "abstract": "arXiv:2611.00049v1 Announce Type: new  Abstract: Plant disease detection using deep learning has achieved remarkable accuracies exceeding 99% on benchmark datasets. However, these metrics may mask a critical vulnerability: models may be taking advantage of false background correlations instead of learning real pathological features. This study presents a systematic investigation of background bias in plant disease detection through a two-stage training framework with quantitative validation. We ",
+    "tags": [
+      "Computer Vision",
+      "Robotics",
+      "Research",
+      "Business",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "dc91a8e6a560",
+    "title": "ReactionBench: A Human-Anchored Benchmark for Modeling Reactions to Video",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00050",
+    "abstract": "arXiv:2611.00050v1 Announce Type: new  Abstract: Understanding what happens in a video is not sufficient for socially responsive multimodal systems: such systems also aim to relate what a person observes to how that person responds. Existing video benchmarks largely evaluate events, temporal reasoning, or people depicted in the video, while affective and viewer-response datasets often focus on emotion labels, aggregate responses, or prediction from the stimulus alone. This leaves an underexplore",
+    "tags": [
+      "Reasoning",
+      "LLMs",
+      "Open Source",
+      "Research",
+      "Business"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "3a9d6da5adba",
+    "title": "SIMIT: Self-Improving Vision-Language Models via Imagination at Test-Time",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00053",
+    "abstract": "arXiv:2611.00053v1 Announce Type: new  Abstract: We introduce SIMIT, a test-time self-improvement framework in which a vision-language model creates its own query-specific training data before answering an unlabeled test query. Our goal is to improve performance on a given target test set without annotations or external models. To pursue this goal, some test-time methods improve answers through longer reasoning or repeated sampling but leave the model unchanged. Others update the model using rew",
+    "tags": [
+      "Reasoning",
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "d5a7862ca1a4",
+    "title": "Auditing GeoFM Evaluation for Field-Extent Segmentation: Label Proxies, Baselines, and When Frozen Features Match Fine-tuning",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00054",
+    "abstract": "arXiv:2611.00054v1 Announce Type: new  Abstract: Geospatial foundation-model (GeoFM) benchmarks for agricultural field-extent segmentation often rely on cropland land-cover proxies and compare against per-pixel spectral baselines. We measure how these choices affect conclusions using identical single-date Sentinel-2 pixels from six countries. Replacing polygon-derived field labels with ESA WorldCover cropland raises random-forest AUROC from 0.55-0.82 to 0.79-0.96, showing that the proxy creates ",
+    "tags": [
+      "Open Source",
+      "Research",
+      "Business",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "6aff6a372ccd",
+    "title": "From Clips to Streams: A Unified Framework for Streaming Sign Language Translation",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00055",
+    "abstract": "arXiv:2611.00055v1 Announce Type: new  Abstract: Sign Language Translation (SLT) research has typically focused on pre-segmented clips, a constraint that disconnects models from the continuous reality of real-world communication. To bridge the gap from clips to streams, we formally define Streaming SLT, a realistic task demanding the joint discovery and translation of linguistic events from continuous, untrimmed video inputs. To address this challenge, we propose StreamSLST, the first end-to-end",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "AI Coding",
+      "Research",
+      "Business",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "b197e13576a3",
+    "title": "SemaNorm: Stain Normalization via Semantic and Morphology Alignment for Robust Cross-Hospital Computational Pathology",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00056",
+    "abstract": "arXiv:2611.00056v1 Announce Type: new  Abstract: Stain variability remains a major source of domain shift in computational pathology, yet existing normalization methods largely optimize color consistency without explicitly preserving morphology or diagnostic semantics. We propose SemaNorm, a self-supervised stain canonicalization stain normalizer to recover clean patches from strongly perturbed inputs, avoiding paired transfer, adversarial instability, and identity collapse. It further combines ",
+    "tags": [
+      "Open Source",
+      "Research",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "d917b81e51c7",
+    "title": "CausalPrune: Counterfactual Causal Token Pruning for Efficient Large Vision-Language Models",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00058",
+    "abstract": "arXiv:2611.00058v1 Announce Type: new  Abstract: Large Vision-Language Models (LVLMs) have achieved remarkable progress in multimodal understanding, but their practical deployment is still limited by the substantial computation introduced by excessive visual tokens. Visual token pruning offers an effective solution by removing redundant visual tokens during inference. However, existing methods typically estimate token importance from correlational statistics, which cannot distinguish tokens that",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Inference",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "6fd33c644c8b",
+    "title": "Not All Minorities Are Equal: Fairness Outcomes in Private Image Generation",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00059",
+    "abstract": "arXiv:2611.00059v1 Announce Type: new  Abstract: Differential privacy (DP) provides formal guarantees for protecting individuals in artificial intelligence systems, but its consequences for fairness in generative models remain poorly understood. We investigate how privacy-preserving training affects the representation of demographic groups and visual attributes in generative models of human faces. Across two facial image datasets and multiple privacy levels, we find that stronger privacy can dis",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL",
+      "Inference"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "c7e796dc1099",
+    "title": "DDEL: Closed-Loop Mutual Enhancement of Dataset Distillation and Ensemble Learning",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00061",
+    "abstract": "arXiv:2611.00061v1 Announce Type: new  Abstract: Dataset distillation (DD) reduces a training set to a small set of examples, while ensemble learning (EL) combines predictions from several models. When applied in sequence, the distilled set remains fixed as the ensemble learns. We introduce DDEL, a framework that feeds ensemble behavior back into distillation. Each round trains the ensemble, measures loss and prediction disagreement on the source data, and uses these signals to guide the next da",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Business",
+      "Synthetic Data"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "ba9b4dd0f606",
+    "title": "CarDiff: Anatomically Aware Dental Caries Synthesis using Diffusion",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00062",
+    "abstract": "arXiv:2611.00062v1 Announce Type: new  Abstract: Synthetic medical image generation can help address limited annotated data in dental imaging, particularly for under-represented caries classes. In this work, we present CarDiff, a semi-supervised framework for dental caries synthesis in panoramic radiographs. The method combines paired mask-image learning with self-supervised generation from augmented masks, while incorporating anatomy-aware conditioning between lesion regions and surrounding str",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "604d2400cf30",
+    "title": "Where Generated Floor Plans Stop: Encoding Practice Acceptance Rules to Evaluate Machine Learning Floor Plan Generators",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00063",
+    "abstract": "arXiv:2611.00063v1 Announce Type: new  Abstract: Machine learning floor plan generators are proposed as aids to design decisions, yet they are judged mainly by how closely a generated plan's room adjacencies match the request, a measure without architectural knowledge. We encode an architecture practice's floor plan acceptance rules, taken from its production layout software, as six checks applied in a fixed order, report each plan at the first check it fails, and calibrate the two room-shape li",
+    "tags": [
+      "AI Coding",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "64c56297f5da",
+    "title": "OpenMidnight: Closing the Performance Gap Between Open and Proprietary Pathology Foundation Models",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00064",
+    "abstract": "arXiv:2611.00064v1 Announce Type: new  Abstract: Pathology foundation models offer transferable representations for a range of downstream tasks in computational pathology, but reliance on proprietary data, substantial compute requirements, and limited availability of training code and preprocessing pipelines hinder independent validation and further methodological development. We present OpenMidnight 1.1, an open-source replication and refinement of Midnight trained on approximately 12,000 publi",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "caf700fd48f1",
+    "title": "BreastXAgent: A lightweight agentic explainability framework for breast density classification",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00065",
+    "abstract": "arXiv:2611.00065v1 Announce Type: new  Abstract: Deep learning models for breast density classification typically return only a label and confidence score. This paper presents BreastXAgent, a lightweight agentic framework that combines a pretrained classifier, Grad-CAM visual explanation, LangGraph-based routing, LLM report generation, and rule-based guardrails to produce controlled, faithful, non-diagnostic reports. On 160 mammography images, uncontrolled LLM reporting produced 75% Grad-CAM ove",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Computer Vision",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "2abdc3ef3b32",
+    "title": "Comparing Monocular and Multi-View 3D Pedestrian Reconstruction Strategies for Urban Intersection Sensing",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00066",
+    "abstract": "arXiv:2611.00066v1 Announce Type: new  Abstract: Understanding how pedestrians move and interact at urban intersections is central to traffic-safety assessment, mobility planning, and smart-city sensing. Such analyses rely on physically grounded descriptions of motion: 3D body pose, metric trajectories, and pose-derived descriptors such as stature and walking speed. Recovering these from fixed roadside cameras is difficult: viewpoints are oblique and long-range, occlusions are frequent, and neit",
+    "tags": [
+      "Open Source",
+      "Research",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "ef35af4a1a1c",
+    "title": "MedICL: Modality-Anatomy-Aware Visual In-Context Learning for Medical Visual Question Answering",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00067",
+    "abstract": "arXiv:2611.00067v1 Announce Type: new  Abstract: Training-free adaptation of medical vision-language models (LVLMs) is a deployment requirement, yet visual in-context learning (ICL) injects modality- and style-mismatched demonstrations into medical contexts, teaching a frozen model the wrong answering style. We present MedICL, which curates demonstrations instead of retraining the model. MADS selects modality-anatomy aligned demonstrations that cover complementary interpretation dimensions; W2C ",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "Research",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "2f88fc8f1480",
+    "title": "SAMP: Self-Adaptive Margin Prioritization For Robust Diffusion Watermarking",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00069",
+    "abstract": "arXiv:2611.00069v1 Announce Type: new  Abstract: Diffusion models have made high-fidelity visual generation widely accessible, while also lowering the barrier to producing convincing visual forgeries and complicating content provenance. Existing watermarking methods typically use a fixed embedding strength throughout denoising or treat all watermark dimensions equally. As a result, they may introduce unnecessary distortion when some watermark dimensions are already reliable, while failing to suf",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "82c5e8a3cf5d",
+    "title": "How Reliable Are Object Detection Models Beyond Clear Weather? A Deployment-Oriented Robustness Study for Autonomous Driving",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00071",
+    "abstract": "arXiv:2611.00071v1 Announce Type: new  Abstract: Autonomous driving perception systems must maintain reliable object detection under diverse environmental conditions, not only in clear daytime scenes. However, the cross-weather robustness of modern detectors remains insufficiently characterised under source-only evaluation. This study evaluates representative object detection architectures trained exclusively on clear daytime driving scenes and tested without adaptation under unseen fog, rain, s",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "Research",
+      "Business"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "6e153dac9c26",
+    "title": "CRaFT-XDet: Causal and Robust Fusion Transformer for Dual-Energy X-ray Prohibited Item Detection",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00072",
+    "abstract": "arXiv:2611.00072v1 Announce Type: new  Abstract: Automated prohibited item detection in X-ray security imagery is fundamentally constrained by severe object overlap, scanner-dependent domain shifts, and spurious correlations induced by cluttered baggage composition. Existing detectors largely rely on appearance-driven supervision, limiting their robustness and cross-scanner generalisation. We introduce CRaFT-XDet, a causality-grounded and physics- motivated detection framework that reformulates ",
+    "tags": [
+      "Reasoning",
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL",
+      "Inference",
+      "RAG"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "2d3184bc6416",
+    "title": "When frequency domain classification is superior to spatial",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00073",
+    "abstract": "arXiv:2611.00073v1 Announce Type: new  Abstract: Modern image classification models largely rely on local characteristics and feature extraction for their predictions. This focused approach works well in the spatial domain, but reportedly falls short in the frequency domain, even though both representations contain the same information. This study demonstrates that the significant reduction in accuracy in the frequency domain stems from the lack of local features. Locally swapping data in the fr",
+    "tags": [
+      "LLMs",
+      "Computer Vision",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "7ad44a2fe49d",
+    "title": "When Morphs Look Better: Face Image Quality as a Training-Free Signal for Morphing Attack Detection",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00074",
+    "abstract": "arXiv:2611.00074v1 Announce Type: new  Abstract: Face image quality assessment (FIQA) estimates the utility of a face image for automated face recognition and has been proposed as a morphing attack detection (MAD) signal that requires no morph-specific training. We evaluate 17 FIQA methods from all current FIQA categories on 20 morphing attack sets from two datasets, FRLL and FEI, including five diffusion-based attack sets. Each quality score is used directly as a MAD decision score. Unlike prio",
+    "tags": [
+      "Computer Vision",
+      "Research",
+      "RL"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "1047fcedb61c",
+    "title": "CRAFT: Corrective and Robust Multi-Agent Framework for Text-to-Parametric CAD",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00076",
+    "abstract": "arXiv:2611.00076v1 Announce Type: new  Abstract: Text-to-CAD generation has the potential to make mechanical CAD more accessible, but existing approaches face a trade-off between data dependence and output fidelity. Supervised methods rely on large paired text-model datasets, while zero-shot prompting strategies are often brittle and tend to lose the parametric structure needed for downstream editing and customization. We present CRAFT, a corrective and robust multi-agent framework that produces",
+    "tags": [
+      "Agents",
+      "Computer Vision",
+      "Open Source",
+      "Research"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "8a7023b3f787",
+    "title": "AegisBench: Auditing Aerial Search-and-Rescue Person Detection Under the Conditions It Is Deployed In",
+    "authors": [],
+    "date": "2026-11-03T00:00:00-05:00",
+    "source": "arxiv",
+    "url": "https://arxiv.org/abs/2611.00077",
+    "abstract": "arXiv:2611.00077v1 Announce Type: new  Abstract: Drone-based person detection is being adopted by emergency-management agencies to find missing people faster than ground teams can. The benchmarks behind that adoption were collected in calm, clear daylight, while the missions that trigger deployment happen in floods, wildfires, storms, and at night. AegisBench measures that gap. It applies nine physically motivated corruptions from four disaster families, each at three severities monotone in a de",
+    "tags": [
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "Business"
+    ],
+    "importance": 5,
+    "novelty": 5
+  },
+  {
+    "id": "e607a85b60c4",
+    "title": "CoworkOS:Scaling Agent Coworkers for Real-world Automation",
+    "authors": [
+      "Jiajie Jin",
+      "Guanting Dong",
+      "Chengjun Pan",
+      "Xin Deng",
+      "Zhuohui Sheng",
+      "Guoqiang Wang",
+      "Tao Gui",
+      "Yutao Zhu",
+      "Yujia Chen",
+      "Shihong Yi",
+      "Binze Hu",
+      "Zhixiong Yang",
+      "Zhichao Sun",
+      "Rui Wang",
+      "Han Han",
+      "Mingyu Ma",
+      "Junhao Huang",
+      "Xiaotao Wang",
+      "Huicheng Jiang",
+      "Yuyang Hu",
+      "Xinyu Yang",
+      "Wanghan Xu",
+      "Yajie Yang",
+      "Zhecan Wang",
+      "Honglin Guo",
+      "Xiaoyu Xing",
+      "Xiaoqian Zhang",
+      "Yulun Zhu",
+      "Xiaoxi Li",
+      "Jiahang Lin",
+      "Shaofan Liu",
+      "Shihan Dou",
+      "Zhiheng Xi",
+      "Qi Zhang",
+      "Yu-Gang Jiang",
+      "See-Kiong Ng",
+      "Yang Zhang",
+      "Tat-Seng Chua",
+      "Ji-Rong Wen",
+      "Zhicheng Dou"
+    ],
+    "date": "2026-11-02T09:15:11.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2611.03178",
+    "abstract": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose harness for long-horizon work that separates task strategy from execution management: the model decide",
+    "tags": [
+      "Agents",
+      "Open Source",
+      "Research",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "9a6ed61c7389",
+    "title": "CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements",
+    "authors": [
+      "Xinlei Yu",
+      "Gen Li",
+      "Ji Zhao",
+      "Zhangquan Chen",
+      "Congcong Wang",
+      "Shuai Dong",
+      "Zelin Peng",
+      "Yuqi Xu",
+      "Hongrui Wu",
+      "Kaiwen Tuo",
+      "Cheng Yang",
+      "Kaituo Feng",
+      "Yifan Wu",
+      "Jiayi Zhang",
+      "Dongming Wu",
+      "Wenqi Shao",
+      "Jiaqi Wang",
+      "Xiangyu Yue"
+    ],
+    "date": "2026-11-02T08:41:14.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2611.03126",
+    "abstract": "Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns. To address these challenges, we introduce CUA-Master, a nested double-loop recursive improvement framework. At the system level",
+    "tags": [
+      "Agents",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL",
+      "Memory",
+      "RAG"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "4fae56d527f6",
+    "title": "Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning",
+    "authors": [
+      "Tengfei Liu",
+      "Yang Shi",
+      "Yuran Wang",
+      "Yuqi Tang",
+      "Yizhuo Jia",
+      "Zhuoran Zhang",
+      "Qixun Wang",
+      "Shujie Li",
+      "Xuanyu Zhu",
+      "Xinyu Liu",
+      "Minghui Guo",
+      "Shixuan Liu",
+      "Haotian Wang",
+      "Yuanxing Zhang",
+      "Pengfei Wan"
+    ],
+    "date": "2026-11-02T13:41:14.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2611.03602",
+    "abstract": "Multimodal large language models (MLLMs) can generate detailed video captions, yet they may overemphasize minor details while overlooking essential context and key events. We argue that not all visual evidence deserves equal attention, as the importance of visual information depends on the content of each video. Motivated by this observation, we propose Reviso, an agentic video captioning framework that learns what to observe and how to gather relevant visual evidence. From a low-frame-rate glob",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "Computer Vision",
+      "Open Source",
+      "Research",
+      "RL"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "3e8c8c7f9499",
+    "title": "Avatar Intelligence: Amplifying Human Agency Through Persistent Personal Agents",
+    "authors": [
+      "Zheng Wu",
+      "Xinbei Ma",
+      "Yao Yao",
+      "Zhaoyuan Huang",
+      "Haowen Hu",
+      "Yijie Lu",
+      "Taolei Wang",
+      "Yifei Yang",
+      "Wuyue Xiong",
+      "Pengzhou Cheng",
+      "Zhuosheng Zhang"
+    ],
+    "date": "2026-11-01T19:00:00.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2611.03092",
+    "abstract": "Personal AI agents are increasingly capable of handling long-horizon tasks across applications, yet users often need to invest substantial effort in specifying goals, resolving ambiguity, and verifying outcomes. We argue that progress should be measured by how effectively agents amplify human agency: enabling people to pursue their goals with less routine supervision while retaining control over consequential decisions. We advocate Avatar Intelligence, a paradigm of persistent personal agents th",
+    "tags": [
+      "Agents",
+      "Computer Vision",
+      "Open Source"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "10466b008819",
+    "title": "Measuring AI Agents as Teammates with Collaborative Intelligence",
+    "authors": [
+      "Sean Wu",
+      "Aneesh Pappu",
+      "Jiaru Zou",
+      "Yubin Kim",
+      "Yuncong Mao",
+      "Hongjian Zhou",
+      "Junchi Yu",
+      "Jieneng Chen",
+      "James Zou"
+    ],
+    "date": "2026-11-02T01:59:08.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2611.02633",
+    "abstract": "Progress in AI is often measured by what a single model can do on its own. Yet teams of AI agents are starting to make breakthroughs and discoveries in science, medicine, mathematics and software engineering. As AI begins to work in teams of agents and people, the ability to collaborate becomes a core part of their intelligence. Research on human teams has measured this ability for decades. Inspired by this, we introduce the Collaborative Intelligence Benchmark, which measures how well an AI age",
+    "tags": [
+      "Agents",
+      "AI Coding",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "c64e6ab7436c",
+    "title": "Library of Layers (LoL): Adaptively Ordering Transformer Layers at Runtime",
+    "authors": [
+      "Abdellah Rahmani",
+      "Sean McLeish",
+      "Ang Li",
+      "Sanae Lotfi",
+      "Pascal Frossard",
+      "Micah Goldblum"
+    ],
+    "date": "2026-11-02T12:57:53.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2611.03526",
+    "abstract": "Computer programmers chain together the same reusable computational primitives, for example, conditional statements or loops, but in different orders to implement different algorithms. In contrast, existing language model architectures always execute their layers in the same order. We introduce Library of Layers (LoL), an architecture that dynamically orders its layers during inference to solve the problem at hand. LoL has a single hyperparameter, the size of its global library of transformer bl",
+    "tags": [
+      "Reasoning",
+      "LLMs",
+      "AI Coding",
+      "RL",
+      "Inference"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "90ada49cf220",
+    "title": "Lab2Sim: Turning Real-World Experiment Videos into Interactive Virtual Experiments",
+    "authors": [
+      "Xusen Hei",
+      "Jiali Chen",
+      "Jinyu Yang",
+      "Yi Cai"
+    ],
+    "date": "2026-11-02T05:56:06.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2611.02928",
+    "abstract": "Science experiment videos demonstrate how experiments are performed, but offer no direct interaction for learners. Turning them into virtual experiments requires not only reproducing the observed apparatus and state changes, but also enforcing the preconditions governing each operation. We introduce Lab2Sim, a benchmark of 218 science experiment videos with evidence-grounded specifications and 11,881 rubric items. To address this task, we propose EduVideo2Code, which extracts experimental proced",
+    "tags": [
+      "AI Coding",
+      "Open Source",
+      "Research",
+      "Business",
+      "RL"
+    ],
+    "importance": 6,
+    "novelty": 6
+  },
+  {
+    "id": "053d10685559",
+    "title": "FLAMIA: FLAsh MIcroscaling Attention for Fast and Causally Safe Training on Blackwell",
+    "authors": [
+      "Fedor Velikonivtsev",
+      "Mikhail Koltakov",
+      "Denis Kuznedelev"
+    ],
+    "date": "2026-11-02T11:00:12.000Z",
+    "source": "huggingface",
+    "url": "https://huggingface.co/papers/2611.03344",
+    "abstract": "Attention remains a substantial computational cost in Transformer training, particularly at long context lengths. NVIDIA Blackwell GPUs provide high-throughput low-precision matrix multiplication, but exploiting it in attention requires addressing quantization overhead, causal information leakage through shared scales, and numerical inconsistencies between the forward and backward passes. We present FLAMIA, a family of attention kernels for Blackwell with MXFP8 and mixed NVFP4/FP8 training paths",
+    "tags": [
+      "LLMs",
+      "Open Source",
+      "RL",
+      "Inference",
+      "Memory"
+    ],
+    "importance": 6,
+    "novelty": 6
+  }
+]
