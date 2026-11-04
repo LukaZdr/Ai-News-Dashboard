@@ -1,80 +1,91 @@
-name: Update AI Dashboard Data & Deploy
+name: Publish The Preprint
 
 on:
   schedule:
-    # Run everyday at 2:00 AM UTC
-    - cron: '0 2 * * *'
-  workflow_dispatch: # Allow manual trigger
+    # 06:30 UTC (07:30 CET): after arXiv refreshes its announcement feeds (~05:00 UTC).
+    # The old 02:00 UTC slot often caught the previous day's feed or an empty one.
+    - cron: '30 6 * * *'
+  workflow_dispatch:
+    inputs:
+      notify:
+        description: 'Post to Discord'
+        type: boolean
+        default: true
+      no_llm:
+        description: 'Skip the LLM (heuristic ranking only)'
+        type: boolean
+        default: false
+      rebuild:
+        description: "Rebuild today's issues even if they already exist (spends LLM quota)"
+        type: boolean
+        default: false
 
-# Grant permissions required for committing changes and deploying to GitHub Pages
 permissions:
   contents: write
   pages: write
   id-token: write
 
-# Ensure only one deployment runs at a time
 concurrency:
-  group: 'pages'
-  cancel-in-progress: true
+  group: pages
+  # Never cancel a run midway — it may be between committing data and deploying.
+  cancel-in-progress: false
 
 jobs:
-  update-and-deploy:
+  publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
         with:
-          fetch-depth: 0
+          node-version: 24
+          cache: npm
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: 'npm'
+      - run: npm ci
 
-      - name: Install Dependencies
-        run: npm ci
+      - name: Test
+        run: npm test
 
-      - name: Run Data Ingestion Pipeline
+      - name: Build editions
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run fetch:all
+        # Manual re-runs keep today's existing issues unless "rebuild" is ticked.
+        run: npm run build:editions -- ${{ !inputs.rebuild && '--skip-existing' || '' }} ${{ inputs.no_llm && '--no-llm' || '' }}
 
-      - name: Commit and Push Updated Data
+      - name: Commit data
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
           if git diff --cached --quiet; then
-            echo "No data changes to commit."
+            echo "No new data."
           else
-            git commit -m "chore: auto-update daily AI feed data [skip ci]"
-            git push origin main
+            git commit -m "chore: publish issues for $(date -u +%F) [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
 
-      - name: Build Static Site
+      - name: Build site
         run: npm run build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
+          path: ./dist
+      - id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: Send Discord Notification
+      - name: Post to Discord
+        if: ${{ github.event_name == 'schedule' || inputs.notify }}
         env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DASHBOARD_URL: ${{ steps.deployment.outputs.page_url }}
+          DISCORD_GENERAL_WEBHOOK_URL: ${{ secrets.DISCORD_GENERAL_WEBHOOK_URL }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_MEDICAL_WEBHOOK_URL: ${{ secrets.DISCORD_MEDICAL_WEBHOOK_URL }}
+          DISCORD_EDUCATION_WEBHOOK_URL: ${{ secrets.DISCORD_EDUCATION_WEBHOOK_URL }}
         run: npm run send:discord

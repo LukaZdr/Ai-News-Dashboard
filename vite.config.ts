@@ -1,35 +1,18 @@
 /// <reference types="vitest" />
-import path from "path"
-import tailwindcss from "@tailwindcss/vite"
-import react from "@vitejs/plugin-react"
-import { defineConfig } from "vitest/config"
-
-// https://vite.dev/config/
-const isTest = !!process.env.VITEST;
+import path from 'path';
+import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
-  plugins: [
-    react(),
-    !isTest && tailwindcss(),
-  ].filter(Boolean) as any,
-  base: "/Ai-News-Dashboard/",
+  plugins: [react()],
+  base: '/Ai-News-Dashboard/',
   resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
-  ssr: {
-    noExternal: ["@csstools/css-calc", "@asamuzakjp/css-color"],
+    alias: { '@': path.resolve(__dirname, './src') },
   },
   test: {
     globals: true,
-    environment: "jsdom",
-    setupFiles: ["./src/test/setup.ts"],
-    include: ["src/**/*.{test,spec}.{ts,tsx}", "scripts/**/*.{test,spec}.ts"],
-    server: {
-      deps: {
-        inline: ["@csstools/css-calc", "@asamuzakjp/css-color"],
-      },
-    },
+    environment: 'jsdom',
+    setupFiles: ['./src/test/setup.ts'],
+    include: ['src/**/*.test.{ts,tsx}', 'scripts/**/*.test.ts'],
   },
-})
+});

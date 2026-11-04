@@ -1,6 +1,13 @@
 {
-  "timeframeHours": 48,
-  "maxItemsPerSection": 50,
-  "openRouterModel": "nvidia/nemotron-3-ultra-550b-a55b:free",
-  "openRouterMaxTokens": 6144
+  "publicationName": "The Preprint",
+  "openRouterModels": [
+    "nvidia/nemotron-3.5-super-vl:free",
+    "nvidia/nemotron-3-ultra-550b-a55b:free"
+  ],
+  "openRouterMaxTokens": 6144,
+  "huggingfaceDaysBack": 2,
+  "searchWindowDays": 5,
+  "seenRetentionDays": 45,
+  "dashboardUrl": "https://lukazdr.github.io/Ai-News-Dashboard/",
+  "_modelNote": "Chosen 2026-11-04 by bake-off on real triage+editor prompts. thinkingmachines/inkling:free is stronger on paper but OpenRouter gates its free tier to registered agent apps (HTTP 403). Second entry is an automatic fallback."
 }

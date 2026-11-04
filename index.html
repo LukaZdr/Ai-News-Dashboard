@@ -3,14 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI Newspaper | Daily Intelligence Feed</title>
-    <meta name="description" content="A high-signal daily AI newspaper and intelligence dashboard. Track research papers, trending repositories, company news, and video guides in real time." />
-    <meta name="keywords" content="AI, Artificial Intelligence, Machine Learning, Deep Learning, LLM, arXiv, Research, GitHub Trends" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <title>The Preprint — a daily paper for research</title>
+    <meta name="description" content="A daily, ranked digest of new machine-learning preprints in three editions: General AI, Medical AI and AI for Education." />
     <meta name="author" content="Luka Zdravkovic" />
-    <meta property="og:title" content="AI Newspaper | Daily Intelligence Feed" />
-    <meta property="og:description" content="Track research papers, trending repositories, company news, and video guides in real time." />
+    <meta property="og:title" content="The Preprint" />
+    <meta property="og:description" content="New machine-learning preprints, read and ranked every morning." />
     <meta property="og:type" content="website" />
+    <script>
+      // Apply a saved theme before first paint to avoid a flash.
+      try {
+        var t = localStorage.getItem('preprint.theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>

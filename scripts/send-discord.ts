@@ -1,120 +1,63 @@
+/**
+ * Post each edition's issue to its own Discord channel.
+ *
+ *   npm run send:discord                          # every edition with an issue dated today
+ *   npm run send:discord -- --edition medical
+ *   npm run send:discord -- --dry-run             # print payloads, post nothing
+ *
+ * An edition is skipped (no ping) when it has no issue for today — e.g. weekends,
+ * when arXiv makes no announcement — or when its webhook env var is not set.
+ */
 import 'dotenv/config';
-import { readJsonFile, getDataPath } from './utils/index.js';
-import type { DailyDigest } from '../src/types/index.js';
-import { execSync } from 'child_process';
+import { join } from 'path';
+import type { Issue, Settings } from '../src/types/index.js';
+import { CONFIG_DIR, DATA_DIR, readJson, todayUtc } from './lib/io.js';
+import { buildPayload } from './lib/discord.js';
+import { loadEditions } from './lib/editions.js';
 
-function truncate(str: string, maxLength: number): string {
-  if (!str) return '';
-  if (str.length <= maxLength) return str;
-  return str.substring(0, maxLength - 3) + '...';
-}
+const args = process.argv.slice(2);
+const dryRun = args.includes('--dry-run');
+const only = args.includes('--edition') ? args[args.indexOf('--edition') + 1] : undefined;
 
-async function sendDiscordNotification() {
-  console.log('=== Sending Discord Webhook Notification ===\n');
+async function main() {
+  const settings = readJson<Settings>(join(CONFIG_DIR, 'settings.json'));
+  const base = (process.env.DASHBOARD_URL || settings.dashboardUrl).replace(/\/?$/, '/');
+  const today = todayUtc();
+  let failures = 0;
 
-  const webhookUrl = process.env.DISCORD_WEBHOOK_URL;
-  if (!webhookUrl) {
-    console.warn('⚠️ DISCORD_WEBHOOK_URL is not set in environment variables. Skipping Discord notification.');
-    process.exit(0);
-  }
-
-  // 1. Resolve Dashboard URL
-  let dashboardUrl = process.env.DASHBOARD_URL;
-  if (!dashboardUrl) {
-    try {
-      const gitUrl = execSync('git config --get remote.origin.url', { encoding: 'utf-8' }).trim();
-      const match = gitUrl.match(/github\.com[:/]([^/]+)\/([^.]+)/);
-      if (match) {
-        const owner = match[1];
-        const repo = match[2];
-        dashboardUrl = `https://${owner}.github.io/${repo}/`;
-      }
-    } catch (e) {
-      // ignore git resolve errors
+  for (const edition of loadEditions().filter((e) => !only || e.slug === only)) {
+    const issue = readJson<Issue | null>(join(DATA_DIR, 'editions', edition.slug, 'latest.json'), null);
+    if (!issue || issue.date !== today) {
+      console.log(`⏭  ${edition.name}: no issue today`);
+      continue;
     }
-  }
-  if (!dashboardUrl) {
-    dashboardUrl = 'https://lukazdr.github.io/AI-News-Dashboard';
-  }
-
-  console.log(`🔗 Dashboard Link: ${dashboardUrl}`);
-
-  // 2. Read latest digest.json
-  let digest: DailyDigest;
-  try {
-    digest = readJsonFile<DailyDigest>(getDataPath('digest.json'));
-  } catch (error) {
-    console.error('❌ Failed to read data/digest.json:', (error as Error).message);
-    process.exit(1);
-  }
-
-  // 3. Format Discord Embed
-  const embed: any = {
-    title: `📰 Daily AI Intelligence Digest — ${digest.date}`,
-    url: dashboardUrl,
-    color: 0x111827, // Slate/Gray-900 for premium theme
-    footer: {
-      text: `AI News Dashboard • Model: ${digest.model}`
-    },
-    timestamp: digest.generatedAt || new Date().toISOString()
-  };
-
-  // Limit description to 2000 chars to leave space for fields and prevent webhook rejection
-  embed.description = truncate(digest.summary || 'No summary available.', 2000);
-
-  const fields = [];
-  let totalChars = (embed.title?.length || 0) + (embed.description?.length || 0);
-
-  if (digest.topDevelopments && Array.isArray(digest.topDevelopments)) {
-    for (const dev of digest.topDevelopments.slice(0, 4)) {
-      const name = truncate(`🔥 ${dev.rank}. ${dev.title}`, 250);
-      const value = truncate(
-        `${dev.summary}\n\n**Why it matters:** *${dev.whyItMatters}*`,
-        500
-      );
-
-      // Keep total embed characters under 5500 (Discord limit is 6000)
-      if (totalChars + name.length + value.length > 5500) {
-        break;
-      }
-
-      fields.push({ name, value, inline: false });
-      totalChars += name.length + value.length;
+    const envName = edition.discordWebhookEnv.find((n) => process.env[n]);
+    const webhook = envName ? process.env[envName] : undefined;
+    if (!webhook && !dryRun) {
+      console.log(`⏭  ${edition.name}: none of ${edition.discordWebhookEnv.join(', ')} is set`);
+      continue;
     }
-  }
-
-  embed.fields = fields;
-
-  const payload = {
-    content: `📢 **Here is today's Daily AI Digest summary!**\nView the full interactive dashboard here: ${dashboardUrl}`,
-    embeds: [embed]
-  };
-
-  // 4. Send Webhook Request
-  try {
-    console.log('Sending message payload to Discord...');
-    const response = await fetch(webhookUrl, {
+    const payload = buildPayload(edition, issue, `${base}#/${edition.slug}`, settings.publicationName);
+    if (dryRun) {
+      console.log(`\n── ${edition.name} → ${envName ?? '(no webhook set)'}\n${JSON.stringify(payload, null, 2)}`);
+      continue;
+    }
+    const res = await fetch(webhook!, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(payload)
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
     });
-
-    if (response.ok) {
-      console.log('✅ Discord notification sent successfully!');
+    if (res.ok) {
+      console.log(`✅ ${edition.name}: posted No. ${issue.number}`);
     } else {
-      const errorText = await response.text();
-      console.error(`❌ Discord API returned status ${response.status}:`, errorText);
-      process.exit(1);
+      failures++;
+      console.error(`❌ ${edition.name}: Discord returned ${res.status} ${await res.text()}`);
     }
-  } catch (error) {
-    console.error('❌ Failed to dispatch Discord webhook request:', (error as Error).message);
-    process.exit(1);
   }
+  process.exit(failures ? 1 : 0);
 }
 
-sendDiscordNotification().catch(err => {
-  console.error(err);
+main().catch((error) => {
+  console.error(error);
   process.exit(1);
 });

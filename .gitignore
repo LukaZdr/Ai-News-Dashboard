@@ -31,3 +31,7 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Dev server runtime artifacts (written by the Makefile)
+dev.log
+.vite.pid

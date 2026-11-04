@@ -1,0 +1,184 @@
+{
+  "slug": "education",
+  "name": "AI for Education",
+  "order": 3,
+  "tagline": "Tutoring models, pedagogical benchmarks and the science of learning with machines.",
+  "accent": {
+    "light": "#3a4aa6",
+    "dark": "#97a6ff"
+  },
+  "discordWebhookEnv": [
+    "DISCORD_EDUCATION_WEBHOOK_URL"
+  ],
+  "readerProfile": "A researcher focused on AI for education. Most interested in LLM tutoring systems, pedagogical alignment of models, benchmarks and evaluations of tutoring quality, student/learner modelling and knowledge tracing, feedback and hint generation, and evidence about real learning outcomes. Less interested in generic LLM papers that only mention education in passing.",
+  "arxivCategories": [
+    "cs.CY",
+    "cs.CL",
+    "cs.AI",
+    "cs.HC",
+    "cs.LG",
+    "cs.SE",
+    "physics.ed-ph",
+    "math.HO"
+  ],
+  "requireTopicMatch": true,
+  "minHeuristicScore": 3,
+  "arxivQueries": [
+    "intelligent tutoring",
+    "tutoring system",
+    "LLM tutor",
+    "AI tutor",
+    "tutoring dialogue",
+    "knowledge tracing",
+    "student modeling",
+    "student modelling",
+    "learning analytics",
+    "educational data mining",
+    "automated grading",
+    "essay scoring",
+    "pedagogical alignment",
+    "AI in education",
+    "educational benchmark"
+  ],
+  "editorVoice": "Use clear, plain language \u2014 prefer \"X did Y, which means Z\" over abstract jargon \u2014 so the note reads well without an ML background.",
+  "topics": [
+    {
+      "name": "Tutoring Systems",
+      "weight": 2,
+      "keywords": [
+        "tutor",
+        "tutors",
+        "tutoring",
+        "tutored",
+        "intelligent tutoring",
+        "socratic",
+        "scaffolding",
+        "hint generation",
+        "feedback generation",
+        "teaching assistant*"
+      ]
+    },
+    {
+      "name": "Pedagogy & Alignment",
+      "weight": 1.8,
+      "keywords": [
+        "pedagog*",
+        "learning science*",
+        "learning gain*",
+        "learning outcome*",
+        "human teacher*",
+        "school teacher*",
+        "classroom teacher*",
+        "pre-service teacher*",
+        "in-service teacher*",
+        "teacher education",
+        "teacher feedback",
+        "teaching",
+        "didactic*",
+        "instructional"
+      ]
+    },
+    {
+      "name": "Tutoring Benchmarks",
+      "weight": 1.8,
+      "keywords": [
+        "mathdial",
+        "tutoring benchmark*",
+        "tutorbench",
+        "pedagogical evaluation",
+        "educational benchmark*",
+        "tutoring dialogue*",
+        "mrbench"
+      ]
+    },
+    {
+      "name": "Student Modelling",
+      "weight": 1.6,
+      "keywords": [
+        "knowledge tracing",
+        "student modeling",
+        "student modelling",
+        "learner model*",
+        "learning analytics",
+        "student performance",
+        "misconception*",
+        "dropout prediction"
+      ]
+    },
+    {
+      "name": "Assessment & Feedback",
+      "weight": 1.4,
+      "keywords": [
+        "automated grading",
+        "automatic grading",
+        "essay scoring",
+        "short answer",
+        "question generation",
+        "formative assessment",
+        "assessment item*",
+        "exam question*"
+      ]
+    },
+    {
+      "name": "Learners & Classrooms",
+      "weight": 1.2,
+      "keywords": [
+        "student",
+        "students",
+        "adult learners",
+        "language learners",
+        "classroom*",
+        "education*",
+        "k-12",
+        "mooc*",
+        "homework",
+        "higher education",
+        "school*"
+      ]
+    },
+    {
+      "name": "Programming Education",
+      "weight": 1.3,
+      "keywords": [
+        "programming education",
+        "cs1",
+        "novice programmer*",
+        "introductory programming",
+        "computing education"
+      ]
+    }
+  ],
+  "exclude": [
+    "distill*",
+    "teacher-student",
+    "teacher model*",
+    "multi-teacher",
+    "teacher-guided",
+    "student network*",
+    "student model's",
+    "curriculum learning",
+    "meta-learner",
+    "weak learner",
+    "base learner",
+    "tutorial*",
+    "teacher forcing",
+    "student-t",
+    "student's t"
+  ],
+  "huggingface": {
+    "enabled": true,
+    "weight": 0.3
+  },
+  "selection": {
+    "candidates": 20,
+    "minLlmScore": 4,
+    "readFirst": 3,
+    "lead": 5,
+    "notable": 8,
+    "radar": 12
+  },
+  "dispatches": {
+    "enabled": false,
+    "max": 0
+  }
+}

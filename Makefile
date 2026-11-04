@@ -1,4 +1,4 @@
-# AI News Dashboard Management Makefile
+# The Preprint — management Makefile
 
 # Variables
 PID_FILE = .vite.pid
@@ -9,7 +9,7 @@ PORT = 5173
 
 # Default target
 help:
-	@echo "AI News Dashboard Management Commands:"
+	@echo "The Preprint — commands:"
 	@echo "  make start     - Start the development server in the background"
 	@echo "  make stop      - Stop the development server"
 	@echo "  make restart   - Restart the development server"
@@ -18,8 +18,8 @@ help:
 	@echo "  make build     - Build the production bundle"
 	@echo "  make test      - Run tests"
 	@echo "  make lint      - Lint the codebase"
-	@echo "  make fetch     - Fetch all papers, news, YouTube, and GitHub data"
-	@echo "  make send-discord - Test sending the daily digest summary to Discord"
+	@echo "  make fetch     - Fetch, rank and write today's issues for every edition"
+	@echo "  make send-discord - Preview the Discord posts (dry run; nothing is sent)"
 	@echo "  make clean     - Clean build artifacts, logs, and pid files"
 
 # Start the dev server in the background
@@ -93,9 +93,9 @@ test:
 lint:
 	npm run lint
 
-# Fetch all external data
+# Fetch, rank and write today's issues
 fetch:
-	npm run fetch:all
+	npm run build:editions
 
 # Clean up temporary files and build artifacts
 clean:
@@ -105,7 +105,7 @@ clean:
 	rm -f $(LOG_FILE)
 	@echo "Clean complete."
 
-# Test sending the daily digest summary to Discord
+# Preview the Discord posts without sending them
 send-discord:
-	npm run send:discord
+	npm run send:discord -- --dry-run
 

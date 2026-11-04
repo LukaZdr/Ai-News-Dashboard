@@ -1,0 +1,16 @@
+{
+  "_comment": "RSS/Atom feeds shown as 'Dispatches' alongside the papers. 'editions' lists which edition slugs show the feed. 'includeCategories' keeps only items carrying one of these RSS categories (used to drop OpenAI customer stories). 'windowDays' is how far back an item may be; items are shown once (de-duplicated across issues). Feeds that fail are skipped — nothing is ever synthesized.",
+  "feeds": [
+    { "name": "Google Research", "kind": "lab", "url": "https://research.google/blog/rss/", "editions": ["general"], "windowDays": 3 },
+    { "name": "Google DeepMind", "kind": "lab", "url": "https://deepmind.google/blog/rss.xml", "editions": ["general"], "windowDays": 3 },
+    { "name": "OpenAI", "kind": "lab", "url": "https://openai.com/blog/rss.xml", "editions": ["general"], "windowDays": 3, "includeCategories": ["Research", "Safety", "Security", "Engineering"] },
+    { "name": "Microsoft Research", "kind": "lab", "url": "https://www.microsoft.com/en-us/research/feed/", "editions": ["general"], "windowDays": 3 },
+    { "name": "BAIR", "kind": "lab", "url": "https://bair.berkeley.edu/blog/feed.xml", "editions": ["general"], "windowDays": 7 },
+    { "name": "Hugging Face Blog", "kind": "lab", "url": "https://huggingface.co/blog/feed.xml", "editions": ["general"], "windowDays": 2 },
+    { "name": "Import AI", "kind": "newsletter", "url": "https://importai.substack.com/feed", "editions": ["general"], "windowDays": 7 },
+    { "name": "Interconnects", "kind": "newsletter", "url": "https://www.interconnects.ai/feed", "editions": ["general"], "windowDays": 7 },
+    { "name": "Latent Space", "kind": "newsletter", "url": "https://www.latent.space/feed", "editions": ["general"], "windowDays": 7 },
+    { "name": "Simon Willison", "kind": "newsletter", "url": "https://simonwillison.net/atom/entries/", "editions": ["general"], "windowDays": 2 },
+    { "name": "The Gradient", "kind": "newsletter", "url": "https://thegradient.pub/rss/", "editions": ["general"], "windowDays": 7 }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "slug": "general",
+  "name": "General AI",
+  "order": 1,
+  "tagline": "The day's most consequential machine-learning preprints, read and ranked.",
+  "accent": {
+    "light": "#b4361c",
+    "dark": "#f0805f"
+  },
+  "discordWebhookEnv": [
+    "DISCORD_GENERAL_WEBHOOK_URL",
+    "DISCORD_WEBHOOK_URL"
+  ],
+  "readerProfile": "A first-year machine-learning PhD student who wants a broad, high-signal overview of AI research: what changed today, which results are likely to matter in a year, and which papers are worth an hour of careful reading. Prefers substantive methodological or empirical contributions and influential evaluations over incremental application papers.",
+  "arxivCategories": [
+    "cs.AI",
+    "cs.LG",
+    "cs.CL",
+    "cs.CV",
+    "stat.ML"
+  ],
+  "requireTopicMatch": false,
+  "minHeuristicScore": 0,
+  "topics": [
+    {
+      "name": "Language Models",
+      "weight": 1,
+      "keywords": [
+        "language model*",
+        "llm*",
+        "pretraining",
+        "pre-training",
+        "scaling law*",
+        "tokeni*",
+        "transformer*"
+      ]
+    },
+    {
+      "name": "Reasoning",
+      "weight": 1.2,
+      "keywords": [
+        "reasoning",
+        "chain-of-thought",
+        "chain of thought",
+        "test-time compute",
+        "test-time scaling",
+        "inference-time scaling"
+      ]
+    },
+    {
+      "name": "Agents",
+      "weight": 1,
+      "keywords": [
+        "agent",
+        "agents",
+        "agentic",
+        "tool use",
+        "computer use",
+        "web agent*"
+      ]
+    },
+    {
+      "name": "Alignment & Safety",
+      "weight": 1.2,
+      "keywords": [
+        "alignment",
+        "rlhf",
+        "reward model*",
+        "ai safety",
+        "jailbreak*",
+        "red teaming",
+        "deceptive",
+        "misalignment"
+      ]
+    },
+    {
+      "name": "Interpretability",
+      "weight": 1.3,
+      "keywords": [
+        "interpretab*",
+        "mechanistic",
+        "sparse autoencoder*",
+        "circuit*",
+        "probing",
+        "representation engineering"
+      ]
+    },
+    {
+      "name": "Reinforcement Learning",
+      "weight": 1,
+      "keywords": [
+        "reinforcement learning",
+        "policy optimization",
+        "grpo",
+        "ppo",
+        "rlvr",
+        "reward shaping"
+      ]
+    },
+    {
+      "name": "Multimodal & Vision",
+      "weight": 1,
+      "keywords": [
+        "vision-language",
+        "multimodal",
+        "vlm*",
+        "image generation",
+        "video generation",
+        "diffusion model*",
+        "world model*"
+      ]
+    },
+    {
+      "name": "Efficiency",
+      "weight": 0.8,
+      "keywords": [
+        "quantization",
+        "distillation",
+        "mixture of experts",
+        "mixture-of-experts",
+        "kv cache",
+        "speculative decoding",
+        "efficient inference",
+        "pruning"
+      ]
+    },
+    {
+      "name": "Evaluation",
+      "weight": 1,
+      "keywords": [
+        "benchmark*",
+        "evaluation",
+        "leaderboard",
+        "contamination"
+      ]
+    },
+    {
+      "name": "Theory",
+      "weight": 0.9,
+      "keywords": [
+        "generalization bound*",
+        "sample complexity",
+        "convergence rate*",
+        "theoretical analysis",
+        "provabl*"
+      ]
+    },
+    {
+      "name": "Data",
+      "weight": 0.8,
+      "keywords": [
+        "synthetic data",
+        "data curation",
+        "data selection",
+        "dataset"
+      ]
+    },
+    {
+      "name": "Robustness & Continual Learning",
+      "weight": 1,
+      "keywords": [
+        "robustness",
+        "out-of-distribution",
+        "distribution shift",
+        "continual learning",
+        "lifelong learning",
+        "catastrophic forgetting"
+      ]
+    }
+  ],
+  "exclude": [],
+  "huggingface": {
+    "enabled": true,
+    "weight": 1
+  },
+  "selection": {
+    "candidates": 60,
+    "minLlmScore": 4,
+    "readFirst": 3,
+    "lead": 8,
+    "notable": 14,
+    "radar": 20
+  },
+  "dispatches": {
+    "enabled": true,
+    "max": 8
+  }
+}
