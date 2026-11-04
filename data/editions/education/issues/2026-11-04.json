@@ -2,38 +2,58 @@
   "edition": "education",
   "date": "2026-11-04",
   "number": 1,
-  "generatedAt": "2026-11-04T12:25:49.298Z",
+  "generatedAt": "2026-11-04T12:52:17.927Z",
   "editor": {
-    "mode": "llm",
-    "model": "nvidia/nemotron-3.5-super-vl:free"
+    "mode": "heuristic",
+    "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
   },
-  "lede": {
-    "headline": "Knowledge tracing adds interpretable diagnosis, retrieval continuity, and zero-shot transfer",
-    "dek": "New frameworks make knowledge tracing more explainable, evidence-aware, and applicable to platforms without prior response logs.",
-    "body": [
-      "Three papers form a clear cluster around knowledge tracing, the task of estimating what a student knows from their interaction history. DIKT adds skill-level diagnosis by breaking a predicted response probability into skill-wise contributions and bounding cognitive-state trajectories so the model can show evolving strengths and weaknesses [2611.02774]. CaRe-KT addresses a mismatch between retrieving past evidence and using it for prediction, keeping relevance continuous through an evidence-graph cache [2611.03744].",
-      "TIZSKT takes a different route for platforms that have question text but no response logs, treating text as an index to aggregate a student's past outcomes without relying on transferable embeddings [2610.41883]. Together these papers move knowledge tracing closer to diagnosis and intervention rather than prediction alone.",
-      "The remaining papers are adjacent but less unified: ALPS builds hierarchical simulated students for long-horizon tutoring environments [2611.02002], ProofPaths uses grading and interview agents to check whether students understand their own solutions [2611.03882], a robot-tutoring study tests bystander-aware delivery of critical feedback [2611.05001], and a new taxonomy classifies student agency in AI prompts [2611.04783]."
-    ]
-  },
+  "lede": null,
   "readFirst": [
     {
-      "id": "2611.02774",
-      "why": "It offers interpretable knowledge tracing with skill-level diagnosis and direct cognitive-state intervention.",
-      "takeaway": "It decomposes response probability into skill-wise contributions and supports what-if analysis of learning duration."
+      "id": "2611.05001",
+      "why": "Matches Tutoring Systems.",
+      "takeaway": "Robots in shared settings may expose information intended for an individual user to nearby bystanders."
     },
     {
-      "id": "2611.03744",
-      "why": "It closes the gap between evidence retrieval and prediction in retrieval-augmented knowledge tracing.",
-      "takeaway": "Its Evidence-Graph Cache maintains relevance continuity between acquired evidence and inference context."
+      "id": "2611.02774",
+      "why": "Matches Student Modelling and Learners & Classrooms.",
+      "takeaway": "Knowledge tracing is a key component of intelligent educational systems."
     },
     {
       "id": "2611.02002",
-      "why": "It provides scalable, profile-aligned simulated students for testing tutors in long-horizon environments.",
-      "takeaway": "It alternates short-term planning with action generation to prevent behavior drift."
+      "why": "Matches Learners & Classrooms and Tutoring Systems.",
+      "takeaway": "Simulated students offer a scalable way to test learning platforms and AI tutors before deployment with real students and to augment scarce data for studying learning at scale."
     }
   ],
   "papers": [
+    {
+      "id": "2611.05001",
+      "title": "For You, Not for Everyone: Bystander-Aware Delivery of Critical Feedback in Robot Tutoring",
+      "authors": [
+        "Atikkhan Faridkhan Nilgar",
+        "Manuel Dietrich",
+        "Kristof Van Laerhoven"
+      ],
+      "abstract": "Robots in shared settings may expose information intended for an individual user to nearby bystanders. Robot tutoring makes this concern particularly salient: critical feedback is directed at an individual learner, yet bystanders may overhear or see it. To address this, we compared context-invariant and context-adaptive robot behaviors in a between-subjects study with 40 participants. Following an initial phase without a bystander, a bystander entered the setting. Participants then received two scripted critical feedback messages concerning their pronunciation and handwriting, independent of their actual performance. With the context-invariant behavior, the robot tutor delivered both messages aloud. With the context-adaptive behavior, the robot tutor scanned for the bystander, turned its body and display away after detecting them, gave a spoken attention cue, and presented the same feedback messages silently on its display. Participants rated the robot tutor higher in perceived privacy awareness and perceived social competence in the context-adaptive condition than in the context-invariant condition, while evidence for reduced experienced embarrassment was inconclusive. These findings inform the design and evaluation of robots that respond to bystander presence by adapting how they communicate potentially sensitive information.",
+      "categories": [
+        "cs.HC",
+        "cs.RO"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-04T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.05001",
+      "pdfUrl": "https://arxiv.org/pdf/2611.05001",
+      "topics": [
+        "Tutoring Systems"
+      ],
+      "score": 100,
+      "heuristicScore": 10,
+      "tier": "lead",
+      "why": "Matches Tutoring Systems."
+    },
     {
       "id": "2611.02774",
       "title": "DIKT: A Diagnostic and Interpretable Knowledge Tracing Framework for Prediction and Model-based Learning Analysis",
@@ -58,11 +78,10 @@
         "Student Modelling",
         "Learners & Classrooms"
       ],
-      "score": 90,
+      "score": 88,
       "heuristicScore": 8.8,
-      "llmScore": 9,
       "tier": "lead",
-      "why": "Diagnostic, interpretable knowledge tracing with skill-level diagnosis and learning analysis; directly targets learner modelling."
+      "why": "Matches Student Modelling and Learners & Classrooms."
     },
     {
       "id": "2611.02002",
@@ -92,96 +111,8 @@
       ],
       "score": 80,
       "heuristicScore": 8,
-      "llmScore": 8,
       "tier": "lead",
-      "why": "Hierarchical LLM simulated students for long-horizon tutoring environments; enables scalable tutor testing."
-    },
-    {
-      "id": "2611.05001",
-      "title": "For You, Not for Everyone: Bystander-Aware Delivery of Critical Feedback in Robot Tutoring",
-      "authors": [
-        "Atikkhan Faridkhan Nilgar",
-        "Manuel Dietrich",
-        "Kristof Van Laerhoven"
-      ],
-      "abstract": "Robots in shared settings may expose information intended for an individual user to nearby bystanders. Robot tutoring makes this concern particularly salient: critical feedback is directed at an individual learner, yet bystanders may overhear or see it. To address this, we compared context-invariant and context-adaptive robot behaviors in a between-subjects study with 40 participants. Following an initial phase without a bystander, a bystander entered the setting. Participants then received two scripted critical feedback messages concerning their pronunciation and handwriting, independent of their actual performance. With the context-invariant behavior, the robot tutor delivered both messages aloud. With the context-adaptive behavior, the robot tutor scanned for the bystander, turned its body and display away after detecting them, gave a spoken attention cue, and presented the same feedback messages silently on its display. Participants rated the robot tutor higher in perceived privacy awareness and perceived social competence in the context-adaptive condition than in the context-invariant condition, while evidence for reduced experienced embarrassment was inconclusive. These findings inform the design and evaluation of robots that respond to bystander presence by adapting how they communicate potentially sensitive information.",
-      "categories": [
-        "cs.HC",
-        "cs.RO"
-      ],
-      "announceType": "new",
-      "publishedAt": "2026-11-04T00:00:00-05:00",
-      "sources": [
-        "arxiv"
-      ],
-      "url": "https://arxiv.org/abs/2611.05001",
-      "pdfUrl": "https://arxiv.org/pdf/2611.05001",
-      "topics": [
-        "Tutoring Systems"
-      ],
-      "score": 77,
-      "heuristicScore": 10,
-      "llmScore": 7,
-      "tier": "lead",
-      "why": "Bystander-aware critical feedback delivery in robot tutoring; relevant to tutoring feedback but narrower scope."
-    },
-    {
-      "id": "2611.03744",
-      "title": "CaRe-KT: Continuity-Aware Retrieval-Augmented Reasoning for Knowledge Tracing",
-      "authors": [
-        "Mehrnoush Mohammadi",
-        "Kamal Berahmand",
-        "Mohammad Morsali",
-        "Shazia Sadiq",
-        "Wojtek Tomaszewski",
-        "Hassan Khosravi"
-      ],
-      "abstract": "Knowledge tracing (KT) estimates learners' evolving knowledge states from interaction histories to support adaptive learning. Retrieval-augmented KT improves these estimates using cross-learner behavioral evidence, but existing approaches typically separate evidence retrieval from downstream prediction. This creates a retrieval-inference alignment gap because evidence relevance varies with the learner's evolving state and prediction context. We propose CaRe-KT, a query-adaptive framework that maintains relevance continuity between evidence acquisition and inference without equating retrieval relevance with predictive utility. CaRe-KT introduces an Evidence-Graph Cache (EGC) that combines persistent question-level relational compatibility with interaction-level temporal validity to construct query-specific evidence subgraphs. Historical learning trajectories retrieved through these subgraphs are encoded alongside the target learner's history in a shared representation space using outcome-supervised contrastive learning. An attention mechanism combines acquisition relevance with learned query-evidence compatibility, allowing relevance to inform, rather than determine, each trajectory's predictive influence. Experiments across five benchmarks show that CaRe-KT outperforms strong KT baselines and remains robust under sparse-history and cold-start conditions. These findings support relevance continuity as a design principle for retrieval-augmented knowledge tracing.",
-      "categories": [
-        "cs.LG"
-      ],
-      "announceType": "new",
-      "publishedAt": "2026-11-04T00:00:00-05:00",
-      "sources": [
-        "arxiv"
-      ],
-      "url": "https://arxiv.org/abs/2611.03744",
-      "pdfUrl": "https://arxiv.org/pdf/2611.03744",
-      "topics": [
-        "Student Modelling"
-      ],
-      "score": 76,
-      "heuristicScore": 6.4,
-      "llmScore": 8,
-      "tier": "lead",
-      "why": "Retrieval-augmented knowledge tracing with query-adaptive evidence continuity; advances learner modelling."
-    },
-    {
-      "id": "2611.03882",
-      "title": "ProofPaths: An AI Agent Framework for Assessing Student Reasoning",
-      "authors": [
-        "Mohsen Hariri",
-        "Vipin Chaudhary"
-      ],
-      "abstract": "Students can use large language models to complete assignments, but a correct solution does not establish whether they understand the reasoning behind it. Individualized interviews can probe that understanding but require recurring staff effort. We introduce ProofPaths, an AI agentic framework that combines rubric-based grading with individualized and interactive interviews. Multiple grading agents assess a submission against instructor guidance, exchange critiques, and revise their judgments. Their scores determine which review supplies the grade and feedback. An interview agent asks students to justify steps in their submission and uses their answers to guide follow-up questions. Each question is linked to a retrieved submission excerpt, so instructors can compare the student's explanation with the cited passage. The system tracks assessment progress and stores grading reviews and interview transcripts for each submission. Several deterministic tests of the assessment controllers check source handling, score aggregation, and limits on correction attempts. Instructors can inspect all reviews and transcripts and override grades within the assignment workflow.",
-      "categories": [
-        "cs.AI"
-      ],
-      "announceType": "new",
-      "publishedAt": "2026-11-04T00:00:00-05:00",
-      "sources": [
-        "arxiv"
-      ],
-      "url": "https://arxiv.org/abs/2611.03882",
-      "pdfUrl": "https://arxiv.org/pdf/2611.03882",
-      "topics": [
-        "Learners & Classrooms"
-      ],
-      "score": 75,
-      "heuristicScore": 6,
-      "llmScore": 8,
-      "tier": "lead",
-      "why": "AI agent framework for assessing student reasoning via interactive interviews; targets feedback and understanding."
+      "why": "Matches Learners & Classrooms and Tutoring Systems."
     },
     {
       "id": "2610.41883",
@@ -209,11 +140,66 @@
         "Student Modelling",
         "Learners & Classrooms"
       ],
-      "score": 71,
+      "score": 76,
       "heuristicScore": 7.6,
-      "llmScore": 7,
+      "tier": "lead",
+      "why": "Matches Student Modelling and Learners & Classrooms."
+    },
+    {
+      "id": "2611.03744",
+      "title": "CaRe-KT: Continuity-Aware Retrieval-Augmented Reasoning for Knowledge Tracing",
+      "authors": [
+        "Mehrnoush Mohammadi",
+        "Kamal Berahmand",
+        "Mohammad Morsali",
+        "Shazia Sadiq",
+        "Wojtek Tomaszewski",
+        "Hassan Khosravi"
+      ],
+      "abstract": "Knowledge tracing (KT) estimates learners' evolving knowledge states from interaction histories to support adaptive learning. Retrieval-augmented KT improves these estimates using cross-learner behavioral evidence, but existing approaches typically separate evidence retrieval from downstream prediction. This creates a retrieval-inference alignment gap because evidence relevance varies with the learner's evolving state and prediction context. We propose CaRe-KT, a query-adaptive framework that maintains relevance continuity between evidence acquisition and inference without equating retrieval relevance with predictive utility. CaRe-KT introduces an Evidence-Graph Cache (EGC) that combines persistent question-level relational compatibility with interaction-level temporal validity to construct query-specific evidence subgraphs. Historical learning trajectories retrieved through these subgraphs are encoded alongside the target learner's history in a shared representation space using outcome-supervised contrastive learning. An attention mechanism combines acquisition relevance with learned query-evidence compatibility, allowing relevance to inform, rather than determine, each trajectory's predictive influence. Experiments across five benchmarks show that CaRe-KT outperforms strong KT baselines and remains robust under sparse-history and cold-start conditions. These findings support relevance continuity as a design principle for retrieval-augmented knowledge tracing.",
+      "categories": [
+        "cs.LG"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-04T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.03744",
+      "pdfUrl": "https://arxiv.org/pdf/2611.03744",
+      "topics": [
+        "Student Modelling"
+      ],
+      "score": 64,
+      "heuristicScore": 6.4,
+      "tier": "lead",
+      "why": "Matches Student Modelling."
+    },
+    {
+      "id": "2611.03882",
+      "title": "ProofPaths: An AI Agent Framework for Assessing Student Reasoning",
+      "authors": [
+        "Mohsen Hariri",
+        "Vipin Chaudhary"
+      ],
+      "abstract": "Students can use large language models to complete assignments, but a correct solution does not establish whether they understand the reasoning behind it. Individualized interviews can probe that understanding but require recurring staff effort. We introduce ProofPaths, an AI agentic framework that combines rubric-based grading with individualized and interactive interviews. Multiple grading agents assess a submission against instructor guidance, exchange critiques, and revise their judgments. Their scores determine which review supplies the grade and feedback. An interview agent asks students to justify steps in their submission and uses their answers to guide follow-up questions. Each question is linked to a retrieved submission excerpt, so instructors can compare the student's explanation with the cited passage. The system tracks assessment progress and stores grading reviews and interview transcripts for each submission. Several deterministic tests of the assessment controllers check source handling, score aggregation, and limits on correction attempts. Instructors can inspect all reviews and transcripts and override grades within the assignment workflow.",
+      "categories": [
+        "cs.AI"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-04T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.03882",
+      "pdfUrl": "https://arxiv.org/pdf/2611.03882",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 60,
+      "heuristicScore": 6,
       "tier": "notable",
-      "why": "Zero-shot cross-domain knowledge tracing using text as an index; useful for new platforms without logs."
+      "why": "Matches Learners & Classrooms."
     },
     {
       "id": "2611.04783",
@@ -239,9 +225,8 @@
       ],
       "score": 60,
       "heuristicScore": 6,
-      "llmScore": 6,
       "tier": "notable",
-      "why": "Taxonomy of human agency in student AI interactions; relevant to learner modelling but less directly tutoring."
+      "why": "Matches Learners & Classrooms."
     },
     {
       "id": "2611.05143",
@@ -266,18 +251,47 @@
       "topics": [
         "Learners & Classrooms"
       ],
-      "score": 53,
+      "score": 60,
       "heuristicScore": 6,
-      "llmScore": 5,
       "tier": "notable",
-      "why": "Data-driven student planning support in computing courses; tangential to AI tutoring systems."
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.04609",
+      "title": "Making Smell Actionable in Design: Lexicon, Movement Patterns, and Gesture Cards",
+      "authors": [
+        "Anran Feng",
+        "Shengyu Gao",
+        "Xingyu Zhao",
+        "Zhenyu Qian",
+        "Jingrui An"
+      ],
+      "abstract": "Smell is powerful in design, yet it often remains vague and difficult to work with in studios and classrooms. While olfactory HCI has produced devices, toolkits, and scenario-based applications, designers still lack teachable, shareable resources that link smell to bodily action. This paper presents a three-phase research program that makes smell actionable by moving from lived smell experiences to movement patterns and, finally, to gesture resources. We study olfactory-motor mappings and package the results as teachable design representations through a progressively narrowing method: (1) extracting smell-verb-intent relations from user narratives; (2) capturing and clustering embodied enactments into standardized upper-limb trajectory families; and (3) translating these trajectories into gesture card representations for design teaching and ideation through design workshops. We present a three-phase translational framework and empirically derived smell-gesture correspondences that structure the smell-intent-trajectory-gesture pathway, together with reusable assets (lexicon, trajectory atlas, gesture tables, and cards) that support teaching, reuse, and adaptation across contexts.",
+      "categories": [
+        "cs.HC"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-04T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.04609",
+      "pdfUrl": "https://arxiv.org/pdf/2611.04609",
+      "topics": [
+        "Pedagogy & Alignment",
+        "Learners & Classrooms"
+      ],
+      "score": 30,
+      "heuristicScore": 3,
+      "tier": "notable",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
     }
   ],
   "dispatches": [],
   "topics": [
     {
       "name": "Learners & Classrooms",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Student Modelling",
@@ -286,13 +300,17 @@
     {
       "name": "Tutoring Systems",
       "count": 2
+    },
+    {
+      "name": "Pedagogy & Alignment",
+      "count": 1
     }
   ],
   "stats": {
-    "screened": 637,
+    "screened": 802,
     "matched": 9,
     "alreadyFeatured": 0,
-    "published": 8,
+    "published": 9,
     "announcedOn": "2026-11-04"
   }
 }
