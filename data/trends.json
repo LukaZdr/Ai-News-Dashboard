@@ -1,25 +1,86 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "topics": [
     {
-      "topic": "Inference",
-      "frequency": 21,
+      "topic": "Rewriting",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "7c5b40b9020e"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Agents",
+      "frequency": 32,
       "growth": "stable",
       "relatedPaperIds": [
+        "3e492d3e336e",
+        "66b51f8be48d",
+        "87be13cd0b86",
+        "697d712d62f1",
+        "4fae56d527f6",
+        "e607a85b60c4",
+        "9a6ed61c7389",
+        "2a2cf2caed91",
+        "923971d1686b",
+        "122f29ba97ff",
+        "1b56feb9967e",
+        "ca97e9e0d791",
+        "587100a969c6",
+        "2881af468e56",
+        "909674973cd5",
+        "8e7685274183",
+        "f1c661b604e3",
+        "25d035a8ad7c",
+        "0dfe468099e7",
+        "57f7c41247c6",
+        "dcfbefab87db",
+        "708cdd28d3b9",
+        "7b481f18bfd0"
+      ],
+      "relatedVideoIds": [
+        "0ee102dc00bb"
+      ],
+      "relatedNewsIds": [
+        "96b246d18fbe",
+        "b0fa121a8036"
+      ],
+      "relatedRepoIds": [
+        "83b96e936faf",
+        "6d558ac6ba23",
+        "1941bc8214c6"
+      ],
+      "relatedNewsletterIds": [
+        "d0624fe95a0a",
+        "b7fd9828f656",
+        "52dd4549d0d2"
+      ]
+    },
+    {
+      "topic": "Inference",
+      "frequency": 23,
+      "growth": "stable",
+      "relatedPaperIds": [
+        "f26d0fca64fe",
+        "2e5964916b4f",
+        "e0c50e3362bf",
+        "8f12e492d0c0",
+        "70ab9b29e6e3",
         "c64e6ab7436c",
         "053d10685559",
-        "82523b3d0ce4",
-        "93525c0bed72",
-        "aebd9a372657",
-        "442f86a74528",
-        "d7acf789fdf5",
-        "254233ac8526",
-        "876453af7410",
-        "b6121bc64320",
-        "b197e13576a3",
-        "d917b81e51c7",
-        "6fd33c644c8b",
-        "6e153dac9c26"
+        "af6f86085206",
+        "122f29ba97ff",
+        "3e98f69e55b7",
+        "5e3d66bce8b1",
+        "7162644bcf54",
+        "822c955683e6",
+        "adf0c46be406",
+        "d639f34e234a",
+        "c93894bf805a"
       ],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
@@ -36,47 +97,31 @@
       ]
     },
     {
-      "topic": "Agents",
-      "frequency": 14,
-      "growth": "declining",
-      "relatedPaperIds": [
-        "4fae56d527f6",
-        "e607a85b60c4",
-        "9a6ed61c7389",
-        "10466b008819",
-        "3e8c8c7f9499",
-        "caf700fd48f1",
-        "1047fcedb61c"
+      "topic": "RAM",
+      "frequency": 1,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "415ba8147ba6"
       ],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [
-        "b0fa121a8036"
-      ],
-      "relatedRepoIds": [
-        "83b96e936faf",
-        "6d558ac6ba23",
-        "1941bc8214c6"
-      ],
-      "relatedNewsletterIds": [
-        "d0624fe95a0a",
-        "b7fd9828f656",
-        "52dd4549d0d2"
-      ]
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
     },
     {
       "topic": "OpenAI",
-      "frequency": 9,
+      "frequency": 10,
       "growth": "rising",
-      "relatedPaperIds": [
-        "73e30012056f"
-      ],
+      "relatedPaperIds": [],
       "relatedVideoIds": [],
       "relatedNewsIds": [
-        "5f56e9757730",
+        "84dd565b690c",
+        "7510619cac95",
+        "a3e467a87e2c",
         "df710e435140",
+        "5f56e9757730",
         "d62e18870479",
-        "be44fa3b5122",
-        "36b1ea684f6c"
+        "be44fa3b5122"
       ],
       "relatedRepoIds": [
         "5df14a56333c",
@@ -87,110 +132,51 @@
       ]
     },
     {
-      "topic": "llama",
+      "topic": "Joscha",
       "frequency": 2,
-      "growth": "declining",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [
-        "14df74d3bb6b",
-        "052e3a92e72b"
-      ],
-      "relatedNewsletterIds": []
-    },
-    {
-      "topic": "Boot Memory",
-      "frequency": 1,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
-        "415ba8147ba6"
+        "5fd5744ec380",
+        "4b74f63e087f"
       ],
       "relatedNewsIds": [],
       "relatedRepoIds": [],
       "relatedNewsletterIds": []
     },
     {
-      "topic": "Vision",
-      "frequency": 46,
-      "growth": "rising",
-      "relatedPaperIds": [
-        "4fae56d527f6",
-        "9a6ed61c7389",
-        "3e8c8c7f9499",
-        "d3de3c418e11",
-        "93525c0bed72",
-        "2ff6e85f8cc7",
-        "991a7c43ac02",
-        "aebd9a372657",
-        "73e30012056f",
-        "442f86a74528",
-        "d7acf789fdf5",
-        "e15368e22622",
-        "a6f6d0f4bb2b",
-        "fb2315cb8a99",
-        "254233ac8526",
-        "908d6aeaeb0b",
-        "734889e50e05",
-        "93ca4cc28246",
-        "876453af7410",
-        "8c2de36198dc",
-        "5bf15b4f293f",
-        "87b56d5b88e2",
-        "023c79cf9dad",
-        "0b146a0d60e6",
-        "f8cc87cef298",
-        "565f070f9dbc",
-        "855d219c91eb",
-        "3a9d6da5adba",
-        "6aff6a372ccd",
-        "d917b81e51c7",
-        "6fd33c644c8b",
-        "c7e796dc1099",
-        "ba9b4dd0f606",
-        "64c56297f5da",
-        "caf700fd48f1",
-        "ef35af4a1a1c",
-        "2f88fc8f1480",
-        "6e153dac9c26",
-        "2d3184bc6416",
-        "7ad44a2fe49d",
-        "1047fcedb61c",
-        "8a7023b3f787"
-      ],
-      "relatedVideoIds": [],
-      "relatedNewsIds": [
-        "b0fa121a8036"
-      ],
-      "relatedRepoIds": [
-        "7166ecafb485",
-        "5b1fd1fd8a2b"
-      ],
-      "relatedNewsletterIds": [
-        "d0624fe95a0a"
-      ]
-    },
-    {
-      "topic": "RAM",
+      "topic": "Joscha Bach",
       "frequency": 2,
       "growth": "rising",
-      "relatedPaperIds": [
-        "aebd9a372657"
-      ],
+      "relatedPaperIds": [],
       "relatedVideoIds": [
-        "415ba8147ba6"
+        "5fd5744ec380",
+        "4b74f63e087f"
       ],
       "relatedNewsIds": [],
       "relatedRepoIds": [],
       "relatedNewsletterIds": []
     },
     {
-      "topic": "Boot",
-      "frequency": 1,
+      "topic": "Bach",
+      "frequency": 2,
       "growth": "rising",
       "relatedPaperIds": [],
       "relatedVideoIds": [
+        "5fd5744ec380",
+        "4b74f63e087f"
+      ],
+      "relatedNewsIds": [],
+      "relatedRepoIds": [],
+      "relatedNewsletterIds": []
+    },
+    {
+      "topic": "Made",
+      "frequency": 2,
+      "growth": "rising",
+      "relatedPaperIds": [],
+      "relatedVideoIds": [
+        "0ee102dc00bb",
         "415ba8147ba6"
       ],
       "relatedNewsIds": [],
@@ -199,11 +185,10 @@
     },
     {
       "topic": "open-source",
-      "frequency": 4,
-      "growth": "stable",
+      "frequency": 6,
+      "growth": "rising",
       "relatedPaperIds": [
-        "023c79cf9dad",
-        "64c56297f5da"
+        "587100a969c6"
       ],
       "relatedVideoIds": [],
       "relatedNewsIds": [],
@@ -211,20 +196,11 @@
         "233a4f836599"
       ],
       "relatedNewsletterIds": [
+        "87d656de7d65",
+        "7a227e9cd891",
+        "cff31a4b1617",
         "40a18db83035"
       ]
-    },
-    {
-      "topic": "Consciousness Might",
-      "frequency": 1,
-      "growth": "rising",
-      "relatedPaperIds": [],
-      "relatedVideoIds": [
-        "909a4887fa21"
-      ],
-      "relatedNewsIds": [],
-      "relatedRepoIds": [],
-      "relatedNewsletterIds": []
     }
   ]
 }

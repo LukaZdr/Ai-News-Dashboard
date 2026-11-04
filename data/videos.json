@@ -1,5 +1,85 @@
 [
   {
+    "id": "327248dba20f",
+    "title": "The worst week in cybersecurity history... so far",
+    "channel": "Fireship",
+    "channelId": "UCsBjURrPoezykLs9EqgamOA",
+    "date": "2026-11-03T19:47:10Z",
+    "duration": "5:32",
+    "thumbnail": "https://i.ytimg.com/vi/k2ruCf_z75I/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=k2ruCf_z75I",
+    "description": "Start a free 14-day CodeRabbit Secure trial, no credit card required: https://coderabbit.link/fireship-011 Cursor shipped a backdoor ...",
+    "viewCount": 972925,
+    "tags": [
+      "AI Coding"
+    ],
+    "relevanceScore": 8.3
+  },
+  {
+    "id": "0ee102dc00bb",
+    "title": "DeepSeek&#39;s New LLM Engine Just Made GPUs 3x More Valuable",
+    "channel": "bycloud",
+    "channelId": "UCgfe2ooZD3VJPB6aJAnuQng",
+    "date": "2026-11-03T16:07:50Z",
+    "duration": "19:19",
+    "thumbnail": "https://i.ytimg.com/vi/2K_Rm8cho1I/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=2K_Rm8cho1I",
+    "description": "Benchmark and optimize your AI coding agents now with Warp Factories http://warp.dev/bycloud DeepSeek just open-sourced ...",
+    "viewCount": 120093,
+    "tags": [
+      "Agents",
+      "LLMs",
+      "AI Coding",
+      "Open Source",
+      "Research"
+    ],
+    "relevanceScore": 8
+  },
+  {
+    "id": "5fd5744ec380",
+    "title": "Simulated Water Can&#39;t Make You Wet (Joscha Bach)",
+    "channel": "Machine Learning Street Talk",
+    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
+    "date": "2026-11-04T04:39:59Z",
+    "duration": "1:07",
+    "thumbnail": "https://i.ytimg.com/vi/TA9-RgnLZrs/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=TA9-RgnLZrs",
+    "description": "Joscha Bach on a joke that turned out to be true. In Minecraft, if you're on fire and jump into water, the fire goes out because you're ...",
+    "viewCount": 292,
+    "tags": [],
+    "relevanceScore": 7.4
+  },
+  {
+    "id": "4b74f63e087f",
+    "title": "Minecraft Doesn&#39;t Know What It&#39;s Running On (Joscha Bach)",
+    "channel": "Machine Learning Street Talk",
+    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
+    "date": "2026-11-04T02:53:57Z",
+    "duration": "1:12",
+    "thumbnail": "https://i.ytimg.com/vi/ZhftAOXJACM/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=ZhftAOXJACM",
+    "description": "Joscha Bach on why a computer is a \"causal insulator\". Minecraft runs just as well on a Mac as on a PC, and nothing inside the ...",
+    "viewCount": 63,
+    "tags": [],
+    "relevanceScore": 6.9
+  },
+  {
+    "id": "7c5b40b9020e",
+    "title": "AI Is Rewriting Other AI Models",
+    "channel": "Prompt Engineering",
+    "channelId": "UCDq7SjbgRKty5TgGafW8Clg",
+    "date": "2026-11-03T14:00:04Z",
+    "duration": "11:34",
+    "thumbnail": "https://i.ytimg.com/vi/wXJDtImT_-0/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=wXJDtImT_-0",
+    "description": "GPT-6 Astra edited just 0.016% of Qwen3.5-0.8B's weights, and its MATH-500 score jumped from 7.9% to 48.1%, with no training ...",
+    "viewCount": 20108,
+    "tags": [
+      "LLMs"
+    ],
+    "relevanceScore": 6.6
+  },
+  {
     "id": "56803c90f666",
     "title": "‘We may release models we can’t control’: Amodei, Altman … and Gemini Carbon",
     "channel": "AI Explained",
@@ -9,15 +89,15 @@
     "thumbnail": "https://i.ytimg.com/vi/0Kw6_DTZPrY/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=0Kw6_DTZPrY",
     "description": "You know what, by AI standards, it might not have been the craziest week, but that doesn't mean several headline-worthy things ...",
-    "viewCount": 81129,
+    "viewCount": 114992,
     "tags": [
       "LLMs"
     ],
-    "relevanceScore": 8
+    "relevanceScore": 6.3
   },
   {
     "id": "415ba8147ba6",
-    "title": "I Made My Own RAM - But Will It Boot?",
+    "title": "RAM is Expensive - So I Made My Own!",
     "channel": "Dave's Garage",
     "channelId": "UCNzszbnvQeFzObW0ghk0Ckw",
     "date": "2026-11-02T21:56:21Z",
@@ -25,24 +105,10 @@
     "thumbnail": "https://i.ytimg.com/vi/RG9O43-ueCU/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=RG9O43-ueCU",
     "description": "RAM is expensive, so I used AI to design the schematic, PCB, Routing, and FPGA logic for a QBUS memory card for the PDP-11, ...",
-    "viewCount": 83557,
+    "viewCount": 183291,
     "tags": [
       "Memory"
     ],
-    "relevanceScore": 7.5
-  },
-  {
-    "id": "909a4887fa21",
-    "title": "Why Consciousness Might Not Be Hard At All (Joscha Bach)",
-    "channel": "Machine Learning Street Talk",
-    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
-    "date": "2026-11-02T03:04:11Z",
-    "duration": "1:37:08",
-    "thumbnail": "https://i.ytimg.com/vi/yW_ngvMFlYs/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=yW_ngvMFlYs",
-    "description": "Joscha Bach is a cognitive scientist and the founder of the California Institute for Machine Consciousness. SPONSOR: --- Parallel ...",
-    "viewCount": 28727,
-    "tags": [],
-    "relevanceScore": 6.6
+    "relevanceScore": 5.8
   }
 ]

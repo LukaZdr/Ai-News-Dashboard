@@ -5,14 +5,14 @@
     "fullName": "ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
     "url": "https://github.com/ollama/ollama",
-    "stars": 185751,
+    "stars": 185856,
     "language": "Go",
     "latestRelease": {
       "tag": "v0.40.14",
       "date": "2026-11-03T01:40:40Z",
       "notes": "## What's Changed\r\n* `ollama launch claude` now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap\r\n* Cloud web search responses on `/api/chat` are now decoded correctly, including compressed responses\r\n* OpenAI-compatible endpoints no longer override a model's packaged sampler defaults — clients that send no `temperature`/`top_p` get the model's own values instead of 1.0, matching `/api/chat`\r\n* `/v1/responses` now preserves readable "
     },
-    "recentActivity": "2026-11-03T06:11:27Z",
+    "recentActivity": "2026-11-04T01:39:55Z",
     "tags": [
       "LLMs",
       "Open Source",
@@ -25,14 +25,14 @@
     "fullName": "huggingface/transformers",
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
     "url": "https://github.com/huggingface/transformers",
-    "stars": 168482,
+    "stars": 168520,
     "language": "Python",
     "latestRelease": {
       "tag": "v5.22.1",
       "date": "2026-10-30T09:36:03Z",
       "notes": "# Patch release v5.22.1\r\n\r\nWe just had to fix the documentation! \r\n\r\n** [Fix] Remove WIP doc for Ml4 (https://github.com/huggingface/transformers/pull/50124) from @remi-or "
     },
-    "recentActivity": "2026-11-03T07:52:34Z",
+    "recentActivity": "2026-11-04T04:20:36Z",
     "tags": [
       "LLMs",
       "Research",
@@ -45,14 +45,14 @@
     "fullName": "langgenius/dify",
     "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
     "url": "https://github.com/langgenius/dify",
-    "stars": 160306,
+    "stars": 160375,
     "language": "Python",
     "latestRelease": {
-      "tag": "1.18.0",
-      "date": "2026-10-23T06:33:50Z",
-      "notes": "Dify 1.18.0 brings **Agents that route workflows**, **portable app packages**, **deeper visibility into nested workflow runs**, and the opt-in **Agent Knowledge Base** experience. OpenAPI and the new difyctl expand how you build and manage apps from the command line.\r\n\r\n> [!IMPORTANT]\r\n> **Read the upgrade guide below before deploying.** Upgrade the API, workers, Agent Backend, and Agent runtime images together. Local Agent sandboxes require a non-empty authentication token, and Agent Backend us"
+      "tag": "1.19.0",
+      "date": "2026-11-04T07:36:16Z",
+      "notes": "**Dify 1.19.0 brings nested workflow tracing to your observability tools.** Follow a workflow into the Workflow Tools it calls, inspect the steps inside each invocation, and keep the LLM context alongside the execution tree.\r\n\r\nThis release also makes Workflow Tools portable with App packages, adds Skill Hub automation, and makes Agent files easier to upload and preview. The bundled plugin daemon is upgraded to **0.6.14-local**.\r\n\r\n[Release highlights](#user-content-release-highlights) · [Upgrad"
     },
-    "recentActivity": "2026-11-03T08:44:56Z",
+    "recentActivity": "2026-11-04T08:14:19Z",
     "tags": [
       "Agents",
       "LLMs",
@@ -65,14 +65,14 @@
     "fullName": "open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "url": "https://github.com/open-webui/open-webui",
-    "stars": 157620,
-    "language": "Python",
+    "stars": 157720,
+    "language": "Svelte",
     "latestRelease": {
-      "tag": "v0.12.5",
-      "date": "2026-10-29T09:08:03Z",
-      "notes": "\n### Added\n\n- 🧭 **Analytics session explorer.** Administrators can now open a Sessions tab in Admin Analytics that lists each chat with its tokens, responses, errors and time span, filters them by search, model, token range or sub-agents, and shows a chat's saved replies and tool calls with their timing and outcome, as long as \"ENABLE_ADMIN_CHAT_ACCESS\" is on. [Commit](https://github.com/open-webui/open-webui/commit/7b303cf496f22d665ff1f1013a2308de0d74a7a4)\n- 📑 **Pages in notes.** Notes can no"
+      "tag": "v0.13.0",
+      "date": "2026-11-03T12:23:16Z",
+      "notes": "\n### Added\n\n- 📑 **Tabbed workspace.** The Tabs button at the top of a chat now opens a workspace for files, multiple terminal sessions, artifacts, previews, voice calls and comments. Add tabs from the + menu, drag to reorder them, and create and save new files directly into the selected terminal. Keep the conversation and its working files together while coding, analyzing data or reviewing generated documents. [Commit](https://github.com/open-webui/open-webui/commit/2d7cf5ec99c3fa5c7ee48b91823f"
     },
-    "recentActivity": "2026-11-03T08:36:05Z",
+    "recentActivity": "2026-11-04T06:37:37Z",
     "tags": [
       "LLMs",
       "Open Source"
@@ -84,14 +84,14 @@
     "fullName": "Comfy-Org/ComfyUI",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
     "url": "https://github.com/Comfy-Org/ComfyUI",
-    "stars": 144750,
+    "stars": 144933,
     "language": "Python",
     "latestRelease": {
-      "tag": "v0.43.0",
-      "date": "2026-10-27T02:40:46Z",
-      "notes": "## What's Changed\r\n* model_prefetch: syncrhonize all graph cleanups by @rattus128 in https://github.com/Comfy-Org/ComfyUI/pull/17178\r\n* Add rope scaling support to MOSS-image by @kijai in https://github.com/Comfy-Org/ComfyUI/pull/17172\r\n* [Partner Nodes] Renew partner-node sign-in tokens in API nodes by @dante01yoon in https://github.com/Comfy-Org/ComfyUI/pull/16943\r\n* [Partner Nodes] feat(HeyGen): add HeyGen Voice instant clone and text-to-speech by @bigcat88 in https://github.com/Comfy-Org/Com"
+      "tag": "v0.44.0",
+      "date": "2026-11-04T01:12:27Z",
+      "notes": "## What's Changed\r\n* [Partner Nodes] feat(Patina): add Patina texture nodes by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/17384\r\n* [Partner Nodes] feat(VEED): add VEED Dubbing node by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/17388\r\n* Update workflow templates to v0.11.98 by @comfyui-wiki in https://github.com/Comfy-Org/ComfyUI/pull/17391\r\n* Switch pylint py version to 3.12 by @comfyanonymous in https://github.com/Comfy-Org/ComfyUI/pull/17398\r\n* anonymous_file: bypass py"
     },
-    "recentActivity": "2026-11-03T08:10:31Z",
+    "recentActivity": "2026-11-04T07:42:17Z",
     "tags": [
       "Computer Vision",
       "Video Models",
@@ -104,14 +104,14 @@
     "fullName": "ggml-org/llama.cpp",
     "description": "LLM inference in C/C++",
     "url": "https://github.com/ggml-org/llama.cpp",
-    "stars": 133235,
+    "stars": 133318,
     "language": "C++",
     "latestRelease": {
       "tag": "v0.8.0",
       "date": "2026-10-28T12:47:51Z",
       "notes": "## Overview\r\n\r\nThis release adds the LiquidAI LFM3 family (text, vision, audio and omni) together with a new experimental streaming-audio API in `mtmd`, and wires realtime audio in and out of the server through the new `/v1/realtime` and `/tts` endpoints. A batch of new architectures landed: DeepSeek V4.1 Flash, SenseNova U1, Beam, Kolibri-1, Flint, Muse Spark, Granite Switch Decision, plus decision/embedding models from LiquidAI, Baidu and NVIDIA. The core got sparse-attention (QSA/DSA) reworke"
     },
-    "recentActivity": "2026-11-03T08:47:31Z",
+    "recentActivity": "2026-11-04T08:15:00Z",
     "tags": [
       "LLMs",
       "Open Source",
@@ -124,14 +124,14 @@
     "fullName": "vllm-project/vllm",
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
     "url": "https://github.com/vllm-project/vllm",
-    "stars": 96191,
+    "stars": 96276,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.33.0rc3",
       "date": "2026-11-02T10:10:05Z",
       "notes": "# v0.33.0\r\n\r\n## Highlights\r\n\r\nThis release features 927 commits from 389 contributors (122 new)!\r\n\r\n* **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727, #63147), NVIDIA Alpamayo 2 Super (#62957), Nemotron-Labs Dory1.0-4B (#60149), Nemotron Parse 3.5 (#61651), MiniCPM-OCR 1.0 (#63095), Domyn Edge (#62544) and the "
     },
-    "recentActivity": "2026-11-03T08:46:58Z",
+    "recentActivity": "2026-11-04T08:16:01Z",
     "tags": [
       "Inference",
       "LLMs",
@@ -144,14 +144,14 @@
     "fullName": "OpenHands/OpenHands",
     "description": "🙌 OpenHands: AI-Driven Development",
     "url": "https://github.com/OpenHands/OpenHands",
-    "stars": 92545,
+    "stars": 92609,
     "language": "TypeScript",
     "latestRelease": {
-      "tag": "v1.34.0",
-      "date": "2026-10-27T14:35:23Z",
-      "notes": "## 1.34.0 (2026-10-27)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Features\n* feat(verify): stand in for DigitalOcean so Managed Agents can be verified by @enyst in https://github.com/OpenHands/OpenHands/pull/18867\n* feat(canvas): per-conversation Docker runtime and Settings → Runtime page by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/18436\n* feat(automations): filter and edit automation tags by @VascoSch92 in https:"
+      "tag": "v1.35.0",
+      "date": "2026-11-03T18:47:18Z",
+      "notes": "## 1.35.0 (2026-11-03)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Features\n* feat(home): remember and clear the cloud repository selection by @tofarr in https://github.com/OpenHands/OpenHands/pull/19053\n* feat(automations): store picked Bitbucket Data Center repositories as clone URLs by @ak684 in https://github.com/OpenHands/OpenHands/pull/19023\n* feat(automations): list each event source's own event types by @ak684 in https://git"
     },
-    "recentActivity": "2026-11-03T06:17:23Z",
+    "recentActivity": "2026-11-04T06:43:27Z",
     "tags": [
       "Agents",
       "AI Coding",
@@ -164,14 +164,14 @@
     "fullName": "BerriAI/litellm",
     "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
     "url": "https://github.com/BerriAI/litellm",
-    "stars": 62612,
+    "stars": 62670,
     "language": "Python",
     "latestRelease": {
-      "tag": "v1.106.6",
-      "date": "2026-10-28T23:03:09Z",
+      "tag": "v1.108.0",
+      "date": "2026-11-04T03:35:33Z",
       "notes": "## Verify Docker Image Signature\n\nAll LiteLLM Docker images are signed with [cosign](https://docs.sigstore.dev/cosign/overview/). This release is signed with the key introduced in [commit `e82a3c6`](https://github.com/BerriAI/litellm/commit/e82a3c646908ba0a6ee0beddc4310d7a6cac4065).\n\n**Verify using the pinned commit hash (recommended):**\n\nA commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the published signing key:\n\n```bash\ncosign verify \\\n  --key "
     },
-    "recentActivity": "2026-11-03T08:30:40Z",
+    "recentActivity": "2026-11-04T08:15:19Z",
     "tags": [
       "LLMs",
       "Inference",
@@ -184,14 +184,14 @@
     "fullName": "langchain-ai/langgraph",
     "description": "Build resilient agents.",
     "url": "https://github.com/langchain-ai/langgraph",
-    "stars": 44373,
+    "stars": 44437,
     "language": "Python",
     "latestRelease": {
-      "tag": "1.2.19",
-      "date": "2026-10-30T22:23:43Z",
-      "notes": "Changes since 1.2.18\n\n* release(langgraph): 1.2.19 (#9504)\n* release(checkpoint-sqlite): 3.1.3 (#9505)\n* fix(langgraph): keep trace_policy from rewriting streamed node payloads (#9486)\n* fix(langgraph): give messages and tools events the namespace of their graph (#9458)\n* chore(deps): bump setuptools from 83.0.0 to 84.1.0 in /libs/langgraph (#9433)\n* fix(langgraph): emit node-output messages from a graph streamed inside a node (#9463)\n* fix(langgraph): respect subgraphs=False in RemoteGraph.stre"
+      "tag": "sdk==0.4.12",
+      "date": "2026-11-03T18:10:30Z",
+      "notes": "Changes since sdk==0.4.11\n\n* release(sdk-py): 0.4.12 (#9569)\n* feat(sdk-py): remove fairness_weight from PrioritySettings (#9441)\n* fix(sdk-py): rejoin a run stream that closes before the run ends (#9554)"
     },
-    "recentActivity": "2026-11-03T03:39:19Z",
+    "recentActivity": "2026-11-04T04:30:37Z",
     "tags": [
       "Agents",
       "LLMs",
@@ -204,7 +204,7 @@
     "fullName": "continuedev/continue",
     "description": "open-source coding agent",
     "url": "https://github.com/continuedev/continue",
-    "stars": 36399,
+    "stars": 36404,
     "language": "TypeScript",
     "latestRelease": {
       "tag": "v2.0.0-vscode",
@@ -223,7 +223,7 @@
     "fullName": "meta-llama/llama-models",
     "description": "Utilities intended for use with Llama models.",
     "url": "https://github.com/meta-llama/llama-models",
-    "stars": 7717,
+    "stars": 7718,
     "language": "Python",
     "latestRelease": {
       "tag": "v0.2.0",
