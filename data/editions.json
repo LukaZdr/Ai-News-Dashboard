@@ -1,0 +1,42 @@
+{
+  "publicationName": "The Preprint",
+  "updatedAt": "2026-11-04T12:25:49.303Z",
+  "editions": [
+    {
+      "slug": "general",
+      "name": "General AI",
+      "order": 1,
+      "tagline": "The day's most consequential machine-learning preprints, read and ranked.",
+      "accent": {
+        "light": "#b4361c",
+        "dark": "#f0805f"
+      },
+      "latest": "2026-11-04",
+      "issues": 1
+    },
+    {
+      "slug": "medical",
+      "name": "Medical AI",
+      "order": 2,
+      "tagline": "Multimodal models, clinical reasoning and the road to precision medicine.",
+      "accent": {
+        "light": "#0d6b5e",
+        "dark": "#4fc7b0"
+      },
+      "latest": "2026-11-04",
+      "issues": 1
+    },
+    {
+      "slug": "education",
+      "name": "AI for Education",
+      "order": 3,
+      "tagline": "Tutoring models, pedagogical benchmarks and the science of learning with machines.",
+      "accent": {
+        "light": "#3a4aa6",
+        "dark": "#97a6ff"
+      },
+      "latest": "2026-11-04",
+      "issues": 1
+    }
+  ]
+}
