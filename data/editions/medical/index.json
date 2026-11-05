@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-05",
+    "number": 2,
+    "headline": "Multimodal Fusion Methods for Whole-Slide Images and Clinical Data in Inflammatory Bowel Disease",
+    "published": 31
+  },
+  {
     "date": "2026-11-04",
     "number": 1,
     "headline": "A Novel Conditional Adversarial Diffusion Model for High-Fidelity OCT-to-OCT Image Translation and Precise Anti-VEGF Therapy Response Prediction in Diabetic Macular Edema",

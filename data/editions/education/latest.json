@@ -1,8 +1,8 @@
 {
   "edition": "education",
-  "date": "2026-11-04",
-  "number": 1,
-  "generatedAt": "2026-11-04T12:52:17.927Z",
+  "date": "2026-11-05",
+  "number": 2,
+  "generatedAt": "2026-11-05T14:51:52.691Z",
   "editor": {
     "mode": "heuristic",
     "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
@@ -10,307 +10,163 @@
   "lede": null,
   "readFirst": [
     {
-      "id": "2611.05001",
-      "why": "Matches Tutoring Systems.",
-      "takeaway": "Robots in shared settings may expose information intended for an individual user to nearby bystanders."
+      "id": "2611.06762",
+      "why": "Matches Learners & Classrooms and Pedagogy & Alignment.",
+      "takeaway": "S."
     },
     {
-      "id": "2611.02774",
-      "why": "Matches Student Modelling and Learners & Classrooms.",
-      "takeaway": "Knowledge tracing is a key component of intelligent educational systems."
+      "id": "2611.06343",
+      "why": "Matches Pedagogy & Alignment.",
+      "takeaway": "Unified Multimodal Models (UMMs) aim to support visual understanding and generation within a single model."
     },
     {
-      "id": "2611.02002",
-      "why": "Matches Learners & Classrooms and Tutoring Systems.",
-      "takeaway": "Simulated students offer a scalable way to test learning platforms and AI tutors before deployment with real students and to augment scarce data for studying learning at scale."
+      "id": "2611.05587",
+      "why": "Matches Learners & Classrooms.",
+      "takeaway": "Cybersecurity education and awareness are often tailored for businesses, leaving general citizens, especially young people, unprepared."
     }
   ],
   "papers": [
     {
-      "id": "2611.05001",
-      "title": "For You, Not for Everyone: Bystander-Aware Delivery of Critical Feedback in Robot Tutoring",
+      "id": "2611.06762",
+      "title": "U.S. State Guidance on AI in K-12 Education: A Comparative Content and Citation Analysis",
       "authors": [
-        "Atikkhan Faridkhan Nilgar",
-        "Manuel Dietrich",
-        "Kristof Van Laerhoven"
+        "Shahan Ali Memon",
+        "Anna-Maria Gueorguieva",
+        "Anukriti Kumar",
+        "Lucy Lu Wang",
+        "Jevin D. West",
+        "Nic Weber"
       ],
-      "abstract": "Robots in shared settings may expose information intended for an individual user to nearby bystanders. Robot tutoring makes this concern particularly salient: critical feedback is directed at an individual learner, yet bystanders may overhear or see it. To address this, we compared context-invariant and context-adaptive robot behaviors in a between-subjects study with 40 participants. Following an initial phase without a bystander, a bystander entered the setting. Participants then received two scripted critical feedback messages concerning their pronunciation and handwriting, independent of their actual performance. With the context-invariant behavior, the robot tutor delivered both messages aloud. With the context-adaptive behavior, the robot tutor scanned for the bystander, turned its body and display away after detecting them, gave a spoken attention cue, and presented the same feedback messages silently on its display. Participants rated the robot tutor higher in perceived privacy awareness and perceived social competence in the context-adaptive condition than in the context-invariant condition, while evidence for reduced experienced embarrassment was inconclusive. These findings inform the design and evaluation of robots that respond to bystander presence by adapting how they communicate potentially sensitive information.",
+      "abstract": "In the years following the public release of ChatGPT in late 2022, more than half of U.S. states have published formal guidelines around AI usage in K-12 education, creating a record of largely independent state education departments responding to a shared technological disruption. In this work, we analyze publicly available AI usage guidance documents from 35 states in the U.S. and Puerto Rico. We compare the guidance in these documents across various dimensions, including pedagogy and instruction, audience, actionability, workforce and career readiness, responsible use and equity, and alignment with state-level demographics and administrative capacity. Finally, we investigate who authored these documents and their cited sources, identifying epistemic foundations underlying their claims. We find that guidance priorities converge on topics anchored in laws such as data privacy and academic integrity, each addressed in 97% of documents. While most documents mention equity of access (86%) and algorithmic bias (97%), fewer discuss specific marginalized populations. Across documents, there is a common framing of urgency around AI integration to prepare students for workforce readiness (86%) and promote loosely-defined personalized learning (86%), which is not matched by specific guidance for capacity-building, actionability, or accountability. State priorities show no relationship to state demographics, capacity, or partisanship. Instead, we identify notable interdependencies between states with shared citations to non-profit organizations like TeachAI and Code.org, with some states reproducing TeachAI's model guidance near-verbatim, and peer citations concentrating on a few early states such as Oregon and Washington. No state includes parents as contributors on these documents, and only five include students.",
       "categories": [
-        "cs.HC",
-        "cs.RO"
+        "cs.CY",
+        "cs.DL"
       ],
       "announceType": "new",
-      "publishedAt": "2026-11-04T00:00:00-05:00",
+      "publishedAt": "2026-11-05T00:00:00-05:00",
       "sources": [
         "arxiv"
       ],
-      "url": "https://arxiv.org/abs/2611.05001",
-      "pdfUrl": "https://arxiv.org/pdf/2611.05001",
-      "topics": [
-        "Tutoring Systems"
-      ],
-      "score": 100,
-      "heuristicScore": 10,
-      "tier": "lead",
-      "why": "Matches Tutoring Systems."
-    },
-    {
-      "id": "2611.02774",
-      "title": "DIKT: A Diagnostic and Interpretable Knowledge Tracing Framework for Prediction and Model-based Learning Analysis",
-      "authors": [
-        "Yi-Qiang Wu",
-        "Shaohui Chen",
-        "Hanlin Li",
-        "Baolin Yi"
-      ],
-      "abstract": "Knowledge tracing is a key component of intelligent educational systems. However, most existing methods mainly focus on response prediction, providing limited support for explaining predicted outcomes and improving students' learning states. This paper proposes Diagnostic and Interpretable Knowledge Tracing (DIKT), which integrates response prediction, skill-level diagnosis, and model-based learning analysis. DIKT generates bounded cognitive-state trajectories and decomposes the final response probability into skill-wise probabilities. The trajectories reveal students' evolving strengths and weaknesses, while the skill-wise probabilities identify the skills that most strongly constrain the prediction. Based on these diagnostic results, DIKT supports direct cognitive-state intervention and effective-learning-duration-based what-if analysis to examine how hypothetical adjustments affect current predictions and subsequent state evolution. DIKT combines Bayesian multi-head attention, conditional variational recurrent inference, a logistic-growth decoder, and multiplicative skill-wise prediction. Experiments on three benchmark datasets show that DIKT outperforms all evaluated baselines, with an average absolute AUC gain of 2.04 percentage points. Other experiments further demonstrate that DIKT supports educationally meaningful diagnostic analysis and provides informative diagnostic indicators for downstream applications, extending knowledge tracing from response prediction to interpretable diagnosis and model-based learning analysis.",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "publishedAt": "2026-11-02T08:50:16Z",
-      "sources": [
-        "search"
-      ],
-      "url": "https://arxiv.org/abs/2611.02774",
-      "pdfUrl": "https://arxiv.org/pdf/2611.02774",
-      "topics": [
-        "Student Modelling",
-        "Learners & Classrooms"
-      ],
-      "score": 88,
-      "heuristicScore": 8.8,
-      "tier": "lead",
-      "why": "Matches Student Modelling and Learners & Classrooms."
-    },
-    {
-      "id": "2611.02002",
-      "title": "To Align Long, Plan Short: Simulating Diverse Profile-Aligned Students by Realizing Short-Term Plans in Long-Horizon Learning Environments",
-      "authors": [
-        "Bahar Radmehr",
-        "Jiaxu Zhao",
-        "Fatma Betül Güreş",
-        "Adish Singla",
-        "Tanja Käser"
-      ],
-      "abstract": "Simulated students offer a scalable way to test learning platforms and AI tutors before deployment with real students and to augment scarce data for studying learning at scale. Existing LLM-based simulators primarily target short, language-centered interactions. In open-ended learning environments, however, student behavior emerges from patterns across long-horizon interaction trajectories, where turn-level prompting can drift from an assigned behavior profile. We introduce ALPS (Align Long-term by Planning Short-term), a hierarchical simulated student conditioned on observable, environment-specific behavior profiles. Rather than selecting every action independently, ALPS alternates between planning profile-aligned task segments and generating the corresponding actions. We evaluate ALPS in both data-sufficient and data-scarce settings, where supervision comes either from real student trajectories or from a teacher LLM. Across both settings, we compare in-context learning (ICL), supervised fine-tuning (SFT), reward-ranked fine-tuning (RAFT), and their sequential combination (SFT followed by RAFT). Experiments in an inquiry-based physics game and a pharmacy simulation evaluate behavioral density and coverage against held-out real data, and profile consistency using a human-aligned LLM judge. Across both settings, ALPS consistently outperforms turn-level generation, achieving comparable density and judge pass rates under scarce supervision, although coverage remains lower. These results show that hierarchical planning enables faithful, profile-aligned simulation over long interaction horizons, even with limited real student data.",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.CY"
-      ],
-      "publishedAt": "2026-11-01T15:43:45Z",
-      "sources": [
-        "search"
-      ],
-      "url": "https://arxiv.org/abs/2611.02002",
-      "pdfUrl": "https://arxiv.org/pdf/2611.02002",
+      "url": "https://arxiv.org/abs/2611.06762",
+      "pdfUrl": "https://arxiv.org/pdf/2611.06762",
       "topics": [
         "Learners & Classrooms",
-        "Tutoring Systems"
+        "Pedagogy & Alignment"
       ],
-      "score": 80,
-      "heuristicScore": 8,
+      "score": 100,
+      "heuristicScore": 7.8,
       "tier": "lead",
-      "why": "Matches Learners & Classrooms and Tutoring Systems."
+      "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
     },
     {
-      "id": "2610.41883",
-      "title": "Text as an Index for Zero-Shot Cross-Domain Knowledge Tracing",
+      "id": "2611.06343",
+      "title": "Prism: Bidirectional Self-Teaching for Unified Multimodal Models",
       "authors": [
-        "Yin Yi",
-        "Haiping Ma",
-        "Siyu Song",
-        "Ziwen Wang",
-        "Shangshang Yang"
+        "Peng Zhang",
+        "Qian Chen",
+        "Xianyin Zhang",
+        "Yimin Tian",
+        "Ruite Fei",
+        "Dongyi Lv",
+        "Lifan Guo",
+        "Chi Zhang",
+        "Shuai Liu"
       ],
-      "abstract": "Knowledge tracing (KT) predicts a student's next response from their history. New platforms often have question texts but no response logs for training, motivating zero-shot cross-domain KT. Existing transfer and cold-start methods use question semantics, but cross-platform semantic discrepancies limit transferability. We propose TIZSKT, which separates behavioral sequence modeling from domain-local historical evidence construction and uses text as an index rather than a directly transferable predictive representation. The Mastery-Dynamics Encoder learns correctness dynamics without question identifiers or text embeddings. Domain-Local Question Addressing builds fixed question addresses using a frozen text encoder and an unsupervised per-domain projection. The Text-Addressing Kernel uses these addresses to aggregate the current student's previous outcomes into a question-specific historical correctness summary. Cross-Segment Continuation retains access to earlier responses without extending the behavioral encoder's input sequence. Evidence-Volume Read-Out preserves the total kernel mass discarded by normalization and combines its log-compressed value with the behavioral state and historical correctness summary to predict the next response. All trainable parameters are learned from source domains; target inference uses public question texts and the current student's observed history without target-domain training. Leave-one-domain-out experiments on three public datasets show that TIZSKT achieves the highest mean AUC and accuracy among evaluated baselines on all target domains. Ablations confirm the contributions of text addressing and cross-segment continuation.",
+      "abstract": "Unified Multimodal Models (UMMs) aim to support visual understanding and generation within a single model. Existing post-training methods either use understanding as a fixed teacher to improve generation, or rely on ground-truth trajectories to supervise both understanding and generation. Prism instead derives bidirectional supervision from self-generated interleaved rollouts, constructing training targets according to the reliability of their text and image chains. We propose Prism, a bidirectional self-teaching post-training method for UMMs. Like a prism decomposing mixed light, Prism decouples a coupled interleaved trajectory into a text chain and an image chain, assesses the reliability of each chain, and constructs a corresponding training target from their reliability states. Experiments on both SenseNova-U1 and BAGEL show that Prism improves both understanding and generation. On the generation side, GenEval improves from 85.8 to 89.2 (+3.4), and DPG improves from 86.1 to 87.3 (+1.2) on SenseNova-U1. On the understanding side, the total MME score improves from 2282.6 to 2311.6, and MMVP improves from 58.0 to 62.0. Consistent improvements are observed on BAGEL. These results highlight that Prism enables coordinated improvements in generation and understanding by constructing reliability-guided self-training targets from self-generated trajectories, without relying on an external verifier or externally annotated corrected trajectories during target construction.",
       "categories": [
-        "cs.CL",
-        "cs.CY",
-        "cs.LG"
-      ],
-      "publishedAt": "2026-10-30T15:29:08Z",
-      "sources": [
-        "search"
-      ],
-      "url": "https://arxiv.org/abs/2610.41883",
-      "pdfUrl": "https://arxiv.org/pdf/2610.41883",
-      "topics": [
-        "Student Modelling",
-        "Learners & Classrooms"
-      ],
-      "score": 76,
-      "heuristicScore": 7.6,
-      "tier": "lead",
-      "why": "Matches Student Modelling and Learners & Classrooms."
-    },
-    {
-      "id": "2611.03744",
-      "title": "CaRe-KT: Continuity-Aware Retrieval-Augmented Reasoning for Knowledge Tracing",
-      "authors": [
-        "Mehrnoush Mohammadi",
-        "Kamal Berahmand",
-        "Mohammad Morsali",
-        "Shazia Sadiq",
-        "Wojtek Tomaszewski",
-        "Hassan Khosravi"
-      ],
-      "abstract": "Knowledge tracing (KT) estimates learners' evolving knowledge states from interaction histories to support adaptive learning. Retrieval-augmented KT improves these estimates using cross-learner behavioral evidence, but existing approaches typically separate evidence retrieval from downstream prediction. This creates a retrieval-inference alignment gap because evidence relevance varies with the learner's evolving state and prediction context. We propose CaRe-KT, a query-adaptive framework that maintains relevance continuity between evidence acquisition and inference without equating retrieval relevance with predictive utility. CaRe-KT introduces an Evidence-Graph Cache (EGC) that combines persistent question-level relational compatibility with interaction-level temporal validity to construct query-specific evidence subgraphs. Historical learning trajectories retrieved through these subgraphs are encoded alongside the target learner's history in a shared representation space using outcome-supervised contrastive learning. An attention mechanism combines acquisition relevance with learned query-evidence compatibility, allowing relevance to inform, rather than determine, each trajectory's predictive influence. Experiments across five benchmarks show that CaRe-KT outperforms strong KT baselines and remains robust under sparse-history and cold-start conditions. These findings support relevance continuity as a design principle for retrieval-augmented knowledge tracing.",
-      "categories": [
-        "cs.LG"
-      ],
-      "announceType": "new",
-      "publishedAt": "2026-11-04T00:00:00-05:00",
-      "sources": [
-        "arxiv"
-      ],
-      "url": "https://arxiv.org/abs/2611.03744",
-      "pdfUrl": "https://arxiv.org/pdf/2611.03744",
-      "topics": [
-        "Student Modelling"
-      ],
-      "score": 64,
-      "heuristicScore": 6.4,
-      "tier": "lead",
-      "why": "Matches Student Modelling."
-    },
-    {
-      "id": "2611.03882",
-      "title": "ProofPaths: An AI Agent Framework for Assessing Student Reasoning",
-      "authors": [
-        "Mohsen Hariri",
-        "Vipin Chaudhary"
-      ],
-      "abstract": "Students can use large language models to complete assignments, but a correct solution does not establish whether they understand the reasoning behind it. Individualized interviews can probe that understanding but require recurring staff effort. We introduce ProofPaths, an AI agentic framework that combines rubric-based grading with individualized and interactive interviews. Multiple grading agents assess a submission against instructor guidance, exchange critiques, and revise their judgments. Their scores determine which review supplies the grade and feedback. An interview agent asks students to justify steps in their submission and uses their answers to guide follow-up questions. Each question is linked to a retrieved submission excerpt, so instructors can compare the student's explanation with the cited passage. The system tracks assessment progress and stores grading reviews and interview transcripts for each submission. Several deterministic tests of the assessment controllers check source handling, score aggregation, and limits on correction attempts. Instructors can inspect all reviews and transcripts and override grades within the assignment workflow.",
-      "categories": [
+        "cs.CV",
         "cs.AI"
       ],
       "announceType": "new",
-      "publishedAt": "2026-11-04T00:00:00-05:00",
+      "publishedAt": "2026-11-05T00:00:00-05:00",
       "sources": [
         "arxiv"
       ],
-      "url": "https://arxiv.org/abs/2611.03882",
-      "pdfUrl": "https://arxiv.org/pdf/2611.03882",
+      "url": "https://arxiv.org/abs/2611.06343",
+      "pdfUrl": "https://arxiv.org/pdf/2611.06343",
+      "topics": [
+        "Pedagogy & Alignment"
+      ],
+      "score": 92,
+      "heuristicScore": 7.2,
+      "tier": "lead",
+      "why": "Matches Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.05587",
+      "title": "Cibersapiens: Gamifying Cybersecurity Education to Engage Secondary Students",
+      "authors": [
+        "Soraya Fr\\'ias-Guadalupe",
+        "Pedro Paredes",
+        "Carlos Castaneda-Marroqu\\'in"
+      ],
+      "abstract": "Cybersecurity education and awareness are often tailored for businesses, leaving general citizens, especially young people, unprepared. Despite the availability of educational resources, cybersecurity training is not provided equally to all individuals, particularly children and teenagers. As digital risks such as sexting, grooming, and cyberbullying, among others, increase, young users remain vulnerable. However, existing awareness efforts fail to engage them effectively and current content lacks the motivation needed to drive meaningful behavioral change. This paper introduces \"Cibersapiens: Digital Well-being for a Connected Generation,\" an interactive, gamified environment designed to teach cybersecurity to secondary school students. The project focuses on developing and implementing gamified educational resources that actively engage students, improve their understanding of cyber risks, and promote best practices in digital security. By leveraging active learning methodologies, this approach transforms cybersecurity education into an engaging and meaningful experience.",
+      "categories": [
+        "cs.CY"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-05T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.05587",
+      "pdfUrl": "https://arxiv.org/pdf/2611.05587",
       "topics": [
         "Learners & Classrooms"
       ],
-      "score": 60,
+      "score": 77,
       "heuristicScore": 6,
-      "tier": "notable",
+      "tier": "lead",
       "why": "Matches Learners & Classrooms."
     },
     {
-      "id": "2611.04783",
-      "title": "Who Is Doing the Thinking? Characterising Human Agency in First-Year Students' AI Interactions",
+      "id": "2611.06116",
+      "title": "The Harness Is the Model: Agent Scaffolding Changes a Fixed LLM's Compliance with Banking Conduct Rules, Unevenly Across Models",
       "authors": [
-        "Ali Shakiba",
-        "Thomas Chaffey"
+        "Mehmet Murat Huyut"
       ],
-      "abstract": "When students use generative AI to produce their work, the learning process becomes invisible. Established frameworks such as Bloom's taxonomy then classify the cognitive level of what the AI produced, not what the student contributed. We propose the Human Agency Depth Taxonomy (HADT), a preliminary six-tier taxonomy that classifies the engineering contribution a student makes in a prompt, independent of the AI's output. HADT combines three dimensions: contextual bandwidth, engineering abstraction and student agency. We applied HADT to 962 prompts from 105 students' structured AI Journals in an AI-permissive, first-year software engineering course of 145 students, and examined how agency changed over ten journalled weeks. Most prompts (84.2%) carried some student contribution beyond delegation. Agency tracked the development lifecycle. Architecture-discovery prompts dominated the requirements phase (48% of turns) and fell to 5-12% from week 9, while prompts analysing existing systems rose during build and verification (odds ratio 2.88, with turns clustered by student). Two-thirds of the variance in tier lay within students, so agency depended more on the phase of work than on the student. A turn-level rise in delegation in deadline weeks did not hold once turns were clustered by student. Explicitly specifying constraints on the AI's output was rare throughout, which we interpret as a knowledge bottleneck for novices rather than a gap in instruction. We discuss implications for course and assessment design, and for using HADT as a formative lens on how students engage with AI.",
+      "abstract": "Banks validate language models, but they deploy systems: a model inside a harness that decides what it sees, which tools it can call and who checks its actions. We test whether that harness changes compliance with banking conduct rules when the model is held fixed. Four open-weight models each ran five harnesses (a pipeline that makes one structured decision, a ReAct-style tool loop, a loop in which the policy is reachable only through search, a loop with a long benign customer memory, and a loop with a same-model compliance reviewer) on 156 pre-registered cases in a simulated retail bank whose 11 rule families paraphrase EU consumer-credit, payments, investor-protection, data-protection and anti-money-laundering provisions. Every one of the 3120 two-turn episodes was scored deterministically from the executed tool trace, with violations and over-refusals counted separately. Pooled across models the harness moved the correct-case rate only between 87.3% and 92.1%, but within a model it mattered a great deal: for one model the spread between its best and worst harness was 11.5 percentage points, enough to move it from first to last place among the four models, while for another the harness made no detectable difference; the model x harness interaction itself was suggestive rather than conclusive. The same-model reviewer cut violations from 9.6% to 6.4% without raising over-refusals, contrary to our pre-registered prediction. Rules that require date arithmetic failed in every harness. In an exploratory analysis with two LLM judges and a blind human check, 26% of violations were accompanied by a customer message that denied the action the agent had just executed, which a transcript-only review would record as a correct refusal. For model-risk management the unit of validation should be the model-harness pair, and conduct testing should read the action log, not the conversation.",
       "categories": [
-        "cs.SE",
-        "cs.HC"
+        "cs.CL",
+        "cs.AI",
+        "cs.CY"
       ],
       "announceType": "new",
-      "publishedAt": "2026-11-04T00:00:00-05:00",
+      "publishedAt": "2026-11-05T00:00:00-05:00",
       "sources": [
         "arxiv"
       ],
-      "url": "https://arxiv.org/abs/2611.04783",
-      "pdfUrl": "https://arxiv.org/pdf/2611.04783",
+      "url": "https://arxiv.org/abs/2611.06116",
+      "pdfUrl": "https://arxiv.org/pdf/2611.06116",
       "topics": [
-        "Learners & Classrooms"
+        "Tutoring Systems"
       ],
-      "score": 60,
+      "score": 77,
       "heuristicScore": 6,
-      "tier": "notable",
-      "why": "Matches Learners & Classrooms."
-    },
-    {
-      "id": "2611.05143",
-      "title": "Better Plans, Better Outcomes: Integrating Historical Data into Student Planning in a Computing Course",
-      "authors": [
-        "Jiaen Yu",
-        "Jinya Jiang",
-        "Soohyun Nam Liao"
-      ],
-      "abstract": "Effective planning is critical for academic success, but in many computing courses students often lack accurate benchmarks for assessing the difficulty and time required for academic tasks. This phenomenon is more pronounced in large courses where instructors have limited capacity to provide individualized guidance on planning and task estimation. Although many planning tools exist, still, they rarely leverage task-specific, empirically grounded data from actual course contexts. Thus, we explored whether providing task-specific, data-driven information---assignment previews and cohort-level historical statistics---could support more effective planning. We present a lightweight and data-driven planning intervention embedded in the programming assignment workflow of an undergraduate computing course. We conducted quantitative and qualitative studies with 252 students across five programming assignments. Our results indicated that, in authentic course settings, the intervention led to more conservative and executable plans, with significantly higher plan adherence. Students with stronger adherence also achieved better performance on both programming assignments and exams. Qualitative findings also showed both practical planning support and mental benefits from intervention. These results highlight the potential of data-driven intervention to support student planning in larger courses settings where individual guidance from an instructor is further limited.",
-      "categories": [
-        "cs.CY",
-        "cs.HC"
-      ],
-      "announceType": "new",
-      "publishedAt": "2026-11-04T00:00:00-05:00",
-      "sources": [
-        "arxiv"
-      ],
-      "url": "https://arxiv.org/abs/2611.05143",
-      "pdfUrl": "https://arxiv.org/pdf/2611.05143",
-      "topics": [
-        "Learners & Classrooms"
-      ],
-      "score": 60,
-      "heuristicScore": 6,
-      "tier": "notable",
-      "why": "Matches Learners & Classrooms."
-    },
-    {
-      "id": "2611.04609",
-      "title": "Making Smell Actionable in Design: Lexicon, Movement Patterns, and Gesture Cards",
-      "authors": [
-        "Anran Feng",
-        "Shengyu Gao",
-        "Xingyu Zhao",
-        "Zhenyu Qian",
-        "Jingrui An"
-      ],
-      "abstract": "Smell is powerful in design, yet it often remains vague and difficult to work with in studios and classrooms. While olfactory HCI has produced devices, toolkits, and scenario-based applications, designers still lack teachable, shareable resources that link smell to bodily action. This paper presents a three-phase research program that makes smell actionable by moving from lived smell experiences to movement patterns and, finally, to gesture resources. We study olfactory-motor mappings and package the results as teachable design representations through a progressively narrowing method: (1) extracting smell-verb-intent relations from user narratives; (2) capturing and clustering embodied enactments into standardized upper-limb trajectory families; and (3) translating these trajectories into gesture card representations for design teaching and ideation through design workshops. We present a three-phase translational framework and empirically derived smell-gesture correspondences that structure the smell-intent-trajectory-gesture pathway, together with reusable assets (lexicon, trajectory atlas, gesture tables, and cards) that support teaching, reuse, and adaptation across contexts.",
-      "categories": [
-        "cs.HC"
-      ],
-      "announceType": "new",
-      "publishedAt": "2026-11-04T00:00:00-05:00",
-      "sources": [
-        "arxiv"
-      ],
-      "url": "https://arxiv.org/abs/2611.04609",
-      "pdfUrl": "https://arxiv.org/pdf/2611.04609",
-      "topics": [
-        "Pedagogy & Alignment",
-        "Learners & Classrooms"
-      ],
-      "score": 30,
-      "heuristicScore": 3,
-      "tier": "notable",
-      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
+      "tier": "lead",
+      "why": "Matches Tutoring Systems."
     }
   ],
   "dispatches": [],
   "topics": [
     {
       "name": "Learners & Classrooms",
-      "count": 7
-    },
-    {
-      "name": "Student Modelling",
-      "count": 3
-    },
-    {
-      "name": "Tutoring Systems",
       "count": 2
     },
     {
       "name": "Pedagogy & Alignment",
+      "count": 2
+    },
+    {
+      "name": "Tutoring Systems",
       "count": 1
     }
   ],
   "stats": {
-    "screened": 802,
-    "matched": 9,
-    "alreadyFeatured": 0,
-    "published": 9,
-    "announcedOn": "2026-11-04"
+    "screened": 751,
+    "matched": 4,
+    "alreadyFeatured": 3,
+    "published": 4,
+    "announcedOn": "2026-11-05"
   }
 }
