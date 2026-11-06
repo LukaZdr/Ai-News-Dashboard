@@ -1,0 +1,298 @@
+{
+  "edition": "education",
+  "date": "2026-11-06",
+  "number": 3,
+  "generatedAt": "2026-11-06T14:30:14.926Z",
+  "editor": {
+    "mode": "heuristic",
+    "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
+  },
+  "lede": null,
+  "readFirst": [
+    {
+      "id": "2611.07072",
+      "why": "Matches Tutoring Systems and Learners & Classrooms.",
+      "takeaway": "Automated feedback on classroom discourse improves instruction in professional and online teaching contexts, and recent work suggests that delivering similar feedback to learners may strengthen these effects by sharing responsibility for participation."
+    },
+    {
+      "id": "2611.08431",
+      "why": "Matches Tutoring Systems and Pedagogy & Alignment.",
+      "takeaway": "As society, ethics, and professional practice become increasingly integrated across the computer science curriculum, technical courses need practical ways to support ethical reasoning."
+    },
+    {
+      "id": "2611.07723",
+      "why": "Matches Tutoring Systems.",
+      "takeaway": "Protein motif scaffolding benchmarks assess whether generative models can build scaffolds around functionally important residues."
+    }
+  ],
+  "papers": [
+    {
+      "id": "2611.07072",
+      "title": "Automated Feedback to Peer Tutors Increases Their Talk Moves and Learner Reasoning but Not the Balance of Talk",
+      "authors": [
+        "Dorottya Demszky",
+        "Yann Hicke",
+        "Joy Yun",
+        "Mariah Olson",
+        "Max Karpawich",
+        "Anees Iqbal",
+        "Matt Wu",
+        "Jimmy Huang",
+        "Akshay Ravikumar",
+        "Drew Bent"
+      ],
+      "abstract": "Automated feedback on classroom discourse improves instruction in professional and online teaching contexts, and recent work suggests that delivering similar feedback to learners may strengthen these effects by sharing responsibility for participation. Whether this holds in small-group volunteer tutoring has not been tested. We present results from a randomized controlled trial across two four-week SAT mathematics bootcamps on the Schoolhouse.world platform, involving 1,030 volunteer tutors, 7,443 learners and 6,508 recorded sessions. Tutors were randomly assigned to receive no feedback, automated feedback on their own discourse, or that feedback together with participation feedback delivered to their learners under one of two motivational framings. Feedback to tutors increased eliciting of learner ideas, uptake of learner contributions, and learner reasoning by 8-15%, and the pattern replicated across both bootcamps. However, tutor talk time, which averaged 91.5% in the control group, did not change in any condition, and learner-facing feedback did not further change discourse. Interviews with 17 tutors indicate that they adopted the moves the feedback recommended but were limited by learners who did not respond. Interviews with 13 learners suggest why the learner-facing feedback had little effect: it reported a group-level rather than a learner-level statistic, some learners preferred to listen, and learner-to-learner interaction was rare in these sessions. Automated feedback can change how tutors invite learner thinking, but shifting how much learners talk likely requires changes beyond feedback.",
+      "categories": [
+        "cs.CL",
+        "cs.ET",
+        "cs.HC"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-06T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.07072",
+      "pdfUrl": "https://arxiv.org/pdf/2611.07072",
+      "topics": [
+        "Tutoring Systems",
+        "Learners & Classrooms",
+        "Pedagogy & Alignment"
+      ],
+      "score": 100,
+      "heuristicScore": 14.2,
+      "tier": "lead",
+      "why": "Matches Tutoring Systems and Learners & Classrooms."
+    },
+    {
+      "id": "2611.08431",
+      "title": "Scaffolding GenAI Use in Ethical Essay Writing: A Three-Year Experience Report in Introductory Computing",
+      "authors": [
+        "Asma Shakil",
+        "Paul Denny",
+        "Jun Seo",
+        "Gauravkumar Hirani",
+        "Sean Longyu Ma",
+        "Claus Brabrand"
+      ],
+      "abstract": "As society, ethics, and professional practice become increasingly integrated across the computer science curriculum, technical courses need practical ways to support ethical reasoning. Ethical essay assignments offer one approach, but little is known about how students use GenAI when writing such essays. This experience report examines GenAI use across three years of ethical essay assignments in a large first-year computer systems course. Across six post-essay surveys from 2024 to 2026, we analyzed 1,894 responses, linked survey data with essay grades in 2025 and 2026, and introduced a scaffolded responsible-use workflow in 2026. Under voluntary-use policies, AI adoption remained steady at around two-thirds of students, rising above 90% when use was scaffolded. Students reported mainly using AI for help with grammar and style, while tool use diversified beyond ChatGPT in 2026. Grade-linked analyses showed that AI use did not independently predict essay quality, while marker evaluations indicated high levels of critical engagement when use was scaffolded. Overall, GenAI's pedagogical value appears to depend on how assessment design guides students to evaluate and critically engage with AI-generated suggestions.",
+      "categories": [
+        "cs.CY"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-06T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.08431",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08431",
+      "topics": [
+        "Tutoring Systems",
+        "Pedagogy & Alignment",
+        "Learners & Classrooms"
+      ],
+      "score": 63,
+      "heuristicScore": 9,
+      "tier": "lead",
+      "why": "Matches Tutoring Systems and Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.07723",
+      "title": "Static Recovery Is Not Dynamic Stability: Dynamics-Aware Benchmarking of Protein Motif Scaffolding",
+      "authors": [
+        "Emile de Bruyn",
+        "Moritz Sch\\\"affler",
+        "Jannik Schneider",
+        "Sebastian R. Schmidt",
+        "Chanwoong Hwang",
+        "Aleena Siji",
+        "Utkarsh Upadhyay",
+        "Stefan Bauer",
+        "Alexander Schug",
+        "Stefan Kesselheim",
+        "Artur Yakimovich",
+        "Alina Bazarova"
+      ],
+      "abstract": "Protein motif scaffolding benchmarks assess whether generative models can build scaffolds around functionally important residues. Their conclusions depend on which motifs are tested and which criteria define success. Existing benchmarks typically use small hand-curated motif sets and static refolding criteria, but protein function often depends on conformational ensembles and transitions. Here, we address both benchmark scope and success criteria. We introduce BILBY-PRO, a systematically derived benchmark of structurally conserved functional motifs from PROSITE-linked experimental structures, comprising 220 cases from 174 PROSITE motif-pattern entries. Evaluating six recent scaffold-generation models reveals distinct patterns in target coverage and unique-solution yield: RFDiffusion and Proteina solve more targets, whereas ESM3 produces more unique successful scaffolds on the targets it solves. We further introduce BILBY-MD, a reference-based all-atom molecular dynamics evaluation framework. Applied to statically solved designs from the original MotifBench benchmark, it compares motif drift, scaffold drift, motif-contact preservation, and motif-dihedral free-energy landscapes against reference simulations. Of 55 statically solved model-problem pairs, 31 satisfy our MD-supported criterion and only 8 pass all checks. Compact, self-contained motifs are often MD-supported, whereas interface-like or context-dependent motifs fail more frequently. Static refolding success therefore provides useful evidence of local motif recovery but does not establish dynamical fidelity of the full scaffold. BILBY highlights three complementary axes of motif-scaffolding evaluation: target coverage, unique-solution yield, and MD-supported dynamical fidelity.",
+      "categories": [
+        "cs.LG",
+        "q-bio.BM"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-06T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.07723",
+      "pdfUrl": "https://arxiv.org/pdf/2611.07723",
+      "topics": [
+        "Tutoring Systems"
+      ],
+      "score": 56,
+      "heuristicScore": 8,
+      "tier": "lead",
+      "why": "Matches Tutoring Systems."
+    },
+    {
+      "id": "2611.06938",
+      "title": "Support in the domain of numerical algorithms in the education of future secondary school mathematics teachers",
+      "authors": [
+        "Josef Dan\\v{e}k"
+      ],
+      "abstract": "This article presents web-based applets designed primarily to educate future mathematics teachers in the field of numerical algorithms and, secondarily, to serve high school students themselves. The applets allow users to explore the behaviour of basic numerical algorithms as applied to fundamental mathematical topics taught at high schools. The advantage is that no software is required, and students can intuitively test how a given method works by adjusting specific problem parameters, not only by viewing a list of approximate solutions, but especially through graphical output. Furthermore, they have access to multiple different methods for comparison.",
+      "categories": [
+        "math.HO",
+        "cs.NA",
+        "math.NA"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-06T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.06938",
+      "pdfUrl": "https://arxiv.org/pdf/2611.06938",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 42,
+      "heuristicScore": 6,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.07130",
+      "title": "Teaching Agents the \"Principle\", Not the \"Reward\"",
+      "authors": [
+        "Shan Yang"
+      ],
+      "abstract": "Reinforcement learning has achieved strong performance in many tasks by letting agents learn from nothing more than a reward signal. However, in more complex tasks, agents still struggle to learn good, generalizable policies, even with carefully designed rewards and abundant samples. We argue that this difficulty stems from the reward decoding burden: designers encode their knowledge of the desired behavior into rewards and penalties, and agents must infer this knowledge from long sequences of noisy scalars. To address this burden, we propose prescriptive policy learning (PPL), which directly teaches agents higher-level knowledge about the tasks, termed principles of behavior, such as how to maintain balance, how to accumulate energy, and how to land smoothly. Through appropriately selected key quantities and references, PPL can directly indicate at every step whether the agent follows the principles and to what extent. Our experiments show that agents can learn good, generalizable policies without any reward. Taught only simple heuristic principles, PPL agents outperform reward-based methods with far fewer samples. Their policies also transfer directly to harder settings and keep performing well, demonstrating their strong generalization ability. In summary, PPL provides a new approach in which rough knowledge of the desired behavior is enough for agents to learn good, generalizable policies, even when the system dynamics cannot be accurately modeled.",
+      "categories": [
+        "cs.LG"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-06T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.07130",
+      "pdfUrl": "https://arxiv.org/pdf/2611.07130",
+      "topics": [
+        "Pedagogy & Alignment"
+      ],
+      "score": 38,
+      "heuristicScore": 5.4,
+      "tier": "lead",
+      "why": "Matches Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.07755",
+      "title": "Automated Video-to-QA Pipeline: End-to-End Question Generation and Verification Using Large Language Models",
+      "authors": [
+        "Jaival Chauhan",
+        "Vikram Singh",
+        "Pruthwik Mishra"
+      ],
+      "abstract": "The exponential growth of educational and informational video content on platforms like YouTube presents a challenge for efficient knowledge retrieval and assessment. This paper proposes an end-to-end automated pipeline for extracting structured summaries and generating high-fidelity Question-Answer (QA) pairs from video streams. The framework integrates a cascade of state-of-the-art models: audio extraction is handled via FFmpeg, followed by automatic speech recognition (ASR) using Whisper (A library in Python) to generate accurate transcripts. Due to the token constraints of Large Language Models (LLMs), transcripts are segmented and summarized using Facebook's BART. A key innovation of this work is a Self-Verification and Fine-Tuning Loop. We utilize meta-llama/Llama-3.1-8BInstruct to generate candidate QA pairs from transcript chunks, which are then fed back into the model to rigorously assess their relevance and importance. Only verified, high-quality pairs are retained to construct a synthetic dataset. This dataset is subsequently used to fine-tune the Llama model using Low-Rank Adaptation (LoRA), resulting in a specialized model capable of generating domain-aligned assessment questions. This approach demonstrates a scalable method for creating self-improving educational tools without the need for manual data annotation. The proposed model can be downloaded from Kaggle with all the codes from GitHub.",
+      "categories": [
+        "cs.CL"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-06T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.07755",
+      "pdfUrl": "https://arxiv.org/pdf/2611.07755",
+      "topics": [
+        "Assessment & Feedback",
+        "Learners & Classrooms"
+      ],
+      "score": 38,
+      "heuristicScore": 5.4,
+      "tier": "notable",
+      "why": "Matches Assessment & Feedback and Learners & Classrooms."
+    },
+    {
+      "id": "2611.07792",
+      "title": "Thinking Is Not Writing: Designing AI Chatbots to Connect Reasoning and Revision",
+      "authors": [
+        "Lucile Favero",
+        "Tanja K\\\"aser",
+        "Juan Antonio P\\'erez-Ortiz",
+        "Nuria Oliver"
+      ],
+      "abstract": "Supporting students' argumentative writing with AI requires connecting reflection to their revision processes. We present Maike, a Socratic chatbot supporting writing through argument diagnosis, targeted questioning, and a student model across Think and Write modes. In a classroom study, 65 secondary-school students used Maike or a control chatbot sharing the interface, language model, and Think/Write modes. Approximately 40% of students improved their essay scores. However, Maike users engaged more in idea-level dialogue (56% vs. 44%) and moved iteratively between discussion and editing. Transitions from ideas discussed in dialogue to revisions were positively associated with score gains. These findings suggest a design target for AI writing support: coordinating reflection with revision. We contribute an architecture for supporting argumentative reasoning without generating essay text and an approach linking interaction patterns to writing processes and outcomes. As AI becomes embedded in classrooms, understanding these connections is essential to assessing (and designing for) its educational value.",
+      "categories": [
+        "cs.HC"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-06T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.07792",
+      "pdfUrl": "https://arxiv.org/pdf/2611.07792",
+      "topics": [
+        "Learners & Classrooms",
+        "Tutoring Systems"
+      ],
+      "score": 31,
+      "heuristicScore": 4.4,
+      "tier": "notable",
+      "why": "Matches Learners & Classrooms and Tutoring Systems."
+    },
+    {
+      "id": "2611.06943",
+      "title": "Getting the picture - Subtractive color mixing with an inkjet printer",
+      "authors": [
+        "David Marasco"
+      ],
+      "abstract": "When teaching colors, physics teachers ask their students to ignore what is taught in art classes and embrace a primary color system of red, green, and blue. This scheme is additive and all colors can be generated by combining light of these three colors with varying intensities. There have been a number of demonstrations and tools to help students understand additive color mixing, using LEDs, color monitors, or similar technologies. However, the subtractive primaries of cyan, magenta, and yellow have received far less attention, if students have previous knowledge it is from printer ink cartridges. This gap may exist because as pigments it can be harder to vary their intensities in real time. Fortunately, our colleagues in the art department are well-versed in subtractive color mixing, and have taught this topic for many years through the lens of color printing. We steal a page from their book and describe how to create a color image using cyan, magenta, yellow, and black layers (CMYK). Black is used as an additional layer due to mixing issues concerning the imperfections of the CMY pigments. With imaging software, an inkjet printer, and some transparencies, physics instructors are just a few keystrokes away from being able to demonstrate subtractive color mixing.",
+      "categories": [
+        "physics.ed-ph"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-06T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.06943",
+      "pdfUrl": "https://arxiv.org/pdf/2611.06943",
+      "topics": [
+        "Pedagogy & Alignment",
+        "Learners & Classrooms"
+      ],
+      "score": 21,
+      "heuristicScore": 3,
+      "tier": "notable",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
+    }
+  ],
+  "dispatches": [],
+  "topics": [
+    {
+      "name": "Learners & Classrooms",
+      "count": 6
+    },
+    {
+      "name": "Tutoring Systems",
+      "count": 4
+    },
+    {
+      "name": "Pedagogy & Alignment",
+      "count": 4
+    },
+    {
+      "name": "Assessment & Feedback",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "screened": 712,
+    "matched": 8,
+    "alreadyFeatured": 3,
+    "published": 8,
+    "announcedOn": "2026-11-06"
+  }
+}

@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-06",
+    "number": 3,
+    "headline": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
+    "published": 42
+  },
+  {
     "date": "2026-11-05",
     "number": 2,
     "headline": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
