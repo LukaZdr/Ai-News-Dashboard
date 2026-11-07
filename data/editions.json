@@ -1,6 +1,6 @@
 {
   "publicationName": "The Preprint",
-  "updatedAt": "2026-11-06T14:30:14.927Z",
+  "updatedAt": "2026-11-07T13:24:35.209Z",
   "editions": [
     {
       "slug": "general",
@@ -11,8 +11,8 @@
         "light": "#b4361c",
         "dark": "#f0805f"
       },
-      "latest": "2026-11-06",
-      "issues": 3
+      "latest": "2026-11-07",
+      "issues": 4
     },
     {
       "slug": "medical",
@@ -23,8 +23,8 @@
         "light": "#0d6b5e",
         "dark": "#4fc7b0"
       },
-      "latest": "2026-11-06",
-      "issues": 3
+      "latest": "2026-11-07",
+      "issues": 4
     },
     {
       "slug": "education",

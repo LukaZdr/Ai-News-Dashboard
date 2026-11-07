@@ -1,0 +1,903 @@
+{
+  "edition": "general",
+  "date": "2026-11-07",
+  "number": 4,
+  "generatedAt": "2026-11-07T13:24:24.975Z",
+  "editor": {
+    "mode": "heuristic",
+    "note": "2 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
+  },
+  "lede": null,
+  "readFirst": [
+    {
+      "id": "2611.08237",
+      "why": "Matches Agents and Evaluation · 9 upvotes on Hugging Face.",
+      "takeaway": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only if they are both close to a credible reference and physically feasible; existing benchmarks either score solver fragments or grade reports with an LLM judge, leaving those numbers unchecked."
+    },
+    {
+      "id": "2611.08483",
+      "why": "Matches Agents and Reasoning · 6 upvotes on Hugging Face.",
+      "takeaway": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods."
+    },
+    {
+      "id": "2610.37739",
+      "why": "Matches Evaluation and Language Models · 3 upvotes on Hugging Face.",
+      "takeaway": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging."
+    }
+  ],
+  "papers": [
+    {
+      "id": "2611.08237",
+      "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
+      "authors": [
+        "Xiaojun Wu",
+        "Cehao Yang",
+        "Xuhui Jiang",
+        "Chengjin Xu",
+        "Jia Li",
+        "Jian Guo"
+      ],
+      "abstract": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only if they are both close to a credible reference and physically feasible; existing benchmarks either score solver fragments or grade reports with an LLM judge, leaving those numbers unchecked. We introduce TB-MathModel (the Terminal-style Mathematical Modeling Bench), the first benchmark to make complete contest-style modeling problems agentic, verifiable, and terminal at once, over 18 real CUMCM and MCM problems (2023--2025). Each task ships the verbatim statement, official attachments, and figures in a containerized terminal; the agent returns one JSON artifact, scored on the numeric core of the final question against a reproduction of the Outstanding-award paper. Two design choices distinguish it: direction-aware, one-sided scoring, which never penalises beating the anchor, and two-layer feasibility verification---a programmatic gate over six decidable invariant forms plus 624 Lean~4 obligations---with a hard gate that zeroes infeasible answers. Each task is scored against a panel of human outstanding papers rather than one, so a model must be close to many accepted answers; across seven multimodal entries (three seeds each) the strongest reach a multi-reference O-Eval of 64.58\\%, while the \\2.54 open model holds 59.81% at 1/100$ the cost. TB-MathModel turns the numeric core of modeling into a reproducible, machine-checkable signal for measuring long-horizon modeling competence and for collecting agent trajectories. The source code is available at https://github.com/wxj630/terminal-bench-math-modeling.",
+      "categories": [],
+      "publishedAt": "2026-11-05T16:18:35.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 9,
+        "comments": 3,
+        "organization": "IDEA FinAI",
+        "githubRepo": "https://github.com/wxj630/terminal-bench-math-modeling"
+      },
+      "url": "https://arxiv.org/abs/2611.08237",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08237",
+      "topics": [
+        "Agents",
+        "Evaluation",
+        "Language Models",
+        "Multimodal & Vision"
+      ],
+      "score": 100,
+      "heuristicScore": 24,
+      "tier": "lead",
+      "why": "Matches Agents and Evaluation · 9 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.08483",
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "authors": [
+        "Qile Jiang",
+        "George Em Karniadakis"
+      ],
+      "abstract": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity. We present SwarmEvolve, a framework in which hundreds of low-cost agents per round work in swarms, reason in latent space without decoding to text, and share information by passing KV caches. Each swarm studies the problem from a different angle. A novelty filter keeps the most distinct agent ideas by directly measuring the distances between the agents' hidden state vectors. Crossover of ideas happens naturally in latent space, as a summarizer agent receives the combined KV caches of all swarm members. On 21 problems in mathematical discovery and scientific computing, SwarmEvolve gets the highest average score and needs a median of only 3 to 8 minutes to reach the best scores that other state-of-the-art frameworks reach in 60 minutes. On several problems, SwarmEvolve with Qwen3 8B improves on the solutions that AlphaEvolve first found with frontier LLMs. Our work shows that agent swarms that communicate in latent space offer a fast, low-cost approach to program search for scientific problems.",
+      "categories": [],
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 6,
+        "comments": 2,
+        "organization": "Brown University",
+        "githubRepo": "https://github.com/Qile-J/SwarmEvolve"
+      },
+      "url": "https://arxiv.org/abs/2611.08483",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08483",
+      "topics": [
+        "Agents",
+        "Reasoning",
+        "Language Models"
+      ],
+      "score": 83,
+      "heuristicScore": 19.8,
+      "tier": "lead",
+      "why": "Matches Agents and Reasoning · 6 upvotes on Hugging Face."
+    },
+    {
+      "id": "2610.37739",
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "authors": [
+        "Jiarui Yao",
+        "Ruida Wang",
+        "Tong Zhang"
+      ],
+      "abstract": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce OpenFrontiers, a cross-disciplinary resource that combines a structured corpus of open research problems with a retrospective benchmark of recently resolved problems in mathematics. The corpus records problem statements, context, progress, and other information for 12,151 problems. The benchmark contains 200 problems, 110 resolved in 2026 and 90 still open, each with a Lean~4 statement checked by automated probes and two independent reviews; a subset HQ-50 further filters based on quality score, etc. Our evaluation protocol grades formal proofs with two independent checkers in an isolated sandbox under closed-book, frozen-retrieval, and live-web conditions. Evaluating seven LLM agents on the HQ-50 subset under a standardized budget, we find that closed-book rediscovery is rare, at most 7 of 40 resolved problems, whereas live-web success mostly reflects retrieval of published solutions. By linking a broad research-problem corpus to a formally graded evaluation subset with documented solutions, OpenFrontiers provides a foundation for measuring research-level rediscovery and studying progress toward solving currently open scientific problems. The dataset and benchmark could be found in https://huggingface.co/collections/FlippyDora/openfrontiers.",
+      "categories": [],
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 3,
+        "comments": 3
+      },
+      "url": "https://arxiv.org/abs/2610.37739",
+      "pdfUrl": "https://arxiv.org/pdf/2610.37739",
+      "topics": [
+        "Evaluation",
+        "Language Models",
+        "Agents",
+        "Data"
+      ],
+      "score": 74,
+      "heuristicScore": 17.8,
+      "tier": "lead",
+      "why": "Matches Evaluation and Language Models · 3 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.04386",
+      "title": "StepX-OPD: Rethinking Multi-Teacher On-Policy Distillation in Diffusion Models",
+      "authors": [
+        "Chenru Wang",
+        "Xuanyang Zhang",
+        "Yucheng Han",
+        "Wenbo Nie",
+        "Wei Cheng",
+        "Xianfang Zeng",
+        "Gang YU",
+        "Chi Zhang"
+      ],
+      "abstract": "A deployable text-to-image diffusion model must hold several capabilities at once, such as instruction following, text rendering and human preference, and must sample in a few steps. Capabilities and few-step sampling are built in separate stages: a full-step model first consolidates capabilities through multi-teacher on-policy distillation, then serves as a fixed teacher for step distillation. Every full-step model we evaluate scores lower once compressed, and the second stage cannot begin until the first finishes. We introduce StepX-OPD, which merges the two stages: one student acquires every capability while learning to sample in a few steps, so frozen specialists supervise it on the states its own rollout visits rather than on a longer trajectory it never runs. Because a decomposition of the rollout's KL weights velocity mismatch most heavily near the clean end, we also regress the student's velocity on the low-noise part of the rollout. Separately, we find that capability integration makes models write prompt words into images on prompts that never asked for text, and we give a variant that lowers it. We evaluate on SD3.5-Medium and FLUX.1-dev across instruction following, text rendering, image quality and human preference. On both architectures, StepX-OPD attains the highest normalized average score among the four-step methods compared and exceeds the forty-step Flow-OPD model, and on SD3.5-Medium it trains with about 37% fewer GPU-hours than sequential DiffusionOPD followed by step distillation.",
+      "categories": [],
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 4,
+        "comments": 1,
+        "organization": "StepFun",
+        "githubRepo": "https://github.com/WinterCCC/StepX-OPD"
+      },
+      "url": "https://arxiv.org/abs/2611.04386",
+      "pdfUrl": "https://arxiv.org/pdf/2611.04386",
+      "topics": [
+        "Multimodal & Vision",
+        "Efficiency"
+      ],
+      "score": 72,
+      "heuristicScore": 17.2,
+      "tier": "lead",
+      "why": "Matches Multimodal & Vision and Efficiency · 4 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.02075",
+      "title": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
+      "authors": [
+        "Lang Mo",
+        "Xingxuan Zhang",
+        "Qi Wang",
+        "Mingchao Hao",
+        "Hao Yuan",
+        "Chunjing Gan",
+        "Wang Lu",
+        "Peng Cui"
+      ],
+      "abstract": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, while a general-purpose conditional predictor predicts task-defined targets from the represented evidence. Pretraining supplies reusable inference capability; deployment evidence instantiates problem-specific predictions without updating either model's neural parameters. Tool judgments, candidate preferences, and reasoning assessments share an evidence-and-query interface, with predictions mapped to choices by a decision rule. This architecture establishes complementary sources of agent capability: semantic knowledge acquired through language pretraining and empirical inference acquired through structured-data pretraining. A single frozen LimiX-2 predictor serves all five task categories. With Qwen3.5-27B as the semantic encoder, DPDM raises mean accuracy across 50 benchmarks from 78.80% with few-shot prompting to 84.92% under their respective evaluated history budgets, and reaches 82.33% with identical histories and queries. On ToolPRMBench's BFCL and ToolSandbox tasks, absolute accuracy gains are 34.26% and 28.87%, respectively, at the methods' respective evaluated history budgets. Accuracy improves as history grows. With identical imbalanced histories, mean balanced accuracy improves by an absolute 14.51% across five reasoning-step assessment tasks and four encoders. DPDM makes learning from experience an independently improvable foundation-model capability, creating a shared route for advances in conditional prediction to improve decisions across agent tasks.",
+      "categories": [],
+      "publishedAt": "2026-11-01T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 3,
+        "comments": 1,
+        "organization": "Stable AI"
+      },
+      "url": "https://arxiv.org/abs/2611.02075",
+      "pdfUrl": "https://arxiv.org/pdf/2611.02075",
+      "topics": [
+        "Agents",
+        "Language Models",
+        "Reasoning",
+        "Evaluation"
+      ],
+      "score": 72,
+      "heuristicScore": 17.2,
+      "tier": "lead",
+      "why": "Matches Agents and Language Models · 3 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.06500",
+      "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+      "authors": [
+        "Yuetong Liu",
+        "Zhehao Zhou",
+        "Yitong Zhang",
+        "Haorui Chen",
+        "Jia Li"
+      ],
+      "abstract": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-relevant information. Existing token pruning and summarization methods remain constrained by discrete text representations, limiting the achievable compression ratios. In this work, we challenge the prevailing assumption that agents must consume tool observations as explicit text tokens. To this end, we propose Coca-Cola, a continuous latent context compression model for LLM agents. Coca-Cola compresses tool observations into latent tokens and embeds them into the input embedding space of the agent. We further introduce Action-Preserving Training, which aligns the agent's next-action distributions under full and compressed observations. This trains the compression model to learn action-sufficient latent tokens that retain decision-critical information. Experiments with web-search agents on four QA benchmarks and two model families show that Coca-Cola reduces the agent's token consumption by 70.01%-89.24% and end-to-end runtime by 24.45%-55.97%, while consistently improving task performance. These results suggest that Coca-Cola offers a promising approach for context compression in agents. Our code is available at https://github.com/THU-Agent/Coca-cola.",
+      "categories": [],
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 2,
+        "comments": 1,
+        "organization": "Tsinghua University",
+        "githubRepo": "https://github.com/THU-Agent/Coca-cola"
+      },
+      "url": "https://arxiv.org/abs/2611.06500",
+      "pdfUrl": "https://arxiv.org/pdf/2611.06500",
+      "topics": [
+        "Agents",
+        "Language Models",
+        "Evaluation",
+        "Efficiency"
+      ],
+      "score": 69,
+      "heuristicScore": 16.6,
+      "tier": "lead",
+      "why": "Matches Agents and Language Models · 2 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.05376",
+      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "authors": [
+        "Hao Fei"
+      ],
+      "abstract": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation. As AI moves into the physical world, attention has settled on one kind of intelligent individual, the embodied robot; we argue that the era of Physical AI holds a second kind of equal importance, the person augmented by AI. Alongside artificial general intelligence, which asks how intelligent a machine can be, stands AI-augmented human intelligence (AHI), which asks how much intelligence a machine can enable in a particular person. Realizing it calls for a new kind of system, a cognitive symbiont: a lifelong, embedded, real-time, private, low-friction, and proactive companion that senses what the person senses through external devices, keeps their context across years, models their situation and their mind, takes part in their thinking at the right moment, carries out everyday tasks with their context, and keeps learning the person as both change. We give the paradigm a conceptual core, the cognitive gap between what a person could bring to a situation and what they can hold in working memory, and organize its design space as a symbiosis loop of sensing, keeping, understanding, living alongside, acting for and thinking with the person, and growing, enclosed by a personal runtime and by trust. Because a symbiont changes what a person can do in front of others, it also raises risks of a new kind, from covert assistance in examinations to pressure on everyone to adopt it, and we treat their governance as part of the paradigm.",
+      "categories": [],
+      "publishedAt": "2026-11-03T18:59:52.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 7,
+        "comments": 2,
+        "organization": "University of Oxford"
+      },
+      "url": "https://arxiv.org/abs/2611.05376",
+      "pdfUrl": "https://arxiv.org/pdf/2611.05376",
+      "topics": [
+        "Agents"
+      ],
+      "score": 67,
+      "heuristicScore": 16,
+      "tier": "lead",
+      "why": "Matches Agents · 7 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.03517",
+      "title": "Ask, Don't Equip: Question-Driven Coding Agents for Deep Kernel Optimization",
+      "authors": [
+        "Gabriele Oliaro",
+        "Jaeseong Lee",
+        "Zhaoyuan Su",
+        "Sreeram Vennam",
+        "Zhihao Jia",
+        "Samyam Rajbhandari"
+      ],
+      "abstract": "LLM agents for GPU kernel optimization sit at two ends of a structure-freedom tradeoff. Scripted agents fix what the model does at each step, via a learned policy, an optimization menu, or fixed roles, and are sample-efficient where the recipe applies and stall where it does not. Open-ended agents let a self-directed model mutate a population of kernels and pay for the freedom in trials: thousands of evaluations, repeated edits, and wrong candidates. Both respond to hard targets by equipping the agent with more: parsed profiler output, disassembly analysis, retrieval over documentation and libraries, and stores of lessons. We argue that both lack direction, a hypothesis about where the remaining gap is, and that a short question asked at the right moment supplies it without narrowing what the agent may do next. We present KernelSeek, a question-driven agent that makes an existing CUDA kernel faster with no operator-specific knowledge and no faster implementation to imitate: a general-purpose coding agent, a minimal harness that enforces a verifiable goal, and questions at decision points, first from a human, then from a bank the agent applies to itself. On the same task, evaluator, hardware, and week, a tool-rich autonomous agent built in the prevailing style plateaued at 0.50x FlashAttention-3 after 133 model-driven steps; KernelSeek reached 1.13x. It then produced dependency-free FlashAttention forward kernels for Hopper and Blackwell, single CUDA files with no CUTLASS, CuTe, cuBLAS, or cuDNN, correct on all 182 scenarios per architecture and 1.16x FlashAttention-3 and 1.46x FlashAttention-4 (geometric mean). Across 162 human messages and 11.5K agent tool calls, every large gain followed a question that moved the agent to a different layer of the system or rejected a claimed limit, never one that supplied information. We release the kernels, harness, question bank, and all traces.",
+      "categories": [],
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 3,
+        "comments": 3,
+        "organization": "Snowflake"
+      },
+      "url": "https://arxiv.org/abs/2611.03517",
+      "pdfUrl": "https://arxiv.org/pdf/2611.03517",
+      "topics": [
+        "Agents",
+        "Language Models"
+      ],
+      "score": 63,
+      "heuristicScore": 15,
+      "tier": "lead",
+      "why": "Matches Agents and Language Models · 3 upvotes on Hugging Face."
+    },
+    {
+      "id": "2609.37820",
+      "title": "Information Games: Strategic Crowding and Firm Repositioning in Language-Model Space",
+      "authors": [
+        "Marcus Gawronsky",
+        "Chun-Sung Huang"
+      ],
+      "abstract": "When firms respond to new market opportunities, their capacity choices alter the future discounted free cash flows available to both competitors and investors. In competitive markets, these investment decisions publicized in news articles and analyst reports, measuring the changes in capital structure, product mix, firm leadership, risk exposure and operating procedure made by the firm. Modern search engines rely on Large Language Models to measure the relevancy of source documents to given search query. These measurements let researchers represent these news articles as clouds of dense vectors whose information geometry reflects the dissimilarity of firms over time. Building on Xu et al. (2022), we develop a model of costly competitive adjustment in which firms allocate capacity in which firms make firm capacity adjustment towards free cash flow shocks. Using a novel sandwich estimator, we analyse the sign and magnitude of this predicted adjustment using multi-agent simulation, and validate our findings on a sample of news and analyst reports from Nasdaq-listed companies between 2018-2022.",
+      "categories": [],
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 3,
+        "comments": 2,
+        "organization": "University of Cape Town"
+      },
+      "url": "https://arxiv.org/abs/2609.37820",
+      "pdfUrl": "https://arxiv.org/pdf/2609.37820",
+      "topics": [
+        "Language Models",
+        "Agents"
+      ],
+      "score": 58,
+      "heuristicScore": 14,
+      "tier": "notable",
+      "why": "Matches Language Models and Agents · 3 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.02660",
+      "title": "HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation",
+      "authors": [
+        "Gyeonghun Kim",
+        "Donghoon Kim",
+        "Minsoo Choi",
+        "Suyun Lee"
+      ],
+      "abstract": "Recent advances in Vision-Language-Action (VLA) models have enabled fine manipulation capabilities, yet performing tasks that require working memory remains a key challenge. Most existing VLA architectures operate under a Markovian assumption, mapping only the current observation to an action, which leads to failure in non-Markovian environments. Inspired by the human 'inner monologue', we propose Hierarchical Explicit Language Memory (HeLM), a hierarchical VLA framework that maintains task-relevant history in explicit language through factorized event detection and event-triggered memory updates. We evaluate HeLM across 10 non-Markovian real-world tasks with 56 variants, including five newly formulated inter-episode tasks that require persistent context across task boundaries. HeLM improves intra-episode success by 12.8 percentage points over the strongest baseline and achieves 78% subtask success on compositional generalization tasks, while using up to 4.5x less memory and running 2.5x faster than the keyframe baseline at long horizons.",
+      "categories": [],
+      "publishedAt": "2026-11-02T07:20:12.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 7,
+        "comments": 2,
+        "organization": "Seoul National University",
+        "githubRepo": "https://github.com/kimspacehuni/HeLM"
+      },
+      "url": "https://arxiv.org/abs/2611.02660",
+      "pdfUrl": "https://arxiv.org/pdf/2611.02660",
+      "topics": [
+        "Multimodal & Vision"
+      ],
+      "score": 54,
+      "heuristicScore": 13,
+      "tier": "notable",
+      "why": "Matches Multimodal & Vision · 7 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.03228",
+      "title": "AnchorComplete: Recovering Complete Scene Meshes from Partial Point Clouds",
+      "authors": [
+        "Weirong Chen",
+        "Ismail El-Yamany",
+        "Ganlin Zhang",
+        "Chuanxia Zheng",
+        "Andrea Vedaldi",
+        "Daniel Cremers"
+      ],
+      "abstract": "Most image-based 3D reconstructors primarily recover visible surfaces, producing partial point clouds with large holes and leaving unobserved geometry unresolved. To address this limitation, we introduce AnchorComplete, a framework that reconstructs complete scene meshes from partial point clouds while preserving observed geometry and supporting scenes of varying scales. Building on TRELLIS.2, our method combines partial-point conditioning, which integrates global scene tokens with local spatial evidence to anchor generation to the input, and metric-scale coarse-to-fine generation, which progressively refines scene geometry within fixed-size windows while maintaining global structural consistency. Experiments on Replica and SCRREAM demonstrate that AnchorComplete consistently outperforms strong baselines in complete-scene reconstruction, particularly under sparse-view settings.",
+      "categories": [],
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 9,
+        "comments": 2
+      },
+      "url": "https://arxiv.org/abs/2611.03228",
+      "pdfUrl": "https://arxiv.org/pdf/2611.03228",
+      "topics": [],
+      "score": 54,
+      "heuristicScore": 13,
+      "tier": "notable",
+      "why": "9 upvotes on Hugging Face."
+    },
+    {
+      "id": "2610.36544",
+      "title": "Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors",
+      "authors": [
+        "Siddharth Jain",
+        "Venkat N. Vedam"
+      ],
+      "abstract": "Classification accuracy and true-positive and false-positive rates alone do not determine whether restarting an AI agent improves success. Using an exact alarm-to-action identity for an independent clean restart with zero monitoring overhead, we show analytically that a monitor with fixed 90% accuracy can swing from a five-percentage-point loss to a 35-point gain in success rate, depending solely on the replacement attempt's residual-budget success probability. We introduce two techniques for evaluating monitors and progress signals in decision terms. First, a decision-sufficiency criterion, a binary-action specialization of Blackwell's comparison of experiments, identifies which progress representations or context compressions preserve the information needed to choose optimally between the specified actions, independent of trace reconstruction fidelity. Second, a finite-sample, model-free decision audit uses simultaneous binomial intervals over existing agent traces, without additional model calls, to certify a preference for \"restart\" or \"continue\" under stated sampling assumptions, or return \"abstain\" when evidence is insufficient. In a study of 194 externally evaluated model executions on 19 selected SymPy issues from SWE-bench Verified, with a retrospective audit of 130 of these traces, we find a 2.29-point apparent restart gain traced to a single surviving failed attempt, a 42.29-point loss on a second model, no positive replication of the initial gain on prospective task cohorts, and zero of 103 live comparisons meeting the specified certification bar. These results motivate evaluating agent monitors through recovery opportunity, decision value, and statistical support, rather than classification performance alone.",
+      "categories": [],
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 3,
+        "comments": 3,
+        "organization": "Intuit"
+      },
+      "url": "https://arxiv.org/abs/2610.36544",
+      "pdfUrl": "https://arxiv.org/pdf/2610.36544",
+      "topics": [
+        "Agents"
+      ],
+      "score": 54,
+      "heuristicScore": 13,
+      "tier": "notable",
+      "why": "Matches Agents · 3 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.05593",
+      "title": "GaussianRenderFormer: Transformer-based Rendering of 3D Gaussian Splats",
+      "authors": [
+        "Shahaf Valencia Levy",
+        "Sagie Benaim"
+      ],
+      "abstract": "Can a neural network learn to render 3D Gaussian splats on its own, with no rasterizer in the renderer? We present GaussianRenderFormer, a transformer that takes a set of Gaussians and a camera and outputs the image directly. Each Gaussian becomes one token in a view-independent encoder, and a view-dependent decoder turns small patches of camera rays into pixels by attending to those tokens. Trained on 26,820 Objaverse objects pruned to 20,000 Gaussians each, GaussianRenderFormer renders 300 unseen objects at 38.08 dB PSNR against the full, unpruned splats, while rasterizing the same pruned input reaches 44.02 dB. The gap is not one of generalization, and our diagnostics are consistent with a bottleneck in the view decoder: telling it the projected footprint of each Gaussian, which it could in principle infer, adds 1.4 dB. Under-training is not ruled out. Code, trained models and videos: https://svlwoof.github.io/gaussianrenderformer",
+      "categories": [],
+      "publishedAt": "2026-11-03T20:26:14.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 3,
+        "comments": 2,
+        "organization": "The Hebrew University of Jerusalem",
+        "githubRepo": "https://github.com/SVLwoof/gaussianformer"
+      },
+      "url": "https://arxiv.org/abs/2611.05593",
+      "pdfUrl": "https://arxiv.org/pdf/2611.05593",
+      "topics": [
+        "Language Models"
+      ],
+      "score": 54,
+      "heuristicScore": 13,
+      "tier": "notable",
+      "why": "Matches Language Models · 3 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.08376",
+      "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+      "authors": [
+        "Tushaar Gangavarapu",
+        "Gil Tabak",
+        "Clemens JS Schaefer"
+      ],
+      "abstract": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference. Gated delta-rule models decay this state and erase its prediction for an incoming key before writing a new value; Gated DeltaNet-2 (GDN-2) generalizes this with channel-wise decay and decoupled, full-rank erase and write gates. However, we show that state updates are far less sensitive to erasure than to writes: key activation and unit normalization concentrate key energy onto a sparse subset of channels, whereas value writes scale all channels, so the erase gate can be parameterized at lower rank. Furthermore, slow-decaying state rows accumulate much larger norms than fast rows, dominating unweighted readout and forcing stronger write-time erasure to suppress interference. Guided by this analysis, we introduce Muir, which fuses all gates into a sensitivity-allocated low-rank projection, re-weights state rows with a matched-filter readout gate, and reinvests the saved parameters in a wider feed-forward network. Because standard chunkwise algorithms become numerically unstable at the large chunk sizes needed to saturate wide matrix units, we design a parallel update for stable, efficient training. Across 166M-1.34B parameters, Muir lowers perplexity by 1.8-2.0% over GDN-2 and 2.5-3.6% over Transformer, raises commonsense accuracy by up to 1.9 points, and improves extractive recall over GDN-2. At 1.34B, Muir outperforms both baselines on multi-hop and multi-needle recall, extrapolates 2,560x from its 4K training length to 10M-token streams without perplexity drift, and maintains near-100% passkey retrieval to 1M tokens with static readout. Muir achieves these gains while matching GDN-2 throughput, reaching its 100B-token validation loss 1.2x faster, and training 2.7x faster than Transformer at 32K.",
+      "categories": [],
+      "publishedAt": "2026-11-05T17:53:49.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 6,
+        "comments": 2,
+        "organization": "Google"
+      },
+      "url": "https://arxiv.org/abs/2611.08376",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08376",
+      "topics": [
+        "Language Models"
+      ],
+      "score": 52,
+      "heuristicScore": 12.4,
+      "tier": "notable",
+      "why": "Matches Language Models · 6 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.05988",
+      "title": "LiveFoley: Dynamic Real-Time Video-to-Audio Generation for Immersive Interactive Worlds",
+      "authors": [
+        "Yusheng Dai",
+        "Vladimir Iashin",
+        "Kangdi Wang",
+        "Yuxuan Jiang",
+        "Ilpo Viertola",
+        "Weiqiang Wang",
+        "Qiuhong Ke",
+        "Min Zhao",
+        "Jianfei Cai"
+      ],
+      "abstract": "Streaming video-to-audio (V2A) generation is essential for immersive interactive applications. However, real-time constraints leave existing streaming V2A methods far behind offline models: (1) visual frontends shrink their receptive fields to cut look-ahead latency, severely degrading audio-visual alignment; (2) causal autoregressive diffusion backends denoise each audio patch in isolation, impairing audio quality. To this end, we present LiveFoley, a streaming causal autoregressive diffusion architecture that addresses both bottlenecks with imperceptible latency. For the visual frontend, we introduce a Trailing Sliding Window that converts non-causal segment-level encoders into streaming modules without retraining. By simply realigning the window, it preserves precise audio-visual alignment, while a configurable hop size reduces the frontend look-ahead well below the human perceptual threshold. Building on this tunable hop size, we propose the Unified Varhop Framework to accommodate scenarios with diverse latency and computation budgets. For the audio backend, we explore widening the denoising window of the local diffusion transformer (LocDiT) head in two temporal directions. History LocDiT adds past context to improve quality at no latency cost and serves as our default. Alternatively, Future-Warmup LocDiT breaks the autoregressive deadlock with an approximate future condition, further improving generation quality at the cost of an acceptable backend look-ahead. Extensive experiments demonstrate that LiveFoley matches offline models in temporal alignment and leads streaming systems in generation quality. Project page: https://dalision.github.io/livefoley-page/",
+      "categories": [],
+      "publishedAt": "2026-11-04T05:35:42.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 4,
+        "comments": 2,
+        "githubRepo": "https://github.com/dalision/livefoley"
+      },
+      "url": "https://arxiv.org/abs/2611.05988",
+      "pdfUrl": "https://arxiv.org/pdf/2611.05988",
+      "topics": [
+        "Alignment & Safety",
+        "Language Models"
+      ],
+      "score": 51,
+      "heuristicScore": 12.2,
+      "tier": "notable",
+      "why": "Matches Alignment & Safety and Language Models · 4 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.03394",
+      "title": "TaoMate-HD: Progressive-Resolution Autoregressive Audio-Video Generation",
+      "authors": [
+        "Qijun Gan",
+        "Chenwei Zhang",
+        "Xinyang Li",
+        "Meiguang Jin",
+        "Junfeng Ma",
+        "Shen Qiu"
+      ],
+      "abstract": "Streaming digital humans produce detailed video while continuing speech as new text arrives. High-resolution denoising is costly, and text updates can cause repeated or interrupted speech. We present TaoMate-HD, an autoregressive model for high-resolution audio-video streaming. For each short segment, or chunk, two denoising steps establish coarse video structure at low resolution. A final step refines the video to high resolution, with audio generated throughout the same trajectory. Each stage passes its audiovisual predictions to the same stage of the next chunk as history. Across text updates, the model retains this history to infer what has already been spoken. Continuation training utilizes asymmetric text conditioning, with separate text windows for generation and distillation. Experiments show a 1.6x speedup over direct high-resolution generation with the same model and hardware. Optimized stage-parallel deployment provides a further 1.9x overall speedup over serial progressive generation. Our continuation training reduces character error rate by 11.18 percentage points relative to the baseline. The model also supports hour-long audiovisual generation. Our project page is https://taoliveaigc.github.io/TaoMate-HD.",
+      "categories": [],
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 2,
+        "comments": 2,
+        "organization": "TaoLive AIGC",
+        "githubRepo": "https://github.com/TaoLiveAIGC/TaoMate-HD"
+      },
+      "url": "https://arxiv.org/abs/2611.03394",
+      "pdfUrl": "https://arxiv.org/pdf/2611.03394",
+      "topics": [
+        "Multimodal & Vision",
+        "Efficiency"
+      ],
+      "score": 48,
+      "heuristicScore": 11.6,
+      "tier": "notable",
+      "why": "Matches Multimodal & Vision and Efficiency · 2 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.07298",
+      "title": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
+      "authors": [
+        "Seongtae Hong",
+        "Youngjoon Jang",
+        "Jungseob Lee",
+        "Chanjun Park",
+        "Heuiseok Lim"
+      ],
+      "abstract": "Embedding models compress variable-length text into fixed-size vector representations, but this compression can entangle semantic content with residual token-level information, such as artifacts arising from attention sink behavior. We propose a simple method that prepends trainable [DUMP] tokens to the input during embedding model training. The method keeps the model architecture, pooling strategy, and training loss unchanged, while optimizing the added tokens through the standard contrastive retrieval objective. By introducing trainable prefix positions that interact with regular tokens during encoding, [DUMP] tokens help reduce the influence of residual or uninformative token-level signals on the final retrieval representation. Experiments on standard retrieval and long-context benchmarks show that our method consistently improves over finetuned baselines across encoder and decoder embedding models. Further analysis shows that [DUMP] tokens alter token-level activation and attention patterns associated with low-information tokens. These results suggest that trainable prefix tokens provide a lightweight way to improve retrieval representations.",
+      "categories": [],
+      "publishedAt": "2026-11-05T01:30:28.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 4,
+        "comments": 1,
+        "organization": "NLP & AI - Korea University"
+      },
+      "url": "https://arxiv.org/abs/2611.07298",
+      "pdfUrl": "https://arxiv.org/pdf/2611.07298",
+      "topics": [
+        "Evaluation"
+      ],
+      "score": 46,
+      "heuristicScore": 11,
+      "tier": "notable",
+      "why": "Matches Evaluation · 4 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.03768",
+      "title": "Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention",
+      "authors": [
+        "Serdarcan Dilbaz",
+        "Arjun Krishna",
+        "Kiran Kamble",
+        "Daniel M. Bikel"
+      ],
+      "abstract": "Sparse attention cuts the cost of long-context inference by making the attention matrix sparse: each query attends only a subset of the sequence, chosen by a fixed pattern or, in recent production LLMs, learned per query. In DeepSeek Sparse Attention (DSA), the attention of DeepSeek-V3.2 and the GLM-5 family, every layer is preceded by a lightning indexer that scores the whole cache and keeps the k=2048 highest-scoring tokens for the layer to attend. At long context this indexer scan, not the sparse attention it feeds, is where the decode time goes. But adjacent layers select nearly the same tokens, so a layer can attend the selection of the previous indexer layer instead of its own. This removes the dependency: each indexer then runs concurrently with the attention of its layer. The resulting Multi-layer Indexer (MLI) needs no retraining and no new weights. Its default realization changes no kernel, running inside SGLang's production decode graph; an optional fused decode kernel accelerates it further on DeepSeek-V3.2. MLI composes with IndexCache (the cross-layer reuse GLM-5.2 ships as IndexShare): IndexCache drops the indexer from some layers, and MLI hides the scan on the rest. We serve DeepSeek-V3.2 and GLM-5 under IndexCache's protocol at retentions 1/2 to 1/32 (the fraction of layers that keep an indexer) and contexts 10K to 195K. At equal retention the composition decodes faster than IndexCache: up to 14.5% faster on DeepSeek-V3.2 and 9.8% on GLM-5 at 1/2, and 7.9% and 5.1% at 1/4, largest where IndexCache keeps the most indexers and growing with context. At retention 1/r it is faster still than IndexCache at 1/(2r) while keeping twice the fresh selections: at 128K it reaches 1.32x the unmodified model's decode throughput at 1/4, above IndexCache's 1.28x at 1/8. Its LongBench, RULER and LongBench v2 accuracy stays within a few percentage points of IndexCache's.",
+      "categories": [],
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 4,
+        "comments": 2,
+        "organization": "Writer",
+        "githubRepo": "https://github.com/ArjunKrishnak/dsa-multi-layer-indexer"
+      },
+      "url": "https://arxiv.org/abs/2611.03768",
+      "pdfUrl": "https://arxiv.org/pdf/2611.03768",
+      "topics": [
+        "Language Models"
+      ],
+      "score": 46,
+      "heuristicScore": 11,
+      "tier": "notable",
+      "why": "Matches Language Models · 4 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.04760",
+      "title": "Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting",
+      "authors": [
+        "Raz Marshanski",
+        "Liran Nochumsohn",
+        "Mayank Jauhari",
+        "Boris N. Oreshkin",
+        "Omri Azencot"
+      ],
+      "abstract": "Probabilistic time-series forecasting requires models that simultaneously capture structured temporal dynamics, expressive uncertainty, and efficient inference, yet existing approaches fall short of this goal: latent dynamical models impose structure but rely on restrictive generation mechanisms, while modern generative methods such as diffusion and flow matching achieve flexibility at the cost of iterative and computationally expensive sampling. We introduce the Koopman Generative Operator (KGO), a probabilistic forecasting method that conceptualizes prediction as the evolution of structured uncertainty. KGO integrates three core components: (1) Koopman Patch Embedding (KoPE) for temporally consistent latent trajectory extrapolation; (2) Koopman Flow Matching (KoFM), which enables fast, single-step generation through a closed-form matrix exponential in a Koopman latent space, bypassing iterative sampling; and (3) an Adaptive Uncertainty Gate (AUG), which provides probabilistic forecasts by adapting uncertainty per-variable and per-horizon, corresponding to a learned decomposition of aleatoric uncertainty without manual tuning. By unifying these components, KGO achieves state-of-the-art accuracy on 13/17 ProbTS benchmarks in CRPS and 16/17 in NMAE. Further, by eliminating iterative sampling, KGO delivers at least a 25times reduction in inference time compared to iterative generative models. These results position KGO as a practical and principled framework that advances the accuracy-efficiency trade-off in probabilistic time-series forecasting, combining leading accuracy on the evaluated benchmarks with fast, single-step generation.",
+      "categories": [],
+      "publishedAt": "2026-11-03T12:08:37.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 3,
+        "comments": 2,
+        "organization": "The Sequential Learning Group",
+        "githubRepo": "https://github.com/azencot-group/KGO"
+      },
+      "url": "https://arxiv.org/abs/2611.04760",
+      "pdfUrl": "https://arxiv.org/pdf/2611.04760",
+      "topics": [
+        "Evaluation",
+        "Efficiency"
+      ],
+      "score": 45,
+      "heuristicScore": 10.8,
+      "tier": "notable",
+      "why": "Matches Evaluation and Efficiency · 3 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.06042",
+      "title": "UniRestorer++: Scalable Universal Image Restoration with Multi-Granularity Degradation Modeling",
+      "authors": [
+        "Jingbo Lin",
+        "Zhilu Zhang",
+        "Fan Li",
+        "Renjing Pei",
+        "Wenbo Li",
+        "Hang Xu",
+        "Hongzhi Zhang",
+        "Wangmeng Zuo"
+      ],
+      "abstract": "Universal image restoration aims to handle diverse degradations within a single model, but a reliable scaling strategy remains underexplored. Increasing backbone depth and width can lead to performance saturation, while degradation-aware specialization depends on accurate degradation estimation and is vulnerable to errors on out-of-distribution and real-world inputs. We propose UniRestorer++, a scalable framework based on multi-granularity degradation modeling. It progressively refines degradation groups and introduces group-specific experts, coupling capacity growth with specialization. Degradation-estimation-based routing selects a root-to-leaf path, while granularity-estimation-based routing chooses a level along that path to balance specialization and robustness. Spatially dense degradation representation maps further enable region-aware routing for spatially non-uniform corruptions. We develop CDD-50, a benchmark covering 50 degradation categories from single to penta-degradation. Experiments show approximately log-linear PSNR trends over the evaluated model-size range and stronger scaling gains on out-of-distribution and real-world data than vanilla MoE scaling. UniRestorer++ achieves state-of-the-art performance across benchmarks and demonstrates zero-shot generalization and few-shot transfer on real-world images. Code: https://github.com/mrluin/UniRestorer_plusplus",
+      "categories": [],
+      "publishedAt": "2026-11-04T06:46:47.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 2,
+        "comments": 3,
+        "githubRepo": "https://github.com/mrluin/UniRestorer_plusplus"
+      },
+      "url": "https://arxiv.org/abs/2611.06042",
+      "pdfUrl": "https://arxiv.org/pdf/2611.06042",
+      "topics": [
+        "Robustness & Continual Learning",
+        "Evaluation"
+      ],
+      "score": 45,
+      "heuristicScore": 10.8,
+      "tier": "notable",
+      "why": "Matches Robustness & Continual Learning and Evaluation · 2 upvotes on Hugging Face."
+    },
+    {
+      "id": "2610.40119",
+      "title": "SynthFaces: Balanced Large Scale Human Dataset",
+      "authors": [
+        "Sergey Karpukhin",
+        "Denis Bobkov",
+        "Kirill Morozov",
+        "Aibek Alanov"
+      ],
+      "abstract": "The pursuit of fair and equitable AI in human-centric tasks is critically hindered by the inherent biases and privacy risks of real-world datasets, which offer imbalanced representations of identity and often contain sensitive personal information. Consequently, state-of-the-art generative models trained on this skewed data exhibit unfair performance, particularly in identity-preserving generation. In this work we propose a pipeline for controllable generation of dataset with diverse faces for generative models training and finetuning. We achieve this by expanding foundational Arc2Face diffusion model with a flow matching generative model in the manifold of identity embeddings. We demonstrate that such approach achieves both goals of generative fidelity and label diversity not present in real human-centric datasets. As a result we collect and further contextualize a highly balanced identity-centric dataset of humans named SynthFaces. By design, our released images and identities are synthetic, reducing direct reliance on real personal images; we empirically check identity separation with a nearest-neighbor non-leakage metric. We purpose it for training and tuning of fair models for various downstream tasks, and showcase its usability in finetuning an existing adapter-based method for personalized generation.",
+      "categories": [],
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 1,
+        "comments": 2,
+        "githubRepo": "https://github.com/ControlGenAI/SynthFaces"
+      },
+      "url": "https://arxiv.org/abs/2610.40119",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40119",
+      "topics": [
+        "Data",
+        "Multimodal & Vision"
+      ],
+      "score": 43,
+      "heuristicScore": 10.2,
+      "tier": "notable",
+      "why": "Matches Data and Multimodal & Vision · 1 upvotes on Hugging Face."
+    },
+    {
+      "id": "2610.41789",
+      "title": "Hard Sample-Conditioned Decorrelated Attention for Robust Face Recognition",
+      "authors": [
+        "Tahar Chettaoui",
+        "Guray Ozgur",
+        "Eduarda Caldeira",
+        "Naser Damer",
+        "Fadi Boutros"
+      ],
+      "abstract": "Multi-head attention in Vision Transformers (ViTs) allows independent attention patterns across heads, but without explicit regularization, heads may learn redundant patterns rather than complementary roles. Correlation-based penalties encourage head disentanglement, yet apply uniform regularization across all training samples. In face recognition (FR), hard samples whose embeddings lie close to competing identities are critical for optimization and generalization. Motivated by this, we propose ViT-HarDis, which conditions attention head disentanglement on sample difficulty: samples with high cosine similarity to negative class centers receive stronger head decorrelation, enforcing specialization where identity ambiguity is highest. Experiments show improvements over both the baseline and uniform disentanglement on most benchmarks. Our analysis shows that ViT-HarDis reduces the similarity of hard samples to competing class centers while decreasing inter-head attention similarity, and that applying disentanglement only to the final transformer layers outperforms regularizing the entire network. Trained on WebFace4M, ViT-HarDis achieves SOTA results among ViT-based methods on IJB-B, IJB-C, and TinyFace Rank-1, while achieving the best IJB-B and TinyFace results when trained on MS1MV3, improving FR without architectural modifications or additional inference cost. Code: https://github.com/TaharChettaoui/Hard-Sample-Conditioned-Attention-for-FR.",
+      "categories": [],
+      "publishedAt": "2026-10-30T14:21:43.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 2,
+        "comments": 4,
+        "organization": "Fraunhofer IGD"
+      },
+      "url": "https://arxiv.org/abs/2610.41789",
+      "pdfUrl": "https://arxiv.org/pdf/2610.41789",
+      "topics": [
+        "Language Models",
+        "Evaluation"
+      ],
+      "score": 41,
+      "heuristicScore": 9.8,
+      "tier": "notable",
+      "why": "Matches Language Models and Evaluation · 2 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.06498",
+      "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
+      "authors": [
+        "Georgios Feretzakis",
+        "Alexandros Papaspyridis"
+      ],
+      "abstract": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text and precomputed embedding vectors. A signature proves who published a pack, not that its vectors encode its text. We study this text-vector integrity gap. A verifier that recomputes vectors and accepts them within a cosine tolerance concedes a predictable share of queries to an attacker who controls the vectors: the hijack rate equals the distribution of angular retrieval margins at the tolerance (the margin law). Margins are small in five corpora and two embedding models, so an idealised tolerance at the level of floating-point noise leaves up to 5.5% of queries exposed (at most 1.2% in any corpus once exact duplicate documents are excluded), and a threshold calibrated from our CPU INT8-FP32 comparison of a small embedding model (at the empirical 0.1% quantile of honest cosines) leaves 98-100% exposed; on a Raspberry Pi 5 running a local language model, such an attack lowers correct answers from 0.75 to 0.39. Integrity audits of compressed vector stores fare no better: on a FAISS product-quantisation index over 57,638 documents, tampered vectors that all pass the audit put the attacker's document first for 25% of targets. Verifying quantisation codes instead, with ambiguity decided by the verifier, a calibrated guard band and canonicalisation, accepted every honest vector in our samples on three platforms and left the publisher no choice. We also show that common floating-point and dynamic-INT8 inference pipelines are not bit-reproducible across batch sizes or architectures, and report pre-registered negative results on abstention, context pruning and semantic screening. We release code and data.",
+      "categories": [],
+      "publishedAt": "2026-11-04T13:32:04.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 2,
+        "comments": 3,
+        "organization": "securagen.ai P.C.",
+        "githubRepo": "https://github.com/securagenai/signed-but-steerable"
+      },
+      "url": "https://arxiv.org/abs/2611.06498",
+      "pdfUrl": "https://arxiv.org/pdf/2611.06498",
+      "topics": [
+        "Language Models",
+        "Efficiency"
+      ],
+      "score": 40,
+      "heuristicScore": 9.6,
+      "tier": "radar",
+      "why": "Matches Language Models and Efficiency · 2 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.05029",
+      "title": "DRAP: Dynamics-Risk Adaptive Plasticity for Continual Learning in Physical AI",
+      "authors": [
+        "Oswaldo Ludwig"
+      ],
+      "abstract": "Continual learning in physical AI differs from conventional continual learning because small per-step policy errors can accumulate over a trajectory. Each deviation may move the agent outside the training distribution, increase subsequent prediction errors, and ultimately cause closed-loop task failure. This work introduces Dynamics-Risk Adaptive Plasticity (DRAP), a replay-free method that estimates the historical importance of adaptable model tensors from sample-level action gradients weighted by local trajectory-amplification risk. A ridge-regularized local linear model is fitted to expert state-action transitions, and the largest singular value of its state-transition matrix provides a policy-independent, Lyapunov-inspired estimate of one-step perturbation amplification. After each task, risk-weighted squared gradients are accumulated in a tensor-level importance memory. During subsequent tasks, DRAP uses normalized cumulative importance to scale the effective AdamW learning rate of each tensor, immediately reducing the plasticity of components that supported previous behavior at dynamically sensitive trajectory points. We instantiate DRAP on a fixed KappaTune-selected subnetwork of OpenVLA and evaluate replay-free sequential adaptation across the LIBERO Spatial, Object, and Goal suites. Compared with standard AdamW fine-tuning and EWC, the results show substantially improved retention of previously learned behaviors while preserving strong new-suite acquisition.",
+      "categories": [],
+      "publishedAt": "2026-11-03T15:05:06.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 0,
+        "comments": 2,
+        "githubRepo": "https://github.com/oswaldoludwig/DRAP-Dynamics-Risk-Adaptive-Plasticity"
+      },
+      "url": "https://arxiv.org/abs/2611.05029",
+      "pdfUrl": "https://arxiv.org/pdf/2611.05029",
+      "topics": [
+        "Robustness & Continual Learning",
+        "Agents"
+      ],
+      "score": 33,
+      "heuristicScore": 8,
+      "tier": "radar",
+      "why": "Matches Robustness & Continual Learning and Agents · 0 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.04949",
+      "title": "HERIT: Enabling Global Access to Hanja-to-English Historical Translation by Mitigating Temporal Bias",
+      "authors": [
+        "Dayeon Jeong",
+        "Kyeongpil Kang"
+      ],
+      "abstract": "Historical archives are invaluable for multidisciplinary research but remain inaccessible globally due to severe language barriers. While manual translation is prohibitively expensive and time-consuming, simply applying existing machine translation models is inadequate due to unique linguistic nuances and the temporal bias inherent in scarce human-labeled corpora. To address these challenges, we propose HERIT, a systematic domain-adaptation pipeline that leverages retrieval-augmented generation (RAG) to generate high-quality pseudo-labeled data from abundant Hanja-Korean corpora. This approach substantially expands the training dataset, mitigating both data scarcity and temporal overfitting across different historical periods. Extensive automated and human evaluations demonstrate that HERIT consistently outperforms baselines. Finally, we translate previously untranslated portions of the archives using our model, thereby enabling global access to these resources for researchers.",
+      "categories": [],
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 1,
+        "comments": 2,
+        "organization": "DAMI Lab",
+        "githubRepo": "https://github.com/dandamdandam/HERIT"
+      },
+      "url": "https://arxiv.org/abs/2611.04949",
+      "pdfUrl": "https://arxiv.org/pdf/2611.04949",
+      "topics": [
+        "Data"
+      ],
+      "score": 28,
+      "heuristicScore": 6.8,
+      "tier": "radar",
+      "why": "Matches Data · 1 upvotes on Hugging Face."
+    }
+  ],
+  "dispatches": [
+    {
+      "id": "d8b2a306eae7",
+      "title": "[AINews] Anthropic IPO: Whither Now?",
+      "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+      "source": "Latent Space",
+      "kind": "newsletter",
+      "date": "2026-11-07T03:04:53.000Z",
+      "summary": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails."
+    },
+    {
+      "id": "44d3b851d9be",
+      "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+      "url": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
+      "source": "Latent Space",
+      "kind": "newsletter",
+      "date": "2026-11-06T15:10:53.000Z",
+      "summary": "As systems biology efforts heat up to map biology at higher resolution, greater breadth and more modalities, Fabian Theis is pushing the frontier from mapping to predicting to controlling biology"
+    },
+    {
+      "id": "bc8f9eac1966",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "source": "OpenAI",
+      "kind": "lab",
+      "date": "2026-11-06T08:00:00.000Z",
+      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI."
+    },
+    {
+      "id": "9350ae34d964",
+      "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+      "url": "https://latent.space/p/arca/",
+      "source": "Latent Space",
+      "kind": "newsletter",
+      "date": "2026-10-31T16:05:00.000Z",
+      "summary": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days."
+    }
+  ],
+  "topics": [
+    {
+      "name": "Language Models",
+      "count": 12
+    },
+    {
+      "name": "Agents",
+      "count": 9
+    },
+    {
+      "name": "Evaluation",
+      "count": 8
+    },
+    {
+      "name": "Multimodal & Vision",
+      "count": 5
+    },
+    {
+      "name": "Efficiency",
+      "count": 4
+    },
+    {
+      "name": "Reasoning",
+      "count": 2
+    },
+    {
+      "name": "Data",
+      "count": 2
+    },
+    {
+      "name": "Alignment & Safety",
+      "count": 1
+    },
+    {
+      "name": "Robustness & Continual Learning",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "screened": 71,
+    "matched": 25,
+    "alreadyFeatured": 46,
+    "published": 25
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "edition": "medical",
+  "date": "2026-11-07",
+  "number": 4,
+  "generatedAt": "2026-11-07T13:24:31.367Z",
+  "editor": {
+    "mode": "heuristic",
+    "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
+  },
+  "lede": null,
+  "readFirst": [
+    {
+      "id": "2611.08227",
+      "why": "Matches Genomics & Omics.",
+      "takeaway": "Functional clustering identifies coordinated molecular profiles, but repeated numerical covariance optimization can make mixture-model fitting computationally demanding."
+    }
+  ],
+  "papers": [
+    {
+      "id": "2611.08227",
+      "title": "Fast Functional Clustering via Closed-Form Covariance Updates",
+      "authors": [
+        "Yu Wang",
+        "Jiaze Guo",
+        "Yao Chen",
+        "Tianxiang Hao",
+        "Rongling Wu"
+      ],
+      "abstract": "Functional clustering identifies coordinated molecular profiles, but repeated numerical covariance optimization can make mixture-model fitting computationally demanding. We develop a fast functional clustering procedure for joint analysis across conditions, combining linear mean profiles on a standardized log niche coordinate with first-order structured antedependence (SAD(1)) covariance. Weighted residual statistics yield closed-form conditional covariance updates under four parameter-sharing specifications, while an innovation representation simplifies likelihood evaluation. In same-R comparisons with numerical optimization of identical conditional objectives, the closed-form solver was 91.5--201.4 times as fast, with objective agreement in all 60 targets. Under matched complete mixture fits, it achieved a 1.87--2.37-fold speedup with identical cluster assignments. Recovery simulations showed higher module classification accuracy and lower mean-curve error than $K$-means and a Gaussian mixture with shared full covariance when the mean structure was correctly specified. SAD(1) provided an additional recovery gain under strong residual correlation, whereas curved-mean controls identified the importance of an appropriate mean family. Applications to single-condition gut microbiota, paired leaf--root microbiota and three-visit human gut multi-omics illustrate the framework across different numbers of conditions. Closed-form covariance estimation makes joint functional clustering substantially faster while retaining the fitted model's likelihood and assignments.",
+      "categories": [
+        "stat.CO",
+        "stat.AP"
+      ],
+      "publishedAt": "2026-11-05T16:11:32Z",
+      "sources": [
+        "search"
+      ],
+      "url": "https://arxiv.org/abs/2611.08227",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08227",
+      "topics": [
+        "Genomics & Omics"
+      ],
+      "score": 100,
+      "heuristicScore": 3,
+      "tier": "lead",
+      "why": "Matches Genomics & Omics."
+    }
+  ],
+  "dispatches": [],
+  "topics": [
+    {
+      "name": "Genomics & Omics",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "screened": 81,
+    "matched": 1,
+    "alreadyFeatured": 10,
+    "published": 1
+  }
+}

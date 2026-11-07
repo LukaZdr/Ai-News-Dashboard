@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-07",
+    "number": 4,
+    "headline": "Fast Functional Clustering via Closed-Form Covariance Updates",
+    "published": 1
+  },
+  {
     "date": "2026-11-06",
     "number": 3,
     "headline": "Interpretable Multimodal MRI-Clinical Fusion for Functional Outcome Prediction After Acute Ischemic Stroke",
