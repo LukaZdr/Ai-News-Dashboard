@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-09",
+    "number": 5,
+    "headline": "Interpretable Context-Aware Multi-Label Retinal Classification with Dual-Hub Heterogeneous Graph Neural Network",
+    "published": 31
+  },
+  {
     "date": "2026-11-07",
     "number": 4,
     "headline": "Fast Functional Clustering via Closed-Form Covariance Updates",

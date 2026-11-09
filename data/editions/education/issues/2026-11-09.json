@@ -1,0 +1,203 @@
+{
+  "edition": "education",
+  "date": "2026-11-09",
+  "number": 4,
+  "generatedAt": "2026-11-09T16:45:09.613Z",
+  "editor": {
+    "mode": "heuristic",
+    "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
+  },
+  "lede": null,
+  "readFirst": [
+    {
+      "id": "2611.09177",
+      "why": "Matches Learners & Classrooms and Programming Education.",
+      "takeaway": "Large language models (LLMs) play an increasing role in programming education, challenging traditional assessment methods as they can generate fully functional code instantly."
+    },
+    {
+      "id": "2611.09356",
+      "why": "Matches Student Modelling.",
+      "takeaway": "We examine opportunities for neurosymbolic AI alongside increasingly powerful neural models, particularly with regards to efficiency, safety and interpretability."
+    },
+    {
+      "id": "2611.08959",
+      "why": "Matches Learners & Classrooms.",
+      "takeaway": "Weak supervisors are usually judged by their own errors, but what matters is what a student learns from them."
+    }
+  ],
+  "papers": [
+    {
+      "id": "2611.09177",
+      "title": "Analyzing Code Provenance in LLMs for Programming Education",
+      "authors": [
+        "Subhankar Maity",
+        "Faiza Belbachir",
+        "Omar Boucelma",
+        "Guilherme Medeiros Machado"
+      ],
+      "abstract": "Large language models (LLMs) play an increasing role in programming education, challenging traditional assessment methods as they can generate fully functional code instantly. This disrupts the reliability of student submissions as indicators of learning and effort. To address this issue, code provenance is essential for tracing the origins of code and distinguishing student-authored, AI-generated, and externally sourced components. We extend the Min-K% probability approach by incorporating synthetic non-member code generation and apply it to Python code for membership inference and provenance tracking. Evaluations cover free LLMs such as GPT-2, DistilGPT-2, and DialoGPT, as well as state-of-the-art commercial models including GPT-5, Gemini 2.5, Mistral, DeepSeek, and LLaMA 3.3. Before evaluating our approach on higher-education student assignments, we validate its feasibility using Stack Overflow data. The results show that free models enable more sensitive code memorization detection than commercial models. By systematically comparing these LLMs, we assess trade-offs between detection accuracy and privacy protection, taking an initial step toward effective assessment of AI-assisted programming education through combined provenance detection and process visibility.",
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-09T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.09177",
+      "pdfUrl": "https://arxiv.org/pdf/2611.09177",
+      "topics": [
+        "Learners & Classrooms",
+        "Programming Education"
+      ],
+      "score": 100,
+      "heuristicScore": 11.2,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms and Programming Education."
+    },
+    {
+      "id": "2611.09356",
+      "title": "Challenges, Opportunities, and Misconceptions in Neurosymbolic AI",
+      "authors": [
+        "Giuseppe Marra",
+        "Pierre Genev\\`es",
+        "Meghyn Bienvenu",
+        "Thomas Schiex",
+        "Sylvie Thi\\'ebaux",
+        "Silviu Maniu"
+      ],
+      "abstract": "We examine opportunities for neurosymbolic AI alongside increasingly powerful neural models, particularly with regards to efficiency, safety and interpretability. We identify two major challenges: ensuring semantic alignment between neural and symbolic components, and managing the computational cost of symbolic inference and learning. We discuss representative methodological approaches to these challenges and address several common misconceptions concerning differentiability, independence assumptions, and scalability. This paper synthesizes perspectives developed through discussions in the Neurosymbolic Programming and Reasoning (NPR) working group at the 2026 CNRS workshop Neurosymbolic Methods and Their Applications in Data Science, rather than providing an exhaustive survey.",
+      "categories": [
+        "cs.AI"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-09T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.09356",
+      "pdfUrl": "https://arxiv.org/pdf/2611.09356",
+      "topics": [
+        "Student Modelling"
+      ],
+      "score": 57,
+      "heuristicScore": 6.4,
+      "tier": "lead",
+      "why": "Matches Student Modelling."
+    },
+    {
+      "id": "2611.08959",
+      "title": "Accuracy Is Not Value: Choosing Weak Supervisors by What the Student Inherits",
+      "authors": [
+        "Romano Li",
+        "Xunfan Cai"
+      ],
+      "abstract": "Weak supervisors are usually judged by their own errors, but what matters is what a student learns from them. For squared loss and any linear learner shared by all supervisors, we show that a supervisor's value is determined by its errors after they pass through the student's learning operator. Consequently, the inner products of the supervisors' raw errors can be compatible with every feasible value of the student's risk, and weighting supervisors by them can be arbitrarily worse than the best weighting in relative excess risk. This student-relative value is not identifiable from unlabeled data, but what is missing is small: one finite-dimensional projection of the target decides whether training on a weak aggregate helps, another decides how to weight the supervisors. Known teacher training rules, or a label-model condition stated in student-relative form, shrink it further. Clean labels close the remaining gap at a cost set by the geometry of the unresolved directions rather than by the dimension of the student's representation, with matching worst-case lower bounds. In Gaussian designs we also quantify when exact teacher structure beats ordinary stacking and when weak supervisors, combined with clean labels, beat every procedure that uses the clean labels alone. The guarantees extend to fitted ridge students and finite unlabeled data.",
+      "categories": [
+        "cs.LG"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-09T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.08959",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08959",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 54,
+      "heuristicScore": 6,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.08749",
+      "title": "How are viral trends different from educational and commercial uses of LLM image generation and editing? A privacy-preserving descriptive analysis",
+      "authors": [
+        "Will Tucker-Ray",
+        "Marika Swanberg",
+        "Alexander Knop",
+        "Marvin Chow",
+        "Eric Culbertson",
+        "Julian Jacobs",
+        "Pritish Kamath",
+        "Ravi Kumar",
+        "Jason Mothersill",
+        "Mikhail Pravilov",
+        "Eugene Quan",
+        "Yurii Sushko"
+      ],
+      "abstract": "Gemini's Nano Banana models, first introduced in late 2025, led to a shift in the capabilities and use of image generation and editing. We utilize Urania, a Google-developed framework for generating insights about LLM chatbot interactions with rigorous differential privacy (DP) guarantees, to analyze use cases and intents, techniques and ways of prompting, without ever looking at a single image or individual prompt. We select a subsample of 2.1M conversations in early 2026 which utilized Nano Banana models, into roughly 800 clusters in five categories: (1) Social & Viral Sharing, (2) Brand & Marketing Collateral, (3) Educational & Technical Information Media, (4) Product Visualizations & E-commerce, and (5) Architectural & Spatial Designs. We then compare these clusters on 21 features of use, measuring aspects of prompts' (a) editing techniques, (b) artistic style requests, (c) composition, and (d) chatbot interactions. This allows us to describe a baseline of how people are using image generation and editing tools for different use cases---(including growing and emergent use cases which were not possible before Nano Banana)---in a privacy-preserving manner.",
+      "categories": [
+        "cs.CY",
+        "cs.AI"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-09T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.08749",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08749",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 43,
+      "heuristicScore": 4.8,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.08710",
+      "title": "\"A Space Where I Can Be Myself\": Exploring Safe Visibility for Graduate Student Mothers in Mom Cafes",
+      "authors": [
+        "Jeanne Choi",
+        "Joohee Choi",
+        "Jeong-woo Jang"
+      ],
+      "abstract": "Graduate student mothers navigate intertwined demands of graduate study and caregiving, yet little is known about how they seek support through online communities. We examine this through Mom Cafes, locally based online parenting communities in South Korea. Drawing on focus group interviews and design workshops with 22 graduate student mothers, we identify a pattern of dual invisibility: caregiving circumstances were difficult to make legible in academic contexts, while academic circumstances were difficult to make legible in parenting contexts. Although Mom Cafes offered useful local information and emotional reassurance, concerns specific to graduate student motherhood were harder to articulate or safely disclose. Participants sought ways to make graduate student motherhood recognizable when relevant, but their designs highlighted tensions around identifiability, judgment, relational burden and accountability. We conceptualize these tensions as safe visibility and discuss infrastructures for selective recognition, low-obligation connection, and accountable pathways to practical care.",
+      "categories": [
+        "cs.SI",
+        "cs.HC"
+      ],
+      "announceType": "cross",
+      "publishedAt": "2026-11-09T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.08710",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08710",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 43,
+      "heuristicScore": 4.8,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms."
+    }
+  ],
+  "dispatches": [],
+  "topics": [
+    {
+      "name": "Learners & Classrooms",
+      "count": 4
+    },
+    {
+      "name": "Programming Education",
+      "count": 1
+    },
+    {
+      "name": "Student Modelling",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "screened": 586,
+    "matched": 5,
+    "alreadyFeatured": 2,
+    "published": 5,
+    "announcedOn": "2026-11-09"
+  }
+}

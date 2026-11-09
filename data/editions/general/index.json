@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-09",
+    "number": 5,
+    "headline": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
+    "published": 42
+  },
+  {
     "date": "2026-11-07",
     "number": 4,
     "headline": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",

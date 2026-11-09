@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-09",
+    "number": 4,
+    "headline": "Analyzing Code Provenance in LLMs for Programming Education",
+    "published": 5
+  },
+  {
     "date": "2026-11-06",
     "number": 3,
     "headline": "Automated Feedback to Peer Tutors Increases Their Talk Moves and Learner Reasoning but Not the Balance of Talk",
