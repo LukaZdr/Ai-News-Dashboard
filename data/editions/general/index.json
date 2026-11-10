@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-10",
+    "number": 6,
+    "headline": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+    "published": 42
+  },
+  {
     "date": "2026-11-09",
     "number": 5,
     "headline": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",

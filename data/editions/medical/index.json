@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-10",
+    "number": 6,
+    "headline": "EndoSCOP-V: A Multi-Turn Video Understanding Evaluation Framework for Multimodal Models in Endoscopy Reporting and Clinical Reasoning",
+    "published": 31
+  },
+  {
     "date": "2026-11-09",
     "number": 5,
     "headline": "Interpretable Context-Aware Multi-Label Retinal Classification with Dual-Hub Heterogeneous Graph Neural Network",
