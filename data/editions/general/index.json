@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-11",
+    "number": 7,
+    "headline": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+    "published": 42
+  },
+  {
     "date": "2026-11-10",
     "number": 6,
     "headline": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",

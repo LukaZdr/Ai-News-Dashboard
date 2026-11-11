@@ -1,0 +1,390 @@
+{
+  "edition": "education",
+  "date": "2026-11-11",
+  "number": 6,
+  "generatedAt": "2026-11-11T14:39:36.260Z",
+  "editor": {
+    "mode": "heuristic",
+    "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
+  },
+  "lede": null,
+  "readFirst": [
+    {
+      "id": "2611.13549",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms.",
+      "takeaway": "Designing effective instruction requires instructional designers to create assessment questions aligned with clearly defined knowledge components (KCs)."
+    },
+    {
+      "id": "2611.13144",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms.",
+      "takeaway": "Effective teaching requires reasoning about the learner as well as the task, a capacity that Theory of Mind describes as inferring another agent's latent state from its behavior."
+    },
+    {
+      "id": "2611.13368",
+      "why": "Matches Tutoring Systems and Learners & Classrooms.",
+      "takeaway": "Geometric proof is a foundational but notoriously difficult topic in secondary mathematics, primarily due to the high cognitive load required to integrate visual diagrams with logical text."
+    }
+  ],
+  "papers": [
+    {
+      "id": "2611.13549",
+      "title": "Perspicacious: An Educational Intelligence Platform for Instructional Designers",
+      "authors": [
+        "Yumou Wei",
+        "Michael C Sutton",
+        "Paulo F. Carvalho"
+      ],
+      "abstract": "Designing effective instruction requires instructional designers to create assessment questions aligned with clearly defined knowledge components (KCs). These KCs represent specific knowledge or skills that students must acquire. This process is often time-consuming and relies heavily on expert labor. Although AI for education research has produced a growing body of automated question-generation and KC-discovery methods, few have moved beyond research prototypes into user-friendly tools that instructional designers can readily use. To bridge the research-to-practice gap, we developed and evaluated an educational intelligence platform that unifies question generation and KC discovery behind a single interface to support instructional content development. Named \"Perspicacious,\" our platform aims to help instructional designers \"see through\" complex data and algorithms to derive instructional insights. A cost model calibrated on 17 production runs revealed a cost-time trade-off: extracting KCs from a 576-question bank cost US $1.98-4.11 and took 36-158 minutes to complete, depending on the budget. A formative, partially Wizard-of-Oz study with eight instructional designers found strong perceived usability (mean SUS 78.8) and surfaced concrete requirements that we treat as prerequisites for deployment.",
+      "categories": [
+        "cs.CY",
+        "cs.ET",
+        "cs.HC"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-11T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.13549",
+      "pdfUrl": "https://arxiv.org/pdf/2611.13549",
+      "topics": [
+        "Pedagogy & Alignment",
+        "Learners & Classrooms",
+        "Assessment & Feedback"
+      ],
+      "score": 100,
+      "heuristicScore": 14.6,
+      "tier": "lead",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
+    },
+    {
+      "id": "2611.13144",
+      "title": "Teaching the Harness: Student-Aware Skill Transfer for LLM Agents",
+      "authors": [
+        "Chang Liu",
+        "Bo Wu"
+      ],
+      "abstract": "Effective teaching requires reasoning about the learner as well as the task, a capacity that Theory of Mind describes as inferring another agent's latent state from its behavior. We ask whether a stronger LLM teaches a fixed student better when it applies this principle. The student is an LLM agent acting through a harness that fixes its tools, context, and action budget, so a procedure that helps one model can exhaust the budget of another. We introduce Student-Aware Teaching (SAT). The teacher builds a learner model that pairs an empirical profile with hypotheses about the student's limitations, tests these hypotheses with diagnostic probes, and writes reusable skills for the diagnosed failures. A skill enters the library only after it raises success on matched development tasks. With Claude-Sonnet-5 teaching DeepSeek-V4-Flash, SAT reaches 86.46% task success across four primary runs, leading both a profile-free teacher with the same framework (81.04%) and the untaught student (75.00%) in each run. Removing the analytical learner model lowers both prediction and success, and under misleading learner profiles none of the 48 candidate skills passes admission. When DeepSeek-V4-Flash and Gemini-3.8-Flash exchange libraries, each performs better with its own. Saved libraries keep average gains of up to 11.1 points after the teacher leaves. The benefit depends on a student that can follow instructions and a deployment route that delivers them.",
+      "categories": [
+        "cs.AI"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-11T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.13144",
+      "pdfUrl": "https://arxiv.org/pdf/2611.13144",
+      "topics": [
+        "Pedagogy & Alignment",
+        "Learners & Classrooms",
+        "Student Modelling"
+      ],
+      "score": 93,
+      "heuristicScore": 13.6,
+      "tier": "lead",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
+    },
+    {
+      "id": "2611.13368",
+      "title": "Ender: Visual Scaffolding for Geometric Proof Comprehension",
+      "authors": [
+        "Hwei-Shin Harriman",
+        "Yuchen Jin",
+        "Dominik Moritz",
+        "Joshua Sunshine"
+      ],
+      "abstract": "Geometric proof is a foundational but notoriously difficult topic in secondary mathematics, primarily due to the high cognitive load required to integrate visual diagrams with logical text. As proofs evolve, tracking the initial givens and an expanding set of derived truths can easily overwhelm working memory. While established scaffolding techniques are often visual and diagram-based, current digital learning environments mostly rely on static, text-heavy interfaces that force students to manage these complex mental models on their own. This paper introduces Ender, an interactive rendering system designed to visualize the logical status of two-column proofs. Ender's design is grounded in four literature-derived requirements: (1) diagram annotation, (2) structural tracing, (3) support for partial or incorrect work, and (4) synchronization between the diagram and text. To evaluate the system, we conducted a between-subjects, think-aloud experiment with 12 secondary school students in the United States, comparing Ender against a traditional digital proof interface. Our results indicate that students using Ender performed significantly better on proof comprehension tasks--specifically in identifying and correcting logical errors. These findings suggest that dynamic visual scaffolding may ease the working memory burden of digital interfaces, offering a promising building block for future AI-based proof tutoring systems.",
+      "categories": [
+        "cs.HC"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-11T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.13368",
+      "pdfUrl": "https://arxiv.org/pdf/2611.13368",
+      "topics": [
+        "Tutoring Systems",
+        "Learners & Classrooms"
+      ],
+      "score": 85,
+      "heuristicScore": 12.4,
+      "tier": "lead",
+      "why": "Matches Tutoring Systems and Learners & Classrooms."
+    },
+    {
+      "id": "2611.13237",
+      "title": "Understanding Computing Instructors' Perceptions of Student Sense of Belonging",
+      "authors": [
+        "Ritesh Kanchi",
+        "Teresa Luo",
+        "Sam Grunebaum",
+        "Alex Oesterling"
+      ],
+      "abstract": "Students' sense of belonging has been described as a feeling of community acceptance, respect, inclusion, and membership. In computing, student belonging is shaped by psychological, social, academic, and environmental factors, including their relationships with instructors. However, despite prior work emphasizing instructors' influence on student belonging, limited research has examined how computing instructors perceive, understand, and attempt to support belonging. Through nine semi-structured qualitative interviews with introductory computing instructors at large public universities in the United States, we investigated how instructors define, measure, and conceptualize belonging; what interventions they use to support student belonging; and what barriers limit the efficacy of these interventions. Our findings show that instructors defined belonging through value and identity representation, self-efficacy, and community; relied on surveys, observations, and student performance to measure belonging; saw belonging to be influenced by prior experience, major, student and institutional culture, and representation; implemented student-oriented interventions and designed courses around belonging; and identified multi-level challenges to supporting belonging. These results highlight opportunities to design belonging interventions that attend to both prior work and instructor conceptualizations, while also considering tensions in utilizing teaching assistants, balancing students' expectations, and adapting to broader societal trends affecting belonging.",
+      "categories": [
+        "cs.CY"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-11T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.13237",
+      "pdfUrl": "https://arxiv.org/pdf/2611.13237",
+      "topics": [
+        "Learners & Classrooms",
+        "Tutoring Systems",
+        "Pedagogy & Alignment",
+        "Student Modelling"
+      ],
+      "score": 78,
+      "heuristicScore": 11.4,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms and Tutoring Systems."
+    },
+    {
+      "id": "2611.13583",
+      "title": "Active learning at a graduate summer school: feasibility, student response, and the role of instructor training",
+      "authors": [
+        "Nicholas Kamp",
+        "Louis Deslauriers",
+        "Carlos A. Arg\\\"uelles",
+        "Gonzalo Herrera",
+        "William G. Thompson"
+      ],
+      "abstract": "Active learning is becoming standard practice in undergraduate STEM instruction in North America and is slowly being adopted in graduate courses. Graduate summer schools, one- to two-week programs in which students from many institutions gather for intensive, specialized instruction in their field, are common in physics; they are taught by researchers chosen for their expertise, and their pedagogy remains almost entirely traditional lecturing. We report a study at a one-week graduate school in neutrino and astroparticle physics attended by 38 students from 8 countries. Six lecturers with limited or no prior experience of teaching with active learning introduced Peer Instruction-style active learning into their lectures after approximately four hours of preparation led by a physics-education specialist. Each of the three main lecture streams was taught traditionally on one day and in the active format on the other. Students were surveyed after each of the first two days and at the end of the week; all six instructors were surveyed as well. In every active lecture, spanning three instructors and three topics, 82-100% of respondents reported that the interactive segments helped them stay engaged and check their understanding, and in every stream the difficulty was rated as better matched on the active day. At the end of the week, 33 of 36 wanted such teaching in future graduate courses, and not one respondent disagreed. All six instructors judged the approach productive and intend to use it again; only two found implementation straightforward. With brief expert-led preparation, lecturers new to active learning implemented it successfully for a heterogeneous audience, and both students and instructors want more. The school was also the first time any of the six instructors implemented structured active learning: a summer school can develop its lecturers as well as its students.",
+      "categories": [
+        "physics.ed-ph",
+        "astro-ph.CO",
+        "astro-ph.HE",
+        "hep-ex",
+        "hep-ph"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-11T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.13583",
+      "pdfUrl": "https://arxiv.org/pdf/2611.13583",
+      "topics": [
+        "Learners & Classrooms",
+        "Pedagogy & Alignment"
+      ],
+      "score": 66,
+      "heuristicScore": 9.6,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.14515",
+      "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
+      "authors": [
+        "Zijian Zhang",
+        "Rizhen Hu",
+        "Jiangweizhi Peng",
+        "Shiyang Li",
+        "Sujay Bhatt",
+        "Sihan Zeng",
+        "Mingyi Hong"
+      ],
+      "abstract": "Reinforcement learning with verifiable rewards (RLVR) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused. Training-time scaffolds, such as strategies or hints added to the prompt during training, offer a natural way to turn this information into guidance, but their design and adaptation are largely left to humans and tailored to specific domains. We introduce AutoScaffold, a unified AI-for-AI framework that turns a student's training experience into adaptive scaffolds, with minimal domain-specific information and no human intervention during training. A frozen teacher periodically examines this experience, diagnoses bottlenecks, and designs scaffolds in two forms: (i) strategies shared across a class of tasks and (ii) hints for individual hard tasks, adjusting the content and amount of support as the student learns. The scaffolds are removed at evaluation. We apply the same framework to ALFWorld, search-based QA, mathematical reasoning, and GPU kernel generation. When evaluated without scaffolds, students trained with AutoScaffold outperform those trained with the corresponding RL baselines in all four domains, with gains of 7.2 points in ALFWorld success and 4.0 points in average QA exact match. On GPU kernel generation, AutoScaffold increases the fraction of tasks with a correct kernel that runs faster than the PyTorch reference by up to 5.0 points. On math, our student surpasses QuestA's reported accuracy using approximately one-third as many student training steps. Analyses show that the teacher identifies a different failure in each task class and shifts its scaffolds from step-by-step workflows to targeted fixes as the student improves, and that its revised scaffolds help the student learn more than keeping the previous scaffold or using no scaffold.",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-11T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.14515",
+      "pdfUrl": "https://arxiv.org/pdf/2611.14515",
+      "topics": [
+        "Tutoring Systems",
+        "Learners & Classrooms"
+      ],
+      "score": 58,
+      "heuristicScore": 8.4,
+      "tier": "notable",
+      "why": "Matches Tutoring Systems and Learners & Classrooms."
+    },
+    {
+      "id": "2611.13404",
+      "title": "AI is ready, but are the students. From answer-making to sense-making",
+      "authors": [
+        "Antoinette Stone",
+        "Ruoning Zhang",
+        "Brian Utter"
+      ],
+      "abstract": "Students in introductory physics often struggle with interpreting kinematics graphs, especially when connecting graphical features to physical meaning. We investigated AI tool use in kinematic graphing analysis as an intervention to support active sensemaking. This study examines GPT-5 performance on the Test of Understanding Graphs in Kinematics (TUG-K) and the way students interacted with GPT-5 during introductory physics activities involving graphical analysis. For the first part of the study, GPT-5 responses were evaluated across repeated TUG-K trials and compared to previously reported GPT-4 performance. Following that analysis, student-GPT-5 dialogue episodes were collected and analyzed using an inductive coding scheme. GPT-5 performance results show markedly improved accuracy. Student-GPT-5 dialogue episodes evolved from mostly procedural answer-making requests early in the term, to more reflective sensemaking interactions at the end of the term, suggesting that instructional framing is needed for AI tools to function as meaningful peer-like learning supports.",
+      "categories": [
+        "physics.ed-ph"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-11T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.13404",
+      "pdfUrl": "https://arxiv.org/pdf/2611.13404",
+      "topics": [
+        "Learners & Classrooms",
+        "Pedagogy & Alignment"
+      ],
+      "score": 53,
+      "heuristicScore": 7.8,
+      "tier": "notable",
+      "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.12889",
+      "title": "We Used It Anyway: Low Trust and High Adoption of Large Language Models in Requirements Engineering Education",
+      "authors": [
+        "Riccardo Coppola",
+        "Giacomo Garaccione",
+        "Stefano Mancini",
+        "Luca Ardito"
+      ],
+      "abstract": "Recent advances in Large Language Models (LLMs) are reshaping how students approach Software Engineering activities, particularly those centered on textual artifacts. This paper reports on the experience of integrating a non-restrictive LLM use within a first-year Master's course in Software Engineering, in which students completed a semester-long Software Engineering project divided in a Requirements Engineering (RE) phase and a software testing phase. Following the completion of the RE phase of the project, we administered a 12-question survey to 43 students to investigate which LLM tools they used, for which activities, how they evaluated AI-generated outputs, and how they envisioned the role of LLMs in future SE curricula. Our findings show that LLM use was nearly universal among respondents and concentrated primarily on text-intensive activities such as use-case narratives, consistency checking, brainstorming, and refinement of existing artifacts. Despite this widespread adoption, most students perceived AI-generated outputs as inferior to their own work, frequently reporting issues related to incorrect or incomplete content, mismatches with course-specific conventions, over-engineering, and limitations in diagram generation. Nevertheless, students continued to rely extensively on LLM as a reviewer, critic, and productivity aid rather than as a fully autonomous artifact generator. We also observe that students' choice of models was strongly influenced by access to premium subscriptions available for free for student accounts, highlighting the role of economic accessibility in shaping educational AI ecosystems. The results suggest that the most significant challenge in the adoption of LLMs within Requirements Engineering education is not whether students use these tools, but whether they possess the skills required to critically evaluate, contextualize, and correct its outputs.",
+      "categories": [
+        "cs.SE"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-11T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.12889",
+      "pdfUrl": "https://arxiv.org/pdf/2611.12889",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 41,
+      "heuristicScore": 6,
+      "tier": "notable",
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.13358",
+      "title": "Understanding Students' Rationales for AI-Mediated Cheating: An Instructor Perspective from Online Forums Analysis",
+      "authors": [
+        "Iman Mohammadi",
+        "Sina Rismanchian",
+        "Ali Keramati",
+        "Shayan Salehi"
+      ],
+      "abstract": "The extensive adoption of AI has precipitated a crisis in academic integrity. While studies attempt to quantify cheating, less is known about the motivations instructors believe students have for using AI in prohibited ways. We analyze 2.01 million posts on r/Professors to understand how instructors perceive students' justifications for AI-mediated cheating. Our qualitative analyses reveal four primary themes: (1) Academic System Gaming, (2) Digital-Academic Literacy Gap, (3) Performance Anxiety, and (4) Normalization of Dishonesty.",
+      "categories": [
+        "cs.CL",
+        "cs.CY"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-11T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.13358",
+      "pdfUrl": "https://arxiv.org/pdf/2611.13358",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 33,
+      "heuristicScore": 4.8,
+      "tier": "notable",
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.13520",
+      "title": "Developing an Operational Model for an Internet of Data Based Trusted Data Space for Vocational Education",
+      "authors": [
+        "Yalan Dong",
+        "Hao Tian",
+        "Hongyang Jia",
+        "Chunxue Wang",
+        "Wenchang Lei"
+      ],
+      "abstract": "Data circulation in vocational education has long been constrained by unclear ownership, a lack of trust, and insufficient incentives. The Internet of Data provides a new underlying technology for enabling trusted cross-domain data circulation. Building on an Internet of Data based trusted data space for vocational education, this paper develops a multi-stakeholder operational model encompassing a value network, a product portfolio, revenue allocation, and governance rules. Emphasizing data sovereignty protection and incentive compatibility, the model provides a reference for the sustainable operation of regional vocational education data ecosystems.",
+      "categories": [
+        "cs.CY",
+        "cs.AI"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-11T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.13520",
+      "pdfUrl": "https://arxiv.org/pdf/2611.13520",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 33,
+      "heuristicScore": 4.8,
+      "tier": "notable",
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.13366",
+      "title": "Mapping Instructors' Attitudes Towards Cheating with AI: An Exploratory Analysis Using Forum Analysis",
+      "authors": [
+        "Iman Mohammadi",
+        "Ali Keramati",
+        "Sina Rismanchian"
+      ],
+      "abstract": "In teaching and learning environments, cheating and the violation of academic integrity have always been one of the challenges, involving different levels of concerns such as administrative, personal knowledge, learning, and equity. The introduction of large language models has brought cheating in dialogue to the forefront, given the apparent capabilities of these models to complete students' academic assignments. This study aims to leverage recent dialogues among university professors about cheating with Generative AI to better understand their beliefs about academic honesty. In doing so, we analyze a corpus of 2.01 million posts (threads and comments) in the r/Professors subreddit discussing cheating after the release of ChatGPT, providing a better understanding of teachers' motivations to discourage cheating and the strategies they use to do so. We synthesize the why and how of addressing cheating to identify caveats about the future of AI and academic integration.",
+      "categories": [
+        "cs.CL",
+        "cs.CY"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-11T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.13366",
+      "pdfUrl": "https://arxiv.org/pdf/2611.13366",
+      "topics": [
+        "Pedagogy & Alignment",
+        "Learners & Classrooms"
+      ],
+      "score": 21,
+      "heuristicScore": 3,
+      "tier": "notable",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
+    }
+  ],
+  "dispatches": [],
+  "topics": [
+    {
+      "name": "Learners & Classrooms",
+      "count": 11
+    },
+    {
+      "name": "Pedagogy & Alignment",
+      "count": 6
+    },
+    {
+      "name": "Tutoring Systems",
+      "count": 3
+    },
+    {
+      "name": "Student Modelling",
+      "count": 2
+    },
+    {
+      "name": "Assessment & Feedback",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "screened": 723,
+    "matched": 11,
+    "alreadyFeatured": 1,
+    "published": 11,
+    "announcedOn": "2026-11-11"
+  }
+}
