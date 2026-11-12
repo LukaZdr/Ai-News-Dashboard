@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-12",
+    "number": 8,
+    "headline": "Mixed Signals: Weight-Space Programming for EEG and ECG",
+    "published": 2
+  },
+  {
     "date": "2026-11-11",
     "number": 7,
     "headline": "Interleaving anatomical inspection and diagnostic reasoning for explainable radiology report generation",

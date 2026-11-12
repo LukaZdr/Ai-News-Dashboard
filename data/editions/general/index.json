@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-12",
+    "number": 8,
+    "headline": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+    "published": 42
+  },
+  {
     "date": "2026-11-11",
     "number": 7,
     "headline": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
