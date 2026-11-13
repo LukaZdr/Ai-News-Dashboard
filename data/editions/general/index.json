@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-13",
+    "number": 9,
+    "headline": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+    "published": 42
+  },
+  {
     "date": "2026-11-12",
     "number": 8,
     "headline": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",

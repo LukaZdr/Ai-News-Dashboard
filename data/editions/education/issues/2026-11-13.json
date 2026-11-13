@@ -1,0 +1,444 @@
+{
+  "edition": "education",
+  "date": "2026-11-13",
+  "number": 7,
+  "generatedAt": "2026-11-13T14:47:42.294Z",
+  "editor": {
+    "mode": "heuristic",
+    "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
+  },
+  "lede": null,
+  "readFirst": [
+    {
+      "id": "2611.15170",
+      "why": "Matches Learners & Classrooms and Pedagogy & Alignment.",
+      "takeaway": "Cultivating a security mindset has long been a goal of computing education, and students now need it when deciding whether to trust an AI agent skill."
+    },
+    {
+      "id": "2611.14557",
+      "why": "Matches Student Modelling and Learners & Classrooms.",
+      "takeaway": "Distinct mathematical misconception rules can produce the same incorrect answer, making diagnosis from a single response ambiguous."
+    },
+    {
+      "id": "2611.14798",
+      "why": "Matches Learners & Classrooms and Pedagogy & Alignment.",
+      "takeaway": "Large language models (LLMs) are increasingly used by students in computing courses."
+    }
+  ],
+  "papers": [
+    {
+      "id": "2611.15170",
+      "title": "An Experience Report on Teaching Students to Evaluate AI Agent Skills as Authorization Decisions",
+      "authors": [
+        "Zikai Alex Wen",
+        "Donald Chinn",
+        "Yan Bai"
+      ],
+      "abstract": "Cultivating a security mindset has long been a goal of computing education, and students now need it when deciding whether to trust an AI agent skill. Skills are add-ons that can shape an agent's behavior through natural language instructions and configuration settings, not just executable code. To prepare students to evaluate skills as authorization decisions, we designed a classroom activity and taught it in a senior undergraduate and a graduate cybersecurity-focused course. Students inspected three example skills, each pairing a real workflow task with one agent-specific authority, such as acting without asking for user consent before each action. The activity guided them to make initial authorization recommendations and then use a static security scanner to test and revise their recommendations. We observed in class that students needed guidance to extend their security review from a skill's code to what they would be authorizing the agent to do through the skill. Pre/post surveys from 11 volunteer respondents in this preliminary pilot showed greater self-reported confidence in evaluating skills, and post-activity responses placed more emphasis on the authority that skills carry. We release all activity materials for reuse.",
+      "categories": [
+        "cs.HC"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-13T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.15170",
+      "pdfUrl": "https://arxiv.org/pdf/2611.15170",
+      "topics": [
+        "Learners & Classrooms",
+        "Pedagogy & Alignment",
+        "Programming Education"
+      ],
+      "score": 100,
+      "heuristicScore": 12.7,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.14557",
+      "title": "Probe Before You Preach: Conformal Ambiguity Sets and Neuro-Symbolic Counterfactual Probing for Diagnosing Algebraic Misconceptions in Middle School Mathematics",
+      "authors": [
+        "Caihong Xu",
+        "Xiangyu Yu"
+      ],
+      "abstract": "Distinct mathematical misconception rules can produce the same incorrect answer, making diagnosis from a single response ambiguous. We formalize this algebraic collision and derive a conditional Bayes error bound; internally generated reasoning does not add student-specific information beyond its inputs under an explicit conditional-independence assumption. We propose Mondrian Adaptive Conformal Misconception Sets (MACMS) and Symbolic-Verified Counterfactual Micro-Probing (Sym-EIG). MACMS has curriculum-group marginal coverage under exchangeability, not a per-student correctness guarantee. Sym-EIG searches for probes whose outputs separate modeled candidate rules; identification additionally depends on the candidate set and response model. An audit of a local public Eedi graph finds 2,118 of 2,258 linked constructs associated with at least two misconception IDs; construct-level associations alone do not establish same-answer collisions. Other project performance tables require recomputation because their script assigns numerical results directly. No diagnostic performance or classroom learning benefit is claimed here. A classroom study is proposed for future validation.",
+      "categories": [
+        "cs.CY",
+        "cs.LG"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-13T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.14557",
+      "pdfUrl": "https://arxiv.org/pdf/2611.14557",
+      "topics": [
+        "Student Modelling",
+        "Learners & Classrooms"
+      ],
+      "score": 98,
+      "heuristicScore": 12.4,
+      "tier": "lead",
+      "why": "Matches Student Modelling and Learners & Classrooms."
+    },
+    {
+      "id": "2611.14798",
+      "title": "Who (or what) are they prompting? How CS students conceptualize and use LLMs",
+      "authors": [
+        "Nikitha Donekal Chandrashekar",
+        "Margaret Ellis",
+        "Sehrish Basir Nizamani",
+        "Naren Ramakrishnan"
+      ],
+      "abstract": "Large language models (LLMs) are increasingly used by students in computing courses. Yet computing education research has not fully examined how teaching and inclusion of LLMs shape students' conceptualization and understanding of LLMs, and how these factors relate to their subsequent use. Although prior work has examined prompting strategies and AI literacy, the relationships among students' conceptualizations of LLMs, their understanding of LLM mechanisms, and their prompting behavior remain underexplored. We studied these relationships in a post CS1 course that introduces students to the various CS subfields. We adapted the course to teach and allow the usage of LLMs. We administered an end-of-course survey, using open-ended items to elicit students' representations of LLMs and their explanations of how LLMs work, alongside closed-response measures of prompting style and prompt count (N=283 students consented and provided codable responses). Using qualitative coding, we categorized students' understanding of how LLMs work into four ordinal knowledge levels based on the Structure of Observed Learning Outcomes (SOLO) taxonomy and coded their metaphoric conceptualizations along two dimensions: persona type and relational role. Our results show that students most often conceptualized LLMs as human assistants, and context-rich prompting was the preferred style. The study contributes a two-dimensional characterization of students' LLM metaphoric representation and exploratory analyses also identified associations among these constructs showing how understanding these systems relates to their usage.",
+      "categories": [
+        "cs.CY"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-13T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.14798",
+      "pdfUrl": "https://arxiv.org/pdf/2611.14798",
+      "topics": [
+        "Learners & Classrooms",
+        "Pedagogy & Alignment",
+        "Programming Education"
+      ],
+      "score": 96,
+      "heuristicScore": 12.2,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.16986",
+      "title": "Primer: An AI Framework for Instructor-Centered Educational Simulation Creation",
+      "authors": [
+        "Ethan Mollick",
+        "Lilach Mollick",
+        "Ben Przystanski",
+        "LJ Ciccarelli",
+        "Natalie Bach",
+        "Laura Zarrow"
+      ],
+      "abstract": "Educational simulations are a well-established pedagogical technique that gives learners opportunities to apply knowledge, respond to challenges, and reflect on their performance. High-quality simulations, however, are difficult to build, requiring instructor input, scenario design, character development, scaffolding, technical implementation, and repeated revision. This paper presents Primer, an open-source, LLM-agnostic AI-supported system that helps educators create adaptive educational simulations. Educators contribute their knowledge of the subject, lesson, and students, while generative AI produces responsive variations of practice for students. Primer uses a multi-agent system centered around executing educator's instructional intent through the entire learning experience. We hope that by releasing Primer as an open-source system, including its prompts and GitHub repository, we provide a foundation for development and research on educator-in-the-loop AI authoring, multi-agent educational workflows, and simulation-based pedagogy. Further, by allowing the use of various AI models, including local and open source models, we provide the opportunity for implementation under varied governance regimes. Primer points toward a model of educational AI in which instructors can create locally grounded practice opportunities based on their own materials, goals, examples, and knowledge of students.",
+      "categories": [
+        "cs.AI"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-13T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.16986",
+      "pdfUrl": "https://arxiv.org/pdf/2611.16986",
+      "topics": [
+        "Learners & Classrooms",
+        "Pedagogy & Alignment",
+        "Tutoring Systems"
+      ],
+      "score": 91,
+      "heuristicScore": 11.6,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.14828",
+      "title": "LLMs and the Homogenization of Teaching",
+      "authors": [
+        "Mei Tan",
+        "Hyunji Nam",
+        "Hari Subramonyam",
+        "Dorottya Demszky"
+      ],
+      "abstract": "Large language models (LLMs) are known to lack diversity in open-ended text generation, a limitation that is especially consequential in education, where homogeneity can narrow the kinds of thinking and disciplinary work students are invited to do. We study diversity in two educational generation tasks: math items and essay feedback. We compare frontier and open-weight models with human-authored reference distributions using lexical, semantic, and domain-grounded measures. For math, we examine the mathematical activities students are asked to perform; for feedback, we examine the revision work requested and the rhetorical strategies used to communicate it. We evaluate direct prompting, two diversity prompting methods, and post-training. Across both tasks, directly prompted model outputs are markedly less diverse than human-authored content--78% higher on lexical (Self-BLEU) and 51% higher on semantic (embedding) similarity--and represent a narrower range of instructional forms. Diversity prompting and post-training increase variation largely through surface features without broadening the instructional repertoire. Models inherit and amplify the most normative routines of human instruction. Overcoming mode collapse in education will require richer instructional data and investment in teachers' creative capacity and professional judgment.",
+      "categories": [
+        "cs.CL"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-13T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.14828",
+      "pdfUrl": "https://arxiv.org/pdf/2611.14828",
+      "topics": [
+        "Pedagogy & Alignment",
+        "Learners & Classrooms"
+      ],
+      "score": 76,
+      "heuristicScore": 9.6,
+      "tier": "lead",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
+    },
+    {
+      "id": "2611.16100",
+      "title": "Hiding a Gap Does Not Close It: The Price of Removing the Mean Group Contrast from Learned Models of Learning Dynamics",
+      "authors": [
+        "Sosth\\`ene Bidojesussi Hounzinhin",
+        "Ahmed Ratnani",
+        "Abdeladim El Akri"
+      ],
+      "abstract": "Adaptive tutors use models learned from student data, and a common fairness remedy erases the group signal from these models. We turn the cost of this remedy into an audit tool. Building on mean-parity regression, we give the minimum extra error, relative to the best predictor, of removing the mean group contrast from a predictor that cannot use the group, $p_0p_1\\Delta^2/R^2$, and the exact cost of any correction built from an estimated group model, which, for the best predictor, is never below this minimum. A three-stage audit (fit on training units, announce the cost on validation units, test on independent units) estimates this cost before the correction is used. In a controlled study, the price can be large even when the state predicts the group poorly. On three real data sets, erasing the group from a learned model of learning dynamics predicts almost no gap where one is observed. In a selected knowledge-tracing network, erasing the hidden state leaves most of the gap; a correction of the prediction removes it at an extra Brier score of 0.021 on average. On Eedi, with the network selected on separate units, the audit accepted the announced cost in all five splits, the measured cost fell inside the announced interval in all five, and the gap reduction transferred to new classes in four; on new ASSISTments schools the audit abstains. In a tutoring simulator, the objective and the help budget matter more than the erasure, and floors on each group's knowledge separate narrowing a gap from levelling down. Hiding a gap in a model does not close it.",
+      "categories": [
+        "cs.LG"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-13T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.16100",
+      "pdfUrl": "https://arxiv.org/pdf/2611.16100",
+      "topics": [
+        "Tutoring Systems",
+        "Learners & Classrooms",
+        "Student Modelling"
+      ],
+      "score": 63,
+      "heuristicScore": 8,
+      "tier": "notable",
+      "why": "Matches Tutoring Systems and Learners & Classrooms."
+    },
+    {
+      "id": "2611.14578",
+      "title": "Designing Collaborative Virtual Environments for Software Engineering Education",
+      "authors": [
+        "Filipe Fernandes",
+        "Cl\\'audia Werner"
+      ],
+      "abstract": "Collaborative virtual environments offer opportunities to make software models available for shared inspection, but educational design and usability need to be examined separately from claims of learning effectiveness. This article presents MetaSEE, an approach connecting requirements guidance, a Web XR feature model, a reusable UML component, and a browser-based multiuser platform. We synthesize documented formative evaluations of the framework (16 participations), feature model (15), UML component (9), and platform (14). These counts represent evaluation participations; the same 12 developers took part in the first two evaluations. The principal platform study involved six teachers working individually and eight students working in four pairs through desktop or notebook computers, keyboard, and mouse. The documentary synthesis traces educational intentions to implemented features and reported difficulties. Participants identified potential value in shared modeling and simulation, alongside navigation, interaction, visualization, and distraction concerns. A numerical audit reconstructs a student System Usability Scale mean of 67.50 from published item frequencies, conflicting with the reported 79.38; an incomplete teacher item distribution prevents recovery of that group's overall mean. The contribution is a traceable account of educational design and formative limitations, with practical implications for onboarding, model readability, collaboration, and evaluation reporting. The evidence supports bounded feasibility and perceived usefulness, without establishing learning gains, sustained engagement, or adoption.",
+      "categories": [
+        "cs.SE"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-13T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.14578",
+      "pdfUrl": "https://arxiv.org/pdf/2611.14578",
+      "topics": [
+        "Learners & Classrooms",
+        "Pedagogy & Alignment"
+      ],
+      "score": 61,
+      "heuristicScore": 7.8,
+      "tier": "notable",
+      "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.14664",
+      "title": "Outcome Over Learning? Evidence from Student Use of AI Code Assistants for Unit Test Writing",
+      "authors": [
+        "Daniel Hinbest",
+        "Jeremy S. Bradbury",
+        "Michael A. Miljanovic"
+      ],
+      "abstract": "Artificial intelligence (AI) code assistants are rapidly being adopted in programming education, yet little is known about how students naturally use these tools when given unrestricted access. In a user study investigating AI-assisted unit test writing, we observed that a majority of students adopted a one-shot interaction strategy, asking the AI to generate a complete unit test directly from the initial requirements. While this approach is capable of efficiently producing a solution, it shifts students' focus from learning how to write effective unit tests to simply completing the task. Moreover, because students rarely engaged in critically evaluating, refining, or iterating on AI-generated output, they may be missing opportunities to develop the critical thinking skills that are essential for effective and responsible use of AI. In an effort to shift student focus from outcome to learning we also discuss how training, accountability and improved learning task design can better support a more learning-centric responsible use of AI.",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-13T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.14664",
+      "pdfUrl": "https://arxiv.org/pdf/2611.14664",
+      "topics": [
+        "Learners & Classrooms",
+        "Programming Education"
+      ],
+      "score": 57,
+      "heuristicScore": 7.3,
+      "tier": "notable",
+      "why": "Matches Learners & Classrooms and Programming Education."
+    },
+    {
+      "id": "2611.14565",
+      "title": "Hands-on fabrication of 2D material field-effect transistors for the classroom using off-the-shelf ionic gel",
+      "authors": [
+        "Yigit Sozen",
+        "Tayfun Kutlu",
+        "Juan J. Riquelme",
+        "Andres Castellanos-Gomez"
+      ],
+      "abstract": "We introduce a hands-on experimental method that enables students to fabricate and operate van der Waals semiconductor-based field-effect transistors (FETs) using readily available materials and minimal infrastructure. The approach is based on ionic-gel gating using commercially available hydrogel conductors originally developed for muscle electrostimulation devices. For device fabrication we rely on commercially available thin-film interdigitated electrode arrays and for the semiconductor channel, we deposited MoS2 flakes produced by high-throughput mechanical exfoliation. By avoiding the need for cleanroom processing, vacuum deposition, or custom electrolytes, this method allows functional FETs based on van der Waals materials to be realized in a standard teaching laboratory. The experiment is well suited for undergraduate and early graduate courses and is intended to complement concepts introduced in electronics and solid-state physics by providing students with first-hand experience in the fabrication and electrical characterization of emerging electronic devices. Representative electrical measurements demonstrate gate-dependent modulation of the channel conductance and illustrate characteristic features of ionic-gated transistor operation. Overall, the proposed platform provides an accessible route for students to fabricate, characterize, and analyze field-effect devices without access to conventional semiconductor foundry.",
+      "categories": [
+        "physics.ed-ph",
+        "cond-mat.mtrl-sci"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-13T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.14565",
+      "pdfUrl": "https://arxiv.org/pdf/2611.14565",
+      "topics": [
+        "Learners & Classrooms",
+        "Pedagogy & Alignment"
+      ],
+      "score": 52,
+      "heuristicScore": 6.6,
+      "tier": "notable",
+      "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.16323",
+      "title": "Does Deep Knowledge Tracing Learn Semantic Relations Between Knowledge Components?",
+      "authors": [
+        "Kia Karbasi",
+        "Mahdi Saiedi",
+        "Kevin Hong",
+        "Gregory Pottie"
+      ],
+      "abstract": "Deep Knowledge Tracing (DKT) is a knowledge tracing (KT) model that updates a shared latent state from sequences of interactions, each pairing a knowledge component (KC) with a response. An interaction with one KC can therefore affect predictions for other KCs. We ask: Are the KC relations learned by DKT semantic? We construct text-derived semantic KC representations using nine pipelines to test whether the conclusions hold across alternative ways of constructing those representations. The first test compares DKT-derived KC relation graphs with semantic relation structures induced by pairwise cosine similarities among the KC representations. Across the evaluated datasets, embedding models, and pipelines, the two structures align only weakly and inconsistently. The second test introduces semantic information into DKT; the pretrained text-derived representations do not consistently outperform the standard DKT baseline. In the reduced-data experiments, semantic initialization yields a higher test area under the ROC curve (AUC) than the baseline at eight of nine nested sample sizes for ASSISTments 2017. KC-supervised fine-tuned BERT produces small positive AUC differences in some matched comparisons, but the study does not establish their stability across runs. These effects remain limited and inconsistent. The findings suggest that behavioral, temporal, structural, or psychometric signals may also shape DKT's learned relations. DKT-derived relations are not primarily semantic: the tested text-derived semantic structures do not strongly recover the DKT-derived relation structure.",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-13T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.16323",
+      "pdfUrl": "https://arxiv.org/pdf/2611.16323",
+      "topics": [
+        "Student Modelling"
+      ],
+      "score": 50,
+      "heuristicScore": 6.4,
+      "tier": "notable",
+      "why": "Matches Student Modelling."
+    },
+    {
+      "id": "2611.15481",
+      "title": "SkillEarth: Teaching General-Purpose Agents to Act on Earth via Skill Evolution",
+      "authors": [
+        "Haojun Tang",
+        "Wenda Zhao",
+        "Xiang Zhou",
+        "Qiwei Lin",
+        "Lida Huang",
+        "Yan Wang"
+      ],
+      "abstract": "Recently developed remote sensing (RS) agents execute real-world tasks with complex workflows through multi-step tool invocation. These agents, however, typically rely on predefined expertise or parameter updates. They thus require updating expert knowledge or retraining models whenever new tools, tasks, or execution patterns emerge, limiting their continual adaptability in dynamic Earth environments. In this work, we seek to equip general-purpose agents with RS tool-call knowledge that can be automatically extracted from demonstrated trajectories without expert intervention or parameter updates. Specifically, we propose SkillEarth, a self-evolving skill extraction method that externalizes RS tool-call knowledge as reusable, retrievable, and evolvable skill files and refines them through observation-grounded evolution. Unlike existing automatic skill extraction methods that rely on outcome-based reflection to refine skills holistically, SkillEarth grounds skill evolution in real tool-chain execution and combines dual-judge feedback with a grounded observation routing graph for precise component-level refinement. The resulting skills are generalizable, reliable, and transferable: they improve overall RS tool-call performance across three frontier LLMs and four open-source LLMs, are refined through real tool execution feedback, and support cross-model reuse without retraining. Experiments on OpenEarth-Bench and Earth-Bench demonstrate that SkillEarth achieves better tool selection, argument correctness, execution-order consistency, and task completion than existing RS agents and skill extraction methods.",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-13T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.15481",
+      "pdfUrl": "https://arxiv.org/pdf/2611.15481",
+      "topics": [
+        "Pedagogy & Alignment"
+      ],
+      "score": 43,
+      "heuristicScore": 5.4,
+      "tier": "notable",
+      "why": "Matches Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.17220",
+      "title": "Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline",
+      "authors": [
+        "Geoffrey Challen",
+        "Craig Zilles"
+      ],
+      "abstract": "Oral exams are compelling because (1) students can be asked to provide their reasoning for an answer and (2) their interactive nature permits follow-up questions to resolve ambiguous answers. But oral exams scale poorly. In this paper, we present scalable conversational assessment, an LLM-based system that conducts interactive text-based conversations with students to assess their ability to make and support an argument. We use a two-agent architecture to separate concerns and reduce the likelihood that answers are leaked to the student: the interviewer interacts directly with the student, but only receives guidance about the next question to ask the student; the hidden evaluator knows the goals of the whole activity, tracks the student's progress using a rubric, and guides the interviewer on when to follow-up on the current question or proceed to the next question. The system was first tested using a collection of simulated students with LLM personas of a particular ability level or adversarial tactic (e.g., answer-extractors, prompt-injectors, confident fabricators). A novel element of this evaluation was that it required the use of a fictional assessment topic to prevent personas that shouldn't have information from using knowledge present in the LLM's pre-training. The system was also deployed in a small, elective AI literacy course in both formative and summative contexts. Through manual and post-facto AI review of the transcripts we identified opportunities to improve the follow-up question generation and ensure that grading only credited ideas that the student (and not the interviewer) contributed.",
+      "categories": [
+        "cs.CY",
+        "cs.AI"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-13T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.17220",
+      "pdfUrl": "https://arxiv.org/pdf/2611.17220",
+      "topics": [
+        "Learners & Classrooms",
+        "Assessment & Feedback"
+      ],
+      "score": 30,
+      "heuristicScore": 3.8,
+      "tier": "notable",
+      "why": "Matches Learners & Classrooms and Assessment & Feedback."
+    },
+    {
+      "id": "2611.15686",
+      "title": "Integrating Slides, Mathematics, and Simulation in One Page: GenAI-Assisted HTML Learning Objects for Engineering Courses",
+      "authors": [
+        "Xuan-Quy Dao",
+        "Ngoc-Bich Le",
+        "Xuan-Dung Phan",
+        "Le-Minh Nguyen"
+      ],
+      "abstract": "Engineering courses spread their materials across slides (PPTX), typeset notes (LaTeX/PDF), and MATLAB, leaving students to connect them. We describe an instructor-in-the-loop workflow in which generative AI (GenAI) converts these assets into single-file HTML learning objects that combine presentation, mathematics, visualization, simulation, and assessment; a page is released only after its simulations pass numerical verification. Six open demonstrators implement 18 tasks from six engineering courses. In the eight tasks with quantitative cross-checks, every quantity met its tolerance at default settings (1\\%, or 2\\% for the finite-difference time-domain simulation) and agreed with a separate Python re-computation and a value-blinded MATLAB re-computation run by a colleague not involved in development; the checks also flagged under-resolved settings. In a perception survey, students (19 after post-hoc screening of 28 responses) reported that the pages linked equations with simulation, and 74\\% preferred them to separate files, but usability was marginal (System Usability Scale 56.8). Twelve lecturers rated the approach as useful (item means 4.25--4.58) but were hesitant to adopt it; their median ratings on a 12-criterion capability rubric agreed moderately with the first author's ($\\kappa_w=0.60$; individual median 0.31). The results show technical feasibility and preliminary positive perceptions; learning outcomes were not measured.",
+      "categories": [
+        "cs.HC"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-13T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.15686",
+      "pdfUrl": "https://arxiv.org/pdf/2611.15686",
+      "topics": [
+        "Pedagogy & Alignment",
+        "Learners & Classrooms"
+      ],
+      "score": 24,
+      "heuristicScore": 3,
+      "tier": "notable",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
+    }
+  ],
+  "dispatches": [],
+  "topics": [
+    {
+      "name": "Learners & Classrooms",
+      "count": 11
+    },
+    {
+      "name": "Pedagogy & Alignment",
+      "count": 8
+    },
+    {
+      "name": "Programming Education",
+      "count": 3
+    },
+    {
+      "name": "Student Modelling",
+      "count": 3
+    },
+    {
+      "name": "Tutoring Systems",
+      "count": 2
+    },
+    {
+      "name": "Assessment & Feedback",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "screened": 989,
+    "matched": 13,
+    "alreadyFeatured": 2,
+    "published": 13,
+    "announcedOn": "2026-11-13"
+  }
+}
