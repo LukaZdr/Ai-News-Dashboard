@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-14",
+    "number": 10,
+    "headline": "Unbundling Multimodal Vision Encoding",
+    "published": 18
+  },
+  {
     "date": "2026-11-13",
     "number": 9,
     "headline": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",

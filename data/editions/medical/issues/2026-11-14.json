@@ -1,0 +1,138 @@
+{
+  "edition": "medical",
+  "date": "2026-11-14",
+  "number": 10,
+  "generatedAt": "2026-11-14T13:43:37.129Z",
+  "editor": {
+    "mode": "heuristic",
+    "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
+  },
+  "lede": null,
+  "readFirst": [
+    {
+      "id": "2611.15094",
+      "why": "Matches Medical Imaging and Clinical Translation · 1 upvotes on Hugging Face.",
+      "takeaway": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time."
+    },
+    {
+      "id": "2611.15530",
+      "why": "Matches Precision Medicine and Multimodal Fusion.",
+      "takeaway": "Recent advances in medical large multimodal models (LMMs) have brought promising progress to clinical decision support, yet hallucination, the generation of confident but clinically unverifiable outputs, poses a critical threat to the reliability demanded in high-stakes medical settings."
+    }
+  ],
+  "papers": [
+    {
+      "id": "2611.15094",
+      "title": "A frontier machine intelligence for human neuroimaging",
+      "authors": [
+        "Chenhui Zhao",
+        "Akshay Rao",
+        "Akhil Kondepudi",
+        "Yiwei Lyu",
+        "Xinhai Hou",
+        "Rikhil Seshadri",
+        "Cheng Jiang",
+        "Soumyanil Banerjee",
+        "Rushikesh Joshi",
+        "Samir Harake",
+        "Ashok Srinivasan",
+        "Shruti Mishra",
+        "Francisco Rivas-Rodriguez",
+        "Seunghong Rhee",
+        "Nathaniel Roddenberry",
+        "Neeraj Chaudhary",
+        "Zach Wilseck",
+        "Paul Park",
+        "Honglak Lee",
+        "Vikas Gulani",
+        "Aditya Pandey",
+        "Todd Hollon"
+      ],
+      "abstract": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time. Although artificial intelligence has advanced image interpretation, existing medical models often address restricted tasks, while general-purpose proprietary models lack access to private clinical imaging required to achieve medical expertise. Developing models that can interpret complex examinations and communicate their findings in the context of clinical decisions remains a major challenge. Here, we show that Neuro-VL, a vision-language model trained on nearly one million neuroimaging studies from routine clinical care, can interpret complete imaging examinations and engage in natural language conversations about their findings. Across internal and international datasets, Neuro-VL outperformed frontier general-purpose and specialized medical models in diagnosing, localizing, and describing abnormalities, as well as generating comprehensive radiology reports. The model also compared serial examinations to assess disease progression and more reliably resisted misleading clinical assumptions than leading frontier models from OpenAI and Google. These results extend health system learning beyond individual predictions to interactive image interpretation and longitudinal disease monitoring. They demonstrate how the collective clinical experience of health systems can be used to develop medical AI with specialized expertise and broad clinical capabilities.",
+      "categories": [],
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 1,
+        "comments": 1,
+        "organization": "Machine Learning in Neurosurgery Lab",
+        "githubRepo": "https://github.com/MLNeurosurg/neuro-vl"
+      },
+      "url": "https://arxiv.org/abs/2611.15094",
+      "pdfUrl": "https://arxiv.org/pdf/2611.15094",
+      "topics": [
+        "Medical Imaging",
+        "Clinical Translation",
+        "Diagnosis & Disease"
+      ],
+      "score": 100,
+      "heuristicScore": 7.3,
+      "tier": "lead",
+      "why": "Matches Medical Imaging and Clinical Translation · 1 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.15530",
+      "title": "MAGIC: Modality-Aware Gini Inspection for Clinical Hallucination Detection in LMMs",
+      "authors": [
+        "Sachin Acharya",
+        "Niyoj Oli",
+        "Shishir Adhikari",
+        "Aminu Lawal",
+        "Yash Raj Shrestha",
+        "Prashnna K Gyawali",
+        "Binod Bhattarai"
+      ],
+      "abstract": "Recent advances in medical large multimodal models (LMMs) have brought promising progress to clinical decision support, yet hallucination, the generation of confident but clinically unverifiable outputs, poses a critical threat to the reliability demanded in high-stakes medical settings. Existing hallucination detection methods, predominantly designed for unimodal settings, fail to capture the visual-linguistic dynamics inherent to medical imaging. We formulate the problem of hallucination detection in LMMs as disproportionate distribution of attention weights across the modalities during answer token generation. We quantify modality-specific attention concentration across layers and heads using the Gini coefficient and demonstrate statistically significant redistribution of attention mass between visual and textual tokens in hallucinated responses. We leverage these features to train a logistic regression-based classifier and evaluate it on two medical LMMs across three medical imaging modalities, demonstrating that our method achieves competitive or superior performance against contemporary hallucination detection baselines.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "publishedAt": "2026-11-11T14:16:43Z",
+      "sources": [
+        "search"
+      ],
+      "url": "https://arxiv.org/abs/2611.15530",
+      "pdfUrl": "https://arxiv.org/pdf/2611.15530",
+      "topics": [
+        "Precision Medicine",
+        "Multimodal Fusion",
+        "Medical Imaging"
+      ],
+      "score": 78,
+      "heuristicScore": 5.7,
+      "tier": "lead",
+      "why": "Matches Precision Medicine and Multimodal Fusion."
+    }
+  ],
+  "dispatches": [],
+  "topics": [
+    {
+      "name": "Medical Imaging",
+      "count": 2
+    },
+    {
+      "name": "Clinical Translation",
+      "count": 1
+    },
+    {
+      "name": "Diagnosis & Disease",
+      "count": 1
+    },
+    {
+      "name": "Precision Medicine",
+      "count": 1
+    },
+    {
+      "name": "Multimodal Fusion",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "screened": 65,
+    "matched": 2,
+    "alreadyFeatured": 10,
+    "published": 2
+  }
+}
