@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-16",
+    "number": 11,
+    "headline": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+    "published": 42
+  },
+  {
     "date": "2026-11-14",
     "number": 10,
     "headline": "Unbundling Multimodal Vision Encoding",
