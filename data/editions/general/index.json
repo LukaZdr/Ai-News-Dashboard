@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-17",
+    "number": 12,
+    "headline": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+    "published": 42
+  },
+  {
     "date": "2026-11-16",
     "number": 11,
     "headline": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",

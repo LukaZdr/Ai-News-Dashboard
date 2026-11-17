@@ -1,8 +1,8 @@
 {
   "edition": "education",
-  "date": "2026-11-16",
-  "number": 8,
-  "generatedAt": "2026-11-16T16:16:01.098Z",
+  "date": "2026-11-17",
+  "number": 9,
+  "generatedAt": "2026-11-17T16:22:22.570Z",
   "editor": {
     "mode": "heuristic",
     "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
@@ -10,94 +10,424 @@
   "lede": null,
   "readFirst": [
     {
-      "id": "2611.17442",
-      "why": "Matches Pedagogy & Alignment.",
-      "takeaway": "A rescue robot entering a building with thirty seconds on the clock should sprint toward the single most promising room; given ten minutes, it should instead explore a broader tour."
+      "id": "2611.20367",
+      "why": "Matches Tutoring Systems and Learners & Classrooms.",
+      "takeaway": "Conversational artificial intelligence can reproduce many instructional and social behaviors of human tutors, but students may interpret those behaviors differently depending on who they believe is providing them."
     },
     {
-      "id": "2611.17858",
-      "why": "Matches Learners & Classrooms.",
-      "takeaway": "As Artificial Intelligence (AI)-based systems have become increasingly integrated into various aspects of everyday life, including education, understanding how these systems make decisions is of paramount importance."
+      "id": "2611.20061",
+      "why": "Matches Tutoring Systems and Learners & Classrooms.",
+      "takeaway": "Large language models (LLMs) could make personalized tutoring available at scale, but it remains unclear how they can best support the instructional processes that make one-on-one instruction effective."
+    },
+    {
+      "id": "2611.20803",
+      "why": "Matches Learners & Classrooms and Student Modelling.",
+      "takeaway": "Digital assessment traces are increasingly used to predict student performance, often evaluated by correlating predicted and observed scores pooled across tasks."
     }
   ],
   "papers": [
     {
-      "id": "2611.17442",
-      "title": "Racing the Clock: Teaching VLNs Budget-Conditioned Object Search",
+      "id": "2611.20367",
+      "title": "\"Can a Robot Really Care About Me?\" How Perceiving a Tutor as Human or AI Affects Computer Science Students' Attitudes and Experiences",
       "authors": [
-        "Maitree Meher",
-        "Siming He",
-        "S. Shankar Sastry",
-        "Jitendra Malik",
-        "Claire Tomlin",
-        "Jonas Frey"
+        "Tymon Vu",
+        "Wenxuan \"Wendy\" Shi",
+        "Silas Hsu"
       ],
-      "abstract": "A rescue robot entering a building with thirty seconds on the clock should sprint toward the single most promising room; given ten minutes, it should instead explore a broader tour. Yet vision-language-navigation (VLN) models are typically evaluated under a fixed episode limit that the policy never observes, even though time-critical missions require behavior to adapt to the available budget. We study budget-conditioned object search: given a target category and an explicit action budget, an agent must find as many distinct target instances as possible before the budget expires. We investigate how to supervise VLNs for this task by comparing a privileged TSP expert, which plans near-optimal routes using the full map and true target locations, with a room-level Bellman expert that maximizes expected return under partial observability using high-level cross-scene semantic priors. Despite the TSP expert achieving substantially higher expert performance, its demonstrations are less effective for learning exploration: on held-out HM3D scenes, the Bellman-supervised VLN consistently outperforms the TSP-supervised VLN, with the advantage becoming more pronounced at longer budgets. At 2000 steps (500m), the Bellman-supervised VLN finds 71.4% of reachable target instances, compared with 65.5% for the TSP-supervised VLN and 44.8% for the pretrained VLN. These results highlight a distinction between optimal routing and optimal exploration: effective exploration supervision should optimize decisions under partial observability rather than imitate routes that are optimal only once the environment is fully known.",
+      "abstract": "Conversational artificial intelligence can reproduce many instructional and social behaviors of human tutors, but students may interpret those behaviors differently depending on who they believe is providing them. We examined how perceived tutor identity shapes students' evaluations of instructional feedback, satisfaction of psychological needs according to Self-Determination Theory, and their communication strategies with tutors. In a within-subjects Wizard-of-Oz study, 27 introductory computer science students completed two text-based tutoring sessions involving Python code-explanation problems. Participants were told one tutor was human and the other was AI, although the same human provided feedback in both conditions. We found participants evaluated both tutors favorably and reported few consistent differences in the instructional value of the feedback. However, participants frequently questioned whether AI could genuinely care about them, which corresponded with the human tutor having higher scores of relatedness need satisfaction. Human presence offered connection and accountability for some participants but introduced anxiety in others. Participants also reported communicating more casually with the human tutor and more explicitly with the AI tutor. These findings suggest complementary roles for human and AI tutoring and highlight the importance of considering psychological needs alongside instructional quality.",
       "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV",
-        "cs.LG"
+        "cs.HC"
       ],
-      "announceType": "cross",
-      "publishedAt": "2026-11-16T00:00:00-05:00",
+      "announceType": "new",
+      "publishedAt": "2026-11-17T00:00:00-05:00",
       "sources": [
         "arxiv"
       ],
-      "url": "https://arxiv.org/abs/2611.17442",
-      "pdfUrl": "https://arxiv.org/pdf/2611.17442",
+      "url": "https://arxiv.org/abs/2611.20367",
+      "pdfUrl": "https://arxiv.org/pdf/2611.20367",
       "topics": [
+        "Tutoring Systems",
+        "Learners & Classrooms",
         "Pedagogy & Alignment"
       ],
       "score": 100,
-      "heuristicScore": 5.4,
+      "heuristicScore": 16.6,
       "tier": "lead",
-      "why": "Matches Pedagogy & Alignment."
+      "why": "Matches Tutoring Systems and Learners & Classrooms."
     },
     {
-      "id": "2611.17858",
-      "title": "AI-aided Decision-Making in Education - Uncertainty, Explainability, and Human Responsibility",
+      "id": "2611.20061",
+      "title": "Turning Errors into Successes: Designing LLM Tutoring Around Scaffolded Error Correction",
       "authors": [
-        "Fabian Kieser",
-        "Paul Tschisgale",
-        "Peter Wulff"
+        "Michael W. Asher",
+        "Meng Cao",
+        "Paulo F. Carvalho"
       ],
-      "abstract": "As Artificial Intelligence (AI)-based systems have become increasingly integrated into various aspects of everyday life, including education, understanding how these systems make decisions is of paramount importance. AI holds significant potential to enhance educational practices through the facilitation of personalized and adaptive learning, automation of assessment procedures, and assistance with administrative tasks. However, the opacity of AI-based decision-making in education (especially with deep learning and generative AI models) can hamper decision-making, especially when outcomes appear unjustified or incorrect. In this chapter, we argue that three key principles (uncertainty, explainability, and human responsibility) are essential for the legitimate use of AI in educational settings. Acknowledging the inherent uncertainties in AI-based decisions, analogous to those in human decision-making, is fundamental. Explainability is critical for ensuring that the functioning and outcomes of AI applications are transparent and comprehensible to both educators and learners. Furthermore, human responsibility is crucial, particularly in human decision-making, which remains indispensable across all stages of AI development and deployment. By examining these three principles, this chapter provides a comprehensive guide for stakeholders seeking to integrate AI thoughtfully and effectively into the educational system.",
+      "abstract": "Large language models (LLMs) could make personalized tutoring available at scale, but it remains unclear how they can best support the instructional processes that make one-on-one instruction effective. We compared two ways of using LLMs after students make errors: providing personalized explanations of those errors, or engaging students in additional cycles of scaffolded practice and feedback, with a Socratic tutor guiding students toward the correct answer. In a preregistered online experiment, 400 adults practiced setting up constraint equations and, after each attempt, received the correct answer, a generic explanation, a personalized LLM explanation of their error, or Socratic tutoring. Socratic tutoring helped: participants resolved 64% of their errors through the dialogue and scored 0.24 SD higher on practice-aligned posttest questions than those who received generic or personalized explanations. Socratic participants also found the session more interesting, less frustrating, and less costly, even though it took nearly twice as long. In contrast, we found no evidence of a benefit of personalized explanations over generic ones, and neither type of explanation reliably outperformed simply seeing the correct answer. These findings suggest that LLM tutors may add the most value not by explaining errors more precisely but by helping students correct those errors themselves through scaffolded practice. This pattern fits a mastery-experience account of tutoring, in which an effective tutor notices when a student is struggling, steps in with guidance, and works with the student until the struggle resolves into success. AI tutors may be most effective when designed around this principle.",
+      "categories": [
+        "cs.HC"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-17T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.20061",
+      "pdfUrl": "https://arxiv.org/pdf/2611.20061",
+      "topics": [
+        "Tutoring Systems",
+        "Learners & Classrooms",
+        "Pedagogy & Alignment"
+      ],
+      "score": 86,
+      "heuristicScore": 14.2,
+      "tier": "lead",
+      "why": "Matches Tutoring Systems and Learners & Classrooms."
+    },
+    {
+      "id": "2611.20803",
+      "title": "What Do Digital Traces Predict? Task Effects, Student Differences, and Critical Online Reasoning",
+      "authors": [
+        "Maxim Konca",
+        "Alexander Mehler"
+      ],
+      "abstract": "Digital assessment traces are increasingly used to predict student performance, often evaluated by correlating predicted and observed scores pooled across tasks. However, such correlations may reflect between-task differences rather than performance differences among students within tasks. To investigate this, we analyzed up to 527 browsing sessions from 424 university students completing open-Internet Critical Online Reasoning tasks and assessed the cross-task stability of their ratings. We evaluated the same out-of-fold predictions within and across tasks, compared three validation tiers up to leave-one-task-out, and tested incremental predictive contributions of consultation order and relational structure against matched permutation and randomization controls. None of the twelve prespecified primary tests was significant: on held-out tasks, consulted-page features showed no significant association with relative student performance, nor did observed order or relational structure add predictive value. Pooling observations across tasks substantially increased correlations, particularly for factual correctness, whose scores showed limited evidence of stable between-student differences across tasks. However, sentence embeddings yielded modest positive correlations with generic response quality on held-out tasks, without establishing added predictive value from observed order or relational structure. Our findings show that pooled predictive correlations may not reflect within-task student differences, highlighting the need for within-task evaluation and criterion generalizability audits.",
+      "categories": [
+        "cs.CL",
+        "cs.CY",
+        "cs.LG"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-17T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.20803",
+      "pdfUrl": "https://arxiv.org/pdf/2611.20803",
+      "topics": [
+        "Learners & Classrooms",
+        "Student Modelling"
+      ],
+      "score": 46,
+      "heuristicScore": 7.6,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms and Student Modelling."
+    },
+    {
+      "id": "2611.21422",
+      "title": "Rubric-Based AES with LLM Ensembles: Scoring of Student Responses in Critical Online Reasoning Using Ensembles of LLMs",
+      "authors": [
+        "Daniel Baumartz",
+        "Alexander Mehler",
+        "Patrick Schrottenbacher",
+        "Leon Hammerla",
+        "Sebastian Gombert"
+      ],
+      "abstract": "Grading student responses is costly and time-consuming. Moreover, human annotators are prone to bias, fatigue, and rater drift, which further limits grading reliability. Various methods have been employed to develop automated essay scoring (AES) systems to reduce these costs and address bias-related issues. These methods range from early text-feature-based systems to current machine-learning and transformer-based models. Specifically, large language models (LLMs) offer the potential to streamline the development of AES systems. However, they are subject to well-known limitations, such as hallucinations and prompt sensitivity. This creates a need to explore the potential of a mixed-methods approach that leverages the synergies among individual LLMs through ensemble formation. We evaluate the potential of ensembles of LLMs to match human-rater agreement when grading student responses in economics and medical education across 103 criteria. We use 631 German-language responses and corresponding human ratings by 2 to 5 annotators from a previously conducted assessment. We experiment with 523 rubric-based prompt configurations across 15 open-weight LLMs and assess their consistency with human raters using Krippendorff's alpha for inter-annotator agreement (IAA) and the Alternative Annotator Test (alt-test). Our results show that replacing one human rater with the best-performing LLM--prompt configuration maintains or improves IAA for 91 of the 103 criteria and that LLMs pass the alt-test for 90 criteria. Our findings suggest that current state-of-the-art LLMs can support AES of German responses in economics and medical education, reducing human workload and enabling faster processing, while validation against human ratings remains necessary.",
+      "categories": [
+        "cs.CL"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-17T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.21422",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21422",
+      "topics": [
+        "Learners & Classrooms",
+        "Assessment & Feedback"
+      ],
+      "score": 45,
+      "heuristicScore": 7.4,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms and Assessment & Feedback."
+    },
+    {
+      "id": "2611.21501",
+      "title": "Is This Code Mine? Student Ownership When AI Agents Write the Spec and the Code",
+      "authors": [
+        "Gustavo Pinto",
+        "Enne Rebeca Silva de Freitas",
+        "Danilo Monteiro Ribeiro"
+      ],
+      "abstract": "Software engineering courses are starting to ask students to build entire systems with AI coding agents, but little is known about what students actually do with them and whether they still own what they deliver. If the agent writes both the code and the decisions behind it, the artifacts we grade no longer show what students learned. We studied an assignment in which 18 pairs of students built applications with agents under Spec-Driven Development, combining the mined history of their repositories, the prompts they recorded, and a survey of 33 students. The agents wrote 69\\% of the specifications meant to keep students in control, sometimes from a prompt of a few words. Students locate their ownership in the ideas, crediting themselves with half of them but a fifth of the code, yet most could not explain that code to a colleague or modify it without the agent, and what they report having written is unrelated to what their own commits declare. The three teams that met the 100,000-line target did so with generated code the application never uses, in one case proposed by the agent itself, and one team rewrote its history to backdate its specifications. Teaching with agents should therefore assess what students specify, review, and can explain, rather than what they ship, and enforce the engineering process with tools rather than trusting it to students or agents.",
+      "categories": [
+        "cs.SE"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-17T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.21501",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21501",
+      "topics": [
+        "Learners & Classrooms",
+        "Pedagogy & Alignment"
+      ],
+      "score": 40,
+      "heuristicScore": 6.6,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.21306",
+      "title": "Share your Screen and Talk to Gemini: How Young Learners Interact with Multimodal GenAI While Solving Scratch Tasks",
+      "authors": [
+        "Sven Jacobs",
+        "Lukas Berning",
+        "Natalie Kiesler"
+      ],
+      "abstract": "Children using Scratch to learn programming can struggle with text-heavy, lengthy explanations and hints during debugging. Verbal interactions based on screen sharing or camera data may be an interesting alternative for supporting learners. We therefore explore the quality, use, and perceptions of fifth- and sixth-graders' verbal interactions with a GenAI tutor. The goal is to investigate the quality and use of the multimodal GenAI tutor in the given context. First of all, a pilot study of eight tasks conducted without students helped inform the process of the tutor's classroom evaluation. The classroom study was realized after fifth- and sixth-graders had participated in six Scratch classroom lessons. Then 23 students were introduced to the tutor, worked on the eight tasks with the GenAI tutor, and completed a questionnaire. The analysis of the pilot and classroom study shows that the tutor's responses were intelligible and actionable, and no single turn revealed a complete solution. However, the tutor missed existing errors in 61.5% of 603 error-related classroom turns, compared to 15.7% in the pilot study. Children's voice prompts were brief and mostly responded to the tutor. Although a video had explained that responses could be incorrect, 39.1% of the children trusted the tutor's answers to always be correct. These findings have implications for educators and learners using multimodal GenAI tutors, as they need to be aware that an intelligible and human-like voice does not ensure correct support. For developers, our results suggest that screen sharing alone does not ensure responses that match the program state.",
+      "categories": [
+        "cs.AI",
+        "cs.CY",
+        "cs.HC"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-17T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.21306",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21306",
+      "topics": [
+        "Tutoring Systems",
+        "Learners & Classrooms"
+      ],
+      "score": 39,
+      "heuristicScore": 6.4,
+      "tier": "notable",
+      "why": "Matches Tutoring Systems and Learners & Classrooms."
+    },
+    {
+      "id": "2611.18609",
+      "title": "Many Paths to the Same Mistake: Generating Diverse Reasoning Paths Behind the Same Student Mistake",
+      "authors": [
+        "Fareya Ikram",
+        "Mengxuan Hu",
+        "Parker Glenn",
+        "Zhiqi Huang",
+        "Alfy Samuel"
+      ],
+      "abstract": "Realistic evaluation of AI systems requires user simulators that capture not only cooperative behavior, but also the errors and variability that arise in real interactions. In educational technology, simulating step-by-step flawed student reasoning is essential, yet datasets mapping these pathways are scarce, and Large Language Models (LLMs) often auto-correct rather than sustain simulated mistakes. To address this, we present a generate-and-filter pipeline that produces diverse and realistic student error traces. Our approach utilizes forward consistency, a metric verifying if a flawed reasoning trace can be used to recover the student's actual incorrect answer, paired with an LLM-as-a-judge to ensure realism. Our evaluation suggests that while many LLMs struggle to maintain incorrect reasoning mid-trace, smaller supervised fine-tuned models successfully capture these divergent paths. This work provides a framework for high-fidelity error trace generation, advancing realistic, non-cooperative user simulation.",
+      "categories": [
+        "cs.CL"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-17T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.18609",
+      "pdfUrl": "https://arxiv.org/pdf/2611.18609",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 36,
+      "heuristicScore": 6,
+      "tier": "notable",
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.21208",
+      "title": "Validating LLM-Based Essay Scorers: A Comparative Analysis in Critical Online Reasoning in Medical Education",
+      "authors": [
+        "Daniel Baumartz",
+        "Alexander Mehler",
+        "Mevl\\\"ut Bagci",
+        "Maxim Konca"
+      ],
+      "abstract": "Automated essay scorers (AES) based on large language models (LLMs) promise human-level accuracy. However, training, fine-tuning, and evaluating LLMs for specific assessment tasks is costly. In particular, the question arises whether these AES should be trained for specific domains or whether models based on generic LLMs might be sufficient. Human annotations, by contrast, are often more valid but far more expensive. This study evaluates whether ensembles of AES systems based on general-purpose LLMs can approximate human ratings of medical-education writing tasks by leveraging encoded linguistic and conceptual knowledge. The goal is to assess whether general-purpose models are applicable for assisting or potentially replacing human annotation in this domain. We experiment with 11 AES systems and 8 different LLMs and evaluate 668 student responses to 12 tasks, using \\numprint{2076} evaluations by 7 human annotators. These ratings are aggregated to create consistent performance levels that can be used as target classes for classifiers trained on AES outputs. Our results show that learner classes based on human ratings can be accurately reconstructed using a linear SVM trained on a small set of AES features. A single classifier generalized well across tasks and domains, with reasoning and content features being most predictive. This suggests that out-of-the-box LLMs, even without domain-specific fine-tuning, can support automatic essay grading in medical education. While individual AES systems are insufficient alone, their combination approximates human evaluators, pointing to a reduced need for manual scoring or its supplementation with automated methods.",
+      "categories": [
+        "cs.CL"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-17T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.21208",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21208",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 36,
+      "heuristicScore": 6,
+      "tier": "notable",
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.21476",
+      "title": "Generative AI and the Crisis of Higher Education Assessments: Examining 'AI-Proofing' Strategies for College-Level Assessments",
+      "authors": [
+        "Bonam Mingole",
+        "Davis Yadav",
+        "Hui Min Lee",
+        "S. Shyam Sundar",
+        "Amulya Yadav"
+      ],
+      "abstract": "Higher education is confronting an academic-integrity challenge unlike any in its history. Students can now outsource homework, take-home assignments, and online examinations to large language models (LLMs) that complete them in seconds. Existing research on evaluating LLM performance on academic assessments has focused largely on standardized examinations, or on questions from college-level courses drawn from a single discipline. Far less is known about how LLMs perform on college-level assessment questions spanning multiple disciplines, that instructors have purposely designed to be AI-resistant, and about which features of such questions, if any, meaningfully constrain LLM performance. We address this gap by collecting 75 questions from authentic college coursework assessments, spanning 17 disciplines, which were contributed by 37 faculty members from ten U.S. universities and one U.K. university. Of these, 61 questions were intentionally designed by faculty members to be 'LLM-proof', while the remaining 14 questions were sourced from online courses. We then (i) evaluate three state-of-the-art LLMs' ability to correctly answer these questions with and without supplementary course materials; (ii) identify five strategies, through thematic analysis, that faculty used to make their questions harder for LLMs to solve; and (iii) test whether these strategies impact LLMs' ability to answer the questions accurately. Our experimental results show that the best-performing model scored approximately 83% without supplementary course materials and 85% with them, and we observed noteworthy differences across models, answer formats, and instructor tweaking strategies. We discuss implications for assessment design, academic-integrity policy, and the broader ethics of deploying LLMs in educational settings.",
       "categories": [
         "cs.AI"
       ],
       "announceType": "new",
-      "publishedAt": "2026-11-16T00:00:00-05:00",
+      "publishedAt": "2026-11-17T00:00:00-05:00",
       "sources": [
         "arxiv"
       ],
-      "url": "https://arxiv.org/abs/2611.17858",
-      "pdfUrl": "https://arxiv.org/pdf/2611.17858",
+      "url": "https://arxiv.org/abs/2611.21476",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21476",
       "topics": [
         "Learners & Classrooms"
       ],
-      "score": 89,
-      "heuristicScore": 4.8,
-      "tier": "lead",
+      "score": 36,
+      "heuristicScore": 6,
+      "tier": "notable",
       "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.19569",
+      "title": "Learning from Mutants: Teaching Small Language Models to Synthesise Loop Invariants",
+      "authors": [
+        "Daragh King",
+        "Vasileios Koutavas"
+      ],
+      "abstract": "Large language models (LLMs) have proven promising for synthesising loop invariants, a long-standing obstacle to automated program verification. Yet, frontier LLMs are typically accessible only through third-party APIs, hampering reproducibility and local deployment. Small language models (SLMs) sidestep these obstacles but require task-specific fine-tuning, for which high-quality training data is needed. We present a failure-driven data curation method for fine-tuning language models to synthesise loop invariants. Inspired by mutation testing, our approach applies semantic mutation operators to ground-truth invariants, producing semantic mutants that induce verification failure. Each mutant is paired with verifier feedback and its ground-truth counterpart, yielding training examples for feedback-guided invariant refinement. Whereas the vast space of mutants is a long-standing burden in mutation testing, it becomes an asset when generating training data, multiplying the examples obtainable from a fixed set of verified programs. We implement our approach for Dafny, augmenting an existing synthetic dataset of verified programs, and introduce a framework that iteratively refines candidate invariants using verifier feedback. On 472 DafnyBench programs, our best-performing fine-tuned Gemma-4-E4B configuration verifies 50.8% of programs zero-shot, compared to 8.1% for the base model, a 6.3$\\times$ improvement. Higher-order mutants prove more effective as training data than first-order mutants, and adding mutation-based examples to direct synthesis examples, in which invariants are removed rather than mutated, improves performance under iterative refinement. Our approach also transfers to Qwen3.5-4B, whose zero-shot verification rate rises from 9.3% to 53.6%.",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-17T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.19569",
+      "pdfUrl": "https://arxiv.org/pdf/2611.19569",
+      "topics": [
+        "Pedagogy & Alignment"
+      ],
+      "score": 33,
+      "heuristicScore": 5.4,
+      "tier": "notable",
+      "why": "Matches Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.19875",
+      "title": "Let Execution Do the Teaching",
+      "authors": [
+        "Abhishek Mishra",
+        "Sandeep Srinivasa",
+        "Arko Chattopadhyay",
+        "Enrique Martinho Ferrao",
+        "Guda Pranav Reddy"
+      ],
+      "abstract": "Improving a coding model is a sequence of decisions: find the limiting behavior, create useful practice, and determine which attempts deserve reinforcement. We investigate a practical way to make those decisions increasingly repeatable by grounding feedback in execution. Starting from GLM-4.7-Flash, the work combines whole-file supervised fine-tuning, targeted C++ repair curricula, group-relative reinforcement learning, and verifiers that turn program behavior into structured rewards. Compiler errors and failing tests provide specific contexts for repair practice, while executable checks score the resulting programs. We evaluate the trained models on 26 C++ coding tasks, measuring both initial success and completion after test feedback. The strongest reported post-training configuration achieves 45.2% success in the first test round and 61.5% within two rounds. These results come from an assisted development suite with evolving prompt contracts; the strongest configuration uses four selected evaluation trials and includes six tasks also used in training. The study describes an execution-guided workflow for improving coding models, including how repair tasks are constructed, how program behavior determines rewards, and how the resulting models are evaluated.",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-17T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.19875",
+      "pdfUrl": "https://arxiv.org/pdf/2611.19875",
+      "topics": [
+        "Pedagogy & Alignment"
+      ],
+      "score": 33,
+      "heuristicScore": 5.4,
+      "tier": "notable",
+      "why": "Matches Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.21211",
+      "title": "Teaching Language Models to Adapt Answer Granularity to Their Confidence",
+      "authors": [
+        "Lukas Ellinger",
+        "Georg Groh"
+      ],
+      "abstract": "When precise details are uncertain, a coarser answer can retain useful information without guessing or abstaining. We investigate whether language models can learn this behavior through model-conditioned supervision derived from consistency across sampled responses and recognition of answers at different granularity levels. We evaluate LFM2.5-1.2B, Ministral~3~3B, Qwen3.5-9B, and Gemma~4~31B on temporal and geographic questions and three generalization datasets. In several in-domain settings, fine-tuning improves the balance of correctness and informativeness beyond coarsening base answers to the best fixed level. Across generalization datasets, all four models produce coarser answers more often at low than high base-model confidence. The three smaller models' answers are also preferred over base responses on held-out relations when correctness and granularity are considered jointly. These findings demonstrate learnable confidence-related granularity adaptation, with benefits varying by model.",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-17T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.21211",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21211",
+      "topics": [
+        "Pedagogy & Alignment"
+      ],
+      "score": 33,
+      "heuristicScore": 5.4,
+      "tier": "notable",
+      "why": "Matches Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.20848",
+      "title": "MolReps: Taking SELFIES, Making SMILES, Teaching LLMs",
+      "authors": [
+        "Ken Deng",
+        "Garrett Morris"
+      ],
+      "abstract": "The same molecule can be expressed in multiple, syntactically distinct representations, yet it remains unclear whether large language models (LLMs) can recognize and relate these equivalent encodings. We introduce MolReps, a pipeline that generates 9,600 question-answer pairs across ten representations for conversion, normalization, and 2D structure recognition. Post-training on MolReps improves text-only and multimodal models, MolQwen3-4B-Instruct (MQ3-4B-I) and MolQwen3-VL-4B-Instruct (MQ3-VL-4B-I), from $4.01\\%$ to $75.13\\%$ and from $7.11\\%$ to $73.14\\%$ (InChIKey match) on the molecule-overlap test set, respectively. On the molecule-disjoint test set, post-training increased validity from $20.35\\%$ to $58.12\\%$ for MQ3-4B-I and from $17.19\\%$ to $59.34\\%$ for MQ3-VL-4B-I. However, InChIKey match remained low, decreasing from $3.86\\%$ to $3.09\\%$ and from $6.44\\%$ to $2.29\\%$, respectively. Furthermore, the resulting models achieve a relative $27.84\\%$ improvement in average over their base model on MolRepBench, a comprehensive benchmark for evaluating molecular property prediction. These results show the effectiveness of targeted post-training for enhancing molecular representation understanding and its potential to improve downstream molecular tasks.",
+      "categories": [
+        "physics.chem-ph",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "announceType": "cross",
+      "publishedAt": "2026-11-17T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.20848",
+      "pdfUrl": "https://arxiv.org/pdf/2611.20848",
+      "topics": [
+        "Pedagogy & Alignment"
+      ],
+      "score": 33,
+      "heuristicScore": 5.4,
+      "tier": "notable",
+      "why": "Matches Pedagogy & Alignment."
     }
   ],
   "dispatches": [],
   "topics": [
     {
+      "name": "Learners & Classrooms",
+      "count": 9
+    },
+    {
       "name": "Pedagogy & Alignment",
+      "count": 7
+    },
+    {
+      "name": "Tutoring Systems",
+      "count": 3
+    },
+    {
+      "name": "Student Modelling",
       "count": 1
     },
     {
-      "name": "Learners & Classrooms",
+      "name": "Assessment & Feedback",
       "count": 1
     }
   ],
   "stats": {
-    "screened": 445,
-    "matched": 2,
+    "screened": 1333,
+    "matched": 13,
     "alreadyFeatured": 2,
-    "published": 2,
-    "announcedOn": "2026-11-16"
+    "published": 13,
+    "announcedOn": "2026-11-17"
   }
 }
