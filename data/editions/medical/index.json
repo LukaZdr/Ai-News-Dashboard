@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-18",
+    "number": 13,
+    "headline": "OICycle: Observe, Infer, and Intervene Cycle for Belief-State Learning in Longitudinal Clinical Decision Making",
+    "published": 31
+  },
+  {
     "date": "2026-11-17",
     "number": 12,
     "headline": "LogicEye: Agent Driven Multimodal Dataset for Interpretable Ophthalmic Diagnosis",
