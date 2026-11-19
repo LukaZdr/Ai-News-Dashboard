@@ -1,0 +1,1156 @@
+{
+  "edition": "medical",
+  "date": "2026-11-19",
+  "number": 14,
+  "generatedAt": "2026-11-19T15:58:08.684Z",
+  "editor": {
+    "mode": "heuristic",
+    "note": "2 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
+  },
+  "lede": null,
+  "readFirst": [
+    {
+      "id": "2611.24440",
+      "why": "Matches Interpretable Reasoning and Medical Imaging.",
+      "takeaway": "Brain tumors are among the most lethal neurological disorders, with over 308,000 new diagnoses annually worldwide."
+    },
+    {
+      "id": "2611.23925",
+      "why": "Matches Medical Imaging and Diagnosis & Disease.",
+      "takeaway": "Precise myocardial phenotyping at population scale is limited by the cost and accessibility of cardiac magnetic resonance (CMR), whereas electrocardiography (ECG) is widely available but reflects electrical rather than structural and functional information."
+    },
+    {
+      "id": "2611.24487",
+      "why": "Matches Precision Medicine and Medical Imaging.",
+      "takeaway": "Quantitative MRI methods are widely used to probe white matter microstructure; yet diffusion- and relaxation-based metrics are often interpreted primarily in terms of myelinated axons, implicitly assuming a negligible contribution from unmyelinated axons."
+    }
+  ],
+  "papers": [
+    {
+      "id": "2611.24440",
+      "title": "Explainable and CPU-Efficient Brain Tumor Classification from MRI Using Two-Phase EfficientNetB3 Fine-Tuning",
+      "authors": [
+        "Deepro Das",
+        "Saad Kabir Uddin",
+        "Mohammad Alauddin",
+        "Bornali Sarker",
+        "Thasnim Akhter"
+      ],
+      "abstract": "Brain tumors are among the most lethal neurological disorders, with over 308,000 new diagnoses annually worldwide. Accurate classification of tumor type from Magnetic Resonance Imaging (MRI) scans is critical for treatment planning; however, manual radiological interpretation is time-consuming and prone to inter-observer variability. This paper proposes an automated deep learning pipeline for four-class brain MRI classification (glioma, meningioma, no tumor, and pituitary tumor) using EfficientNetB3 transfer learning with a custom classification head. A two-phase training strategy is adopted: Phase 1 trains the head with a frozen backbone (best validation accuracy: 92.77%), and Phase 2 selectively fine-tunes the top 37 layers at a 100x reduced learning rate (best validation accuracy: 94.91%). On an independent balanced test set of 1,600 MRI images, the system achieves 90.62% overall accuracy and a macro-average AUC of 0.9854. Gradient-weighted Class Activation Mapping (Grad-CAM) is integrated for class-discriminative visual explainability. The proposed system simultaneously addresses three dimensions absent in prior work: high accuracy, CPU-only computational efficiency, and clinical interpretability.",
+      "categories": [
+        "cs.CV"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.24440",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24440",
+      "topics": [
+        "Interpretable Reasoning",
+        "Medical Imaging",
+        "Diagnosis & Disease",
+        "Precision Medicine"
+      ],
+      "score": 100,
+      "heuristicScore": 19.7,
+      "tier": "lead",
+      "why": "Matches Interpretable Reasoning and Medical Imaging."
+    },
+    {
+      "id": "2611.23925",
+      "title": "Cardiac MRI-informed electrocardiography enables biologically grounded cardiomyopathy detection",
+      "authors": [
+        "Zhengyao Ding",
+        "Kewen Wang",
+        "Yujian Hu",
+        "Ziyu Li",
+        "Yiheng Mao",
+        "Yue Wang",
+        "Haitao Li",
+        "Dengnan Zhang",
+        "Xuanhong Liu",
+        "Yue Wang",
+        "Jing Wang",
+        "Yue Chen",
+        "Longbo Wang",
+        "Mengjia Chen",
+        "Chengchen Zhao",
+        "Xuesen Chu",
+        "Yubin Zhang",
+        "Mor Peleg",
+        "Judith Somekh",
+        "Mingxuan Yuan",
+        "Hui Yan",
+        "Yue Gu",
+        "Fan Yi",
+        "Zhilong Jia",
+        "Zhentao Tang",
+        "Xi Hu",
+        "Fei Wu",
+        "Hongkun Zhang",
+        "Ting Chen",
+        "Zhengxing Huang"
+      ],
+      "abstract": "Precise myocardial phenotyping at population scale is limited by the cost and accessibility of cardiac magnetic resonance (CMR), whereas electrocardiography (ECG) is widely available but reflects electrical rather than structural and functional information. Here we develop MyoECG, a cross-modal representation learning framework that distils myocardial structural and functional knowledge from CMR into standard 12-lead ECGs, enabling imaging-informed cardiomyopathy detection and subtype classification from ECGs alone. MyoECG was pretrained on 45,241 paired ECG-CMR examinations from UK Biobank and a tertiary cardiovascular centre, then developed and validated across more than 1.8 million ECGs from seven independent datasets. Across internal and external datasets spanning prevalences of 0.2-54.7%, MyoECG outperformed five pretrained ECG foundation models, with AUROCs of 0.800-0.974 for cardiomyopathy detection. In a multi-reader study of six cardiologists, MyoECG assistance improved mean sensitivity by 0.109 (95% CI, 0.041-0.175; P = 0.009) and specificity by 0.056 (95% CI, 0.004-0.108; P = 0.040). In 41,128 UK Biobank participants, the MyoECG score showed genetic correlations with cardiomyopathy (rg = 0.409) and dilated cardiomyopathy (rg = 0.371), genome-wide associations at four loci, including regions mapped to NFIA and KCNQ1, and associations with 69 circulating proteins related to myocardial stress, cell adhesion, vascular biology and metabolism. The cardiomyopathy correlation attenuated to non-significance after adjustment for 27 measured CMR traits (rg = 0.131; P = 0.143), indicating that the score captures CMR-derived information rather than dataset-specific shortcuts. MyoECG offers a scalable route to CMR-informed cardiomyopathy assessment and a strategy for transferring knowledge from resource-intensive imaging to widely deployable physiological signals.",
+      "categories": [
+        "cs.AI",
+        "q-bio.QM"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23925",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23925",
+      "topics": [
+        "Medical Imaging",
+        "Diagnosis & Disease",
+        "Biosignals & Wearables",
+        "Multimodal Fusion"
+      ],
+      "score": 83,
+      "heuristicScore": 16.4,
+      "tier": "lead",
+      "why": "Matches Medical Imaging and Diagnosis & Disease."
+    },
+    {
+      "id": "2611.24487",
+      "title": "Unmyelinated axons alter the biological interpretation of MRI biomarkers of demyelination",
+      "authors": [
+        "Ali Abdollahzadeh",
+        "Ricardo Coronado-Leija",
+        "Elizabeth Chasen",
+        "Sungheon G. Kim",
+        "Dmitry S. Novikov",
+        "Els Fieremans"
+      ],
+      "abstract": "Quantitative MRI methods are widely used to probe white matter microstructure; yet diffusion- and relaxation-based metrics are often interpreted primarily in terms of myelinated axons, implicitly assuming a negligible contribution from unmyelinated axons. Here, combining diffusion MRI (dMRI), relaxation-based MRI, and electron microscopy (EM) in the cuprizone mouse model of demyelination and recovery, we examine how unmyelinated axons shape MRI-derived microstructural indices, including axonal water fraction and $g$-ratio. To enable quantitative cellular-level comparisons, we developed automated tools for instance-level EM segmentation of white matter, allowing morphological analysis of myelinated and unmyelinated axonal populations. We find that, in the mouse model, diffusion-derived estimates of axonal water fraction reflect contributions from both axonal populations at sufficiently short diffusion times; accounting for unmyelinated axons removes an apparent bias and reveals that this metric corresponds to the total intra-axonal space rather than myelinated fibers alone. Similarly, MRI-derived $g$-ratio estimates correlate strongly with EM only when both axonal populations are included. We further demonstrate that within-voxel $g$-ratio heterogeneity introduces a systematic negative bias of up to $8\\%$, increasing with the fraction of unmyelinated axons and variability in myelin thickness. Together, these findings change the biological interpretation of MRI biomarkers during demyelination by demonstrating that unmyelinated axons are a major determinant of MRI-derived white matter indices and that combining diffusion and relaxation contrasts enables a more accurate and interpretable quantification of demyelination. They further highlight the need for quantitative biomarkers that account for axonal heterogeneity in both health and disease.",
+      "categories": [
+        "physics.med-ph"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.24487",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24487",
+      "topics": [
+        "Precision Medicine",
+        "Medical Imaging",
+        "Interpretable Reasoning",
+        "Diagnosis & Disease"
+      ],
+      "score": 83,
+      "heuristicScore": 16.4,
+      "tier": "lead",
+      "why": "Matches Precision Medicine and Medical Imaging."
+    },
+    {
+      "id": "2611.24535",
+      "title": "ProbMedTOD: A Bayesian Network Guided Task-Oriented Dialogue System for Patient History Taking",
+      "authors": [
+        "Vishal Vivek Saley",
+        "Bhavesh Gurnani",
+        "Dinesh Raghu",
+        "Mausam"
+      ],
+      "abstract": "Patient history taking is a strategic, multi-turn process that refines diagnostic hypotheses through iterative questioning, mirroring clinical reasoning where each inquiry updates beliefs over candidate diagnoses. Deploying AI in this setting is constrained by privacy, cost, and latency, making Small Language Models (SLMs) a more desirable backbone compared to larger LLMs. However, SLMs capture only the fast, intuitive \"System 1\" side of this process and lack explicit mechanisms for the deliberative \"System 2\" reasoning needed to maintain and update diagnostic uncertainty over time. Bayesian Networks (BayesNets) offer a natural complement, providing an interpretable framework for auditable probabilistic belief tracking. Yet, clinical BayesNets are difficult to construct due to their reliance on expert curated structure, dependencies, and parameters. We introduce ProbMedTOD, which automatically synthesizes a clinical BayesNet from a small number of clinical notes in three stages: ontology building, structure prediction, and parameter estimation. ProbMedTOD then integrates the resulting BayesNet with SLMs, enabling probabilistic reasoning in multi-turn dialogues. A BayesNet Agent maintains real-time posterior distributions over diagnoses, while a Policy Agent picks diagnostically informative questions. Experiments on DDXPlus and MIMIC-IV Notes show that ProbMedTOD outperforms LLM-only and retrieval-based baselines, with especially strong gains for smaller models.",
+      "categories": [
+        "cs.CL"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.24535",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24535",
+      "topics": [
+        "Clinical Data & EHR",
+        "Clinical Translation",
+        "Clinical Reasoning & LLMs",
+        "Interpretable Reasoning"
+      ],
+      "score": 81,
+      "heuristicScore": 15.9,
+      "tier": "lead",
+      "why": "Matches Clinical Data & EHR and Clinical Translation."
+    },
+    {
+      "id": "2611.23344",
+      "title": "Beyond Accuracy: Benchmarking Uncertainty Quantification in Retinal Disease Screening",
+      "authors": [
+        "Mahvash Jebeli",
+        "Mohammad Eslami",
+        "Nazlee Zebardast",
+        "Lucia Sobrin",
+        "Tobias Elze"
+      ],
+      "abstract": "Reliable uncertainty quantification (UQ) is essential for evaluating retinal AI systems beyond classification accuracy, yet it remains unclear whether existing UQ strategies generalize across diseases, model architectures, and reliability criteria. We introduce a large-scale, multi-disease benchmark comprising over $242,000$ fundus photographs from $32$ datasets covering diabetic retinopathy, age-related macular degeneration, and glaucoma. We evaluate six representative UQ strategies across three Vision Transformer configurations, assessing discrimination, probabilistic calibration, selective prediction, and conformal prediction-set coverage. Our findings reveal no universally superior model or UQ strategy: methods that improve reliability in one disease or architecture may underperform in another, while improvements in discrimination, calibration, and selective prediction do not necessarily align. Notably, computationally intensive methods do not consistently outperform simple confidence scores, and domain-specific foundation models and calibration-oriented loss functions do not guarantee greater reliability. In contrast, conformal prediction provides a complementary framework for achieving near-nominal marginal prediction-set coverage across diverse settings, subject to its statistical assumptions. These findings challenge universal UQ recommendations and highlight the need for disease-specific, model-specific, and multidimensional reliability evaluation before clinical deployment. We release standardized dataset splits, trained checkpoints, evaluation code, and an interactive research demonstration to support reproducible benchmarking.",
+      "categories": [
+        "eess.IV"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23344",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23344",
+      "topics": [
+        "Medical Imaging",
+        "Diagnosis & Disease",
+        "Clinical Translation"
+      ],
+      "score": 65,
+      "heuristicScore": 12.8,
+      "tier": "lead",
+      "why": "Matches Medical Imaging and Diagnosis & Disease."
+    },
+    {
+      "id": "2611.23779",
+      "title": "TabBioMed: A Large-Scale Benchmark for Biomedical Tabular Learning",
+      "authors": [
+        "Pau Mateo-Bernad\\'o",
+        "Saivenkata Nagavyjayanthi Polapragada",
+        "David Bonet",
+        "Pol Arbiol Rakuljic",
+        "Laia Mogas Pladevall",
+        "Mar\\c{c}al Comajoan Cara",
+        "Jesus Gonzalez-Ferrer",
+        "Jordi Abante",
+        "Daniel Mas Montserrat",
+        "David Haussler",
+        "Alexander G. Ioannidis"
+      ],
+      "abstract": "Recent advances in machine learning have accelerated biomedical prediction, but evaluation on structured biomedical data remains fragmented, especially for datasets with high dimensionality, large sample size, missingness, and class imbalance. We introduce TabBioMed, a large-scale benchmark of 94 curated public biomedical tabular datasets spanning electronic health records, drug discovery, genomics, transcriptomics, proteomics, metabolomics, single-cell omics, and systems biology. TabBioMed unifies these datasets through a standardized, dataset-aware preprocessing and evaluation framework, enabling reproducible comparison across classification, regression, and multi-target tasks. We benchmark 23 models across classical baselines, gradient-boosted trees, neural tabular architectures, and tabular foundation models. Foundation models deliver the strongest family-level predictive performance. However, their gains are regime-dependent: tree-based models and tuned multilayer perceptrons remain highly competitive, often dominating under inference-time or training-cost constraints. Overall, TabBioMed shows that biomedical tabular learning is strongly context-dependent, with optimal model choice depending on data regime, task type, and computational budget. We release TabBioMed with curated datasets and splits, preprocessing code, baselines, and results, providing a reproducible benchmark for practical model selection and future methods development in biomedical machine learning, available at https://github.com/AI-sandbox/TabBioMed.",
+      "categories": [
+        "cs.LG"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23779",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23779",
+      "topics": [
+        "Medical Foundation Models",
+        "Genomics & Omics",
+        "Clinical Data & EHR"
+      ],
+      "score": 59,
+      "heuristicScore": 11.7,
+      "tier": "lead",
+      "why": "Matches Medical Foundation Models and Genomics & Omics."
+    },
+    {
+      "id": "2611.23480",
+      "title": "Diagnostic Accuracy and Navigation Behavior of Vision-Language Model Agents Reading Emergency CT and MRI Examinations",
+      "authors": [
+        "Jonathan Lichtle",
+        "Aymen Meddeb",
+        "Antonin Birot",
+        "Ibrahima Niang",
+        "Lisa Gastaud",
+        "Riyad Hanafi",
+        "Sofiane Dujardin",
+        "Corentin Selomme",
+        "Guillaume Cachard",
+        "Aghiles Hamroun",
+        "Gr\\'egory Kuchcinski",
+        "Su Hwan Kim",
+        "Bastien Le Guellec"
+      ],
+      "abstract": "Purpose. To evaluate the diagnostic accuracy and image navigation behavior of vision-language model (VLM) agents under varying exploration strategies. Materials and Methods. In this retrospective study, six VLMs read 100 emergency CT and MRI examinations published in a public archive (March 2025-August 2026) under four conditions (free navigation, navigation from a key slice, and all slices or key slices in a single request), twice each (4800 runs). Nine radiologists read 30 of those cases. A large language model judge validated against two radiologists graded the answers. Conditions were compared with generalized estimating equations clustered by case. Results. Pooled accuracy was lowest under free navigation (32.6%; 391/1200), followed by navigation from a key slice (37.9%; 455/1200; P = .003), and highest with all slices (42.2%; 506/1200) or key slices (42.5%; 510/1200) in one request (both P < .001). On the 30 cases read by radiologists, freely navigating models were correct in 30.0% of runs (108/360) versus 77.0% for radiologists (208/270; P < .001). Models formed a first hypothesis after a median of 10.8% of the slices and kept it in 63.1% of runs (755/1196); final answers were correct in 12.4% of runs after a wrong first hypothesis (110/885) versus 90.4% after a right one (281/311; P < .001). Median stated confidence in the final answers was 90%, whereas 38.9% of them were correct (1861/4778). Conclusion. Across all exploration strategies, VLM agents remained far less accurate than radiologists. They adopted an early hypothesis and usually kept it, seldom correcting a wrong one.",
+      "categories": [
+        "cs.AI"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23480",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23480",
+      "topics": [
+        "Medical Imaging",
+        "Diagnosis & Disease"
+      ],
+      "score": 53,
+      "heuristicScore": 10.5,
+      "tier": "notable",
+      "why": "Matches Medical Imaging and Diagnosis & Disease."
+    },
+    {
+      "id": "2611.24104",
+      "title": "SCOPE: Single-Cell Omics Prediction from Histology via RNA-Protein Prior Enhancement",
+      "authors": [
+        "Leyang Tao",
+        "Xuan Gong",
+        "Luyuan Xie",
+        "Arjun Beniwal",
+        "Yuqi Tan",
+        "Kun-Hsing Yu"
+      ],
+      "abstract": "Predicting the RNA and protein content of cells from routine H&E images could extend spatial molecular profiling to existing slide archives. However, both H&E-spatial proteomics and H&E-spatial transcriptomics paired datasets are limited by the number of available markers and the insufficient availability of high-quality, cell-resolved data. We present SCOPE (Single-Cell Omics Prediction via RNA-protein prior Enhancement), a unified framework that leverages biologically complementary information between RNA and proteins to address the limited availability of single-omics supervision. Our key insight is that, although RNA and proteins represent distinct molecular modalities, their biological relationships provide valuable shared knowledge that can benefit single-omics prediction tasks. To this end, SCOPE introduces biologically informed biomarker priors to enhance shared gene-level representations, enabling knowledge transfer across RNA and protein modalities through gene-protein correspondence and molecular associations. By exploiting these complementary relationships, SCOPE enables both prediction tasks to benefit from a shared backbone enriched with cross-omics biological knowledge. Furthermore, its biomarker correlation design facilitates the prediction of unseen markers, extending spatially resolved molecular profiling beyond directly supervised targets. Across test datasets spanning 16 organs, SCOPE improves the average RNA Pearson correlation over the strongest baseline by 8.8%. On two external protein cohorts, it improves the average Pearson correlation over the strongest baseline by 9.7% for seen markers and 11.9% for unseen markers.",
+      "categories": [
+        "cs.CV",
+        "q-bio.GN"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.24104",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24104",
+      "topics": [
+        "Genomics & Omics",
+        "Precision Medicine"
+      ],
+      "score": 49,
+      "heuristicScore": 9.7,
+      "tier": "notable",
+      "why": "Matches Genomics & Omics and Precision Medicine."
+    },
+    {
+      "id": "2611.23484",
+      "title": "Reference-Guided Data Curation for 3D Medical Vision-Language Pretraining",
+      "authors": [
+        "Faidra Patsatzi",
+        "Ashwin Kumar",
+        "Chong Wang",
+        "Curtis P. Langlotz",
+        "Reinhard Heckel",
+        "Akshay S. Chaudhari"
+      ],
+      "abstract": "Training 3D vision-language models (VLMs) on large medical imaging datasets collected across institutions is constrained by data quality. Vast, uncurated pools of image-report pairs are characterized by redundancy, class imbalance, and cross-institutional heterogeneity. We address this challenge of data curation for improving 3D VLM pretraining by proposing an offline, training-free, reference-guided data curation recipe. Our approach leverages a small, high-quality reference set to independently extract quality signals for each modality of a large, uncurated pool and merges them through a rank-aggregation step into a single ranking that guides sample selection. We validate this method on datasets comprising 35k 3D abdominal CT volume-report pairs from two institutions and 58k 2D chest X-ray image-report pairs. On 3D CT, using our reference-guided data curation strategy, our curated model matches the zero-shot disease classification performance of a state-of-the-art baseline (Merlin) while using $3.3\\times$ less training data and a reference set of 5k samples. On 2D chest X-rays, our method yields a curated model that matches or exceeds the zero-shot disease classification performance of a model trained on the full pool while using up to $10\\times$ less training data and a reference set of only 74 samples. Ablations show that the selection is stable under resampling of the reference, that smaller reference sets still outperform random sampling, and that label rebalancing does not improve performance. To support reproducibility, we release our code.",
+      "categories": [
+        "cs.CV"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23484",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23484",
+      "topics": [
+        "Medical Foundation Models",
+        "Medical Imaging",
+        "Diagnosis & Disease"
+      ],
+      "score": 46,
+      "heuristicScore": 9,
+      "tier": "notable",
+      "why": "Matches Medical Foundation Models and Medical Imaging."
+    },
+    {
+      "id": "2611.23454",
+      "title": "LusoClin: A Synthetic Clinical Note Dataset for Medical Information Retrieval in European Portuguese",
+      "authors": [
+        "Carla Teixeira Lopes",
+        "Daniel F\\'elix"
+      ],
+      "abstract": "Access to large-scale clinical text collections is crucial for advancing medical information retrieval research, including clinical note search, patient cohort identification, and domain-adapted retrieval models. However, real clinical notes are rarely available due to privacy regulations, which particularly limits progress for low-resource languages such as European Portuguese. We present LusoClin, a publicly released dataset of synthetic clinical notes in European Portuguese, created to support privacy-preserving research on clinical text retrieval. LusoClin was generated by pre-processing real clinical data, fine-tuning the open-source Llama 3.2 (3B) instruction-tuned model using Quantized Low-Rank Adaptation, and applying prompt-based clinical note generation. To facilitate semantic indexing and clinical search, the notes are automatically annotated with clinical entities using a BERT-based model. We evaluate LusoClin in terms of utility, fidelity, diversity, and privacy using automatic metrics and human evaluation. Results indicate that the dataset captures clinically relevant language patterns and can support downstream IR applications such as clinical document retrieval and domain-specific model adaptation, although annotators can often distinguish synthetic from real notes and some medical inconsistencies persist.",
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23454",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23454",
+      "topics": [
+        "Clinical Data & EHR",
+        "Clinical Translation"
+      ],
+      "score": 45,
+      "heuristicScore": 8.8,
+      "tier": "notable",
+      "why": "Matches Clinical Data & EHR and Clinical Translation."
+    },
+    {
+      "id": "2611.23621",
+      "title": "Agent Verifiers in Counterfactual Analysis: A Pilot Study Benchmarking Agentic Heterogeneous Treatment Effects",
+      "authors": [
+        "Satiyabooshan Murugaboopathy",
+        "Entejar Alam",
+        "Adel Daoud",
+        "Connor T. Jerzak"
+      ],
+      "abstract": "Agents can expand the covariate space of randomized experiments by retrieving fast-moving local context missed by slow-changing survey baseline covariates, helping characterize who benefits most from an intervention. Verifying such covariates is difficult: individual treatment effects are unobserved, retrieval leakage can pull post-treatment information into nominally pretreatment summaries, and encoder leakage can inject post-treatment pretraining knowledge into representations even after temporal filtering of inputs. Guided by a two-channel information bound separating summary provenance from encoder weights, we propose a three-layer benchmark protocol: (i) retrieval admissibility via pre-treatment date filtering; (ii) heterogeneity validation scored rank-weighted average treatment effects (RATEs); and (iii) encoder admissibility checked with chronologically vintaged encoders, future-fact probes, and weight perturbations. Across 11 datasets anchored by Uganda's Youth Opportunities Program, we compare session-isolated retrieval (sandboxed, bounded-budget agent runs per study) against a persistent workspace teammate (xAI's GrokBot) that builds one date-verified corpus per study while blinded to outcomes. The workspace teammate yields higher mean RATE ratios in 6/11 datasets for text alone and 7 for combined features, though paired tests show neither workflow universally dominates. Even on fixed retrieved text, encoder choice significantly shifts heterogeneity signal. Chronologically vintaged probes show no clear evidence of weight leakage, but single-record adapter perturbation analyses show that memorized future facts, once present, persist until injected noise degrades model output. Temporal filtering of retrieval is necessary but insufficient: verifying agent-generated covariates requires jointly examining source provenance, out-of-sample treatment-effect signal, and encoder weights.",
+      "categories": [
+        "cs.LG"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23621",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23621",
+      "topics": [
+        "Precision Medicine"
+      ],
+      "score": 45,
+      "heuristicScore": 8.8,
+      "tier": "notable",
+      "why": "Matches Precision Medicine."
+    },
+    {
+      "id": "2611.23672",
+      "title": "Image-Condition-Controlled Diffusion Network with Large-Scale CT Pretraining for CT-Free Attenuation Correction in Dynamic Cardiac PET",
+      "authors": [
+        "Zhejia Zhang",
+        "Scott M. Leonard",
+        "Jinkui Hao",
+        "Ryan J. Avery",
+        "Richard L. Weinberg",
+        "Bo Zhou"
+      ],
+      "abstract": "Positron emission tomography (PET) provides quantitative information on myocardial perfusion. In dynamic PET, tracer kinetics are tracked through a series of reconstructed time frames. Reliable attenuation correction is essential for accurate measurements. Clinical attenuation maps ($\\mu$-maps) are typically derived from computed tomography (CT), which adds radiation exposure and may introduce PET-CT misregistration due to respiratory and cardiac motion. Moreover, supervised CT-free methods rely on paired non-attenuation-corrected (NAC) PET and CT data, which are scarce, whereas large-scale unpaired CT data are more readily available. To address these challenges, we propose Large-scale Unpaired CT-Informed Diffusion (LUCID), a framework that transfers anatomical priors learned from 10,000 chest CT volumes in the public CT-RATE dataset to $\\mu$-map synthesis for dynamic cardiac $^{82}$Rb PET. First, a convolutional neural network (CNN) predicts an initial $\\mu$-map from each NAC PET frame. Second, the CT-pretrained diffusion backbone refines a low-noise perturbation of the CNN prediction through a single denoising step, conditioned on the corresponding NAC PET frame via ControlNet. Finally, frame-wise predictions are averaged voxel-wise to obtain the final $\\mu$-map. We further introduce the voxel-wise temporal standard deviation (TSD) to quantify inter-frame variability without requiring a reference $\\mu$-map. We evaluated LUCID on an in-house dataset of 102 patients and found that it achieved the best quantitative accuracy while maintaining competitive inter-frame consistency. Ablation studies showed that refinement with a diffusion backbone pretrained on in-house CT data from the training patients was less accurate than the CNN prediction alone, highlighting the importance of large-scale CT pretraining.",
+      "categories": [
+        "cs.CV"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23672",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23672",
+      "topics": [
+        "Diagnosis & Disease",
+        "Medical Imaging",
+        "Clinical Translation"
+      ],
+      "score": 40,
+      "heuristicScore": 7.9,
+      "tier": "notable",
+      "why": "Matches Diagnosis & Disease and Medical Imaging."
+    },
+    {
+      "id": "2611.23700",
+      "title": "Auditable Clinical Support with Decision Agents",
+      "authors": [
+        "Tiancheng Bao",
+        "Riga Wu",
+        "Jan Wienhold",
+        "Sebastian Billig",
+        "Patrick Winnersbach",
+        "Hsuan-Chih Chen",
+        "Akis Giannoukos",
+        "Jiayang Li",
+        "Li Shen",
+        "Gary Weissman",
+        "Eduardo J. Mortani Barbosa Jr",
+        "Dyke Ferber",
+        "Jakob Nikolas Kather",
+        "Christos Davatzikos",
+        "Daniel Truhn",
+        "Tianyu Han"
+      ],
+      "abstract": "Clinicians reviewing a diagnostic work-up will ask what was considered at each step and why the assessment changed. Agents powered by free text can reach physician-level diagnostic accuracy, but their written reasoning does not always reflect the factors that went into the decision. Here, we present Decision2Care, a decision agent that works up the acutely ill patient without producing any text. A decision model assigns a probability to each permitted EHR action, and fixed rules carry out the most probable one. We evaluated Decision2Care on the records of 546 emergency admissions across 12 diseases. Decision2Care reached a diagnostic accuracy of 86.5%, compared with 86.1% for the MIRA-v2 agent, and required a median of 2.2 s per work-up, compared with 92-100 s. Each work-up tracked which options Decision2Care was considering at each step. In 10 of the 12 diseases, the differential diagnosis changed most at the test on which the guideline bases the diagnosis. Where Decision2Care was most confident after a single work-up, all but four of its diagnoses were correct (98.5%). We traced each of these four errors back to a single imaging report. Three of them were corrected when that report was removed. The same kind of decision was used to select the treatments, and Decision2Care's drug orders were judged guideline-adherent more often than MIRA-v2's. In emergency patients, its prediction of death was comparable to that of three intensivists on the same cases. In five of the eight intensive care cohorts, it exceeded the best of the three 24-h severity scores within 2-6 h of records. Our results show that decision agents can carry out clinical work-ups while recording the options, probabilities, and execution rules behind each action for audit.",
+      "categories": [
+        "cs.AI"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23700",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23700",
+      "topics": [
+        "Clinical Translation",
+        "Diagnosis & Disease",
+        "Clinical Reasoning & LLMs",
+        "Clinical Data & EHR"
+      ],
+      "score": 40,
+      "heuristicScore": 7.9,
+      "tier": "notable",
+      "why": "Matches Clinical Translation and Diagnosis & Disease."
+    },
+    {
+      "id": "2611.24764",
+      "title": "Horizontal Flow Matching for Single-Cell Spatiotemporal Dynamics",
+      "authors": [
+        "Zihan Wang",
+        "Jianzhe Li",
+        "Zhenyi Zhang",
+        "Peijie Zhou"
+      ],
+      "abstract": "Learning the spatiotemporal dynamics of cells from spatial transcriptomics requires connecting snapshots of different cells acquired in different coordinate frames. A rotation or translation of a section can appear as cell movement and distort the inferred correspondence. We introduce horizontal flow matching, which learns changes in tissue organization, molecular state, and cell abundance up to shared rigid motion. The dynamics follow a continuity--reaction equation whose action assigns no cost to shared rigid motion, and the resulting horizontal projector removes this component from spatial prediction errors during learning and from predicted velocities during generation. An equivalent endpoint problem jointly estimates correspondence and relative pose in Wasserstein--Fisher--Rao geometry and yields analytic paths whose velocity and growth serve as regression targets. Regressing these targets recovers the horizontal dynamics under ideal population conditions. Our model, HORIZON, uses an equivariant transformer to predict velocity and growth from the current tissue, so that a tissue can be generated continuously from a single initial snapshot. On a simulated tissue observed in perturbed coordinate frames, alignment improves reconstruction and projection reduces rigid drift. On four spatial transcriptomics time courses, HORIZON reconstructs tissue geometry, gene expression, and cell abundance more accurately than existing spatial and unbalanced trajectory methods, and interpolates held-out developmental stages.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "q-bio.QM"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.24764",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24764",
+      "topics": [
+        "Genomics & Omics"
+      ],
+      "score": 38,
+      "heuristicScore": 7.5,
+      "tier": "notable",
+      "why": "Matches Genomics & Omics."
+    },
+    {
+      "id": "2611.24323",
+      "title": "RespCCT and FreqCCT: Compact, Explainable and Cost-Aware Convolutional Transformers for Multi-Class Respiratory Disease Classification",
+      "authors": [
+        "Auntor Chakma",
+        "Mst. Farhana Akter",
+        "Abu Henaf Rashid Ahmad Mufti",
+        "Asmana Yasmin"
+      ],
+      "abstract": "Chest auscultation depends on the listener, and software that classifies lung sounds could give a second reading where trained listeners are scarce. The most accurate published classifiers fine-tune large pretrained networks, and their accuracy is rarely reported with running cost or paired statistics. This study makes three contributions. (i) It proposes RespCCT and FreqCCT, two compact convolutional transformers of 173,187 and 124,999 parameters that learn from random initialization on mel, constant-Q and cepstral images of 5 s frames from three public databases, ICBHI, KAUH and RD@TR, with 1,665 audio files in seven classes. (ii) It compares both models with five ImageNet-pretrained networks and larger distilled variants on one test set, using paired bootstrap intervals. (iii) It measures the cost of every pipeline stage on one CPU thread, tests whether attribution maps depend on the trained weights, and probes whether the learned features reveal the recording source. On the test fold, RespCCT reaches an accuracy of 98.13% and a macro F1 of 0.970, and FreqCCT reaches 97.58% and 0.951. Over five folds, RespCCT with three seeds reaches 97.65% and 0.959, and FreqCCT with one seed reaches 96.95% and 0.941. The two strongest pretrained networks reach a macro F1 of 0.984, whereas RespCCT needs 2.0 to 64.6 times less weight storage. Computing the three input images takes longer than running either model, and a linear probe identifies the source database with 0.958 accuracy. A team can weigh accuracy against storage and time before device testing.",
+      "categories": [
+        "cs.SD",
+        "cs.LG"
+      ],
+      "announceType": "cross",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.24323",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24323",
+      "topics": [
+        "Interpretable Reasoning",
+        "Diagnosis & Disease"
+      ],
+      "score": 37,
+      "heuristicScore": 7.2,
+      "tier": "notable",
+      "why": "Matches Interpretable Reasoning and Diagnosis & Disease."
+    },
+    {
+      "id": "2611.24443",
+      "title": "NativeSeg: Native Vision Language Segmentation of 3D Computed Tomography via Spatial Visual Tokens and Verified Local Zoom",
+      "authors": [
+        "Chengqian Ma",
+        "Gaole Dai",
+        "Zijie Meng",
+        "Weixuan Jin",
+        "Yijie Du",
+        "Yuexiao Ma",
+        "Xiawu Zheng",
+        "Fei Chao"
+      ],
+      "abstract": "Text prompted 3D computed tomography (CT) segmentation requires both full slice context and fine boundary precision across volumes where over $80\\%$ of organ prompted slices lack the queried target. Existing medical vision language models (VLMs) are largely non native segmenters: they delegate pixel delineation outside the VLM by compressing reasoning into a 1D [SEG] vector for an external Segment Anything Model (SAM) decoder, quantizing masks into lossy discrete codebooks, or issuing box prompts to stateless external SAM tools without empty slice screening or spatial state memory. We introduce NativeSeg, a native vision language segmentation framework on Low Rank Adaptation (LoRA) adapted Qwen3.8-27B that performs dense mask decoding, volumetric triage, spatial error self diagnosis, and multiround local zoom directly over the VLM's 2D spatial visual tokens without external SAM decoders. NativeSeg decodes confidence maps from upper layer 2D spatial tokens fused with a five slice U-Net pathway, halts at zero zooms on $>91\\%$ of standalone evaluations via a native presence gate ( ), localizes uncertain boundaries via a 20 cell multiscale error gate ( ), and accepts zoomed updates only when predicted error decreases. Trained solely on adult CT, NativeSeg improves Round $0$ DSC by $+19.81$ and $+7.04$ points over discrete codebook and 1D [SEG] readouts on the identical backbone, reaches $86.81\\%$ adult and $87.04\\%$ zero shot pediatric DSC, and safely refines 2D nnU-Net ($89.52\\%$ adult; $86.86\\%$ pediatric), 3D SegVol ($86.81\\%$), and 3D VoxTell ($89.85\\%$).",
+      "categories": [
+        "cs.CV"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.24443",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24443",
+      "topics": [
+        "Medical Imaging",
+        "Medical Foundation Models"
+      ],
+      "score": 36,
+      "heuristicScore": 7,
+      "tier": "notable",
+      "why": "Matches Medical Imaging and Medical Foundation Models."
+    },
+    {
+      "id": "2611.23708",
+      "title": "Rational Ensemble Logic for Cohort Discovery with Real-World Electrophysiology Data",
+      "authors": [
+        "Guo-Qiang Zhang",
+        "Xubing Hao",
+        "Yan Huang",
+        "Xiaojin Li",
+        "Licong Cui"
+      ],
+      "abstract": "Biomedical knowledge representation should make the passage from observations to conclusions transparent, rigorous, understandable, explainable, and reproducible (TRUER). We introduce Rational Ensemble Logic (QEL) for specifying temporal phenotypes in real-world electrophysiology data (RWED), with a meaning independent of the implementation software. QEL combines three parameterized modal operators (exact displacement, bounded existence, and bounded universality) over rational time with Boolean connectives and first-order quantification. Its Labeled Interval Ensemble (LINE) semantics represents annotated records as finite interval ensembles. We relate the operators to morphological operations and develop endpoint-array algorithms and finite rational evidence sets for model checking. We prove closure and semantic correctness of the interval operations, obtain finite evidence sets by quantifier elimination, and establish polynomial data complexity for fixed formulas. On 54 manually constructed records, a prototype agreed with the assigned outcomes for base and strict post-ictal generalized EEG suppression (PGES) queries. A separate feasibility experiment over 1,976 patients identified 37 qualifying patients and 45 annotation patterns in 16 seconds. The released prototype uses endpoint candidates and numerical tolerances. QEL supports the TRUER principle through explicit phenotype definitions, precise semantics, and provably correct evaluation procedures, with rational witnesses for existential queries. These provide a logical foundation for formal specification and correctness of algorithms that are independent of specific clinical interpretation, data annotation quality, and software implementation.",
+      "categories": [
+        "cs.LO",
+        "cs.AI"
+      ],
+      "announceType": "cross",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23708",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23708",
+      "topics": [
+        "Interpretable Reasoning",
+        "Medical Foundation Models",
+        "Clinical Translation",
+        "Biosignals & Wearables"
+      ],
+      "score": 34,
+      "heuristicScore": 6.7,
+      "tier": "radar",
+      "why": "Matches Interpretable Reasoning and Medical Foundation Models."
+    },
+    {
+      "id": "2611.23351",
+      "title": "SWIMSS: An Open Multi-Center SwinUNETR Model for Multiple Sclerosis White Matter Lesion Segmentation",
+      "authors": [
+        "Federico Spagnolo",
+        "Po-Jui Lu",
+        "Mario Ocampo-Pineda",
+        "Lester Melie-Garcia",
+        "Esther Ruberte",
+        "Riccardo Galbusera",
+        "Matthias Weigel",
+        "Alessandro Cagol",
+        "Johanna Maria Lieb",
+        "Nicolin Hainc",
+        "Franca Wagner",
+        "Piotr Radojewski",
+        "Felix Tobias Kurz",
+        "Vincent Dunet",
+        "Emanuele Pravat\\`a",
+        "Olaf Chan-Hi Kim",
+        "Patrick Roth",
+        "Marina Herwerth",
+        "Sebastian Finkener",
+        "Robert Hoepner",
+        "Patrice H. Lalive",
+        "Caroline Pot",
+        "Claudio Gobbi",
+        "Stefanie M\\\"uller",
+        "Jens Kuhle",
+        "Vincent Andrearczyk",
+        "Adrien Depeursinge",
+        "Cristina Granziera"
+      ],
+      "abstract": "Purpose: To develop and validate SWIMSS (SWInUNETR for Multiple Sclerosis white matter lesion Segmentation), a SwinUNETR-based deep learning (DL) model for reliable automated white matter (WM) lesion segmentation, in a large multicentric cohort of people with multiple sclerosis (pwMS). Methods: A real-world longitudinal dataset of 1,385 pwMS from seven Swiss clinical centers was used to train, validate, and test SWIMSS and two state-of-the-art DL architectures: UNETR and MSSegDiff. Inference results obtained with LST-AI were also compared. Preprocessed magnetization-prepared rapid acquisition gradient echo and fluid-attenuated inversion recovery MRI sequences, acquired with various MR systems and field strengths, served as model inputs. Model performance was evaluated using the Dice similarity coefficient (DSC) with 95% confidence intervals (CI). Results: SWIMSS achieved the highest performance, with a DSC of 81.37 (95% CI: 80.63-82.11), outperforming UNETR (79.06; 95% CI: 78.33-79.79), MSSegDiff (75.70; 95% CI: 74.97-76.43), and LST-AI (63.19; 95% CI: 62.08-64.30). Normalized DSC followed a similar trend, with SWIMSS reaching 84.88. Lesion detection F1 achieved 81.14. Statistical analyses confirmed its superior performance (p < 0.001). Conclusion: SWIMSS achieved state-of-the-art performance for WM lesion segmentation. By making this model publicly available, we enable broader access to high-quality segmentation tools, allowing smaller centers, often lacking large annotated datasets or computational resources, to benefit from a model trained on a diverse, large-scale cohort. This promotes more equitable access to advanced imaging analysis and supports reproducibility and standardization in MS research.",
+      "categories": [
+        "eess.IV"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23351",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23351",
+      "topics": [
+        "Medical Imaging"
+      ],
+      "score": 33,
+      "heuristicScore": 6.5,
+      "tier": "radar",
+      "why": "Matches Medical Imaging."
+    },
+    {
+      "id": "2611.23553",
+      "title": "Deep-Learning-Assisted Full Waveform Inversion for Attenuation Reconstruction in Ultrasound Computed Tomography",
+      "authors": [
+        "Mingrui Liu",
+        "Michael L. Oelze"
+      ],
+      "abstract": "Acoustic attenuation is more challenging to reconstruct and has received less attention than sound speed in ultrasound computed tomography using full-waveform inversion (FWI). In this study, a deep-learning (DL)-assisted FWI framework was proposed for attenuation reconstruction based on our previous work. Some numerical experiments were conducted to investigate the strategy and the effectiveness of using DL to help accelerate and improve the reconstruction quality of attenuation imaging in FWI. The results indicated that DL saved computational cost by 28% and improved attenuation reconstruction accuracy by 70% when combined with sufficiently accurate sound speed estimates. The result supports the potential of DL initialization to improve the computational efficiency and reconstruction quality of joint SOS and attenuation FWI.",
+      "categories": [
+        "eess.SP",
+        "physics.med-ph"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23553",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23553",
+      "topics": [
+        "Medical Imaging"
+      ],
+      "score": 33,
+      "heuristicScore": 6.5,
+      "tier": "radar",
+      "why": "Matches Medical Imaging."
+    },
+    {
+      "id": "2611.23862",
+      "title": "Grounding Radiology Reports in 3D Chest CT: Results of the ReXGrounding Challenge",
+      "authors": [
+        "Mohammed Baharoon",
+        "Mahmoud Hussain Alabbad",
+        "Sung Eun Kim",
+        "Xiaoman Zhang",
+        "Lucas Bijnens",
+        "Zirong Chen",
+        "Jiayu Wang",
+        "Xi Ouyang",
+        "Mingyang Yu",
+        "Weiqiu Jin",
+        "Xiaodan Ye",
+        "Dijia Wu",
+        "Kwang-Hyun Uhm",
+        "Inhwa Son",
+        "Rachel van 't Hull",
+        "Tim Veenboer",
+        "Cees Snoek",
+        "Kevin Groot Lipman",
+        "Daesung Kim",
+        "Junha Im",
+        "Youngjun Jun",
+        "Sangwon Lee",
+        "Katelyn Morrison",
+        "Adam Perer",
+        "Mijin Yun",
+        "Ali Piracha",
+        "Reem Alwasiah",
+        "Talal Yahyan",
+        "Abdulrahman Alamoudi",
+        "Mashael Alshehri",
+        "Rayan Alsager",
+        "Hannah Hancock",
+        "Anna M. Hunkem\\\"oller",
+        "Peter Youssef",
+        "Mona A. Alhammad",
+        "Afnan Aljumayan",
+        "Brecht Van Berkel",
+        "Eric Bijnens",
+        "Saud Alhussain",
+        "Maarten Steyvers",
+        "Rolf Symons",
+        "Bryan Eelen",
+        "Ayed Alaklubi",
+        "Maha Buraykan Alshammari",
+        "Amirah Fahad Alshammeri",
+        "Tomas Gilvydis",
+        "Ibrahim AlTurki",
+        "Monerah Almohideb",
+        "Ali Alburkani",
+        "Shahad Alhomaiani",
+        "Fatima Jabali",
+        "Maximilian Rokuss",
+        "Moritz Langenberg",
+        "Yannick Kirchhoff",
+        "Benjamin Hamm",
+        "Klaus Maier-Hein",
+        "Ibrahim Ethem Hamamci",
+        "Sezgin Er",
+        "Michael Moritz",
+        "Hassan R. Alomaish",
+        "Luyang Luo",
+        "Pranav Rajpurkar"
+      ],
+      "abstract": "Segmenting each reported finding in a radiology scan would allow findings to be measured and tracked over time and let AI systems generate reports that are verifiable, but so far AI models have performed poorly at this task. To advance this task, we organized the ReXGrounding Challenge at MICCAI 2026, the first challenge dedicated to it. Given a non-contrast chest CT scan and the set of findings from its report, participants trained models to produce the corresponding set of 3D segmentations. The challenge used 2,992 training and 200 validation scans from the ReXGroundingCT dataset, and evaluated methods on a held-out test set of 300 scans with 582 findings, exhaustively annotated by board-certified radiologists. In total, 48 teams from 15 countries made 760 submissions, and the best method reached a Dice of 0.375 and a hit rate of 0.77, matching agreement between two independent radiologist groups (Dice 0.32, hit rate 0.76, on a 50-scan subset). On the 100 scans of the pre-challenge benchmark, the winner reached a Dice of 0.390, against 0.285 for VoxTell, the best model before the challenge, which five of the six best teams fine-tuned. Non-focal findings remained far harder to segment than focal ones, instance F1 stayed below inter-reader agreement (0.34 vs. 0.47), and models sometimes segmented the right abnormality in the wrong location. Top methods thus match radiologist agreement in Dice, but non-focal findings, findings with multiple instances, and adherence to the anatomical location described in the text remain open problems.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23862",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23862",
+      "topics": [
+        "Medical Imaging"
+      ],
+      "score": 33,
+      "heuristicScore": 6.5,
+      "tier": "radar",
+      "why": "Matches Medical Imaging."
+    },
+    {
+      "id": "2611.24002",
+      "title": "ProtoBridge-CLIP: Observation-Masked Finding Prototypes for Medical Image--Report Representation Learning",
+      "authors": [
+        "Jinrui Wu",
+        "Yun Peng"
+      ],
+      "abstract": "Radiology reports distinguish affirmed findings, explicit negations, and unmentioned concepts, but conventional global image--report contrastive learning often compresses these different evidence states into a single study-level target. We introduce \\model{}, which combines symmetric global image--report alignment with observation-masked finding supervision and a soft relation objective over affirmed report concepts. Text-derived finding prototypes are aligned with local visual tokens, while uncertain and unmentioned concepts are excluded from direct finding labels. We evaluate the framework on three CT benchmarks and five chest-radiograph benchmarks, together with component ablations, paired and clinical retrieval, localization, perturbation robustness, calibration, and per-finding analyses. \\model{} achieves macro-AUROC values of 73.6%, 66.5\\%, and 68.8% on CT-RATE, RAD-ChestCT, and INSPECT, and 80.2%, 91.4%, 78.5%, 86.5%, and 90.8% on ChestXray14, CheXpert, PadChest, RSNA, and SIIM-ACR, respectively. Relative to the matched global-only controls, the findings and relation objectives yield consistent gains across the evaluated datasets. These results demonstrate the practical value of treating observed and unobserved report concepts differently during medical image--text representation learning.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.24002",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24002",
+      "topics": [
+        "Medical Imaging"
+      ],
+      "score": 33,
+      "heuristicScore": 6.5,
+      "tier": "radar",
+      "why": "Matches Medical Imaging."
+    },
+    {
+      "id": "2611.24016",
+      "title": "Rethinking Contrastive Targets in Radiology Language-Image Pretraining",
+      "authors": [
+        "Yunhe Gao",
+        "Ashwin Kumar",
+        "Jiaming Liu",
+        "Chong Wang",
+        "Maya Varma",
+        "Fuying Wang",
+        "Stefania L. Moroianu",
+        "Louisa Fay",
+        "Sergios Gatidis",
+        "Akshay S. Chaudhari",
+        "Curtis Langlotz"
+      ],
+      "abstract": "CLIP-style contrastive image-text pretraining is widely used in radiology data, where each image is paired with one report and every other report in the batch is treated as a negative. Under this recipe, two failures appear, neither of which is systematically addressed by existing contrastive learning theory: zero-shot evaluation peaks then degrades while training loss keeps decreasing, and training fails to learn from large batches. We hypothesize the cause is structural rather than radiology-specific: many unpaired reports share clinical findings with a given image, so CLIP's paired-identity target is systematically biased, not merely noisy. To test this, we construct CLEVR-Radiology, a synthetic testbed that preserves only this overlapping-fact structure and reproduces both failures. With evidence that the structure is sufficient to reproduce the failures, we develop a target-misspecification theory that explains both failures from a single deterministic gradient bias amplified by batch size, and use it to motivate a minimal compatibility-based correction, CorLIP: text is treated as positive whenever its clinical assertions agree with the image, with no architecture changes. Beyond benchmark improvements, CorLIP largely removes the post-peak degradation, makes large-batch training succeed where it previously collapsed, substantially amplifies the gains from more data, and is the only configuration that remains stable up to B=2048. The correction transfers from chest X-ray to 3D CT modalities.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.24016",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24016",
+      "topics": [
+        "Medical Imaging"
+      ],
+      "score": 33,
+      "heuristicScore": 6.5,
+      "tier": "radar",
+      "why": "Matches Medical Imaging."
+    },
+    {
+      "id": "2611.24081",
+      "title": "Learning Where and How Much to Sample: Volume-Adaptive k-Space Acquisition for Accelerated MRI",
+      "authors": [
+        "Reyhaneh Neshatavar",
+        "Mohsen Yavartanoo",
+        "Kyoung Mu Lee"
+      ],
+      "abstract": "Magnetic resonance imaging (MRI) is an essential medical imaging technique, but its high costs and long acquisition times can limit accessibility. Accelerated MRI reduces acquisition time through k-space undersampling, yet conventional methods often rely on predefined sampling patterns and uniform slice budgets, overlooking anatomical variations and inter-slice relationships. In this paper, we propose a volume-adaptive k-space acquisition framework that jointly learns where and how much to sample across an entire MRI volume. Using only acquired auto-calibration signal (ACS) measurements, our method exploits volume-wide anatomical information to adaptively allocate sampling budgets across slices while identifying informative k-space lines. A learned joint slice--frequency refinement module coordinates sampling decisions while preserving an exact total volume-level acquisition budget. To reconstruct the acquired measurements, we design a sensitivity-aware synchronous cross-slice reconstruction network that estimates coil sensitivities from ACS measurements and progressively refines neighboring-slice reconstructions while enforcing hard k-space data consistency. Both networks are jointly optimized using reconstruction-based supervision without requiring fully sampled k-space at inference. Experiments on knee and brain MRI across multiple contrasts and acceleration factors demonstrate the adaptive behavior of our acquisition framework and evaluate its reconstruction performance.",
+      "categories": [
+        "cs.CV"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.24081",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24081",
+      "topics": [
+        "Medical Imaging"
+      ],
+      "score": 33,
+      "heuristicScore": 6.5,
+      "tier": "radar",
+      "why": "Matches Medical Imaging."
+    },
+    {
+      "id": "2611.24366",
+      "title": "SCOUT: Risk-Guided Foundation-Model Escalation for Robust Tissue Detection in Whole-Slide Images",
+      "authors": [
+        "Cristian Tommasino",
+        "Antonio M. Rinaldi"
+      ],
+      "abstract": "Reliable tissue detection is essential for whole-slide image analysis, yet high average segmentation accuracy can conceal failures involving pale tissue, small fragments, and heterogeneous staining. Pathology foundation models offer transferable representations, but exhaustive inference is computationally demanding and may introduce false-positive tissue predictions. We propose SCOUT (Selective Correction of Uncertain Tissue), a risk-guided cascade that selectively refines an initial thumbnail-based tissue mask. A lightweight audit network estimates the spatial distribution of segmentation errors and prioritizes candidate regions for processing by a frozen pathology foundation model. An asymmetric consensus rule integrates the resulting predictions with the initial mask to recover missed tissue while limiting false positives. A calibrated slide-level review score additionally controls the marginal rate of unflagged case-group failures under the calibration assumptions. Evaluation on a public multi-source, multi-stain benchmark shows that SCOUT reduces the proportion of case groups requiring mask correction from 38.1% for the best released detector to 18.6%, with particularly pronounced improvements in immunohistochemistry. Source-held-out experiments demonstrate better generalization than a segmentation network trained on the same annotations, while selective inference achieves an observed failure rate no higher than processing all candidate regions. Downstream, lymph-node classification with SCOUT masks is non-inferior to that obtained with two of the three released detectors evaluated. A variant built on an openly licensed foundation model is publicly released as an installable Python package with trained weights. These results support risk-guided foundation-model inference as an effective approach to tissue detection across heterogeneous histopathology data.",
+      "categories": [
+        "cs.CV"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.24366",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24366",
+      "topics": [
+        "Medical Imaging"
+      ],
+      "score": 33,
+      "heuristicScore": 6.5,
+      "tier": "radar",
+      "why": "Matches Medical Imaging."
+    },
+    {
+      "id": "2611.24597",
+      "title": "DAL: Dynamic Angular Loss for Imbalanced Medical Image Classification",
+      "authors": [
+        "Salman Mohammad",
+        "Furkan Kas{\\i}m",
+        "Manuel G\\\"unther"
+      ],
+      "abstract": "Class imbalance remains a major obstacle in medical image classification, where rare but clinically important classes are often overshadowed by majority categories. Although current strategies for reducing bias, including angle-based softmax (ABS) losses, offer strong discriminative features, their behavior in settings with a small number of severely imbalanced classes remains insufficiently understood. Previous approaches that estimate the intrinsic parameters of ABS rely on the assumption of many classes, which does not hold in medical settings. We derive data-driven upper and lower bounds for the scale parameter and an upper bound for the angular margin using negative-angle statistics, and use these to drive a batch-adaptive angular margin (BAAM), which we combine with dynamically-weighted cross entropy (DWCE) to define our dynamic angular loss (DAL). Across four highly imbalanced medical image classification benchmarks spanning dermatology, ophthalmology, and gastrointestinal endoscopy, our method consistently achieves superior balanced accuracy and the lowest coefficient of variation of per-class recall. Although this entails a small performance reduction on majority classes, the gains on minority categories are substantial, yielding a reliable and equitable overall classifier. Our source code is available at: https://github.com/msalman95/DAL.",
+      "categories": [
+        "cs.CV"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.24597",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24597",
+      "topics": [
+        "Medical Imaging"
+      ],
+      "score": 33,
+      "heuristicScore": 6.5,
+      "tier": "radar",
+      "why": "Matches Medical Imaging."
+    },
+    {
+      "id": "2611.23549",
+      "title": "Quantitative Modeling of Action-Potential-Driven Sodium Dynamics in Neurons: From Sodium Influx to Sodium MRI",
+      "authors": [
+        "Yongxian Qian"
+      ],
+      "abstract": "Neuronal action potentials are accompanied by the influx of extracellular sodium ions (Na+) into axons through voltage-gated sodium channels. Repetitive neuronal firing can lead to activity-dependent increases in intracellular sodium concentration, which are subsequently reversed primarily through the Na+/K+-ATPase. Quantifying these dynamic changes provides a biophysical foundation for investigating neuronal activity using sodium (23Na) magnetic resonance imaging (MRI). This mini-review examines the relationships among firing frequency, action-potential-driven sodium influx, and intracellular sodium accumulation, to establish a quantitative framework linking neuronal activity to sodium MRI. The potential sensitivity and limitation of conventional and compartment-sensitive sodium MRI for detecting activity-dependent sodium changes are also discussed. Keywords: Sodium MRI; neuronal firing; action potential; sodium influx; intracellular sodium concentration.",
+      "categories": [
+        "q-bio.NC",
+        "physics.med-ph"
+      ],
+      "announceType": "cross",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23549",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23549",
+      "topics": [
+        "Medical Imaging"
+      ],
+      "score": 33,
+      "heuristicScore": 6.5,
+      "tier": "radar",
+      "why": "Matches Medical Imaging."
+    },
+    {
+      "id": "2611.24122",
+      "title": "How Well Do Generalist CT Foundation Models Differentiate Liver Tumors?",
+      "authors": [
+        "Yosuke Yamagishi",
+        "Tomohiro Kikuchi",
+        "Shouhei Hanaoka",
+        "Takeharu Yoshikawa",
+        "Osamu Abe"
+      ],
+      "abstract": "Generalist CT foundation models detect many findings with high performance, but their ability to differentiate detected lesions remains largely unevaluated. This retrospective study evaluated two generalist models, RADAR and Merlin, for differentiating liver tumors using a public single-institution multiphase CT dataset (517 cases: hepatocellular carcinoma, intrahepatic cholangiocarcinoma, breast and colorectal cancer liver metastases, and hemangioma). The models were evaluated in a zero-shot setting using their existing outputs and with linear probing, in which only a linear classifier was trained on frozen image features (stratified fivefold cross-validation repeated five times). In the zero-shot setting, RADAR achieved an accuracy of 54.4% (95% CI: 49.9, 58.8) and a $\\kappa$ of 0.37 for four-class differentiation at the portal venous phase and predicted 31% (129 of 421) of malignant tumors as hemangioma. With linear probing of four-phase features, its accuracy improved to 79.9% (95% CI: 76.6, 83.4) with a $\\kappa$ of 0.72, and 1% (five of 421) of malignant tumors were predicted as hemangioma; Merlin achieved an accuracy of 60.9% (95% CI: 56.9, 65.0). Generalist CT foundation models showed limited zero-shot ability to differentiate liver tumors, which improved substantially with linear probing alone.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.24122",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24122",
+      "topics": [
+        "Diagnosis & Disease",
+        "Medical Imaging"
+      ],
+      "score": 32,
+      "heuristicScore": 6.3,
+      "tier": "radar",
+      "why": "Matches Diagnosis & Disease and Medical Imaging."
+    },
+    {
+      "id": "2611.23953",
+      "title": "MitoWorld: A Stochastic World Model of the Single-Cell Cycle under Genetic Perturbation",
+      "authors": [
+        "Ting Long",
+        "Xiaojing Sun",
+        "Cheng Han",
+        "Zhicheng Ji",
+        "Yingnian Wu",
+        "Jiebo Luo",
+        "Heng Fan",
+        "Dongfang Liu"
+      ],
+      "abstract": "A cell observed after a gene knockdown has an uncertain future, both in how its appearance will evolve and when it will divide. Existing approaches predict endpoints or population-level changes without jointly modeling individual trajectories and division timing. In this work, we present MitoWorld, a stochastic world model that generates these future appearances as continuous evolution in a Gaussian reference latent, terminated by a division hazard and converted into images by a conditional diffusion renderer. The ordinary transition provably preserves its Gaussian reference, tying its noise to its dynamics; paired observations identify its discrete transition where stationary marginals cannot. The hazard turns division timing into a survival likelihood that can be tested against real cycle lengths. On 325 held-out MitoCheck tracks spanning 17 knockdowns and a control, MitoWorld lowers FID by 34.6\\% and the video metric JEDi by 45.6\\% relative to the strongest baselines. Its latent-space prediction intervals achieve near-nominal 90\\% coverage, are 35\\% narrower than those of a model with freely fitted noise. The hazard also yields cell-cycle length distributions with KS distance close to the model-based finite-sample reference. Testable single-cell stochastic dynamics thus offer a generative tool for time-lapse perturbation screens.",
+      "categories": [
+        "cs.CV",
+        "q-bio.QM"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23953",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23953",
+      "topics": [
+        "Genomics & Omics"
+      ],
+      "score": 30,
+      "heuristicScore": 6,
+      "tier": "radar",
+      "why": "Matches Genomics & Omics."
+    },
+    {
+      "id": "2611.24799",
+      "title": "Prognosis Without Prediction: The Intrinsic Geometry of Survival",
+      "authors": [
+        "Atahan Karagoz"
+      ],
+      "abstract": "Modeling systemic failure in high-dimensional environments is fundamentally limited by supervised algorithms that attempt to predict sparse, noisy or censored endpoints. To break this reliance on explicit outcome regression, we engineered the Self-Organizing Survival Manifolds (SOSM) framework, a deep learning architecture that decouples unsupervised representation learning from survival labels and treats time-to-event progression as an emergent geometric property. The system projects heterogeneous multi-omics arrays into a unified latent space governed by a pseudotime-weighted, curvature-minimizing graph Laplacian, organizing patient trajectories along low-dissipation geodesic flows. To validate the framework, we applied this architecture to a 184-patient clear cell renal cell carcinoma multi-omics cohort. Across a deterministic 5-fold cross-validation pipeline, SOSM achieved a mean Concordance Index of $0.768 \\pm 0.068$, while out-of-fold risk stratification yielded significant survival divergence (log-rank $p < 0.001$) accompanied by a 14.7% increase in local manifold dissipation among high-risk patients. Furthermore, interrogating the network's encoder weights confirmed that the model autonomously recovered canonical metabolic and microenvironmental drivers of disease progression without supervised feature selection. By demonstrating that systemic failure can be mapped as a geometric phase transition, SOSM establishes a generalizable computational engine for prognostic modeling across biological, industrial and financial complex systems.",
+      "categories": [
+        "cs.LG",
+        "q-bio.QM"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.24799",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24799",
+      "topics": [
+        "Genomics & Omics",
+        "Clinical Translation",
+        "Diagnosis & Disease"
+      ],
+      "score": 27,
+      "heuristicScore": 5.3,
+      "tier": "radar",
+      "why": "Matches Genomics & Omics and Clinical Translation."
+    },
+    {
+      "id": "2611.24823",
+      "title": "One size does not fit all: session-specific effects of deep brain stimulation on hand-motor kinematics in Parkinson's disease",
+      "authors": [
+        "Matthias Dold",
+        "Joana Pereira",
+        "Volker A. Coenen",
+        "Bastian Sajonz",
+        "Sophia Gimple",
+        "Yasin Temel",
+        "Marcus L. F. Janssen",
+        "Michael Tangermann"
+      ],
+      "abstract": "Deep brain stimulation (DBS) effectively treats motor symptoms of Parkinson's disease (PD), but it is unclear whether it changes fine hand movements in the same way for every patient. We analyzed 35 sessions of 19 patients with PD from a multi-center cohort performing the CopyDraw task, a drawing task designed to overcome the subjectivity and limited granularity of clinical assessments. Besides standard kinematics (mean velocity, acceleration, jerk, and drawing accuracy), we derived higher distributional moments and non-linear complexity measures, for 38 features in total. DBS effects were quantified with linear mixed models at the group level and with residualized regression and a random-effects meta-analysis per session. The DBS state was decoded per session with regularized linear discriminant analysis to compare feature sets as behavioral labels for deriving physiomarkers for adaptive DBS (aDBS). DBS modulated all 38 features at the group level, most strongly velocity-related features. However, for every feature, the between-subject variability of the DBS effect exceeded the group-level effect. Only one feature, the detrended fluctuation analysis of the distance to the template, showed a significant mean effect across sessions, and it is not a standard kinematic feature. In six sessions without any significant modulation of standard features, complexity measures were modulated instead. For decoding, standard features alone were the best choice in ten of 35 sessions, but combining all 38 features yielded the highest average area under the ROC curve (0.700 vs. 0.677), with the largest gains in sessions that were hard to decode from standard features. DBS effects on hand-motor behavior are individual. Deriving neural markers for aDBS from behavior therefore requires session-specific analyses with individualized features beyond standard kinematics and group-level effects.",
+      "categories": [
+        "cs.HC"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.24823",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24823",
+      "topics": [
+        "Diagnosis & Disease",
+        "Clinical Translation"
+      ],
+      "score": 27,
+      "heuristicScore": 5.3,
+      "tier": "radar",
+      "why": "Matches Diagnosis & Disease and Clinical Translation."
+    },
+    {
+      "id": "2611.24741",
+      "title": "Sex Differences in the Detection of Parkinson's Disease from Speech",
+      "authors": [
+        "Hiba Akhaddar",
+        "Peter Plantinga",
+        "Mirco Ravanelli",
+        "Tristan Glatard"
+      ],
+      "abstract": "Parkinson's disease (PD) is the second most common neurodegenerative disease in the world, and 70\\% to 75\\% of PD patients suffer from speech disorders at some stage. Since PD affects men more frequently than women, previous publications tend to rely on unbalanced datasets that potentially introduce sex biases into trained models. This study investigates sex differences in PD detection from speech using deep learning and traditional machine learning approaches. We evaluated speech-based PD detection using embeddings from three pre-trained speech models, combined with handcrafted acoustic features and different classifiers. Sex-specific experiments were conducted on balanced subsets of four sustained phonation datasets, controlling for sex, disease status, and, where possible, age. All recordings were obtained during a sustained phonation task. Results show that female speakers were more accurately classified than male speakers in the larger dataset. Sex-specific results show that when the models are trained on one sex, they fail to generalize to the other one. Our results highlight the importance of including sex as a variable in the development of PD detection systems.",
+      "categories": [
+        "eess.AS",
+        "cs.CY",
+        "cs.LG"
+      ],
+      "announceType": "cross",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.24741",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24741",
+      "topics": [
+        "Diagnosis & Disease",
+        "Clinical Translation"
+      ],
+      "score": 27,
+      "heuristicScore": 5.3,
+      "tier": "radar",
+      "why": "Matches Diagnosis & Disease and Clinical Translation."
+    }
+  ],
+  "dispatches": [],
+  "topics": [
+    {
+      "name": "Diagnosis & Disease",
+      "count": 9
+    },
+    {
+      "name": "Medical Imaging",
+      "count": 8
+    },
+    {
+      "name": "Clinical Translation",
+      "count": 5
+    },
+    {
+      "name": "Interpretable Reasoning",
+      "count": 4
+    },
+    {
+      "name": "Precision Medicine",
+      "count": 4
+    },
+    {
+      "name": "Clinical Data & EHR",
+      "count": 4
+    },
+    {
+      "name": "Medical Foundation Models",
+      "count": 3
+    },
+    {
+      "name": "Genomics & Omics",
+      "count": 3
+    },
+    {
+      "name": "Clinical Reasoning & LLMs",
+      "count": 2
+    },
+    {
+      "name": "Biosignals & Wearables",
+      "count": 1
+    },
+    {
+      "name": "Multimodal Fusion",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "screened": 797,
+    "matched": 45,
+    "alreadyFeatured": 8,
+    "published": 31,
+    "announcedOn": "2026-11-19"
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "edition": "education",
+  "date": "2026-11-19",
+  "number": 11,
+  "generatedAt": "2026-11-19T15:58:25.601Z",
+  "editor": {
+    "mode": "heuristic",
+    "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
+  },
+  "lede": null,
+  "readFirst": [
+    {
+      "id": "2611.23795",
+      "why": "Matches Pedagogy & Alignment and Student Modelling.",
+      "takeaway": "This paper presents a novel methodological framework, integrating a dual self-organising map (SOM) neural network architecture with Cognitive Load Theory (CLT), for assessing instructional efficiency within learning environments."
+    },
+    {
+      "id": "2611.23456",
+      "why": "Matches Assessment & Feedback and Learners & Classrooms.",
+      "takeaway": "Automatic generation of mathematics assessment items is a growing area in educational artificial intelligence, yet classroom deployment remains challenging."
+    },
+    {
+      "id": "2611.23311",
+      "why": "Matches Learners & Classrooms and Pedagogy & Alignment.",
+      "takeaway": "Quantum computing threatens widely deployed public-key cryptography, making post-quantum cryptography (PQC) adoption a software engineering challenge."
+    }
+  ],
+  "papers": [
+    {
+      "id": "2611.23795",
+      "title": "A Dual-SOM Learner Model of Instructional Efficiency within Cognitive Load Theory",
+      "authors": [
+        "Spyridon Revithis"
+      ],
+      "abstract": "This paper presents a novel methodological framework, integrating a dual self-organising map (SOM) neural network architecture with Cognitive Load Theory (CLT), for assessing instructional efficiency within learning environments. By representing curriculum content as a directed acyclic graph of topic dependencies, the proposed model captures collective learning behaviour across two core dimensions: academic performance and subjective/introspective mental effort. During SOM training, representative data sets of successful learner trajectories are compressed into two topologically ordered, identically structured neural networks: PSOM (performance space) and ESOM (mental effort space). By pairing these behavioural maps, the model serves as a decision-support tool that enables instructors to simultaneously pinpoint structural instructional design defects, such as hidden topic prerequisites, and evaluate collective cognitive load profiles. The implementation and performance of the PSOM component (and, by extension, its symmetrical twin, ESOM) is linked to an earlier modelling study employing a SOM with identical structure and encoding semantics situated in the same domain (i.e., a learning environment). This paper combines the study of behavioural phenomena with theoretical work on human cognitive architecture via SOM neurocomputational cognitive behavioural modelling.",
+      "categories": [
+        "q-bio.NC",
+        "cs.CY",
+        "cs.NE"
+      ],
+      "announceType": "cross",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23795",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23795",
+      "topics": [
+        "Pedagogy & Alignment",
+        "Student Modelling"
+      ],
+      "score": 100,
+      "heuristicScore": 12,
+      "tier": "lead",
+      "why": "Matches Pedagogy & Alignment and Student Modelling."
+    },
+    {
+      "id": "2611.23456",
+      "title": "VeriMath: Human-in-the-Loop Generation and Verification of Curriculum-Aligned Mathematics Assessment Items",
+      "authors": [
+        "Quy P. Nguyen",
+        "Duong Q. Nguyen",
+        "Dinh P. T. Nguyen",
+        "Truong-Giang T. Le",
+        "Truong A. Bui",
+        "Vi H. Vo",
+        "Quang-Thinh Bui",
+        "My-Phuong Ngo",
+        "Trong N. Do",
+        "Thao P. Le",
+        "Phuc M. Nguyen",
+        "H. Nguyen-Xuan"
+      ],
+      "abstract": "Automatic generation of mathematics assessment items is a growing area in educational artificial intelligence, yet classroom deployment remains challenging. Generated questions must satisfy multiple constraints: mathematical correctness, curriculum alignment, appropriate cognitive difficulty, and educator reviewability. While prior work has advanced text generation, reliable assessment authoring requires granular control over localized examination formats and expert educational judgment. To address this challenge, we present VeriMath, a generalized, human-in-the-loop framework for generating rigorous, curriculum-constrained mathematics assessment drafts. Using annotated reference items, the framework anchors generation to the requested examination section and cognitive reasoning level, then applies sequential automated verification and guided repair before submitting drafts for expert review. We evaluate VeriMath through a national curriculum case study using 4,555 mathematics items from the Vietnamese Grade 12 curriculum and 50 distinct generation requirements covering multiple-choice, true/false, and short-answer formats. Across two model backbones, the framework produces verifier-accepted drafts for 94% (47/50) of requirements per run. Blind expert evaluations confirm high mathematical accuracy and curriculum alignment, with strict teacher-readiness assessments accepting up to 56.8% of generated items. Analysis of rejected drafts reveals persistent domain-agnostic challenges involving formatting, statement validity, and solution-step completeness. These findings demonstrate that VeriMath can bridge generative AI and dependable educational applications by producing highly reviewable assessment drafts within tightly constrained national curriculum frameworks.",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23456",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23456",
+      "topics": [
+        "Assessment & Feedback",
+        "Learners & Classrooms"
+      ],
+      "score": 78,
+      "heuristicScore": 9.4,
+      "tier": "lead",
+      "why": "Matches Assessment & Feedback and Learners & Classrooms."
+    },
+    {
+      "id": "2611.23311",
+      "title": "Post-Quantum Cryptography Education for Software Developers: A Multivocal Literature Review",
+      "authors": [
+        "R. D. N. Shakya",
+        "C. P. Wijesiriwardana",
+        "S. M. Vidanagamachchi",
+        "Nalin A. G. Arachchilage"
+      ],
+      "abstract": "Quantum computing threatens widely deployed public-key cryptography, making post-quantum cryptography (PQC) adoption a software engineering challenge. However, it remains unclear how well existing educational provision prepares software developers for secure PQC implementation and migration. We conducted a multivocal literature review of 8 research publications and 15 professional training offerings, examining competency coverage, practical software engineering tasks, pedagogical approaches, learner support, and evaluation. All 23 sources covered PQC foundations and algorithms, but coverage of practical software-engineering tasks was uneven. Our analysis identifies six gaps concerning developer focused evaluation, authentic software engineering tasks, task competency alignment, pedagogical design and learner support, security-focused assessment, and long term validation of learning outcomes and transfer. We derive recommendations for strengthening PQC education and better preparing software developers to implement and migrate cryptographic systems securely.",
+      "categories": [
+        "cs.SE",
+        "cs.CR"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23311",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23311",
+      "topics": [
+        "Learners & Classrooms",
+        "Pedagogy & Alignment"
+      ],
+      "score": 70,
+      "heuristicScore": 8.4,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.24859",
+      "title": "Effect of a role model-based show on the STEM aspirations of primary school students",
+      "authors": [
+        "Wendy Sadler",
+        "Sophie Bartlett",
+        "Naomi Dinmore"
+      ],
+      "abstract": "A STEM outreach show called 'Who wants to be a Superhero' went into primary schools across England and Wales, delivered by professional science communicators. The show was structured around four female STEM role models and two male STEM role models as part of a wider narrative about scientists and engineers being real-life superheroes. The show was found to increase both boys' and girls' aspirations for a STEM career, with a bigger effect seen in the girls. The intervention also increased positive attitudes, and decreased negative attitudes, towards scientists measured through word association given by the audiences pre- and post-show. There was a larger reduction in negative stereotypes from the girls after the show, especially in the 'nerdy' and 'crazy' stereotypes. The show saw an increase in both boys' and girls' perceptions of the 'helpful' nature of science and engineering. It was also found that some students may not want to do a STEM job because of the perceived dangerous nature of the job.",
+      "categories": [
+        "physics.ed-ph"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.24859",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24859",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 50,
+      "heuristicScore": 6,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.23261",
+      "title": "Artificial Intelligence in Finance and the Early-Career Skills Shift: A Structured Evidence Synthesis of Decision Delegation, Bank Deployments, and Business Education",
+      "authors": [
+        "Prakhar Singh Sisodia"
+      ],
+      "abstract": "Artificial intelligence is becoming a general interaction and decision-support layer across finance. Banks use AI for research retrieval, document synthesis, meeting follow-up, customer service, coding, fraud detection, risk support, and increasingly multi-step workflows. This paper asks which parts of finance work can be delegated safely, which remain human-owned, and how education should change when AI compresses the tasks through which novices traditionally build judgment. It presents a structured evidence synthesis of research and public evidence released from 2023 through October 2026 across finance, labor economics, education, bank deployments, and financial regulation. Numerical results and deployment claims remain attributed to their original sources. Four connections emerge: AI is strongest at retrieval, transformation, coding, and first-pass analysis; financial institutions are moving toward constrained rather than unrestricted autonomy; productivity assistance can weaken apprenticeship when assisted output improves faster than unaided capability; and delegation should depend jointly on consequence, reversibility, verification strength, and operational resilience. The paper develops a Finance Work Stack, Decision Delegation Matrix, AI Apprenticeship Paradox, Apprenticeship Preservation Protocol, and Career Readiness Stack. It argues that useful financial AI must improve productivity without weakening accountability, human capability, cyber resilience, or the future talent pipeline.",
+      "categories": [
+        "cs.SE"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23261",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23261",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 40,
+      "heuristicScore": 4.8,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.23618",
+      "title": "Miscalibrated AI improves human calibration: An alignment problem for AI-assisted Decision education",
+      "authors": [
+        "Phillip C. Hegeman",
+        "Eeshan Hasan",
+        "Eungik Lee",
+        "Andrew Caplin",
+        "Jennifer S. Trueblood"
+      ],
+      "abstract": "Using artificial intelligence (AI) well requires probabilistic thinking, and central to it is calibration: expressing certainty that matches one's actual accuracy. Calibration is a decision skill, but a notoriously difficult one to teach. Because AI systems typically generate a probability alongside every prediction, observing these probabilities may help humans learn to provide better calibrated judgments. This is one form of what we call AI-assisted decision education -- using AI to teach the judgment skills that decision-making requires -- of which learning by observation, as here, is among the simplest forms. In a preregistered experiment, novice participants (N = 300) judged the probability that images of white blood cells were cancerous, before and after exposure to a highly accurate (94%) convolutional neural network. A single model was shown in three ways, holding accuracy fixed while varying the certainty it expressed: its original probabilities, which were conservative and poorly calibrated for the model's accuracy; a recalibrated version, well calibrated for the model and correspondingly certain; or categorical predictions carrying no probability information. When later tested without the AI, only the original, conservative display improved participants' calibration. It did so by reducing over-extremity, without a condition-specific improvement in discrimination. Notably, the display that taught best was the one miscalibrated for the model. AI-assisted decision education therefore faces an alignment problem: the signal that best describes a model, need not be the signal that best supports the learner.",
+      "categories": [
+        "cs.HC"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23618",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23618",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 40,
+      "heuristicScore": 4.8,
+      "tier": "notable",
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.23443",
+      "title": "RummiAlgebra: A Polynomial Representation Framework for Game-Based Algebra Learning with Jokers",
+      "authors": [
+        "Luis Adri\\'an Lizama-P\\'erez"
+      ],
+      "abstract": "Connecting symbolic expressions to manipulable objects is a recurring challenge in introductory algebra. This paper presents RummiAlgebra, a design-oriented framework and browser-based prototype that maps a Rummikub-style tile-rearrangement task to polynomial addition, common-factor extraction, finite geometric sums, and context-dependent substitution. A numbered colored tile is encoded as a monomial c x^v, while a physical joker is represented by a distinct symbol J_i whose algebraic role is fixed only for a particular candidate arrangement. We define admissible polynomial forms for runs and groups and establish an inventory-conservation invariant. A soundness-and-completeness proof shows that physical-tile accounting together with the algebraic run/group templates characterizes valid final arrangements under the stated classroom rules; polynomial equality alone is insufficient. Four detailed examples illustrate decomposition, competing factorizations, one- and two-joker substitutions, and optimization as an optional extension. A targeted review distinguishes the approach from established Rummikub solvers, Rummikub-inspired arithmetic-sequence activities, algebra-tile manipulatives, and polynomial games. The prototype implements six small challenges and a separate rule-and-expression checker; their optimal scores were checked against an independent exhaustive reference enumerator. These checks establish agreement for the examples but do not establish learning effectiveness or novelty of the underlying algebraic operations. We close with a classroom sequence, assessment constructs, and a controlled evaluation protocol. The claimed contribution is a formally specified pedagogical correspondence and an interactive proof-oriented activity, not a new asymptotically faster Rummikub solver.",
+      "categories": [
+        "cs.CY",
+        "cs.HC"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23443",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23443",
+      "topics": [
+        "Pedagogy & Alignment",
+        "Learners & Classrooms"
+      ],
+      "score": 25,
+      "heuristicScore": 3,
+      "tier": "notable",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
+    }
+  ],
+  "dispatches": [],
+  "topics": [
+    {
+      "name": "Learners & Classrooms",
+      "count": 6
+    },
+    {
+      "name": "Pedagogy & Alignment",
+      "count": 3
+    },
+    {
+      "name": "Student Modelling",
+      "count": 1
+    },
+    {
+      "name": "Assessment & Feedback",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "screened": 803,
+    "matched": 7,
+    "alreadyFeatured": 3,
+    "published": 7,
+    "announcedOn": "2026-11-19"
+  }
+}

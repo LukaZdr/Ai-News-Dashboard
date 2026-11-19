@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-19",
+    "number": 14,
+    "headline": "Explainable and CPU-Efficient Brain Tumor Classification from MRI Using Two-Phase EfficientNetB3 Fine-Tuning",
+    "published": 31
+  },
+  {
     "date": "2026-11-18",
     "number": 13,
     "headline": "OICycle: Observe, Infer, and Intervene Cycle for Belief-State Learning in Longitudinal Clinical Decision Making",

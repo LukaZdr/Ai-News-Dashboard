@@ -1,8 +1,8 @@
 {
   "edition": "education",
-  "date": "2026-11-18",
-  "number": 10,
-  "generatedAt": "2026-11-18T15:54:12.712Z",
+  "date": "2026-11-19",
+  "number": 11,
+  "generatedAt": "2026-11-19T15:58:25.601Z",
   "editor": {
     "mode": "heuristic",
     "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
@@ -10,195 +10,251 @@
   "lede": null,
   "readFirst": [
     {
-      "id": "2611.23058",
-      "why": "Matches Pedagogy & Alignment and Learners & Classrooms.",
-      "takeaway": "This work-in-progress (WIP) research-to-practice study examines the use of student-created artifacts to promote active learning in a large undergraduate Software Design and Engineering (SWE) course."
+      "id": "2611.23795",
+      "why": "Matches Pedagogy & Alignment and Student Modelling.",
+      "takeaway": "This paper presents a novel methodological framework, integrating a dual self-organising map (SOM) neural network architecture with Cognitive Load Theory (CLT), for assessing instructional efficiency within learning environments."
     },
     {
-      "id": "2611.23075",
-      "why": "Matches Learners & Classrooms and Pedagogy & Alignment.",
-      "takeaway": "This research-to-practice study examines the use of student-created instructional videos as an active learning strategy in a large undergraduate Software Design and Engineering (SWE) course."
+      "id": "2611.23456",
+      "why": "Matches Assessment & Feedback and Learners & Classrooms.",
+      "takeaway": "Automatic generation of mathematics assessment items is a growing area in educational artificial intelligence, yet classroom deployment remains challenging."
     },
     {
-      "id": "2611.22203",
+      "id": "2611.23311",
       "why": "Matches Learners & Classrooms and Pedagogy & Alignment.",
-      "takeaway": "Large Language Models (LLMs) offer strong potential for personalized education, but adolescent-facing deployment raises risks of toxic, biased, misleading, or developmentally inappropriate content."
+      "takeaway": "Quantum computing threatens widely deployed public-key cryptography, making post-quantum cryptography (PQC) adoption a software engineering challenge."
     }
   ],
   "papers": [
     {
-      "id": "2611.23058",
-      "title": "WIP: Exploring Student-Created AI Agents and Instructional Videos to Foster Engagement in Computing Education",
+      "id": "2611.23795",
+      "title": "A Dual-SOM Learner Model of Instructional Efficiency within Cognitive Load Theory",
       "authors": [
-        "Lucas G. Zangari",
-        "Olufisayo Omojokun",
-        "Pedro Guillermo Feij\\'oo-Garc\\'ia"
+        "Spyridon Revithis"
       ],
-      "abstract": "This work-in-progress (WIP) research-to-practice study examines the use of student-created artifacts to promote active learning in a large undergraduate Software Design and Engineering (SWE) course. Active learning strategies have been shown to significantly enhance student engagement, comprehension, and motivation, particularly in computing education. In this work, we explore the use of student-created artifacts to foster student engagement in higher-level Computer Science (CS) courses. Specifically, we examine the experiences of undergraduate and graduate CS students who participated in the creation of two types of artifacts: instructional video tutorials and conversational AI agents. The goal being to understand how designing these artifacts could support students in applying and learning course content. Students raised valuable insights regarding both experiences. Concerning the creation of instructional videos, they appreciated the interactivity brought through multimedia to their learning experiences, although some found the strategy to be time-consuming. Similarly, when designing conversational AI agents, students enjoyed the novelty and practical application of the task, while some encountered challenges related to the complexity of tools such as \\textit{Google Dialogflow ES}. We report on the potential of student-created artifacts to foster deeper engagement with course material, encouraging both creativity and critical thinking in computing education.",
+      "abstract": "This paper presents a novel methodological framework, integrating a dual self-organising map (SOM) neural network architecture with Cognitive Load Theory (CLT), for assessing instructional efficiency within learning environments. By representing curriculum content as a directed acyclic graph of topic dependencies, the proposed model captures collective learning behaviour across two core dimensions: academic performance and subjective/introspective mental effort. During SOM training, representative data sets of successful learner trajectories are compressed into two topologically ordered, identically structured neural networks: PSOM (performance space) and ESOM (mental effort space). By pairing these behavioural maps, the model serves as a decision-support tool that enables instructors to simultaneously pinpoint structural instructional design defects, such as hidden topic prerequisites, and evaluate collective cognitive load profiles. The implementation and performance of the PSOM component (and, by extension, its symmetrical twin, ESOM) is linked to an earlier modelling study employing a SOM with identical structure and encoding semantics situated in the same domain (i.e., a learning environment). This paper combines the study of behavioural phenomena with theoretical work on human cognitive architecture via SOM neurocomputational cognitive behavioural modelling.",
       "categories": [
-        "cs.CY"
+        "q-bio.NC",
+        "cs.CY",
+        "cs.NE"
       ],
-      "announceType": "new",
-      "publishedAt": "2026-11-18T00:00:00-05:00",
+      "announceType": "cross",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
       "sources": [
         "arxiv"
       ],
-      "url": "https://arxiv.org/abs/2611.23058",
-      "pdfUrl": "https://arxiv.org/pdf/2611.23058",
+      "url": "https://arxiv.org/abs/2611.23795",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23795",
       "topics": [
         "Pedagogy & Alignment",
-        "Learners & Classrooms",
-        "Programming Education"
+        "Student Modelling"
       ],
       "score": 100,
-      "heuristicScore": 12.4,
+      "heuristicScore": 12,
       "tier": "lead",
-      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
+      "why": "Matches Pedagogy & Alignment and Student Modelling."
     },
     {
-      "id": "2611.23075",
-      "title": "Exploring Students' Insights on Creating Videos to Learn Software Design and Engineering",
+      "id": "2611.23456",
+      "title": "VeriMath: Human-in-the-Loop Generation and Verification of Curriculum-Aligned Mathematics Assessment Items",
       "authors": [
-        "Pedro G. Feij\\'oo-Garc\\'ia",
-        "John D. Centner",
-        "Lucas G. Zangari",
-        "Chase G. Wrenn",
-        "Neha Rani",
-        "Juan S. S\\'anchez-G\\'omez",
-        "Olufisayo Omojokun"
+        "Quy P. Nguyen",
+        "Duong Q. Nguyen",
+        "Dinh P. T. Nguyen",
+        "Truong-Giang T. Le",
+        "Truong A. Bui",
+        "Vi H. Vo",
+        "Quang-Thinh Bui",
+        "My-Phuong Ngo",
+        "Trong N. Do",
+        "Thao P. Le",
+        "Phuc M. Nguyen",
+        "H. Nguyen-Xuan"
       ],
-      "abstract": "This research-to-practice study examines the use of student-created instructional videos as an active learning strategy in a large undergraduate Software Design and Engineering (SWE) course. Supporting engagement and understanding in large-scale computer science (CS) courses remains a challenge, as instruction often relies on automated activities and summative assessments that prioritize grading over meaningful learning. This can make the learning experience feel impersonal, leading to frustration, anxiety, and confusion, especially when students face complex topics or new programming tools. To address these issues, we implemented a learner-centered strategy grounded in the principle of ``learning by teaching,\" where students created instructional videos to explain course concepts in their own words. This approach allowed students to take ownership of their learning, adapting the material to fit their individual perspectives and reinforcing their understanding through explanation. We report on students' reflections from a large introductory SWE course (over 700 students), analyzing their open-ended feedback on the benefits and drawbacks of the strategy. Students highlighted increased engagement and learning, and many appreciated the flexibility of the video-based format compared to traditional multiple-choice exams, which they found more restrictive. However, students also noted that the video creation process was time-consuming. This study contributes to the growing conversation on active learning in computing and engineering education by showcasing the potential of student-created instructional videos to enhance student agency, motivation, and conceptual understanding in large-scale learning environments.",
+      "abstract": "Automatic generation of mathematics assessment items is a growing area in educational artificial intelligence, yet classroom deployment remains challenging. Generated questions must satisfy multiple constraints: mathematical correctness, curriculum alignment, appropriate cognitive difficulty, and educator reviewability. While prior work has advanced text generation, reliable assessment authoring requires granular control over localized examination formats and expert educational judgment. To address this challenge, we present VeriMath, a generalized, human-in-the-loop framework for generating rigorous, curriculum-constrained mathematics assessment drafts. Using annotated reference items, the framework anchors generation to the requested examination section and cognitive reasoning level, then applies sequential automated verification and guided repair before submitting drafts for expert review. We evaluate VeriMath through a national curriculum case study using 4,555 mathematics items from the Vietnamese Grade 12 curriculum and 50 distinct generation requirements covering multiple-choice, true/false, and short-answer formats. Across two model backbones, the framework produces verifier-accepted drafts for 94% (47/50) of requirements per run. Blind expert evaluations confirm high mathematical accuracy and curriculum alignment, with strict teacher-readiness assessments accepting up to 56.8% of generated items. Analysis of rejected drafts reveals persistent domain-agnostic challenges involving formatting, statement validity, and solution-step completeness. These findings demonstrate that VeriMath can bridge generative AI and dependable educational applications by producing highly reviewable assessment drafts within tightly constrained national curriculum frameworks.",
       "categories": [
-        "cs.CY"
+        "cs.AI",
+        "cs.CV"
       ],
       "announceType": "new",
-      "publishedAt": "2026-11-18T00:00:00-05:00",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
       "sources": [
         "arxiv"
       ],
-      "url": "https://arxiv.org/abs/2611.23075",
-      "pdfUrl": "https://arxiv.org/pdf/2611.23075",
+      "url": "https://arxiv.org/abs/2611.23456",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23456",
+      "topics": [
+        "Assessment & Feedback",
+        "Learners & Classrooms"
+      ],
+      "score": 78,
+      "heuristicScore": 9.4,
+      "tier": "lead",
+      "why": "Matches Assessment & Feedback and Learners & Classrooms."
+    },
+    {
+      "id": "2611.23311",
+      "title": "Post-Quantum Cryptography Education for Software Developers: A Multivocal Literature Review",
+      "authors": [
+        "R. D. N. Shakya",
+        "C. P. Wijesiriwardana",
+        "S. M. Vidanagamachchi",
+        "Nalin A. G. Arachchilage"
+      ],
+      "abstract": "Quantum computing threatens widely deployed public-key cryptography, making post-quantum cryptography (PQC) adoption a software engineering challenge. However, it remains unclear how well existing educational provision prepares software developers for secure PQC implementation and migration. We conducted a multivocal literature review of 8 research publications and 15 professional training offerings, examining competency coverage, practical software engineering tasks, pedagogical approaches, learner support, and evaluation. All 23 sources covered PQC foundations and algorithms, but coverage of practical software-engineering tasks was uneven. Our analysis identifies six gaps concerning developer focused evaluation, authentic software engineering tasks, task competency alignment, pedagogical design and learner support, security-focused assessment, and long term validation of learning outcomes and transfer. We derive recommendations for strengthening PQC education and better preparing software developers to implement and migrate cryptographic systems securely.",
+      "categories": [
+        "cs.SE",
+        "cs.CR"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23311",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23311",
       "topics": [
         "Learners & Classrooms",
         "Pedagogy & Alignment"
       ],
-      "score": 77,
-      "heuristicScore": 9.6,
+      "score": 70,
+      "heuristicScore": 8.4,
       "tier": "lead",
       "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
     },
     {
-      "id": "2611.22203",
-      "title": "EGS: A Complementary Safety Framework for Educational LLMs",
+      "id": "2611.24859",
+      "title": "Effect of a role model-based show on the STEM aspirations of primary school students",
       "authors": [
-        "Zexuan Fei",
-        "Zhengnan Guo",
-        "Yiming Luo",
-        "Kaiyi Huang",
-        "Aimin Zhou",
-        "Bo Jiang",
-        "Fei Tan"
+        "Wendy Sadler",
+        "Sophie Bartlett",
+        "Naomi Dinmore"
       ],
-      "abstract": "Large Language Models (LLMs) offer strong potential for personalized education, but adolescent-facing deployment raises risks of toxic, biased, misleading, or developmentally inappropriate content. We argue that educational safety should move beyond binary refusal: student queries are often ambiguous or curiosity-driven, requiring contextual guidance rather than simple blocking. We introduce the Educational Guardrail System (EGS), a lightweight, model-agnostic runtime framework that complements intrinsic alignment through query moderation, scenario-aware pedagogical guidance, and response moderation. EGS triages inputs by risk level, redirects gray-zone queries with category-specific educational interventions, and audits outputs before delivery. Experiments across general and education-specific benchmarks show that EGS improves moderation performance, refusal quality, and jailbreak robustness across diverse LLMs. These findings suggest that defense-in-depth guardrails can strengthen safety while preserving the pedagogical utility required in educational LLMs. Our code and model weights will be publicly available to support community adoption.",
+      "abstract": "A STEM outreach show called 'Who wants to be a Superhero' went into primary schools across England and Wales, delivered by professional science communicators. The show was structured around four female STEM role models and two male STEM role models as part of a wider narrative about scientists and engineers being real-life superheroes. The show was found to increase both boys' and girls' aspirations for a STEM career, with a bigger effect seen in the girls. The intervention also increased positive attitudes, and decreased negative attitudes, towards scientists measured through word association given by the audiences pre- and post-show. There was a larger reduction in negative stereotypes from the girls after the show, especially in the 'nerdy' and 'crazy' stereotypes. The show saw an increase in both boys' and girls' perceptions of the 'helpful' nature of science and engineering. It was also found that some students may not want to do a STEM job because of the perceived dangerous nature of the job.",
       "categories": [
-        "cs.CL",
-        "cs.AI"
+        "physics.ed-ph"
       ],
       "announceType": "new",
-      "publishedAt": "2026-11-18T00:00:00-05:00",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
       "sources": [
         "arxiv"
       ],
-      "url": "https://arxiv.org/abs/2611.22203",
-      "pdfUrl": "https://arxiv.org/pdf/2611.22203",
-      "topics": [
-        "Learners & Classrooms",
-        "Pedagogy & Alignment"
-      ],
-      "score": 63,
-      "heuristicScore": 7.8,
-      "tier": "lead",
-      "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
-    },
-    {
-      "id": "2611.22740",
-      "title": "AI as Anchor: How Interview Sequencing Relates to the Appropriation of Synthetic Stakeholder Voices in Design Education",
-      "authors": [
-        "Osnat Mokryn",
-        "Oshrat Ayalon",
-        "Noga Dines",
-        "Orit Shaer"
-      ],
-      "abstract": "Designers increasingly use large language models to simulate stakeholder conversations. Yet it remains unclear how AI-Simulated Stakeholders (AIS) are taken up when used alongside human stakeholder engagement. We report a field study in a single-institution, single-semester design course in which 8 teams (N=21) constructed, evaluated, and peer-reviewed an initial AIS. Then, the teams interviewed both AIS and human stakeholders in two sequences: AIS-first or human-first. Drawing on interview transcripts, design artifacts, course-embedded reflections, and post-course qualitative sessions, we examine exploratory patterns associated with these sequencing conditions. We find that students did not describe AIS as a neutral addition to the process. Instead, the order in which AIS and human stakeholders were formally interviewed was associated with different ways of interpreting and using information from the two sources. When the AIS interview came first, it provided a broad but often general frame that students later reconsidered through human interviews. When the AIS interview followed human engagement, AIS was more often used to revisit and validate insights already grounded in lived experience. Students described AIS as an \"anchor,\" but its reported role varied with its position in the formal interview sequence. In the final designs, a larger proportion of prominent human-stakeholder-derived concerns than AIS-derived concerns had corresponding design elements. We contribute: characterization of AIS as a reference point whose reported role varies with its position in the formal interview sequence; exploratory empirical evidence that the implemented interview-order conditions were associated with distinct patterns of interpreting and using stakeholder input; and implications for integrating AIS into design workflows in ways that preserve direct engagement with human stakeholders",
-      "categories": [
-        "cs.HC"
-      ],
-      "announceType": "new",
-      "publishedAt": "2026-11-18T00:00:00-05:00",
-      "sources": [
-        "arxiv"
-      ],
-      "url": "https://arxiv.org/abs/2611.22740",
-      "pdfUrl": "https://arxiv.org/pdf/2611.22740",
+      "url": "https://arxiv.org/abs/2611.24859",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24859",
       "topics": [
         "Learners & Classrooms"
       ],
-      "score": 39,
+      "score": 50,
+      "heuristicScore": 6,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.23261",
+      "title": "Artificial Intelligence in Finance and the Early-Career Skills Shift: A Structured Evidence Synthesis of Decision Delegation, Bank Deployments, and Business Education",
+      "authors": [
+        "Prakhar Singh Sisodia"
+      ],
+      "abstract": "Artificial intelligence is becoming a general interaction and decision-support layer across finance. Banks use AI for research retrieval, document synthesis, meeting follow-up, customer service, coding, fraud detection, risk support, and increasingly multi-step workflows. This paper asks which parts of finance work can be delegated safely, which remain human-owned, and how education should change when AI compresses the tasks through which novices traditionally build judgment. It presents a structured evidence synthesis of research and public evidence released from 2023 through October 2026 across finance, labor economics, education, bank deployments, and financial regulation. Numerical results and deployment claims remain attributed to their original sources. Four connections emerge: AI is strongest at retrieval, transformation, coding, and first-pass analysis; financial institutions are moving toward constrained rather than unrestricted autonomy; productivity assistance can weaken apprenticeship when assisted output improves faster than unaided capability; and delegation should depend jointly on consequence, reversibility, verification strength, and operational resilience. The paper develops a Finance Work Stack, Decision Delegation Matrix, AI Apprenticeship Paradox, Apprenticeship Preservation Protocol, and Career Readiness Stack. It argues that useful financial AI must improve productivity without weakening accountability, human capability, cyber resilience, or the future talent pipeline.",
+      "categories": [
+        "cs.SE"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23261",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23261",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 40,
       "heuristicScore": 4.8,
       "tier": "lead",
       "why": "Matches Learners & Classrooms."
     },
     {
-      "id": "2611.21965",
-      "title": "Learning Effects in Concept Association: A Study with Multidimensional Scaling",
+      "id": "2611.23618",
+      "title": "Miscalibrated AI improves human calibration: An alignment problem for AI-assisted Decision education",
       "authors": [
-        "Hyago Ribeiro Torres Felix",
-        "Geovani Ferreira Barbosa",
-        "Jusciane da Costa e Silva",
-        "Gustavo de Oliveira Gurgel Rebou\\c{c}as",
-        "Carlos Alberto dos Santos"
+        "Phillip C. Hegeman",
+        "Eeshan Hasan",
+        "Eungik Lee",
+        "Andrew Caplin",
+        "Jennifer S. Trueblood"
       ],
-      "abstract": "This work presents a study designed to investigate learning effects in the association of scientific concepts. In the experiment, high school students worked with advance organizers, as proposed by Ausubel, and with an Arduino board to play songs they had programmed. Numerical Association of Concepts Tests (TANC), administered before and after the instructional intervention, were analyzed using ALSCAL, a multidimensional scaling program available in the SPSS statistical package. The results strongly suggest that TANC is sensitive to changes in students' cognitive structures and that AlSCAL is capable of extracting structural information from the tests.",
+      "abstract": "Using artificial intelligence (AI) well requires probabilistic thinking, and central to it is calibration: expressing certainty that matches one's actual accuracy. Calibration is a decision skill, but a notoriously difficult one to teach. Because AI systems typically generate a probability alongside every prediction, observing these probabilities may help humans learn to provide better calibrated judgments. This is one form of what we call AI-assisted decision education -- using AI to teach the judgment skills that decision-making requires -- of which learning by observation, as here, is among the simplest forms. In a preregistered experiment, novice participants (N = 300) judged the probability that images of white blood cells were cancerous, before and after exposure to a highly accurate (94%) convolutional neural network. A single model was shown in three ways, holding accuracy fixed while varying the certainty it expressed: its original probabilities, which were conservative and poorly calibrated for the model's accuracy; a recalibrated version, well calibrated for the model and correspondingly certain; or categorical predictions carrying no probability information. When later tested without the AI, only the original, conservative display improved participants' calibration. It did so by reducing over-extremity, without a condition-specific improvement in discrimination. Notably, the display that taught best was the one miscalibrated for the model. AI-assisted decision education therefore faces an alignment problem: the signal that best describes a model, need not be the signal that best supports the learner.",
       "categories": [
-        "physics.ed-ph"
+        "cs.HC"
       ],
       "announceType": "new",
-      "publishedAt": "2026-11-18T00:00:00-05:00",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
       "sources": [
         "arxiv"
       ],
-      "url": "https://arxiv.org/abs/2611.21965",
-      "pdfUrl": "https://arxiv.org/pdf/2611.21965",
+      "url": "https://arxiv.org/abs/2611.23618",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23618",
       "topics": [
-        "Learners & Classrooms",
-        "Pedagogy & Alignment"
+        "Learners & Classrooms"
       ],
-      "score": 34,
-      "heuristicScore": 4.2,
-      "tier": "lead",
-      "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
+      "score": 40,
+      "heuristicScore": 4.8,
+      "tier": "notable",
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.23443",
+      "title": "RummiAlgebra: A Polynomial Representation Framework for Game-Based Algebra Learning with Jokers",
+      "authors": [
+        "Luis Adri\\'an Lizama-P\\'erez"
+      ],
+      "abstract": "Connecting symbolic expressions to manipulable objects is a recurring challenge in introductory algebra. This paper presents RummiAlgebra, a design-oriented framework and browser-based prototype that maps a Rummikub-style tile-rearrangement task to polynomial addition, common-factor extraction, finite geometric sums, and context-dependent substitution. A numbered colored tile is encoded as a monomial c x^v, while a physical joker is represented by a distinct symbol J_i whose algebraic role is fixed only for a particular candidate arrangement. We define admissible polynomial forms for runs and groups and establish an inventory-conservation invariant. A soundness-and-completeness proof shows that physical-tile accounting together with the algebraic run/group templates characterizes valid final arrangements under the stated classroom rules; polynomial equality alone is insufficient. Four detailed examples illustrate decomposition, competing factorizations, one- and two-joker substitutions, and optimization as an optional extension. A targeted review distinguishes the approach from established Rummikub solvers, Rummikub-inspired arithmetic-sequence activities, algebra-tile manipulatives, and polynomial games. The prototype implements six small challenges and a separate rule-and-expression checker; their optimal scores were checked against an independent exhaustive reference enumerator. These checks establish agreement for the examples but do not establish learning effectiveness or novelty of the underlying algebraic operations. We close with a classroom sequence, assessment constructs, and a controlled evaluation protocol. The claimed contribution is a formally specified pedagogical correspondence and an interactive proof-oriented activity, not a new asymptotically faster Rummikub solver.",
+      "categories": [
+        "cs.CY",
+        "cs.HC"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-19T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.23443",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23443",
+      "topics": [
+        "Pedagogy & Alignment",
+        "Learners & Classrooms"
+      ],
+      "score": 25,
+      "heuristicScore": 3,
+      "tier": "notable",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
     }
   ],
   "dispatches": [],
   "topics": [
     {
       "name": "Learners & Classrooms",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Pedagogy & Alignment",
-      "count": 4
+      "count": 3
     },
     {
-      "name": "Programming Education",
+      "name": "Student Modelling",
+      "count": 1
+    },
+    {
+      "name": "Assessment & Feedback",
       "count": 1
     }
   ],
   "stats": {
-    "screened": 750,
-    "matched": 5,
-    "alreadyFeatured": 4,
-    "published": 5,
-    "announcedOn": "2026-11-18"
+    "screened": 803,
+    "matched": 7,
+    "alreadyFeatured": 3,
+    "published": 7,
+    "announcedOn": "2026-11-19"
   }
 }
