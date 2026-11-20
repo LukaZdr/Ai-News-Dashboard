@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-20",
+    "number": 15,
+    "headline": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+    "published": 42
+  },
+  {
     "date": "2026-11-19",
     "number": 14,
     "headline": "RoughCut-Bench: A Benchmark for Automatic Video Rough-Cut with Large Vision-Language Models",

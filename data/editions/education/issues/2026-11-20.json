@@ -1,0 +1,66 @@
+{
+  "edition": "education",
+  "date": "2026-11-20",
+  "number": 12,
+  "generatedAt": "2026-11-20T15:41:48.543Z",
+  "editor": {
+    "mode": "heuristic",
+    "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
+  },
+  "lede": null,
+  "readFirst": [
+    {
+      "id": "2611.25294",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms.",
+      "takeaway": "Gaze data provide fine-grained evidence of how learners engage with instructional content and interface elements, complementing conventional usability evaluation methods."
+    }
+  ],
+  "papers": [
+    {
+      "id": "2611.25294",
+      "title": "Modeling Learner-Technology Interaction Through Multilevel Gaze Transition Dynamics to Inform Usability in Online Learning",
+      "authors": [
+        "Yueqi Weng",
+        "Jie \"Jennifer\" Lu",
+        "fan Yang"
+      ],
+      "abstract": "Gaze data provide fine-grained evidence of how learners engage with instructional content and interface elements, complementing conventional usability evaluation methods. However, eye-tracking analyses often examine within-slide visual attention and across-slide navigation separately, limiting understanding of learner interaction throughout extended learning experiences. This exploratory multi-method study integrated area-of-interest transitions, gaze entropy, slide-level navigation, and network-based representations to analyze seven eye-tracking recordings of high school students interacting with an AI-supported online biology lesson, complemented by three post-intervention focus groups. Results showed individual differences in within-slide gaze allocation and switching patterns. Learners followed shared navigation pathways but differed in revisiting and immediate return behaviors. The focus group findings highlighted positive perceptions of interactive materials and AI-generated feedback, alongside usability concerns related to navigation, interface clarity, and assessment guidance. Together, these outcomes show how integrating multilevel gaze analytics with learner perspectives can provide complementary evidence for identifying interaction trends relevant to usability evaluation. Future research should test this approach with larger, more diverse samples and examine relationships among gaze patterns, usability, and learning outcomes.",
+      "categories": [
+        "cs.HC"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-20T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.25294",
+      "pdfUrl": "https://arxiv.org/pdf/2611.25294",
+      "topics": [
+        "Pedagogy & Alignment",
+        "Learners & Classrooms"
+      ],
+      "score": 100,
+      "heuristicScore": 6,
+      "tier": "lead",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
+    }
+  ],
+  "dispatches": [],
+  "topics": [
+    {
+      "name": "Pedagogy & Alignment",
+      "count": 1
+    },
+    {
+      "name": "Learners & Classrooms",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "screened": 796,
+    "matched": 1,
+    "alreadyFeatured": 3,
+    "published": 1,
+    "announcedOn": "2026-11-20"
+  }
+}

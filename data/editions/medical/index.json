@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-20",
+    "number": 15,
+    "headline": "A Neurosymbolic Multimodal Framework for 30-Day Diabetic Readmission Prediction: Integrating Structured EHR Data, Dense Clinical Embeddings, and Knowledge-Grounded Symbolic Extraction",
+    "published": 31
+  },
+  {
     "date": "2026-11-19",
     "number": 14,
     "headline": "Explainable and CPU-Efficient Brain Tumor Classification from MRI Using Two-Phase EfficientNetB3 Fine-Tuning",
