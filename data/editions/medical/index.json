@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-21",
+    "number": 16,
+    "headline": "System 1 agents: a method for local, reliable and fast agentic AI",
+    "published": 1
+  },
+  {
     "date": "2026-11-20",
     "number": 15,
     "headline": "A Neurosymbolic Multimodal Framework for 30-Day Diabetic Readmission Prediction: Integrating Structured EHR Data, Dense Clinical Embeddings, and Knowledge-Grounded Symbolic Extraction",

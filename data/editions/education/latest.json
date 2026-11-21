@@ -1,8 +1,8 @@
 {
   "edition": "education",
-  "date": "2026-11-20",
-  "number": 12,
-  "generatedAt": "2026-11-20T15:41:48.543Z",
+  "date": "2026-11-21",
+  "number": 13,
+  "generatedAt": "2026-11-21T14:51:40.503Z",
   "editor": {
     "mode": "heuristic",
     "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
@@ -10,39 +10,45 @@
   "lede": null,
   "readFirst": [
     {
-      "id": "2611.25294",
-      "why": "Matches Pedagogy & Alignment and Learners & Classrooms.",
-      "takeaway": "Gaze data provide fine-grained evidence of how learners engage with instructional content and interface elements, complementing conventional usability evaluation methods."
+      "id": "2611.26239",
+      "why": "Matches Pedagogy & Alignment · 4 upvotes on Hugging Face.",
+      "takeaway": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions."
     }
   ],
   "papers": [
     {
-      "id": "2611.25294",
-      "title": "Modeling Learner-Technology Interaction Through Multilevel Gaze Transition Dynamics to Inform Usability in Online Learning",
+      "id": "2611.26239",
+      "title": "Teaching Vision-Language-Action Models to Stop Safely",
       "authors": [
-        "Yueqi Weng",
-        "Jie \"Jennifer\" Lu",
-        "fan Yang"
+        "Zheyuan Liu",
+        "Chuhan Wang",
+        "Jinduo Guo",
+        "Yue Huang",
+        "Xiangchi Yuan",
+        "Ningshan Ma",
+        "Meng Jiang"
       ],
-      "abstract": "Gaze data provide fine-grained evidence of how learners engage with instructional content and interface elements, complementing conventional usability evaluation methods. However, eye-tracking analyses often examine within-slide visual attention and across-slide navigation separately, limiting understanding of learner interaction throughout extended learning experiences. This exploratory multi-method study integrated area-of-interest transitions, gaze entropy, slide-level navigation, and network-based representations to analyze seven eye-tracking recordings of high school students interacting with an AI-supported online biology lesson, complemented by three post-intervention focus groups. Results showed individual differences in within-slide gaze allocation and switching patterns. Learners followed shared navigation pathways but differed in revisiting and immediate return behaviors. The focus group findings highlighted positive perceptions of interactive materials and AI-generated feedback, alongside usability concerns related to navigation, interface clarity, and assessment guidance. Together, these outcomes show how integrating multilevel gaze analytics with learner perspectives can provide complementary evidence for identifying interaction trends relevant to usability evaluation. Future research should test this approach with larger, more diverse samples and examine relationships among gaze patterns, usability, and learning outcomes.",
-      "categories": [
-        "cs.HC"
-      ],
-      "announceType": "new",
-      "publishedAt": "2026-11-20T00:00:00-05:00",
+      "abstract": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once execution is underway and controlling the resulting physical response remain challenging. Our evaluation reveals that policies which suppress a task from its initial state can still complete it when taking over partway through execution. Even when the task remains unfinished, the robot may drop a held object, making non-completion an incomplete measure of safety. To address these challenges, we introduce State-Aware Fallback Imitation (SAFI) for tasks where holding provides an appropriate alternative response. SAFI comprises two stages, (1) fallback target construction, which assigns stationary arm commands and consistent gripper targets throughout prohibited-task demonstrations, and (2) joint policy adaptation, which learns these targets alongside the original actions of retained tasks. This supervision teaches an explicit alternative response at intermediate execution states while maintaining the robot's other skills. Extensive experiments with OpenVLA-OFT across LIBERO and BadLIBERO tasks evaluate prohibited completion, physical incidents, and retained-task performance. On the evaluated LIBERO tasks, SAFI reduces aggregate target success after takeover to 1.3\\%, with no recorded physical incidents or action saturation, while preserving high retained-task success.",
+      "categories": [],
+      "publishedAt": "2026-11-19T00:00:00.000Z",
       "sources": [
-        "arxiv"
+        "huggingface"
       ],
-      "url": "https://arxiv.org/abs/2611.25294",
-      "pdfUrl": "https://arxiv.org/pdf/2611.25294",
+      "hf": {
+        "upvotes": 4,
+        "comments": 1,
+        "organization": "University of Notre Dame DM2 Lab",
+        "githubRepo": "https://github.com/franciscoliu/SAFI"
+      },
+      "url": "https://arxiv.org/abs/2611.26239",
+      "pdfUrl": "https://arxiv.org/pdf/2611.26239",
       "topics": [
-        "Pedagogy & Alignment",
-        "Learners & Classrooms"
+        "Pedagogy & Alignment"
       ],
       "score": 100,
-      "heuristicScore": 6,
+      "heuristicScore": 8.4,
       "tier": "lead",
-      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
+      "why": "Matches Pedagogy & Alignment · 4 upvotes on Hugging Face."
     }
   ],
   "dispatches": [],
@@ -50,17 +56,12 @@
     {
       "name": "Pedagogy & Alignment",
       "count": 1
-    },
-    {
-      "name": "Learners & Classrooms",
-      "count": 1
     }
   ],
   "stats": {
-    "screened": 796,
+    "screened": 109,
     "matched": 1,
-    "alreadyFeatured": 3,
-    "published": 1,
-    "announcedOn": "2026-11-20"
+    "alreadyFeatured": 2,
+    "published": 1
   }
 }
