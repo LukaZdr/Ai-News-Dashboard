@@ -1,0 +1,165 @@
+{
+  "edition": "education",
+  "date": "2026-11-23",
+  "number": 14,
+  "generatedAt": "2026-11-23T18:37:11.278Z",
+  "editor": {
+    "mode": "heuristic",
+    "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
+  },
+  "lede": null,
+  "readFirst": [
+    {
+      "id": "2611.27632",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms.",
+      "takeaway": "Instruction in quantum mechanics (QM) is often categorized by its entry point as 'wave-first' or 'spin-first', yet these labels lack consistent definitions and overlook other established or emerging approaches."
+    },
+    {
+      "id": "2611.26894",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms.",
+      "takeaway": "Lecture boards remain central to university teaching in physics and mathematics, yet the visual quality of what instructors write has rarely been measured systematically."
+    },
+    {
+      "id": "2611.26799",
+      "why": "Matches Learners & Classrooms.",
+      "takeaway": "Existing Parsons problem tools primarily focus on correctness, indicating whether a student solved a problem, but providing limited visibility into the underlying problem-solving process."
+    }
+  ],
+  "papers": [
+    {
+      "id": "2611.27632",
+      "title": "Navigating Quantum Education at the University level: Pedagogical Pathways and a Roadmap for Textbook Selection",
+      "authors": [
+        "Yajie Liang",
+        "Menno Poot",
+        "Carsten Schuck",
+        "Stefan Heusler"
+      ],
+      "abstract": "Instruction in quantum mechanics (QM) is often categorized by its entry point as 'wave-first' or 'spin-first', yet these labels lack consistent definitions and overlook other established or emerging approaches. Moreover, while capturing broad differences in topic selection and sequencing, this binary framing obscures critical differences in contextualization--how three dimensions (mathematical tools, phenomena and experiments, and theoretical concepts) are framed and connected to support student sensemaking. Research also rarely examines how such pedagogical choices unfold across the undergraduate-to-graduate trajectory. Using textbooks as an analytical lens to map these choices and characterize overarching pathways, encompassing entry points and overall orientations, we comparatively analyze the selection, sequencing, and contextualization of core topics across these 3 dimensions, alongside prefaces and introductions, in 36 university QM textbooks spanning countries and eras. At the topic level, we show that identical topics occupy widely different curricular roles depending on their contextualization. Synthesizing these findings into pathways, we identify three additional entry-point archetypes (labeled path-, qubit-, and axiom-first) and characterize all 5 approaches, showing that most textbooks combine multiple archetypes in their opening chapters. Extending this synthesis beyond entry points, we map textbooks' overall orientations relative to mathematics, experiment and application, and theoretical physics. Interpreting these profiles alongside authors' rationales reveals how educators navigate competing trade-offs among mathematical accessibility, theoretical generality, physical motivation, and modern developments. This study provides a multidimensional framework, substantive examples, and a practical roadmap for textbook selection and curriculum design in QM education.",
+      "categories": [
+        "physics.ed-ph",
+        "quant-ph"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-23T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.27632",
+      "pdfUrl": "https://arxiv.org/pdf/2611.27632",
+      "topics": [
+        "Pedagogy & Alignment",
+        "Learners & Classrooms"
+      ],
+      "score": 100,
+      "heuristicScore": 13.2,
+      "tier": "lead",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
+    },
+    {
+      "id": "2611.26894",
+      "title": "Lecture Board Readability as an AI-Measurable Predictor of Perceived Teaching Clarity",
+      "authors": [
+        "Nachshon Hirschenberger",
+        "Roni Segal",
+        "Yossi Ben-Zion"
+      ],
+      "abstract": "Lecture boards remain central to university teaching in physics and mathematics, yet the visual quality of what instructors write has rarely been measured systematically. We examined whether a vision-language model can score board writing in a way that relates to how students perceive instruction. We analysed 2,645 board images from 56 university physics and applied mathematics courses taught by 18 lecturers, scoring each image 50 times with Claude 3.5 Sonnet on readability, organization and visual elements. Course-level readability was associated with student-rated clarity ($r$ = .43) and organization ($r$ = .46), and remained the only significant predictor of the overall survey score after controlling for class size, mean course grade and study year. These associations were robust to clustering by lecturer and remained stable when only one or two images per lecture were used. In a subsample of 100 images rated by four human raters, agreement between AI and human scores was comparable to agreement among the raters themselves for visual elements, lower for readability and weakest for organization. Student evaluations served as a benchmark of perceived clarity rather than of teaching quality as a whole. Automated analysis of board images may offer a low-cost, scalable source of formative feedback in STEM teaching.",
+      "categories": [
+        "physics.ed-ph"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-23T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.26894",
+      "pdfUrl": "https://arxiv.org/pdf/2611.26894",
+      "topics": [
+        "Pedagogy & Alignment",
+        "Learners & Classrooms"
+      ],
+      "score": 73,
+      "heuristicScore": 9.6,
+      "tier": "lead",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
+    },
+    {
+      "id": "2611.26799",
+      "title": "Trajectories Through Parsons Problems: Making Student Difficulty Patterns Visible to Instructors",
+      "authors": [
+        "Daniel Prol",
+        "Juho Leinonen",
+        "Arto Hellas",
+        "Saleh Alkhamees",
+        "Amin Alipour"
+      ],
+      "abstract": "Existing Parsons problem tools primarily focus on correctness, indicating whether a student solved a problem, but providing limited visibility into the underlying problem-solving process. Without that visibility, instructors cannot see which blocks caused repeated confusion or which distractors were consistently selected. We introduce Pulla, a Parsons problem tool that instruments programming assignments to capture fine-grained interaction data. We examine what these behavioral traces make visible to instructors, namely how long students take on a problem and how many moves they make, which recurring errors the distractors expose and how the class arrives at them, whether those errors follow a student from one problem to the next, and which students complete the whole assignment without a single error.",
+      "categories": [
+        "cs.HC",
+        "cs.CY"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-23T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.26799",
+      "pdfUrl": "https://arxiv.org/pdf/2611.26799",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 45,
+      "heuristicScore": 6,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.27533",
+      "title": "Standard-Anchored Delegation in Teachers' Use of Generative AI",
+      "authors": [
+        "Muhammad Saleh Farooq",
+        "Muhammad Ahmad Khan",
+        "Muhammad Jon Raza"
+      ],
+      "abstract": "Teachers who use generative AI must decide which parts of their work to hand over, while they remain accountable for what reaches students. We studied these decisions in Punjab, Pakistan, through a qualitatively driven mixed-methods study. We interviewed 13 teachers from government, private, NGO and vocational institutions, four administrators and one student, and coded each teacher's position on twelve educational tasks. Nine teachers accepted AI drafts or substantial assistance with lesson planning, but none accepted AI-drafted learning objectives, and eleven did not use AI to encourage or emotionally support students. Teachers who would accept AI marking required that the model be given a rubric or marking criteria. Building on assessment research and HCI work on verifiability, we call this pattern standard-anchored delegation: teachers handed a component of a task to AI when a standard outside the model, such as a textbook or rubric, defined a correct output and the teacher could apply that standard to the result. Having a standard was not always enough. Several government-school teachers did not use AI to mark quizzes even though the quizzes had answer keys, because they expected students to look for evidence of the teacher's effort. Checking AI output required subject knowledge and time, and private schools gave teachers more support for this than government schools did. Participants also read disclosure of AI use as a statement about whether the teacher had reviewed the work. We propose that teacher-facing AI tools ask for the relevant standard before generating and show each output beside it, and that schools account for the time that checking takes.",
+      "categories": [
+        "cs.HC",
+        "cs.CY"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-23T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.27533",
+      "pdfUrl": "https://arxiv.org/pdf/2611.27533",
+      "topics": [
+        "Learners & Classrooms",
+        "Pedagogy & Alignment"
+      ],
+      "score": 32,
+      "heuristicScore": 4.2,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
+    }
+  ],
+  "dispatches": [],
+  "topics": [
+    {
+      "name": "Learners & Classrooms",
+      "count": 4
+    },
+    {
+      "name": "Pedagogy & Alignment",
+      "count": 3
+    }
+  ],
+  "stats": {
+    "screened": 558,
+    "matched": 4,
+    "alreadyFeatured": 0,
+    "published": 4,
+    "announcedOn": "2026-11-23"
+  }
+}

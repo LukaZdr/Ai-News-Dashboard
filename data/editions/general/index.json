@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-23",
+    "number": 17,
+    "headline": "Non-penetrating World Models",
+    "published": 42
+  },
+  {
     "date": "2026-11-21",
     "number": 16,
     "headline": "RL Post-Training in Diffusion Transformers Is Activation Steering",
