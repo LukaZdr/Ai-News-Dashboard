@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-24",
+    "number": 18,
+    "headline": "The AMPEL Platform: An Open-Source Project for Developing Hospital-Wide Clinical Decision Support Systems under EU-Regulation",
+    "published": 31
+  },
+  {
     "date": "2026-11-23",
     "number": 17,
     "headline": "DermKG: A Concept-Centric Knowledge Graph for Interpretable Skin Disease Diagnosis from Dermatological Morphology",
