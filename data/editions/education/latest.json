@@ -1,8 +1,8 @@
 {
   "edition": "education",
-  "date": "2026-11-24",
-  "number": 15,
-  "generatedAt": "2026-11-24T18:06:33.394Z",
+  "date": "2026-11-25",
+  "number": 16,
+  "generatedAt": "2026-11-25T17:30:16.866Z",
   "editor": {
     "mode": "heuristic",
     "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
@@ -10,491 +10,325 @@
   "lede": null,
   "readFirst": [
     {
-      "id": "2611.28899",
-      "why": "Matches Pedagogy & Alignment and Learners & Classrooms.",
-      "takeaway": "Students may have access to a convincing mathematical explanation without being able to reconstruct or adapt it."
+      "id": "2611.32246",
+      "why": "Matches Tutoring Systems.",
+      "takeaway": "Runtime skills can improve agents' problem-solving capabilities by providing procedural guidance for tasks such as code review and debugging."
     },
     {
-      "id": "2611.26389",
-      "why": "Matches Pedagogy & Alignment · 36 upvotes on Hugging Face.",
-      "takeaway": "Current leading video generation models can synthesize highly realistic videos, while still frequently violating physical and logical constraints in multi-step reasoning and planning, even after training with large-scale reasoning data or existing diffusion RL methods."
+      "id": "2611.31429",
+      "why": "Matches Tutoring Systems.",
+      "takeaway": "Tutors built on large language models (LLMs) are told not to give away answers, but a learner does not have to ask for the answer all at once."
     },
     {
-      "id": "2611.28280",
-      "why": "Matches Learners & Classrooms and Pedagogy & Alignment.",
-      "takeaway": "Digital technologies have become ubiquitous in education, integrated to nearly all aspects of teaching, learning, research, and communication."
+      "id": "2611.32489",
+      "why": "Matches Student Modelling and Learners & Classrooms.",
+      "takeaway": "Knowledge-tracing benchmarks often compare models that have different access to a learner's previous responses."
     }
   ],
   "papers": [
     {
-      "id": "2611.28899",
-      "title": "Questions, Explanation and Synthesis in Service Mathematics: Course Design with Didactic Units and Hybrid Teaching",
+      "id": "2611.32246",
+      "title": "SkillCore: Internalizing Generalizable Skills via Scaffolding-Removed Fine-Tuning",
       "authors": [
-        "Sini\\v{s}a Mili\\v{c}i\\'c"
+        "Yi Liu",
+        "Changqing Ai",
+        "Peijie Dong",
+        "Xiankun Lin",
+        "Yongkang Yang",
+        "Zhezheng Hao",
+        "Xilin Xia",
+        "Hande Dong",
+        "Qiang Lin",
+        "Qiang Xu"
       ],
-      "abstract": "Students may have access to a convincing mathematical explanation without being able to reconstruct or adapt it. A course must provide opportunities to develop that understanding while keeping the work sustainable for students and teachers. This article develops a methodology for service mathematics in which a question ledger guides both course authoring and classroom decisions. Course-relative didactic units organise explanatory purposes, prerequisites and connections, initially calibrated by a five-to-seven-minute expert account. Teaching combines preparation, student exposition and supported repair with substantial teacher exposition and synthesis. Their allocation changes with the topic, audience and conditions of teaching. Compression and recovery explain how developed constructions become reusable while their grounds remain accessible. Three analyses from mathematics for computing-full Sudoku encoding, grayscale projection and a software failure contract-show how contrasting cases guide explanation and revision. The practice-informed contribution connects coherent course design with adaptable teaching and manageable preparation, and identifies questions for evaluating learning, participation and sustained teacher effort.",
+      "abstract": "Runtime skills can improve agents' problem-solving capabilities by providing procedural guidance for tasks such as code review and debugging. However, these benefits reach only a minority of users, as most do not proactively invoke skills in practice. We argue that such generalizable procedures should become part of the model's capabilities rather than remain optional external add-ons, making them directly available without explicit skill loading. To this end, we present SkillCore, a data pipeline and supervised fine-tuning recipe for internalizing generalizable skills. We transform real agent trajectories by removing skill-loading scaffolding while preserving the task context and subsequent agent actions, thereby supervising direct execution without external skill content. To preserve access to task-specific skills that provide genuinely external information, we mix these scaffold-removed trajectories with a small proportion of skill-native trajectories that preserve supervision for skill invocation. On a held-out skill-free evaluation, SkillCore improves task completion quality over the base Qwen3-8B and Qwen2.5-72B models by 54.4% and 24.8%, respectively, while preserving task-specific skill invocation on a separate probe and general coding performance on SWE-bench Verified.",
       "categories": [
-        "math.HO"
+        "cs.CL"
       ],
       "announceType": "new",
-      "publishedAt": "2026-11-24T00:00:00-05:00",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
       "sources": [
         "arxiv"
       ],
-      "url": "https://arxiv.org/abs/2611.28899",
-      "pdfUrl": "https://arxiv.org/pdf/2611.28899",
+      "url": "https://arxiv.org/abs/2611.32246",
+      "pdfUrl": "https://arxiv.org/pdf/2611.32246",
       "topics": [
-        "Pedagogy & Alignment",
-        "Learners & Classrooms"
+        "Tutoring Systems"
       ],
       "score": 100,
-      "heuristicScore": 11.4,
+      "heuristicScore": 8,
       "tier": "lead",
-      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
+      "why": "Matches Tutoring Systems."
     },
     {
-      "id": "2611.26389",
-      "title": "ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step",
+      "id": "2611.31429",
+      "title": "Leaks by Installments: Cross-Session Answer Disclosure in LLM Tutors and a Ledger-Based Defense",
       "authors": [
-        "Kaiwen Zhang",
-        "Yiming Gao",
-        "Zeqi Xiao",
-        "Xintao Wang",
-        "Pengfei Wan",
-        "Kun Gai",
-        "Xingang Pan"
+        "Venkata Muttineni",
+        "Karthik Narayan",
+        "Christopher David"
       ],
-      "abstract": "Current leading video generation models can synthesize highly realistic videos, while still frequently violating physical and logical constraints in multi-step reasoning and planning, even after training with large-scale reasoning data or existing diffusion RL methods. We attribute these failures to the conventional video training paradigm, which treats a solution as a fixed-length clip rather than a chain of decisions. We present ViDecide, a decision-centric framework that trains video diffusion models to predict state transitions causally and decide when to stop, with a decision-focused training schedule. We further propose Corrective Fine-tuning (CFT), which corrects failed decisions by mapping their noise to the model's own successful continuations, achieving stable improvement without policy-gradient optimization. Across abstract games, planning tasks, and a new benchmark of multi-step robot planning, ViDecide achieves an average strict success rate of 83.8%, far above 23.3% for standard fine-tuning and 67.8% for the strongest prior method, and generalizes to larger puzzles and unseen layouts. Our framework therefore unlocks greater potential for video generation models as reliable reasoners and planners in the visual world. Project page: https://kevin-thu.github.io/ViDecide.",
-      "categories": [],
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "sources": [
-        "huggingface"
-      ],
-      "hf": {
-        "upvotes": 36,
-        "comments": 2,
-        "organization": "MMLab@NTU",
-        "githubRepo": "https://github.com/Kevin-thu/ViDecide"
-      },
-      "url": "https://arxiv.org/abs/2611.26389",
-      "pdfUrl": "https://arxiv.org/pdf/2611.26389",
-      "topics": [
-        "Pedagogy & Alignment"
-      ],
-      "score": 96,
-      "heuristicScore": 11,
-      "tier": "lead",
-      "why": "Matches Pedagogy & Alignment · 36 upvotes on Hugging Face."
-    },
-    {
-      "id": "2611.28280",
-      "title": "Investigating Shadow IT Use and Adoption in Educational Institutions and their Privacy Implications",
-      "authors": [
-        "Easton Kelso",
-        "Ananta Soneji",
-        "Yan Soshitaishvili",
-        "Sazzadur Rahaman",
-        "Rakibul Hasan"
-      ],
-      "abstract": "Digital technologies have become ubiquitous in education, integrated to nearly all aspects of teaching, learning, research, and communication. They collect enormous amounts of data from their users, primarily students. When procured institutionally, data collection and use are guided by legally binding contracts. However, recent studies suggest that apps found on the open web are increasingly being used for teaching and evaluation without going through a formal audit, raising concerns about privacy, security, and regulatory compliance. How prevalent such shadow IT use in education is, and what privacy and compliance risks they create remain unexplored. We address this gap through a sequential survey-based study: one survey with 375 educators and another with 21 system administrators at K-12 or HEIs (Higher Education Institutes). We discover widespread use of external apps by educators: 1,373 apps were reported, 494 among them were unique, primarily used for pedagogical utility (n=213) and functional convenience (n=155). Their adoption and integration are often facilitated, even encouraged, by administrators; this result deviates from studies in other domains (e.g., industry) where admins actively prevent them. Many educators (n=62) continued using apps they do not trust, citing a lack of alternatives or dependency as barriers to discontinuation. We also found that fewer than one in three educators were aware of institutional policies on shadow IT use (K-12: 30.3%, HEI: 24.8%), and 22 knowingly violated such policies. While 107 received formal warnings for using shadow IT, only 33 adjusted their behavior. We conclude by discussing the implications of our findings and future recommendations for various stakeholders to minimize the risks.",
+      "abstract": "Tutors built on large language models (LLMs) are told not to give away answers, but a learner does not have to ask for the answer all at once. Existing safeguards judge each reply within the current conversation, so a learner can open a new session, reword the problem, or request a worked solution to the same problem with different numbers. We call this cross-session disclosure and propose a defense: a persistent, per-learner disclosure ledger. For every problem a learner brings, the system builds a typed solution graph. Before a reply is released, a gate matches the reply's own content, not the learner's wording, against the ledger by result values and by type-labeled solution structure, then computes which steps the learner could now derive. The reply is withheld if that set reaches the final answer or exceeds a budget. In a simulation of 3,000 problems, the ledger reduced leakage through renumbered practice variants from 100% to 10.6% while honest learners completed 94-99.5% of problems. With two real LLM tutors (Qwen2.5-3B-Instruct and Phi-3.5-mini-instruct) on 60 problems, leakage through renumbered variants fell from 0.58 to 0.08 and from 1.00 to 0.18, with 98% honest completion. The ledger did not reduce split requests beyond a per-session gate in the live runs. All acceptance criteria were fixed before each run.",
       "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.CL",
         "cs.CY"
       ],
-      "announceType": "new",
-      "publishedAt": "2026-11-24T00:00:00-05:00",
+      "announceType": "cross",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
       "sources": [
         "arxiv"
       ],
-      "url": "https://arxiv.org/abs/2611.28280",
-      "pdfUrl": "https://arxiv.org/pdf/2611.28280",
+      "url": "https://arxiv.org/abs/2611.31429",
+      "pdfUrl": "https://arxiv.org/pdf/2611.31429",
       "topics": [
-        "Learners & Classrooms",
-        "Pedagogy & Alignment"
+        "Tutoring Systems"
       ],
-      "score": 84,
-      "heuristicScore": 9.6,
+      "score": 100,
+      "heuristicScore": 8,
       "tier": "lead",
-      "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
+      "why": "Matches Tutoring Systems."
     },
     {
-      "id": "2611.30559",
-      "title": "Learning What to Change: State-Verified Reinforcement Learning for Educational Agents",
+      "id": "2611.32489",
+      "title": "When Knowledge-Tracing Rankings Depend on Available History: A Source-Correction and Matched-Information Audit on ASSISTments 2009 and 2015",
       "authors": [
-        "Shengyao Wang",
-        "Siyuan Su",
-        "Siyu Song",
-        "Mengsong Wu",
-        "Yiming Luo",
-        "Wenbo Wu",
-        "Hao Hao",
-        "Aimin Zhou"
+        "Devis Wawan Saputra"
       ],
-      "abstract": "Persistent tutoring agents do more than answer questions: they manage course files, practice records, and learner profiles that govern future lessons. In such stateful settings, knowing what to teach does not guarantee knowing what to change. We identify a pervasive failure mode, content-state decoupling, where agents deliver pedagogically sound responses while silently corrupting workspace state through unwarranted updates, missed prerequisites, or unintended side effects. Text-level judges overlook these state errors, whereas isolated tool-call checks break down because whether a write action is valid depends jointly on the learner request, prior state, and execution order. We propose State-Verified Reinforcement Learning, which supervises online policy optimization directly through verifiable workspace transitions. Within isolated sandboxes that snapshot state around every tool call, a deterministic verifier audits tool effects, workflow ordering, and native auto-sync side effects, pairing graded partial credit with a hard gate that zeroes episode reward upon any critical violation. Whenever no critical violation occurs, an evidence-grounded judge scores actual saved artifacts rather than agent claims. We pair 1,000 verifiable training instances with an independently authored, human-reviewed evaluation benchmark of 60 tasks spanning 11 educational categories and 16 native tools. After online GRPO training, Qwen3.8-27B raises category-weighted strict success on our benchmark from 51.47% to 80.74% (+29.27 points), cutting content-pass-only execution failures from 45.6% to 13.7% and required state-check failures from 63 to 1 across 180 trials. The resulting policy outperforms seven reference baselines by over 20 points while reducing output tokens by 17-39% across seven of eight external benchmarks without regressing on general reasoning or tool use.",
+      "abstract": "Knowledge-tracing benchmarks often compare models that have different access to a learner's previous responses. We examine how data provenance, history length, and representation affect those comparisons. First, we compare a pinned ASSISTments 2009 sequence mirror against the corrected official release. Of 4,148 learners represented in both, 817 have different ordered skill-response sequences; the mirror also contains fewer labeled events. Second, we retain earlier learner-disjoint model evaluations on the 2009 and 2015 datasets, distinguishing exploratory results from a corrective 2015 replication. Finally, we evaluate a new, nonoverlapping sample of 4,000 ASSISTments 2015 learners using three models constrained to the same one-event or 20-event prior-response window. On 20,592 test responses from 582 learners, the 20-event Brier scores were 0.17667 for count-based logistic regression, 0.17389 for an order-aware logistic model, and 0.17514 for a GRU. The GRU-minus-order-aware difference was 0.00125 (95% learner-cluster bootstrap interval [0.00008, 0.00243]); at one prior event, the corresponding difference was 0.00212 [0.00120, 0.00301]. Earlier comparisons had favored the GRU against simpler history summaries. The newer analysis instead favors a logistic comparator that represents order using the same permitted event stream. These results concern predictive performance on particular historical cohorts and model settings. They neither isolate an architectural effect nor establish generalization to contemporary classrooms.",
       "categories": [
-        "cs.AI"
+        "cs.LG"
       ],
       "announceType": "new",
-      "publishedAt": "2026-11-24T00:00:00-05:00",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
       "sources": [
         "arxiv"
       ],
-      "url": "https://arxiv.org/abs/2611.30559",
-      "pdfUrl": "https://arxiv.org/pdf/2611.30559",
+      "url": "https://arxiv.org/abs/2611.32489",
+      "pdfUrl": "https://arxiv.org/pdf/2611.32489",
       "topics": [
-        "Learners & Classrooms",
-        "Tutoring Systems",
-        "Pedagogy & Alignment"
+        "Student Modelling",
+        "Learners & Classrooms"
+      ],
+      "score": 95,
+      "heuristicScore": 7.6,
+      "tier": "lead",
+      "why": "Matches Student Modelling and Learners & Classrooms."
+    },
+    {
+      "id": "2611.32803",
+      "title": "MRBench: Benchmarking Physical Necessity Reasoning in Heterogeneous Multi-Robot Manipulation",
+      "authors": [
+        "Yanzhe Chen",
+        "Zhijun Cao",
+        "Ruihe An",
+        "Chang Gong",
+        "Mike Zheng Shou"
+      ],
+      "abstract": "Recent advances in multi-robot manipulation have shown how robots can collaborate to accomplish complex tasks. However, successful coordination does not reveal which robots are actually needed. The same task may require different teams as robot capabilities change, resources become unavailable, or objects replace robotic support. We argue that reliable multi-robot manipulation requires physical necessity reasoning: understanding what a task demands, which resources can fulfill those demands, and which are truly necessary. We introduce MRBench, a benchmark for physical necessity reasoning in heterogeneous multi-robot manipulation. It comprises eight tasks with distinct concurrency and reach constraints, each evaluated under five configurations that change the required resources while preserving the task goal. Our evaluation reveals that existing coordination agents perform well with reference teams but struggle when robot embodiments change or passive objects can replace robotic support. To address this gap, we propose MRScissors, which separates task requirements from measured physical capabilities and identifies minimal feasible teams through constrained search. Across two model backbones, MRScissors achieves 85.4% and 91.2% team-selection accuracy, outperforming the strongest baselines by 10.4 and 9.5 points, respectively. Together, these findings expose a critical gap between coordinating robots and understanding their physical necessity.",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "announceType": "cross",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.32803",
+      "pdfUrl": "https://arxiv.org/pdf/2611.32803",
+      "topics": [
+        "Tutoring Benchmarks"
+      ],
+      "score": 90,
+      "heuristicScore": 7.2,
+      "tier": "lead",
+      "why": "Matches Tutoring Benchmarks."
+    },
+    {
+      "id": "2611.32211",
+      "title": "ArEssays: Towards Robust Arabic Handwritten Text Understanding in Educational Settings",
+      "authors": [
+        "Hamdy Mubarak",
+        "Anas Madkoor",
+        "Ehsaneddin Asgari",
+        "Majd Hawasly"
+      ],
+      "abstract": "Automated understanding of handwritten Arabic student essays remains challenging due to script complexity and high variability in children's writing. We introduce ArEssays, a large-scale dataset of authentic essays from primary to secondary students across Egypt, with both verbatim transcriptions and linguistically corrected versions. We benchmark 34 vision-language and OCR models, including fine-tuned systems, and find large performance gaps on real student handwriting. We release the dataset, training pipelines, and results to support research in Arabic OCR, document understanding, and educational NLP.",
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.32211",
+      "pdfUrl": "https://arxiv.org/pdf/2611.32211",
+      "topics": [
+        "Learners & Classrooms"
       ],
       "score": 75,
-      "heuristicScore": 8.6,
+      "heuristicScore": 6,
       "tier": "lead",
-      "why": "Matches Learners & Classrooms and Tutoring Systems."
+      "why": "Matches Learners & Classrooms."
     },
     {
-      "id": "2611.27998",
-      "title": "Faculty Experience with Generative AI Integration into the Teaching and Learning Process",
+      "id": "2611.32377",
+      "title": "Found in Translation: Five Entry Points to Translate AI Literacy Frameworks in the Design of Educational Materials",
       "authors": [
-        "Brent A. Anders",
-        "Anait Akopyan"
+        "Luis Morales-Navarro",
+        "Karl-Emil K. Bilstrup",
+        "Mille Skovhus Lunding",
+        "Luke Connelly",
+        "Ane V. Jensen",
+        "Maja Dybboe",
+        "Yasmin B. Kafai",
+        "Marianne Graves Petersen",
+        "Ole Sejer Iversen"
       ],
-      "abstract": "This study was conducted to enhance our knowledge and understanding of the lived experiences of faculty regarding generative artificial intelligence (AI) in teaching and learning within the English and Communication Program at the American University of Armenia. This phenomenological qualitative research study used face-to-face, in-depth, open-ended interviews with five faculty members from the program. Faculty expressed different levels of conflict, voicing both positive and negative issues and concerns regarding their experiences with generative AI in the teaching and learning process. Five categories and 11 themes emerged from the analysis of these interviews, including concerns about academic integrity and student learning, as well as a lack of faculty AI training, understanding, and experience. Emergent themes indicated that faculty need additional support, including training and leadership guidance, in order to better understand the importance and benefits of effective AI utilization and AI literacy development. Faculty lacked sufficient experience with and understanding of generative AI capabilities and ongoing developments. Overall, faculty perceptions and attitudes toward generative AI within teaching and learning can be characterized as a mix of reservation and optimism.",
+      "abstract": "While there is a plethora of AI literacy and informatics frameworks, in practice it is difficult for designers of educational materials and educators to decide where to start and how to use these in learning activities. At the same time, recent reviews show that despite the fact that most frameworks emphasize the socio-technical nature of AI, in practice interventions tend to center on preparing learners to use AI. To address these issues, we ask: How can multiple stakeholders negotiate and translate AI literacy framework ideas into common language that can be used to design introductory learning materials for primary school children, teachers and parents? We introduce five entry points into AI literacy that were developed from a computational empowerment perspective through a participatory design process involving primary teacher educators, curricular designers, media producers, and researchers. We present three vignettes that illustrate how the entry points were generative in the design of learning activities, learning tools and media content for school and home. This paper contributes an account of the participatory development of five entry points that serve as generative and negotiable resources for designing educational materials.",
       "categories": [
         "cs.HC"
       ],
       "announceType": "new",
-      "publishedAt": "2026-11-24T00:00:00-05:00",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
       "sources": [
         "arxiv"
       ],
-      "url": "https://arxiv.org/abs/2611.27998",
-      "pdfUrl": "https://arxiv.org/pdf/2611.27998",
-      "topics": [
-        "Pedagogy & Alignment",
-        "Learners & Classrooms"
-      ],
-      "score": 74,
-      "heuristicScore": 8.4,
-      "tier": "lead",
-      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
-    },
-    {
-      "id": "2611.28293",
-      "title": "Feedback-Driven Prompt Refinement for Educational AI: Affective Trajectory Estimation and Bloom's Taxonomy Classification",
-      "authors": [
-        "Josh Dean",
-        "Karan Patel",
-        "Gaurangi Raul",
-        "Yu-Zheng Lin",
-        "Jesus Pacheco",
-        "Sicong Shao",
-        "Shalaka Satam",
-        "Soheil Salehi",
-        "Pratik Satam"
-      ],
-      "abstract": "Contribution: This study has shown that a shared prompt-refinement procedure, guided by distinct affective and cognitive feedback signals, can improve held-out reference agreement and multi-label classification while reducing affective-generation variability without executor parameter updates. Background: Industry 4.0 has increased demand for personalized technical education across interconnected computing and engineering domains, while prompt sensitivity and generation variability have complicated dependable interpretation of instructional dialogue and learning outcomes. Research Questions: The study has examined whether task-specific feedback can improve affective-reference agreement, generation consistency, and cognitive classification without updating executor parameters. Methodology: A secondary language model has revised executor prompts using executor-output discrepancies against model-generated affective references for four dialogues and annotated Bloom labels for 70 learning outcomes; separate sets of 100 EduTalk conversations and 1,000 outcomes have supported held-out comparisons. Small refinement sets, unvalidated affective references, and absent learner-outcome measures have constrained interpretation. Findings: Affective mean absolute error has decreased from 0.742 to 0.702 and mean generation standard deviation from 0.307 to 0.238, while Bloom micro-F1 has increased from 0.687 to 0.893 and exact-match subset accuracy from 0.418 to 0.636. These findings have supported prompt refinement as a candidate approach for developing adaptive technical instruction, while its effects on workforce learning remain to be established.",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.CY",
-        "cs.HC",
-        "cs.LG"
-      ],
-      "announceType": "new",
-      "publishedAt": "2026-11-24T00:00:00-05:00",
-      "sources": [
-        "arxiv"
-      ],
-      "url": "https://arxiv.org/abs/2611.28293",
-      "pdfUrl": "https://arxiv.org/pdf/2611.28293",
-      "topics": [
-        "Learners & Classrooms",
-        "Pedagogy & Alignment"
-      ],
-      "score": 74,
-      "heuristicScore": 8.4,
-      "tier": "notable",
-      "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
-    },
-    {
-      "id": "2611.31162",
-      "title": "Shaderous: A Browser-based Hydrodynamics Code for Physics Research and Teaching",
-      "authors": [
-        "James Guillochon"
-      ],
-      "abstract": "Shaderous is a three-dimensional code for compressible gas dynamics and magnetohydrodynamics that runs in WebGPU compute shaders in a web browser on any vendor's GPU. It combines an unsplit MUSCL-Hancock scheme and HLLC fluxes with a multigrid Poisson solver, block-structured adaptive mesh refinement with per-block timesteps, constrained transport with HLLD fluxes, point masses with sinks, gray radiation transport with the M1 closure, implicit pressure for low Mach numbers, tabulated equations of state from degenerate electrons to rock and iron, cooling, viscosity, conduction, resistivity, mixtures of gases, and nuclear burning by a neural network trained on a 13-isotope reaction network. A setup is shared as a link and runs on a student's own laptop or phone, so the code suits teaching at every level. A run is limited to one GPU: the largest adaptive mesh so far held about 175 million cells on an NVIDIA H200. It therefore suits parameter studies, run as sweeps from the command line, rather than the largest single simulations. Three aspects of the design are, as far as we can find, new. First, the hydrodynamic solver stores no face flux. The two cells that share a face compute bit-identical fluxes, so cells at boundaries between levels and between timesteps recompute their neighbors' fluxes instead of keeping a flux register. Mass, momentum and energy are conserved to round-off on the adaptive mesh, and compensated sums keep the divergence of the magnetic field at round-off. Second, the whole step runs on the GPU: the timestep and the assignment of blocks to time bins are reduced there, and ghost cells are computed as they are loaded rather than exchanged. Third, the code computes in single precision yet reproduces a range of astrophysical systems accurately, from stars and atmospheres in hydrostatic balance to shocks, gravitational collapse and magnetized flows, in 206 validation tests.",
-      "categories": [
-        "astro-ph.IM",
-        "physics.ed-ph"
-      ],
-      "announceType": "cross",
-      "publishedAt": "2026-11-24T00:00:00-05:00",
-      "sources": [
-        "arxiv"
-      ],
-      "url": "https://arxiv.org/abs/2611.31162",
-      "pdfUrl": "https://arxiv.org/pdf/2611.31162",
-      "topics": [
-        "Pedagogy & Alignment",
-        "Learners & Classrooms"
-      ],
-      "score": 74,
-      "heuristicScore": 8.4,
-      "tier": "notable",
-      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
-    },
-    {
-      "id": "2611.28158",
-      "title": "Measuring and Teaching Language Model Agents to Act on Delayed Consequences",
-      "authors": [
-        "Shardul Bansal",
-        "Seth Schilbe",
-        "Jarrod Barnes"
-      ],
-      "abstract": "Language model agents are increasingly asked to run ongoing multi-day operations rather than finish isolated single-turn tasks. In daily operations, today's choices reshape later observations and cash constraints because empty shelves hide lost walk-in demand, short-shipped customers quietly shrink future orders weeks later, and emergency buying drains working capital. We introduce SMB Bench, a calibrated 90-day wholesale simulator with 18 causally paired tasks and an 859-run frontier trace dataset, to ask what experience and learning signal make an agent better at noticing, attributing, and acting on the delayed consequences of its own decisions in unseen businesses. Across 16 frontier models, only 3 outperform a fixed buying rule; models often record a relevant diagnosis in their notes without changing later purchases in time, showing that diagnosing a problem, changing behavior, and improving a business are separate achievements. To study how experience improves those failures in an open model (Qwen3.8-27B), we used training-business records to identify operational rules and archived frontier quarters as starting states to continue from rather than transcripts to copy. On an unseen test business under identical evaluation instructions, the trained policy followed customer-protection commitments more consistently and reduced severe-loss quarters, while the additional profit benefit remained uncertain. Carrying those commitments through the quarter exposed the cost of fulfilling them, as early-quarter stocking habits left the buyer relying on emergency supply and a deteriorating supplier. The results separate recognizing a delayed effect, acting on it consistently, and coordinating surrounding decisions so that the response improves profit. SMB Bench connects these observations to a learning method by turning archived decisions and their consequences into reusable training experience.",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "announceType": "new",
-      "publishedAt": "2026-11-24T00:00:00-05:00",
-      "sources": [
-        "arxiv",
-        "huggingface"
-      ],
-      "hf": {
-        "upvotes": 0,
-        "comments": 1,
-        "organization": "ORO AI",
-        "githubRepo": "https://github.com/ORO-AI/smb-bench"
-      },
-      "url": "https://arxiv.org/abs/2611.28158",
-      "pdfUrl": "https://arxiv.org/pdf/2611.28158",
-      "topics": [
-        "Pedagogy & Alignment"
-      ],
-      "score": 55,
-      "heuristicScore": 6.3,
-      "tier": "notable",
-      "why": "Matches Pedagogy & Alignment · 0 upvotes on Hugging Face."
-    },
-    {
-      "id": "2611.29642",
-      "title": "Reducing Authorship Attribution Risk in Student Texts Through Style-Conditioned Rewriting",
-      "authors": [
-        "Li Siyan",
-        "Zhen Xu",
-        "Jiayi Chen",
-        "Shopnil Shahriar",
-        "Alessandro Sayad",
-        "Xuanming Zhang",
-        "Renzhe Yu",
-        "Zhou Yu"
-      ],
-      "abstract": "Building NLP applications for education is constrained by data scarcity due to student privacy concerns and data regulations. To address this, we propose a style-aware approach to rewriting student forum posts that retains analytical value while reducing identifiability. Our method isolates content, structure, and style as separate conditioning channels and aggregates over student-disjoint exemplar partitions within style clusters, extending Differentially Private In-context Learning (DP-ICL) with cluster-restricted retrieval. Across three educational NLP datasets, our approach achieves high style fidelity, preserves downstream task performance, and reduces authorship attribution risk relative to the original student-written texts, including against a dedicated authorship-attribution model.",
-      "categories": [
-        "cs.CL"
-      ],
-      "announceType": "new",
-      "publishedAt": "2026-11-24T00:00:00-05:00",
-      "sources": [
-        "arxiv"
-      ],
-      "url": "https://arxiv.org/abs/2611.29642",
-      "pdfUrl": "https://arxiv.org/pdf/2611.29642",
+      "url": "https://arxiv.org/abs/2611.32377",
+      "pdfUrl": "https://arxiv.org/pdf/2611.32377",
       "topics": [
         "Learners & Classrooms"
       ],
-      "score": 53,
+      "score": 75,
       "heuristicScore": 6,
       "tier": "notable",
       "why": "Matches Learners & Classrooms."
     },
     {
-      "id": "2611.29444",
-      "title": "RumiFold: Teaching an LLM to Natively Fold Proteins and Reason About Their Function",
+      "id": "2611.32266",
+      "title": "Unjamming Deferrals: Supporting Students Through JAMN Bot, a Mobile RAG-Grounded Policy Assistant",
       "authors": [
-        "Kevin Lu",
-        "David Bau",
-        "Wengong Jin"
+        "Mark Farinas",
+        "Alesandra Garcia",
+        "Maria Reyes",
+        "Jethro Nueva",
+        "Nawaf Qureshi",
+        "Mahmoud Elsaadany",
+        "Shokry Shamseldin"
       ],
-      "abstract": "Can we teach a general-purpose language model to fold proteins? And if so, what does learning to fold enable beyond structure prediction itself? We introduce RumiFold, a pretrained chat model that learns to predict protein structures directly from its own hidden states. RumiFold processes proteins through repeated folding passes, then uses these folded representations to answer questions in natural language. It achieves folding accuracy comparable to dedicated single-representation models such as SimpleFold, alongside state-of-the-art performance on Gene Ontology protein function prediction and free-text function description. We find that folding pretraining organizes the model's hidden states around protein function, creating an internal per-residue workspace that is biologically grounded. Causal interventions show that this folded workspace links structure and language when RumiFold predicts function, providing rich representations for biomolecular reasoning. We see RumiFold as a step toward native biomolecular intelligence: where protein-based computations and language-based reasoning become integrated capabilities of general-purpose language models. Code, data, and models are available at: https://rumifold.baulab.info",
+      "abstract": "In some educational institutions, workflows such as the exam deferral process can be slow, inconvenient, and inconsistent, which creates the need to implement novel digital systems. This paper presents Schedulater, a mobile app for managing university exam deferrals. JAMN Bot is a Large Language Model (LLM)-powered chatbot integrated into Schedulater that provides context-aware support to help users understand the deferral process. The system features a Retrieval-Augmented Generation (RAG) pipeline using Ollama (Llama 3.2 3B) for self-hosted inference which enables policy-grounded responses without sacrificing privacy. We evaluate the system using a 43-item benchmark spanning Exam Deferral, Privacy, Scheduling, Cross-Policy, and Adversarial & Out-of-Scope questions, and report inter-rater agreement among our human evaluators alongside retrieval hit-rate metrics. Subsequently, we utilize an LLM-as-a-judge approach with GPT-5.4, revealing slight-to-moderate alignment with our raters that improves with answer quality, and check the ranking against a panel including Gemini 3.5 Flash and Qwen3.5 397B. The results of our study display trade-offs between open-weight and frontier models, as well as LLM-human evaluation alignment with answer quality. Schedulater demonstrates the feasibility of integrating lightweight LLMs into university administrative workflows with structured retrieval.",
       "categories": [
-        "cs.LG",
-        "q-bio.BM"
+        "cs.CL",
+        "cs.CY",
+        "cs.IR"
       ],
       "announceType": "new",
-      "publishedAt": "2026-11-24T00:00:00-05:00",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
       "sources": [
         "arxiv"
       ],
-      "url": "https://arxiv.org/abs/2611.29444",
-      "pdfUrl": "https://arxiv.org/pdf/2611.29444",
+      "url": "https://arxiv.org/abs/2611.32266",
+      "pdfUrl": "https://arxiv.org/pdf/2611.32266",
       "topics": [
-        "Pedagogy & Alignment"
-      ],
-      "score": 47,
-      "heuristicScore": 5.4,
-      "tier": "notable",
-      "why": "Matches Pedagogy & Alignment."
-    },
-    {
-      "id": "2611.29788",
-      "title": "One machine, three drawings: a didactic analysis of a teaching progression for the function concept from Grade 4 to Grade 10",
-      "authors": [
-        "Vincent Tariel-Adam"
-      ],
-      "abstract": "The function concept can be entered through a correspondence between sets, a relation that is single-valued, or through a process that turns an input into an output. This paper presents the design rationale and a critical analysis of a source progression for functions (Grades 4-10, nominal ages 9-16, with two levels on relations between quantities), from which French-curriculum and International Baccalaureate chapters published at https://commeunjeu.org are assembled. One schema is presented first and kept throughout: a function is a machine that takes an input, applies a rule and gives exactly one output. Its drawing changes with age (a robot, then a box, then the arrow $f : x \\mapsto f(x)$), and each change is shown once, the two drawings side by side; after 15 the box returns only in the lessons, to explain composition and the inverse. The properties that research identifies as difficult (the uniqueness of the output, the constant function, the function without a formula, two rules for one function, preimages) are posed on the machine from Grade 4; the word relation is kept for the link between two quantities, where covariation is taught; the set of ordered pairs comes back as the graph. The choices are related to the function machine as a cognitive root and to its authors' own warnings, to process-object accounts, to studies of concept images and of covariation, and to the French and IB curricula. A block-level audit of the dated source documents found the machine in only 2 of the 177 exercise blocks of Grades 7 to 10, no exercise asking pupils to draw a machine, and public chapters that opened on the relation; the revisions made after the audit are recorded with their counts before and after. No empirical evaluation is reported; hypotheses for one are stated.",
-      "categories": [
-        "math.HO"
-      ],
-      "announceType": "new",
-      "publishedAt": "2026-11-24T00:00:00-05:00",
-      "sources": [
-        "arxiv"
-      ],
-      "url": "https://arxiv.org/abs/2611.29788",
-      "pdfUrl": "https://arxiv.org/pdf/2611.29788",
-      "topics": [
-        "Pedagogy & Alignment"
-      ],
-      "score": 47,
-      "heuristicScore": 5.4,
-      "tier": "notable",
-      "why": "Matches Pedagogy & Alignment."
-    },
-    {
-      "id": "2611.30119",
-      "title": "Could This BE Any More Wrong? Teaching VLMs to Know What They Don't Know in Document Extraction",
-      "authors": [
-        "Varad Srivastava",
-        "Victor Casas Hernandez"
-      ],
-      "abstract": "Vision-Language Models can extract structured fields from scanned financial documents, yet they provide no indication of when a field might be wrong. We derive per-field confidence estimates from the token log-probabilities the model already produces, via a token-to-span alignment procedure that maps logprobs onto each extracted value within the structured JSON output. Evaluated on two benchmarks (CORD v2 receipts, Kleister NDA legal contracts) with three VLM families, the minimum token probability per field achieves Area Under the ROC Curve (AUROC) 0.74-0.91 for error detection, far exceeding verbalized confidence (0.53-0.56). The uncertain fields form a natural training curriculum: fine-tuning via Group Relative Policy Optimisation (GRPO) improves accuracy from 78.5% to 87.5% on CORD (67 examples) and from 70.7% to 75.1% on multi-page NDA contracts (259 examples), while substantially improving error detection on Kleister NDA (AUROC 0.70 to 0.85, Area Under the Accuracy-Rejection Curve (AUARC) 0.78 to 0.92). The loop requires no annotation beyond the training-split ground truth, demonstrating that confidence-guided curriculum selection transfers to complex multi-page documents when combined with native multi-image training. A frontier model (Claude Sonnet 4) used as a pseudo-label judge achieves ~92% reward agreement with ground truth on both benchmarks, suggesting this loop can operate without human annotation.",
-      "categories": [
-        "cs.AI"
-      ],
-      "announceType": "new",
-      "publishedAt": "2026-11-24T00:00:00-05:00",
-      "sources": [
-        "arxiv"
-      ],
-      "url": "https://arxiv.org/abs/2611.30119",
-      "pdfUrl": "https://arxiv.org/pdf/2611.30119",
-      "topics": [
-        "Pedagogy & Alignment"
-      ],
-      "score": 47,
-      "heuristicScore": 5.4,
-      "tier": "notable",
-      "why": "Matches Pedagogy & Alignment."
-    },
-    {
-      "id": "2611.31185",
-      "title": "CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting",
-      "authors": [
-        "Ramraj Chandradevan",
-        "Sayontan Ghosh",
-        "Vinoth Selvendran"
-      ],
-      "abstract": "Reinforcement learning (RL) improves large language model search agents by up to 32 exact-match (EM) points over their pre-RL initializations, yet overall accuracy gains do not identify which underlying functional capabilities improve or interact during training. We introduce CO-GRAFT, a reward-agnostic interventional attribution framework in which an RL-trained agent and its pre-RL initialization jointly generate a single trajectory under closed-loop execution with live retrieval. Each policy controls a mutually exclusive subset of four functional roles: intermediate reasoning, search-or-answer decision, search query generation, and final answer extraction. Evaluating all 2^4=16 role assignments without modifying weights or retraining defines a cooperative game whose Shapley values decompose the total RL gain across roles, while M\"obius interaction terms distinguish standalone role improvements from multi-role coupling. Applying CO-GRAFT to Search-R1 agents across Qwen2.5 and Llama-3.2 models (spanning two sizes, base and instruction-tuned initializations, GRPO and PPO optimizers, and NQ and HotpotQA datasets), we show that query generation never exceeds 15% of the total gain; instead, gains are governed by pre-RL answer validity, search retention, model scale, and fixed task-level search budgets, shifting credit from reasoning toward answer extraction in larger or well-formatted answer response checkpoints while smaller base models rely on reasoning--decision coupling.",
-      "categories": [
-        "cs.IR",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "announceType": "cross",
-      "publishedAt": "2026-11-24T00:00:00-05:00",
-      "sources": [
-        "arxiv"
-      ],
-      "url": "https://arxiv.org/abs/2611.31185",
-      "pdfUrl": "https://arxiv.org/pdf/2611.31185",
-      "topics": [
-        "Pedagogy & Alignment"
-      ],
-      "score": 47,
-      "heuristicScore": 5.4,
-      "tier": "notable",
-      "why": "Matches Pedagogy & Alignment."
-    },
-    {
-      "id": "2611.29698",
-      "title": "Managing Uncertainty in Teacher Vibe Coding: A Comparison of Teacher and Expert Workflows",
-      "authors": [
-        "Jiaju Lin",
-        "Ellen Wenting Zou"
-      ],
-      "abstract": "Vibe coding, or natural language software development, enables teachers to become creators of digital teaching artifacts. However, novice educators oftentimes face different barriers. This qualitative study examined the workflows of pre-service teachers, in-service teachers, and expert developers through think-aloud protocols. Findings reveal vibe coding operates through a loop of problem framing, development, and verification governed by uncertainty management. Teachers reduced uncertainty by grounding designs in authentic needs: pre-service teachers drew on pedagogical principles, whereas in-service teachers relied on everyday teaching challenges. Conversely, Experts reduced ambiguity by constraining requirements, decomposing artifacts into testable modules, and automating tests. These differences reveal complementary forms of pedagogical, contextual, and technical expertise. Future work may be about supporting nontechnical teachers in developing reliable and educational applications.",
-      "categories": [
-        "cs.HC"
-      ],
-      "announceType": "new",
-      "publishedAt": "2026-11-24T00:00:00-05:00",
-      "sources": [
-        "arxiv"
-      ],
-      "url": "https://arxiv.org/abs/2611.29698",
-      "pdfUrl": "https://arxiv.org/pdf/2611.29698",
-      "topics": [
-        "Pedagogy & Alignment",
         "Learners & Classrooms"
       ],
-      "score": 42,
+      "score": 60,
       "heuristicScore": 4.8,
-      "tier": "radar",
-      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
+      "tier": "notable",
+      "why": "Matches Learners & Classrooms."
     },
     {
-      "id": "2611.28951",
-      "title": "AI-generated support, worked examples, and script-based learning in undergraduate physics: A comparative study",
+      "id": "2611.31698",
+      "title": "R{\\o}mer all ears: An auditory analog of Ole R{\\o}mer's demonstration of the finite speed of light using smartphones as an acoustic vernier",
       "authors": [
-        "Larissa Hahn",
-        "Marie Aylin Falkenberg",
-        "Marten Hogel\\\"ucht",
-        "Pascal Klein"
+        "La\\'is Florencio de Oliveira",
+        "Gabriel Antonio Carit\\'a",
+        "Jo\\~ao Teles de Carvalho-Neto"
       ],
-      "abstract": "Generative AI is increasingly used to support students during learning and problem solving, but its instructional value depends on how it is embedded in established learning approaches. Worked examples guide learners through the steps and reasoning of a solution; conversational AI may extend them by responding to individual questions. To isolate this added value, we compared a chatbot-delivered intelligent worked example with a matched static worked example and a lecture script. Nine recitation groups in an undergraduate electrodynamics course were cluster-randomized to the three conditions, and 86 students worked individually on a Gauss's law problem. Concept-test accuracy and self-efficacy increased significantly in all conditions, but changes did not differ significantly between groups (p=.07 for concept-test accuracy and p=.38 for self-efficacy). Four weeks later, in a reduced sample with selective participation and pre-existing group differences, students in the static worked-example condition scored higher than those in the script condition (p=.004, d=1.22), whereas the two worked-example conditions did not differ significantly. Usability, but not perceived educational value, was higher for the intelligent worked example than for the script (p=.011, d=0.88). In a subsequent homework assignment on Ampere's law with free choice of learning material (N=46), 62-71% of students in each condition reported using only the static worked example, at most 8% used exclusively the intelligent one, and 15-31% used neither. Thus, conversational delivery showed no clear additional learning benefit under the present conditions. More broadly, a learning format that is rated favorably need not be the one students voluntarily adopt.",
+      "abstract": "We present an undergraduate experiment for teaching Ole R{\\o}mer's 1676 method for demonstrating the finite speed of light. Two smartphones emit periodic sound pulses whose synchronization is evaluated directly by the participants' hearing, acting as an \"acoustic vernier\" that achieves millisecond travel-time resolution without microphones or external sensors. Because the measurement relies strictly on propagation delays between stationary stations, it establishes a direct experimental analogy to R{\\o}mer's original argument and dispenses with auxiliary wave phenomena absent from the 1676 analysis, such as acoustic beats or the Doppler effect. The pedagogical strength of the experiment lies precisely in this direct appeal to the senses. Loss of synchronization becomes perceptible starting at a separation of approximately 5 m and grows progressively clearer across several tens of meters. Despite its simplicity, systematic blind measurements determine the speed of sound in air with single-run uncertainties of 2 to 5 m/s (around 1%) and agree within 1.1% with theoretical predictions across ambient temperatures from 9 to 25 $^\\circ$C. Beyond numerical measurement, anchoring the method in explicit sensory perception helps to clarify the recurring conceptual entanglement between R{\\o}mer's geometric delay and the kinematic Doppler effect, while highlighting how this same travel-time principle underpins contemporary astrophysical techniques, such as pulsar timing and eclipse timing variations (ETV).",
       "categories": [
         "physics.ed-ph"
       ],
       "announceType": "new",
-      "publishedAt": "2026-11-24T00:00:00-05:00",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
       "sources": [
         "arxiv"
       ],
-      "url": "https://arxiv.org/abs/2611.28951",
-      "pdfUrl": "https://arxiv.org/pdf/2611.28951",
+      "url": "https://arxiv.org/abs/2611.31698",
+      "pdfUrl": "https://arxiv.org/pdf/2611.31698",
       "topics": [
-        "Learners & Classrooms",
         "Pedagogy & Alignment"
       ],
-      "score": 37,
-      "heuristicScore": 4.2,
-      "tier": "radar",
-      "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
+      "score": 45,
+      "heuristicScore": 3.6,
+      "tier": "notable",
+      "why": "Matches Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.31573",
+      "title": "The Paradox of Agency-Preserving AI: Negotiating Learner Agency in Layered Human-AI Interactions",
+      "authors": [
+        "Yueling Fan",
+        "Jacqueline Wong",
+        "Olov Engwall",
+        "Olga Viberg"
+      ],
+      "abstract": "Generative AI is increasingly used by learners in cognitively demanding tasks, but its capacity to provide immediate solutions raises concerns about decreased learner agency. Meta-level AI systems that provide reflective and metacognitive scaffolding have emerged as a promising approach to supporting learners' self-regulation. However, these systems introduce a fundamental paradox: AI intended to preserve learner agency can itself constrain that agency by regulating when, how, and why learners should reflect. To investigate this challenge, we conducted a co-design workshop with 18 students engaged in programming and academic writing tasks using ChatGPT extended with ChatWise, a meta-level AI system providing self-regulated learning-aligned feedback. Drawing on 185 prompt-feedback entries, 174 written reflections, and participants' design artifacts (17 storyboards and 5 group design proposals), we identified four interconnected design tensions: assistance vs reflection, immediate intervention vs space for self-regulation, visibility vs attention competition, and system adaptation vs user control. The study contributes a multidimensional account of learner agency that includes task, cognitive, and interaction agency, along with empirically grounded interaction-design mechanisms to negotiate these tensions.",
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.31573",
+      "pdfUrl": "https://arxiv.org/pdf/2611.31573",
+      "topics": [
+        "Tutoring Systems",
+        "Learners & Classrooms"
+      ],
+      "score": 40,
+      "heuristicScore": 3.2,
+      "tier": "notable",
+      "why": "Matches Tutoring Systems and Learners & Classrooms."
     }
   ],
   "dispatches": [],
   "topics": [
     {
-      "name": "Pedagogy & Alignment",
-      "count": 12
-    },
-    {
       "name": "Learners & Classrooms",
-      "count": 7
+      "count": 5
     },
     {
       "name": "Tutoring Systems",
+      "count": 3
+    },
+    {
+      "name": "Student Modelling",
+      "count": 1
+    },
+    {
+      "name": "Tutoring Benchmarks",
+      "count": 1
+    },
+    {
+      "name": "Pedagogy & Alignment",
       "count": 1
     }
   ],
   "stats": {
-    "screened": 1440,
-    "matched": 15,
-    "alreadyFeatured": 0,
-    "published": 15,
-    "announcedOn": "2026-11-24"
+    "screened": 931,
+    "matched": 9,
+    "alreadyFeatured": 2,
+    "published": 9,
+    "announcedOn": "2026-11-25"
   }
 }

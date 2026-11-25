@@ -1,0 +1,334 @@
+{
+  "edition": "education",
+  "date": "2026-11-25",
+  "number": 16,
+  "generatedAt": "2026-11-25T17:30:16.866Z",
+  "editor": {
+    "mode": "heuristic",
+    "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
+  },
+  "lede": null,
+  "readFirst": [
+    {
+      "id": "2611.32246",
+      "why": "Matches Tutoring Systems.",
+      "takeaway": "Runtime skills can improve agents' problem-solving capabilities by providing procedural guidance for tasks such as code review and debugging."
+    },
+    {
+      "id": "2611.31429",
+      "why": "Matches Tutoring Systems.",
+      "takeaway": "Tutors built on large language models (LLMs) are told not to give away answers, but a learner does not have to ask for the answer all at once."
+    },
+    {
+      "id": "2611.32489",
+      "why": "Matches Student Modelling and Learners & Classrooms.",
+      "takeaway": "Knowledge-tracing benchmarks often compare models that have different access to a learner's previous responses."
+    }
+  ],
+  "papers": [
+    {
+      "id": "2611.32246",
+      "title": "SkillCore: Internalizing Generalizable Skills via Scaffolding-Removed Fine-Tuning",
+      "authors": [
+        "Yi Liu",
+        "Changqing Ai",
+        "Peijie Dong",
+        "Xiankun Lin",
+        "Yongkang Yang",
+        "Zhezheng Hao",
+        "Xilin Xia",
+        "Hande Dong",
+        "Qiang Lin",
+        "Qiang Xu"
+      ],
+      "abstract": "Runtime skills can improve agents' problem-solving capabilities by providing procedural guidance for tasks such as code review and debugging. However, these benefits reach only a minority of users, as most do not proactively invoke skills in practice. We argue that such generalizable procedures should become part of the model's capabilities rather than remain optional external add-ons, making them directly available without explicit skill loading. To this end, we present SkillCore, a data pipeline and supervised fine-tuning recipe for internalizing generalizable skills. We transform real agent trajectories by removing skill-loading scaffolding while preserving the task context and subsequent agent actions, thereby supervising direct execution without external skill content. To preserve access to task-specific skills that provide genuinely external information, we mix these scaffold-removed trajectories with a small proportion of skill-native trajectories that preserve supervision for skill invocation. On a held-out skill-free evaluation, SkillCore improves task completion quality over the base Qwen3-8B and Qwen2.5-72B models by 54.4% and 24.8%, respectively, while preserving task-specific skill invocation on a separate probe and general coding performance on SWE-bench Verified.",
+      "categories": [
+        "cs.CL"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.32246",
+      "pdfUrl": "https://arxiv.org/pdf/2611.32246",
+      "topics": [
+        "Tutoring Systems"
+      ],
+      "score": 100,
+      "heuristicScore": 8,
+      "tier": "lead",
+      "why": "Matches Tutoring Systems."
+    },
+    {
+      "id": "2611.31429",
+      "title": "Leaks by Installments: Cross-Session Answer Disclosure in LLM Tutors and a Ledger-Based Defense",
+      "authors": [
+        "Venkata Muttineni",
+        "Karthik Narayan",
+        "Christopher David"
+      ],
+      "abstract": "Tutors built on large language models (LLMs) are told not to give away answers, but a learner does not have to ask for the answer all at once. Existing safeguards judge each reply within the current conversation, so a learner can open a new session, reword the problem, or request a worked solution to the same problem with different numbers. We call this cross-session disclosure and propose a defense: a persistent, per-learner disclosure ledger. For every problem a learner brings, the system builds a typed solution graph. Before a reply is released, a gate matches the reply's own content, not the learner's wording, against the ledger by result values and by type-labeled solution structure, then computes which steps the learner could now derive. The reply is withheld if that set reaches the final answer or exceeds a budget. In a simulation of 3,000 problems, the ledger reduced leakage through renumbered practice variants from 100% to 10.6% while honest learners completed 94-99.5% of problems. With two real LLM tutors (Qwen2.5-3B-Instruct and Phi-3.5-mini-instruct) on 60 problems, leakage through renumbered variants fell from 0.58 to 0.08 and from 1.00 to 0.18, with 98% honest completion. The ledger did not reduce split requests beyond a per-session gate in the live runs. All acceptance criteria were fixed before each run.",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "announceType": "cross",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.31429",
+      "pdfUrl": "https://arxiv.org/pdf/2611.31429",
+      "topics": [
+        "Tutoring Systems"
+      ],
+      "score": 100,
+      "heuristicScore": 8,
+      "tier": "lead",
+      "why": "Matches Tutoring Systems."
+    },
+    {
+      "id": "2611.32489",
+      "title": "When Knowledge-Tracing Rankings Depend on Available History: A Source-Correction and Matched-Information Audit on ASSISTments 2009 and 2015",
+      "authors": [
+        "Devis Wawan Saputra"
+      ],
+      "abstract": "Knowledge-tracing benchmarks often compare models that have different access to a learner's previous responses. We examine how data provenance, history length, and representation affect those comparisons. First, we compare a pinned ASSISTments 2009 sequence mirror against the corrected official release. Of 4,148 learners represented in both, 817 have different ordered skill-response sequences; the mirror also contains fewer labeled events. Second, we retain earlier learner-disjoint model evaluations on the 2009 and 2015 datasets, distinguishing exploratory results from a corrective 2015 replication. Finally, we evaluate a new, nonoverlapping sample of 4,000 ASSISTments 2015 learners using three models constrained to the same one-event or 20-event prior-response window. On 20,592 test responses from 582 learners, the 20-event Brier scores were 0.17667 for count-based logistic regression, 0.17389 for an order-aware logistic model, and 0.17514 for a GRU. The GRU-minus-order-aware difference was 0.00125 (95% learner-cluster bootstrap interval [0.00008, 0.00243]); at one prior event, the corresponding difference was 0.00212 [0.00120, 0.00301]. Earlier comparisons had favored the GRU against simpler history summaries. The newer analysis instead favors a logistic comparator that represents order using the same permitted event stream. These results concern predictive performance on particular historical cohorts and model settings. They neither isolate an architectural effect nor establish generalization to contemporary classrooms.",
+      "categories": [
+        "cs.LG"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.32489",
+      "pdfUrl": "https://arxiv.org/pdf/2611.32489",
+      "topics": [
+        "Student Modelling",
+        "Learners & Classrooms"
+      ],
+      "score": 95,
+      "heuristicScore": 7.6,
+      "tier": "lead",
+      "why": "Matches Student Modelling and Learners & Classrooms."
+    },
+    {
+      "id": "2611.32803",
+      "title": "MRBench: Benchmarking Physical Necessity Reasoning in Heterogeneous Multi-Robot Manipulation",
+      "authors": [
+        "Yanzhe Chen",
+        "Zhijun Cao",
+        "Ruihe An",
+        "Chang Gong",
+        "Mike Zheng Shou"
+      ],
+      "abstract": "Recent advances in multi-robot manipulation have shown how robots can collaborate to accomplish complex tasks. However, successful coordination does not reveal which robots are actually needed. The same task may require different teams as robot capabilities change, resources become unavailable, or objects replace robotic support. We argue that reliable multi-robot manipulation requires physical necessity reasoning: understanding what a task demands, which resources can fulfill those demands, and which are truly necessary. We introduce MRBench, a benchmark for physical necessity reasoning in heterogeneous multi-robot manipulation. It comprises eight tasks with distinct concurrency and reach constraints, each evaluated under five configurations that change the required resources while preserving the task goal. Our evaluation reveals that existing coordination agents perform well with reference teams but struggle when robot embodiments change or passive objects can replace robotic support. To address this gap, we propose MRScissors, which separates task requirements from measured physical capabilities and identifies minimal feasible teams through constrained search. Across two model backbones, MRScissors achieves 85.4% and 91.2% team-selection accuracy, outperforming the strongest baselines by 10.4 and 9.5 points, respectively. Together, these findings expose a critical gap between coordinating robots and understanding their physical necessity.",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "announceType": "cross",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.32803",
+      "pdfUrl": "https://arxiv.org/pdf/2611.32803",
+      "topics": [
+        "Tutoring Benchmarks"
+      ],
+      "score": 90,
+      "heuristicScore": 7.2,
+      "tier": "lead",
+      "why": "Matches Tutoring Benchmarks."
+    },
+    {
+      "id": "2611.32211",
+      "title": "ArEssays: Towards Robust Arabic Handwritten Text Understanding in Educational Settings",
+      "authors": [
+        "Hamdy Mubarak",
+        "Anas Madkoor",
+        "Ehsaneddin Asgari",
+        "Majd Hawasly"
+      ],
+      "abstract": "Automated understanding of handwritten Arabic student essays remains challenging due to script complexity and high variability in children's writing. We introduce ArEssays, a large-scale dataset of authentic essays from primary to secondary students across Egypt, with both verbatim transcriptions and linguistically corrected versions. We benchmark 34 vision-language and OCR models, including fine-tuned systems, and find large performance gaps on real student handwriting. We release the dataset, training pipelines, and results to support research in Arabic OCR, document understanding, and educational NLP.",
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.32211",
+      "pdfUrl": "https://arxiv.org/pdf/2611.32211",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 75,
+      "heuristicScore": 6,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.32377",
+      "title": "Found in Translation: Five Entry Points to Translate AI Literacy Frameworks in the Design of Educational Materials",
+      "authors": [
+        "Luis Morales-Navarro",
+        "Karl-Emil K. Bilstrup",
+        "Mille Skovhus Lunding",
+        "Luke Connelly",
+        "Ane V. Jensen",
+        "Maja Dybboe",
+        "Yasmin B. Kafai",
+        "Marianne Graves Petersen",
+        "Ole Sejer Iversen"
+      ],
+      "abstract": "While there is a plethora of AI literacy and informatics frameworks, in practice it is difficult for designers of educational materials and educators to decide where to start and how to use these in learning activities. At the same time, recent reviews show that despite the fact that most frameworks emphasize the socio-technical nature of AI, in practice interventions tend to center on preparing learners to use AI. To address these issues, we ask: How can multiple stakeholders negotiate and translate AI literacy framework ideas into common language that can be used to design introductory learning materials for primary school children, teachers and parents? We introduce five entry points into AI literacy that were developed from a computational empowerment perspective through a participatory design process involving primary teacher educators, curricular designers, media producers, and researchers. We present three vignettes that illustrate how the entry points were generative in the design of learning activities, learning tools and media content for school and home. This paper contributes an account of the participatory development of five entry points that serve as generative and negotiable resources for designing educational materials.",
+      "categories": [
+        "cs.HC"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.32377",
+      "pdfUrl": "https://arxiv.org/pdf/2611.32377",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 75,
+      "heuristicScore": 6,
+      "tier": "notable",
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.32266",
+      "title": "Unjamming Deferrals: Supporting Students Through JAMN Bot, a Mobile RAG-Grounded Policy Assistant",
+      "authors": [
+        "Mark Farinas",
+        "Alesandra Garcia",
+        "Maria Reyes",
+        "Jethro Nueva",
+        "Nawaf Qureshi",
+        "Mahmoud Elsaadany",
+        "Shokry Shamseldin"
+      ],
+      "abstract": "In some educational institutions, workflows such as the exam deferral process can be slow, inconvenient, and inconsistent, which creates the need to implement novel digital systems. This paper presents Schedulater, a mobile app for managing university exam deferrals. JAMN Bot is a Large Language Model (LLM)-powered chatbot integrated into Schedulater that provides context-aware support to help users understand the deferral process. The system features a Retrieval-Augmented Generation (RAG) pipeline using Ollama (Llama 3.2 3B) for self-hosted inference which enables policy-grounded responses without sacrificing privacy. We evaluate the system using a 43-item benchmark spanning Exam Deferral, Privacy, Scheduling, Cross-Policy, and Adversarial & Out-of-Scope questions, and report inter-rater agreement among our human evaluators alongside retrieval hit-rate metrics. Subsequently, we utilize an LLM-as-a-judge approach with GPT-5.4, revealing slight-to-moderate alignment with our raters that improves with answer quality, and check the ranking against a panel including Gemini 3.5 Flash and Qwen3.5 397B. The results of our study display trade-offs between open-weight and frontier models, as well as LLM-human evaluation alignment with answer quality. Schedulater demonstrates the feasibility of integrating lightweight LLMs into university administrative workflows with structured retrieval.",
+      "categories": [
+        "cs.CL",
+        "cs.CY",
+        "cs.IR"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.32266",
+      "pdfUrl": "https://arxiv.org/pdf/2611.32266",
+      "topics": [
+        "Learners & Classrooms"
+      ],
+      "score": 60,
+      "heuristicScore": 4.8,
+      "tier": "notable",
+      "why": "Matches Learners & Classrooms."
+    },
+    {
+      "id": "2611.31698",
+      "title": "R{\\o}mer all ears: An auditory analog of Ole R{\\o}mer's demonstration of the finite speed of light using smartphones as an acoustic vernier",
+      "authors": [
+        "La\\'is Florencio de Oliveira",
+        "Gabriel Antonio Carit\\'a",
+        "Jo\\~ao Teles de Carvalho-Neto"
+      ],
+      "abstract": "We present an undergraduate experiment for teaching Ole R{\\o}mer's 1676 method for demonstrating the finite speed of light. Two smartphones emit periodic sound pulses whose synchronization is evaluated directly by the participants' hearing, acting as an \"acoustic vernier\" that achieves millisecond travel-time resolution without microphones or external sensors. Because the measurement relies strictly on propagation delays between stationary stations, it establishes a direct experimental analogy to R{\\o}mer's original argument and dispenses with auxiliary wave phenomena absent from the 1676 analysis, such as acoustic beats or the Doppler effect. The pedagogical strength of the experiment lies precisely in this direct appeal to the senses. Loss of synchronization becomes perceptible starting at a separation of approximately 5 m and grows progressively clearer across several tens of meters. Despite its simplicity, systematic blind measurements determine the speed of sound in air with single-run uncertainties of 2 to 5 m/s (around 1%) and agree within 1.1% with theoretical predictions across ambient temperatures from 9 to 25 $^\\circ$C. Beyond numerical measurement, anchoring the method in explicit sensory perception helps to clarify the recurring conceptual entanglement between R{\\o}mer's geometric delay and the kinematic Doppler effect, while highlighting how this same travel-time principle underpins contemporary astrophysical techniques, such as pulsar timing and eclipse timing variations (ETV).",
+      "categories": [
+        "physics.ed-ph"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.31698",
+      "pdfUrl": "https://arxiv.org/pdf/2611.31698",
+      "topics": [
+        "Pedagogy & Alignment"
+      ],
+      "score": 45,
+      "heuristicScore": 3.6,
+      "tier": "notable",
+      "why": "Matches Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.31573",
+      "title": "The Paradox of Agency-Preserving AI: Negotiating Learner Agency in Layered Human-AI Interactions",
+      "authors": [
+        "Yueling Fan",
+        "Jacqueline Wong",
+        "Olov Engwall",
+        "Olga Viberg"
+      ],
+      "abstract": "Generative AI is increasingly used by learners in cognitively demanding tasks, but its capacity to provide immediate solutions raises concerns about decreased learner agency. Meta-level AI systems that provide reflective and metacognitive scaffolding have emerged as a promising approach to supporting learners' self-regulation. However, these systems introduce a fundamental paradox: AI intended to preserve learner agency can itself constrain that agency by regulating when, how, and why learners should reflect. To investigate this challenge, we conducted a co-design workshop with 18 students engaged in programming and academic writing tasks using ChatGPT extended with ChatWise, a meta-level AI system providing self-regulated learning-aligned feedback. Drawing on 185 prompt-feedback entries, 174 written reflections, and participants' design artifacts (17 storyboards and 5 group design proposals), we identified four interconnected design tensions: assistance vs reflection, immediate intervention vs space for self-regulation, visibility vs attention competition, and system adaptation vs user control. The study contributes a multidimensional account of learner agency that includes task, cognitive, and interaction agency, along with empirically grounded interaction-design mechanisms to negotiate these tensions.",
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-25T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.31573",
+      "pdfUrl": "https://arxiv.org/pdf/2611.31573",
+      "topics": [
+        "Tutoring Systems",
+        "Learners & Classrooms"
+      ],
+      "score": 40,
+      "heuristicScore": 3.2,
+      "tier": "notable",
+      "why": "Matches Tutoring Systems and Learners & Classrooms."
+    }
+  ],
+  "dispatches": [],
+  "topics": [
+    {
+      "name": "Learners & Classrooms",
+      "count": 5
+    },
+    {
+      "name": "Tutoring Systems",
+      "count": 3
+    },
+    {
+      "name": "Student Modelling",
+      "count": 1
+    },
+    {
+      "name": "Tutoring Benchmarks",
+      "count": 1
+    },
+    {
+      "name": "Pedagogy & Alignment",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "screened": 931,
+    "matched": 9,
+    "alreadyFeatured": 2,
+    "published": 9,
+    "announcedOn": "2026-11-25"
+  }
+}
