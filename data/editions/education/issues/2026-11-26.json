@@ -1,0 +1,323 @@
+{
+  "edition": "education",
+  "date": "2026-11-26",
+  "number": 17,
+  "generatedAt": "2026-11-26T17:12:23.431Z",
+  "editor": {
+    "mode": "heuristic",
+    "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
+  },
+  "lede": null,
+  "readFirst": [
+    {
+      "id": "2611.34133",
+      "why": "Matches Pedagogy & Alignment and Tutoring Systems.",
+      "takeaway": "Inner bodily sensations inform expressive musical performance but can be difficult to interpret and communicate."
+    },
+    {
+      "id": "2611.33240",
+      "why": "Matches Learners & Classrooms and Tutoring Systems.",
+      "takeaway": "Educational recommenders are usually compared offline, by how well they predict the next activity in logs of tutoring systems, learning applications and MOOCs, where the next activity is largely decided by the platform: teachers assign problem sets, tutors draw problems until mastery, engines select questions."
+    },
+    {
+      "id": "2611.33471",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms.",
+      "takeaway": "Introductory programming requires students to represent problems, develop and test programs, debug errors, and apply computational ideas in new contexts."
+    }
+  ],
+  "papers": [
+    {
+      "id": "2611.34133",
+      "title": "Somatic Alignment: Scaffolding Non-Visible Inner Body Sensations in and beyond Vocal Pedagogy",
+      "authors": [
+        "Ziyue Piao",
+        "Theodora Nestorova",
+        "Leon Lu",
+        "Isabelle Cossette",
+        "Marcelo M. Wanderley"
+      ],
+      "abstract": "Inner bodily sensations inform expressive musical performance but can be difficult to interpret and communicate. Through two separate workshops with five singing learners and four senior voice teachers, we investigate breath control in vocal pedagogy. Participants reported difficulty interpreting bodily sensations (Opacity of Inner Sensations) and translating awareness into intended adjustments (Disconnected Regulation of Inner Sensations), alongside strategies involving touch, demonstration, and imagery. Building on these accounts, we propose the Somatic Alignment Model (SAM), connecting an Intrapersonal Self-Sensing Loop with an Intercorporeal Co-Sensing Loop. SAM examines how external guidance relates to learners' bodily calibration and how interpretive and regulatory authority is negotiated. We articulate three generative design dimensions, Modality, Agency, and Temporality, and illustrate their possible applications in interactive learning systems and first-person soma design inquiries. SAM offers a conceptual lens for supporting bodily awareness and regulation through interaction design.",
+      "categories": [
+        "cs.HC"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-26T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.34133",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34133",
+      "topics": [
+        "Pedagogy & Alignment",
+        "Tutoring Systems"
+      ],
+      "score": 100,
+      "heuristicScore": 13.2,
+      "tier": "lead",
+      "why": "Matches Pedagogy & Alignment and Tutoring Systems."
+    },
+    {
+      "id": "2611.33240",
+      "title": "Learning the Platform, Not the Learner: Sequencing Shortcuts in the Offline Evaluation of Educational Recommender Systems and LLM Rankers",
+      "authors": [
+        "Youssef Jdidou"
+      ],
+      "abstract": "Educational recommenders are usually compared offline, by how well they predict the next activity in logs of tutoring systems, learning applications and MOOCs, where the next activity is largely decided by the platform: teachers assign problem sets, tutors draw problems until mastery, engines select questions. On eight public datasets from five platforms, we compare four structural predictors, which use nothing about the learner beyond the last activity, with ten personalised recommenders and with open-weight LLM rankers from 0.5 to 7 billion parameters, under two protocols. The structural predictors reach between 0.81 and 1.00 of the best accuracy of any method (median 0.95), mostly through population transitions rather than the course order; the best personalised recommender is significantly better on five datasets, by 0.007 to 0.102 NDCG@10, and on Eedi in three of four training runs. Every method is far less accurate on steps along transitions never seen in training and on steps chosen by learners. LLM rankers look competent with random negatives but are never much better than a word-matching baseline, and with negatives that are plausible under the course structure they stay close to random or well behind the transition heuristic, whatever their size. In a simulation with known learner needs, the structural share tracks the share of steps decided by the platform, and offline accuracy ranks an oracle of the learners' needs below imitators of the platform. Weighting test steps by how unlikely the structure makes them restores much of the link with usefulness and, on the real data, reveals a significant personalisation signal on seven of the eight datasets. We propose a syllabus-aware evaluation checklist and release a Python package that reports the lift of any recommender over the structure.",
+      "categories": [
+        "cs.IR",
+        "cs.CY",
+        "cs.LG"
+      ],
+      "announceType": "cross",
+      "publishedAt": "2026-11-26T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.33240",
+      "pdfUrl": "https://arxiv.org/pdf/2611.33240",
+      "topics": [
+        "Learners & Classrooms",
+        "Tutoring Systems"
+      ],
+      "score": 76,
+      "heuristicScore": 10,
+      "tier": "lead",
+      "why": "Matches Learners & Classrooms and Tutoring Systems."
+    },
+    {
+      "id": "2611.33471",
+      "title": "Designing an Integrated Learning Ecosystem for Introductory Python Programming: Scaffolded Problem Solving, Tablet-Inspired Navigation, and AI-Enhanced Instruction",
+      "authors": [
+        "Xinxing Wu",
+        "Johnathan Rogers"
+      ],
+      "abstract": "Introductory programming requires students to represent problems, develop and test programs, debug errors, and apply computational ideas in new contexts. In this paper, we present an artifact-centered design analysis of an integrated learning ecosystem developed for a 16-lab introductory Python course. The analyzed corpus comprises 18 instructional artifacts: the course syllabus, a tablet-inspired homepage, and Labs 1-16. We examined course navigation, problem representation, scaffolding, independent transfer, application development, debugging, AI integration, and assessment. All 15 scaffolded labs shared seven elements: input-processing-output (IPO) reasoning, instructor-guided programming, an independent task, a Google Colab/Gradio extension, debugging support, a task checklist, and submission requirements. Lab 16 departed from this structure as an integrative Pygame-based Hallmark Assignment. The analysis identifies four connected design features: a navigation layer that coordinates multiple tools; two forms of transfer, from guided to independent problems and from console programs to interactive interfaces; distinct roles for instructor-side AI-enhanced communication and student-side AI assistance; and a transition from repeated scaffolds to integrative problem solving. The case also identifies unresolved tensions involving tool fragmentation, accessibility, interface distraction, student authorship, and overreliance on AI. Because student learning outcomes were not examined, we make no claims about instructional effectiveness. Instead, the paper offers a transparent design precedent and identifies priorities for future empirical evaluation. Demo - https://xinxingwu-uk.github.io/COS107_Demo/Homepage/index.html Source codes - https://github.com/xinxingwu-uk/Course_Integrated_Learning_Ecosystem",
+      "categories": [
+        "cs.CY",
+        "cs.SE"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-26T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.33471",
+      "pdfUrl": "https://arxiv.org/pdf/2611.33471",
+      "topics": [
+        "Pedagogy & Alignment",
+        "Learners & Classrooms",
+        "Tutoring Systems",
+        "Programming Education"
+      ],
+      "score": 70,
+      "heuristicScore": 9.3,
+      "tier": "lead",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
+    },
+    {
+      "id": "2611.34669",
+      "title": "An Embedded Ergonomic Posture Monitoring and AI-Assisted Home Learning System on a Raspberry Pi 3B Edge Platform",
+      "authors": [
+        "Truyen T. Le",
+        "Vinh Dang Ngoc",
+        "Thai Bao Huynh"
+      ],
+      "abstract": "During independent home study sessions, students frequently sustain improper sitting postures, accumulate excessive sedentary hours, and experience productivity loss from off-task digital distractions. Furthermore, learners often lack real-time pedagogical scaffolding for demanding self-study curricula. To mitigate these ergonomic and instructional challenges, this paper presents an affordable, privacy-preserving cyber-physical embedded system for domestic study spaces. Engineered on a Raspberry Pi 3 Model B (1 GB RAM) paired with a UVC optical camera and a USB condenser microphone, the system executes on-device computer vision utilizing MediaPipe Pose and OpenCV to monitor upper-body alignment, sagittal head inclination, and coronal shoulder asymmetry in real time without persisting raw video streams. A deterministic finite state machine (FSM) quantifies active study durations, enforces health-compliant rest periods, and detects illicit smartphone usage. Simultaneously, an integrated multimodal AI tutoring agent parses voice and text queries via an encrypted API gateway, synthesizing Socratic conceptual hints rather than direct solutions. A lightweight parental web dashboard delivers encrypted session analytics and scheduling configurations. Empirical benchmarks on the physical prototype confirm an end-to-end inference latency of 244-250 ms at a 352x288 resolution (4.0-4.1 FPS), a trunk-angle estimation error of 4.39 degrees MAE over 5,760 synthetic ground-truth poses, a resident set size of 320 MB, a peak SoC temperature of 58.0 degrees Celsius under sustained load, and a 1.58 s total latency for the offline TTS feedback path, proving high practicality for resource-constrained edge deployment.",
+      "categories": [
+        "cs.AR"
+      ],
+      "publishedAt": "2026-11-25T16:36:19Z",
+      "sources": [
+        "search"
+      ],
+      "url": "https://arxiv.org/abs/2611.34669",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34669",
+      "topics": [
+        "Tutoring Systems",
+        "Pedagogy & Alignment",
+        "Learners & Classrooms"
+      ],
+      "score": 67,
+      "heuristicScore": 8.8,
+      "tier": "lead",
+      "why": "Matches Tutoring Systems and Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.34222",
+      "title": "The Socratic PAUSE: safeguarding scientific judgement at AI speed",
+      "authors": [
+        "Abdulkadir Celik",
+        "Sir Bashir M. Al-Hashimi"
+      ],
+      "abstract": "Generative AI can turn a tentative scientific question into hypotheses, methods, code and interpretations within minutes. Yet generating a contribution does not establish that it deserves scientific reliance: researchers must still examine its evidence, assumptions and implications, and remain accountable for the decision to rely on it. Using Einstein's sketch of scientific discovery as a lens, we argue that AI has accelerated discovery far more than justification. In human-AI research partnerships, confidence can therefore outgrow evidence through three mechanisms: recursive reinforcement, loss of provenance and miscalibrated reliance on AI-generated contributions. Verification debt accumulates when such contributions are carried into later claims or decisions without adequate scrutiny. Accordingly, we propose the Socratic Pause as a deliberate checkpoint at consequential decision gates, where an AI contribution remains provisional while a researcher examines its basis. The PAUSE protocol structures this examination through five steps: Pin down the claim, Ask and challenge, Uncover assumptions and alternatives, Scrutinise the evidence and Exercise judgement. It concludes with a recorded decision to accept, revise, reject or defer the contribution. We show how AI research tools can support this practice without displacing human judgement, and outline a framework for evaluating whether it improves verification, decision-making and independent understanding. The aim is to preserve the freedom to explore with AI while ensuring that those responsible for the work can say what was examined, what remains uncertain and why the next step is justified.",
+      "categories": [
+        "cs.CY",
+        "cs.AI",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-26T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.34222",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34222",
+      "topics": [
+        "Tutoring Systems"
+      ],
+      "score": 61,
+      "heuristicScore": 8,
+      "tier": "lead",
+      "why": "Matches Tutoring Systems."
+    },
+    {
+      "id": "2611.33749",
+      "title": "Teaching Students to Stand on Their Own: Distilling Vision Foundation Models for Fine-Grained Few-Shot Class-Incremental Learning",
+      "authors": [
+        "Junsu Kim",
+        "Seungryul Baek"
+      ],
+      "abstract": "Fine-grained few-shot class-incremental learning (FG-FSCIL) aims to incrementally learn visually similar new classes from limited images without catastrophic forgetting. Prior work typically learns strong representations on base classes or leverages vision foundation models (VFMs) directly as backbones or via knowledge distillation. However, VFM backbones incur high computational costs and do not guarantee fine-grained recognition. Although knowledge distillation reduces inference cost, our preliminary experiments reveal that distilled students still lag substantially behind their VFM teachers, particularly on new classes. To address this limitation, we propose STAND, a systematic VFM-to-student distillation design tailored for FG-FSCIL. Specifically, STAND connects the teacher and student by equipping the student with a fixed copy of the teacher's classifier, aligning their outputs via projectors, and feeding both models composite images that combine different training images. On these composite images, relation distillation matches how the teacher and the student relate each image to other images, while difference distillation matches how this relation changes between two composite images. Finally, we freeze the student and classify new classes using length-calibrated prototypes, which restore the reduced similarity of few-shot prototypes. Extensive evaluations demonstrate that STAND achieves state-of-the-art performance across FG-FSCIL datasets at low computational cost, while generalizing across student backbones and broader datasets.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-26T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.33749",
+      "pdfUrl": "https://arxiv.org/pdf/2611.33749",
+      "topics": [
+        "Learners & Classrooms",
+        "Pedagogy & Alignment"
+      ],
+      "score": 41,
+      "heuristicScore": 5.4,
+      "tier": "notable",
+      "why": "Matches Learners & Classrooms and Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.33831",
+      "title": "Teaching a Multilingual Translation Model Regional Varieties: Castilian and Latin American Spanish, Asturian, Aragonese and Aranese with MADLAD-400-3B-MT",
+      "authors": [
+        "Nerea de la Torre Veguillas",
+        "Pol Gerdt",
+        "Raul Quijada",
+        "Ivory Dipasupil",
+        "Luc\\'ia Rado",
+        "Francesc Tarr\\'es"
+      ],
+      "abstract": "Massively multilingual translation models usually have one tag per language and no control over regional varieties, and they cover a region's smaller languages poorly or not at all. We report three fine-tunes of MADLAD-400-3B-MT, each adding target tags with low-rank adaptation (LoRA), back-translation of monolingual text and replay of the base model's own translations: for Spanish as written in Spain, for Latin American Spanish, and one model for three Romance languages of the Iberian Peninsula, Asturian ( ), Aragonese ( ) and Aranese ( ). For the Spanish varieties we annotate the 250.9M documents of MADLAD-400's Spanish split with a domain-supervised Spain vs. Latin America classifier and select variety text with a rule that admitted no Latin American document in a 340-document reference set. The Castilian model chooses Spain's everyday vocabulary in 97% of a targeted test (base model 62%) and vosotros for informal plural address in 70% (10%), while improving chrF++ on human references. A first finding is tag collapse: with a new tag initialised from , the parent tag drifts to the new variety (84-87% identical outputs). In the Iberian model, contrastive pairs and a separate learning rate for the tag embeddings keep each tag in its own language. Trained only on publicly available data, mostly the TAN-IBE Wikipedia corpora, the Iberian model matches or beats the TAN-IBE Marian systems in four of six Spanish directions on FLORES+, is 1.9 BLEU behind in Spanish->Aranese, and is second only to SalamandraTA-7B in most directions. The exception, Spanish->Aragonese, reflects a difference of written variety between Aragonese Wikipedia and the FLORES+ reference, not model quality. All three fine-tunes lose 0.6-0.7 chrF++ on average in thirteen other FLORES-200 directions. We release the models, data and variety classifier under open licences",
+      "categories": [
+        "cs.CL"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-26T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.33831",
+      "pdfUrl": "https://arxiv.org/pdf/2611.33831",
+      "topics": [
+        "Pedagogy & Alignment"
+      ],
+      "score": 41,
+      "heuristicScore": 5.4,
+      "tier": "notable",
+      "why": "Matches Pedagogy & Alignment."
+    },
+    {
+      "id": "2611.34042",
+      "title": "Too Smart for Its Own Good? Cognitive Fidelity and Competence Leakage in LLM Simulations of Young Learners",
+      "authors": [
+        "Zhen Xu",
+        "Beata Beigman Klebanov",
+        "Jamie N. Mikeska"
+      ],
+      "abstract": "LLM-based interactive learner simulators are increasingly used in educational applications, including teacher training and tutoring system development. A critical requirement for those simulations is cognitive fidelity: the simulated learner should maintain the assigned knowledge, misconceptions, and reasoning procedures throughout interaction. However, LLMs may express knowledge or problem-solving skills beyond the assigned learner's cognitive status, a phenomenon we refer to as competence leakage. In this exploratory study, we examine 3,339 simulated learner utterances from 130 teacher-learner simulator transcripts across three learning scenarios and identify over-competence as a prominent direction of cognitive-profile misalignment during interaction. We then investigate the recurrence of previously observed competence leakage cases under four matched-trigger evaluation protocols, ranging from isolated questioning to multi-turn interactions, across five model configurations. Overall, we observe higher violation recurrence under multi-turn protocols than under isolated question answering. More capable models generally show lower recurrence, whereas increased reasoning effort does not consistently improve cognitive fidelity and is even associated with slightly higher recurrence under multi-turn protocols in our matched-model comparison. These findings provide exploratory evidence of competence leakage phenomena in interactive learner simulation and suggest that single-turn question-answering type of evaluations alone may be insufficient, motivating the development of more systematic and reliable multi-turn protocols for evaluating cognitive fidelity in learner simulation.",
+      "categories": [
+        "cs.CL"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-26T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.34042",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34042",
+      "topics": [
+        "Tutoring Systems",
+        "Student Modelling",
+        "Learners & Classrooms"
+      ],
+      "score": 36,
+      "heuristicScore": 4.8,
+      "tier": "notable",
+      "why": "Matches Tutoring Systems and Student Modelling."
+    },
+    {
+      "id": "2611.34823",
+      "title": "The Linguistic Knowledge Benchmark: Do Language Models Know the Foundations of Early-Grade Literacy?",
+      "authors": [
+        "Maxime Leli\\`evre",
+        "Alasdair Mackintosh",
+        "Dominic Andrews",
+        "Tobias Murray",
+        "Moritz Boos",
+        "Oliver G. B. Garrod"
+      ],
+      "abstract": "Many languages of instruction in low- and middle-income countries (LMICs) are poorly represented in the data used to train language models. Before these models can support early-grade literacy in such languages, we need to know whether they hold the linguistic knowledge of each language that literacy teaching relies on. To test this, we present the Linguistic Knowledge Benchmark and the reproducible, largely automated pipeline that turns curriculum documents, teacher guides and pupil books into a vetted question set organised on a fixed grid of nine linguistic domains and seven grade levels. The pipeline combines LLM-driven source survey, feature consolidation, item generation and quality control with an item-selection step inspired by item response theory and a final expert review. We instantiate it for Kiswahili (Kenya; 135 items) and English (United Kingdom; 137 items) and evaluate 121 and 119 models respectively. Frontier models exceed 90% accuracy in both languages, but accuracy falls steeply for smaller and cheaper models, and more so in Kiswahili. The two best models under 10 billion parameters reach 91.7% and 73.0% in English but only 51.9% and 40.7% in Kiswahili, and the mean accuracy of models deployable on mobile and tablet hardware is 47% in English against 24% in Kiswahili. The models most practical for low-resource classrooms are therefore the least capable in the languages they would serve. We release a 20-item sample per language, all pipeline prompts, open-source code, and a public leaderboard. This is the first rung of a three-level evaluation ladder for measuring and generating decodable text to support foundational literacy.",
+      "categories": [
+        "cs.CL"
+      ],
+      "announceType": "new",
+      "publishedAt": "2026-11-26T00:00:00-05:00",
+      "sources": [
+        "arxiv"
+      ],
+      "url": "https://arxiv.org/abs/2611.34823",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34823",
+      "topics": [
+        "Pedagogy & Alignment",
+        "Learners & Classrooms"
+      ],
+      "score": 23,
+      "heuristicScore": 3,
+      "tier": "notable",
+      "why": "Matches Pedagogy & Alignment and Learners & Classrooms."
+    }
+  ],
+  "dispatches": [],
+  "topics": [
+    {
+      "name": "Pedagogy & Alignment",
+      "count": 6
+    },
+    {
+      "name": "Tutoring Systems",
+      "count": 6
+    },
+    {
+      "name": "Learners & Classrooms",
+      "count": 6
+    },
+    {
+      "name": "Programming Education",
+      "count": 1
+    },
+    {
+      "name": "Student Modelling",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "screened": 926,
+    "matched": 9,
+    "alreadyFeatured": 4,
+    "published": 9,
+    "announcedOn": "2026-11-26"
+  }
+}

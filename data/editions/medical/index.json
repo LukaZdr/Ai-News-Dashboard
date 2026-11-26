@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-26",
+    "number": 20,
+    "headline": "Sage-Med: Scaling Medical Multimodal Intelligence",
+    "published": 31
+  },
+  {
     "date": "2026-11-25",
     "number": 19,
     "headline": "A multimodal foundation model for tissue proteomics and morphology in cancer",
