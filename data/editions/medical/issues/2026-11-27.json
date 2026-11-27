@@ -1,0 +1,67 @@
+{
+  "edition": "medical",
+  "date": "2026-11-27",
+  "number": 21,
+  "generatedAt": "2026-11-27T16:54:08.452Z",
+  "editor": {
+    "mode": "heuristic",
+    "note": "1 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
+  },
+  "lede": null,
+  "readFirst": [
+    {
+      "id": "2611.30858",
+      "why": "Matches Precision Medicine and Clinical Translation.",
+      "takeaway": "Clinical decision support systems (CDSS) are expected to enhance medical treatment through automated data analysis, yet a substantial evidence gap persists as to whether they actually improve patient outcomes."
+    }
+  ],
+  "papers": [
+    {
+      "id": "2611.30858",
+      "title": "The AMPEL Platform: A Concept for Open-Source Collaboration in Developing In-House Medical Device Software under EU-Regulation",
+      "authors": [
+        "Daniel Steinbach",
+        "Maria Schmidt",
+        "Alexander Twrdik",
+        "Clemens Malkawi",
+        "Toralf Kirsten",
+        "Martin Federbusch"
+      ],
+      "abstract": "Clinical decision support systems (CDSS) are expected to enhance medical treatment through automated data analysis, yet a substantial evidence gap persists as to whether they actually improve patient outcomes. It arises due to the black-box nature of commercial products and the constrains of the European medical device regulation (MDR) for such studies: patient outcomes may only be collected through the use of medical device software (MDSW). In-house MDSW under Article 5(5) MDR is a promising solution, allowing healthcare facilities to manufacture and study such software for their own use under reduced requirements. However, the overall limited experience with in-house MDSW development in Europe currently restricts the widespread use of this regulatory approach. While open-source software generally fosters evidence generation, publishing an in-house MDSW as open source would risk a classification as \"placement on the market\", which the MDR prohibits. The concept presented here builds on experience from developing an in-house CDSS at the University of Leipzig Medical Center, expert discussions, a literature review and a formal legal opinion. A companion online wiki summarizes and regularly updates the results. The current concept outlines a shared open-source codebase, which doesn't constitute a medical device under the MDR. Also, \"Data Input\" modules must be programmed separately at each site, while still allowing for multicenter collaboration on the codebase. Atypically for open-source projects, this leaves a considerable effort to deploy the software within each site, e.g. each healthcare facility must independently meet the MDR requirements for an in-house MDSW. The AMPEL concept describes a regulatory pathway for the open-source publication and development of in-house MDSW. It underpins the open-source AMPEL platform, which helps healthcare facilities build their own in-house CDSS.",
+      "categories": [
+        "cs.CY"
+      ],
+      "publishedAt": "2026-11-23T15:34:28Z",
+      "sources": [
+        "search"
+      ],
+      "url": "https://arxiv.org/abs/2611.30858",
+      "pdfUrl": "https://arxiv.org/pdf/2611.30858",
+      "topics": [
+        "Precision Medicine",
+        "Clinical Translation"
+      ],
+      "score": 100,
+      "heuristicScore": 3.5,
+      "tier": "lead",
+      "why": "Matches Precision Medicine and Clinical Translation."
+    }
+  ],
+  "dispatches": [],
+  "topics": [
+    {
+      "name": "Precision Medicine",
+      "count": 1
+    },
+    {
+      "name": "Clinical Translation",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "screened": 148,
+    "matched": 1,
+    "alreadyFeatured": 16,
+    "published": 1
+  }
+}
