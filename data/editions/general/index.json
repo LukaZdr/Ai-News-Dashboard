@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-28",
+    "number": 22,
+    "headline": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+    "published": 23
+  },
+  {
     "date": "2026-11-27",
     "number": 21,
     "headline": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",

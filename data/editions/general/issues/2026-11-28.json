@@ -1,0 +1,844 @@
+{
+  "edition": "general",
+  "date": "2026-11-28",
+  "number": 22,
+  "generatedAt": "2026-11-28T15:45:04.140Z",
+  "editor": {
+    "mode": "heuristic",
+    "note": "2 triage batch(es) failed; those papers are ranked heuristically. Editor’s note unavailable today."
+  },
+  "lede": null,
+  "readFirst": [
+    {
+      "id": "2611.30723",
+      "why": "Matches Language Models and Alignment & Safety · 1 upvotes on Hugging Face.",
+      "takeaway": "Speech language models (LMs) generate speech as sequences of discrete tokens."
+    },
+    {
+      "id": "2611.33835",
+      "why": "Matches Reasoning and Alignment & Safety · 2 upvotes on Hugging Face.",
+      "takeaway": "Understanding large-scale 3D urban scenes requires representations that capture both multi-scale geometric structures and complex spatial relationships."
+    },
+    {
+      "id": "2611.32993",
+      "why": "Matches Multimodal & Vision and Evaluation · 1 upvotes on Hugging Face.",
+      "takeaway": "Structured clinical decisions from volumetric computed tomography (CT) require anatomically grounded predictions and calibrated confidence estimates."
+    }
+  ],
+  "papers": [
+    {
+      "id": "2611.30723",
+      "title": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+      "authors": [
+        "Y. Lu",
+        "L. Wang",
+        "S. Okada"
+      ],
+      "abstract": "Speech language models (LMs) generate speech as sequences of discrete tokens. Their tokenizer must therefore preserve both acoustic detail and linguistic content at a low bitrate. Semantic-enhanced tokenizers may lose acoustic detail, whereas acoustic-oriented tokenizers retain acoustic variation that makes language modeling harder. Unified tokenizers combine both, but representing acoustic detail and linguistic content within a single feature space can cause interference between the two objectives, and existing approaches typically align acoustic representations to fixed semantic targets from a frozen teacher. We propose Bidirectionally Aligned Semantic-Acoustic Tokenization (BiSAT), a unified tokenization framework with separate acoustic and semantic branches aligned by a shared-index mechanism. This design learns acoustic and semantic representations in separate continuous spaces while producing a single discrete code sequence, and it jointly optimizes both encoders without relying on fixed semantic teacher targets. Based on BiSAT, we develop BiSAT-TTS, a zero-shot text-to-speech system comprising an autoregressive text-speech LM and a conditional flow-matching acoustic decoder. Reconstruction, downstream understanding, and diagnostic analyses show that BiSAT effectively preserves semantic and acoustic information in the code stream, performs well on in-the-wild and out-of-domain speech, and learns complementary codebook representations. The frozen-code understanding results also support its feasibility and potential for code-based reward modeling in reinforcement learning post-training. BiSAT-TTS performs comparably to state-of-the-art speech LM-based TTS baselines with less training data, further supporting BiSAT's effectiveness for speech language modeling. The audio demos are available at https://seekmind-lab.github.io/bisat-demo.",
+      "categories": [],
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 1,
+        "comments": 2,
+        "organization": "SeekMind Lab"
+      },
+      "url": "https://arxiv.org/abs/2611.30723",
+      "pdfUrl": "https://arxiv.org/pdf/2611.30723",
+      "topics": [
+        "Language Models",
+        "Alignment & Safety",
+        "Reinforcement Learning"
+      ],
+      "score": 100,
+      "heuristicScore": 13.2,
+      "tier": "lead",
+      "why": "Matches Language Models and Alignment & Safety · 1 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.33835",
+      "title": "3D CoCa v3: Contrastive Learners with Scene Graphs for Urban Scene Understanding",
+      "authors": [
+        "Nannan Zhang",
+        "Ting Huang",
+        "Zeyu Zhang",
+        "Haoyu Chen",
+        "Yanjie Zhu",
+        "Hao Tang"
+      ],
+      "abstract": "Understanding large-scale 3D urban scenes requires representations that capture both multi-scale geometric structures and complex spatial relationships. However, existing 3D vision-language methods primarily emphasize global semantic alignment or object-level representations, leaving structured relational modeling underexplored within unified contrastive and generative frameworks. In this paper, we present 3D CoCa v3, a scene-graph-enhanced contrastive and generative framework for urban 3D scene understanding. Our framework features a Pyramid Vision Encoder for multi-scale geometric representation learning and a language-model-based decoder with question-guided caption retrieval and visual cross-attention. We further introduce MSG-based relational descriptions to enrich contrastive 3D-language alignment with structured spatial relationships. To support semantic and relational supervision, we construct City3D-9.6K, a multi-view urban vision-language dataset with aligned visual-geometric observations, scene captions, and scene graphs. Extensive experiments on City-3DQA demonstrate that 3D CoCa v3 achieves 88.35% and 64.79% overall top-1 accuracy on the sentence-wise and city-wise splits, surpassing 3D CoCa v2 by 20.88 and 3.57 percentage points, respectively. Furthermore, 3D CoCa v3 achieves the best performance on GeoEval3D, demonstrating its effectiveness in urban spatial reasoning and geometric understanding. Code is available at https://github.com/AIGeeksGroup/3DCoCav3.",
+      "categories": [],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 2,
+        "comments": 2,
+        "organization": "Peking University",
+        "githubRepo": "https://github.com/AIGeeksGroup/3DCoCav3"
+      },
+      "url": "https://arxiv.org/abs/2611.33835",
+      "pdfUrl": "https://arxiv.org/pdf/2611.33835",
+      "topics": [
+        "Reasoning",
+        "Alignment & Safety",
+        "Language Models",
+        "Multimodal & Vision",
+        "Data"
+      ],
+      "score": 98,
+      "heuristicScore": 13,
+      "tier": "lead",
+      "why": "Matches Reasoning and Alignment & Safety · 2 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.32993",
+      "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
+      "authors": [
+        "Juntao Jiang",
+        "Wenqi Zhong",
+        "Guangyu Guo",
+        "Dexia Chen",
+        "Yilong Hu",
+        "Yunhao Bai",
+        "Zhenyu Yi",
+        "Jianwei Xu",
+        "Tony C. W. Mok",
+        "Muxuan Gao",
+        "Ling Zhang",
+        "Yong Liu",
+        "Jiangning Zhang",
+        "Zhongwei Qiu"
+      ],
+      "abstract": "Structured clinical decisions from volumetric computed tomography (CT) require anatomically grounded predictions and calibrated confidence estimates. However, existing 3D medical multimodal models often suffer from uncalibrated autoregressive decoding and shortcut reliance on irrelevant anatomical regions. We introduce Radev, a decision-native multimodal model that integrates anatomy-guided visual compression, direct candidate prediction, and counterfactual confidence supervision. To bridge global context with fine-grained slice details, a frozen 3D encoder extracts reusable organ-level features, which are dynamically selected by the query to attend to 2D slice features within predicted anatomical bounds. The resulting compact visual tokens enable the language backbone to estimate candidate probabilities in a single forward pass without autoregressive decoding. We further propose Counterfactual-Calibrated Training (CCT) to compare predictions under intact and intervened organ representations. CCT encourages confidence to decrease when removing target-organ evidence degrades decision quality, while penalizing excessive confidence drops under unrelated-organ removal. To facilitate rigorous evaluation, we construct CT-Verdict, a comprehensive benchmark spanning binary finding presence, multiple-choice questions, and ordinal severity assessment across both in-distribution and external cohorts. Extensive experiments demonstrate that Radev significantly outperforms state-of-the-art methods in both decision accuracy and confidence calibration, while generalizing robustly under distribution shifts. Project page at https://juntaojianggavin.github.io/projects/Radev/",
+      "categories": [],
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 1,
+        "comments": 2,
+        "organization": "Zhejiang University",
+        "githubRepo": "https://github.com/juntaoJianggavin/Radev"
+      },
+      "url": "https://arxiv.org/abs/2611.32993",
+      "pdfUrl": "https://arxiv.org/pdf/2611.32993",
+      "topics": [
+        "Multimodal & Vision",
+        "Evaluation"
+      ],
+      "score": 91,
+      "heuristicScore": 12,
+      "tier": "lead",
+      "why": "Matches Multimodal & Vision and Evaluation · 1 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.28849",
+      "title": "Guarding with Judgment: Learning to Intervene for Multimodal Safety",
+      "authors": [
+        "Jipei He",
+        "Cheng Cheng",
+        "Liuguo Wang",
+        "Zihan Wen",
+        "Changlin Yu",
+        "Wentao Song",
+        "Suyun Zhao"
+      ],
+      "abstract": "When visual context makes an ordinary request unsafe to answer as asked, a blanket refusal may leave the user's need unresolved. Choosing how to help requires distinguishing an established hazard from a condition that still needs verification, a distinction that binary safety labels leave unspecified. We formulate this decision through four actions: allow, warn, review, and refuse. To ground these decisions in verifiable evidence, we build a corpus of 20,126 training audits and the JudiBench benchmark, connecting each action to diagnostic judgments, source evidence, and controlled context changes. Our guard, JudiAct, separately states what the source establishes, what condition governs the help, and how the rules apply. It then checks these three brief review items against the original inputs to predict diagnostic labels and a handling action. Supervised training learns individual judgments while comparing label assignments across related cases. A second stage swaps one review item at a time, using the resulting audit feedback to refine review generation. On JudiBench, JudiAct improves request and answer Macro-F1 by more than 28 percentage points over its 4B backbone. Across nine public benchmarks, it outperforms state-of-the-art guards on the mean delivered-answer score in both pre-generation and post-generation settings, cutting MM-SafetyBench attack success from 40.78% to 25.30%.",
+      "categories": [],
+      "publishedAt": "2026-11-21T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 2,
+        "comments": 2,
+        "organization": "Renmin University of China"
+      },
+      "url": "https://arxiv.org/abs/2611.28849",
+      "pdfUrl": "https://arxiv.org/pdf/2611.28849",
+      "topics": [
+        "Multimodal & Vision",
+        "Evaluation"
+      ],
+      "score": 89,
+      "heuristicScore": 11.8,
+      "tier": "lead",
+      "why": "Matches Multimodal & Vision and Evaluation · 2 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.33579",
+      "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
+      "authors": [
+        "Wongyun Yu",
+        "Honggeun Kim",
+        "Donguk Lee",
+        "Minchan Kim",
+        "Kyoung Whan Choe",
+        "Minsu Cho"
+      ],
+      "abstract": "A growing body of recent work addresses the retargeting of human hand-object demonstrations to robotic hands. To train whole-robot policies, however, the retargeted motions must be kinematically feasible and physically executable, and be produced efficiently at scale. We present DexEngine, a simulation pipeline that turns human manipulation data into train-ready, physically executable arm-hand trajectories. DexEngine first places each clip's hand-object motion where the arms can reach it, finds an arm motion that follows the human hands, and then corrects the motion in physics simulation with residual reinforcement learning. From nine human hand-object datasets, we generate about 5,200 clips for each of four dexterous hands, augmented into 65,000 trajectories (116 h) and 325,000 episodes (578 h) in total. Even with arms attached, DexEngine tracks objects more accurately than prior floating-hand methods and runs over 10x faster than RL-based ones. Policies trained on our data far outperform those trained on the same clips without physics correction or with the arms attached after a floating-hand correction, showing that fine-tuning data need physics correction. Mid-training on our data further improves them at equal fine-tuning budget, in simulation and on a real robot.",
+      "categories": [],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 5,
+        "comments": 2,
+        "organization": "POSTECH Computer Vision Lab",
+        "githubRepo": "https://github.com/wongyun-yu/DexEngine"
+      },
+      "url": "https://arxiv.org/abs/2611.33579",
+      "pdfUrl": "https://arxiv.org/pdf/2611.33579",
+      "topics": [
+        "Reinforcement Learning"
+      ],
+      "score": 89,
+      "heuristicScore": 11.8,
+      "tier": "lead",
+      "why": "Matches Reinforcement Learning · 5 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.34912",
+      "title": "LiveVAE: Causal Window Attention Makes Efficient Streaming Video VAE",
+      "authors": [
+        "Jiachen An",
+        "Sijie Zhao",
+        "Le Li",
+        "Hongyu Liu",
+        "Zhiyuan Li",
+        "Tianyu Yang",
+        "Xiaoyu Kong",
+        "Xunliang Cai",
+        "Yong Zhang",
+        "Chi-Man Pun",
+        "Xiaoming Wei",
+        "Xiaodong Cun"
+      ],
+      "abstract": "While video diffusion models have grown faster and increasingly streamable, the video VAE remains a primary latency bottleneck across interactive generation and editing pipelines. Existing VAEs and their acceleration methods rely mainly on heavy convolutions or full frame attention, and most focus only on decoding, leaving encoding costly for streaming conditional generation and editing. This raises a natural question: Do video VAE encoding and decoding actually require such global spatiotemporal modeling? By analyzing the effective receptive fields of pretrained video VAEs, we find that both encoding and decoding a patch rely almost entirely on its spatial and temporal neighbors. To exploit this strong locality, we introduce LiveVAE, a streaming encoder and decoder built on causal window attention, which cuts per frame compute while keeping the temporal KV cache bounded for streaming. Decoupled encoder/decoder distillation followed by joint finetuning preserves the pretrained latent space, making LiveVAE a drop-in replacement for the original VAE. On MiniMax-H3, LiveVAE achieves 5.2-6.2x faster encoding and 3.0-3.3x faster decoding than the official VAE with higher PSNR. Paired with our dedicated inference infrastructure, LiveVAE pushes the speedup to 13.4x with almost no quality loss. Code and models will be released.",
+      "categories": [],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 3,
+        "comments": 2,
+        "githubRepo": "https://github.com/MeiGen-AI/LiveVAE"
+      },
+      "url": "https://arxiv.org/abs/2611.34912",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34912",
+      "topics": [
+        "Efficiency",
+        "Multimodal & Vision"
+      ],
+      "score": 88,
+      "heuristicScore": 11.6,
+      "tier": "lead",
+      "why": "Matches Efficiency and Multimodal & Vision · 3 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.34719",
+      "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+      "authors": [
+        "Yuncheng Guo",
+        "Ying Dong",
+        "Xiaodong Gu"
+      ],
+      "abstract": "Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection. Yet recent findings show that vision foundation models already encode transferable detection knowledge, while further adaptation can impair generalization. This motivates a shift from backbone adaptation to knowledge readout. Conventional linear probing offers a direct way to read this knowledge but is limited to final-layer RGB features. Multi-cue detectors broaden the evidence base, but their designs introduce other tradeoffs: adaptation may compromise pretrained transferability, heterogeneous encoders complicate feature integration, and late fusion precludes intermediate cross-view interaction. To overcome these limitations, we propose ReMoT, a Mixture-of-Transformers-inspired framework that reads complementary knowledge from spatially aligned RGB and wavelet views within a fully frozen visual foundation. ReMoT employs staged joint attention to enable controlled local and global cross-view interaction, while learnable fusion queries progressively read complementary evidence across Transformer depth without writeback. ReMoT achieves 91.2% average accuracy across eight benchmark groups with 3,074 trainable parameters, attaining the highest overall average among the evaluated methods. These results support structured knowledge readout as a promising alternative to backbone adaptation. Code is available at https://github.com/yunncheng/ReMoT.",
+      "categories": [],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 2,
+        "comments": 2,
+        "organization": "Fudan University",
+        "githubRepo": "https://github.com/yunncheng/ReMoT"
+      },
+      "url": "https://arxiv.org/abs/2611.34719",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34719",
+      "topics": [
+        "Interpretability",
+        "Language Models",
+        "Evaluation"
+      ],
+      "score": 84,
+      "heuristicScore": 11.1,
+      "tier": "lead",
+      "why": "Matches Interpretability and Language Models · 2 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.33885",
+      "title": "LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing",
+      "authors": [
+        "Yankuan Chi",
+        "Xin Lin",
+        "Baihan Yang",
+        "Yuheng Liu",
+        "Jason Li",
+        "Truong Nguyen"
+      ],
+      "abstract": "3D layout-controlled image editing gives users explicit control over object placement and camera viewpoint. In a sequence of edits, however, the latest image can lose the appearance of an object when it is occluded or leaves view. The target layout specifies where the object should reappear, while its appearance must be recovered from earlier observations. We introduce LayoutRecall, a multi-round editor that stores and reuses appearance in the local coordinate systems of 3D boxes. Box-Surface Latent Memory retains image latents on box faces and retrieves them along rays in the target view. Geometry-Aligned Memory Conditioning supplies the retrieved tokens to a FLUX.2 editor using target-view positions, shared box-local embeddings, and object-wise attention. A correspondence loss encourages the editor to attend to matching observations during denoising. We also introduce LayoutLoop, a multi-round 3D layout-controlled image editing benchmark with calibrated layouts and designed revisits. We conduct extensive experiments on LayoutLoop and real-scene data to verify the ability of our method. The project page is at https://ykchizs.github.io/layoutrecall.github.io/.",
+      "categories": [],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 4,
+        "comments": 2,
+        "organization": "LL Lab"
+      },
+      "url": "https://arxiv.org/abs/2611.33885",
+      "pdfUrl": "https://arxiv.org/pdf/2611.33885",
+      "topics": [
+        "Evaluation"
+      ],
+      "score": 83,
+      "heuristicScore": 11,
+      "tier": "lead",
+      "why": "Matches Evaluation · 4 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.27112",
+      "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+      "authors": [
+        "Sandeep Dhuri"
+      ],
+      "abstract": "Teams put a one-page rules file in a repository and call it a control on coding agents. A registered study found agents rarely look up a repository's contribution rules. I asked the security question: what does a rules file do at a boundary, against a gate? I tested one 278-word rules file, with hypotheses and analysis code deposited first. Claude Code, Codex CLI, Gemini CLI and OpenCode with DeepSeek worked through 20 small repositories with hidden tests, 12 for three of them. Three agents met four boundaries I built: a refused endpoint, a destructive shortcut, a planted instruction and a planted package. Permission prompts, each vendor's own control layer, were off by design. A gate in front of the mock service blocked and logged forbidden requests. Every verdict was read from records the agent could not change. Only my first scoring pass was blind to arm. My checkers found no real bugs, with the file or without it. The file cost one agent a third of its score: Codex CLI fell from 99.0 to 67.7 percent on hidden tests, and in 11 of its 36 steps reported the task complete with all tests passing while under half of the hidden tests passed. Its own tests passed. Faced with two of its rules that clash on these tasks, three agents followed the task and one followed the rule. Pooled, passes fell from 98.2 to 90.9 percent. Matched pairs fell 7.7 points, 1.3 without Codex CLI. Attempts to cross were rare: 5 in 90 gated steps, 3 without the file, 2 with it, all by OpenCode with DeepSeek, all blocked. With no gate, under the neutral file, the same requests reached the mock in 7 of 45 runs. By an error in my run script, the no-file and rules-file arms always ran behind the gate at the three HTTP boundaries, so I could not test whether the file changes what an agent does there. On what I could measure, the file acted as advice. A file tells an agent what you want. A gate decides what it gets.",
+      "categories": [],
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 1,
+        "comments": 3
+      },
+      "url": "https://arxiv.org/abs/2611.27112",
+      "pdfUrl": "https://arxiv.org/pdf/2611.27112",
+      "topics": [
+        "Agents"
+      ],
+      "score": 83,
+      "heuristicScore": 11,
+      "tier": "notable",
+      "why": "Matches Agents · 1 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.30895",
+      "title": "Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock",
+      "authors": [
+        "Bohe Chen"
+      ],
+      "abstract": "Proactive assistants that guide people through physical tasks must decide, every few seconds, whether a step is complete and whether a mistake has occurred. We find that two benchmarks for this task largely reward knowing when rather than seeing what: a timer that never looks at the video, raising an alarm at 25 s and confirming each step at 30 s, reaches a mistake F1 of 0.373 on Ego-MC-Bench, above every published result (at most 0.27). We formalize this as the video-blind frontier, the best trade-off between completion accuracy and mistake F1 that policies reach from the elapsed time, the instruction and training statistics alone: every published per-step result on Ego-MC-Bench lies inside it, and so do all twelve zero-shot models we run on QICD. To move beyond it, we introduce Evidence-Contrastive Training (ECT): fine-tune on the benchmark's own questions, and pair its positives with negatives from the same recording at the same elapsed time, so that elapsed time cannot separate the two sides of a pair. Trained on 209 QICD videos in about 15 GPU-hours, a 2B model with ECT crosses the frontier on both benchmarks in all four seeds; transferred to Ego-MC-Bench without adaptation, it confirms 59% of mistake-free steps in time, against 30% for a published model with the same backbone trained on about 25k synthetic counterfactuals and real recordings. Its decisions follow the video beyond what timing explains: at equal elapsed time it tells a finished step from an unfinished one in 90-92% of test pairs, where the instruction's typical duration reaches 65%, rescaling the time stamps between the frames leaves it essentially unchanged, and swapping in another recording, of the same recipe where one exists, cuts its completion accuracy by two thirds. The code and model weights will be publicly released.",
+      "categories": [],
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 4,
+        "comments": 2,
+        "githubRepo": "https://github.com/bhc6/speak-when-you-see-it"
+      },
+      "url": "https://arxiv.org/abs/2611.30895",
+      "pdfUrl": "https://arxiv.org/pdf/2611.30895",
+      "topics": [
+        "Evaluation"
+      ],
+      "score": 83,
+      "heuristicScore": 11,
+      "tier": "notable",
+      "why": "Matches Evaluation · 4 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.29259",
+      "title": "Look Back: Reinforcement Learning with Counterfactual World Models",
+      "authors": [
+        "Jinwoo Kim",
+        "Toghrul Abbasov",
+        "Lucius E. J. Bynum",
+        "Aahlad Puli",
+        "Stephanie Milani",
+        "Hyunwoo Ryu",
+        "Seunghoon Hong",
+        "Kyunghyun Cho",
+        "Rajesh Ranganath"
+      ],
+      "abstract": "Agents in complex, stochastic environments must contend with dynamics that can exceed their world models' predictive capacity and randomness that obscure the consequences of their actions. We hypothesize that, compared to imagining entirely new trajectories in such complex environments, it can be easier to transform observed trajectories with alternative actions. Counterfactual world models condition on observations to predict alternative outcomes under the same underlying environmental randomness, using experience as a reference for predicting action-dependent changes. We present a policy gradient estimator, REINFORCE Look Back (RLB), that uses counterfactual returns as baselines to distinguish action effects from environmental luck, and prove conditions for unbiasedness and variance reduction. In settings where environmental evolution is harder to predict than action-induced changes, we show that counterfactual world models are easier to learn and support better policy learning than ordinary world models. Our findings suggest that counterfactual thinking can help agents learn effective behavior without independently reproducing the full complexity of their worlds.",
+      "categories": [],
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 0,
+        "comments": 2,
+        "organization": "New York University",
+        "githubRepo": "https://github.com/ToghrulAbbasov19/look-back"
+      },
+      "url": "https://arxiv.org/abs/2611.29259",
+      "pdfUrl": "https://arxiv.org/pdf/2611.29259",
+      "topics": [
+        "Multimodal & Vision",
+        "Reinforcement Learning",
+        "Agents"
+      ],
+      "score": 83,
+      "heuristicScore": 11,
+      "tier": "notable",
+      "why": "Matches Multimodal & Vision and Reinforcement Learning · 0 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.34363",
+      "title": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
+      "authors": [
+        "Shreshth Rai",
+        "Rishii Kumar Singh",
+        "Aksh Aggarwal"
+      ],
+      "abstract": "Reinforcement learning (RL) for text-to-SQL agents pays a query when its result matches the reference on one database. However, a wrong query can match by luck when the data lack the rows that expose its bug. We study a counterfactual-database (CF) reward that also runs the final query on a few hidden, code-generated copies of the database and pays only if all results match (strict form) or by the share matched (mean form). On 1,302 synthetic audit questions, the strict form lowers the share of buggy queries paid in full from 29.5% to 16.8% and of reward hacks from 54.1% to 1.9%, rejecting 0 of 2,847 correct queries; copies from a family-blind generator do about as well. In a controlled GRPO comparison on a 3.35B model with three seeds per arm, training on the mean form did not improve in-domain accuracy (8.4% vs 11.7%), because the two rewards disagreed on only 5-7% of rollouts; on Spider it gained 1.6 points. One seed reverses both signs, so single-seed reward comparisons mislead. Code: https://github.com/RishiiGamer2201/counterfactual-sql-rewards ; data, models, demo: https://huggingface.co/counterfactual-sql",
+      "categories": [],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 2,
+        "comments": 2,
+        "organization": "Counterfactual SQL Rewards",
+        "githubRepo": "https://github.com/RishiiGamer2201/counterfactual-sql-rewards"
+      },
+      "url": "https://arxiv.org/abs/2611.34363",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34363",
+      "topics": [
+        "Reinforcement Learning",
+        "Agents"
+      ],
+      "score": 82,
+      "heuristicScore": 10.8,
+      "tier": "notable",
+      "why": "Matches Reinforcement Learning and Agents · 2 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.32786",
+      "title": "Simulator-as-Proxy World Model for Robot Manipulation",
+      "authors": [
+        "Tingting Liao",
+        "Mingjia Huo",
+        "Hao Li",
+        "Zhengzhong Liu",
+        "Eric P. Xing",
+        "Guangyi Liu"
+      ],
+      "abstract": "Video world models for robots are increasingly conditioned on a simulated or rendered proxy of the scene, on the assumption that the video will show what the proxy shows. Testing this assumption requires a proxy whose state is explicit and can be perturbed. We present SimPWM (Simulator-as-Proxy World Model): given a calibrated camera, it represents, from the first frame alone, the robot by its 3D model and the objects the gripper may touch as 3D points; a rule-based simulator with no trained parameters moves them under the actions, and a video model renders the result. SimPWM returns the realistic video together with the simulated state. We then freeze the simulated objects while the arm moves as recorded and check whether the video still shows the object lifted. On DROID episodes from unseen setups, the answer differs for the arm and for the objects. With each of three base video models, the arm follows the proxy (robot IoU 0.75-0.78, against at most 0.69 for end-to-end models); rendering the robot alone already gives this. What the simulated objects add is the object state: against a robot-only proxy, they cut missed pick-ups from 54% to 38%, and the video follows them only with some base models: on rigid objects, freezing them lowers the lift rate of MiniMax-H3, fine-tuned on episodes whose simulation agrees with the real video, from 42% to 10%, but that of LTX-2.3, trained on the same episodes, only from 57% to 49%, as if it inferred the grasp from the arm motion; more than half of the remaining lifts of MiniMax-H3 are of cloth and rope, which the simulator carries rigidly. With any base model, the simulated state records what the simulation did; under perturbed actions, a video that disagrees with it reveals that the video ignores the simulated state.",
+      "categories": [],
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 1,
+        "comments": 2,
+        "organization": "MBZUAI-IFM",
+        "githubRepo": "https://github.com/TingtingLiao/SimPWM"
+      },
+      "url": "https://arxiv.org/abs/2611.32786",
+      "pdfUrl": "https://arxiv.org/pdf/2611.32786",
+      "topics": [
+        "Multimodal & Vision"
+      ],
+      "score": 76,
+      "heuristicScore": 10,
+      "tier": "notable",
+      "why": "Matches Multimodal & Vision · 1 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.32938",
+      "title": "Efficient Video Retrieval Augmented Generation via Token Allocation",
+      "authors": [
+        "Ayush Barik",
+        "Fan Lai",
+        "Francis Y. Yan"
+      ],
+      "abstract": "Efficient long-video understanding requires identifying relevant evidence while minimizing the tokens processed by vision-language models (VLMs). Existing video retrieval-augmented generation (RAG) methods rely on frame selection and token compression, but overlook how much each additional token is worth. We introduce Lembas, a plug-and-play framework that formulates video RAG as a token allocation problem over frames and subtitles under a shared budget. Our key insight is that the value of a token diminishes within each item and decreases further as similar evidence receives more tokens. Lembas captures both effects in a single objective and solves it with an efficient iterative water-filling algorithm that has a provable convergence guarantee. For multi-turn conversations, Lembas reuses the tokens processed in earlier turns and refines relevance with the VLM's attention at no extra cost. Our evaluations show that Lembas improves accuracy by up to 7.2 percentage points over state-of-the-art baselines at comparable compute. On multi-turn video understanding, Lembas achieves up to 1.5 percentage points higher accuracy with 1.7-17.3x fewer TFLOPs.",
+      "categories": [],
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 1,
+        "comments": 2,
+        "organization": "University of Illinois at Urbana-Champaign"
+      },
+      "url": "https://arxiv.org/abs/2611.32938",
+      "pdfUrl": "https://arxiv.org/pdf/2611.32938",
+      "topics": [
+        "Multimodal & Vision",
+        "Language Models",
+        "Theory"
+      ],
+      "score": 75,
+      "heuristicScore": 9.9,
+      "tier": "notable",
+      "why": "Matches Multimodal & Vision and Language Models · 1 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.32335",
+      "title": "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM",
+      "authors": [
+        "Weicong Zhang",
+        "Yuan Huang",
+        "Yu Zheng",
+        "Lin Chenxiao",
+        "Yingying Li",
+        "Lilong Fan",
+        "Liangdong Zhuang",
+        "Yufan Chen",
+        "Ruiping Liu",
+        "Junwei Zheng",
+        "Jiaming Zhang"
+      ],
+      "abstract": "Panoramic cameras capture nearly the entire spherical field of view in a single frame. However, the mismatch between this panoramic coverage and the field of view of LiDAR poses a substantial challenge for panoramic Gaussian splatting SLAM that relies on LiDAR depth priors. We introduce GOLD-SLAM, a Gaussian-splatting Omnidirectional LiDAR-Depth SLAM system that combines high-quality rendering with accurate geometric reconstruction. It performs tracking and mapping in the spherical domain and uses tracked visual features in regions without LiDAR coverage to improve pose estimation. To address insufficient coverage of newly observed surfaces and floating artifacts during incremental mapping, we introduce Depth-Aware Map Extension and Pruning (DAEP). To enable broader evaluation, we collect a new dataset, WHOLE, using a UAV platform across Weak-geometry, High-dynamic, Omnidirectional, Low-light, and Easy scenarios. Extensive experiments on public benchmarks and WHOLE demonstrate competitive rendering quality and improved geometric accuracy relative to perspective systems. Compared with existing panoramic baselines, GOLD-SLAM improves mean PSNR by 5.56-9.10 dB and reduces mean Depth-L1 by 71.9-83.9%. To assess deployment feasibility on resource-constrained platforms such as UAVs, we evaluate an embedded configuration of GOLD-SLAM on a Jetson Orin NX (16 GB), demonstrating online operation at the cost of reconstruction quality.",
+      "categories": [],
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 1,
+        "comments": 2,
+        "organization": "InSAI Lab",
+        "githubRepo": "https://github.com/InSAI-Lab/GOLD-SLAM"
+      },
+      "url": "https://arxiv.org/abs/2611.32335",
+      "pdfUrl": "https://arxiv.org/pdf/2611.32335",
+      "topics": [
+        "Evaluation",
+        "Efficiency",
+        "Data"
+      ],
+      "score": 73,
+      "heuristicScore": 9.6,
+      "tier": "notable",
+      "why": "Matches Evaluation and Efficiency · 1 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.32002",
+      "title": "Change the Base, Change the Game: Rethinking Pan-sharpening",
+      "authors": [
+        "Jeonghyeok Do",
+        "Geunhyuk Youk",
+        "Munchurl Kim"
+      ],
+      "abstract": "Many pan-sharpening (PS) networks reconstruct high-resolution multispectral (HRMS) images by adding learned residuals to 4times-interpolated low-resolution multispectral (LRMS) inputs, incorporating panchromatic (PAN) detail only through these residual corrections. This raises a simple question: Why start with a blurry base when sharp spatial detail is already available? We propose PanBase, a sharper multispectral starting point designed for more effective residual learning. Guided by physical sensor characteristics, PanBase combines PAN spatial detail with LRMS spectral information while enforcing consistency with the LRMS observations under sensor-specific blur. We construct this base without neural network training, estimating only nine coefficients per spectral band through closed-form calibration. Our PanBase can be easily integrated into existing backbones with a global residual skip through two simple changes: (i) replacing the skip base with PanBase and (ii) concatenating it as an additional input. Using each backbone's original training recipe and matched training budgets, PanBase improves most reduced- and full-resolution metrics on WorldView-3, QuickBird, and GaoFen-2, while achieving 4.4times faster training convergence on average. In zero-shot evaluation on WorldView-2, standalone PanBase achieves competitive reconstruction without target-sensor fitting or neural refinement.",
+      "categories": [],
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 2,
+        "comments": 2,
+        "organization": "KAIST VIClab (Prof. Munchurl Kim)",
+        "githubRepo": "https://github.com/KAIST-VICLab/PanBase"
+      },
+      "url": "https://arxiv.org/abs/2611.32002",
+      "pdfUrl": "https://arxiv.org/pdf/2611.32002",
+      "topics": [
+        "Evaluation"
+      ],
+      "score": 67,
+      "heuristicScore": 8.8,
+      "tier": "notable",
+      "why": "Matches Evaluation · 2 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.33894",
+      "title": "SIA: Selective Image Analogy",
+      "authors": [
+        "Amirhossein Alimohammadi",
+        "Kian Izadpanah",
+        "Bardiya Kariminia",
+        "Yiorgos Chrysanthou",
+        "Ali Mahdavi-Amiri"
+      ],
+      "abstract": "Image analogy transfers a demonstrated transformation from a before/after pair (A, A') to a new query image B. Existing methods assume all changes in (A, A') should be fully transferred, limiting flexibility when users want only a subset of the demonstrated edits. We introduce Selective Image Analogy (SIA), a new setting where a single demonstration pair encodes multiple edits, and the user selects at inference time which edits to apply to B. To support this, we curate a multi-edit analogy dataset with full-edit and partial-edit targets. We then train a model that first learns to transfer the complete demonstrated transformation, and then gains selective control through a mask-aligned suppression mechanism: a token-gated LoRA that restricts adapter updates to suppressed edit tokens during denoising, paired with a concept suppression vector that weakens the selected tokens in the text embeddings before denoising. Together, these components allow SIA to suppress unwanted edits that remain visible in A', while preserving the user-selected ones, all without requiring a new demonstration pair for each edit combination. We perform extensive quantitative and qualitative evaluations along with user studies to demonstrate the efficacy of our approach.",
+      "categories": [],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 2,
+        "comments": 2,
+        "organization": "Simon Fraser University",
+        "githubRepo": "https://github.com/alimohammadiamirhossein/selective-image-analogy"
+      },
+      "url": "https://arxiv.org/abs/2611.33894",
+      "pdfUrl": "https://arxiv.org/pdf/2611.33894",
+      "topics": [
+        "Data"
+      ],
+      "score": 65,
+      "heuristicScore": 8.6,
+      "tier": "notable",
+      "why": "Matches Data · 2 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.34782",
+      "title": "Generation as Reverse Encoding",
+      "authors": [
+        "Cheng Shi",
+        "Sibei Yang",
+        "Hanzhong Guo",
+        "Yipeng Qin",
+        "Pietro Lio",
+        "Yizhou Yu"
+      ],
+      "abstract": "Pretrained visual representations accelerate generative learning by abstracting away appearance and spatial detail. Yet the same abstraction makes the return to pixels far harder, shifting much of the burden onto a larger decoder. We ask why the representation-to-pixel path should be learned independently when the encoder already provides a learned pixel-to-semantics path (the semantic encoding path). We introduce RevFlow, based on the principle of generation as reverse encoding. RevFlow uses intermediate representations of a frozen encoder as successive generative targets, first generating deep semantic representations, then shallow representations that retain appearance and spatial detail, before decoding to pixels. To learn these transitions without training a separate generator for each stage, we develop HyC-DiT, a unified generative model with a standard DiT backbone shared across stages and stage-specific condition injection. We further show that native matching in semantic representation space enables few-step generation. RevFlow accelerates both learning and sampling. On ImageNet 256 times 256, RevFlow reaches 1.96 FID at 690M and 1.74 FID at 1.55B after only 5 training epochs. It also achieves 30.25 dB reconstruction PSNR with an 89M decoder. After a short native-matching adaptation phase, RevFlow-XL achieves 2.85 FID using a single sampling step in each stage. Our code repository is at https://github.com/ChengShiest/RevFlow",
+      "categories": [],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 2,
+        "comments": 2
+      },
+      "url": "https://arxiv.org/abs/2611.34782",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34782",
+      "topics": [],
+      "score": 59,
+      "heuristicScore": 7.8,
+      "tier": "notable",
+      "why": "2 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.30025",
+      "title": "Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning",
+      "authors": [
+        "Byunggu Yu",
+        "Justin Kim"
+      ],
+      "abstract": "Conventional artificial neurons separate spatial feature aggregation from continuous physical time, limiting their ability to model irregular observations. We introduce the Damped Atomic Wave Integration Neuron (DAWIN), a continuous-time primitive for replacing standard neural layers in MLPs, Transformers, and graph neural networks. DAWIN couples spatial projection with elapsed-time-dependent wave excitation and integrates it into a local complex state through closed-form damped evolution, avoiding numerical differential equation solvers. We show that DAWIN generalizes static sinusoidal and memoryless wave neurons on interval-augmented inputs, derive closed-form gradients, and establish bounded-input bounded-output stability for positive damping and sampling intervals bounded away from zero. An associative Triton prefix-scan implementation, DAWINLinear, uses FP32 accumulation and achieves O(log L) parallel depth for sequence length L. Across 11 parameter-matched tasks covering irregular oscillators, MuJoCo dynamics, pedestrian trajectories, and PhysioNet 2012 clinical sequences, DAWIN outperforms Neural CDE on 9 tasks and ReLU-MLP on 8. It achieves the lowest error on dense clinical dynamics (0.9531 NRMSE, winning across all 10 seeds) and ties for the best mortality prediction (0.9993 AUROC). Shuffling elapsed intervals increases error by 58.2%-77.4% on selected dynamics tasks, versus 0.06% on a time-irrelevant control, supporting reliance on physical timing. On NVIDIA B200 GPUs, parallel wave integration accelerates inference by up to 2,630 times over its serial implementation and reduces peak GPU memory by up to 97.6% relative to Mamba in the tested configurations.",
+      "categories": [],
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 1,
+        "comments": 3,
+        "githubRepo": "https://github.com/yumakemore/DAWIN"
+      },
+      "url": "https://arxiv.org/abs/2611.30025",
+      "pdfUrl": "https://arxiv.org/pdf/2611.30025",
+      "topics": [
+        "Language Models"
+      ],
+      "score": 53,
+      "heuristicScore": 7,
+      "tier": "notable",
+      "why": "Matches Language Models · 1 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.31491",
+      "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+      "authors": [
+        "Marcus Gawronsky"
+      ],
+      "abstract": "Spatial arbitrage pricing theory (S-APT) extends factor models to allow returns to spill over between connected firms, beyond what common risk factors explain. In recent years, tabular foundation models (TFMs) have matched or outperformed tuned gradient-boosted and bagged ensembles on small and medium-sized tabular benchmarks. Although their predictive performance is strong, these models reveal little about what they have learned, which limits their use in regulated financial applications that require explanation. Internal representations are widely used to probe what neural networks learn and to measure similarity. In this paper, we use the frozen representations of four TFMs as a measure of financial dissimilarity in a spatial asset-pricing model of US equities from 2011 to 2025, and find that their estimated gains over a direct distance between the same disclosures become consistently positive once broad SEC filing data are included. This reframes tabular foundation models from black-box predictors into instruments for measuring economic structure, with immediate applications to peer selection, risk attribution and network-based asset pricing. More broadly, our findings suggest that the internal representations of foundation models, not only their predictions, deserve study as economic objects, opening a new line of research on what pretrained models know about firms.",
+      "categories": [],
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 1,
+        "comments": 2,
+        "organization": "University of Cape Town",
+        "githubRepo": "https://github.com/marcusinthesky/free-foundations"
+      },
+      "url": "https://arxiv.org/abs/2611.31491",
+      "pdfUrl": "https://arxiv.org/pdf/2611.31491",
+      "topics": [
+        "Evaluation"
+      ],
+      "score": 53,
+      "heuristicScore": 7,
+      "tier": "notable",
+      "why": "Matches Evaluation · 1 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.34939",
+      "title": "A Mesh for Every Moment",
+      "authors": [
+        "Roy Or-El",
+        "Jeong Joon Park",
+        "Ira Kemelmacher-Shlizerman"
+      ],
+      "abstract": "We present MEMO (a Mesh for Every MOment), a method that reconstructs the geometry of complete dynamic scenes, captured by multiple synchronized cameras, and extracts a mesh at every frame. Existing dynamic Gaussian splatting methods either model appearance alone or target isolated objects segmented by foreground masks, and all of them recover meshes by TSDF fusion or Poisson reconstruction, whose fixed grids limit the detail they can capture. At the core of MEMO is a per-Gaussian motion model inspired by Gaussian processes, which represents each Gaussian's position and rotation over time as a combination of temporal Gaussian kernels. The model keeps every Gaussian a valid surface element throughout the sequence and carries an implicit representation of the dynamic geometry, so a mesh can be derived at any time from a field defined by the Gaussians. Although common in real captures, large and fast motion poses a challenge that dynamic Gaussian splatting methods usually overlook. To account for it, we design a track-based initialization scheme that fits each Gaussian's initial trajectory to point tracks in closed form. We evaluate MEMO on Blender-Moments, a new benchmark of nine animated scenes with ground-truth meshes at every frame, and on two real-world datasets. MEMO reconstructs the most accurate geometry among state-of-the-art methods, and remains competitive in novel-view synthesis and training time. Project page: https://memo-4d.github.io",
+      "categories": [],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 1,
+        "comments": 2,
+        "githubRepo": "https://github.com/royorel/MEMO"
+      },
+      "url": "https://arxiv.org/abs/2611.34939",
+      "pdfUrl": "https://arxiv.org/pdf/2611.34939",
+      "topics": [
+        "Evaluation"
+      ],
+      "score": 53,
+      "heuristicScore": 7,
+      "tier": "notable",
+      "why": "Matches Evaluation · 1 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.31155",
+      "title": "So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes",
+      "authors": [
+        "Andrew Igorevich Perminov"
+      ],
+      "abstract": "A publicly available dataset of 62029 rank-23 schemes for 3times3 matrix multiplication is presented. Every scheme in it has its own rank pattern, an invariant formed by the ranks of the factor matrices of a scheme, so all schemes are pairwise inequivalent. The schemes were obtained by a numerical method combining gradient descent with alternating least squares and by flip graph search, and have ternary, integer or rational coefficients. Rank 23 is the best known for this format and is optimal for schemes with integer coefficients, but the number of essentially different schemes of this rank was poorly understood: the existing collections of Heule et al. and Mårtensson et al. contain many schemes that share only a small number of rank patterns (17376 schemes with 387 patterns and 15316 schemes with 568 patterns respectively). The dataset shows that the number of different rank patterns is much larger than previously known.",
+      "categories": [],
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 0,
+        "comments": 2,
+        "githubRepo": "https://github.com/dronperminov/rank23_3x3_dataset"
+      },
+      "url": "https://arxiv.org/abs/2611.31155",
+      "pdfUrl": "https://arxiv.org/pdf/2611.31155",
+      "topics": [
+        "Data"
+      ],
+      "score": 47,
+      "heuristicScore": 6.2,
+      "tier": "notable",
+      "why": "Matches Data · 0 upvotes on Hugging Face."
+    },
+    {
+      "id": "2611.31516",
+      "title": "InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion",
+      "authors": [
+        "Simon Weber",
+        "Mateo de Mayo",
+        "Je Hyeong Hong",
+        "Carl Olsson",
+        "Daniel Cremers",
+        "Ronald Clark"
+      ],
+      "abstract": "Initialization-free bundle adjustment (InitFree BA) aims to jointly recover camera poses and scene structure without requiring an initial global estimate. It is a very challenging problem, especially compared to traditional BA where a good estimation is assumed. While recent methods optimize surrogate Object Space Error (OSE) objectives from random initialization, a low objective value does not necessarily yield an accurate reconstruction, revealing a gap between optimization and reconstruction. We show that existing InitFree BA pipelines struggle to produce accurate 3D reconstructions on modern SfM benchmarks, and demonstrate that incorporating learned metric depth substantially improves their practical feasibility. We introduce InitFree-SfM, a complete initialization-free SfM pipeline combining learned correspondences, metric depth, depth-consistent track construction, and joint metric refinement. Within this framework, we propose a simple depth-augmented OSE (dOSE), which complements the directional constraints of OSE by constraining landmark positions along their viewing rays. Our approach substantially outperforms existing InitFree BA methods and achieves competitive accuracy with established SfM pipelines, including on challenging low-overlap image collections. Importantly, our analysis challenges the prevailing emphasis on surrogate objectives in previous InitFree BA research, revealing that geometric constraints play a central role in accurate reconstruction, while OSE-based optimization provides further improvements.",
+      "categories": [],
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "sources": [
+        "huggingface"
+      ],
+      "hf": {
+        "upvotes": 0,
+        "comments": 2,
+        "organization": "University of Oxford",
+        "githubRepo": "https://github.com/simonwebertum/initfree-sfm"
+      },
+      "url": "https://arxiv.org/abs/2611.31516",
+      "pdfUrl": "https://arxiv.org/pdf/2611.31516",
+      "topics": [
+        "Evaluation"
+      ],
+      "score": 30,
+      "heuristicScore": 4,
+      "tier": "radar",
+      "why": "Matches Evaluation · 0 upvotes on Hugging Face."
+    }
+  ],
+  "dispatches": [
+    {
+      "id": "81d5f7e4acaf",
+      "title": "[AINews] Inside the exploding Coding Data Market",
+      "url": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+      "source": "Latent Space",
+      "kind": "newsletter",
+      "date": "2026-11-28T03:45:59.000Z",
+      "summary": "November 27, 2026 — How frontier labs buy training data."
+    },
+    {
+      "id": "dfb4c570b498",
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+      "source": "Latent Space",
+      "kind": "newsletter",
+      "date": "2026-11-27T22:19:18.000Z",
+      "summary": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger..."
+    }
+  ],
+  "topics": [
+    {
+      "name": "Evaluation",
+      "count": 9
+    },
+    {
+      "name": "Multimodal & Vision",
+      "count": 7
+    },
+    {
+      "name": "Language Models",
+      "count": 5
+    },
+    {
+      "name": "Reinforcement Learning",
+      "count": 4
+    },
+    {
+      "name": "Data",
+      "count": 4
+    },
+    {
+      "name": "Agents",
+      "count": 3
+    },
+    {
+      "name": "Alignment & Safety",
+      "count": 2
+    },
+    {
+      "name": "Efficiency",
+      "count": 2
+    },
+    {
+      "name": "Reasoning",
+      "count": 1
+    },
+    {
+      "name": "Interpretability",
+      "count": 1
+    },
+    {
+      "name": "Theory",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "screened": 82,
+    "matched": 23,
+    "alreadyFeatured": 59,
+    "published": 23
+  }
+}
